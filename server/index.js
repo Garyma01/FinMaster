@@ -1,6 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
-import mongoose from "mongoose";
+import mongoose from "mongoose";  // Commented out
 import cors from "cors";
 import dotenv from "dotenv";
 import helmet from "helmet";
@@ -29,8 +29,10 @@ app.use("/kpi", kpiRoutes);
 app.use("/product", productRoutes);
 app.use("/transaction", transactionRoutes);
 
-/* MONGOOSE SETUP */
+/* MONGOOSE SETUP - Commented out */
 const PORT = process.env.PORT || 9000;
+console.log("MongoDB URI:", process.env.MONGO_URL);
+
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
@@ -40,9 +42,23 @@ mongoose
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
 
     /* ADD DATA ONE TIME ONLY OR AS NEEDED */
-    // await mongoose.connection.db.dropDatabase();
-    // KPI.insertMany(kpis);
-    // Product.insertMany(products);
-    // Transaction.insertMany(transactions);
+    console.log("Inserting data into database...");
+    await mongoose.connection.db.dropDatabase();
+    KPI.insertMany(kpis);
+    Product.insertMany(products);
+    Transaction.insertMany(transactions);
+    console.log("Data inserted successfully!");
   })
   .catch((error) => console.log(`${error} did not connect`));
+
+
+  
+/* BASIC SERVER TEST */
+// const PORT = process.env.PORT || 9000;
+// app.get("/", (req, res) => {
+//   res.send("Server is running without MongoDB!");
+// });
+
+// app.listen(PORT, () => {
+//   console.log(`Server is running on port: ${PORT}`);
+// });

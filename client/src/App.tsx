@@ -7,6 +7,8 @@ import { themeSettings } from "./theme";
 import Navbar from "@/scenes/navbar";
 import Dashboard from "@/scenes/dashboard";
 import Predictions from "@/scenes/predictions";
+// import { createTheme, ThemeProvider } from "@mui/material/styles";
+
 
 function App() {
   const theme = useMemo(() => createTheme(themeSettings), []);
@@ -28,4 +30,9 @@ function App() {
   );
 }
 
+// export default App;
+
 export default App;
+
+
+

@@ -21,6 +21,13 @@ const Predictions = () => {
   const [isPredictions, setIsPredictions] = useState(false);
   const { data: kpiData } = useGetKpisQuery();
 
+  try {
+    console.log("KPIs Data:", kpiData);
+    console.log("Base URL:", import.meta.env.VITE_BASE_URL);
+  } catch {
+    console.log("error");
+  }
+
   const formattedData = useMemo(() => {
     if (!kpiData) return [];
     const monthData = kpiData[0].monthlyData;
