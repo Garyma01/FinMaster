@@ -156,7 +156,7 @@ const Row3 = () => {
         </Box>
       </DashboardBox>
       <DashboardBox gridArea="i">
-        <BoxHeader title="Expense Breakdown By Category" sideText="+4%" />
+        <BoxHeader title="Expense Breakdown By Category"  />
         <FlexBetween mt="0.5rem" gap="0.5rem" p="0 1rem" textAlign="center">
           {pieChartData?.map((data, i) => (
             <Box key={`${data[0].name}-${i}`}>
@@ -182,7 +182,7 @@ const Row3 = () => {
       <DashboardBox gridArea="j">
         <BoxHeader
           title="Overall Summary and Explanation Data"
-          sideText="+15%"
+          
         />
         <Box
           height="15px"
