@@ -266,7 +266,7 @@ const Row2 = () => {
 
   return (
     <>
-      <DashboardBox gridArea="d">
+      {/* <DashboardBox gridArea="d">
         <BoxHeader title="Operational vs Non-Operational Expenses" />
         <ResponsiveContainer width="100%" height="100%">
           <LineChart
@@ -294,10 +294,10 @@ const Row2 = () => {
             <Line yAxisId="right" type="monotone" dataKey="Operational Expenses" stroke={palette.primary.main} />
           </LineChart>
         </ResponsiveContainer>
-      </DashboardBox>
-
-      <DashboardBox gridArea="e">
-        <BoxHeader title="Campaigns and Targets" />
+      </DashboardBox> */}
+ 
+       {/* <DashboardBox gridArea="e">
+         <BoxHeader title="Campaigns and Targets" />
         <FlexBetween mt="0.25rem" gap="1.5rem" pr="1rem">
           <PieChart width={110} height={100} margin={{ top: 0, right: -10, left: 10, bottom: 0 }}>
             <Pie
@@ -312,7 +312,7 @@ const Row2 = () => {
                 <Cell key={`cell-${index}`} fill={pieColors[index]} />
               ))}
             </Pie>
-          </PieChart>
+          </PieChart>  
           <Box ml="-0.7rem" flexBasis="40%" textAlign="center">
             <Typography variant="h5">Target Sales</Typography>
             <Typography m="0.3rem 0" variant="h3" color={palette.primary[300]}>
@@ -326,8 +326,8 @@ const Row2 = () => {
             <Typography mt="0.4rem" variant="h5">Profit Margins</Typography>
             <Typography variant="h6">Margins are up by 30% from last month.</Typography>
           </Box>
-        </FlexBetween>
-      </DashboardBox>
+        </FlexBetween> 
+       </DashboardBox>  */}
 
       <DashboardBox gridArea="f">
         <BoxHeader title="Product Prices vs Expenses" />
@@ -357,7 +357,7 @@ const Row2 = () => {
             <Scatter name="Product Expense Ratio" data={productExpenseData} fill={palette.tertiary[500]} />
           </ScatterChart>
         </ResponsiveContainer>
-      </DashboardBox>
+      </DashboardBox> 
     </>
   );
 };

@@ -45,6 +45,12 @@ const Row3 = () => {
       headerName: "id",
       flex: 1,
     },
+    // {
+    //   field: "product_name",
+    //   headerName: "Product name",
+    //   flex:1.5,
+
+    // },
     {
       field: "expense",
       headerName: "Expense",
@@ -76,6 +82,7 @@ const Row3 = () => {
       flex: 0.35,
       renderCell: (params: GridCellParams) => `$${params.value}`,
     },
+   
     {
       field: "productIds",
       headerName: "Count",
@@ -102,10 +109,10 @@ const Row3 = () => {
               border: "none",
             },
             "& .MuiDataGrid-cell": {
-              borderBottom: `1px solid ${palette.grey[800]} !important`,
+              borderBottom: `1px solid ${palette.grey[300]} !important`,
             },
             "& .MuiDataGrid-columnHeaders": {
-              borderBottom: `1px solid ${palette.grey[800]} !important`,
+              borderBottom: `1px solid ${palette.grey[300]} !important`,
             },
             "& .MuiDataGrid-columnSeparator": {
               visibility: "hidden",
