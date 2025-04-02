@@ -364,7 +364,7 @@ const Row1 = () => {
       <DashboardBox gridArea="c">
         <BoxHeader title="Revenue Month by Month" subtitle="Graph representing the revenue month by month" />
         <ResponsiveContainer width="100%" height="100%">
-          <BarChart width={500} height={300} data={revenue} margin={{ top: 17, right: 15, left: -5, bottom: 58 }}>
+          <BarChart width={700} height={500} data={revenue} margin={{ top: 17, right: 15, left: -5, bottom: 58 }}>
             <defs>
               <linearGradient id="colorRevenue" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="5%" stopColor={palette.primary[300]} stopOpacity={0.8} />
