@@ -1,5 +1,7 @@
 import express from "express";
 import Transaction from "../models/Transaction.js";
+// import { Transaction } from "../models/Transaction.js"; // ✅ Correct import
+
 
 const router = express.Router();
 
