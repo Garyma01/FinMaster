@@ -21,9 +21,14 @@ const Row1 = () => {
 
   const productColumns = [
     {
-      field: "_id",
+      field: "id",
       headerName: "id",
       flex: 1,
+    },
+    {
+      field: "product_name",
+      headerName: "Product name",
+      flex: 2,
     },
     {
       field: "expense",
@@ -41,9 +46,9 @@ const Row1 = () => {
 
   const transactionColumns = [
     {
-      field: "_id",
+      field: "id",
       headerName: "id",
-      flex: 1,
+      flex: 0.5,
     },
     {
       field: "buyer",

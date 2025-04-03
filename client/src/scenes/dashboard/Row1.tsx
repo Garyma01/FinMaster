@@ -172,6 +172,7 @@ const Row1 = () => {
               type="monotone"
               dataKey="profit"
               stroke="#22c55e"
+              
               strokeWidth={2}
             />
             <Line
@@ -179,8 +180,12 @@ const Row1 = () => {
               type="monotone"
               dataKey="revenue"
                stroke="#f97316"
+               
+               
               strokeWidth={2}
             />
+  
+
           </LineChart>
         </ResponsiveContainer>
       </DashboardBox>

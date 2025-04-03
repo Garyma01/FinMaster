@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import PixIcon from "@mui/icons-material/Pix";
-import { Box, Typography, useTheme } from "@mui/material";
+// import { Box, Typography, useTheme } from "@mui/material";
+import { Box, Typography, useTheme, Button } from "@mui/material"; 
 import FlexBetween from "@/components/FlexBetween";
 
 type Props = {};
@@ -9,6 +10,33 @@ type Props = {};
 const Navbar = (props: Props) => {
   const { palette } = useTheme();
   const [selected, setSelected] = useState("dashboard");
+  
+   // Handle File Upload
+   const handleFileUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    const formData = new FormData();
+    formData.append("file", file);
+
+    try {
+      const response = await fetch("http://localhost:9000/upload", {
+        method: "POST",
+        body: formData,
+      });
+
+      const result = await response.json();
+      if (response.ok) {
+        alert("CSV uploaded successfully!");
+      } else {
+        alert(`Upload failed: ${result.message}`);
+      }
+    } catch (error) {
+      console.error("Error uploading file:", error);
+      alert("Upload failed. Please try again.");
+    }
+  };
+  
   return (
     <FlexBetween mb="0.25rem" p="0.5rem 0rem" color={palette.grey[100]}>
       {/* LEFT SIDE */}
@@ -56,6 +84,21 @@ const Navbar = (props: Props) => {
           >
             predictions
           </Link>
+        </Box>
+
+        <Box>
+          <input
+            type="file"
+            accept=".csv"
+            onChange={handleFileUpload}
+            style={{ display: "none" }}
+            id="csv-upload"
+          />
+          <label htmlFor="csv-upload">
+            <Button variant="contained" component="span" sx={{ backgroundColor: palette.primary[500] }}>
+              Upload CSV
+            </Button>
+          </label>
         </Box>
       </FlexBetween>
     </FlexBetween>
