@@ -7,6 +7,7 @@ import { themeSettings } from "./theme";
 import Navbar from "@/scenes/navbar";
 import Dashboard from "@/scenes/dashboard";
 import Predictions from "@/scenes/predictions";
+import Products from "@/scenes/products";
 // import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 
@@ -21,6 +22,7 @@ function App() {
             <Navbar />
             <Routes>
               <Route path="/" element={<Dashboard />} />
+              <Route path="/products" element={<Products />} />
               <Route path="/predictions" element={<Predictions />} />
             </Routes>
           </Box>

@@ -39,17 +39,46 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(async () => {
-    app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
-
-    /* ADD DATA ONE TIME ONLY OR AS NEEDED */
-    console.log("Inserting data into database...");
-    await mongoose.connection.db.dropDatabase();
-    KPI.insertMany(kpis);
-    Product.insertMany(products);
-    Transaction.insertMany(transactions);
-    console.log("Data inserted successfully!");
-  })
-  .catch((error) => console.log(`${error} did not connect`));
+    app.listen(PORT, () => console.log(`Server running on port: ${PORT}`));
+    
+        /* ADD DATA ONE TIME ONLY */
+        console.log("Resetting and inserting data into database...");
+        await mongoose.connection.db.dropDatabase();
+    
+        await KPI.insertMany(
+          kpis.map((kpi) => ({
+            ...kpi,
+            _id: new mongoose.Types.ObjectId(), // Ensure a new ObjectId is assigned
+          }))
+        );
+    
+        const insertedProducts = await Product.insertMany(
+          products.map((product) => ({
+            ...product,
+            _id: new mongoose.Types.ObjectId(),
+            transactions: product.transactions.map((txnId) => 
+              mongoose.Types.ObjectId.isValid(txnId) ? new mongoose.Types.ObjectId(txnId) : null
+            ).filter(Boolean), // Remove null values if transaction IDs are invalid
+          }))
+        );
+        console.log("🚀 Transactions being inserted:");
+        transactions.forEach((txn, index) => {
+          console.log(`Transaction ${index + 1}:`, txn);
+        });
+        await Transaction.insertMany(
+          transactions.map((txn) => ({
+            ...txn,
+            _id: new mongoose.Types.ObjectId(),
+            buyer: txn.buyer_name,
+            amount: Math.round(parseFloat(txn.amount) * 100), // Convert to currency format
+            productIds: txn.productIds.map((id) => 
+              mongoose.Types.ObjectId.isValid(id) ? new mongoose.Types.ObjectId(id) : null
+            ).filter(Boolean), // Remove invalid productIds
+          }))
+        );
+        console.log("Data inserted successfully!");
+      })
+.catch((error) => console.log(`Database connection failed: ${error}`));
 
 
   

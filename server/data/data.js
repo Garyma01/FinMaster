@@ -1,4018 +1,28217 @@
 export const kpis = [
-  {
-    _id: "63bf8239f03239e002001612",
-    totalProfit: "$212000.00",
-    totalRevenue: "$283000.00",
-    totalExpenses: "$71000.00",
-    monthlyData: [
-      {
-        month: "january",
-        revenue: "$15989.64",
-        expenses: "$14231.73",
-        operationalExpenses: "$10340.03",
-        nonOperationalExpenses: "$4891.70",
-      },
-      {
-        month: "february",
-        revenue: "$15832.77",
-        expenses: "$11677.84",
-        operationalExpenses: "$7006.69",
-        nonOperationalExpenses: "$8661.15",
-      },
-      {
-        month: "march",
-        revenue: "$16481.27",
-        expenses: "$14664.03",
-        operationalExpenses: "$8797.42",
-        nonOperationalExpenses: "$7866.61",
-      },
-      {
-        month: "april",
-        revenue: "$18229.38",
-        expenses: "$12336.52",
-        operationalExpenses: "$7401.91",
-        nonOperationalExpenses: "$2934.61",
-      },
-      {
-        month: "may",
-        revenue: "$17401.79",
-        expenses: "$11160.61",
-        operationalExpenses: "$4296.37",
-        nonOperationalExpenses: "$4864.24",
-      },
-      {
-        month: "june",
-        revenue: "$18274.03",
-        expenses: "$12311.61",
-        operationalExpenses: "$7386.96",
-        nonOperationalExpenses: "$9924.65",
-      },
-      {
-        month: "july",
-        revenue: "$19349.98",
-        expenses: "$15431.81",
-        operationalExpenses: "$9258.09",
-        nonOperationalExpenses: "$7173.72",
-      },
-      {
-        month: "august",
-        revenue: "$16647.29",
-        expenses: "$13213.71",
-        operationalExpenses: "$3127.82",
-        nonOperationalExpenses: "$5085.89",
-      },
-      {
-        month: "september",
-        revenue: "$19344.07",
-        expenses: "$17405.92",
-        operationalExpenses: "$10443.55",
-        nonOperationalExpenses: "$4962.37",
-      },
-      {
-        month: "october",
-        revenue: "$21160.22",
-        expenses: "$12990.58",
-        operationalExpenses: "$3594.35",
-        nonOperationalExpenses: "$9396.23",
-      },
-      {
-        month: "november",
-        revenue: "$22655.03",
-        expenses: "$17140.80",
-        operationalExpenses: "$10284.48",
-        nonOperationalExpenses: "$3856.32",
-      },
-      {
-        month: "december",
-        revenue: "$17757.75",
-        expenses: "$15266.97",
-        operationalExpenses: "$9160.18",
-        nonOperationalExpenses: "$4106.79",
-      },
-    ],
-    dailyData: [
-      { date: "2022-01-02", revenue: "$1498.94", expenses: "$430.64" },
-      { date: "2022-01-03", revenue: "$935.08", expenses: "$329.32" },
-      { date: "2022-01-04", revenue: "$1350.96", expenses: "$562.49" },
-      { date: "2022-01-05", revenue: "$1244.33", expenses: "$679.32" },
-      { date: "2022-01-06", revenue: "$1132.99", expenses: "$439.80" },
-      { date: "2022-01-07", revenue: "$1158.31", expenses: "$336.12" },
-      { date: "2022-01-08", revenue: "$1184.66", expenses: "$516.10" },
-      { date: "2022-01-09", revenue: "$637.32", expenses: "$635.06" },
-      { date: "2022-01-10", revenue: "$1315.21", expenses: "$560.12" },
-      { date: "2022-01-11", revenue: "$1093.06", expenses: "$540.05" },
-      { date: "2022-01-12", revenue: "$1477.77", expenses: "$487.16" },
-      { date: "2022-01-13", revenue: "$1076.09", expenses: "$616.29" },
-      { date: "2022-01-14", revenue: "$1130.96", expenses: "$392.17" },
-      { date: "2022-01-15", revenue: "$846.42", expenses: "$548.38" },
-      { date: "2022-01-16", revenue: "$1182.35", expenses: "$366.72" },
-      { date: "2022-01-17", revenue: "$1046.61", expenses: "$481.56" },
-      { date: "2022-01-18", revenue: "$601.65", expenses: "$452.75" },
-      { date: "2022-01-19", revenue: "$798.33", expenses: "$351.23" },
-      { date: "2022-01-20", revenue: "$1499.37", expenses: "$340.85" },
-      { date: "2022-01-21", revenue: "$1462.26", expenses: "$630.31" },
-      { date: "2022-01-22", revenue: "$1447.38", expenses: "$476.59" },
-      { date: "2022-01-23", revenue: "$1194.96", expenses: "$482.85" },
-      { date: "2022-01-24", revenue: "$713.11", expenses: "$754.33" },
-      { date: "2022-01-25", revenue: "$1084.48", expenses: "$547.37" },
-      { date: "2022-01-26", revenue: "$819.53", expenses: "$653.59" },
-      { date: "2022-01-27", revenue: "$1306.61", expenses: "$636.87" },
-      { date: "2022-01-28", revenue: "$1029.78", expenses: "$719.46" },
-      { date: "2022-01-29", revenue: "$1415.18", expenses: "$387.49" },
-      { date: "2022-01-30", revenue: "$845.38", expenses: "$533.93" },
-      { date: "2022-01-31", revenue: "$764.69", expenses: "$762.35" },
-      { date: "2022-02-01", revenue: "$616.49", expenses: "$658.92" },
-      { date: "2022-02-02", revenue: "$677.71", expenses: "$754.69" },
-      { date: "2022-02-03", revenue: "$576.99", expenses: "$395.43" },
-      { date: "2022-02-04", revenue: "$713.58", expenses: "$733.27" },
-      { date: "2022-02-05", revenue: "$714.18", expenses: "$336.24" },
-      { date: "2022-02-06", revenue: "$807.64", expenses: "$534.49" },
-      { date: "2022-02-07", revenue: "$824.40", expenses: "$743.82" },
-      { date: "2022-02-08", revenue: "$975.30", expenses: "$307.51" },
-      { date: "2022-02-09", revenue: "$1098.58", expenses: "$615.31" },
-      { date: "2022-02-10", revenue: "$1119.34", expenses: "$677.04" },
-      { date: "2022-02-11", revenue: "$1232.39", expenses: "$664.69" },
-      { date: "2022-02-12", revenue: "$1405.21", expenses: "$422.57" },
-      { date: "2022-02-13", revenue: "$1343.47", expenses: "$350.77" },
-      { date: "2022-02-14", revenue: "$1495.81", expenses: "$301.39" },
-      { date: "2022-02-15", revenue: "$1131.97", expenses: "$597.06" },
-      { date: "2022-02-16", revenue: "$1174.17", expenses: "$685.08" },
-      { date: "2022-02-17", revenue: "$702.38", expenses: "$671.23" },
-      { date: "2022-02-18", revenue: "$1440.95", expenses: "$539.55" },
-      { date: "2022-02-19", revenue: "$1272.87", expenses: "$703.02" },
-      { date: "2022-02-20", revenue: "$530.16", expenses: "$305.75" },
-      { date: "2022-02-21", revenue: "$552.26", expenses: "$556.19" },
-      { date: "2022-02-22", revenue: "$1456.57", expenses: "$675.05" },
-      { date: "2022-02-23", revenue: "$512.04", expenses: "$576.37" },
-      { date: "2022-02-24", revenue: "$886.31", expenses: "$410.14" },
-      { date: "2022-02-25", revenue: "$1254.55", expenses: "$321.41" },
-      { date: "2022-02-26", revenue: "$1123.03", expenses: "$480.50" },
-      { date: "2022-02-27", revenue: "$671.45", expenses: "$494.61" },
-      { date: "2022-02-28", revenue: "$1373.22", expenses: "$312.67" },
-      { date: "2022-03-01", revenue: "$896.75", expenses: "$696.92" },
-      { date: "2022-03-02", revenue: "$721.53", expenses: "$505.34" },
-      { date: "2022-03-03", revenue: "$560.48", expenses: "$541.09" },
-      { date: "2022-03-04", revenue: "$1065.40", expenses: "$733.90" },
-      { date: "2022-03-05", revenue: "$692.26", expenses: "$462.62" },
-      { date: "2022-03-06", revenue: "$832.86", expenses: "$642.28" },
-      { date: "2022-03-07", revenue: "$709.00", expenses: "$742.25" },
-      { date: "2022-03-08", revenue: "$1442.66", expenses: "$596.24" },
-      { date: "2022-03-09", revenue: "$542.74", expenses: "$655.54" },
-      { date: "2022-03-10", revenue: "$526.11", expenses: "$530.28" },
-      { date: "2022-03-11", revenue: "$658.47", expenses: "$352.21" },
-      { date: "2022-03-12", revenue: "$996.34", expenses: "$749.20" },
-      { date: "2022-03-13", revenue: "$770.93", expenses: "$516.91" },
-      { date: "2022-03-14", revenue: "$617.37", expenses: "$758.07" },
-      { date: "2022-03-15", revenue: "$786.48", expenses: "$451.41" },
-      { date: "2022-03-16", revenue: "$540.91", expenses: "$756.89" },
-      { date: "2022-03-17", revenue: "$919.24", expenses: "$701.41" },
-      { date: "2022-03-18", revenue: "$909.23", expenses: "$638.37" },
-      { date: "2022-03-19", revenue: "$546.92", expenses: "$465.94" },
-      { date: "2022-03-20", revenue: "$1233.13", expenses: "$441.79" },
-      { date: "2022-03-21", revenue: "$1494.34", expenses: "$333.61" },
-      { date: "2022-03-22", revenue: "$610.14", expenses: "$565.13" },
-      { date: "2022-03-23", revenue: "$1044.45", expenses: "$704.07" },
-      { date: "2022-03-24", revenue: "$790.03", expenses: "$393.17" },
-      { date: "2022-03-25", revenue: "$915.05", expenses: "$709.24" },
-      { date: "2022-03-26", revenue: "$620.99", expenses: "$309.02" },
-      { date: "2022-03-27", revenue: "$1404.61", expenses: "$649.14" },
-      { date: "2022-03-28", revenue: "$727.52", expenses: "$580.27" },
-      { date: "2022-03-29", revenue: "$618.69", expenses: "$503.99" },
-      { date: "2022-03-30", revenue: "$806.00", expenses: "$545.37" },
-      { date: "2022-03-31", revenue: "$629.04", expenses: "$449.41" },
-      { date: "2022-04-01", revenue: "$1197.71", expenses: "$524.89" },
-      { date: "2022-04-02", revenue: "$1347.49", expenses: "$779.95" },
-      { date: "2022-04-03", revenue: "$845.73", expenses: "$373.66" },
-      { date: "2022-04-04", revenue: "$701.97", expenses: "$424.72" },
-      { date: "2022-04-05", revenue: "$699.12", expenses: "$652.28" },
-      { date: "2022-04-06", revenue: "$1487.15", expenses: "$527.12" },
-      { date: "2022-04-07", revenue: "$770.93", expenses: "$455.04" },
-      { date: "2022-04-08", revenue: "$823.81", expenses: "$686.44" },
-      { date: "2022-04-09", revenue: "$1190.89", expenses: "$501.52" },
-      { date: "2022-04-10", revenue: "$667.10", expenses: "$792.51" },
-      { date: "2022-04-11", revenue: "$712.50", expenses: "$325.40" },
-      { date: "2022-04-12", revenue: "$1113.94", expenses: "$610.37" },
-      { date: "2022-04-13", revenue: "$755.04", expenses: "$413.31" },
-      { date: "2022-04-14", revenue: "$903.46", expenses: "$592.64" },
-      { date: "2022-04-15", revenue: "$668.47", expenses: "$439.13" },
-      { date: "2022-04-16", revenue: "$1053.55", expenses: "$723.14" },
-      { date: "2022-04-17", revenue: "$574.82", expenses: "$627.62" },
-      { date: "2022-04-18", revenue: "$732.19", expenses: "$545.84" },
-      { date: "2022-04-19", revenue: "$1214.28", expenses: "$585.94" },
-      { date: "2022-04-20", revenue: "$844.63", expenses: "$668.86" },
-      { date: "2022-04-21", revenue: "$545.95", expenses: "$450.46" },
-      { date: "2022-04-22", revenue: "$925.01", expenses: "$588.16" },
-      { date: "2022-04-23", revenue: "$840.44", expenses: "$324.07" },
-      { date: "2022-04-24", revenue: "$799.81", expenses: "$320.28" },
-      { date: "2022-04-25", revenue: "$1108.47", expenses: "$330.84" },
-      { date: "2022-04-26", revenue: "$572.72", expenses: "$605.23" },
-      { date: "2022-04-27", revenue: "$1416.82", expenses: "$746.86" },
-      { date: "2022-04-28", revenue: "$1344.54", expenses: "$448.10" },
-      { date: "2022-04-29", revenue: "$957.31", expenses: "$653.00" },
-      { date: "2022-04-30", revenue: "$1042.75", expenses: "$686.48" },
-      { date: "2022-05-01", revenue: "$614.52", expenses: "$399.34" },
-      { date: "2022-05-02", revenue: "$968.08", expenses: "$490.92" },
-      { date: "2022-05-03", revenue: "$818.17", expenses: "$666.67" },
-      { date: "2022-05-04", revenue: "$787.90", expenses: "$641.50" },
-      { date: "2022-05-05", revenue: "$887.20", expenses: "$456.85" },
-      { date: "2022-05-06", revenue: "$926.64", expenses: "$595.10" },
-      { date: "2022-05-07", revenue: "$667.62", expenses: "$652.33" },
-      { date: "2022-05-08", revenue: "$1450.41", expenses: "$660.60" },
-      { date: "2022-05-09", revenue: "$1009.90", expenses: "$479.36" },
-      { date: "2022-05-10", revenue: "$547.53", expenses: "$554.87" },
-      { date: "2022-05-11", revenue: "$579.74", expenses: "$432.36" },
-      { date: "2022-05-12", revenue: "$597.11", expenses: "$411.56" },
-      { date: "2022-05-13", revenue: "$1300.97", expenses: "$654.18" },
-      { date: "2022-05-14", revenue: "$1042.83", expenses: "$715.01" },
-      { date: "2022-05-15", revenue: "$1345.61", expenses: "$334.37" },
-      { date: "2022-05-16", revenue: "$768.61", expenses: "$425.22" },
-      { date: "2022-05-17", revenue: "$1175.15", expenses: "$729.16" },
-      { date: "2022-05-18", revenue: "$767.39", expenses: "$779.83" },
-      { date: "2022-05-19", revenue: "$969.34", expenses: "$341.02" },
-      { date: "2022-05-20", revenue: "$993.34", expenses: "$530.27" },
-      { date: "2022-05-21", revenue: "$968.98", expenses: "$597.76" },
-      { date: "2022-05-22", revenue: "$628.01", expenses: "$574.00" },
-      { date: "2022-05-23", revenue: "$842.68", expenses: "$402.90" },
-      { date: "2022-05-24", revenue: "$986.72", expenses: "$365.50" },
-      { date: "2022-05-25", revenue: "$1321.66", expenses: "$536.73" },
-      { date: "2022-05-26", revenue: "$806.21", expenses: "$499.02" },
-      { date: "2022-05-27", revenue: "$886.34", expenses: "$776.51" },
-      { date: "2022-05-28", revenue: "$663.62", expenses: "$718.90" },
-      { date: "2022-05-29", revenue: "$546.73", expenses: "$729.32" },
-      { date: "2022-05-30", revenue: "$1284.65", expenses: "$355.50" },
-      { date: "2022-05-31", revenue: "$1422.81", expenses: "$776.55" },
-      { date: "2022-06-01", revenue: "$678.50", expenses: "$767.03" },
-      { date: "2022-06-02", revenue: "$867.65", expenses: "$581.76" },
-      { date: "2022-06-03", revenue: "$674.84", expenses: "$666.78" },
-      { date: "2022-06-04", revenue: "$595.25", expenses: "$354.79" },
-      { date: "2022-06-05", revenue: "$1262.15", expenses: "$588.65" },
-      { date: "2022-06-06", revenue: "$1286.75", expenses: "$403.69" },
-      { date: "2022-06-07", revenue: "$731.00", expenses: "$532.55" },
-      { date: "2022-06-08", revenue: "$1096.82", expenses: "$328.76" },
-      { date: "2022-06-09", revenue: "$1113.24", expenses: "$749.16" },
-      { date: "2022-06-10", revenue: "$1479.08", expenses: "$417.01" },
-      { date: "2022-06-11", revenue: "$1023.70", expenses: "$326.53" },
-      { date: "2022-06-12", revenue: "$953.94", expenses: "$426.52" },
-      { date: "2022-06-13", revenue: "$1154.32", expenses: "$565.70" },
-      { date: "2022-06-14", revenue: "$1431.49", expenses: "$398.88" },
-      { date: "2022-06-15", revenue: "$1206.06", expenses: "$442.20" },
-      { date: "2022-06-16", revenue: "$1441.07", expenses: "$730.36" },
-      { date: "2022-06-17", revenue: "$664.42", expenses: "$583.27" },
-      { date: "2022-06-18", revenue: "$569.78", expenses: "$556.95" },
-      { date: "2022-06-19", revenue: "$619.93", expenses: "$519.31" },
-      { date: "2022-06-20", revenue: "$1232.45", expenses: "$410.94" },
-      { date: "2022-06-21", revenue: "$1429.32", expenses: "$348.96" },
-      { date: "2022-06-22", revenue: "$1304.03", expenses: "$597.34" },
-      { date: "2022-06-23", revenue: "$1089.02", expenses: "$576.66" },
-      { date: "2022-06-24", revenue: "$740.89", expenses: "$616.74" },
-      { date: "2022-06-25", revenue: "$1066.17", expenses: "$656.03" },
-      { date: "2022-06-26", revenue: "$1385.65", expenses: "$719.00" },
-      { date: "2022-06-27", revenue: "$1498.16", expenses: "$571.97" },
-      { date: "2022-06-28", revenue: "$579.61", expenses: "$410.93" },
-      { date: "2022-06-29", revenue: "$624.32", expenses: "$526.26" },
-      { date: "2022-06-30", revenue: "$798.71", expenses: "$736.02" },
-      { date: "2022-07-01", revenue: "$977.14", expenses: "$660.07" },
-      { date: "2022-07-02", revenue: "$1257.50", expenses: "$682.12" },
-      { date: "2022-07-03", revenue: "$598.53", expenses: "$421.27" },
-      { date: "2022-07-04", revenue: "$1178.54", expenses: "$750.49" },
-      { date: "2022-07-05", revenue: "$652.35", expenses: "$613.77" },
-      { date: "2022-07-06", revenue: "$926.22", expenses: "$693.88" },
-      { date: "2022-07-07", revenue: "$1303.57", expenses: "$683.27" },
-      { date: "2022-07-08", revenue: "$538.83", expenses: "$703.28" },
-      { date: "2022-07-09", revenue: "$805.46", expenses: "$511.35" },
-      { date: "2022-07-10", revenue: "$614.23", expenses: "$607.68" },
-      { date: "2022-07-11", revenue: "$986.25", expenses: "$590.38" },
-      { date: "2022-07-12", revenue: "$1035.61", expenses: "$496.20" },
-      { date: "2022-07-13", revenue: "$510.87", expenses: "$310.95" },
-      { date: "2022-07-14", revenue: "$1375.38", expenses: "$766.17" },
-      { date: "2022-07-15", revenue: "$1298.54", expenses: "$726.07" },
-      { date: "2022-07-16", revenue: "$858.92", expenses: "$302.26" },
-      { date: "2022-07-17", revenue: "$520.66", expenses: "$611.26" },
-      { date: "2022-07-18", revenue: "$794.83", expenses: "$307.78" },
-      { date: "2022-07-19", revenue: "$1328.66", expenses: "$439.09" },
-      { date: "2022-07-20", revenue: "$1314.81", expenses: "$350.62" },
-      { date: "2022-07-21", revenue: "$1281.19", expenses: "$343.02" },
-      { date: "2022-07-22", revenue: "$569.59", expenses: "$689.64" },
-      { date: "2022-07-23", revenue: "$951.97", expenses: "$638.80" },
-      { date: "2022-07-24", revenue: "$1323.68", expenses: "$454.90" },
-      { date: "2022-07-25", revenue: "$852.04", expenses: "$645.14" },
-      { date: "2022-07-26", revenue: "$1323.45", expenses: "$763.45" },
-      { date: "2022-07-27", revenue: "$1091.68", expenses: "$576.46" },
-      { date: "2022-07-28", revenue: "$805.31", expenses: "$534.42" },
-      { date: "2022-07-29", revenue: "$858.09", expenses: "$547.69" },
-      { date: "2022-07-30", revenue: "$720.94", expenses: "$308.57" },
-      { date: "2022-07-31", revenue: "$854.13", expenses: "$340.54" },
-      { date: "2022-08-01", revenue: "$775.98", expenses: "$493.31" },
-      { date: "2022-08-02", revenue: "$1194.06", expenses: "$327.15" },
-      { date: "2022-08-03", revenue: "$1463.58", expenses: "$560.15" },
-      { date: "2022-08-04", revenue: "$846.65", expenses: "$586.21" },
-      { date: "2022-08-05", revenue: "$1347.22", expenses: "$664.95" },
-      { date: "2022-08-06", revenue: "$643.63", expenses: "$718.49" },
-      { date: "2022-08-07", revenue: "$582.72", expenses: "$339.96" },
-      { date: "2022-08-08", revenue: "$1360.65", expenses: "$683.15" },
-      { date: "2022-08-09", revenue: "$1284.11", expenses: "$343.74" },
-      { date: "2022-08-10", revenue: "$1103.50", expenses: "$614.88" },
-      { date: "2022-08-11", revenue: "$528.48", expenses: "$762.16" },
-      { date: "2022-08-12", revenue: "$979.69", expenses: "$468.36" },
-      { date: "2022-08-13", revenue: "$1457.87", expenses: "$390.97" },
-      { date: "2022-08-14", revenue: "$1397.29", expenses: "$761.24" },
-      { date: "2022-08-15", revenue: "$802.38", expenses: "$680.88" },
-      { date: "2022-08-16", revenue: "$916.44", expenses: "$563.35" },
-      { date: "2022-08-17", revenue: "$525.83", expenses: "$622.37" },
-      { date: "2022-08-18", revenue: "$1043.48", expenses: "$757.84" },
-      { date: "2022-08-19", revenue: "$689.54", expenses: "$593.78" },
-      { date: "2022-08-20", revenue: "$1306.55", expenses: "$397.12" },
-      { date: "2022-08-21", revenue: "$1414.61", expenses: "$380.05" },
-      { date: "2022-08-22", revenue: "$636.09", expenses: "$426.99" },
-      { date: "2022-08-23", revenue: "$1128.52", expenses: "$341.34" },
-      { date: "2022-08-24", revenue: "$794.05", expenses: "$432.00" },
-      { date: "2022-08-25", revenue: "$936.38", expenses: "$416.62" },
-      { date: "2022-08-26", revenue: "$1159.46", expenses: "$709.27" },
-      { date: "2022-08-27", revenue: "$1457.79", expenses: "$498.26" },
-      { date: "2022-08-28", revenue: "$1376.86", expenses: "$581.87" },
-      { date: "2022-08-29", revenue: "$830.11", expenses: "$423.40" },
-      { date: "2022-08-30", revenue: "$1431.68", expenses: "$471.83" },
-      { date: "2022-08-31", revenue: "$720.17", expenses: "$719.55" },
-      { date: "2022-09-01", revenue: "$1158.03", expenses: "$570.54" },
-      { date: "2022-09-02", revenue: "$1117.39", expenses: "$606.89" },
-      { date: "2022-09-03", revenue: "$1367.28", expenses: "$767.69" },
-      { date: "2022-09-04", revenue: "$1152.67", expenses: "$435.39" },
-      { date: "2022-09-05", revenue: "$530.15", expenses: "$449.32" },
-      { date: "2022-09-06", revenue: "$615.71", expenses: "$749.52" },
-      { date: "2022-09-07", revenue: "$1057.53", expenses: "$336.59" },
-      { date: "2022-09-08", revenue: "$1130.75", expenses: "$485.13" },
-      { date: "2022-09-09", revenue: "$1374.56", expenses: "$606.54" },
-      { date: "2022-09-10", revenue: "$1086.33", expenses: "$474.42" },
-      { date: "2022-09-11", revenue: "$938.13", expenses: "$431.59" },
-      { date: "2022-09-12", revenue: "$815.20", expenses: "$765.07" },
-      { date: "2022-09-13", revenue: "$1009.19", expenses: "$589.63" },
-      { date: "2022-09-14", revenue: "$1247.00", expenses: "$476.95" },
-      { date: "2022-09-15", revenue: "$615.12", expenses: "$730.85" },
-      { date: "2022-09-16", revenue: "$1025.87", expenses: "$517.46" },
-      { date: "2022-09-17", revenue: "$1012.51", expenses: "$316.31" },
-      { date: "2022-09-18", revenue: "$1381.92", expenses: "$626.52" },
-      { date: "2022-09-19", revenue: "$817.26", expenses: "$360.33" },
-      { date: "2022-09-20", revenue: "$642.00", expenses: "$728.13" },
-      { date: "2022-09-21", revenue: "$554.87", expenses: "$770.02" },
-      { date: "2022-09-22", revenue: "$1494.84", expenses: "$569.33" },
-      { date: "2022-09-23", revenue: "$1254.25", expenses: "$390.00" },
-      { date: "2022-09-24", revenue: "$749.93", expenses: "$473.59" },
-      { date: "2022-09-25", revenue: "$1329.51", expenses: "$361.60" },
-      { date: "2022-09-26", revenue: "$1094.98", expenses: "$660.94" },
-      { date: "2022-09-27", revenue: "$1170.18", expenses: "$420.90" },
-      { date: "2022-09-28", revenue: "$872.36", expenses: "$627.82" },
-      { date: "2022-09-29", revenue: "$990.59", expenses: "$405.93" },
-      { date: "2022-09-30", revenue: "$831.62", expenses: "$382.83" },
-      { date: "2022-10-01", revenue: "$1284.41", expenses: "$736.88" },
-      { date: "2022-10-02", revenue: "$1272.95", expenses: "$645.85" },
-      { date: "2022-10-03", revenue: "$1492.35", expenses: "$583.82" },
-      { date: "2022-10-04", revenue: "$848.46", expenses: "$574.83" },
-      { date: "2022-10-05", revenue: "$599.00", expenses: "$781.89" },
-      { date: "2022-10-06", revenue: "$976.82", expenses: "$713.21" },
-      { date: "2022-10-07", revenue: "$1252.20", expenses: "$438.58" },
-      { date: "2022-10-08", revenue: "$577.48", expenses: "$658.74" },
-      { date: "2022-10-09", revenue: "$998.48", expenses: "$756.13" },
-      { date: "2022-10-10", revenue: "$822.26", expenses: "$525.18" },
-      { date: "2022-10-11", revenue: "$566.85", expenses: "$497.54" },
-      { date: "2022-10-12", revenue: "$614.44", expenses: "$568.29" },
-      { date: "2022-10-13", revenue: "$912.66", expenses: "$646.20" },
-      { date: "2022-10-14", revenue: "$1181.90", expenses: "$499.01" },
-      { date: "2022-10-15", revenue: "$687.80", expenses: "$509.42" },
-      { date: "2022-10-16", revenue: "$1193.87", expenses: "$784.02" },
-      { date: "2022-10-17", revenue: "$673.46", expenses: "$713.26" },
-      { date: "2022-10-18", revenue: "$1220.92", expenses: "$549.16" },
-      { date: "2022-10-19", revenue: "$748.21", expenses: "$745.88" },
-      { date: "2022-10-20", revenue: "$1138.51", expenses: "$794.99" },
-      { date: "2022-10-21", revenue: "$785.03", expenses: "$713.34" },
-      { date: "2022-10-22", revenue: "$1245.45", expenses: "$525.21" },
-      { date: "2022-10-23", revenue: "$1451.62", expenses: "$542.40" },
-      { date: "2022-10-24", revenue: "$935.08", expenses: "$640.45" },
-      { date: "2022-10-25", revenue: "$812.39", expenses: "$349.79" },
-      { date: "2022-10-26", revenue: "$1273.79", expenses: "$727.45" },
-      { date: "2022-10-27", revenue: "$1231.44", expenses: "$633.77" },
-      { date: "2022-10-28", revenue: "$1203.35", expenses: "$497.31" },
-      { date: "2022-10-29", revenue: "$702.78", expenses: "$332.65" },
-      { date: "2022-10-30", revenue: "$1053.93", expenses: "$420.18" },
-      { date: "2022-10-31", revenue: "$1056.37", expenses: "$367.50" },
-      { date: "2022-11-01", revenue: "$1038.36", expenses: "$347.48" },
-      { date: "2022-11-02", revenue: "$614.72", expenses: "$420.23" },
-      { date: "2022-11-03", revenue: "$664.16", expenses: "$651.04" },
-      { date: "2022-11-04", revenue: "$1417.08", expenses: "$631.56" },
-      { date: "2022-11-05", revenue: "$557.25", expenses: "$667.31" },
-      { date: "2022-11-06", revenue: "$634.14", expenses: "$459.52" },
-      { date: "2022-11-07", revenue: "$895.09", expenses: "$683.38" },
-      { date: "2022-11-08", revenue: "$1365.47", expenses: "$320.44" },
-      { date: "2022-11-09", revenue: "$587.71", expenses: "$435.66" },
-      { date: "2022-11-10", revenue: "$1439.46", expenses: "$511.32" },
-      { date: "2022-11-11", revenue: "$1318.18", expenses: "$689.70" },
-      { date: "2022-11-12", revenue: "$774.94", expenses: "$602.80" },
-      { date: "2022-11-13", revenue: "$1345.93", expenses: "$418.38" },
-      { date: "2022-11-14", revenue: "$934.12", expenses: "$694.30" },
-      { date: "2022-11-15", revenue: "$856.11", expenses: "$719.66" },
-      { date: "2022-11-16", revenue: "$834.06", expenses: "$472.46" },
-      { date: "2022-11-17", revenue: "$862.35", expenses: "$576.89" },
-      { date: "2022-11-18", revenue: "$1098.70", expenses: "$378.77" },
-      { date: "2022-11-19", revenue: "$1257.86", expenses: "$594.74" },
-      { date: "2022-11-20", revenue: "$1020.98", expenses: "$696.09" },
-      { date: "2022-11-21", revenue: "$725.09", expenses: "$648.75" },
-      { date: "2022-11-22", revenue: "$738.74", expenses: "$481.11" },
-      { date: "2022-11-23", revenue: "$661.41", expenses: "$726.44" },
-      { date: "2022-11-24", revenue: "$689.55", expenses: "$542.89" },
-      { date: "2022-11-25", revenue: "$1451.71", expenses: "$754.48" },
-      { date: "2022-11-26", revenue: "$916.67", expenses: "$554.41" },
-      { date: "2022-11-27", revenue: "$1474.95", expenses: "$583.52" },
-      { date: "2022-11-28", revenue: "$1438.52", expenses: "$533.21" },
-      { date: "2022-11-29", revenue: "$531.00", expenses: "$452.18" },
-      { date: "2022-11-30", revenue: "$812.71", expenses: "$302.62" },
-      { date: "2022-12-01", revenue: "$772.43", expenses: "$641.09" },
-      { date: "2022-12-02", revenue: "$1382.87", expenses: "$482.25" },
-      { date: "2022-12-03", revenue: "$573.27", expenses: "$572.70" },
-      { date: "2022-12-04", revenue: "$644.09", expenses: "$476.26" },
-      { date: "2022-12-05", revenue: "$1338.13", expenses: "$513.24" },
-      { date: "2022-12-06", revenue: "$841.11", expenses: "$390.83" },
-      { date: "2022-12-07", revenue: "$697.51", expenses: "$759.51" },
-      { date: "2022-12-08", revenue: "$627.41", expenses: "$685.80" },
-      { date: "2022-12-09", revenue: "$1194.34", expenses: "$447.89" },
-      { date: "2022-12-10", revenue: "$891.38", expenses: "$384.43" },
-      { date: "2022-12-11", revenue: "$642.22", expenses: "$346.45" },
-      { date: "2022-12-12", revenue: "$846.17", expenses: "$655.70" },
-      { date: "2022-12-13", revenue: "$1162.43", expenses: "$788.19" },
-      { date: "2022-12-14", revenue: "$1419.39", expenses: "$422.59" },
-      { date: "2022-12-15", revenue: "$1350.41", expenses: "$722.04" },
-      { date: "2022-12-16", revenue: "$568.48", expenses: "$651.17" },
-      { date: "2022-12-17", revenue: "$586.94", expenses: "$364.81" },
-      { date: "2022-12-18", revenue: "$787.93", expenses: "$752.41" },
-      { date: "2022-12-19", revenue: "$751.40", expenses: "$303.15" },
-      { date: "2022-12-20", revenue: "$511.29", expenses: "$319.61" },
-      { date: "2022-12-21", revenue: "$789.03", expenses: "$601.99" },
-      { date: "2022-12-22", revenue: "$578.12", expenses: "$379.53" },
-      { date: "2022-12-23", revenue: "$1298.60", expenses: "$625.81" },
-      { date: "2022-12-24", revenue: "$1308.95", expenses: "$708.39" },
-      { date: "2022-12-25", revenue: "$788.83", expenses: "$612.17" },
-      { date: "2022-12-26", revenue: "$1393.26", expenses: "$354.50" },
-      { date: "2022-12-27", revenue: "$907.86", expenses: "$513.74" },
-      { date: "2022-12-28", revenue: "$1049.91", expenses: "$583.10" },
-      { date: "2022-12-29", revenue: "$1110.05", expenses: "$387.96" },
-      { date: "2022-12-30", revenue: "$1403.44", expenses: "$527.35" },
-      { date: "2022-12-31", revenue: "$549.52", expenses: "$577.92" },
-      { date: "2023-01-01", revenue: "$832.70", expenses: "$664.41" },
-    ],
-    expensesByCategory: {
-      salaries: "$38000.00",
-      supplies: "$13000.00",
-      services: "$10000.00",
-    },
-  },
-];
-
-export const products = [
-  {
-    _id: "63bf7ac9f03239e002001600",
-    price: "$43.41",
-    expense: "$5.97",
-    transactions: [
-      "63bf7ccef03239554c002449",
-      "63bf7ccef03239855d00155c",
-      "63bf7ccef032397b4f001603",
-      "63bf7ccef03239eb9d0016d4",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239e002001601",
-    price: "$60.13",
-    expense: "$9.12",
-    transactions: [
-      "63bf7ccef032396a8e001696",
-      "63bf7ccef0323922d2001694",
-      "63bf7ccef03239855d001557",
-      "63bf7ccef03239554c00244d",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239e002001602",
-    price: "$195.05",
-    expense: "$6.72",
-    transactions: ["63bf7ccef03239e002001606", "63bf7ccef0323922d200169a"],
-  },
-  {
-    _id: "63bf7ac9f03239e002001603",
-    price: "$46.25",
-    expense: "$9.95",
-    transactions: [
-      "63bf7ccef03239aec900155b",
-      "63bf7ccef03239eb9d0016d3",
-      "63bf7ccef03239aec9001559",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239e002001604",
-    price: "$87.41",
-    expense: "$7.97",
-    transactions: [
-      "63bf7ccef03239855d00155d",
-      "63bf7ccef03239855d001561",
-      "63bf7ccef03239e00200160e",
-      "63bf7ccef0323922d2001697",
-      "63bf7ccef032394f5f002442",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239e002001605",
-    price: "$73.28",
-    expense: "$7.85",
-    transactions: [
-      "63bf7ccef03239966c0016a0",
-      "63bf7ccef03239966c00169f",
-      "63bf7ccef032394cbd0016a0",
-      "63bf7ccef03239554c002453",
-      "63bf7ccef0323901e6001557",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239343e00169b",
-    price: "$130.65",
-    expense: "$7.95",
-    transactions: ["63bf7ccef0323901e6001560", "63bf7ccef032396d89000013"],
-  },
-  {
-    _id: "63bf7ac9f03239343e00169c",
-    price: "$198.54",
-    expense: "$9.50",
-    transactions: [
-      "63bf7ccef03239eb9d0016d9",
-      "63bf7ccef032396a8e001696",
-      "63bf7ccef03239cf1b0016a7",
-      "63bf7ccef0323901e6001562",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239343e00169d",
-    price: "$147.32",
-    expense: "$5.86",
-    transactions: ["63bf7ccef03239343e0016a9", "63bf7ccef03239f920001690"],
-  },
-  {
-    _id: "63bf7ac9f03239343e00169e",
-    price: "$187.22",
-    expense: "$5.82",
-    transactions: [
-      "63bf7ccef03239aec9001560",
-      "63bf7ccef032396d8900000f",
-      "63bf7ccef0323922d2001697",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239343e00169f",
-    price: "$162.43",
-    expense: "$3.28",
-    transactions: [
-      "63bf7ccef032395ccf001697",
-      "63bf7ccef0323901e600155e",
-      "63bf7ccef03239aec9001559",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239343e0016a0",
-    price: "$30.09",
-    expense: "$8.55",
-    transactions: ["63bf7ccef03239343e0016a3"],
-  },
-  {
-    _id: "63bf7ac9f0323901e6001551",
-    price: "$31.07",
-    expense: "$4.98",
-    transactions: [
-      "63bf7ccef032395ccf001695",
-      "63bf7ccef03239eb9d0016dd",
-      "63bf7ccef032397b4f001606",
-      "63bf7ccef03239855d00155b",
-      "63bf7ccef032397b4f001604",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323901e6001552",
-    price: "$12.21",
-    expense: "$6.82",
-    transactions: [
-      "63bf7ccef03239855d00155c",
-      "63bf7ccef032395ccf001696",
-      "63bf7ccef03239cf1b0016a2",
-      "63bf7ccef032396a8e00169a",
-      "63bf7ccef03239966c00169a",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323901e6001553",
-    price: "$76.31",
-    expense: "$3.84",
-    transactions: [
-      "63bf7ccef03239e002001608",
-      "63bf7ccef0323922d200169b",
-      "63bf7ccef03239eb9d0016e6",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323901e6001554",
-    price: "$169.87",
-    expense: "$8.35",
-    transactions: [
-      "63bf7ccef03239eb9d0016d5",
-      "63bf7ccef03239966c00169e",
-      "63bf7ccef0323974200016a7",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323901e6001555",
-    price: "$187.36",
-    expense: "$8.12",
-    transactions: [
-      "63bf7ccef032394f5f00243a",
-      "63bf7ccef03239eb9d0016de",
-      "63bf7ccef03239f920001696",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323901e6001556",
-    price: "$67.29",
-    expense: "$6.32",
-    transactions: [
-      "63bf7ccef032396d89000015",
-      "63bf7ccef03239f920001690",
-      "63bf7ccef03239eb9d0016d2",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032394cbd001699",
-    price: "$85.35",
-    expense: "$9.33",
-    transactions: [
-      "63bf7ccef03239aec9001558",
-      "63bf7ccef03239f92000169a",
-      "63bf7ccef03239742000169d",
-      "63bf7ccef03239554c00244a",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032394cbd00169a",
-    price: "$35.75",
-    expense: "$9.93",
-    transactions: [
-      "63bf7ccef03239554c002453",
-      "63bf7ccef03239e002001608",
-      "63bf7ccef0323937a500168d",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032394cbd00169b",
-    price: "$59.80",
-    expense: "$1.51",
-    transactions: [
-      "63bf7ccef0323937a5001690",
-      "63bf7ccef03239e00200160b",
-      "63bf7ccef032394f5f002441",
-      "63bf7ccef0323975d60016a3",
-      "63bf7ccef032395ccf00169f",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032394cbd00169c",
-    price: "$86.45",
-    expense: "$3.55",
-    transactions: ["63bf7ccef032396d8900000f"],
-  },
-  {
-    _id: "63bf7ac9f032394cbd00169d",
-    price: "$142.21",
-    expense: "$1.85",
-    transactions: ["63bf7ccef032396a8e001698", "63bf7ccef03239eb9d0016d0"],
-  },
-  {
-    _id: "63bf7ac9f032394cbd00169e",
-    price: "$10.01",
-    expense: "$5.61",
-    transactions: [
-      "63bf7ccef03239e002001610",
-      "63bf7ccef03239f920001699",
-      "63bf7ccef03239966c00169a",
-      "63bf7ccef03239e002001611",
-      "63bf7ccef032394cbd00169f",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239cf1b001698",
-    price: "$112.78",
-    expense: "$6.74",
-    transactions: ["63bf7ccef032396a8e00169d", "63bf7ccef032396a8e001695"],
-  },
-  {
-    _id: "63bf7ac9f03239cf1b001699",
-    price: "$156.34",
-    expense: "$6.26",
-    transactions: ["63bf7ccef03239e002001606"],
-  },
-  {
-    _id: "63bf7ac9f03239cf1b00169a",
-    price: "$119.34",
-    expense: "$8.62",
-    transactions: ["63bf7ccef0323975d600169e", "63bf7ccef03239554c00244b"],
-  },
-  {
-    _id: "63bf7ac9f03239cf1b00169b",
-    price: "$87.49",
-    expense: "$8.74",
-    transactions: ["63bf7ccef03239343e0016ac", "63bf7ccef0323937a5001698"],
-  },
-  {
-    _id: "63bf7ac9f03239cf1b00169c",
-    price: "$34.52",
-    expense: "$2.31",
-    transactions: ["63bf7ccef03239aec9001562", "63bf7ccef0323937a500168d"],
-  },
-  {
-    _id: "63bf7ac9f03239cf1b00169d",
-    price: "$90.83",
-    expense: "$7.83",
-    transactions: [
-      "63bf7ccef0323975d6001698",
-      "63bf7ccef032394f5f002439",
-      "63bf7ccef03239e00200160f",
-      "63bf7ccef0323975d600169b",
-      "63bf7ccef03239aec9001557",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239aec9001551",
-    price: "$181.98",
-    expense: "$3.02",
-    transactions: [
-      "63bf7ccef032395ccf001698",
-      "63bf7ccef03239343e0016ab",
-      "63bf7ccef0323975d60016a2",
-      "63bf7ccef03239cf1b0016a7",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239aec9001552",
-    price: "$62.17",
-    expense: "$9.52",
-    transactions: ["63bf7ccef03239855d00155e", "63bf7ccef03239966c00169e"],
-  },
-  {
-    _id: "63bf7ac9f03239aec9001553",
-    price: "$83.76",
-    expense: "$1.09",
-    transactions: [
-      "63bf7ccef0323975d60016a3",
-      "63bf7ccef032394f5f002444",
-      "63bf7ccef03239554c002450",
-      "63bf7ccef032395ccf00169b",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239aec9001554",
-    price: "$62.47",
-    expense: "$2.38",
-    transactions: [
-      "63bf7ccef03239eb9d0016e4",
-      "63bf7ccef03239eb9d0016d0",
-      "63bf7ccef03239966c00169b",
-      "63bf7ccef03239eb9d0016d5",
-      "63bf7ccef0323975d6001698",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239aec9001555",
-    price: "$54.68",
-    expense: "$5.12",
-    transactions: [
-      "63bf7ccef032396d89000013",
-      "63bf7ccef0323974200016a7",
-      "63bf7ccef0323922d2001699",
-      "63bf7ccef03239e002001608",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239aec9001556",
-    price: "$91.72",
-    expense: "$4.73",
-    transactions: [
-      "63bf7ccef03239cf1b0016a3",
-      "63bf7ccef032394f5f00243e",
-      "63bf7ccef0323974200016a2",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239554c002443",
-    price: "$159.65",
-    expense: "$3.79",
-    transactions: [
-      "63bf7ccef03239554c00244e",
-      "63bf7ccef03239855d001561",
-      "63bf7ccef032395ccf00169b",
-      "63bf7ccef03239343e0016aa",
-      "63bf7ccef032394f5f002439",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239554c002444",
-    price: "$190.89",
-    expense: "$5.24",
-    transactions: [
-      "63bf7ccef03239343e0016a2",
-      "63bf7ccef0323974200016a3",
-      "63bf7ccef0323922d200169c",
-      "63bf7ccef03239966c00169e",
-      "63bf7ccef03239cf1b0016a7",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239554c002445",
-    price: "$155.13",
-    expense: "$1.68",
-    transactions: [
-      "63bf7ccef03239cf1b00169f",
-      "63bf7ccef03239966c00169f",
-      "63bf7ccef0323937a5001697",
-      "63bf7ccef0323975d60016a2",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239554c002446",
-    price: "$43.82",
-    expense: "$7.85",
-    transactions: ["63bf7ccef03239eb9d0016dd", "63bf7ccef0323901e6001557"],
-  },
-  {
-    _id: "63bf7ac9f03239554c002447",
-    price: "$58.31",
-    expense: "$9.94",
-    transactions: [
-      "63bf7ccef03239cf1b0016a6",
-      "63bf7ccef03239966c00169a",
-      "63bf7ccef0323974200016a1",
-      "63bf7ccef0323975d600169c",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239554c002448",
-    price: "$138.47",
-    expense: "$6.40",
-    transactions: [
-      "63bf7ccef032397b4f001606",
-      "63bf7ccef03239f920001691",
-      "63bf7ccef03239966c001698",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032397420001696",
-    price: "$10.40",
-    expense: "$3.20",
-    transactions: [
-      "63bf7ccef03239966c00169a",
-      "63bf7ccef032396d89000013",
-      "63bf7ccef03239eb9d0016d6",
-      "63bf7ccef032396a8e00169e",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032397420001697",
-    price: "$22.48",
-    expense: "$5.36",
-    transactions: ["63bf7ccef03239cf1b0016a6", "63bf7ccef03239eb9d0016df"],
-  },
-  {
-    _id: "63bf7ac9f032397420001698",
-    price: "$92.16",
-    expense: "$9.12",
-    transactions: [
-      "63bf7ccef03239cf1b0016a9",
-      "63bf7ccef032396d89000015",
-      "63bf7ccef03239f920001691",
-      "63bf7ccef03239f920001699",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032397420001699",
-    price: "$140.77",
-    expense: "$9.02",
-    transactions: [
-      "63bf7ccef0323974200016a2",
-      "63bf7ccef032395ccf00169c",
-      "63bf7ccef0323937a500168d",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239742000169a",
-    price: "$100.62",
-    expense: "$6.55",
-    transactions: [
-      "63bf7ccef032394f5f002442",
-      "63bf7ccef0323922d2001695",
-      "63bf7ccef032395ccf001696",
-      "63bf7ccef0323974200016a7",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239742000169b",
-    price: "$69.13",
-    expense: "$6.26",
-    transactions: [
-      "63bf7ccef03239eb9d0016d0",
-      "63bf7ccef0323975d600169c",
-      "63bf7ccef03239cf1b0016a8",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239966c001692",
-    price: "$124.82",
-    expense: "$8.49",
-    transactions: [
-      "63bf7ccef03239eb9d0016de",
-      "63bf7ccef03239eb9d0016d3",
-      "63bf7ccef0323974200016a7",
-      "63bf7ccef032396d8900000e",
-      "63bf7ccef032397b4f001607",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239966c001693",
-    price: "$196.68",
-    expense: "$3.32",
-    transactions: [
-      "63bf7ccef03239554c002452",
-      "63bf7ccef0323922d2001698",
-      "63bf7ccef03239aec9001562",
-      "63bf7ccef03239855d00155f",
-      "63bf7ccef0323901e600155f",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239966c001694",
-    price: "$172.48",
-    expense: "$2.38",
-    transactions: [
-      "63bf7ccef032394cbd0016a0",
-      "63bf7ccef03239343e0016aa",
-      "63bf7ccef032395ccf00169a",
-      "63bf7ccef03239554c00244d",
-      "63bf7ccef032396a8e001699",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239966c001695",
-    price: "$112.84",
-    expense: "$4.34",
-    transactions: ["63bf7ccef032396d89000013", "63bf7ccef03239554c00244c"],
-  },
-  {
-    _id: "63bf7ac9f03239966c001696",
-    price: "$37.97",
-    expense: "$5.76",
-    transactions: [
-      "63bf7ccef032394f5f002440",
-      "63bf7ccef03239eb9d0016df",
-      "63bf7ccef0323937a5001694",
-      "63bf7ccef032396a8e001698",
-      "63bf7ccef032396a8e001696",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239966c001697",
-    price: "$123.72",
-    expense: "$2.85",
-    transactions: [
-      "63bf7ccef03239eb9d0016e3",
-      "63bf7ccef0323974200016a6",
-      "63bf7ccef0323937a5001691",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323975d6001692",
-    price: "$15.02",
-    expense: "$2.00",
-    transactions: ["63bf7ccef032396a8e001697", "63bf7ccef0323975d6001698"],
-  },
-  {
-    _id: "63bf7ac9f0323975d6001693",
-    price: "$19.69",
-    expense: "$2.65",
-    transactions: ["63bf7ccef0323937a500168e"],
-  },
-  {
-    _id: "63bf7ac9f0323975d6001694",
-    price: "$30.80",
-    expense: "$5.02",
-    transactions: [
-      "63bf7ccef0323975d600169f",
-      "63bf7ccef032394f5f002440",
-      "63bf7ccef032396a8e001695",
-      "63bf7ccef03239742000169c",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323975d6001695",
-    price: "$90.56",
-    expense: "$2.93",
-    transactions: ["63bf7ccef0323975d600169d"],
-  },
-  {
-    _id: "63bf7ac9f0323975d6001696",
-    price: "$30.37",
-    expense: "$8.63",
-    transactions: [
-      "63bf7ccef0323922d200169c",
-      "63bf7ccef0323974200016a5",
-      "63bf7ccef032394f5f002443",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323975d6001697",
-    price: "$149.26",
-    expense: "$1.33",
-    transactions: [
-      "63bf7ccef03239554c00244d",
-      "63bf7ccef03239e002001606",
-      "63bf7ccef03239eb9d0016d6",
-      "63bf7ccef03239966c00169e",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032396a8e00168e",
-    price: "$167.45",
-    expense: "$9.30",
-    transactions: [
-      "63bf7ccef0323937a5001693",
-      "63bf7ccef03239343e0016a9",
-      "63bf7ccef032397b4f001608",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032396a8e00168f",
-    price: "$50.36",
-    expense: "$4.38",
-    transactions: ["63bf7ccef032394f5f00243f"],
-  },
-  {
-    _id: "63bf7ac9f032396a8e001690",
-    price: "$151.61",
-    expense: "$2.27",
-    transactions: ["63bf7ccef03239966c001699", "63bf7ccef03239742000169f"],
-  },
-  {
-    _id: "63bf7ac9f032396a8e001691",
-    price: "$191.46",
-    expense: "$5.60",
-    transactions: ["63bf7ccef0323901e600155f"],
-  },
-  {
-    _id: "63bf7ac9f032396a8e001692",
-    price: "$131.96",
-    expense: "$8.80",
-    transactions: [
-      "63bf7ccef032397b4f001605",
-      "63bf7ccef03239855d001561",
-      "63bf7ccef03239eb9d0016d9",
-      "63bf7ccef0323901e6001558",
-      "63bf7ccef032394f5f002444",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032396a8e001693",
-    price: "$164.96",
-    expense: "$4.16",
-    transactions: ["63bf7ccef03239eb9d0016d8"],
-  },
-  {
-    _id: "63bf7ac9f032395ccf00168e",
-    price: "$13.57",
-    expense: "$5.18",
-    transactions: ["63bf7ccef032395ccf001695"],
-  },
-  {
-    _id: "63bf7ac9f032395ccf00168f",
-    price: "$177.57",
-    expense: "$7.04",
-    transactions: ["63bf7ccef0323922d2001698", "63bf7ccef03239855d00155c"],
-  },
-  {
-    _id: "63bf7ac9f032395ccf001690",
-    price: "$172.71",
-    expense: "$5.73",
-    transactions: ["63bf7ccef03239966c00169d"],
-  },
-  {
-    _id: "63bf7ac9f032395ccf001691",
-    price: "$17.48",
-    expense: "$4.81",
-    transactions: ["63bf7ccef0323974200016a0", "63bf7ccef0323937a5001692"],
-  },
-  {
-    _id: "63bf7ac9f032395ccf001692",
-    price: "$54.13",
-    expense: "$7.44",
-    transactions: ["63bf7ccef0323922d2001694", "63bf7ccef03239eb9d0016df"],
-  },
-  {
-    _id: "63bf7ac9f032395ccf001693",
-    price: "$155.93",
-    expense: "$9.10",
-    transactions: [
-      "63bf7ccef03239343e0016a7",
-      "63bf7ccef032394f5f002440",
-      "63bf7ccef03239cf1b0016a9",
-      "63bf7ccef032395ccf00169a",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032397b4f0015fb",
-    price: "$13.34",
-    expense: "$6.17",
-    transactions: ["63bf7ccef03239cf1b0016a4"],
-  },
-  {
-    _id: "63bf7ac9f032397b4f0015fc",
-    price: "$75.89",
-    expense: "$1.11",
-    transactions: [
-      "63bf7ccef03239aec900155f",
-      "63bf7ccef03239966c0016a0",
-      "63bf7ccef03239cf1b00169f",
-      "63bf7ccef032394f5f002440",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032397b4f0015fd",
-    price: "$153.85",
-    expense: "$6.99",
-    transactions: [
-      "63bf7ccef03239343e0016a3",
-      "63bf7ccef0323974200016a3",
-      "63bf7ccef0323975d600169c",
-      "63bf7ccef03239742000169c",
-      "63bf7ccef03239cf1b0016a3",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032397b4f0015fe",
-    price: "$187.83",
-    expense: "$6.66",
-    transactions: [
-      "63bf7ccef0323937a5001692",
-      "63bf7ccef03239aec9001559",
-      "63bf7ccef0323922d200169b",
-      "63bf7ccef0323922d200169c",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032397b4f0015ff",
-    price: "$119.33",
-    expense: "$1.40",
-    transactions: [
-      "63bf7ccef032397b4f00160b",
-      "63bf7ccef03239eb9d0016ce",
-      "63bf7ccef03239eb9d0016d3",
-      "63bf7ccef032397b4f001602",
-      "63bf7ccef03239cf1b0016a7",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032397b4f001600",
-    price: "$54.00",
-    expense: "$5.61",
-    transactions: ["63bf7ccef03239554c002454", "63bf7ccef032394cbd0016a9"],
-  },
-  {
-    _id: "63bf7ac9f0323922d200168e",
-    price: "$144.81",
-    expense: "$7.45",
-    transactions: [
-      "63bf7ccef032395ccf00169b",
-      "63bf7ccef03239eb9d0016dd",
-      "63bf7ccef03239eb9d0016d4",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323922d200168f",
-    price: "$37.04",
-    expense: "$5.86",
-    transactions: ["63bf7ccef0323974200016a5"],
-  },
-  {
-    _id: "63bf7ac9f0323922d2001690",
-    price: "$161.03",
-    expense: "$4.48",
-    transactions: ["63bf7ccef03239966c00169a"],
-  },
-  {
-    _id: "63bf7ac9f0323922d2001691",
-    price: "$73.46",
-    expense: "$7.95",
-    transactions: [
-      "63bf7ccef032395ccf001696",
-      "63bf7ccef03239eb9d0016de",
-      "63bf7ccef03239f92000168f",
-      "63bf7ccef032394f5f00243e",
-      "63bf7ccef032394cbd0016a5",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323922d2001692",
-    price: "$120.96",
-    expense: "$8.90",
-    transactions: ["63bf7ccef032396a8e00169e", "63bf7ccef032397b4f001603"],
-  },
-  {
-    _id: "63bf7ac9f0323922d2001693",
-    price: "$34.46",
-    expense: "$9.25",
-    transactions: [
-      "63bf7ccef032396d89000012",
-      "63bf7ccef03239f920001697",
-      "63bf7ccef0323937a5001694",
-      "63bf7ccef03239855d00155b",
-      "63bf7ccef032395ccf001697",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032396d89000007",
-    price: "$172.27",
-    expense: "$3.92",
-    transactions: ["63bf7ccef03239554c00244b"],
-  },
-  {
-    _id: "63bf7ac9f032396d89000008",
-    price: "$20.54",
-    expense: "$8.12",
-    transactions: ["63bf7ccef03239855d001558"],
-  },
-  {
-    _id: "63bf7ac9f032396d89000009",
-    price: "$80.31",
-    expense: "$7.04",
-    transactions: [
-      "63bf7ccef0323901e6001558",
-      "63bf7ccef0323937a5001693",
-      "63bf7ccef03239eb9d0016d9",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032396d8900000a",
-    price: "$77.67",
-    expense: "$4.14",
-    transactions: ["63bf7ccef03239343e0016ab"],
-  },
-  {
-    _id: "63bf7ac9f032396d8900000b",
-    price: "$47.25",
-    expense: "$5.53",
-    transactions: ["63bf7ccef03239343e0016a8", "63bf7ccef032394f5f00243e"],
-  },
-  {
-    _id: "63bf7ac9f032396d8900000c",
-    price: "$181.02",
-    expense: "$7.57",
-    transactions: [
-      "63bf7ccef0323922d2001698",
-      "63bf7ccef03239eb9d0016e3",
-      "63bf7ccef032396a8e00169c",
-      "63bf7ccef032397b4f001608",
-      "63bf7ccef032396d89000013",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239f920001689",
-    price: "$67.20",
-    expense: "$8.37",
-    transactions: [
-      "63bf7ccef032396a8e00169b",
-      "63bf7ccef03239343e0016a2",
-      "63bf7ccef03239966c00169d",
-      "63bf7ccef0323922d2001698",
-      "63bf7ccef03239855d001561",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239f92000168a",
-    price: "$58.15",
-    expense: "$3.19",
-    transactions: ["63bf7ccef03239f920001690"],
-  },
-  {
-    _id: "63bf7ac9f03239f92000168b",
-    price: "$145.65",
-    expense: "$3.83",
-    transactions: ["63bf7ccef032394cbd0016aa"],
-  },
-  {
-    _id: "63bf7ac9f03239f92000168c",
-    price: "$134.08",
-    expense: "$7.03",
-    transactions: [
-      "63bf7ccef032396a8e00169a",
-      "63bf7ccef032397b4f001604",
-      "63bf7ccef03239eb9d0016d1",
-      "63bf7ccef03239cf1b0016a7",
-      "63bf7ccef03239eb9d0016ea",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239f92000168d",
-    price: "$33.79",
-    expense: "$4.54",
-    transactions: [
-      "63bf7ccef032394cbd0016a1",
-      "63bf7ccef0323922d200169d",
-      "63bf7ccef03239cf1b0016a1",
-      "63bf7ccef0323975d60016a3",
-      "63bf7ccef03239aec9001557",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239f92000168e",
-    price: "$182.10",
-    expense: "$9.54",
-    transactions: [
-      "63bf7ccef032396a8e001698",
-      "63bf7ccef0323922d2001699",
-      "63bf7ccef03239742000169c",
-      "63bf7ccef03239aec900155d",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032394f5f002433",
-    price: "$129.93",
-    expense: "$1.15",
-    transactions: [
-      "63bf7ccef0323975d600169a",
-      "63bf7ccef032397b4f001604",
-      "63bf7ccef03239966c001699",
-      "63bf7ccef032397b4f001603",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032394f5f002434",
-    price: "$148.47",
-    expense: "$1.63",
-    transactions: [
-      "63bf7ccef03239554c00244e",
-      "63bf7ccef032395ccf00169f",
-      "63bf7ccef0323937a500168d",
-      "63bf7ccef0323975d60016a1",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032394f5f002435",
-    price: "$13.52",
-    expense: "$9.76",
-    transactions: [
-      "63bf7ccef03239343e0016a3",
-      "63bf7ccef03239966c00169f",
-      "63bf7ccef03239cf1b0016a8",
-      "63bf7ccef032395ccf00169d",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032394f5f002436",
-    price: "$120.88",
-    expense: "$5.94",
-    transactions: [
-      "63bf7ccef03239e00200160d",
-      "63bf7ccef03239cf1b0016a1",
-      "63bf7ccef032396d8900000f",
-    ],
-  },
-  {
-    _id: "63bf7ac9f032394f5f002437",
-    price: "$153.54",
-    expense: "$9.63",
-    transactions: ["63bf7ccef03239eb9d0016d0", "63bf7ccef032396d89000010"],
-  },
-  {
-    _id: "63bf7ac9f032394f5f002438",
-    price: "$35.74",
-    expense: "$8.71",
-    transactions: [
-      "63bf7ccef0323975d6001698",
-      "63bf7ccef03239554c00244c",
-      "63bf7ccef03239cf1b0016a0",
-      "63bf7ccef032394f5f002442",
-      "63bf7ccef03239f92000168f",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323937a5001687",
-    price: "$120.21",
-    expense: "$5.00",
-    transactions: [
-      "63bf7ccef03239554c00244a",
-      "63bf7ccef032394cbd0016a1",
-      "63bf7ccef03239966c00169e",
-      "63bf7ccef03239742000169f",
-      "63bf7ccef03239eb9d0016e2",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323937a5001688",
-    price: "$180.06",
-    expense: "$6.39",
-    transactions: ["63bf7ccef03239554c002453"],
-  },
-  {
-    _id: "63bf7ac9f0323937a5001689",
-    price: "$92.70",
-    expense: "$5.53",
-    transactions: [
-      "63bf7ccef03239343e0016a9",
-      "63bf7ccef03239cf1b0016a1",
-      "63bf7ccef032397b4f001609",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323937a500168a",
-    price: "$35.39",
-    expense: "$2.89",
-    transactions: [
-      "63bf7ccef0323937a5001694",
-      "63bf7ccef03239eb9d0016da",
-      "63bf7ccef0323937a5001698",
-      "63bf7ccef03239eb9d0016e6",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323937a500168b",
-    price: "$159.59",
-    expense: "$3.54",
-    transactions: [
-      "63bf7ccef03239eb9d0016d9",
-      "63bf7ccef032396a8e001697",
-      "63bf7ccef032394cbd0016aa",
-      "63bf7ccef03239f920001693",
-    ],
-  },
-  {
-    _id: "63bf7ac9f0323937a500168c",
-    price: "$116.66",
-    expense: "$5.60",
-    transactions: [
-      "63bf7ccef03239aec900155a",
-      "63bf7ccef032394cbd0016a2",
-      "63bf7ccef032396a8e001694",
-      "63bf7ccef0323975d60016a0",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239855d001551",
-    price: "$19.66",
-    expense: "$6.43",
-    transactions: [
-      "63bf7ccef03239eb9d0016d0",
-      "63bf7ccef03239554c00244e",
-      "63bf7ccef0323922d2001697",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239855d001552",
-    price: "$99.78",
-    expense: "$7.03",
-    transactions: [
-      "63bf7ccef03239eb9d0016cd",
-      "63bf7ccef032395ccf001697",
-      "63bf7ccef03239855d001558",
-      "63bf7ccef03239966c00169c",
-      "63bf7ccef0323922d2001696",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239855d001553",
-    price: "$145.56",
-    expense: "$9.40",
-    transactions: ["63bf7ccef0323922d2001694"],
-  },
-  {
-    _id: "63bf7ac9f03239855d001554",
-    price: "$133.65",
-    expense: "$1.03",
-    transactions: [
-      "63bf7ccef0323937a5001690",
-      "63bf7ccef03239f920001696",
-      "63bf7ccef0323901e600155e",
-      "63bf7ccef032396d89000018",
-      "63bf7ccef0323901e6001560",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239855d001555",
-    price: "$174.42",
-    expense: "$5.30",
-    transactions: ["63bf7ccef03239aec9001558"],
-  },
-  {
-    _id: "63bf7ac9f03239855d001556",
-    price: "$77.55",
-    expense: "$1.01",
-    transactions: ["63bf7ccef03239e002001607"],
-  },
-  {
-    _id: "63bf7ac9f03239eb9d0016c3",
-    price: "$103.01",
-    expense: "$6.81",
-    transactions: [
-      "63bf7ccef03239966c001699",
-      "63bf7ccef03239554c00244e",
-      "63bf7ccef03239eb9d0016cd",
-      "63bf7ccef03239cf1b0016a8",
-      "63bf7ccef032394f5f00243b",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239eb9d0016c4",
-    price: "$88.02",
-    expense: "$8.00",
-    transactions: ["63bf7ccef0323901e600155f", "63bf7ccef03239eb9d0016e6"],
-  },
-  {
-    _id: "63bf7ac9f03239eb9d0016c5",
-    price: "$119.84",
-    expense: "$8.95",
-    transactions: ["63bf7ccef032395ccf001695", "63bf7ccef03239f920001695"],
-  },
-  {
-    _id: "63bf7ac9f03239eb9d0016c6",
-    price: "$18.02",
-    expense: "$5.48",
-    transactions: [
-      "63bf7ccef03239e00200160b",
-      "63bf7ccef032395ccf00169a",
-      "63bf7ccef03239aec9001560",
-      "63bf7ccef0323901e600155e",
-      "63bf7ccef03239343e0016a9",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239eb9d0016c7",
-    price: "$121.59",
-    expense: "$7.27",
-    transactions: [
-      "63bf7ccef0323975d600169b",
-      "63bf7ccef032396a8e00169d",
-      "63bf7ccef03239eb9d0016d5",
-      "63bf7ccef03239e00200160e",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239eb9d0016c8",
-    price: "$42.71",
-    expense: "$7.26",
-    transactions: ["63bf7ccef032396a8e001696", "63bf7ccef032397b4f001608"],
-  },
-  {
-    _id: "63bf7ac9f03239eb9d0016c9",
-    price: "$106.89",
-    expense: "$2.49",
-    transactions: ["63bf7ccef03239966c00169d"],
-  },
-  {
-    _id: "63bf7ac9f03239eb9d0016ca",
-    price: "$162.96",
-    expense: "$2.18",
-    transactions: [
-      "63bf7ccef03239f920001691",
-      "63bf7ccef0323937a5001693",
-      "63bf7ccef03239f920001694",
-      "63bf7ccef0323901e600155b",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239eb9d0016cb",
-    price: "$102.90",
-    expense: "$1.40",
-    transactions: [
-      "63bf7ccef03239966c00169f",
-      "63bf7ccef032394cbd0016a6",
-      "63bf7ccef032395ccf00169d",
-      "63bf7ccef032395ccf00169e",
-      "63bf7ccef032396a8e001697",
-    ],
-  },
-  {
-    _id: "63bf7ac9f03239eb9d0016cc",
-    price: "$21.98",
-    expense: "$7.86",
-    transactions: [
-      "63bf7ccef03239343e0016a3",
-      "63bf7ccef032397b4f001606",
-      "63bf7ccef0323901e6001559",
-    ],
-  },
+    {
+        "totalProfit": "$-338275.80",
+        "totalRevenue": "$16540248.98",
+        "totalExpenses": "$16925524.52",
+        "monthlyData": [
+            {
+                "month": "January-17",
+                "revenue": "$604994.34",
+                "expenses": "$541990.92",
+                "profit": "$63004.87"
+            },
+            {
+                "month": "February-17",
+                "revenue": "$550374.75",
+                "expenses": "$570582.02",
+                "profit": "$-20207.93"
+            },
+            {
+                "month": "March-17",
+                "revenue": "$989458.99",
+                "expenses": "$1094416.83",
+                "profit": "$-104957.15"
+            },
+            {
+                "month": "April-17",
+                "revenue": "$943408.00",
+                "expenses": "$996489.32",
+                "profit": "$-53083.31"
+            },
+            {
+                "month": "May-17",
+                "revenue": "$1475205.36",
+                "expenses": "$1532829.80",
+                "profit": "$-57623.33"
+            },
+            {
+                "month": "June-17",
+                "revenue": "$1263714.21",
+                "expenses": "$1205006.82",
+                "profit": "$58706.99"
+            },
+            {
+                "month": "July-17",
+                "revenue": "$1218809.83",
+                "expenses": "$1317017.96",
+                "profit": "$-98207.89"
+            },
+            {
+                "month": "August-17",
+                "revenue": "$1114047.91",
+                "expenses": "$1333715.14",
+                "profit": "$-219668.57"
+            },
+            {
+                "month": "September-17",
+                "revenue": "$2446622.67",
+                "expenses": "$2476577.17",
+                "profit": "$-29955.42"
+            },
+            {
+                "month": "October-17",
+                "revenue": "$1208885.39",
+                "expenses": "$1166907.08",
+                "profit": "$41980.29"
+            },
+            {
+                "month": "November-17",
+                "revenue": "$2555008.03",
+                "expenses": "$2498350.00",
+                "profit": "$56656.68"
+            },
+            {
+                "month": "December-17",
+                "revenue": "$2169719.50",
+                "expenses": "$2144641.46",
+                "profit": "$25078.97"
+            }
+        ],
+        "dailyData": [
+            {
+                "date": "2017-01-02",
+                "revenue": "$3776.10",
+                "expenses": "$2724.42",
+                "profit": "$1051.68"
+            },
+            {
+                "date": "2017-01-03",
+                "revenue": "$50132.74",
+                "expenses": "$32260.93",
+                "profit": "$17872.04"
+            },
+            {
+                "date": "2017-01-04",
+                "revenue": "$17234.31",
+                "expenses": "$13443.68",
+                "profit": "$3790.63"
+            },
+            {
+                "date": "2017-01-05",
+                "revenue": "$6519.66",
+                "expenses": "$10922.74",
+                "profit": "$-4402.88"
+            },
+            {
+                "date": "2017-01-07",
+                "revenue": "$17296.07",
+                "expenses": "$6194.92",
+                "profit": "$11101.39"
+            },
+            {
+                "date": "2017-01-08",
+                "revenue": "$9532.98",
+                "expenses": "$19364.12",
+                "profit": "$-9831.14"
+            },
+            {
+                "date": "2017-01-09",
+                "revenue": "$14762.45",
+                "expenses": "$6683.28",
+                "profit": "$8079.12"
+            },
+            {
+                "date": "2017-01-10",
+                "revenue": "$32805.40",
+                "expenses": "$19663.80",
+                "profit": "$13141.89"
+            },
+            {
+                "date": "2017-01-11",
+                "revenue": "$13317.28",
+                "expenses": "$11997.08",
+                "profit": "$1320.20"
+            },
+            {
+                "date": "2017-01-14",
+                "revenue": "$21260.72",
+                "expenses": "$27045.84",
+                "profit": "$-5785.04"
+            },
+            {
+                "date": "2017-01-15",
+                "revenue": "$93435.47",
+                "expenses": "$73496.29",
+                "profit": "$19939.36"
+            },
+            {
+                "date": "2017-01-16",
+                "revenue": "$12770.22",
+                "expenses": "$7562.72",
+                "profit": "$5207.50"
+            },
+            {
+                "date": "2017-01-17",
+                "revenue": "$21980.39",
+                "expenses": "$35242.39",
+                "profit": "$-13262.00"
+            },
+            {
+                "date": "2017-01-21",
+                "revenue": "$7726.72",
+                "expenses": "$2366.34",
+                "profit": "$5360.38"
+            },
+            {
+                "date": "2017-01-22",
+                "revenue": "$83251.79",
+                "expenses": "$92528.57",
+                "profit": "$-9276.31"
+            },
+            {
+                "date": "2017-01-23",
+                "revenue": "$17856.64",
+                "expenses": "$24886.86",
+                "profit": "$-7030.45"
+            },
+            {
+                "date": "2017-01-24",
+                "revenue": "$1772.32",
+                "expenses": "$922.45",
+                "profit": "$849.87"
+            },
+            {
+                "date": "2017-01-25",
+                "revenue": "$63824.00",
+                "expenses": "$59102.13",
+                "profit": "$4721.63"
+            },
+            {
+                "date": "2017-01-28",
+                "revenue": "$2053.12",
+                "expenses": "$293.60",
+                "profit": "$1759.52"
+            },
+            {
+                "date": "2017-01-30",
+                "revenue": "$69758.69",
+                "expenses": "$43047.93",
+                "profit": "$26711.11"
+            },
+            {
+                "date": "2017-01-31",
+                "revenue": "$43927.27",
+                "expenses": "$52240.83",
+                "profit": "$-8313.63"
+            },
+            {
+                "date": "2017-02-01",
+                "revenue": "$7320.63",
+                "expenses": "$14164.86",
+                "profit": "$-6844.23"
+            },
+            {
+                "date": "2017-02-02",
+                "revenue": "$37650.13",
+                "expenses": "$28203.98",
+                "profit": "$9446.24"
+            },
+            {
+                "date": "2017-02-03",
+                "revenue": "$9093.97",
+                "expenses": "$7933.26",
+                "profit": "$1160.71"
+            },
+            {
+                "date": "2017-02-04",
+                "revenue": "$33293.11",
+                "expenses": "$34504.25",
+                "profit": "$-1211.14"
+            },
+            {
+                "date": "2017-02-05",
+                "revenue": "$107975.06",
+                "expenses": "$84157.06",
+                "profit": "$23817.95"
+            },
+            {
+                "date": "2017-02-06",
+                "revenue": "$3495.52",
+                "expenses": "$3811.52",
+                "profit": "$-315.96"
+            },
+            {
+                "date": "2017-02-07",
+                "revenue": "$18413.74",
+                "expenses": "$21549.37",
+                "profit": "$-3135.70"
+            },
+            {
+                "date": "2017-02-08",
+                "revenue": "$34281.20",
+                "expenses": "$13878.00",
+                "profit": "$20403.00"
+            },
+            {
+                "date": "2017-02-09",
+                "revenue": "$16793.74",
+                "expenses": "$30912.50",
+                "profit": "$-14118.76"
+            },
+            {
+                "date": "2017-02-11",
+                "revenue": "$4855.59",
+                "expenses": "$6651.18",
+                "profit": "$-1795.59"
+            },
+            {
+                "date": "2017-02-12",
+                "revenue": "$6196.46",
+                "expenses": "$9394.56",
+                "profit": "$-3198.03"
+            },
+            {
+                "date": "2017-02-13",
+                "revenue": "$16623.94",
+                "expenses": "$22848.43",
+                "profit": "$-6224.26"
+            },
+            {
+                "date": "2017-02-14",
+                "revenue": "$26051.96",
+                "expenses": "$41884.71",
+                "profit": "$-15832.75"
+            },
+            {
+                "date": "2017-02-15",
+                "revenue": "$12697.72",
+                "expenses": "$24588.00",
+                "profit": "$-11890.28"
+            },
+            {
+                "date": "2017-02-16",
+                "revenue": "$50498.18",
+                "expenses": "$74092.16",
+                "profit": "$-23593.85"
+            },
+            {
+                "date": "2017-02-19",
+                "revenue": "$30437.37",
+                "expenses": "$19333.86",
+                "profit": "$11103.23"
+            },
+            {
+                "date": "2017-02-20",
+                "revenue": "$3472.65",
+                "expenses": "$7863.66",
+                "profit": "$-4391.01"
+            },
+            {
+                "date": "2017-02-21",
+                "revenue": "$57083.70",
+                "expenses": "$52620.84",
+                "profit": "$4462.44"
+            },
+            {
+                "date": "2017-02-22",
+                "revenue": "$21168.60",
+                "expenses": "$6540.97",
+                "profit": "$14627.63"
+            },
+            {
+                "date": "2017-02-23",
+                "revenue": "$18899.54",
+                "expenses": "$16045.26",
+                "profit": "$2854.28"
+            },
+            {
+                "date": "2017-02-25",
+                "revenue": "$708.62",
+                "expenses": "$8881.95",
+                "profit": "$-8173.33"
+            },
+            {
+                "date": "2017-02-27",
+                "revenue": "$16107.66",
+                "expenses": "$14147.34",
+                "profit": "$1960.32"
+            },
+            {
+                "date": "2017-02-28",
+                "revenue": "$17255.66",
+                "expenses": "$26574.30",
+                "profit": "$-9318.84"
+            },
+            {
+                "date": "2017-03-01",
+                "revenue": "$11470.61",
+                "expenses": "$20803.70",
+                "profit": "$-9332.86"
+            },
+            {
+                "date": "2017-03-03",
+                "revenue": "$72255.24",
+                "expenses": "$75656.54",
+                "profit": "$-3401.32"
+            },
+            {
+                "date": "2017-03-04",
+                "revenue": "$40528.43",
+                "expenses": "$31053.09",
+                "profit": "$9475.09"
+            },
+            {
+                "date": "2017-03-05",
+                "revenue": "$11890.60",
+                "expenses": "$12249.70",
+                "profit": "$-359.10"
+            },
+            {
+                "date": "2017-03-06",
+                "revenue": "$42272.14",
+                "expenses": "$68269.57",
+                "profit": "$-25997.21"
+            },
+            {
+                "date": "2017-03-07",
+                "revenue": "$13230.14",
+                "expenses": "$2891.68",
+                "profit": "$10338.46"
+            },
+            {
+                "date": "2017-03-08",
+                "revenue": "$77362.70",
+                "expenses": "$80330.64",
+                "profit": "$-2968.08"
+            },
+            {
+                "date": "2017-03-09",
+                "revenue": "$24443.61",
+                "expenses": "$29218.68",
+                "profit": "$-4774.83"
+            },
+            {
+                "date": "2017-03-10",
+                "revenue": "$40221.75",
+                "expenses": "$40298.00",
+                "profit": "$-76.42"
+            },
+            {
+                "date": "2017-03-11",
+                "revenue": "$40016.92",
+                "expenses": "$48554.85",
+                "profit": "$-8537.74"
+            },
+            {
+                "date": "2017-03-12",
+                "revenue": "$40695.95",
+                "expenses": "$46056.00",
+                "profit": "$-5360.04"
+            },
+            {
+                "date": "2017-03-13",
+                "revenue": "$148560.19",
+                "expenses": "$168643.29",
+                "profit": "$-20082.60"
+            },
+            {
+                "date": "2017-03-14",
+                "revenue": "$11035.90",
+                "expenses": "$34467.09",
+                "profit": "$-23431.10"
+            },
+            {
+                "date": "2017-03-15",
+                "revenue": "$37047.71",
+                "expenses": "$21640.25",
+                "profit": "$15407.46"
+            },
+            {
+                "date": "2017-03-17",
+                "revenue": "$58404.83",
+                "expenses": "$58739.13",
+                "profit": "$-334.59"
+            },
+            {
+                "date": "2017-03-18",
+                "revenue": "$15317.86",
+                "expenses": "$15656.22",
+                "profit": "$-338.36"
+            },
+            {
+                "date": "2017-03-19",
+                "revenue": "$10116.22",
+                "expenses": "$35679.91",
+                "profit": "$-25563.53"
+            },
+            {
+                "date": "2017-03-20",
+                "revenue": "$42472.96",
+                "expenses": "$41227.76",
+                "profit": "$1245.00"
+            },
+            {
+                "date": "2017-03-21",
+                "revenue": "$39140.08",
+                "expenses": "$36001.26",
+                "profit": "$3138.85"
+            },
+            {
+                "date": "2017-03-22",
+                "revenue": "$10612.36",
+                "expenses": "$9247.48",
+                "profit": "$1364.88"
+            },
+            {
+                "date": "2017-03-24",
+                "revenue": "$36277.26",
+                "expenses": "$18180.57",
+                "profit": "$18096.89"
+            },
+            {
+                "date": "2017-03-25",
+                "revenue": "$14838.04",
+                "expenses": "$14822.34",
+                "profit": "$15.49"
+            },
+            {
+                "date": "2017-03-26",
+                "revenue": "$47217.23",
+                "expenses": "$54227.53",
+                "profit": "$-7010.45"
+            },
+            {
+                "date": "2017-03-27",
+                "revenue": "$16482.96",
+                "expenses": "$25426.84",
+                "profit": "$-8943.75"
+            },
+            {
+                "date": "2017-03-28",
+                "revenue": "$12913.99",
+                "expenses": "$9218.46",
+                "profit": "$3695.68"
+            },
+            {
+                "date": "2017-03-29",
+                "revenue": "$45097.75",
+                "expenses": "$63223.25",
+                "profit": "$-18125.79"
+            },
+            {
+                "date": "2017-03-30",
+                "revenue": "$2787.48",
+                "expenses": "$4245.48",
+                "profit": "$-1458.00"
+            },
+            {
+                "date": "2017-03-31",
+                "revenue": "$26748.08",
+                "expenses": "$28387.52",
+                "profit": "$-1639.18"
+            },
+            {
+                "date": "2017-04-01",
+                "revenue": "$91391.59",
+                "expenses": "$135570.51",
+                "profit": "$-44178.76"
+            },
+            {
+                "date": "2017-04-02",
+                "revenue": "$3230.25",
+                "expenses": "$3202.30",
+                "profit": "$28.00"
+            },
+            {
+                "date": "2017-04-03",
+                "revenue": "$23761.91",
+                "expenses": "$20349.17",
+                "profit": "$3412.50"
+            },
+            {
+                "date": "2017-04-04",
+                "revenue": "$40078.18",
+                "expenses": "$18115.00",
+                "profit": "$21963.12"
+            },
+            {
+                "date": "2017-04-05",
+                "revenue": "$23562.41",
+                "expenses": "$19215.61",
+                "profit": "$4346.74"
+            },
+            {
+                "date": "2017-04-06",
+                "revenue": "$3275.80",
+                "expenses": "$377.75",
+                "profit": "$2898.05"
+            },
+            {
+                "date": "2017-04-07",
+                "revenue": "$6683.21",
+                "expenses": "$27313.76",
+                "profit": "$-20630.65"
+            },
+            {
+                "date": "2017-04-08",
+                "revenue": "$106488.40",
+                "expenses": "$111142.08",
+                "profit": "$-4653.68"
+            },
+            {
+                "date": "2017-04-09",
+                "revenue": "$28721.32",
+                "expenses": "$20690.90",
+                "profit": "$8030.73"
+            },
+            {
+                "date": "2017-04-10",
+                "revenue": "$70131.91",
+                "expenses": "$46615.51",
+                "profit": "$23515.96"
+            },
+            {
+                "date": "2017-04-12",
+                "revenue": "$69802.67",
+                "expenses": "$58096.91",
+                "profit": "$11705.60"
+            },
+            {
+                "date": "2017-04-13",
+                "revenue": "$8460.32",
+                "expenses": "$5105.76",
+                "profit": "$3354.56"
+            },
+            {
+                "date": "2017-04-14",
+                "revenue": "$27707.88",
+                "expenses": "$23671.52",
+                "profit": "$4036.01"
+            },
+            {
+                "date": "2017-04-15",
+                "revenue": "$35395.04",
+                "expenses": "$28795.65",
+                "profit": "$6599.55"
+            },
+            {
+                "date": "2017-04-16",
+                "revenue": "$25976.74",
+                "expenses": "$29346.29",
+                "profit": "$-3369.82"
+            },
+            {
+                "date": "2017-04-17",
+                "revenue": "$14873.87",
+                "expenses": "$18986.38",
+                "profit": "$-4112.54"
+            },
+            {
+                "date": "2017-04-18",
+                "revenue": "$32264.13",
+                "expenses": "$64263.55",
+                "profit": "$-31999.45"
+            },
+            {
+                "date": "2017-04-19",
+                "revenue": "$108109.30",
+                "expenses": "$90728.82",
+                "profit": "$17380.46"
+            },
+            {
+                "date": "2017-04-21",
+                "revenue": "$29781.63",
+                "expenses": "$25608.75",
+                "profit": "$4172.83"
+            },
+            {
+                "date": "2017-04-22",
+                "revenue": "$67669.10",
+                "expenses": "$78306.52",
+                "profit": "$-10637.98"
+            },
+            {
+                "date": "2017-04-23",
+                "revenue": "$40643.03",
+                "expenses": "$36429.18",
+                "profit": "$4213.85"
+            },
+            {
+                "date": "2017-04-24",
+                "revenue": "$24214.50",
+                "expenses": "$50664.46",
+                "profit": "$-26449.96"
+            },
+            {
+                "date": "2017-04-25",
+                "revenue": "$15704.73",
+                "expenses": "$19321.14",
+                "profit": "$-3616.61"
+            },
+            {
+                "date": "2017-04-26",
+                "revenue": "$5768.84",
+                "expenses": "$2690.60",
+                "profit": "$3078.02"
+            },
+            {
+                "date": "2017-04-28",
+                "revenue": "$31258.76",
+                "expenses": "$44232.29",
+                "profit": "$-12973.45"
+            },
+            {
+                "date": "2017-04-30",
+                "revenue": "$8452.48",
+                "expenses": "$17648.91",
+                "profit": "$-9196.39"
+            },
+            {
+                "date": "2017-05-01",
+                "revenue": "$23453.09",
+                "expenses": "$33421.63",
+                "profit": "$-9968.46"
+            },
+            {
+                "date": "2017-05-02",
+                "revenue": "$64242.07",
+                "expenses": "$42998.52",
+                "profit": "$21243.85"
+            },
+            {
+                "date": "2017-05-03",
+                "revenue": "$63275.40",
+                "expenses": "$75646.30",
+                "profit": "$-12370.24"
+            },
+            {
+                "date": "2017-05-05",
+                "revenue": "$107884.08",
+                "expenses": "$70400.90",
+                "profit": "$37483.19"
+            },
+            {
+                "date": "2017-05-06",
+                "revenue": "$30243.69",
+                "expenses": "$55872.16",
+                "profit": "$-25628.18"
+            },
+            {
+                "date": "2017-05-07",
+                "revenue": "$19300.51",
+                "expenses": "$18233.24",
+                "profit": "$1067.27"
+            },
+            {
+                "date": "2017-05-08",
+                "revenue": "$43994.10",
+                "expenses": "$34602.36",
+                "profit": "$9391.74"
+            },
+            {
+                "date": "2017-05-09",
+                "revenue": "$67893.48",
+                "expenses": "$70914.09",
+                "profit": "$-3020.71"
+            },
+            {
+                "date": "2017-05-10",
+                "revenue": "$29712.88",
+                "expenses": "$29940.10",
+                "profit": "$-227.22"
+            },
+            {
+                "date": "2017-05-11",
+                "revenue": "$8787.45",
+                "expenses": "$7741.23",
+                "profit": "$1046.22"
+            },
+            {
+                "date": "2017-05-12",
+                "revenue": "$61944.72",
+                "expenses": "$35674.91",
+                "profit": "$26269.61"
+            },
+            {
+                "date": "2017-05-14",
+                "revenue": "$47450.69",
+                "expenses": "$69782.36",
+                "profit": "$-22331.52"
+            },
+            {
+                "date": "2017-05-15",
+                "revenue": "$16264.18",
+                "expenses": "$39513.69",
+                "profit": "$-23249.89"
+            },
+            {
+                "date": "2017-05-16",
+                "revenue": "$44289.20",
+                "expenses": "$27949.39",
+                "profit": "$16339.59"
+            },
+            {
+                "date": "2017-05-17",
+                "revenue": "$35999.24",
+                "expenses": "$34181.71",
+                "profit": "$1817.94"
+            },
+            {
+                "date": "2017-05-18",
+                "revenue": "$10836.55",
+                "expenses": "$8517.18",
+                "profit": "$2319.22"
+            },
+            {
+                "date": "2017-05-19",
+                "revenue": "$71194.02",
+                "expenses": "$63759.53",
+                "profit": "$7434.75"
+            },
+            {
+                "date": "2017-05-20",
+                "revenue": "$20013.68",
+                "expenses": "$15247.53",
+                "profit": "$4766.15"
+            },
+            {
+                "date": "2017-05-21",
+                "revenue": "$53739.50",
+                "expenses": "$58662.27",
+                "profit": "$-4923.01"
+            },
+            {
+                "date": "2017-05-22",
+                "revenue": "$44192.73",
+                "expenses": "$49837.03",
+                "profit": "$-5644.13"
+            },
+            {
+                "date": "2017-05-23",
+                "revenue": "$49890.11",
+                "expenses": "$63197.85",
+                "profit": "$-13307.74"
+            },
+            {
+                "date": "2017-05-24",
+                "revenue": "$37629.06",
+                "expenses": "$29576.99",
+                "profit": "$8052.29"
+            },
+            {
+                "date": "2017-05-25",
+                "revenue": "$28318.03",
+                "expenses": "$29368.69",
+                "profit": "$-1050.66"
+            },
+            {
+                "date": "2017-05-26",
+                "revenue": "$135771.37",
+                "expenses": "$156185.58",
+                "profit": "$-20414.58"
+            },
+            {
+                "date": "2017-05-27",
+                "revenue": "$43348.20",
+                "expenses": "$55615.00",
+                "profit": "$-12267.04"
+            },
+            {
+                "date": "2017-05-28",
+                "revenue": "$56438.32",
+                "expenses": "$65380.58",
+                "profit": "$-8942.46"
+            },
+            {
+                "date": "2017-05-29",
+                "revenue": "$55946.71",
+                "expenses": "$56626.42",
+                "profit": "$-679.71"
+            },
+            {
+                "date": "2017-05-30",
+                "revenue": "$178413.18",
+                "expenses": "$200156.30",
+                "profit": "$-21742.46"
+            },
+            {
+                "date": "2017-05-31",
+                "revenue": "$24739.12",
+                "expenses": "$33826.26",
+                "profit": "$-9087.14"
+            },
+            {
+                "date": "2017-06-02",
+                "revenue": "$9224.11",
+                "expenses": "$43590.11",
+                "profit": "$-34366.00"
+            },
+            {
+                "date": "2017-06-04",
+                "revenue": "$69503.99",
+                "expenses": "$50146.61",
+                "profit": "$19357.67"
+            },
+            {
+                "date": "2017-06-05",
+                "revenue": "$35276.31",
+                "expenses": "$44220.97",
+                "profit": "$-8944.89"
+            },
+            {
+                "date": "2017-06-06",
+                "revenue": "$74361.81",
+                "expenses": "$66786.34",
+                "profit": "$7575.24"
+            },
+            {
+                "date": "2017-06-07",
+                "revenue": "$21923.15",
+                "expenses": "$18041.51",
+                "profit": "$3881.51"
+            },
+            {
+                "date": "2017-06-09",
+                "revenue": "$24984.75",
+                "expenses": "$12344.88",
+                "profit": "$12640.07"
+            },
+            {
+                "date": "2017-06-10",
+                "revenue": "$39111.72",
+                "expenses": "$25739.84",
+                "profit": "$13371.76"
+            },
+            {
+                "date": "2017-06-11",
+                "revenue": "$22449.99",
+                "expenses": "$43400.95",
+                "profit": "$-20950.95"
+            },
+            {
+                "date": "2017-06-12",
+                "revenue": "$134883.20",
+                "expenses": "$143067.34",
+                "profit": "$-8183.93"
+            },
+            {
+                "date": "2017-06-13",
+                "revenue": "$18596.57",
+                "expenses": "$7313.31",
+                "profit": "$11283.26"
+            },
+            {
+                "date": "2017-06-14",
+                "revenue": "$82640.57",
+                "expenses": "$70397.81",
+                "profit": "$12242.18"
+            },
+            {
+                "date": "2017-06-15",
+                "revenue": "$14520.00",
+                "expenses": "$10767.60",
+                "profit": "$3752.40"
+            },
+            {
+                "date": "2017-06-16",
+                "revenue": "$10823.50",
+                "expenses": "$23760.13",
+                "profit": "$-12936.39"
+            },
+            {
+                "date": "2017-06-17",
+                "revenue": "$105886.51",
+                "expenses": "$123583.81",
+                "profit": "$-17697.78"
+            },
+            {
+                "date": "2017-06-18",
+                "revenue": "$36296.18",
+                "expenses": "$36523.11",
+                "profit": "$-226.84"
+            },
+            {
+                "date": "2017-06-19",
+                "revenue": "$8716.41",
+                "expenses": "$13266.12",
+                "profit": "$-4549.71"
+            },
+            {
+                "date": "2017-06-20",
+                "revenue": "$144645.80",
+                "expenses": "$124957.74",
+                "profit": "$19688.15"
+            },
+            {
+                "date": "2017-06-21",
+                "revenue": "$28373.85",
+                "expenses": "$21787.58",
+                "profit": "$6586.27"
+            },
+            {
+                "date": "2017-06-23",
+                "revenue": "$104490.54",
+                "expenses": "$104221.37",
+                "profit": "$269.14"
+            },
+            {
+                "date": "2017-06-24",
+                "revenue": "$47692.41",
+                "expenses": "$34766.01",
+                "profit": "$12926.58"
+            },
+            {
+                "date": "2017-06-25",
+                "revenue": "$36020.34",
+                "expenses": "$23031.68",
+                "profit": "$12988.63"
+            },
+            {
+                "date": "2017-06-26",
+                "revenue": "$91976.58",
+                "expenses": "$97279.27",
+                "profit": "$-5302.61"
+            },
+            {
+                "date": "2017-06-27",
+                "revenue": "$8597.11",
+                "expenses": "$14837.11",
+                "profit": "$-6239.92"
+            },
+            {
+                "date": "2017-06-28",
+                "revenue": "$47538.66",
+                "expenses": "$35595.80",
+                "profit": "$11942.82"
+            },
+            {
+                "date": "2017-06-29",
+                "revenue": "$1826.07",
+                "expenses": "$1297.38",
+                "profit": "$528.69"
+            },
+            {
+                "date": "2017-06-30",
+                "revenue": "$43354.08",
+                "expenses": "$14282.44",
+                "profit": "$29071.64"
+            },
+            {
+                "date": "2017-07-01",
+                "revenue": "$51632.37",
+                "expenses": "$78946.52",
+                "profit": "$-27314.15"
+            },
+            {
+                "date": "2017-07-02",
+                "revenue": "$11990.87",
+                "expenses": "$10778.29",
+                "profit": "$1212.74"
+            },
+            {
+                "date": "2017-07-03",
+                "revenue": "$41297.30",
+                "expenses": "$34465.90",
+                "profit": "$6831.40"
+            },
+            {
+                "date": "2017-07-04",
+                "revenue": "$23081.82",
+                "expenses": "$42548.00",
+                "profit": "$-19466.16"
+            },
+            {
+                "date": "2017-07-07",
+                "revenue": "$85453.88",
+                "expenses": "$120709.01",
+                "profit": "$-35255.06"
+            },
+            {
+                "date": "2017-07-08",
+                "revenue": "$91768.68",
+                "expenses": "$79156.81",
+                "profit": "$12611.99"
+            },
+            {
+                "date": "2017-07-09",
+                "revenue": "$7885.53",
+                "expenses": "$4596.48",
+                "profit": "$3289.05"
+            },
+            {
+                "date": "2017-07-10",
+                "revenue": "$21308.17",
+                "expenses": "$17677.05",
+                "profit": "$3631.34"
+            },
+            {
+                "date": "2017-07-12",
+                "revenue": "$7278.12",
+                "expenses": "$6266.12",
+                "profit": "$1012.00"
+            },
+            {
+                "date": "2017-07-14",
+                "revenue": "$107261.09",
+                "expenses": "$124828.05",
+                "profit": "$-17567.17"
+            },
+            {
+                "date": "2017-07-15",
+                "revenue": "$20477.57",
+                "expenses": "$14065.03",
+                "profit": "$6412.37"
+            },
+            {
+                "date": "2017-07-16",
+                "revenue": "$79290.92",
+                "expenses": "$119182.12",
+                "profit": "$-39891.25"
+            },
+            {
+                "date": "2017-07-17",
+                "revenue": "$125514.83",
+                "expenses": "$112913.33",
+                "profit": "$12601.30"
+            },
+            {
+                "date": "2017-07-18",
+                "revenue": "$56740.76",
+                "expenses": "$57040.80",
+                "profit": "$-300.10"
+            },
+            {
+                "date": "2017-07-19",
+                "revenue": "$50677.04",
+                "expenses": "$41377.38",
+                "profit": "$9299.81"
+            },
+            {
+                "date": "2017-07-20",
+                "revenue": "$1190.91",
+                "expenses": "$2698.86",
+                "profit": "$-1507.95"
+            },
+            {
+                "date": "2017-07-21",
+                "revenue": "$40376.86",
+                "expenses": "$42802.95",
+                "profit": "$-2425.53"
+            },
+            {
+                "date": "2017-07-22",
+                "revenue": "$60528.14",
+                "expenses": "$81992.56",
+                "profit": "$-21464.31"
+            },
+            {
+                "date": "2017-07-23",
+                "revenue": "$81512.20",
+                "expenses": "$55006.58",
+                "profit": "$26505.77"
+            },
+            {
+                "date": "2017-07-24",
+                "revenue": "$17580.48",
+                "expenses": "$15508.72",
+                "profit": "$2071.76"
+            },
+            {
+                "date": "2017-07-25",
+                "revenue": "$96344.86",
+                "expenses": "$134201.83",
+                "profit": "$-37856.81"
+            },
+            {
+                "date": "2017-07-28",
+                "revenue": "$65992.31",
+                "expenses": "$50726.22",
+                "profit": "$15265.67"
+            },
+            {
+                "date": "2017-07-29",
+                "revenue": "$21663.62",
+                "expenses": "$19307.96",
+                "profit": "$2355.61"
+            },
+            {
+                "date": "2017-07-30",
+                "revenue": "$12604.34",
+                "expenses": "$21232.80",
+                "profit": "$-8628.74"
+            },
+            {
+                "date": "2017-07-31",
+                "revenue": "$39357.16",
+                "expenses": "$28988.59",
+                "profit": "$10368.53"
+            },
+            {
+                "date": "2017-08-01",
+                "revenue": "$26779.39",
+                "expenses": "$24988.84",
+                "profit": "$1790.38"
+            },
+            {
+                "date": "2017-08-02",
+                "revenue": "$25443.47",
+                "expenses": "$16650.31",
+                "profit": "$8793.16"
+            },
+            {
+                "date": "2017-08-03",
+                "revenue": "$9987.72",
+                "expenses": "$19589.76",
+                "profit": "$-9602.04"
+            },
+            {
+                "date": "2017-08-04",
+                "revenue": "$43758.41",
+                "expenses": "$63289.53",
+                "profit": "$-19530.74"
+            },
+            {
+                "date": "2017-08-05",
+                "revenue": "$4161.90",
+                "expenses": "$1728.20",
+                "profit": "$2433.65"
+            },
+            {
+                "date": "2017-08-06",
+                "revenue": "$25203.33",
+                "expenses": "$34077.92",
+                "profit": "$-8874.48"
+            },
+            {
+                "date": "2017-08-07",
+                "revenue": "$3524.64",
+                "expenses": "$2775.96",
+                "profit": "$748.68"
+            },
+            {
+                "date": "2017-08-08",
+                "revenue": "$31944.99",
+                "expenses": "$43442.19",
+                "profit": "$-11497.23"
+            },
+            {
+                "date": "2017-08-09",
+                "revenue": "$15576.33",
+                "expenses": "$20977.55",
+                "profit": "$-5401.22"
+            },
+            {
+                "date": "2017-08-11",
+                "revenue": "$30158.14",
+                "expenses": "$35364.24",
+                "profit": "$-5206.28"
+            },
+            {
+                "date": "2017-08-12",
+                "revenue": "$36579.75",
+                "expenses": "$46205.50",
+                "profit": "$-9625.80"
+            },
+            {
+                "date": "2017-08-13",
+                "revenue": "$50609.22",
+                "expenses": "$53492.24",
+                "profit": "$-2883.30"
+            },
+            {
+                "date": "2017-08-14",
+                "revenue": "$36480.01",
+                "expenses": "$65660.94",
+                "profit": "$-29181.30"
+            },
+            {
+                "date": "2017-08-15",
+                "revenue": "$58342.44",
+                "expenses": "$91282.55",
+                "profit": "$-32940.13"
+            },
+            {
+                "date": "2017-08-16",
+                "revenue": "$19813.57",
+                "expenses": "$50402.53",
+                "profit": "$-30588.96"
+            },
+            {
+                "date": "2017-08-17",
+                "revenue": "$12644.31",
+                "expenses": "$3419.62",
+                "profit": "$9224.69"
+            },
+            {
+                "date": "2017-08-18",
+                "revenue": "$28890.47",
+                "expenses": "$36874.36",
+                "profit": "$-7983.89"
+            },
+            {
+                "date": "2017-08-19",
+                "revenue": "$12573.15",
+                "expenses": "$19982.72",
+                "profit": "$-7409.80"
+            },
+            {
+                "date": "2017-08-20",
+                "revenue": "$4828.45",
+                "expenses": "$10052.35",
+                "profit": "$-5223.90"
+            },
+            {
+                "date": "2017-08-21",
+                "revenue": "$56654.80",
+                "expenses": "$54001.50",
+                "profit": "$2652.98"
+            },
+            {
+                "date": "2017-08-22",
+                "revenue": "$56290.28",
+                "expenses": "$77269.94",
+                "profit": "$-20979.46"
+            },
+            {
+                "date": "2017-08-23",
+                "revenue": "$97251.14",
+                "expenses": "$142908.26",
+                "profit": "$-45657.56"
+            },
+            {
+                "date": "2017-08-26",
+                "revenue": "$138035.56",
+                "expenses": "$147311.69",
+                "profit": "$-9276.06"
+            },
+            {
+                "date": "2017-08-27",
+                "revenue": "$109074.99",
+                "expenses": "$102515.29",
+                "profit": "$6559.56"
+            },
+            {
+                "date": "2017-08-28",
+                "revenue": "$36282.41",
+                "expenses": "$30344.08",
+                "profit": "$5938.24"
+            },
+            {
+                "date": "2017-08-29",
+                "revenue": "$71962.42",
+                "expenses": "$58921.95",
+                "profit": "$13040.59"
+            },
+            {
+                "date": "2017-08-30",
+                "revenue": "$59373.62",
+                "expenses": "$65107.12",
+                "profit": "$-5733.35"
+            },
+            {
+                "date": "2017-08-31",
+                "revenue": "$11823.00",
+                "expenses": "$15078.00",
+                "profit": "$-3255.00"
+            },
+            {
+                "date": "2017-09-01",
+                "revenue": "$153842.94",
+                "expenses": "$143734.54",
+                "profit": "$10108.66"
+            },
+            {
+                "date": "2017-09-02",
+                "revenue": "$143437.20",
+                "expenses": "$114960.34",
+                "profit": "$28477.00"
+            },
+            {
+                "date": "2017-09-03",
+                "revenue": "$84477.88",
+                "expenses": "$102191.70",
+                "profit": "$-17713.78"
+            },
+            {
+                "date": "2017-09-04",
+                "revenue": "$90623.57",
+                "expenses": "$78234.34",
+                "profit": "$12389.29"
+            },
+            {
+                "date": "2017-09-05",
+                "revenue": "$297528.92",
+                "expenses": "$257437.32",
+                "profit": "$40090.98"
+            },
+            {
+                "date": "2017-09-06",
+                "revenue": "$77360.45",
+                "expenses": "$47823.26",
+                "profit": "$29537.08"
+            },
+            {
+                "date": "2017-09-08",
+                "revenue": "$170000.65",
+                "expenses": "$161603.20",
+                "profit": "$8398.06"
+            },
+            {
+                "date": "2017-09-09",
+                "revenue": "$21446.38",
+                "expenses": "$25262.63",
+                "profit": "$-3816.03"
+            },
+            {
+                "date": "2017-09-10",
+                "revenue": "$76253.72",
+                "expenses": "$108324.03",
+                "profit": "$-32070.67"
+            },
+            {
+                "date": "2017-09-11",
+                "revenue": "$121976.73",
+                "expenses": "$100679.67",
+                "profit": "$21296.64"
+            },
+            {
+                "date": "2017-09-12",
+                "revenue": "$113590.20",
+                "expenses": "$129210.31",
+                "profit": "$-15620.27"
+            },
+            {
+                "date": "2017-09-13",
+                "revenue": "$94749.91",
+                "expenses": "$92228.38",
+                "profit": "$2521.24"
+            },
+            {
+                "date": "2017-09-14",
+                "revenue": "$19097.68",
+                "expenses": "$22886.52",
+                "profit": "$-3788.74"
+            },
+            {
+                "date": "2017-09-15",
+                "revenue": "$37508.02",
+                "expenses": "$33354.40",
+                "profit": "$4153.39"
+            },
+            {
+                "date": "2017-09-16",
+                "revenue": "$23836.14",
+                "expenses": "$26140.18",
+                "profit": "$-2303.87"
+            },
+            {
+                "date": "2017-09-17",
+                "revenue": "$106280.35",
+                "expenses": "$89353.66",
+                "profit": "$16926.23"
+            },
+            {
+                "date": "2017-09-18",
+                "revenue": "$105384.90",
+                "expenses": "$88942.90",
+                "profit": "$16442.10"
+            },
+            {
+                "date": "2017-09-19",
+                "revenue": "$111427.77",
+                "expenses": "$150891.59",
+                "profit": "$-39463.67"
+            },
+            {
+                "date": "2017-09-20",
+                "revenue": "$77596.18",
+                "expenses": "$86727.50",
+                "profit": "$-9131.33"
+            },
+            {
+                "date": "2017-09-22",
+                "revenue": "$65607.38",
+                "expenses": "$90216.39",
+                "profit": "$-24609.21"
+            },
+            {
+                "date": "2017-09-23",
+                "revenue": "$104827.21",
+                "expenses": "$81770.42",
+                "profit": "$23056.95"
+            },
+            {
+                "date": "2017-09-24",
+                "revenue": "$59169.41",
+                "expenses": "$91341.27",
+                "profit": "$-32171.84"
+            },
+            {
+                "date": "2017-09-25",
+                "revenue": "$65812.54",
+                "expenses": "$73866.41",
+                "profit": "$-8054.01"
+            },
+            {
+                "date": "2017-09-26",
+                "revenue": "$102181.70",
+                "expenses": "$137763.04",
+                "profit": "$-35581.29"
+            },
+            {
+                "date": "2017-09-27",
+                "revenue": "$35655.33",
+                "expenses": "$46849.80",
+                "profit": "$-11194.64"
+            },
+            {
+                "date": "2017-09-28",
+                "revenue": "$4635.84",
+                "expenses": "$1716.66",
+                "profit": "$2919.18"
+            },
+            {
+                "date": "2017-09-29",
+                "revenue": "$64950.82",
+                "expenses": "$78996.50",
+                "profit": "$-14045.51"
+            },
+            {
+                "date": "2017-09-30",
+                "revenue": "$17362.85",
+                "expenses": "$14070.21",
+                "profit": "$3292.64"
+            },
+            {
+                "date": "2017-10-01",
+                "revenue": "$19632.71",
+                "expenses": "$28759.62",
+                "profit": "$-9126.91"
+            },
+            {
+                "date": "2017-10-02",
+                "revenue": "$17128.94",
+                "expenses": "$28871.26",
+                "profit": "$-11742.30"
+            },
+            {
+                "date": "2017-10-03",
+                "revenue": "$43686.56",
+                "expenses": "$44497.36",
+                "profit": "$-810.66"
+            },
+            {
+                "date": "2017-10-04",
+                "revenue": "$53332.50",
+                "expenses": "$73554.51",
+                "profit": "$-20221.82"
+            },
+            {
+                "date": "2017-10-06",
+                "revenue": "$37107.16",
+                "expenses": "$18425.23",
+                "profit": "$18682.03"
+            },
+            {
+                "date": "2017-10-07",
+                "revenue": "$33299.20",
+                "expenses": "$34806.07",
+                "profit": "$-1506.73"
+            },
+            {
+                "date": "2017-10-08",
+                "revenue": "$28672.90",
+                "expenses": "$16811.43",
+                "profit": "$11861.47"
+            },
+            {
+                "date": "2017-10-09",
+                "revenue": "$57139.22",
+                "expenses": "$38885.07",
+                "profit": "$18254.37"
+            },
+            {
+                "date": "2017-10-10",
+                "revenue": "$50883.83",
+                "expenses": "$38335.66",
+                "profit": "$12548.22"
+            },
+            {
+                "date": "2017-10-11",
+                "revenue": "$19205.46",
+                "expenses": "$5156.32",
+                "profit": "$14049.30"
+            },
+            {
+                "date": "2017-10-13",
+                "revenue": "$122154.88",
+                "expenses": "$180010.57",
+                "profit": "$-57855.17"
+            },
+            {
+                "date": "2017-10-14",
+                "revenue": "$51705.52",
+                "expenses": "$51441.20",
+                "profit": "$264.51"
+            },
+            {
+                "date": "2017-10-15",
+                "revenue": "$58585.05",
+                "expenses": "$50718.86",
+                "profit": "$7866.39"
+            },
+            {
+                "date": "2017-10-16",
+                "revenue": "$15509.10",
+                "expenses": "$9688.30",
+                "profit": "$5820.97"
+            },
+            {
+                "date": "2017-10-17",
+                "revenue": "$46961.35",
+                "expenses": "$37141.20",
+                "profit": "$9820.16"
+            },
+            {
+                "date": "2017-10-18",
+                "revenue": "$523.24",
+                "expenses": "$1218.94",
+                "profit": "$-695.70"
+            },
+            {
+                "date": "2017-10-20",
+                "revenue": "$54282.59",
+                "expenses": "$84601.57",
+                "profit": "$-30319.03"
+            },
+            {
+                "date": "2017-10-21",
+                "revenue": "$119738.22",
+                "expenses": "$77593.22",
+                "profit": "$42145.21"
+            },
+            {
+                "date": "2017-10-22",
+                "revenue": "$21526.19",
+                "expenses": "$22776.18",
+                "profit": "$-1249.76"
+            },
+            {
+                "date": "2017-10-23",
+                "revenue": "$45057.70",
+                "expenses": "$43055.14",
+                "profit": "$2002.74"
+            },
+            {
+                "date": "2017-10-24",
+                "revenue": "$41743.46",
+                "expenses": "$61014.67",
+                "profit": "$-19271.28"
+            },
+            {
+                "date": "2017-10-25",
+                "revenue": "$76.28",
+                "expenses": "$1674.04",
+                "profit": "$-1597.76"
+            },
+            {
+                "date": "2017-10-27",
+                "revenue": "$67287.87",
+                "expenses": "$51722.85",
+                "profit": "$15564.99"
+            },
+            {
+                "date": "2017-10-28",
+                "revenue": "$111162.84",
+                "expenses": "$90049.05",
+                "profit": "$21113.77"
+            },
+            {
+                "date": "2017-10-29",
+                "revenue": "$13739.91",
+                "expenses": "$6150.45",
+                "profit": "$7589.46"
+            },
+            {
+                "date": "2017-10-30",
+                "revenue": "$32088.66",
+                "expenses": "$28923.52",
+                "profit": "$3164.77"
+            },
+            {
+                "date": "2017-10-31",
+                "revenue": "$46654.05",
+                "expenses": "$41024.79",
+                "profit": "$5629.05"
+            },
+            {
+                "date": "2017-11-01",
+                "revenue": "$13836.99",
+                "expenses": "$14516.32",
+                "profit": "$-679.22"
+            },
+            {
+                "date": "2017-11-03",
+                "revenue": "$153592.10",
+                "expenses": "$118889.77",
+                "profit": "$34701.91"
+            },
+            {
+                "date": "2017-11-04",
+                "revenue": "$122900.51",
+                "expenses": "$155245.30",
+                "profit": "$-32344.90"
+            },
+            {
+                "date": "2017-11-05",
+                "revenue": "$122309.75",
+                "expenses": "$101408.27",
+                "profit": "$20901.39"
+            },
+            {
+                "date": "2017-11-06",
+                "revenue": "$44317.68",
+                "expenses": "$16352.78",
+                "profit": "$27965.12"
+            },
+            {
+                "date": "2017-11-07",
+                "revenue": "$131851.91",
+                "expenses": "$143903.22",
+                "profit": "$-12051.85"
+            },
+            {
+                "date": "2017-11-08",
+                "revenue": "$5268.64",
+                "expenses": "$10931.12",
+                "profit": "$-5662.48"
+            },
+            {
+                "date": "2017-11-09",
+                "revenue": "$14587.52",
+                "expenses": "$13344.80",
+                "profit": "$1242.72"
+            },
+            {
+                "date": "2017-11-10",
+                "revenue": "$223928.53",
+                "expenses": "$263833.51",
+                "profit": "$-39905.42"
+            },
+            {
+                "date": "2017-11-11",
+                "revenue": "$136524.52",
+                "expenses": "$161836.41",
+                "profit": "$-25312.35"
+            },
+            {
+                "date": "2017-11-12",
+                "revenue": "$105365.18",
+                "expenses": "$86489.48",
+                "profit": "$18875.65"
+            },
+            {
+                "date": "2017-11-13",
+                "revenue": "$124448.70",
+                "expenses": "$111275.80",
+                "profit": "$13172.86"
+            },
+            {
+                "date": "2017-11-14",
+                "revenue": "$156504.98",
+                "expenses": "$106819.86",
+                "profit": "$49684.95"
+            },
+            {
+                "date": "2017-11-15",
+                "revenue": "$26234.89",
+                "expenses": "$28128.97",
+                "profit": "$-1894.08"
+            },
+            {
+                "date": "2017-11-16",
+                "revenue": "$4408.69",
+                "expenses": "$25575.48",
+                "profit": "$-21166.79"
+            },
+            {
+                "date": "2017-11-17",
+                "revenue": "$12587.09",
+                "expenses": "$21617.42",
+                "profit": "$-9030.44"
+            },
+            {
+                "date": "2017-11-18",
+                "revenue": "$120109.36",
+                "expenses": "$115359.84",
+                "profit": "$4749.63"
+            },
+            {
+                "date": "2017-11-19",
+                "revenue": "$122778.90",
+                "expenses": "$127557.46",
+                "profit": "$-4778.97"
+            },
+            {
+                "date": "2017-11-20",
+                "revenue": "$167149.70",
+                "expenses": "$155190.73",
+                "profit": "$11959.24"
+            },
+            {
+                "date": "2017-11-21",
+                "revenue": "$73144.45",
+                "expenses": "$52058.44",
+                "profit": "$21086.37"
+            },
+            {
+                "date": "2017-11-22",
+                "revenue": "$74343.66",
+                "expenses": "$70165.86",
+                "profit": "$4178.02"
+            },
+            {
+                "date": "2017-11-23",
+                "revenue": "$12793.78",
+                "expenses": "$7217.74",
+                "profit": "$5576.03"
+            },
+            {
+                "date": "2017-11-24",
+                "revenue": "$210035.15",
+                "expenses": "$229711.00",
+                "profit": "$-19676.21"
+            },
+            {
+                "date": "2017-11-25",
+                "revenue": "$77310.99",
+                "expenses": "$80647.31",
+                "profit": "$-3336.23"
+            },
+            {
+                "date": "2017-11-26",
+                "revenue": "$146605.26",
+                "expenses": "$119645.65",
+                "profit": "$26959.73"
+            },
+            {
+                "date": "2017-11-27",
+                "revenue": "$40882.25",
+                "expenses": "$43173.50",
+                "profit": "$-2291.31"
+            },
+            {
+                "date": "2017-11-28",
+                "revenue": "$81508.65",
+                "expenses": "$72268.06",
+                "profit": "$9240.68"
+            },
+            {
+                "date": "2017-11-29",
+                "revenue": "$4665.56",
+                "expenses": "$13016.90",
+                "profit": "$-8351.34"
+            },
+            {
+                "date": "2017-11-30",
+                "revenue": "$25012.64",
+                "expenses": "$32169.00",
+                "profit": "$-7156.03"
+            },
+            {
+                "date": "2017-12-01",
+                "revenue": "$129740.06",
+                "expenses": "$157123.30",
+                "profit": "$-27382.73"
+            },
+            {
+                "date": "2017-12-02",
+                "revenue": "$79908.12",
+                "expenses": "$114874.63",
+                "profit": "$-34966.22"
+            },
+            {
+                "date": "2017-12-03",
+                "revenue": "$97762.55",
+                "expenses": "$82512.03",
+                "profit": "$15250.75"
+            },
+            {
+                "date": "2017-12-04",
+                "revenue": "$44154.24",
+                "expenses": "$81707.56",
+                "profit": "$-37553.32"
+            },
+            {
+                "date": "2017-12-05",
+                "revenue": "$103749.14",
+                "expenses": "$116889.81",
+                "profit": "$-13140.76"
+            },
+            {
+                "date": "2017-12-06",
+                "revenue": "$86815.94",
+                "expenses": "$67302.89",
+                "profit": "$19513.09"
+            },
+            {
+                "date": "2017-12-08",
+                "revenue": "$118687.93",
+                "expenses": "$88287.07",
+                "profit": "$30400.59"
+            },
+            {
+                "date": "2017-12-09",
+                "revenue": "$155455.63",
+                "expenses": "$118876.14",
+                "profit": "$36579.49"
+            },
+            {
+                "date": "2017-12-10",
+                "revenue": "$115908.56",
+                "expenses": "$64903.69",
+                "profit": "$51004.60"
+            },
+            {
+                "date": "2017-12-11",
+                "revenue": "$147315.35",
+                "expenses": "$181079.17",
+                "profit": "$-33763.56"
+            },
+            {
+                "date": "2017-12-12",
+                "revenue": "$70082.83",
+                "expenses": "$58598.37",
+                "profit": "$11484.38"
+            },
+            {
+                "date": "2017-12-13",
+                "revenue": "$8786.62",
+                "expenses": "$10729.49",
+                "profit": "$-1942.92"
+            },
+            {
+                "date": "2017-12-14",
+                "revenue": "$52170.82",
+                "expenses": "$87434.40",
+                "profit": "$-35263.76"
+            },
+            {
+                "date": "2017-12-15",
+                "revenue": "$50304.04",
+                "expenses": "$44549.13",
+                "profit": "$5754.85"
+            },
+            {
+                "date": "2017-12-16",
+                "revenue": "$33316.32",
+                "expenses": "$33243.61",
+                "profit": "$72.98"
+            },
+            {
+                "date": "2017-12-17",
+                "revenue": "$31406.25",
+                "expenses": "$58555.03",
+                "profit": "$-27148.65"
+            },
+            {
+                "date": "2017-12-18",
+                "revenue": "$110480.38",
+                "expenses": "$126788.70",
+                "profit": "$-16308.00"
+            },
+            {
+                "date": "2017-12-19",
+                "revenue": "$54060.75",
+                "expenses": "$21055.89",
+                "profit": "$33005.11"
+            },
+            {
+                "date": "2017-12-20",
+                "revenue": "$23467.46",
+                "expenses": "$26447.64",
+                "profit": "$-2980.12"
+            },
+            {
+                "date": "2017-12-22",
+                "revenue": "$49353.38",
+                "expenses": "$24101.58",
+                "profit": "$25251.74"
+            },
+            {
+                "date": "2017-12-23",
+                "revenue": "$148759.02",
+                "expenses": "$142824.83",
+                "profit": "$5933.66"
+            },
+            {
+                "date": "2017-12-24",
+                "revenue": "$42277.06",
+                "expenses": "$50679.62",
+                "profit": "$-8402.45"
+            },
+            {
+                "date": "2017-12-25",
+                "revenue": "$111748.99",
+                "expenses": "$138580.54",
+                "profit": "$-26831.66"
+            },
+            {
+                "date": "2017-12-26",
+                "revenue": "$50860.11",
+                "expenses": "$34198.24",
+                "profit": "$16662.05"
+            },
+            {
+                "date": "2017-12-27",
+                "revenue": "$53912.27",
+                "expenses": "$47619.17",
+                "profit": "$6293.28"
+            },
+            {
+                "date": "2017-12-29",
+                "revenue": "$70683.80",
+                "expenses": "$63649.89",
+                "profit": "$7033.64"
+            },
+            {
+                "date": "2017-12-30",
+                "revenue": "$49228.26",
+                "expenses": "$40222.46",
+                "profit": "$9005.64"
+            },
+            {
+                "date": "2017-12-31",
+                "revenue": "$79323.62",
+                "expenses": "$61806.58",
+                "profit": "$17517.27"
+            }
+        ],
+        "expensesByCategory": {
+            "salaries": "$12000",
+            "supplies": "$20000",
+            "services": "$15000"
+        }
+    }
 ];
 
 export const transactions = [
-  {
-    _id: "63bf7ccef03239e002001606",
-    amount: "$154.37",
-    buyer: "Jorrie Tidswell",
-    productIds: ["63bf7ac9f03239e002001604"],
-  },
-  {
-    _id: "63bf7ccef03239e002001607",
-    amount: "$207.45",
-    buyer: "Alfonse Surridge",
-    productIds: [
-      "63bf7ac9f032396a8e00168e",
-      "63bf7ac9f032396a8e001693",
-      "63bf7ac9f03239855d001555",
-      "63bf7ac9f0323922d2001692",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239e002001608",
-    amount: "$23.74",
-    buyer: "Flem Domenc",
-    productIds: [
-      "63bf7ac9f0323937a5001689",
-      "63bf7ac9f032396a8e001692",
-      "63bf7ac9f03239343e00169d",
-      "63bf7ac9f03239855d001553",
-      "63bf7ac9f03239cf1b001698",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239e002001609",
-    amount: "$156.67",
-    buyer: "Jordain Gilberthorpe",
-    productIds: [
-      "63bf7ac9f0323975d6001692",
-      "63bf7ac9f0323937a500168a",
-      "63bf7ac9f0323922d2001691",
-      "63bf7ac9f03239f92000168b",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239e00200160a",
-    amount: "$174.95",
-    buyer: "Thelma Christoforou",
-    productIds: [
-      "63bf7ac9f032397b4f0015fd",
-      "63bf7ac9f032396a8e001690",
-      "63bf7ac9f03239554c002445",
-      "63bf7ac9f032395ccf001692",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239e00200160b",
-    amount: "$245.32",
-    buyer: "Mattie Iuorio",
-    productIds: [
-      "63bf7ac9f03239f92000168e",
-      "63bf7ac9f0323975d6001693",
-      "63bf7ac9f03239f920001689",
-      "63bf7ac9f03239966c001696",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239e00200160c",
-    amount: "$133.57",
-    buyer: "Ancell Valerio",
-    productIds: [
-      "63bf7ac9f032396a8e00168f",
-      "63bf7ac9f03239343e0016a0",
-      "63bf7ac9f032394cbd00169c",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239e00200160d",
-    amount: "$122.49",
-    buyer: "Ollie Bolderstone",
-    productIds: ["63bf7ac9f03239343e00169f"],
-  },
-  {
-    _id: "63bf7ccef03239e00200160e",
-    amount: "$270.23",
-    buyer: "Audrey Zimmermeister",
-    productIds: ["63bf7ac9f0323901e6001552"],
-  },
-  {
-    _id: "63bf7ccef03239e00200160f",
-    amount: "$173.38",
-    buyer: "Sibby Iacovolo",
-    productIds: [
-      "63bf7ac9f032397b4f0015fe",
-      "63bf7ac9f03239554c002447",
-      "63bf7ac9f0323937a500168c",
-      "63bf7ac9f03239e002001605",
-      "63bf7ac9f032395ccf00168f",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239e002001610",
-    amount: "$283.65",
-    buyer: "Perry Scarrisbrick",
-    productIds: ["63bf7ac9f032395ccf001690", "63bf7ac9f03239343e00169e"],
-  },
-  {
-    _id: "63bf7ccef03239e002001611",
-    amount: "$187.80",
-    buyer: "Danika Dearth",
-    productIds: [
-      "63bf7ac9f03239e002001600",
-      "63bf7ac9f0323901e6001553",
-      "63bf7ac9f03239aec9001554",
-      "63bf7ac9f032394f5f002438",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239343e0016a1",
-    amount: "$233.90",
-    buyer: "Jeddy Juschka",
-    productIds: ["63bf7ac9f03239aec9001553", "63bf7ac9f03239aec9001554"],
-  },
-  {
-    _id: "63bf7ccef03239343e0016a2",
-    amount: "$217.32",
-    buyer: "Shelley Ganiford",
-    productIds: ["63bf7ac9f032396a8e001691", "63bf7ac9f0323937a500168c"],
-  },
-  {
-    _id: "63bf7ccef03239343e0016a3",
-    amount: "$272.71",
-    buyer: "Inigo Paddeley",
-    productIds: ["63bf7ac9f03239cf1b00169a", "63bf7ac9f03239855d001552"],
-  },
-  {
-    _id: "63bf7ccef03239343e0016a4",
-    amount: "$297.98",
-    buyer: "Mallorie Handrek",
-    productIds: [
-      "63bf7ac9f03239f92000168b",
-      "63bf7ac9f03239aec9001551",
-      "63bf7ac9f03239855d001554",
-      "63bf7ac9f03239554c002448",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239343e0016a5",
-    amount: "$145.37",
-    buyer: "Isadora Hollingsby",
-    productIds: [
-      "63bf7ac9f03239f92000168c",
-      "63bf7ac9f0323937a500168a",
-      "63bf7ac9f0323901e6001554",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239343e0016a6",
-    amount: "$297.67",
-    buyer: "Claudetta McNally",
-    productIds: [
-      "63bf7ac9f0323975d6001695",
-      "63bf7ac9f032396a8e001690",
-      "63bf7ac9f03239e002001604",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239343e0016a7",
-    amount: "$221.50",
-    buyer: "Garek Van Halen",
-    productIds: ["63bf7ac9f03239554c002447"],
-  },
-  {
-    _id: "63bf7ccef03239343e0016a8",
-    amount: "$296.28",
-    buyer: "Rozanna Lochead",
-    productIds: [
-      "63bf7ac9f03239e002001605",
-      "63bf7ac9f032396a8e00168e",
-      "63bf7ac9f032394cbd001699",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239343e0016a9",
-    amount: "$270.66",
-    buyer: "Valerie Dooly",
-    productIds: [
-      "63bf7ac9f032394cbd00169d",
-      "63bf7ac9f032395ccf001691",
-      "63bf7ac9f03239e002001601",
-      "63bf7ac9f032396d89000008",
-      "63bf7ac9f0323975d6001693",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239343e0016aa",
-    amount: "$70.39",
-    buyer: "Ronny Dishman",
-    productIds: ["63bf7ac9f03239cf1b00169b", "63bf7ac9f0323975d6001692"],
-  },
-  {
-    _id: "63bf7ccef03239343e0016ab",
-    amount: "$193.31",
-    buyer: "Carita Tampion",
-    productIds: [
-      "63bf7ac9f03239eb9d0016c5",
-      "63bf7ac9f032394cbd00169e",
-      "63bf7ac9f032395ccf001693",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239343e0016ac",
-    amount: "$123.95",
-    buyer: "Guido Valentine",
-    productIds: ["63bf7ac9f03239cf1b00169c"],
-  },
-  {
-    _id: "63bf7ccef0323901e6001557",
-    amount: "$49.37",
-    buyer: "Kimberley Glassopp",
-    productIds: ["63bf7ac9f032396a8e001692"],
-  },
-  {
-    _id: "63bf7ccef0323901e6001558",
-    amount: "$89.87",
-    buyer: "Cloris Vasyushkhin",
-    productIds: [
-      "63bf7ac9f03239343e00169d",
-      "63bf7ac9f0323922d2001691",
-      "63bf7ac9f032396a8e001693",
-      "63bf7ac9f03239343e00169f",
-      "63bf7ac9f03239855d001551",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323901e6001559",
-    amount: "$72.12",
-    buyer: "Chevy Richardet",
-    productIds: ["63bf7ac9f0323937a5001687"],
-  },
-  {
-    _id: "63bf7ccef0323901e600155a",
-    amount: "$271.82",
-    buyer: "Ailis Bum",
-    productIds: [
-      "63bf7ac9f03239554c002448",
-      "63bf7ac9f032394cbd001699",
-      "63bf7ac9f03239343e00169c",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323901e600155b",
-    amount: "$282.33",
-    buyer: "Florance Flook",
-    productIds: [
-      "63bf7ac9f03239aec9001554",
-      "63bf7ac9f03239f920001689",
-      "63bf7ac9f03239f92000168c",
-      "63bf7ac9f03239e002001601",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323901e600155c",
-    amount: "$177.35",
-    buyer: "Agna Tresvina",
-    productIds: [
-      "63bf7ac9f03239742000169b",
-      "63bf7ac9f03239966c001695",
-      "63bf7ac9f03239966c001694",
-      "63bf7ac9f032397420001698",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323901e600155d",
-    amount: "$20.59",
-    buyer: "Lulita Johanssen",
-    productIds: [
-      "63bf7ac9f03239cf1b001698",
-      "63bf7ac9f0323922d2001690",
-      "63bf7ac9f032395ccf001693",
-      "63bf7ac9f0323937a500168a",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323901e600155e",
-    amount: "$221.00",
-    buyer: "Kally Sapshed",
-    productIds: [
-      "63bf7ac9f032394f5f002436",
-      "63bf7ac9f03239554c002446",
-      "63bf7ac9f0323975d6001694",
-      "63bf7ac9f03239343e00169b",
-      "63bf7ac9f032395ccf001692",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323901e600155f",
-    amount: "$158.49",
-    buyer: "Curcio Vaines",
-    productIds: [
-      "63bf7ac9f03239eb9d0016c8",
-      "63bf7ac9f03239742000169a",
-      "63bf7ac9f0323937a5001689",
-      "63bf7ac9f03239eb9d0016cc",
-      "63bf7ac9f032394f5f002433",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323901e6001560",
-    amount: "$293.27",
-    buyer: "Morgen Benettolo",
-    productIds: ["63bf7ac9f03239eb9d0016c7"],
-  },
-  {
-    _id: "63bf7ccef0323901e6001561",
-    amount: "$182.51",
-    buyer: "Leanor Game",
-    productIds: [
-      "63bf7ac9f03239aec9001553",
-      "63bf7ac9f032396d8900000a",
-      "63bf7ac9f032396d89000007",
-      "63bf7ac9f03239eb9d0016c4",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323901e6001562",
-    amount: "$64.71",
-    buyer: "Del Coveny",
-    productIds: [
-      "63bf7ac9f032397b4f0015ff",
-      "63bf7ac9f03239cf1b001699",
-      "63bf7ac9f03239554c002447",
-      "63bf7ac9f03239e002001602",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394cbd00169f",
-    amount: "$195.92",
-    buyer: "Juliette Whiteside",
-    productIds: ["63bf7ac9f03239855d001552", "63bf7ac9f032394cbd00169d"],
-  },
-  {
-    _id: "63bf7ccef032394cbd0016a0",
-    amount: "$10.22",
-    buyer: "Licha Mewis",
-    productIds: [
-      "63bf7ac9f032394f5f002438",
-      "63bf7ac9f03239eb9d0016c3",
-      "63bf7ac9f03239e002001604",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394cbd0016a1",
-    amount: "$176.47",
-    buyer: "Freedman Basnett",
-    productIds: [
-      "63bf7ac9f03239f92000168a",
-      "63bf7ac9f0323937a500168a",
-      "63bf7ac9f03239742000169a",
-      "63bf7ac9f032394cbd00169a",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394cbd0016a2",
-    amount: "$283.94",
-    buyer: "Dex Martinat",
-    productIds: [
-      "63bf7ac9f03239343e0016a0",
-      "63bf7ac9f0323922d200168e",
-      "63bf7ac9f03239343e00169d",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394cbd0016a3",
-    amount: "$135.62",
-    buyer: "Mal Hessing",
-    productIds: [
-      "63bf7ac9f03239f92000168e",
-      "63bf7ac9f03239aec9001552",
-      "63bf7ac9f03239855d001554",
-      "63bf7ac9f03239e002001603",
-      "63bf7ac9f0323901e6001556",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394cbd0016a4",
-    amount: "$87.83",
-    buyer: "Kenyon Lake",
-    productIds: [
-      "63bf7ac9f0323975d6001697",
-      "63bf7ac9f03239966c001696",
-      "63bf7ac9f03239966c001693",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394cbd0016a5",
-    amount: "$114.41",
-    buyer: "Winifield Ahmed",
-    productIds: [
-      "63bf7ac9f032397b4f0015fb",
-      "63bf7ac9f03239855d001555",
-      "63bf7ac9f03239f92000168c",
-      "63bf7ac9f03239966c001692",
-      "63bf7ac9f03239e002001601",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394cbd0016a6",
-    amount: "$263.24",
-    buyer: "Stace Igglesden",
-    productIds: [
-      "63bf7ac9f032396d8900000b",
-      "63bf7ac9f03239f92000168b",
-      "63bf7ac9f032396d89000008",
-      "63bf7ac9f03239eb9d0016c4",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394cbd0016a7",
-    amount: "$117.52",
-    buyer: "Jordan Skillern",
-    productIds: ["63bf7ac9f0323901e6001555"],
-  },
-  {
-    _id: "63bf7ccef032394cbd0016a8",
-    amount: "$64.63",
-    buyer: "Yorker Sharphurst",
-    productIds: [
-      "63bf7ac9f03239343e00169c",
-      "63bf7ac9f0323975d6001694",
-      "63bf7ac9f03239554c002444",
-      "63bf7ac9f032396a8e001690",
-      "63bf7ac9f03239cf1b00169d",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394cbd0016a9",
-    amount: "$180.19",
-    buyer: "Stormy Timoney",
-    productIds: [
-      "63bf7ac9f032394cbd00169c",
-      "63bf7ac9f032396a8e001693",
-      "63bf7ac9f032395ccf001690",
-      "63bf7ac9f0323901e6001552",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394cbd0016aa",
-    amount: "$70.70",
-    buyer: "Reginauld Brinicombe",
-    productIds: [
-      "63bf7ac9f03239eb9d0016c5",
-      "63bf7ac9f03239855d001553",
-      "63bf7ac9f03239343e00169b",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239cf1b00169e",
-    amount: "$49.60",
-    buyer: "Benedikt Gibbe",
-    productIds: [
-      "63bf7ac9f03239eb9d0016c5",
-      "63bf7ac9f03239aec9001554",
-      "63bf7ac9f0323901e6001556",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239cf1b00169f",
-    amount: "$64.19",
-    buyer: "Elia Kenningham",
-    productIds: [
-      "63bf7ac9f032397b4f0015fb",
-      "63bf7ac9f03239aec9001556",
-      "63bf7ac9f03239855d001554",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239cf1b0016a0",
-    amount: "$275.70",
-    buyer: "Kenyon Harbour",
-    productIds: [
-      "63bf7ac9f03239855d001553",
-      "63bf7ac9f03239e002001603",
-      "63bf7ac9f03239966c001694",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239cf1b0016a1",
-    amount: "$92.02",
-    buyer: "Willabella Bilbrey",
-    productIds: [
-      "63bf7ac9f0323901e6001552",
-      "63bf7ac9f032396a8e001693",
-      "63bf7ac9f03239966c001695",
-      "63bf7ac9f032396d8900000b",
-      "63bf7ac9f03239e002001605",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239cf1b0016a2",
-    amount: "$164.62",
-    buyer: "Sax Caselli",
-    productIds: ["63bf7ac9f032396d8900000a", "63bf7ac9f03239cf1b00169c"],
-  },
-  {
-    _id: "63bf7ccef03239cf1b0016a3",
-    amount: "$245.43",
-    buyer: "Burr D'Aulby",
-    productIds: ["63bf7ac9f03239aec9001552", "63bf7ac9f0323975d6001695"],
-  },
-  {
-    _id: "63bf7ccef03239cf1b0016a4",
-    amount: "$266.98",
-    buyer: "Maribeth Quiddinton",
-    productIds: [
-      "63bf7ac9f03239966c001692",
-      "63bf7ac9f0323937a5001689",
-      "63bf7ac9f032394cbd00169c",
-      "63bf7ac9f0323922d2001691",
-      "63bf7ac9f03239554c002443",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239cf1b0016a5",
-    amount: "$121.31",
-    buyer: "Doralia Fogg",
-    productIds: ["63bf7ac9f03239343e00169d", "63bf7ac9f032394f5f002434"],
-  },
-  {
-    _id: "63bf7ccef03239cf1b0016a6",
-    amount: "$282.87",
-    buyer: "Gianna Malkinson",
-    productIds: [
-      "63bf7ac9f03239aec9001551",
-      "63bf7ac9f0323975d6001693",
-      "63bf7ac9f032396a8e001691",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239cf1b0016a7",
-    amount: "$86.12",
-    buyer: "Daria Ramble",
-    productIds: [
-      "63bf7ac9f0323937a500168a",
-      "63bf7ac9f03239e002001604",
-      "63bf7ac9f03239855d001551",
-      "63bf7ac9f032395ccf001693",
-      "63bf7ac9f032394cbd00169a",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239cf1b0016a8",
-    amount: "$59.70",
-    buyer: "Sile Pettinger",
-    productIds: [
-      "63bf7ac9f03239e002001601",
-      "63bf7ac9f03239855d001552",
-      "63bf7ac9f032397420001698",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239cf1b0016a9",
-    amount: "$87.28",
-    buyer: "Barny Aldrick",
-    productIds: [
-      "63bf7ac9f032397b4f001600",
-      "63bf7ac9f03239eb9d0016ca",
-      "63bf7ac9f03239554c002447",
-      "63bf7ac9f032397b4f0015fc",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239aec9001557",
-    amount: "$10.68",
-    buyer: "Marylee Emanueli",
-    productIds: [
-      "63bf7ac9f032396d8900000a",
-      "63bf7ac9f03239343e00169c",
-      "63bf7ac9f03239554c002448",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239aec9001558",
-    amount: "$116.97",
-    buyer: "Skell Rumbold",
-    productIds: [
-      "63bf7ac9f03239aec9001553",
-      "63bf7ac9f0323937a5001688",
-      "63bf7ac9f03239cf1b00169d",
-      "63bf7ac9f03239eb9d0016c3",
-      "63bf7ac9f032394cbd00169c",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239aec9001559",
-    amount: "$97.54",
-    buyer: "Peg Flattman",
-    productIds: ["63bf7ac9f03239f92000168a", "63bf7ac9f03239cf1b00169a"],
-  },
-  {
-    _id: "63bf7ccef03239aec900155a",
-    amount: "$237.00",
-    buyer: "Guenna Allonby",
-    productIds: ["63bf7ac9f032397420001698", "63bf7ac9f03239f920001689"],
-  },
-  {
-    _id: "63bf7ccef03239aec900155b",
-    amount: "$19.63",
-    buyer: "Jaquenette Tunnacliffe",
-    productIds: ["63bf7ac9f032394cbd001699", "63bf7ac9f032394f5f002438"],
-  },
-  {
-    _id: "63bf7ccef03239aec900155c",
-    amount: "$81.94",
-    buyer: "Adelind Bloan",
-    productIds: [
-      "63bf7ac9f0323975d6001697",
-      "63bf7ac9f032394f5f002433",
-      "63bf7ac9f032396a8e001690",
-      "63bf7ac9f03239cf1b00169b",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239aec900155d",
-    amount: "$245.16",
-    buyer: "Mikaela Murrish",
-    productIds: [
-      "63bf7ac9f03239e002001605",
-      "63bf7ac9f032397b4f0015fd",
-      "63bf7ac9f0323975d6001694",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239aec900155e",
-    amount: "$153.99",
-    buyer: "Page Allom",
-    productIds: ["63bf7ac9f03239eb9d0016c9", "63bf7ac9f03239343e00169e"],
-  },
-  {
-    _id: "63bf7ccef03239aec900155f",
-    amount: "$230.26",
-    buyer: "Rafael Haughin",
-    productIds: [
-      "63bf7ac9f0323975d6001695",
-      "63bf7ac9f0323901e6001552",
-      "63bf7ac9f03239eb9d0016cc",
-      "63bf7ac9f032396a8e001693",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239aec9001560",
-    amount: "$200.80",
-    buyer: "Branden Ossenna",
-    productIds: [
-      "63bf7ac9f03239eb9d0016cb",
-      "63bf7ac9f0323901e6001554",
-      "63bf7ac9f032394f5f002437",
-      "63bf7ac9f0323901e6001556",
-      "63bf7ac9f032396a8e001691",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239aec9001561",
-    amount: "$170.16",
-    buyer: "Mattie Eskrigge",
-    productIds: ["63bf7ac9f032395ccf001690"],
-  },
-  {
-    _id: "63bf7ccef03239aec9001562",
-    amount: "$45.08",
-    buyer: "Sebastian Bonavia",
-    productIds: ["63bf7ac9f032394f5f002436", "63bf7ac9f03239aec9001555"],
-  },
-  {
-    _id: "63bf7ccef03239554c002449",
-    amount: "$221.06",
-    buyer: "Moyna O'Growgane",
-    productIds: [
-      "63bf7ac9f0323975d6001694",
-      "63bf7ac9f03239554c002446",
-      "63bf7ac9f0323901e6001554",
-      "63bf7ac9f032394cbd00169a",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239554c00244a",
-    amount: "$117.84",
-    buyer: "Silvan Leisman",
-    productIds: [
-      "63bf7ac9f0323901e6001553",
-      "63bf7ac9f032394cbd00169e",
-      "63bf7ac9f03239cf1b001699",
-      "63bf7ac9f032395ccf001691",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239554c00244b",
-    amount: "$18.26",
-    buyer: "Efren Mabley",
-    productIds: [
-      "63bf7ac9f0323901e6001556",
-      "63bf7ac9f032397b4f0015fd",
-      "63bf7ac9f03239f920001689",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239554c00244c",
-    amount: "$108.19",
-    buyer: "Si Aime",
-    productIds: [
-      "63bf7ac9f0323937a5001688",
-      "63bf7ac9f03239eb9d0016c9",
-      "63bf7ac9f03239966c001692",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239554c00244d",
-    amount: "$275.91",
-    buyer: "Deedee Gebbe",
-    productIds: [
-      "63bf7ac9f03239f92000168b",
-      "63bf7ac9f03239966c001693",
-      "63bf7ac9f03239e002001603",
-      "63bf7ac9f03239eb9d0016c6",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239554c00244e",
-    amount: "$274.98",
-    buyer: "Arlinda Smaile",
-    productIds: [
-      "63bf7ac9f032396d8900000c",
-      "63bf7ac9f032396d89000009",
-      "63bf7ac9f0323937a5001689",
-      "63bf7ac9f032394cbd00169c",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239554c00244f",
-    amount: "$215.93",
-    buyer: "Jareb Bayle",
-    productIds: [
-      "63bf7ac9f0323922d2001692",
-      "63bf7ac9f03239eb9d0016c5",
-      "63bf7ac9f03239f92000168e",
-      "63bf7ac9f03239eb9d0016c8",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239554c002450",
-    amount: "$270.00",
-    buyer: "Kermie Goldhill",
-    productIds: ["63bf7ac9f032396a8e00168f", "63bf7ac9f0323922d2001690"],
-  },
-  {
-    _id: "63bf7ccef03239554c002451",
-    amount: "$183.78",
-    buyer: "Birch Morch",
-    productIds: [
-      "63bf7ac9f032395ccf00168e",
-      "63bf7ac9f032397420001696",
-      "63bf7ac9f03239f92000168a",
-      "63bf7ac9f032397420001698",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239554c002452",
-    amount: "$96.80",
-    buyer: "Alvis Rowthorne",
-    productIds: [
-      "63bf7ac9f0323975d6001696",
-      "63bf7ac9f03239e002001605",
-      "63bf7ac9f03239554c002447",
-      "63bf7ac9f0323937a5001687",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239554c002453",
-    amount: "$91.98",
-    buyer: "Roger Gouldthorpe",
-    productIds: [
-      "63bf7ac9f03239343e00169c",
-      "63bf7ac9f0323922d2001691",
-      "63bf7ac9f032395ccf00168f",
-      "63bf7ac9f03239aec9001554",
-      "63bf7ac9f03239f92000168d",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239554c002454",
-    amount: "$224.12",
-    buyer: "Patric Pounds",
-    productIds: [
-      "63bf7ac9f032397b4f0015fe",
-      "63bf7ac9f03239343e00169d",
-      "63bf7ac9f032396a8e001692",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239742000169c",
-    amount: "$282.34",
-    buyer: "Dillie Gaine",
-    productIds: [
-      "63bf7ac9f032397420001699",
-      "63bf7ac9f032397b4f0015fe",
-      "63bf7ac9f03239aec9001553",
-      "63bf7ac9f032396d8900000a",
-      "63bf7ac9f032394cbd00169a",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239742000169d",
-    amount: "$238.02",
-    buyer: "Shelagh Gammidge",
-    productIds: [
-      "63bf7ac9f03239f92000168e",
-      "63bf7ac9f03239aec9001554",
-      "63bf7ac9f0323975d6001696",
-      "63bf7ac9f03239aec9001556",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239742000169e",
-    amount: "$91.34",
-    buyer: "Lammond Candy",
-    productIds: ["63bf7ac9f03239554c002447", "63bf7ac9f03239966c001697"],
-  },
-  {
-    _id: "63bf7ccef03239742000169f",
-    amount: "$25.43",
-    buyer: "Regan Warwick",
-    productIds: [
-      "63bf7ac9f032395ccf00168f",
-      "63bf7ac9f03239554c002443",
-      "63bf7ac9f03239cf1b001698",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323974200016a0",
-    amount: "$195.00",
-    buyer: "Teodoor Conigsby",
-    productIds: [
-      "63bf7ac9f03239855d001553",
-      "63bf7ac9f03239e002001600",
-      "63bf7ac9f032395ccf001691",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323974200016a1",
-    amount: "$192.42",
-    buyer: "Brooke Musgrave",
-    productIds: [
-      "63bf7ac9f03239eb9d0016c3",
-      "63bf7ac9f03239966c001692",
-      "63bf7ac9f0323937a500168b",
-      "63bf7ac9f03239855d001556",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323974200016a2",
-    amount: "$41.76",
-    buyer: "Ado Gerran",
-    productIds: [
-      "63bf7ac9f032394f5f002435",
-      "63bf7ac9f0323975d6001697",
-      "63bf7ac9f032397b4f0015fc",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323974200016a3",
-    amount: "$96.17",
-    buyer: "Hadria Freake",
-    productIds: [
-      "63bf7ac9f032394cbd001699",
-      "63bf7ac9f03239f920001689",
-      "63bf7ac9f03239554c002448",
-      "63bf7ac9f03239855d001551",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323974200016a4",
-    amount: "$159.67",
-    buyer: "Waylon Valentinuzzi",
-    productIds: [
-      "63bf7ac9f0323922d2001692",
-      "63bf7ac9f032394f5f002437",
-      "63bf7ac9f03239343e00169f",
-      "63bf7ac9f03239eb9d0016c4",
-      "63bf7ac9f03239eb9d0016cc",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323974200016a5",
-    amount: "$102.35",
-    buyer: "Sal Bysshe",
-    productIds: [
-      "63bf7ac9f032396a8e001690",
-      "63bf7ac9f03239eb9d0016c6",
-      "63bf7ac9f03239cf1b00169c",
-      "63bf7ac9f03239742000169b",
-      "63bf7ac9f032396d8900000b",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323974200016a6",
-    amount: "$125.85",
-    buyer: "Florian Brookbank",
-    productIds: ["63bf7ac9f0323975d6001693", "63bf7ac9f032396a8e001692"],
-  },
-  {
-    _id: "63bf7ccef0323974200016a7",
-    amount: "$264.64",
-    buyer: "Aylmer Klimentyev",
-    productIds: ["63bf7ac9f03239e002001604"],
-  },
-  {
-    _id: "63bf7ccef03239966c001698",
-    amount: "$274.87",
-    buyer: "Sancho Sleaford",
-    productIds: [
-      "63bf7ac9f0323975d6001694",
-      "63bf7ac9f032397b4f0015fe",
-      "63bf7ac9f0323922d200168f",
-      "63bf7ac9f03239eb9d0016c5",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239966c001699",
-    amount: "$220.00",
-    buyer: "Evelin Oneile",
-    productIds: [
-      "63bf7ac9f032394f5f002433",
-      "63bf7ac9f0323937a500168c",
-      "63bf7ac9f032396a8e001692",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239966c00169a",
-    amount: "$277.71",
-    buyer: "Larine Couvet",
-    productIds: ["63bf7ac9f03239966c001692"],
-  },
-  {
-    _id: "63bf7ccef03239966c00169b",
-    amount: "$134.74",
-    buyer: "Leonanie Juliff",
-    productIds: ["63bf7ac9f03239aec9001553"],
-  },
-  {
-    _id: "63bf7ccef03239966c00169c",
-    amount: "$266.52",
-    buyer: "Aubine Giacomucci",
-    productIds: [
-      "63bf7ac9f03239554c002443",
-      "63bf7ac9f032397420001697",
-      "63bf7ac9f0323937a5001687",
-      "63bf7ac9f03239eb9d0016c9",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239966c00169d",
-    amount: "$142.48",
-    buyer: "Obed Garm",
-    productIds: [
-      "63bf7ac9f0323901e6001556",
-      "63bf7ac9f032396a8e001693",
-      "63bf7ac9f03239eb9d0016c4",
-      "63bf7ac9f032396d89000009",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239966c00169e",
-    amount: "$59.95",
-    buyer: "Arie Yardy",
-    productIds: [
-      "63bf7ac9f03239aec9001556",
-      "63bf7ac9f032395ccf001690",
-      "63bf7ac9f032396d89000007",
-      "63bf7ac9f03239855d001553",
-      "63bf7ac9f03239554c002448",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239966c00169f",
-    amount: "$282.21",
-    buyer: "Peter Gallager",
-    productIds: [
-      "63bf7ac9f03239f920001689",
-      "63bf7ac9f032397b4f0015fb",
-      "63bf7ac9f03239554c002446",
-      "63bf7ac9f0323922d2001692",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239966c0016a0",
-    amount: "$59.31",
-    buyer: "Freemon Hargey",
-    productIds: [
-      "63bf7ac9f03239cf1b00169b",
-      "63bf7ac9f032396d8900000b",
-      "63bf7ac9f03239554c002445",
-      "63bf7ac9f03239554c002447",
-      "63bf7ac9f03239855d001554",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239966c0016a1",
-    amount: "$202.58",
-    buyer: "Libby Dannett",
-    productIds: [
-      "63bf7ac9f0323975d6001695",
-      "63bf7ac9f03239aec9001554",
-      "63bf7ac9f03239554c002444",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239966c0016a2",
-    amount: "$106.57",
-    buyer: "Claudetta Kinnett",
-    productIds: ["63bf7ac9f0323975d6001697"],
-  },
-  {
-    _id: "63bf7ccef03239966c0016a3",
-    amount: "$292.34",
-    buyer: "Taryn Shankland",
-    productIds: ["63bf7ac9f03239742000169b", "63bf7ac9f032397b4f0015fc"],
-  },
-  {
-    _id: "63bf7ccef0323975d6001698",
-    amount: "$178.53",
-    buyer: "Roxanne Impson",
-    productIds: ["63bf7ac9f03239cf1b00169b", "63bf7ac9f032394cbd001699"],
-  },
-  {
-    _id: "63bf7ccef0323975d6001699",
-    amount: "$262.23",
-    buyer: "Vyky Rumbelow",
-    productIds: [
-      "63bf7ac9f03239aec9001555",
-      "63bf7ac9f032394f5f002437",
-      "63bf7ac9f0323975d6001694",
-      "63bf7ac9f03239e002001605",
-      "63bf7ac9f03239cf1b00169d",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323975d600169a",
-    amount: "$91.65",
-    buyer: "Ethelred Layne",
-    productIds: ["63bf7ac9f032394cbd00169d", "63bf7ac9f032394f5f002436"],
-  },
-  {
-    _id: "63bf7ccef0323975d600169b",
-    amount: "$127.72",
-    buyer: "Sigismund Coombes",
-    productIds: [
-      "63bf7ac9f0323922d2001693",
-      "63bf7ac9f03239eb9d0016c9",
-      "63bf7ac9f032397b4f0015fb",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323975d600169c",
-    amount: "$32.05",
-    buyer: "Lacey Clemanceau",
-    productIds: ["63bf7ac9f03239855d001556", "63bf7ac9f032397b4f001600"],
-  },
-  {
-    _id: "63bf7ccef0323975d600169d",
-    amount: "$130.53",
-    buyer: "Monroe Matthewson",
-    productIds: ["63bf7ac9f0323922d2001690", "63bf7ac9f0323937a5001687"],
-  },
-  {
-    _id: "63bf7ccef0323975d600169e",
-    amount: "$82.41",
-    buyer: "Martita Kinze",
-    productIds: [
-      "63bf7ac9f032397420001699",
-      "63bf7ac9f032395ccf001693",
-      "63bf7ac9f03239e002001600",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323975d600169f",
-    amount: "$242.59",
-    buyer: "Suzette Tonkes",
-    productIds: ["63bf7ac9f03239aec9001551"],
-  },
-  {
-    _id: "63bf7ccef0323975d60016a0",
-    amount: "$282.57",
-    buyer: "Clare Torns",
-    productIds: ["63bf7ac9f03239eb9d0016c6"],
-  },
-  {
-    _id: "63bf7ccef0323975d60016a1",
-    amount: "$193.44",
-    buyer: "Silvia Harrap",
-    productIds: ["63bf7ac9f03239cf1b00169a", "63bf7ac9f03239e002001602"],
-  },
-  {
-    _id: "63bf7ccef0323975d60016a2",
-    amount: "$41.09",
-    buyer: "Megen Manicomb",
-    productIds: [
-      "63bf7ac9f03239742000169a",
-      "63bf7ac9f0323975d6001695",
-      "63bf7ac9f03239f92000168a",
-      "63bf7ac9f03239855d001554",
-      "63bf7ac9f03239554c002445",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323975d60016a3",
-    amount: "$167.97",
-    buyer: "Lacee Dyche",
-    productIds: [
-      "63bf7ac9f03239aec9001554",
-      "63bf7ac9f032395ccf001691",
-      "63bf7ac9f03239742000169b",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396a8e001694",
-    amount: "$89.43",
-    buyer: "Ravi Morrant",
-    productIds: ["63bf7ac9f032397b4f0015fb"],
-  },
-  {
-    _id: "63bf7ccef032396a8e001695",
-    amount: "$185.00",
-    buyer: "Ida Rolles",
-    productIds: ["63bf7ac9f032397b4f001600", "63bf7ac9f032397420001698"],
-  },
-  {
-    _id: "63bf7ccef032396a8e001696",
-    amount: "$58.82",
-    buyer: "Melicent Tembridge",
-    productIds: ["63bf7ac9f0323937a500168a"],
-  },
-  {
-    _id: "63bf7ccef032396a8e001697",
-    amount: "$57.02",
-    buyer: "Gerald Egell",
-    productIds: [
-      "63bf7ac9f03239cf1b001698",
-      "63bf7ac9f03239343e00169c",
-      "63bf7ac9f0323975d6001694",
-      "63bf7ac9f032397b4f0015ff",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396a8e001698",
-    amount: "$78.59",
-    buyer: "Lorelei Siebart",
-    productIds: [
-      "63bf7ac9f0323975d6001697",
-      "63bf7ac9f0323901e6001555",
-      "63bf7ac9f032394f5f002433",
-      "63bf7ac9f03239aec9001555",
-      "63bf7ac9f032394f5f002437",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396a8e001699",
-    amount: "$297.89",
-    buyer: "Cullie Lampens",
-    productIds: [
-      "63bf7ac9f032396a8e001691",
-      "63bf7ac9f032394cbd00169d",
-      "63bf7ac9f03239855d001556",
-      "63bf7ac9f0323901e6001554",
-      "63bf7ac9f032395ccf001690",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396a8e00169a",
-    amount: "$242.06",
-    buyer: "Cora Pasque",
-    productIds: [
-      "63bf7ac9f03239343e00169f",
-      "63bf7ac9f032396d8900000b",
-      "63bf7ac9f03239aec9001554",
-      "63bf7ac9f032394f5f002436",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396a8e00169b",
-    amount: "$26.01",
-    buyer: "Lou Singyard",
-    productIds: [
-      "63bf7ac9f0323901e6001552",
-      "63bf7ac9f0323975d6001693",
-      "63bf7ac9f032394f5f002434",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396a8e00169c",
-    amount: "$123.88",
-    buyer: "Patsy Cargill",
-    productIds: [
-      "63bf7ac9f032394cbd001699",
-      "63bf7ac9f03239eb9d0016ca",
-      "63bf7ac9f032396d8900000a",
-      "63bf7ac9f03239554c002445",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396a8e00169d",
-    amount: "$221.16",
-    buyer: "Naoma Abrams",
-    productIds: [
-      "63bf7ac9f03239742000169b",
-      "63bf7ac9f03239554c002446",
-      "63bf7ac9f03239cf1b00169d",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396a8e00169e",
-    amount: "$55.67",
-    buyer: "Susann Dri",
-    productIds: [
-      "63bf7ac9f032394cbd00169a",
-      "63bf7ac9f03239eb9d0016c6",
-      "63bf7ac9f032396d89000007",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396a8e00169f",
-    amount: "$79.87",
-    buyer: "Billye Durward",
-    productIds: [
-      "63bf7ac9f032397b4f0015fc",
-      "63bf7ac9f03239eb9d0016c9",
-      "63bf7ac9f0323975d6001692",
-      "63bf7ac9f03239e002001602",
-      "63bf7ac9f03239f92000168e",
-    ],
-  },
-  {
-    _id: "63bf7ccef032395ccf001694",
-    amount: "$216.01",
-    buyer: "Thadeus Meredith",
-    productIds: [
-      "63bf7ac9f03239f92000168a",
-      "63bf7ac9f032394f5f002433",
-      "63bf7ac9f03239eb9d0016c8",
-      "63bf7ac9f032396d8900000a",
-    ],
-  },
-  {
-    _id: "63bf7ccef032395ccf001695",
-    amount: "$69.63",
-    buyer: "Isiahi MacMorland",
-    productIds: ["63bf7ac9f03239f92000168d", "63bf7ac9f032396a8e001693"],
-  },
-  {
-    _id: "63bf7ccef032395ccf001696",
-    amount: "$204.00",
-    buyer: "Jaquelin Thomson",
-    productIds: [
-      "63bf7ac9f03239aec9001554",
-      "63bf7ac9f03239aec9001555",
-      "63bf7ac9f0323937a500168b",
-      "63bf7ac9f032396a8e001690",
-      "63bf7ac9f03239e002001602",
-    ],
-  },
-  {
-    _id: "63bf7ccef032395ccf001697",
-    amount: "$283.84",
-    buyer: "Page Quiney",
-    productIds: [
-      "63bf7ac9f03239eb9d0016c4",
-      "63bf7ac9f03239aec9001552",
-      "63bf7ac9f03239cf1b00169b",
-    ],
-  },
-  {
-    _id: "63bf7ccef032395ccf001698",
-    amount: "$32.76",
-    buyer: "Stephana Bulcroft",
-    productIds: [
-      "63bf7ac9f03239742000169a",
-      "63bf7ac9f032397b4f0015fc",
-      "63bf7ac9f03239554c002447",
-      "63bf7ac9f0323922d200168e",
-      "63bf7ac9f0323937a500168c",
-    ],
-  },
-  {
-    _id: "63bf7ccef032395ccf001699",
-    amount: "$34.52",
-    buyer: "Desdemona Zukierman",
-    productIds: [
-      "63bf7ac9f032396d8900000c",
-      "63bf7ac9f032397b4f0015fd",
-      "63bf7ac9f032394f5f002438",
-      "63bf7ac9f0323975d6001696",
-      "63bf7ac9f03239343e00169c",
-    ],
-  },
-  {
-    _id: "63bf7ccef032395ccf00169a",
-    amount: "$248.19",
-    buyer: "Fredericka Ayliffe",
-    productIds: [
-      "63bf7ac9f032397420001696",
-      "63bf7ac9f03239eb9d0016ca",
-      "63bf7ac9f032395ccf001690",
-      "63bf7ac9f03239e002001600",
-    ],
-  },
-  {
-    _id: "63bf7ccef032395ccf00169b",
-    amount: "$115.61",
-    buyer: "Rouvin Breit",
-    productIds: [
-      "63bf7ac9f03239e002001601",
-      "63bf7ac9f03239966c001695",
-      "63bf7ac9f032394cbd00169e",
-      "63bf7ac9f032394f5f002436",
-    ],
-  },
-  {
-    _id: "63bf7ccef032395ccf00169c",
-    amount: "$158.54",
-    buyer: "Marlyn Packington",
-    productIds: [
-      "63bf7ac9f03239cf1b00169d",
-      "63bf7ac9f032394f5f002434",
-      "63bf7ac9f03239f92000168b",
-      "63bf7ac9f032396a8e00168f",
-    ],
-  },
-  {
-    _id: "63bf7ccef032395ccf00169d",
-    amount: "$189.62",
-    buyer: "Ric Heasly",
-    productIds: ["63bf7ac9f032395ccf001692", "63bf7ac9f03239eb9d0016cb"],
-  },
-  {
-    _id: "63bf7ccef032395ccf00169e",
-    amount: "$215.68",
-    buyer: "Rhoda Furst",
-    productIds: ["63bf7ac9f03239aec9001551"],
-  },
-  {
-    _id: "63bf7ccef032395ccf00169f",
-    amount: "$264.99",
-    buyer: "Khalil Climpson",
-    productIds: ["63bf7ac9f0323922d2001690"],
-  },
-  {
-    _id: "63bf7ccef032397b4f001601",
-    amount: "$218.65",
-    buyer: "Padgett Brimelow",
-    productIds: [
-      "63bf7ac9f0323901e6001552",
-      "63bf7ac9f03239eb9d0016c6",
-      "63bf7ac9f0323922d2001692",
-      "63bf7ac9f03239f92000168b",
-      "63bf7ac9f03239aec9001553",
-    ],
-  },
-  {
-    _id: "63bf7ccef032397b4f001602",
-    amount: "$267.79",
-    buyer: "Nariko Grelka",
-    productIds: [
-      "63bf7ac9f03239554c002445",
-      "63bf7ac9f032397420001696",
-      "63bf7ac9f0323975d6001694",
-    ],
-  },
-  {
-    _id: "63bf7ccef032397b4f001603",
-    amount: "$228.64",
-    buyer: "Prescott Bax",
-    productIds: [
-      "63bf7ac9f032396a8e001690",
-      "63bf7ac9f032397b4f0015fc",
-      "63bf7ac9f032394f5f002437",
-    ],
-  },
-  {
-    _id: "63bf7ccef032397b4f001604",
-    amount: "$141.93",
-    buyer: "Olva Curtois",
-    productIds: [
-      "63bf7ac9f03239855d001553",
-      "63bf7ac9f03239f920001689",
-      "63bf7ac9f03239cf1b00169d",
-      "63bf7ac9f032397420001697",
-      "63bf7ac9f0323975d6001693",
-    ],
-  },
-  {
-    _id: "63bf7ccef032397b4f001605",
-    amount: "$87.23",
-    buyer: "Diann Firby",
-    productIds: ["63bf7ac9f03239554c002444"],
-  },
-  {
-    _id: "63bf7ccef032397b4f001606",
-    amount: "$157.51",
-    buyer: "Poppy Rankcom",
-    productIds: [
-      "63bf7ac9f03239cf1b00169a",
-      "63bf7ac9f0323937a500168c",
-      "63bf7ac9f03239cf1b00169b",
-      "63bf7ac9f032396a8e001693",
-    ],
-  },
-  {
-    _id: "63bf7ccef032397b4f001607",
-    amount: "$234.45",
-    buyer: "Ardath Bulgen",
-    productIds: ["63bf7ac9f0323937a500168b"],
-  },
-  {
-    _id: "63bf7ccef032397b4f001608",
-    amount: "$92.16",
-    buyer: "Jacinta Swede",
-    productIds: ["63bf7ac9f0323975d6001695"],
-  },
-  {
-    _id: "63bf7ccef032397b4f001609",
-    amount: "$10.17",
-    buyer: "Obadias Matyashev",
-    productIds: [
-      "63bf7ac9f03239eb9d0016c3",
-      "63bf7ac9f032397420001698",
-      "63bf7ac9f03239855d001555",
-      "63bf7ac9f032397420001699",
-    ],
-  },
-  {
-    _id: "63bf7ccef032397b4f00160a",
-    amount: "$65.15",
-    buyer: "Hill McElwee",
-    productIds: [
-      "63bf7ac9f0323901e6001553",
-      "63bf7ac9f0323975d6001696",
-      "63bf7ac9f03239554c002443",
-      "63bf7ac9f0323901e6001554",
-    ],
-  },
-  {
-    _id: "63bf7ccef032397b4f00160b",
-    amount: "$79.19",
-    buyer: "Malachi Extall",
-    productIds: [
-      "63bf7ac9f03239eb9d0016cc",
-      "63bf7ac9f03239cf1b001698",
-      "63bf7ac9f0323975d6001692",
-    ],
-  },
-  {
-    _id: "63bf7ccef032397b4f00160c",
-    amount: "$127.08",
-    buyer: "Neil O'Reilly",
-    productIds: [
-      "63bf7ac9f0323922d200168e",
-      "63bf7ac9f032396a8e00168e",
-      "63bf7ac9f032395ccf00168e",
-      "63bf7ac9f0323975d6001697",
-      "63bf7ac9f032396a8e001691",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323922d2001694",
-    amount: "$162.80",
-    buyer: "Juan Mynett",
-    productIds: [
-      "63bf7ac9f032394cbd00169d",
-      "63bf7ac9f03239eb9d0016ca",
-      "63bf7ac9f03239e002001601",
-      "63bf7ac9f032395ccf00168e",
-      "63bf7ac9f03239f92000168b",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323922d2001695",
-    amount: "$198.54",
-    buyer: "Bambi Pirdue",
-    productIds: [
-      "63bf7ac9f032397b4f0015fd",
-      "63bf7ac9f03239aec9001554",
-      "63bf7ac9f0323922d2001692",
-      "63bf7ac9f032394cbd001699",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323922d2001696",
-    amount: "$198.34",
-    buyer: "Jefferey Karus",
-    productIds: ["63bf7ac9f032394cbd00169e", "63bf7ac9f0323922d2001691"],
-  },
-  {
-    _id: "63bf7ccef0323922d2001697",
-    amount: "$249.25",
-    buyer: "Philbert Punshon",
-    productIds: [
-      "63bf7ac9f03239855d001553",
-      "63bf7ac9f0323922d2001690",
-      "63bf7ac9f0323937a500168b",
-      "63bf7ac9f0323975d6001693",
-      "63bf7ac9f03239343e00169f",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323922d2001698",
-    amount: "$93.07",
-    buyer: "Dinnie Belz",
-    productIds: [
-      "63bf7ac9f03239742000169b",
-      "63bf7ac9f03239aec9001552",
-      "63bf7ac9f032395ccf001692",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323922d2001699",
-    amount: "$126.85",
-    buyer: "Gilbertine Brunner",
-    productIds: [
-      "63bf7ac9f0323937a5001687",
-      "63bf7ac9f03239cf1b001698",
-      "63bf7ac9f03239966c001692",
-      "63bf7ac9f03239cf1b00169c",
-      "63bf7ac9f0323901e6001554",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323922d200169a",
-    amount: "$103.11",
-    buyer: "Jaynell Filshin",
-    productIds: ["63bf7ac9f032397420001697"],
-  },
-  {
-    _id: "63bf7ccef0323922d200169b",
-    amount: "$141.80",
-    buyer: "Doro Sheerman",
-    productIds: [
-      "63bf7ac9f032396d89000009",
-      "63bf7ac9f03239e002001600",
-      "63bf7ac9f03239cf1b001699",
-      "63bf7ac9f0323922d2001693",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323922d200169c",
-    amount: "$11.40",
-    buyer: "Elisa Pechet",
-    productIds: [
-      "63bf7ac9f032394f5f002437",
-      "63bf7ac9f03239eb9d0016cb",
-      "63bf7ac9f03239855d001556",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323922d200169d",
-    amount: "$53.46",
-    buyer: "Shirlene Keyzman",
-    productIds: [
-      "63bf7ac9f032396d8900000b",
-      "63bf7ac9f03239f920001689",
-      "63bf7ac9f032396a8e001690",
-      "63bf7ac9f03239f92000168c",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323922d200169e",
-    amount: "$147.22",
-    buyer: "Osgood Bentick",
-    productIds: ["63bf7ac9f032394f5f002433"],
-  },
-  {
-    _id: "63bf7ccef0323922d200169f",
-    amount: "$87.29",
-    buyer: "Cosette Topling",
-    productIds: [
-      "63bf7ac9f03239eb9d0016c5",
-      "63bf7ac9f03239f92000168d",
-      "63bf7ac9f032395ccf001691",
-      "63bf7ac9f032396a8e00168f",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396d8900000d",
-    amount: "$37.57",
-    buyer: "Clevie Claige",
-    productIds: ["63bf7ac9f0323901e6001556"],
-  },
-  {
-    _id: "63bf7ccef032396d8900000e",
-    amount: "$21.95",
-    buyer: "Lenard Sheach",
-    productIds: [
-      "63bf7ac9f0323937a5001688",
-      "63bf7ac9f0323937a500168a",
-      "63bf7ac9f032394f5f002437",
-      "63bf7ac9f03239aec9001553",
-      "63bf7ac9f0323975d6001695",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396d8900000f",
-    amount: "$268.02",
-    buyer: "Noe Crowth",
-    productIds: [
-      "63bf7ac9f0323922d200168e",
-      "63bf7ac9f032396a8e001692",
-      "63bf7ac9f03239cf1b00169a",
-      "63bf7ac9f032396d8900000b",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396d89000010",
-    amount: "$221.94",
-    buyer: "Benoite Crocken",
-    productIds: ["63bf7ac9f0323975d6001693", "63bf7ac9f032394f5f002435"],
-  },
-  {
-    _id: "63bf7ccef032396d89000011",
-    amount: "$173.77",
-    buyer: "Blondy Gyer",
-    productIds: [
-      "63bf7ac9f032395ccf001693",
-      "63bf7ac9f03239554c002443",
-      "63bf7ac9f032397420001697",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396d89000012",
-    amount: "$183.77",
-    buyer: "Yale Myott",
-    productIds: [
-      "63bf7ac9f03239554c002448",
-      "63bf7ac9f03239aec9001555",
-      "63bf7ac9f032394cbd00169d",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396d89000013",
-    amount: "$195.54",
-    buyer: "Ebba Durdy",
-    productIds: [
-      "63bf7ac9f032395ccf001691",
-      "63bf7ac9f03239f92000168e",
-      "63bf7ac9f03239cf1b00169c",
-      "63bf7ac9f03239eb9d0016c5",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396d89000014",
-    amount: "$208.47",
-    buyer: "Rockwell Fiddler",
-    productIds: [
-      "63bf7ac9f03239855d001555",
-      "63bf7ac9f0323901e6001555",
-      "63bf7ac9f032397420001696",
-      "63bf7ac9f032396d89000009",
-      "63bf7ac9f032394cbd00169b",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396d89000015",
-    amount: "$133.89",
-    buyer: "Ashlen Steely",
-    productIds: ["63bf7ac9f03239aec9001554", "63bf7ac9f03239eb9d0016c9"],
-  },
-  {
-    _id: "63bf7ccef032396d89000016",
-    amount: "$129.79",
-    buyer: "Pammy Rubie",
-    productIds: ["63bf7ac9f03239855d001553"],
-  },
-  {
-    _id: "63bf7ccef032396d89000017",
-    amount: "$141.60",
-    buyer: "Brittne Causnett",
-    productIds: [
-      "63bf7ac9f03239742000169a",
-      "63bf7ac9f032397b4f0015fe",
-      "63bf7ac9f03239966c001692",
-    ],
-  },
-  {
-    _id: "63bf7ccef032396d89000018",
-    amount: "$111.86",
-    buyer: "Allina Peele",
-    productIds: [
-      "63bf7ac9f03239f92000168c",
-      "63bf7ac9f0323975d6001697",
-      "63bf7ac9f03239343e0016a0",
-      "63bf7ac9f03239eb9d0016c8",
-      "63bf7ac9f032394cbd00169e",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239f92000168f",
-    amount: "$263.95",
-    buyer: "Correy Addionisio",
-    productIds: [
-      "63bf7ac9f03239aec9001552",
-      "63bf7ac9f032397b4f0015ff",
-      "63bf7ac9f0323975d6001697",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239f920001690",
-    amount: "$184.66",
-    buyer: "Babbette Fudge",
-    productIds: ["63bf7ac9f032396a8e00168e", "63bf7ac9f03239eb9d0016cb"],
-  },
-  {
-    _id: "63bf7ccef03239f920001691",
-    amount: "$212.43",
-    buyer: "Goldarina Wingrove",
-    productIds: [
-      "63bf7ac9f03239eb9d0016c3",
-      "63bf7ac9f032396a8e001693",
-      "63bf7ac9f032395ccf001692",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239f920001692",
-    amount: "$266.52",
-    buyer: "Sibel Eakly",
-    productIds: [
-      "63bf7ac9f0323901e6001551",
-      "63bf7ac9f032397420001699",
-      "63bf7ac9f032396d89000009",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239f920001693",
-    amount: "$252.29",
-    buyer: "Iain Stuffins",
-    productIds: [
-      "63bf7ac9f032397b4f001600",
-      "63bf7ac9f03239554c002445",
-      "63bf7ac9f0323975d6001692",
-      "63bf7ac9f03239cf1b00169b",
-      "63bf7ac9f032395ccf001691",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239f920001694",
-    amount: "$59.82",
-    buyer: "Merrill Cubley",
-    productIds: [
-      "63bf7ac9f032396a8e001691",
-      "63bf7ac9f03239e002001602",
-      "63bf7ac9f03239eb9d0016c8",
-      "63bf7ac9f0323975d6001693",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239f920001695",
-    amount: "$253.84",
-    buyer: "Nikki Overlow",
-    productIds: [
-      "63bf7ac9f03239eb9d0016c5",
-      "63bf7ac9f032396d89000007",
-      "63bf7ac9f032394cbd001699",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239f920001696",
-    amount: "$150.73",
-    buyer: "Giffard Slesser",
-    productIds: [
-      "63bf7ac9f032394f5f002435",
-      "63bf7ac9f03239eb9d0016c9",
-      "63bf7ac9f032394f5f002438",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239f920001697",
-    amount: "$65.72",
-    buyer: "Gerik Wherton",
-    productIds: [
-      "63bf7ac9f03239966c001697",
-      "63bf7ac9f032397b4f0015fb",
-      "63bf7ac9f032394f5f002433",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239f920001698",
-    amount: "$194.44",
-    buyer: "Hebert Dorrington",
-    productIds: ["63bf7ac9f03239cf1b00169c"],
-  },
-  {
-    _id: "63bf7ccef03239f920001699",
-    amount: "$248.57",
-    buyer: "Mable Stirrup",
-    productIds: [
-      "63bf7ac9f03239855d001552",
-      "63bf7ac9f032395ccf00168e",
-      "63bf7ac9f03239554c002444",
-      "63bf7ac9f03239e002001601",
-      "63bf7ac9f03239554c002443",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239f92000169a",
-    amount: "$276.83",
-    buyer: "Dorothy Cristofolini",
-    productIds: [
-      "63bf7ac9f03239966c001694",
-      "63bf7ac9f032396d8900000a",
-      "63bf7ac9f03239cf1b001699",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394f5f002439",
-    amount: "$175.44",
-    buyer: "Reuben Davidzon",
-    productIds: ["63bf7ac9f03239e002001600"],
-  },
-  {
-    _id: "63bf7ccef032394f5f00243a",
-    amount: "$141.20",
-    buyer: "Mitchell Scriven",
-    productIds: [
-      "63bf7ac9f0323937a500168a",
-      "63bf7ac9f03239eb9d0016cb",
-      "63bf7ac9f03239966c001692",
-      "63bf7ac9f032397420001698",
-      "63bf7ac9f03239eb9d0016c8",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394f5f00243b",
-    amount: "$137.00",
-    buyer: "Jozef McFfaden",
-    productIds: [
-      "63bf7ac9f032394f5f002438",
-      "63bf7ac9f03239855d001555",
-      "63bf7ac9f03239855d001556",
-      "63bf7ac9f032397b4f0015ff",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394f5f00243c",
-    amount: "$30.46",
-    buyer: "Sarajane Giovannilli",
-    productIds: ["63bf7ac9f03239343e00169c"],
-  },
-  {
-    _id: "63bf7ccef032394f5f00243d",
-    amount: "$163.77",
-    buyer: "Malchy Hanbury-Brown",
-    productIds: ["63bf7ac9f03239966c001696"],
-  },
-  {
-    _id: "63bf7ccef032394f5f00243e",
-    amount: "$272.04",
-    buyer: "Nathanil Aidler",
-    productIds: ["63bf7ac9f032397b4f0015fe", "63bf7ac9f032394cbd00169c"],
-  },
-  {
-    _id: "63bf7ccef032394f5f00243f",
-    amount: "$270.05",
-    buyer: "Petronille Ganter",
-    productIds: ["63bf7ac9f03239cf1b00169b"],
-  },
-  {
-    _id: "63bf7ccef032394f5f002440",
-    amount: "$183.86",
-    buyer: "Nanni Bettles",
-    productIds: ["63bf7ac9f0323975d6001695", "63bf7ac9f032395ccf001690"],
-  },
-  {
-    _id: "63bf7ccef032394f5f002441",
-    amount: "$13.39",
-    buyer: "Marcello Connechy",
-    productIds: [
-      "63bf7ac9f0323922d200168e",
-      "63bf7ac9f03239554c002443",
-      "63bf7ac9f03239e002001605",
-      "63bf7ac9f03239e002001601",
-      "63bf7ac9f0323922d200168f",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394f5f002442",
-    amount: "$158.95",
-    buyer: "Reggis Ketton",
-    productIds: [
-      "63bf7ac9f03239343e00169d",
-      "63bf7ac9f03239343e00169b",
-      "63bf7ac9f032395ccf001691",
-      "63bf7ac9f03239855d001553",
-    ],
-  },
-  {
-    _id: "63bf7ccef032394f5f002443",
-    amount: "$103.60",
-    buyer: "Willyt Cato",
-    productIds: ["63bf7ac9f0323922d2001693"],
-  },
-  {
-    _id: "63bf7ccef032394f5f002444",
-    amount: "$154.99",
-    buyer: "Ira Martinello",
-    productIds: ["63bf7ac9f032395ccf00168e", "63bf7ac9f0323901e6001551"],
-  },
-  {
-    _id: "63bf7ccef0323937a500168d",
-    amount: "$197.90",
-    buyer: "Udall Alessandretti",
-    productIds: [
-      "63bf7ac9f032397b4f0015ff",
-      "63bf7ac9f03239eb9d0016c3",
-      "63bf7ac9f03239eb9d0016c8",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323937a500168e",
-    amount: "$28.26",
-    buyer: "Erminia Giraudo",
-    productIds: [
-      "63bf7ac9f03239cf1b00169d",
-      "63bf7ac9f032396a8e001692",
-      "63bf7ac9f032394cbd00169a",
-      "63bf7ac9f03239e002001605",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323937a500168f",
-    amount: "$282.44",
-    buyer: "Glenda Stenners",
-    productIds: [
-      "63bf7ac9f032395ccf001693",
-      "63bf7ac9f032397420001698",
-      "63bf7ac9f03239966c001694",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323937a5001690",
-    amount: "$233.02",
-    buyer: "Judon Tremathick",
-    productIds: [
-      "63bf7ac9f03239eb9d0016cb",
-      "63bf7ac9f03239f92000168d",
-      "63bf7ac9f032397b4f0015fd",
-      "63bf7ac9f0323937a500168c",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323937a5001691",
-    amount: "$244.78",
-    buyer: "Lynnet Faichney",
-    productIds: ["63bf7ac9f032394cbd00169c", "63bf7ac9f032395ccf001692"],
-  },
-  {
-    _id: "63bf7ccef0323937a5001692",
-    amount: "$169.19",
-    buyer: "Anet Le Monnier",
-    productIds: ["63bf7ac9f032396a8e001693"],
-  },
-  {
-    _id: "63bf7ccef0323937a5001693",
-    amount: "$202.97",
-    buyer: "Catriona Ashton",
-    productIds: ["63bf7ac9f0323937a5001689", "63bf7ac9f0323937a500168a"],
-  },
-  {
-    _id: "63bf7ccef0323937a5001694",
-    amount: "$282.67",
-    buyer: "Tristam Clemot",
-    productIds: ["63bf7ac9f03239aec9001552"],
-  },
-  {
-    _id: "63bf7ccef0323937a5001695",
-    amount: "$282.30",
-    buyer: "Millard Sallan",
-    productIds: ["63bf7ac9f032396a8e001690", "63bf7ac9f03239aec9001555"],
-  },
-  {
-    _id: "63bf7ccef0323937a5001696",
-    amount: "$32.78",
-    buyer: "Nikolos Baddoe",
-    productIds: [
-      "63bf7ac9f032396d89000008",
-      "63bf7ac9f0323975d6001692",
-      "63bf7ac9f03239eb9d0016c5",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323937a5001697",
-    amount: "$74.56",
-    buyer: "Joannes Tinn",
-    productIds: [
-      "63bf7ac9f03239cf1b00169a",
-      "63bf7ac9f03239966c001693",
-      "63bf7ac9f032396a8e00168e",
-      "63bf7ac9f03239e002001603",
-      "63bf7ac9f03239554c002448",
-    ],
-  },
-  {
-    _id: "63bf7ccef0323937a5001698",
-    amount: "$54.01",
-    buyer: "Mira Beese",
-    productIds: [
-      "63bf7ac9f03239554c002443",
-      "63bf7ac9f0323975d6001695",
-      "63bf7ac9f03239eb9d0016c7",
-      "63bf7ac9f032397b4f0015fe",
-      "63bf7ac9f03239cf1b00169b",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239855d001557",
-    amount: "$216.98",
-    buyer: "Tonye Mauditt",
-    productIds: ["63bf7ac9f03239966c001693", "63bf7ac9f03239eb9d0016cb"],
-  },
-  {
-    _id: "63bf7ccef03239855d001558",
-    amount: "$233.79",
-    buyer: "Margo Paull",
-    productIds: ["63bf7ac9f032396a8e001693"],
-  },
-  {
-    _id: "63bf7ccef03239855d001559",
-    amount: "$265.54",
-    buyer: "Ashly Rubee",
-    productIds: [
-      "63bf7ac9f03239eb9d0016cc",
-      "63bf7ac9f0323922d200168e",
-      "63bf7ac9f03239966c001694",
-      "63bf7ac9f0323975d6001695",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239855d00155a",
-    amount: "$244.04",
-    buyer: "Cymbre Cronk",
-    productIds: [
-      "63bf7ac9f032395ccf00168f",
-      "63bf7ac9f0323901e6001551",
-      "63bf7ac9f032394cbd00169c",
-      "63bf7ac9f032395ccf001692",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239855d00155b",
-    amount: "$27.78",
-    buyer: "Weidar Durand",
-    productIds: [
-      "63bf7ac9f032396d8900000a",
-      "63bf7ac9f03239eb9d0016c9",
-      "63bf7ac9f032395ccf001690",
-      "63bf7ac9f0323937a500168a",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239855d00155c",
-    amount: "$216.52",
-    buyer: "Alonzo Adds",
-    productIds: [
-      "63bf7ac9f032396a8e001690",
-      "63bf7ac9f032394f5f002435",
-      "63bf7ac9f032394cbd00169d",
-      "63bf7ac9f032394f5f002434",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239855d00155d",
-    amount: "$226.10",
-    buyer: "Regina Normanvill",
-    productIds: [
-      "63bf7ac9f032395ccf001693",
-      "63bf7ac9f03239966c001692",
-      "63bf7ac9f03239343e0016a0",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239855d00155e",
-    amount: "$293.98",
-    buyer: "Danie Dybell",
-    productIds: [
-      "63bf7ac9f0323937a5001688",
-      "63bf7ac9f0323922d2001691",
-      "63bf7ac9f032397b4f0015fd",
-      "63bf7ac9f03239cf1b00169d",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239855d00155f",
-    amount: "$191.88",
-    buyer: "Reg Dron",
-    productIds: [
-      "63bf7ac9f03239343e00169b",
-      "63bf7ac9f03239eb9d0016c6",
-      "63bf7ac9f03239aec9001556",
-      "63bf7ac9f032394f5f002433",
-      "63bf7ac9f032394f5f002437",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239855d001560",
-    amount: "$242.26",
-    buyer: "Carmine Catonnet",
-    productIds: [
-      "63bf7ac9f032397420001696",
-      "63bf7ac9f0323922d200168f",
-      "63bf7ac9f032397420001698",
-      "63bf7ac9f03239f92000168e",
-      "63bf7ac9f0323975d6001694",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239855d001561",
-    amount: "$207.93",
-    buyer: "Valaree Inchan",
-    productIds: [
-      "63bf7ac9f0323975d6001692",
-      "63bf7ac9f03239cf1b00169c",
-      "63bf7ac9f03239966c001696",
-      "63bf7ac9f0323922d2001692",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239855d001562",
-    amount: "$76.13",
-    buyer: "Franklin Markie",
-    productIds: ["63bf7ac9f03239855d001554", "63bf7ac9f032396a8e001691"],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016cd",
-    amount: "$194.94",
-    buyer: "Sigmund Ramiro",
-    productIds: ["63bf7ac9f0323901e6001553"],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016ce",
-    amount: "$32.76",
-    buyer: "Glen Proven",
-    productIds: ["63bf7ac9f03239855d001556", "63bf7ac9f03239eb9d0016c6"],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016cf",
-    amount: "$24.96",
-    buyer: "Georgi Alfonso",
-    productIds: [
-      "63bf7ac9f032397420001698",
-      "63bf7ac9f0323922d200168e",
-      "63bf7ac9f03239cf1b001698",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016d0",
-    amount: "$229.93",
-    buyer: "Karoly Tilio",
-    productIds: [
-      "63bf7ac9f03239855d001554",
-      "63bf7ac9f03239966c001694",
-      "63bf7ac9f032396a8e001690",
-      "63bf7ac9f03239f92000168d",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016d1",
-    amount: "$83.15",
-    buyer: "Adrianne Simmance",
-    productIds: [
-      "63bf7ac9f03239f920001689",
-      "63bf7ac9f03239eb9d0016c4",
-      "63bf7ac9f032394cbd00169d",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016d2",
-    amount: "$161.43",
-    buyer: "Frederich Hush",
-    productIds: [
-      "63bf7ac9f03239aec9001554",
-      "63bf7ac9f032397b4f001600",
-      "63bf7ac9f03239eb9d0016cc",
-      "63bf7ac9f03239eb9d0016ca",
-      "63bf7ac9f032394cbd00169a",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016d3",
-    amount: "$266.01",
-    buyer: "Mandie Keely",
-    productIds: ["63bf7ac9f032396d8900000a"],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016d4",
-    amount: "$276.18",
-    buyer: "Benedicta Khomich",
-    productIds: ["63bf7ac9f032394f5f002433", "63bf7ac9f03239966c001692"],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016d5",
-    amount: "$261.62",
-    buyer: "Lurette Searles",
-    productIds: ["63bf7ac9f03239eb9d0016c3"],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016d6",
-    amount: "$32.46",
-    buyer: "Rube Makin",
-    productIds: [
-      "63bf7ac9f032396a8e00168e",
-      "63bf7ac9f03239966c001695",
-      "63bf7ac9f03239eb9d0016c8",
-      "63bf7ac9f03239aec9001553",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016d7",
-    amount: "$83.42",
-    buyer: "Shanan McKevin",
-    productIds: [
-      "63bf7ac9f03239966c001696",
-      "63bf7ac9f0323922d200168f",
-      "63bf7ac9f032396d8900000b",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016d8",
-    amount: "$18.18",
-    buyer: "Dara Benck",
-    productIds: [
-      "63bf7ac9f032394f5f002434",
-      "63bf7ac9f0323937a5001687",
-      "63bf7ac9f03239e002001604",
-      "63bf7ac9f0323922d2001690",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016d9",
-    amount: "$106.37",
-    buyer: "Emeline Stranger",
-    productIds: [
-      "63bf7ac9f03239cf1b00169a",
-      "63bf7ac9f032395ccf00168e",
-      "63bf7ac9f03239742000169b",
-      "63bf7ac9f032396a8e001693",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016da",
-    amount: "$20.08",
-    buyer: "Goddart Atton",
-    productIds: [
-      "63bf7ac9f032396a8e001692",
-      "63bf7ac9f032394cbd001699",
-      "63bf7ac9f03239855d001555",
-      "63bf7ac9f03239343e00169c",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016db",
-    amount: "$57.45",
-    buyer: "Ellwood Cicculini",
-    productIds: ["63bf7ac9f032395ccf00168f", "63bf7ac9f03239966c001697"],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016dc",
-    amount: "$192.17",
-    buyer: "Moe Tebboth",
-    productIds: [
-      "63bf7ac9f03239cf1b00169b",
-      "63bf7ac9f03239aec9001556",
-      "63bf7ac9f032395ccf001691",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016dd",
-    amount: "$174.53",
-    buyer: "Adena Sepey",
-    productIds: [
-      "63bf7ac9f03239554c002447",
-      "63bf7ac9f032397420001696",
-      "63bf7ac9f03239343e00169f",
-      "63bf7ac9f03239554c002448",
-      "63bf7ac9f0323975d6001695",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016de",
-    amount: "$107.89",
-    buyer: "Jess Smails",
-    productIds: [
-      "63bf7ac9f032394cbd00169e",
-      "63bf7ac9f03239343e00169b",
-      "63bf7ac9f03239e002001602",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016df",
-    amount: "$110.12",
-    buyer: "Ezri Husset",
-    productIds: [
-      "63bf7ac9f032396d89000007",
-      "63bf7ac9f032397b4f0015fb",
-      "63bf7ac9f03239f92000168c",
-      "63bf7ac9f0323975d6001692",
-      "63bf7ac9f03239cf1b001699",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016e0",
-    amount: "$233.24",
-    buyer: "Dru Spittles",
-    productIds: ["63bf7ac9f03239855d001552"],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016e1",
-    amount: "$232.25",
-    buyer: "Leah Tuttiett",
-    productIds: [
-      "63bf7ac9f0323975d6001697",
-      "63bf7ac9f032395ccf001692",
-      "63bf7ac9f032394f5f002438",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016e2",
-    amount: "$254.42",
-    buyer: "Roldan Jacquemy",
-    productIds: [
-      "63bf7ac9f032397b4f0015fc",
-      "63bf7ac9f03239855d001551",
-      "63bf7ac9f032394cbd00169c",
-      "63bf7ac9f03239eb9d0016cb",
-      "63bf7ac9f032394f5f002436",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016e3",
-    amount: "$232.11",
-    buyer: "Ned Muddimer",
-    productIds: [
-      "63bf7ac9f03239e002001603",
-      "63bf7ac9f03239554c002444",
-      "63bf7ac9f032396d89000008",
-      "63bf7ac9f032394f5f002435",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016e4",
-    amount: "$73.14",
-    buyer: "Christos Sirey",
-    productIds: [
-      "63bf7ac9f03239eb9d0016c9",
-      "63bf7ac9f03239855d001553",
-      "63bf7ac9f03239343e00169d",
-      "63bf7ac9f0323937a500168c",
-      "63bf7ac9f03239e002001605",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016e5",
-    amount: "$175.29",
-    buyer: "Sharai Jeffcoat",
-    productIds: [
-      "63bf7ac9f03239e002001600",
-      "63bf7ac9f0323937a500168a",
-      "63bf7ac9f03239554c002445",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016e6",
-    amount: "$35.89",
-    buyer: "Jeramie Mc Gaughey",
-    productIds: ["63bf7ac9f0323922d2001691"],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016e7",
-    amount: "$88.26",
-    buyer: "Der Yuille",
-    productIds: [
-      "63bf7ac9f03239343e00169e",
-      "63bf7ac9f0323901e6001551",
-      "63bf7ac9f032397420001697",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016e8",
-    amount: "$50.84",
-    buyer: "Zelig Punton",
-    productIds: ["63bf7ac9f03239f92000168a", "63bf7ac9f032397b4f0015fe"],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016e9",
-    amount: "$88.76",
-    buyer: "Randolf Cheavin",
-    productIds: [
-      "63bf7ac9f0323937a5001689",
-      "63bf7ac9f0323901e6001552",
-      "63bf7ac9f03239eb9d0016c5",
-    ],
-  },
-  {
-    _id: "63bf7ccef03239eb9d0016ea",
-    amount: "$254.58",
-    buyer: "Loy Randerson",
-    productIds: ["63bf7ac9f032394f5f002437"],
-  },
+    {
+        "_id": "CA-2017-100041",
+        "transaction_date": "2017-11-20",
+        "customer_id": "BF-10975",
+        "buyer_name": "Barbara Fisher",
+        "amount": "$36990.20",
+        "productIds": [
+            "OFF-PA-10001622",
+            "OFF-PA-10000418",
+            "OFF-BI-10000343"
+        ]
+    },
+    {
+        "_id": "CA-2017-100083",
+        "transaction_date": "2017-11-24",
+        "customer_id": "CD-11980",
+        "buyer_name": "Carol Darley",
+        "amount": "$7559.18",
+        "productIds": [
+            "OFF-PA-10000241"
+        ]
+    },
+    {
+        "_id": "CA-2017-100153",
+        "transaction_date": "2017-12-13",
+        "customer_id": "KH-16630",
+        "buyer_name": "Ken Heidel",
+        "amount": "$4216.35",
+        "productIds": [
+            "TEC-AC-10001772"
+        ]
+    },
+    {
+        "_id": "CA-2017-100202",
+        "transaction_date": "2017-12-31",
+        "customer_id": "BD-11620",
+        "buyer_name": "Brian DeCherney",
+        "amount": "$429.66",
+        "productIds": [
+            "TEC-PH-10002563"
+        ]
+    },
+    {
+        "_id": "CA-2017-100244",
+        "transaction_date": "2017-09-20",
+        "customer_id": "GM-14695",
+        "buyer_name": "Greg Maxwell",
+        "amount": "$50701.42",
+        "productIds": [
+            "OFF-PA-10001471",
+            "OFF-BI-10003656",
+            "OFF-AR-10000940",
+            "OFF-PA-10002319",
+            "OFF-BI-10000977"
+        ]
+    },
+    {
+        "_id": "CA-2017-100300",
+        "transaction_date": "2017-06-24",
+        "customer_id": "MJ-17740",
+        "buyer_name": "Max Jones",
+        "amount": "$43091.14",
+        "productIds": [
+            "TEC-MA-10000984",
+            "OFF-PA-10000418",
+            "OFF-AP-10001242"
+        ]
+    },
+    {
+        "_id": "CA-2017-100307",
+        "transaction_date": "2017-12-15",
+        "customer_id": "TC-21475",
+        "buyer_name": "Tony Chapman",
+        "amount": "$2778.87",
+        "productIds": [
+            "OFF-PA-10002552"
+        ]
+    },
+    {
+        "_id": "CA-2017-100468",
+        "transaction_date": "2017-11-24",
+        "customer_id": "AT-10435",
+        "buyer_name": "Alyssa Tate",
+        "amount": "$12681.09",
+        "productIds": [
+            "TEC-PH-10001300",
+            "FUR-FU-10000010"
+        ]
+    },
+    {
+        "_id": "CA-2017-100510",
+        "transaction_date": "2017-05-12",
+        "customer_id": "HM-14860",
+        "buyer_name": "Harry Marie",
+        "amount": "$5059.95",
+        "productIds": [
+            "FUR-FU-10000320",
+            "TEC-PH-10001835"
+        ]
+    },
+    {
+        "_id": "CA-2017-100671",
+        "transaction_date": "2017-11-01",
+        "customer_id": "CS-12490",
+        "buyer_name": "Cindy Schnelling",
+        "amount": "$316.00",
+        "productIds": [
+            "OFF-ST-10004950"
+        ]
+    },
+    {
+        "_id": "CA-2017-100790",
+        "transaction_date": "2017-06-26",
+        "customer_id": "JG-15805",
+        "buyer_name": "John Grady",
+        "amount": "$4454.44",
+        "productIds": [
+            "OFF-AR-10003045",
+            "OFF-ST-10000689"
+        ]
+    },
+    {
+        "_id": "CA-2017-100944",
+        "transaction_date": "2017-09-24",
+        "customer_id": "EH-13765",
+        "buyer_name": "Edward Hooks",
+        "amount": "$5781.87",
+        "productIds": [
+            "OFF-EN-10001453",
+            "FUR-CH-10000988"
+        ]
+    },
+    {
+        "_id": "CA-2017-100965",
+        "transaction_date": "2017-07-07",
+        "customer_id": "RM-19375",
+        "buyer_name": "Raymond Messe",
+        "amount": "$1076.91",
+        "productIds": [
+            "FUR-FU-10003039"
+        ]
+    },
+    {
+        "_id": "CA-2017-100993",
+        "transaction_date": "2017-02-05",
+        "customer_id": "AZ-10750",
+        "buyer_name": "Annie Zypern",
+        "amount": "$17061.92",
+        "productIds": [
+            "OFF-LA-10003223",
+            "OFF-ST-10004340",
+            "FUR-TA-10001095",
+            "TEC-PH-10001448"
+        ]
+    },
+    {
+        "_id": "CA-2017-101161",
+        "transaction_date": "2017-10-13",
+        "customer_id": "BW-11110",
+        "buyer_name": "Bart Watters",
+        "amount": "$35178.64",
+        "productIds": [
+            "OFF-AR-10001860",
+            "OFF-ST-10003123",
+            "OFF-PA-10001295",
+            "OFF-LA-10000407",
+            "FUR-FU-10003535"
+        ]
+    },
+    {
+        "_id": "CA-2017-101168",
+        "transaction_date": "2017-12-25",
+        "customer_id": "SS-20140",
+        "buyer_name": "Saphhira Shifley",
+        "amount": "$10098.75",
+        "productIds": [
+            "FUR-FU-10003142"
+        ]
+    },
+    {
+        "_id": "CA-2017-101189",
+        "transaction_date": "2017-02-04",
+        "customer_id": "JB-15400",
+        "buyer_name": "Jennifer Braxton",
+        "amount": "$22441.00",
+        "productIds": [
+            "OFF-ST-10004180"
+        ]
+    },
+    {
+        "_id": "CA-2017-101329",
+        "transaction_date": "2017-04-22",
+        "customer_id": "MM-17920",
+        "buyer_name": "Michael Moore",
+        "amount": "$29467.54",
+        "productIds": [
+            "OFF-AR-10000614",
+            "OFF-AR-10003190"
+        ]
+    },
+    {
+        "_id": "CA-2017-101336",
+        "transaction_date": "2017-11-13",
+        "customer_id": "CK-12760",
+        "buyer_name": "Cyma Kinney",
+        "amount": "$25664.80",
+        "productIds": [
+            "OFF-ST-10003455",
+            "OFF-ST-10000876",
+            "OFF-AR-10003582",
+            "OFF-ST-10004258"
+        ]
+    },
+    {
+        "_id": "CA-2017-101343",
+        "transaction_date": "2017-07-17",
+        "customer_id": "RA-19885",
+        "buyer_name": "Ruben Ausman",
+        "amount": "$22894.20",
+        "productIds": [
+            "OFF-ST-10003479"
+        ]
+    },
+    {
+        "_id": "CA-2017-101378",
+        "transaction_date": "2017-07-14",
+        "customer_id": "RH-19600",
+        "buyer_name": "Rob Haberlin",
+        "amount": "$2300.22",
+        "productIds": [
+            "TEC-AC-10002345"
+        ]
+    },
+    {
+        "_id": "CA-2017-101385",
+        "transaction_date": "2017-09-25",
+        "customer_id": "JW-16075",
+        "buyer_name": "Julia West",
+        "amount": "$1157.38",
+        "productIds": [
+            "OFF-AR-10004441"
+        ]
+    },
+    {
+        "_id": "CA-2017-101448",
+        "transaction_date": "2017-02-27",
+        "customer_id": "EB-13930",
+        "buyer_name": "Eric Barreto",
+        "amount": "$4907.76",
+        "productIds": [
+            "OFF-BI-10004738"
+        ]
+    },
+    {
+        "_id": "CA-2017-101469",
+        "transaction_date": "2017-07-02",
+        "customer_id": "KH-16360",
+        "buyer_name": "Katherine Hughes",
+        "amount": "$152.82",
+        "productIds": [
+            "OFF-AR-10003986"
+        ]
+    },
+    {
+        "_id": "CA-2017-101525",
+        "transaction_date": "2017-05-01",
+        "customer_id": "CM-12235",
+        "buyer_name": "Chris McAfee",
+        "amount": "$10501.90",
+        "productIds": [
+            "OFF-PA-10001497",
+            "OFF-PA-10003936",
+            "OFF-AR-10000716"
+        ]
+    },
+    {
+        "_id": "CA-2017-101546",
+        "transaction_date": "2017-12-18",
+        "customer_id": "GK-14620",
+        "buyer_name": "Grace Kelly",
+        "amount": "$8680.20",
+        "productIds": [
+            "OFF-BI-10001359"
+        ]
+    },
+    {
+        "_id": "CA-2017-101623",
+        "transaction_date": "2017-02-28",
+        "customer_id": "RR-19525",
+        "buyer_name": "Rick Reed",
+        "amount": "$10082.66",
+        "productIds": [
+            "OFF-FA-10003495"
+        ]
+    },
+    {
+        "_id": "CA-2017-101630",
+        "transaction_date": "2017-02-19",
+        "customer_id": "CK-12760",
+        "buyer_name": "Cyma Kinney",
+        "amount": "$10885.60",
+        "productIds": [
+            "OFF-LA-10004425",
+            "OFF-SU-10001664"
+        ]
+    },
+    {
+        "_id": "CA-2017-101651",
+        "transaction_date": "2017-12-24",
+        "customer_id": "SC-20305",
+        "buyer_name": "Sean Christensen",
+        "amount": "$18934.32",
+        "productIds": [
+            "FUR-FU-10000771",
+            "OFF-EN-10001990"
+        ]
+    },
+    {
+        "_id": "CA-2017-101672",
+        "transaction_date": "2017-10-03",
+        "customer_id": "DB-12910",
+        "buyer_name": "Daniel Byrd",
+        "amount": "$26402.68",
+        "productIds": [
+            "OFF-LA-10002271",
+            "FUR-CH-10004063",
+            "OFF-PA-10004610",
+            "OFF-PA-10001878"
+        ]
+    },
+    {
+        "_id": "CA-2017-101693",
+        "transaction_date": "2017-06-25",
+        "customer_id": "LC-17140",
+        "buyer_name": "Logan Currie",
+        "amount": "$5291.77",
+        "productIds": [
+            "FUR-CH-10001146",
+            "FUR-FU-10003919"
+        ]
+    },
+    {
+        "_id": "CA-2017-101742",
+        "transaction_date": "2017-09-23",
+        "customer_id": "CR-12580",
+        "buyer_name": "Clay Rozendal",
+        "amount": "$5645.16",
+        "productIds": [
+            "OFF-BI-10004187"
+        ]
+    },
+    {
+        "_id": "CA-2017-101791",
+        "transaction_date": "2017-05-27",
+        "customer_id": "BS-11665",
+        "buyer_name": "Brian Stugart",
+        "amount": "$16078.83",
+        "productIds": [
+            "FUR-FU-10003247",
+            "FUR-FU-10002191",
+            "OFF-ST-10001496"
+        ]
+    },
+    {
+        "_id": "CA-2017-101938",
+        "transaction_date": "2017-01-07",
+        "customer_id": "DW-13480",
+        "buyer_name": "Dianna Wilson",
+        "amount": "$3292.92",
+        "productIds": [
+            "OFF-AR-10003696"
+        ]
+    },
+    {
+        "_id": "CA-2017-101966",
+        "transaction_date": "2017-07-14",
+        "customer_id": "BM-11785",
+        "buyer_name": "Bryan Mills",
+        "amount": "$5711.00",
+        "productIds": [
+            "TEC-PH-10003437"
+        ]
+    },
+    {
+        "_id": "CA-2017-101980",
+        "transaction_date": "2017-08-19",
+        "customer_id": "RP-19390",
+        "buyer_name": "Resi P\u00f6lking",
+        "amount": "$12573.15",
+        "productIds": [
+            "OFF-BI-10000666",
+            "OFF-BI-10004318",
+            "OFF-BI-10003429"
+        ]
+    },
+    {
+        "_id": "CA-2017-101987",
+        "transaction_date": "2017-06-24",
+        "customer_id": "HL-15040",
+        "buyer_name": "Hunter Lopez",
+        "amount": "$2498.13",
+        "productIds": [
+            "TEC-PH-10001305"
+        ]
+    },
+    {
+        "_id": "CA-2017-102092",
+        "transaction_date": "2017-12-09",
+        "customer_id": "PM-18940",
+        "buyer_name": "Paul MacIntyre",
+        "amount": "$20840.40",
+        "productIds": [
+            "FUR-TA-10002530"
+        ]
+    },
+    {
+        "_id": "CA-2017-102127",
+        "transaction_date": "2017-06-26",
+        "customer_id": "VP-21760",
+        "buyer_name": "Victoria Pisteka",
+        "amount": "$2047.37",
+        "productIds": [
+            "TEC-AC-10002018",
+            "TEC-AC-10000397",
+            "FUR-FU-10003976"
+        ]
+    },
+    {
+        "_id": "CA-2017-102134",
+        "transaction_date": "2017-03-14",
+        "customer_id": "SP-20545",
+        "buyer_name": "Sibella Parks",
+        "amount": "$738.12",
+        "productIds": [
+            "FUR-FU-10003724"
+        ]
+    },
+    {
+        "_id": "CA-2017-102162",
+        "transaction_date": "2017-09-11",
+        "customer_id": "JF-15565",
+        "buyer_name": "Jill Fjeld",
+        "amount": "$30807.30",
+        "productIds": [
+            "TEC-CO-10001943",
+            "OFF-EN-10002312"
+        ]
+    },
+    {
+        "_id": "CA-2017-102456",
+        "transaction_date": "2017-02-27",
+        "customer_id": "DL-12865",
+        "buyer_name": "Dan Lawera",
+        "amount": "$6877.70",
+        "productIds": [
+            "OFF-AP-10004336"
+        ]
+    },
+    {
+        "_id": "CA-2017-102498",
+        "transaction_date": "2017-07-24",
+        "customer_id": "JG-15160",
+        "buyer_name": "James Galang",
+        "amount": "$224.48",
+        "productIds": [
+            "OFF-AR-10004456"
+        ]
+    },
+    {
+        "_id": "CA-2017-102561",
+        "transaction_date": "2017-07-18",
+        "customer_id": "NK-18490",
+        "buyer_name": "Neil Knudson",
+        "amount": "$15975.22",
+        "productIds": [
+            "OFF-AR-10001545",
+            "OFF-ST-10001476",
+            "OFF-PA-10004971"
+        ]
+    },
+    {
+        "_id": "CA-2017-102596",
+        "transaction_date": "2017-12-27",
+        "customer_id": "RD-19810",
+        "buyer_name": "Ross DeVincentis",
+        "amount": "$14439.25",
+        "productIds": [
+            "OFF-FA-10000621"
+        ]
+    },
+    {
+        "_id": "CA-2017-102792",
+        "transaction_date": "2017-12-13",
+        "customer_id": "JC-15340",
+        "buyer_name": "Jasper Cacioppo",
+        "amount": "$372.93",
+        "productIds": [
+            "OFF-AR-10004757"
+        ]
+    },
+    {
+        "_id": "CA-2017-102813",
+        "transaction_date": "2017-07-02",
+        "customer_id": "EA-14035",
+        "buyer_name": "Erin Ashbrook",
+        "amount": "$11311.69",
+        "productIds": [
+            "FUR-CH-10000665",
+            "OFF-PA-10000520"
+        ]
+    },
+    {
+        "_id": "CA-2017-102932",
+        "transaction_date": "2017-09-19",
+        "customer_id": "SD-20485",
+        "buyer_name": "Shirley Daniels",
+        "amount": "$20560.24",
+        "productIds": [
+            "OFF-BI-10000756",
+            "OFF-SU-10000381"
+        ]
+    },
+    {
+        "_id": "CA-2017-102981",
+        "transaction_date": "2017-09-06",
+        "customer_id": "MO-17500",
+        "buyer_name": "Mary O'Rourke",
+        "amount": "$31845.69",
+        "productIds": [
+            "TEC-AC-10004761",
+            "FUR-BO-10001811"
+        ]
+    },
+    {
+        "_id": "CA-2017-103037",
+        "transaction_date": "2017-07-25",
+        "customer_id": "KH-16630",
+        "buyer_name": "Ken Heidel",
+        "amount": "$1139.04",
+        "productIds": [
+            "OFF-LA-10004345"
+        ]
+    },
+    {
+        "_id": "CA-2017-103107",
+        "transaction_date": "2017-07-04",
+        "customer_id": "RB-19465",
+        "buyer_name": "Rick Bensley",
+        "amount": "$9258.68",
+        "productIds": [
+            "FUR-FU-10000221",
+            "TEC-PH-10001198",
+            "TEC-PH-10002564"
+        ]
+    },
+    {
+        "_id": "CA-2017-103128",
+        "transaction_date": "2017-11-11",
+        "customer_id": "SC-20845",
+        "buyer_name": "Sung Chung",
+        "amount": "$11203.38",
+        "productIds": [
+            "OFF-AR-10003394"
+        ]
+    },
+    {
+        "_id": "CA-2017-103163",
+        "transaction_date": "2017-06-07",
+        "customer_id": "FM-14290",
+        "buyer_name": "Frank Merwin",
+        "amount": "$8993.10",
+        "productIds": [
+            "OFF-BI-10003305",
+            "OFF-PA-10004000"
+        ]
+    },
+    {
+        "_id": "CA-2017-103359",
+        "transaction_date": "2017-12-22",
+        "customer_id": "LC-16885",
+        "buyer_name": "Lena Creighton",
+        "amount": "$6388.64",
+        "productIds": [
+            "OFF-BI-10004233"
+        ]
+    },
+    {
+        "_id": "CA-2017-103464",
+        "transaction_date": "2017-11-18",
+        "customer_id": "PG-18820",
+        "buyer_name": "Patrick Gardner",
+        "amount": "$2911.10",
+        "productIds": [
+            "TEC-AC-10002842"
+        ]
+    },
+    {
+        "_id": "CA-2017-103709",
+        "transaction_date": "2017-09-08",
+        "customer_id": "LP-17095",
+        "buyer_name": "Liz Preis",
+        "amount": "$38651.93",
+        "productIds": [
+            "OFF-AR-10003338",
+            "OFF-PA-10004610",
+            "OFF-ST-10001272"
+        ]
+    },
+    {
+        "_id": "CA-2017-103730",
+        "transaction_date": "2017-06-12",
+        "customer_id": "SC-20725",
+        "buyer_name": "Steven Cartwright",
+        "amount": "$26994.41",
+        "productIds": [
+            "FUR-FU-10002157",
+            "OFF-BI-10003910",
+            "OFF-ST-10000777",
+            "OFF-EN-10002500",
+            "TEC-PH-10003875"
+        ]
+    },
+    {
+        "_id": "CA-2017-103891",
+        "transaction_date": "2017-07-12",
+        "customer_id": "KH-16690",
+        "buyer_name": "Kristen Hastings",
+        "amount": "$7278.12",
+        "productIds": [
+            "TEC-PH-10000149"
+        ]
+    },
+    {
+        "_id": "CA-2017-103919",
+        "transaction_date": "2017-10-03",
+        "customer_id": "TP-21565",
+        "buyer_name": "Tracy Poddar",
+        "amount": "$2416.32",
+        "productIds": [
+            "FUR-FU-10001756"
+        ]
+    },
+    {
+        "_id": "CA-2017-103947",
+        "transaction_date": "2017-04-01",
+        "customer_id": "BB-10990",
+        "buyer_name": "Barry Blumstein",
+        "amount": "$1875.96",
+        "productIds": [
+            "OFF-FA-10003112",
+            "OFF-AP-10002350"
+        ]
+    },
+    {
+        "_id": "CA-2017-103982",
+        "transaction_date": "2017-03-03",
+        "customer_id": "AA-10315",
+        "buyer_name": "Alex Avila",
+        "amount": "$11237.97",
+        "productIds": [
+            "OFF-SU-10000151",
+            "OFF-FA-10001332",
+            "TEC-PH-10000895",
+            "TEC-AC-10002857"
+        ]
+    },
+    {
+        "_id": "CA-2017-104150",
+        "transaction_date": "2017-08-03",
+        "customer_id": "AG-10330",
+        "buyer_name": "Alex Grayson",
+        "amount": "$9987.72",
+        "productIds": [
+            "OFF-EN-10002504",
+            "TEC-AC-10004803"
+        ]
+    },
+    {
+        "_id": "CA-2017-104157",
+        "transaction_date": "2017-07-25",
+        "customer_id": "MT-17815",
+        "buyer_name": "Meg Tillman",
+        "amount": "$9642.32",
+        "productIds": [
+            "OFF-ST-10000321",
+            "OFF-PA-10004665",
+            "FUR-TA-10004915"
+        ]
+    },
+    {
+        "_id": "CA-2017-104276",
+        "transaction_date": "2017-11-27",
+        "customer_id": "HF-14995",
+        "buyer_name": "Herbert Flentye",
+        "amount": "$885.88",
+        "productIds": [
+            "TEC-PH-10001944",
+            "FUR-TA-10001039"
+        ]
+    },
+    {
+        "_id": "CA-2017-104311",
+        "transaction_date": "2017-05-02",
+        "customer_id": "AS-10090",
+        "buyer_name": "Adam Shillingsburg",
+        "amount": "$18075.78",
+        "productIds": [
+            "OFF-ST-10000321",
+            "OFF-ST-10002957",
+            "OFF-LA-10000973"
+        ]
+    },
+    {
+        "_id": "CA-2017-104633",
+        "transaction_date": "2017-06-12",
+        "customer_id": "EA-14035",
+        "buyer_name": "Erin Ashbrook",
+        "amount": "$12350.88",
+        "productIds": [
+            "OFF-PA-10000241",
+            "OFF-PA-10004782"
+        ]
+    },
+    {
+        "_id": "CA-2017-104689",
+        "transaction_date": "2017-12-01",
+        "customer_id": "FH-14365",
+        "buyer_name": "Fred Hopkins",
+        "amount": "$913.92",
+        "productIds": [
+            "OFF-AR-10001149"
+        ]
+    },
+    {
+        "_id": "CA-2017-104969",
+        "transaction_date": "2017-04-08",
+        "customer_id": "EH-14125",
+        "buyer_name": "Eugene Hildebrand",
+        "amount": "$1260.00",
+        "productIds": [
+            "OFF-EN-10002312",
+            "OFF-BI-10004224"
+        ]
+    },
+    {
+        "_id": "CA-2017-104983",
+        "transaction_date": "2017-07-03",
+        "customer_id": "FM-14215",
+        "buyer_name": "Filia McAdams",
+        "amount": "$21038.60",
+        "productIds": [
+            "OFF-PA-10000167"
+        ]
+    },
+    {
+        "_id": "CA-2017-105018",
+        "transaction_date": "2017-11-28",
+        "customer_id": "SK-19990",
+        "buyer_name": "Sally Knutson",
+        "amount": "$10788.61",
+        "productIds": [
+            "OFF-BI-10001890"
+        ]
+    },
+    {
+        "_id": "CA-2017-105081",
+        "transaction_date": "2017-12-25",
+        "customer_id": "JE-15715",
+        "buyer_name": "Joe Elijah",
+        "amount": "$16049.94",
+        "productIds": [
+            "FUR-CH-10000847",
+            "FUR-TA-10001307"
+        ]
+    },
+    {
+        "_id": "CA-2017-105207",
+        "transaction_date": "2017-01-03",
+        "customer_id": "BO-11350",
+        "buyer_name": "Bill Overfelt",
+        "amount": "$28438.72",
+        "productIds": [
+            "FUR-TA-10000617",
+            "OFF-BI-10004364"
+        ]
+    },
+    {
+        "_id": "CA-2017-105256",
+        "transaction_date": "2017-05-20",
+        "customer_id": "JK-15730",
+        "buyer_name": "Joe Kamberova",
+        "amount": "$9946.70",
+        "productIds": [
+            "TEC-PH-10001530"
+        ]
+    },
+    {
+        "_id": "CA-2017-105263",
+        "transaction_date": "2017-08-06",
+        "customer_id": "LM-17065",
+        "buyer_name": "Liz MacKendrick",
+        "amount": "$10260.03",
+        "productIds": [
+            "OFF-AR-10002399"
+        ]
+    },
+    {
+        "_id": "CA-2017-105277",
+        "transaction_date": "2017-12-04",
+        "customer_id": "LM-17065",
+        "buyer_name": "Liz MacKendrick",
+        "amount": "$4179.63",
+        "productIds": [
+            "OFF-BI-10000301"
+        ]
+    },
+    {
+        "_id": "CA-2017-105284",
+        "transaction_date": "2017-11-24",
+        "customer_id": "MG-17650",
+        "buyer_name": "Matthew Grinstein",
+        "amount": "$1764.36",
+        "productIds": [
+            "OFF-FA-10001754"
+        ]
+    },
+    {
+        "_id": "CA-2017-105291",
+        "transaction_date": "2017-10-30",
+        "customer_id": "SP-20920",
+        "buyer_name": "Susan Pistek",
+        "amount": "$62.92",
+        "productIds": [
+            "OFF-FA-10003059"
+        ]
+    },
+    {
+        "_id": "CA-2017-105354",
+        "transaction_date": "2017-12-02",
+        "customer_id": "PW-19030",
+        "buyer_name": "Pauline Webber",
+        "amount": "$3780.00",
+        "productIds": [
+            "OFF-BI-10001107"
+        ]
+    },
+    {
+        "_id": "CA-2017-105459",
+        "transaction_date": "2017-08-12",
+        "customer_id": "NP-18700",
+        "buyer_name": "Nora Preis",
+        "amount": "$5318.80",
+        "productIds": [
+            "FUR-TA-10001095",
+            "OFF-ST-10000078"
+        ]
+    },
+    {
+        "_id": "CA-2017-105473",
+        "transaction_date": "2017-04-16",
+        "customer_id": "BM-11785",
+        "buyer_name": "Bryan Mills",
+        "amount": "$11916.15",
+        "productIds": [
+            "OFF-SU-10003567"
+        ]
+    },
+    {
+        "_id": "CA-2017-105494",
+        "transaction_date": "2017-11-10",
+        "customer_id": "PC-18745",
+        "buyer_name": "Pamela Coakley",
+        "amount": "$2675.01",
+        "productIds": [
+            "OFF-ST-10002205",
+            "OFF-BI-10003364"
+        ]
+    },
+    {
+        "_id": "CA-2017-105585",
+        "transaction_date": "2017-08-26",
+        "customer_id": "RF-19735",
+        "buyer_name": "Roland Fjeld",
+        "amount": "$9332.36",
+        "productIds": [
+            "OFF-FA-10002983",
+            "OFF-PA-10003625"
+        ]
+    },
+    {
+        "_id": "CA-2017-105662",
+        "transaction_date": "2017-05-05",
+        "customer_id": "RB-19465",
+        "buyer_name": "Rick Bensley",
+        "amount": "$20381.51",
+        "productIds": [
+            "OFF-PA-10001001",
+            "TEC-PH-10001198"
+        ]
+    },
+    {
+        "_id": "CA-2017-105732",
+        "transaction_date": "2017-09-13",
+        "customer_id": "AG-10270",
+        "buyer_name": "Alejandro Grove",
+        "amount": "$94749.91",
+        "productIds": [
+            "OFF-ST-10000419",
+            "OFF-LA-10004559",
+            "TEC-PH-10001644",
+            "OFF-SU-10004782",
+            "OFF-PA-10002250",
+            "OFF-AP-10001394",
+            "OFF-PA-10001838",
+            "OFF-ST-10004340",
+            "FUR-FU-10003664",
+            "TEC-PH-10004897"
+        ]
+    },
+    {
+        "_id": "CA-2017-105746",
+        "transaction_date": "2017-12-30",
+        "customer_id": "BD-11605",
+        "buyer_name": "Brian Dahlen",
+        "amount": "$10265.85",
+        "productIds": [
+            "FUR-CH-10000454"
+        ]
+    },
+    {
+        "_id": "CA-2017-105753",
+        "transaction_date": "2017-10-20",
+        "customer_id": "LC-16960",
+        "buyer_name": "Lindsay Castell",
+        "amount": "$4834.50",
+        "productIds": [
+            "FUR-FU-10000246"
+        ]
+    },
+    {
+        "_id": "CA-2017-105760",
+        "transaction_date": "2017-06-19",
+        "customer_id": "KC-16255",
+        "buyer_name": "Karen Carlisle",
+        "amount": "$8716.41",
+        "productIds": [
+            "OFF-PA-10000350"
+        ]
+    },
+    {
+        "_id": "CA-2017-105781",
+        "transaction_date": "2017-02-16",
+        "customer_id": "JF-15565",
+        "buyer_name": "Jill Fjeld",
+        "amount": "$4702.65",
+        "productIds": [
+            "FUR-CH-10001802",
+            "TEC-AC-10003628"
+        ]
+    },
+    {
+        "_id": "CA-2017-105816",
+        "transaction_date": "2017-12-11",
+        "customer_id": "JM-15265",
+        "buyer_name": "Janet Molinari",
+        "amount": "$15965.98",
+        "productIds": [
+            "OFF-FA-10000304",
+            "TEC-PH-10002447"
+        ]
+    },
+    {
+        "_id": "CA-2017-105900",
+        "transaction_date": "2017-09-17",
+        "customer_id": "BS-11590",
+        "buyer_name": "Brendan Sweed",
+        "amount": "$11898.00",
+        "productIds": [
+            "OFF-AR-10002656"
+        ]
+    },
+    {
+        "_id": "CA-2017-105963",
+        "transaction_date": "2017-11-15",
+        "customer_id": "SC-20770",
+        "buyer_name": "Stewart Carmichael",
+        "amount": "$2822.70",
+        "productIds": [
+            "TEC-AC-10003832"
+        ]
+    },
+    {
+        "_id": "CA-2017-106075",
+        "transaction_date": "2017-09-18",
+        "customer_id": "HM-14980",
+        "buyer_name": "Henry MacAllister",
+        "amount": "$5409.60",
+        "productIds": [
+            "OFF-BI-10004654"
+        ]
+    },
+    {
+        "_id": "CA-2017-106243",
+        "transaction_date": "2017-09-30",
+        "customer_id": "GM-14680",
+        "buyer_name": "Greg Matthias",
+        "amount": "$8675.10",
+        "productIds": [
+            "FUR-BO-10003034"
+        ]
+    },
+    {
+        "_id": "CA-2017-106278",
+        "transaction_date": "2017-09-02",
+        "customer_id": "BM-11140",
+        "buyer_name": "Becky Martin",
+        "amount": "$1586.88",
+        "productIds": [
+            "FUR-CH-10003061",
+            "OFF-EN-10003567"
+        ]
+    },
+    {
+        "_id": "CA-2017-106306",
+        "transaction_date": "2017-03-08",
+        "customer_id": "PG-18820",
+        "buyer_name": "Patrick Gardner",
+        "amount": "$4292.68",
+        "productIds": [
+            "OFF-BI-10003676"
+        ]
+    },
+    {
+        "_id": "CA-2017-106341",
+        "transaction_date": "2017-10-20",
+        "customer_id": "LF-17185",
+        "buyer_name": "Luke Foster",
+        "amount": "$13703.52",
+        "productIds": [
+            "OFF-AR-10002053"
+        ]
+    },
+    {
+        "_id": "CA-2017-106383",
+        "transaction_date": "2017-03-19",
+        "customer_id": "BT-11440",
+        "buyer_name": "Bobby Trafton",
+        "amount": "$1752.83",
+        "productIds": [
+            "FUR-BO-10002202"
+        ]
+    },
+    {
+        "_id": "CA-2017-106397",
+        "transaction_date": "2017-07-07",
+        "customer_id": "MJ-17740",
+        "buyer_name": "Max Jones",
+        "amount": "$6183.40",
+        "productIds": [
+            "OFF-PA-10003441",
+            "OFF-AR-10004602"
+        ]
+    },
+    {
+        "_id": "CA-2017-106460",
+        "transaction_date": "2017-02-19",
+        "customer_id": "GT-14710",
+        "buyer_name": "Greg Tran",
+        "amount": "$8990.85",
+        "productIds": [
+            "OFF-PA-10001736"
+        ]
+    },
+    {
+        "_id": "CA-2017-106530",
+        "transaction_date": "2017-05-08",
+        "customer_id": "CL-12565",
+        "buyer_name": "Clay Ludtke",
+        "amount": "$39114.10",
+        "productIds": [
+            "OFF-ST-10002011",
+            "OFF-PA-10002986",
+            "OFF-PA-10004451",
+            "OFF-ST-10000649",
+            "TEC-AC-10001465"
+        ]
+    },
+    {
+        "_id": "CA-2017-106558",
+        "transaction_date": "2017-01-17",
+        "customer_id": "DL-13495",
+        "buyer_name": "Dionis Lloyd",
+        "amount": "$13579.44",
+        "productIds": [
+            "TEC-AC-10001142"
+        ]
+    },
+    {
+        "_id": "CA-2017-106621",
+        "transaction_date": "2017-09-29",
+        "customer_id": "DM-12955",
+        "buyer_name": "Dario Medina",
+        "amount": "$45.46",
+        "productIds": [
+            "OFF-AR-10002375"
+        ]
+    },
+    {
+        "_id": "CA-2017-106656",
+        "transaction_date": "2017-09-23",
+        "customer_id": "DV-13045",
+        "buyer_name": "Darrin Van Huff",
+        "amount": "$14188.68",
+        "productIds": [
+            "OFF-EN-10001509",
+            "OFF-LA-10003148"
+        ]
+    },
+    {
+        "_id": "CA-2017-106894",
+        "transaction_date": "2017-02-07",
+        "customer_id": "CA-12265",
+        "buyer_name": "Christina Anderson",
+        "amount": "$10931.60",
+        "productIds": [
+            "TEC-AC-10003063",
+            "OFF-LA-10001045"
+        ]
+    },
+    {
+        "_id": "CA-2017-106915",
+        "transaction_date": "2017-11-26",
+        "customer_id": "GA-14515",
+        "buyer_name": "George Ashbrook",
+        "amount": "$19429.00",
+        "productIds": [
+            "OFF-AR-10000716"
+        ]
+    },
+    {
+        "_id": "CA-2017-106950",
+        "transaction_date": "2017-09-02",
+        "customer_id": "JE-15715",
+        "buyer_name": "Joe Elijah",
+        "amount": "$71520.38",
+        "productIds": [
+            "OFF-BI-10000014",
+            "OFF-AP-10000159",
+            "OFF-AR-10003560",
+            "FUR-TA-10001768",
+            "TEC-AC-10002049",
+            "OFF-BI-10003166"
+        ]
+    },
+    {
+        "_id": "CA-2017-107104",
+        "transaction_date": "2017-11-26",
+        "customer_id": "MS-17365",
+        "buyer_name": "Maribeth Schnelling",
+        "amount": "$61723.36",
+        "productIds": [
+            "FUR-BO-10002213",
+            "OFF-AR-10004269",
+            "OFF-AP-10000055",
+            "FUR-FU-10002937"
+        ]
+    },
+    {
+        "_id": "CA-2017-107146",
+        "transaction_date": "2017-06-17",
+        "customer_id": "LC-16885",
+        "buyer_name": "Lena Creighton",
+        "amount": "$19335.66",
+        "productIds": [
+            "FUR-FU-10002298",
+            "FUR-CH-10004853"
+        ]
+    },
+    {
+        "_id": "CA-2017-107202",
+        "transaction_date": "2017-05-21",
+        "customer_id": "LC-16930",
+        "buyer_name": "Linda Cazamias",
+        "amount": "$10152.66",
+        "productIds": [
+            "TEC-MA-10000112"
+        ]
+    },
+    {
+        "_id": "CA-2017-107216",
+        "transaction_date": "2017-06-14",
+        "customer_id": "PV-18985",
+        "buyer_name": "Paul Van Hugh",
+        "amount": "$28413.14",
+        "productIds": [
+            "OFF-AR-10001545",
+            "FUR-FU-10000206",
+            "TEC-AC-10001013",
+            "OFF-AR-10002255"
+        ]
+    },
+    {
+        "_id": "CA-2017-107328",
+        "transaction_date": "2017-08-08",
+        "customer_id": "CA-12055",
+        "buyer_name": "Cathy Armstrong",
+        "amount": "$12562.97",
+        "productIds": [
+            "FUR-TA-10001932",
+            "OFF-AP-10004487",
+            "OFF-BI-10002160"
+        ]
+    },
+    {
+        "_id": "CA-2017-107475",
+        "transaction_date": "2017-06-07",
+        "customer_id": "RS-19870",
+        "buyer_name": "Roy Skaria",
+        "amount": "$8130.06",
+        "productIds": [
+            "OFF-FA-10002988"
+        ]
+    },
+    {
+        "_id": "CA-2017-107615",
+        "transaction_date": "2017-03-22",
+        "customer_id": "RB-19645",
+        "buyer_name": "Robert Barroso",
+        "amount": "$4217.07",
+        "productIds": [
+            "TEC-AC-10001013"
+        ]
+    },
+    {
+        "_id": "CA-2017-107783",
+        "transaction_date": "2017-07-28",
+        "customer_id": "OT-18730",
+        "buyer_name": "Olvera Toch",
+        "amount": "$28687.38",
+        "productIds": [
+            "FUR-BO-10004409",
+            "OFF-BI-10000545",
+            "OFF-AP-10004052"
+        ]
+    },
+    {
+        "_id": "CA-2017-107790",
+        "transaction_date": "2017-11-20",
+        "customer_id": "EH-13990",
+        "buyer_name": "Erica Hackney",
+        "amount": "$7811.72",
+        "productIds": [
+            "TEC-PH-10004539"
+        ]
+    },
+    {
+        "_id": "CA-2017-108056",
+        "transaction_date": "2017-09-29",
+        "customer_id": "ES-14080",
+        "buyer_name": "Erin Smith",
+        "amount": "$19156.00",
+        "productIds": [
+            "TEC-PH-10001817"
+        ]
+    },
+    {
+        "_id": "CA-2017-108105",
+        "transaction_date": "2017-02-16",
+        "customer_id": "GW-14605",
+        "buyer_name": "Giulietta Weimer",
+        "amount": "$17477.37",
+        "productIds": [
+            "FUR-FU-10003773",
+            "OFF-BI-10002412"
+        ]
+    },
+    {
+        "_id": "CA-2017-108196",
+        "transaction_date": "2017-11-25",
+        "customer_id": "CS-12505",
+        "buyer_name": "Cindy Stewart",
+        "amount": "$21710.64",
+        "productIds": [
+            "OFF-BI-10000545",
+            "TEC-MA-10000418",
+            "TEC-AC-10000926"
+        ]
+    },
+    {
+        "_id": "CA-2017-108210",
+        "transaction_date": "2017-05-30",
+        "customer_id": "AT-10735",
+        "buyer_name": "Annie Thurman",
+        "amount": "$3070.05",
+        "productIds": [
+            "TEC-PH-10002293",
+            "TEC-AC-10000109"
+        ]
+    },
+    {
+        "_id": "CA-2017-108224",
+        "transaction_date": "2017-05-14",
+        "customer_id": "TH-21235",
+        "buyer_name": "Tiffany House",
+        "amount": "$9693.25",
+        "productIds": [
+            "TEC-AC-10003832"
+        ]
+    },
+    {
+        "_id": "CA-2017-108350",
+        "transaction_date": "2017-06-06",
+        "customer_id": "SC-20230",
+        "buyer_name": "Scot Coram",
+        "amount": "$128.16",
+        "productIds": [
+            "OFF-PA-10003656"
+        ]
+    },
+    {
+        "_id": "CA-2017-108364",
+        "transaction_date": "2017-12-19",
+        "customer_id": "BP-11050",
+        "buyer_name": "Barry Pond",
+        "amount": "$7509.60",
+        "productIds": [
+            "OFF-BI-10002012"
+        ]
+    },
+    {
+        "_id": "CA-2017-108434",
+        "transaction_date": "2017-12-05",
+        "customer_id": "JG-15160",
+        "buyer_name": "James Galang",
+        "amount": "$1769.96",
+        "productIds": [
+            "OFF-ST-10002615"
+        ]
+    },
+    {
+        "_id": "CA-2017-108567",
+        "transaction_date": "2017-05-20",
+        "customer_id": "DB-13210",
+        "buyer_name": "Dean Braden",
+        "amount": "$5049.17",
+        "productIds": [
+            "OFF-BI-10004140"
+        ]
+    },
+    {
+        "_id": "CA-2017-108581",
+        "transaction_date": "2017-06-20",
+        "customer_id": "EA-14035",
+        "buyer_name": "Erin Ashbrook",
+        "amount": "$18767.66",
+        "productIds": [
+            "TEC-AC-10001109",
+            "OFF-PA-10000809"
+        ]
+    },
+    {
+        "_id": "CA-2017-108616",
+        "transaction_date": "2017-09-29",
+        "customer_id": "JK-15730",
+        "buyer_name": "Joe Kamberova",
+        "amount": "$20243.02",
+        "productIds": [
+            "TEC-AC-10000420",
+            "OFF-BI-10001989",
+            "OFF-AR-10001149"
+        ]
+    },
+    {
+        "_id": "CA-2017-108630",
+        "transaction_date": "2017-11-18",
+        "customer_id": "BE-11410",
+        "buyer_name": "Bobby Elias",
+        "amount": "$12884.76",
+        "productIds": [
+            "OFF-BI-10002437"
+        ]
+    },
+    {
+        "_id": "CA-2017-108644",
+        "transaction_date": "2017-09-30",
+        "customer_id": "SJ-20215",
+        "buyer_name": "Sarah Jordon",
+        "amount": "$8687.75",
+        "productIds": [
+            "OFF-BI-10000343"
+        ]
+    },
+    {
+        "_id": "CA-2017-108735",
+        "transaction_date": "2017-04-17",
+        "customer_id": "JM-15535",
+        "buyer_name": "Jessica Myrick",
+        "amount": "$3573.00",
+        "productIds": [
+            "FUR-BO-10003441"
+        ]
+    },
+    {
+        "_id": "CA-2017-108868",
+        "transaction_date": "2017-09-08",
+        "customer_id": "KB-16585",
+        "buyer_name": "Ken Black",
+        "amount": "$9247.56",
+        "productIds": [
+            "OFF-AR-10001953",
+            "TEC-PH-10000923"
+        ]
+    },
+    {
+        "_id": "CA-2017-108875",
+        "transaction_date": "2017-09-24",
+        "customer_id": "CL-12700",
+        "buyer_name": "Craig Leslie",
+        "amount": "$30681.26",
+        "productIds": [
+            "FUR-FU-10002671",
+            "OFF-ST-10001370"
+        ]
+    },
+    {
+        "_id": "CA-2017-108882",
+        "transaction_date": "2017-01-09",
+        "customer_id": "LA-16780",
+        "buyer_name": "Laura Armstrong",
+        "amount": "$12847.80",
+        "productIds": [
+            "TEC-AC-10000420",
+            "TEC-PH-10002726"
+        ]
+    },
+    {
+        "_id": "CA-2017-108959",
+        "transaction_date": "2017-03-10",
+        "customer_id": "MH-17785",
+        "buyer_name": "Maya Herman",
+        "amount": "$1762.47",
+        "productIds": [
+            "OFF-ST-10001272"
+        ]
+    },
+    {
+        "_id": "CA-2017-108987",
+        "transaction_date": "2017-09-08",
+        "customer_id": "AG-10675",
+        "buyer_name": "Anna Gayman",
+        "amount": "$51911.33",
+        "productIds": [
+            "OFF-ST-10001580",
+            "FUR-BO-10004834",
+            "OFF-ST-10000934",
+            "TEC-AC-10000158"
+        ]
+    },
+    {
+        "_id": "CA-2017-109057",
+        "transaction_date": "2017-04-22",
+        "customer_id": "TT-21460",
+        "buyer_name": "Tonja Turnell",
+        "amount": "$9814.92",
+        "productIds": [
+            "OFF-ST-10002406"
+        ]
+    },
+    {
+        "_id": "CA-2017-109176",
+        "transaction_date": "2017-05-09",
+        "customer_id": "JW-16075",
+        "buyer_name": "Julia West",
+        "amount": "$6056.63",
+        "productIds": [
+            "OFF-EN-10003134",
+            "OFF-AR-10001955"
+        ]
+    },
+    {
+        "_id": "CA-2017-109344",
+        "transaction_date": "2017-02-08",
+        "customer_id": "CH-12070",
+        "buyer_name": "Cathy Hwang",
+        "amount": "$21882.00",
+        "productIds": [
+            "TEC-PH-10002624"
+        ]
+    },
+    {
+        "_id": "CA-2017-109365",
+        "transaction_date": "2017-11-03",
+        "customer_id": "XP-21865",
+        "buyer_name": "Xylona Preis",
+        "amount": "$34642.01",
+        "productIds": [
+            "OFF-FA-10001561",
+            "OFF-AP-10002998",
+            "OFF-BI-10003981",
+            "OFF-PA-10001725",
+            "OFF-BI-10002071",
+            "OFF-PA-10000477",
+            "OFF-PA-10004359"
+        ]
+    },
+    {
+        "_id": "CA-2017-109400",
+        "transaction_date": "2017-05-02",
+        "customer_id": "NR-18550",
+        "buyer_name": "Nick Radford",
+        "amount": "$13570.88",
+        "productIds": [
+            "FUR-CH-10003298"
+        ]
+    },
+    {
+        "_id": "CA-2017-109407",
+        "transaction_date": "2017-01-24",
+        "customer_id": "HG-14965",
+        "buyer_name": "Henry Goldwyn",
+        "amount": "$1772.32",
+        "productIds": [
+            "OFF-BI-10000285"
+        ]
+    },
+    {
+        "_id": "CA-2017-109652",
+        "transaction_date": "2017-04-10",
+        "customer_id": "QJ-19255",
+        "buyer_name": "Quincy Jones",
+        "amount": "$2848.65",
+        "productIds": [
+            "OFF-AR-10000034"
+        ]
+    },
+    {
+        "_id": "CA-2017-109666",
+        "transaction_date": "2017-04-19",
+        "customer_id": "KM-16720",
+        "buyer_name": "Kunst Miller",
+        "amount": "$58231.89",
+        "productIds": [
+            "TEC-PH-10004774",
+            "OFF-AR-10004582",
+            "OFF-ST-10000991",
+            "OFF-SU-10002522",
+            "OFF-AR-10004022",
+            "OFF-SU-10001218",
+            "OFF-BI-10000174"
+        ]
+    },
+    {
+        "_id": "CA-2017-109722",
+        "transaction_date": "2017-12-05",
+        "customer_id": "TP-21130",
+        "buyer_name": "Theone Pippenger",
+        "amount": "$13880.72",
+        "productIds": [
+            "TEC-PH-10000560",
+            "OFF-ST-10000060"
+        ]
+    },
+    {
+        "_id": "CA-2017-109743",
+        "transaction_date": "2017-09-22",
+        "customer_id": "SH-19975",
+        "buyer_name": "Sally Hughsby",
+        "amount": "$10099.80",
+        "productIds": [
+            "OFF-AR-10003727",
+            "TEC-PH-10004071"
+        ]
+    },
+    {
+        "_id": "CA-2017-109806",
+        "transaction_date": "2017-09-17",
+        "customer_id": "JS-15685",
+        "buyer_name": "Jim Sink",
+        "amount": "$29765.84",
+        "productIds": [
+            "OFF-AR-10004930",
+            "TEC-PH-10004093",
+            "OFF-PA-10000304"
+        ]
+    },
+    {
+        "_id": "CA-2017-109820",
+        "transaction_date": "2017-11-20",
+        "customer_id": "AG-10390",
+        "buyer_name": "Allen Goldenen",
+        "amount": "$27653.89",
+        "productIds": [
+            "OFF-PA-10000955",
+            "OFF-BI-10003460",
+            "OFF-BI-10000474"
+        ]
+    },
+    {
+        "_id": "CA-2017-109827",
+        "transaction_date": "2017-12-25",
+        "customer_id": "LW-16825",
+        "buyer_name": "Laurel Workman",
+        "amount": "$11178.24",
+        "productIds": [
+            "FUR-TA-10002607",
+            "TEC-MA-10003356",
+            "TEC-AC-10002217",
+            "TEC-AC-10004353",
+            "FUR-CH-10004754"
+        ]
+    },
+    {
+        "_id": "CA-2017-109869",
+        "transaction_date": "2017-04-22",
+        "customer_id": "TN-21040",
+        "buyer_name": "Tanja Norvell",
+        "amount": "$18710.54",
+        "productIds": [
+            "FUR-FU-10000023",
+            "FUR-TA-10001889",
+            "OFF-BI-10000315",
+            "OFF-SU-10003505",
+            "OFF-AP-10002578"
+        ]
+    },
+    {
+        "_id": "CA-2017-109911",
+        "transaction_date": "2017-05-12",
+        "customer_id": "VG-21805",
+        "buyer_name": "Vivek Grady",
+        "amount": "$16405.44",
+        "productIds": [
+            "OFF-AR-10001662"
+        ]
+    },
+    {
+        "_id": "CA-2017-109925",
+        "transaction_date": "2017-11-06",
+        "customer_id": "IM-15070",
+        "buyer_name": "Irene Maddox",
+        "amount": "$18227.22",
+        "productIds": [
+            "OFF-ST-10003442"
+        ]
+    },
+    {
+        "_id": "CA-2017-109953",
+        "transaction_date": "2017-07-14",
+        "customer_id": "RB-19360",
+        "buyer_name": "Raymond Buch",
+        "amount": "$10123.02",
+        "productIds": [
+            "TEC-PH-10004093",
+            "OFF-AP-10002998",
+            "FUR-FU-10000073"
+        ]
+    },
+    {
+        "_id": "CA-2017-110009",
+        "transaction_date": "2017-09-08",
+        "customer_id": "TR-21325",
+        "buyer_name": "Toby Ritter",
+        "amount": "$6622.04",
+        "productIds": [
+            "FUR-FU-10003039",
+            "OFF-PA-10002615"
+        ]
+    },
+    {
+        "_id": "CA-2017-110023",
+        "transaction_date": "2017-09-09",
+        "customer_id": "TS-21610",
+        "buyer_name": "Troy Staebel",
+        "amount": "$14164.71",
+        "productIds": [
+            "OFF-BI-10001036"
+        ]
+    },
+    {
+        "_id": "CA-2017-110044",
+        "transaction_date": "2017-06-28",
+        "customer_id": "RF-19735",
+        "buyer_name": "Roland Fjeld",
+        "amount": "$2975.36",
+        "productIds": [
+            "TEC-PH-10001299"
+        ]
+    },
+    {
+        "_id": "CA-2017-110086",
+        "transaction_date": "2017-09-18",
+        "customer_id": "BD-11320",
+        "buyer_name": "Bill Donatelli",
+        "amount": "$12134.98",
+        "productIds": [
+            "TEC-PH-10001299"
+        ]
+    },
+    {
+        "_id": "CA-2017-110254",
+        "transaction_date": "2017-08-04",
+        "customer_id": "ML-17755",
+        "buyer_name": "Max Ludwig",
+        "amount": "$23267.35",
+        "productIds": [
+            "OFF-SU-10002573",
+            "OFF-LA-10004484",
+            "FUR-FU-10001591",
+            "OFF-LA-10002034"
+        ]
+    },
+    {
+        "_id": "CA-2017-110366",
+        "transaction_date": "2017-09-05",
+        "customer_id": "JD-15895",
+        "buyer_name": "Jonathan Doherty",
+        "amount": "$3131.10",
+        "productIds": [
+            "FUR-FU-10004848"
+        ]
+    },
+    {
+        "_id": "CA-2017-110492",
+        "transaction_date": "2017-02-12",
+        "customer_id": "JS-15880",
+        "buyer_name": "John Stevenson",
+        "amount": "$6196.46",
+        "productIds": [
+            "OFF-ST-10003716",
+            "OFF-BI-10003274"
+        ]
+    },
+    {
+        "_id": "CA-2017-110499",
+        "transaction_date": "2017-04-07",
+        "customer_id": "YC-21895",
+        "buyer_name": "Yoseph Carroll",
+        "amount": "$3193.63",
+        "productIds": [
+            "TEC-CO-10002095"
+        ]
+    },
+    {
+        "_id": "CA-2017-110730",
+        "transaction_date": "2017-09-23",
+        "customer_id": "CM-11815",
+        "buyer_name": "Candace McMahon",
+        "amount": "$16325.18",
+        "productIds": [
+            "OFF-SU-10004737"
+        ]
+    },
+    {
+        "_id": "CA-2017-110772",
+        "transaction_date": "2017-11-20",
+        "customer_id": "NZ-18565",
+        "buyer_name": "Nick Zandusky",
+        "amount": "$24092.41",
+        "productIds": [
+            "OFF-FA-10002983",
+            "OFF-LA-10004689",
+            "TEC-AC-10002001",
+            "FUR-BO-10004709"
+        ]
+    },
+    {
+        "_id": "CA-2017-110898",
+        "transaction_date": "2017-03-06",
+        "customer_id": "LC-16870",
+        "buyer_name": "Lena Cacioppo",
+        "amount": "$24151.78",
+        "productIds": [
+            "OFF-AP-10001626",
+            "OFF-BI-10004656",
+            "FUR-FU-10003773",
+            "FUR-TA-10000849"
+        ]
+    },
+    {
+        "_id": "CA-2017-110975",
+        "transaction_date": "2017-12-25",
+        "customer_id": "DB-12970",
+        "buyer_name": "Darren Budd",
+        "amount": "$29799.37",
+        "productIds": [
+            "FUR-TA-10002958",
+            "FUR-CH-10003746"
+        ]
+    },
+    {
+        "_id": "CA-2017-110982",
+        "transaction_date": "2017-06-05",
+        "customer_id": "CK-12205",
+        "buyer_name": "Chloris Kastensmidt",
+        "amount": "$3005.89",
+        "productIds": [
+            "OFF-BI-10000829",
+            "OFF-AP-10004859"
+        ]
+    },
+    {
+        "_id": "CA-2017-111010",
+        "transaction_date": "2017-01-22",
+        "customer_id": "PG-18895",
+        "buyer_name": "Paul Gonzalez",
+        "amount": "$3058.29",
+        "productIds": [
+            "OFF-FA-10003472"
+        ]
+    },
+    {
+        "_id": "CA-2017-111115",
+        "transaction_date": "2017-07-25",
+        "customer_id": "LB-16735",
+        "buyer_name": "Larry Blacks",
+        "amount": "$11453.92",
+        "productIds": [
+            "OFF-FA-10000624"
+        ]
+    },
+    {
+        "_id": "CA-2017-111143",
+        "transaction_date": "2017-11-19",
+        "customer_id": "TT-21265",
+        "buyer_name": "Tim Taslimi",
+        "amount": "$1924.41",
+        "productIds": [
+            "OFF-AP-10001947"
+        ]
+    },
+    {
+        "_id": "CA-2017-111213",
+        "transaction_date": "2017-04-01",
+        "customer_id": "FP-14320",
+        "buyer_name": "Frank Preis",
+        "amount": "$14701.78",
+        "productIds": [
+            "FUR-CH-10000454",
+            "OFF-SU-10000946",
+            "OFF-BI-10004140"
+        ]
+    },
+    {
+        "_id": "CA-2017-111283",
+        "transaction_date": "2017-02-28",
+        "customer_id": "LC-16870",
+        "buyer_name": "Lena Cacioppo",
+        "amount": "$7173.00",
+        "productIds": [
+            "OFF-AR-10001615"
+        ]
+    },
+    {
+        "_id": "CA-2017-111318",
+        "transaction_date": "2017-07-23",
+        "customer_id": "IL-15100",
+        "buyer_name": "Ivan Liston",
+        "amount": "$6348.80",
+        "productIds": [
+            "TEC-PH-10004100"
+        ]
+    },
+    {
+        "_id": "CA-2017-111409",
+        "transaction_date": "2017-09-18",
+        "customer_id": "PO-18850",
+        "buyer_name": "Patrick O'Brill",
+        "amount": "$1329.86",
+        "productIds": [
+            "OFF-LA-10002787"
+        ]
+    },
+    {
+        "_id": "CA-2017-111416",
+        "transaction_date": "2017-09-17",
+        "customer_id": "LW-17215",
+        "buyer_name": "Luke Weiss",
+        "amount": "$20241.61",
+        "productIds": [
+            "OFF-BI-10002026"
+        ]
+    },
+    {
+        "_id": "CA-2017-111493",
+        "transaction_date": "2017-10-21",
+        "customer_id": "CM-12160",
+        "buyer_name": "Charles McCrossin",
+        "amount": "$3614.58",
+        "productIds": [
+            "TEC-AC-10004510"
+        ]
+    },
+    {
+        "_id": "CA-2017-111605",
+        "transaction_date": "2017-12-27",
+        "customer_id": "JW-15955",
+        "buyer_name": "Joni Wasserman",
+        "amount": "$11284.38",
+        "productIds": [
+            "OFF-LA-10002368"
+        ]
+    },
+    {
+        "_id": "CA-2017-111682",
+        "transaction_date": "2017-06-17",
+        "customer_id": "TB-21055",
+        "buyer_name": "Ted Butterfield",
+        "amount": "$30242.94",
+        "productIds": [
+            "OFF-ST-10000604",
+            "OFF-PA-10001569",
+            "FUR-CH-10003968",
+            "OFF-PA-10000587",
+            "TEC-AC-10002167",
+            "OFF-BI-10001460",
+            "OFF-AR-10001868"
+        ]
+    },
+    {
+        "_id": "CA-2017-111696",
+        "transaction_date": "2017-05-08",
+        "customer_id": "TB-21625",
+        "buyer_name": "Trudy Brown",
+        "amount": "$1487.40",
+        "productIds": [
+            "OFF-PA-10002751"
+        ]
+    },
+    {
+        "_id": "CA-2017-111794",
+        "transaction_date": "2017-10-01",
+        "customer_id": "HG-15025",
+        "buyer_name": "Hunter Glantz",
+        "amount": "$1534.67",
+        "productIds": [
+            "TEC-AC-10003832",
+            "OFF-PA-10000474"
+        ]
+    },
+    {
+        "_id": "CA-2017-111913",
+        "transaction_date": "2017-08-04",
+        "customer_id": "LC-16930",
+        "buyer_name": "Linda Cazamias",
+        "amount": "$16248.26",
+        "productIds": [
+            "TEC-PH-10002275",
+            "OFF-BI-10003291",
+            "OFF-BI-10000343"
+        ]
+    },
+    {
+        "_id": "CA-2017-111941",
+        "transaction_date": "2017-12-25",
+        "customer_id": "BD-11620",
+        "buyer_name": "Brian DeCherney",
+        "amount": "$8418.00",
+        "productIds": [
+            "OFF-BI-10001524"
+        ]
+    },
+    {
+        "_id": "CA-2017-111976",
+        "transaction_date": "2017-03-08",
+        "customer_id": "BD-11620",
+        "buyer_name": "Brian DeCherney",
+        "amount": "$19873.98",
+        "productIds": [
+            "TEC-PH-10002890",
+            "OFF-FA-10004968"
+        ]
+    },
+    {
+        "_id": "CA-2017-112025",
+        "transaction_date": "2017-07-30",
+        "customer_id": "LS-16975",
+        "buyer_name": "Lindsay Shagiari",
+        "amount": "$4204.89",
+        "productIds": [
+            "OFF-BI-10002353"
+        ]
+    },
+    {
+        "_id": "CA-2017-112060",
+        "transaction_date": "2017-12-04",
+        "customer_id": "KT-16465",
+        "buyer_name": "Kean Takahito",
+        "amount": "$8281.08",
+        "productIds": [
+            "OFF-PA-10000994"
+        ]
+    },
+    {
+        "_id": "CA-2017-112102",
+        "transaction_date": "2017-04-12",
+        "customer_id": "BD-11605",
+        "buyer_name": "Brian Dahlen",
+        "amount": "$38082.02",
+        "productIds": [
+            "FUR-TA-10004086",
+            "OFF-PA-10000100",
+            "OFF-EN-10002500"
+        ]
+    },
+    {
+        "_id": "CA-2017-112109",
+        "transaction_date": "2017-07-08",
+        "customer_id": "JE-15715",
+        "buyer_name": "Joe Elijah",
+        "amount": "$14381.36",
+        "productIds": [
+            "OFF-BI-10002082",
+            "OFF-ST-10001505",
+            "OFF-BI-10001634",
+            "FUR-CH-10004287"
+        ]
+    },
+    {
+        "_id": "CA-2017-112123",
+        "transaction_date": "2017-03-03",
+        "customer_id": "BH-11710",
+        "buyer_name": "Brosina Hoffman",
+        "amount": "$8922.86",
+        "productIds": [
+            "OFF-BI-10001071",
+            "TEC-PH-10001557",
+            "OFF-PA-10001977"
+        ]
+    },
+    {
+        "_id": "CA-2017-112256",
+        "transaction_date": "2017-07-23",
+        "customer_id": "CK-12205",
+        "buyer_name": "Chloris Kastensmidt",
+        "amount": "$43477.73",
+        "productIds": [
+            "OFF-AR-10001216",
+            "OFF-PA-10004355",
+            "OFF-AR-10001953",
+            "OFF-BI-10004364",
+            "OFF-SU-10001165"
+        ]
+    },
+    {
+        "_id": "CA-2017-112277",
+        "transaction_date": "2017-09-10",
+        "customer_id": "SC-20695",
+        "buyer_name": "Steve Chapman",
+        "amount": "$1431.50",
+        "productIds": [
+            "TEC-PH-10003505"
+        ]
+    },
+    {
+        "_id": "CA-2017-112340",
+        "transaction_date": "2017-10-21",
+        "customer_id": "NM-18520",
+        "buyer_name": "Neoma Murray",
+        "amount": "$1898.91",
+        "productIds": [
+            "OFF-PA-10001892"
+        ]
+    },
+    {
+        "_id": "CA-2017-112382",
+        "transaction_date": "2017-05-09",
+        "customer_id": "MB-18085",
+        "buyer_name": "Mick Brown",
+        "amount": "$1745.90",
+        "productIds": [
+            "TEC-PH-10001552"
+        ]
+    },
+    {
+        "_id": "CA-2017-112389",
+        "transaction_date": "2017-10-29",
+        "customer_id": "JM-15655",
+        "buyer_name": "Jim Mitchum",
+        "amount": "$5085.48",
+        "productIds": [
+            "OFF-ST-10000419",
+            "OFF-AP-10001626"
+        ]
+    },
+    {
+        "_id": "CA-2017-112578",
+        "transaction_date": "2017-12-29",
+        "customer_id": "FO-14305",
+        "buyer_name": "Frank Olsen",
+        "amount": "$5185.77",
+        "productIds": [
+            "OFF-ST-10003722",
+            "OFF-SU-10002557"
+        ]
+    },
+    {
+        "_id": "CA-2017-112585",
+        "transaction_date": "2017-07-30",
+        "customer_id": "RW-19630",
+        "buyer_name": "Rob Williams",
+        "amount": "$1105.65",
+        "productIds": [
+            "OFF-AP-10003849"
+        ]
+    },
+    {
+        "_id": "CA-2017-112669",
+        "transaction_date": "2017-04-14",
+        "customer_id": "KT-16465",
+        "buyer_name": "Kean Takahito",
+        "amount": "$14251.31",
+        "productIds": [
+            "FUR-CH-10004086",
+            "OFF-ST-10001228"
+        ]
+    },
+    {
+        "_id": "CA-2017-112676",
+        "transaction_date": "2017-05-05",
+        "customer_id": "PJ-18835",
+        "buyer_name": "Patrick Jones",
+        "amount": "$1184.84",
+        "productIds": [
+            "OFF-PA-10003971"
+        ]
+    },
+    {
+        "_id": "CA-2017-112697",
+        "transaction_date": "2017-12-18",
+        "customer_id": "AH-10195",
+        "buyer_name": "Alan Haines",
+        "amount": "$14455.98",
+        "productIds": [
+            "OFF-BI-10000778",
+            "OFF-AP-10002684",
+            "OFF-SU-10000646"
+        ]
+    },
+    {
+        "_id": "CA-2017-112739",
+        "transaction_date": "2017-09-02",
+        "customer_id": "RD-19810",
+        "buyer_name": "Ross DeVincentis",
+        "amount": "$1353.56",
+        "productIds": [
+            "OFF-BI-10001132",
+            "TEC-AC-10001714"
+        ]
+    },
+    {
+        "_id": "CA-2017-112893",
+        "transaction_date": "2017-09-09",
+        "customer_id": "AT-10735",
+        "buyer_name": "Annie Thurman",
+        "amount": "$77.22",
+        "productIds": [
+            "OFF-BI-10004654"
+        ]
+    },
+    {
+        "_id": "CA-2017-112942",
+        "transaction_date": "2017-02-13",
+        "customer_id": "RD-19810",
+        "buyer_name": "Ross DeVincentis",
+        "amount": "$16623.94",
+        "productIds": [
+            "OFF-PA-10004092"
+        ]
+    },
+    {
+        "_id": "CA-2017-113061",
+        "transaction_date": "2017-04-22",
+        "customer_id": "EL-13735",
+        "buyer_name": "Ed Ludwig",
+        "amount": "$3925.22",
+        "productIds": [
+            "FUR-FU-10003975"
+        ]
+    },
+    {
+        "_id": "CA-2017-113082",
+        "transaction_date": "2017-09-12",
+        "customer_id": "MC-17590",
+        "buyer_name": "Matt Collister",
+        "amount": "$11069.50",
+        "productIds": [
+            "FUR-FU-10002813"
+        ]
+    },
+    {
+        "_id": "CA-2017-113096",
+        "transaction_date": "2017-09-02",
+        "customer_id": "SZ-20035",
+        "buyer_name": "Sam Zeldin",
+        "amount": "$2067.00",
+        "productIds": [
+            "OFF-ST-10003455"
+        ]
+    },
+    {
+        "_id": "CA-2017-113117",
+        "transaction_date": "2017-08-16",
+        "customer_id": "JP-15520",
+        "buyer_name": "Jeremy Pistek",
+        "amount": "$1893.32",
+        "productIds": [
+            "OFF-PA-10000019"
+        ]
+    },
+    {
+        "_id": "CA-2017-113138",
+        "transaction_date": "2017-11-19",
+        "customer_id": "NP-18685",
+        "buyer_name": "Nora Pelletier",
+        "amount": "$10306.14",
+        "productIds": [
+            "OFF-AR-10003770",
+            "OFF-BI-10000320"
+        ]
+    },
+    {
+        "_id": "CA-2017-113236",
+        "transaction_date": "2017-05-26",
+        "customer_id": "CP-12085",
+        "buyer_name": "Cathy Prescott",
+        "amount": "$16576.04",
+        "productIds": [
+            "OFF-ST-10000532",
+            "TEC-AC-10001267"
+        ]
+    },
+    {
+        "_id": "CA-2017-113243",
+        "transaction_date": "2017-06-10",
+        "customer_id": "OT-18730",
+        "buyer_name": "Olvera Toch",
+        "amount": "$17866.72",
+        "productIds": [
+            "OFF-LA-10001297",
+            "FUR-TA-10004256",
+            "OFF-PA-10003441"
+        ]
+    },
+    {
+        "_id": "CA-2017-113292",
+        "transaction_date": "2017-03-18",
+        "customer_id": "DB-13060",
+        "buyer_name": "Dave Brooks",
+        "amount": "$11857.20",
+        "productIds": [
+            "OFF-AP-10003590"
+        ]
+    },
+    {
+        "_id": "CA-2017-113341",
+        "transaction_date": "2017-11-25",
+        "customer_id": "MH-17455",
+        "buyer_name": "Mark Hamilton",
+        "amount": "$2962.77",
+        "productIds": [
+            "FUR-CH-10004698"
+        ]
+    },
+    {
+        "_id": "CA-2017-113390",
+        "transaction_date": "2017-10-11",
+        "customer_id": "EP-13915",
+        "buyer_name": "Emily Phan",
+        "amount": "$19205.46",
+        "productIds": [
+            "OFF-AR-10003183",
+            "OFF-AR-10001446"
+        ]
+    },
+    {
+        "_id": "CA-2017-113425",
+        "transaction_date": "2017-11-21",
+        "customer_id": "JK-16120",
+        "buyer_name": "Julie Kriz",
+        "amount": "$2235.48",
+        "productIds": [
+            "FUR-BO-10002598"
+        ]
+    },
+    {
+        "_id": "CA-2017-113516",
+        "transaction_date": "2017-09-08",
+        "customer_id": "VM-21685",
+        "buyer_name": "Valerie Mitchum",
+        "amount": "$9586.86",
+        "productIds": [
+            "OFF-BI-10002225",
+            "OFF-BI-10001989"
+        ]
+    },
+    {
+        "_id": "CA-2017-113551",
+        "transaction_date": "2017-08-18",
+        "customer_id": "NF-18385",
+        "buyer_name": "Natalie Fritzler",
+        "amount": "$6157.41",
+        "productIds": [
+            "OFF-BI-10001617",
+            "OFF-PA-10004665"
+        ]
+    },
+    {
+        "_id": "CA-2017-113600",
+        "transaction_date": "2017-12-15",
+        "customer_id": "SH-20395",
+        "buyer_name": "Shahid Hopkins",
+        "amount": "$1314.80",
+        "productIds": [
+            "OFF-BI-10000201"
+        ]
+    },
+    {
+        "_id": "CA-2017-113607",
+        "transaction_date": "2017-10-14",
+        "customer_id": "PW-19030",
+        "buyer_name": "Pauline Webber",
+        "amount": "$25502.66",
+        "productIds": [
+            "TEC-PH-10004094",
+            "OFF-PA-10001970"
+        ]
+    },
+    {
+        "_id": "CA-2017-113621",
+        "transaction_date": "2017-12-01",
+        "customer_id": "JE-15745",
+        "buyer_name": "Joel Eaton",
+        "amount": "$30080.08",
+        "productIds": [
+            "FUR-CH-10001270",
+            "TEC-PH-10003931"
+        ]
+    },
+    {
+        "_id": "CA-2017-113656",
+        "transaction_date": "2017-01-23",
+        "customer_id": "CB-12415",
+        "buyer_name": "Christy Brittain",
+        "amount": "$709.30",
+        "productIds": [
+            "FUR-FU-10000719"
+        ]
+    },
+    {
+        "_id": "CA-2017-113726",
+        "transaction_date": "2017-11-24",
+        "customer_id": "SC-20680",
+        "buyer_name": "Steve Carroll",
+        "amount": "$2447.28",
+        "productIds": [
+            "FUR-FU-10003535"
+        ]
+    },
+    {
+        "_id": "CA-2017-113733",
+        "transaction_date": "2017-12-08",
+        "customer_id": "LH-16900",
+        "buyer_name": "Lena Hernandez",
+        "amount": "$38123.45",
+        "productIds": [
+            "TEC-PH-10002496",
+            "TEC-AC-10002473",
+            "TEC-AC-10004877"
+        ]
+    },
+    {
+        "_id": "CA-2017-113747",
+        "transaction_date": "2017-05-28",
+        "customer_id": "VD-21670",
+        "buyer_name": "Valerie Dominguez",
+        "amount": "$2234.32",
+        "productIds": [
+            "OFF-AR-10003373"
+        ]
+    },
+    {
+        "_id": "CA-2017-113803",
+        "transaction_date": "2017-03-24",
+        "customer_id": "VG-21805",
+        "buyer_name": "Vivek Grady",
+        "amount": "$15535.60",
+        "productIds": [
+            "OFF-PA-10001994"
+        ]
+    },
+    {
+        "_id": "CA-2017-113817",
+        "transaction_date": "2017-11-07",
+        "customer_id": "MJ-17740",
+        "buyer_name": "Max Jones",
+        "amount": "$11254.24",
+        "productIds": [
+            "OFF-BI-10004002"
+        ]
+    },
+    {
+        "_id": "CA-2017-113831",
+        "transaction_date": "2017-05-30",
+        "customer_id": "AH-10690",
+        "buyer_name": "Anna H\u00e4berlin",
+        "amount": "$28367.55",
+        "productIds": [
+            "FUR-TA-10002645",
+            "TEC-AC-10003033",
+            "OFF-LA-10001297"
+        ]
+    },
+    {
+        "_id": "CA-2017-113845",
+        "transaction_date": "2017-11-20",
+        "customer_id": "FA-14230",
+        "buyer_name": "Frank Atkinson",
+        "amount": "$11897.75",
+        "productIds": [
+            "FUR-BO-10004695",
+            "OFF-ST-10003327",
+            "TEC-PH-10003357"
+        ]
+    },
+    {
+        "_id": "CA-2017-113978",
+        "transaction_date": "2017-09-25",
+        "customer_id": "TS-21505",
+        "buyer_name": "Tony Sayre",
+        "amount": "$16151.69",
+        "productIds": [
+            "OFF-AP-10003849",
+            "OFF-ST-10004963",
+            "OFF-ST-10002574"
+        ]
+    },
+    {
+        "_id": "CA-2017-114104",
+        "transaction_date": "2017-11-20",
+        "customer_id": "NP-18670",
+        "buyer_name": "Nora Paige",
+        "amount": "$29999.11",
+        "productIds": [
+            "OFF-LA-10002475",
+            "TEC-PH-10004536"
+        ]
+    },
+    {
+        "_id": "CA-2017-114209",
+        "transaction_date": "2017-05-21",
+        "customer_id": "AS-10285",
+        "buyer_name": "Alejandro Savely",
+        "amount": "$3439.19",
+        "productIds": [
+            "OFF-BI-10000343",
+            "OFF-PA-10003591"
+        ]
+    },
+    {
+        "_id": "CA-2017-114307",
+        "transaction_date": "2017-07-22",
+        "customer_id": "MF-17665",
+        "buyer_name": "Maureen Fritzler",
+        "amount": "$17644.25",
+        "productIds": [
+            "OFF-AP-10002350",
+            "OFF-PA-10004100",
+            "FUR-FU-10000794",
+            "OFF-BI-10002012"
+        ]
+    },
+    {
+        "_id": "CA-2017-114482",
+        "transaction_date": "2017-11-21",
+        "customer_id": "DM-13345",
+        "buyer_name": "Denise Monton",
+        "amount": "$23366.43",
+        "productIds": [
+            "OFF-PA-10003845",
+            "TEC-PH-10001580"
+        ]
+    },
+    {
+        "_id": "CA-2017-114489",
+        "transaction_date": "2017-12-05",
+        "customer_id": "JE-16165",
+        "buyer_name": "Justin Ellison",
+        "amount": "$23741.41",
+        "productIds": [
+            "TEC-PH-10000215",
+            "TEC-PH-10001448",
+            "FUR-CH-10000454",
+            "OFF-BI-10002735"
+        ]
+    },
+    {
+        "_id": "CA-2017-114538",
+        "transaction_date": "2017-12-26",
+        "customer_id": "RC-19825",
+        "buyer_name": "Roy Collins",
+        "amount": "$9026.71",
+        "productIds": [
+            "OFF-AR-10002445"
+        ]
+    },
+    {
+        "_id": "CA-2017-114601",
+        "transaction_date": "2017-08-26",
+        "customer_id": "AA-10480",
+        "buyer_name": "Andrew Allen",
+        "amount": "$39997.04",
+        "productIds": [
+            "OFF-PA-10000605",
+            "TEC-PH-10002170",
+            "FUR-TA-10004147",
+            "TEC-AC-10003911",
+            "OFF-AR-10002578"
+        ]
+    },
+    {
+        "_id": "CA-2017-114713",
+        "transaction_date": "2017-07-07",
+        "customer_id": "SC-20695",
+        "buyer_name": "Steve Chapman",
+        "amount": "$8321.40",
+        "productIds": [
+            "OFF-SU-10004664"
+        ]
+    },
+    {
+        "_id": "CA-2017-114727",
+        "transaction_date": "2017-07-18",
+        "customer_id": "LS-16945",
+        "buyer_name": "Linda Southworth",
+        "amount": "$17038.20",
+        "productIds": [
+            "FUR-CH-10002335",
+            "OFF-BI-10004967",
+            "FUR-CH-10002331",
+            "OFF-ST-10002292",
+            "OFF-ST-10000689"
+        ]
+    },
+    {
+        "_id": "CA-2017-114748",
+        "transaction_date": "2017-10-09",
+        "customer_id": "MZ-17335",
+        "buyer_name": "Maria Zettner",
+        "amount": "$9113.98",
+        "productIds": [
+            "OFF-AR-10001315",
+            "FUR-FU-10001488"
+        ]
+    },
+    {
+        "_id": "CA-2017-114860",
+        "transaction_date": "2017-12-22",
+        "customer_id": "DN-13690",
+        "buyer_name": "Duane Noonan",
+        "amount": "$4648.68",
+        "productIds": [
+            "FUR-FU-10000277",
+            "FUR-FU-10001934"
+        ]
+    },
+    {
+        "_id": "CA-2017-114867",
+        "transaction_date": "2017-12-23",
+        "customer_id": "FM-14290",
+        "buyer_name": "Frank Merwin",
+        "amount": "$16762.06",
+        "productIds": [
+            "OFF-PA-10000477",
+            "TEC-PH-10002645"
+        ]
+    },
+    {
+        "_id": "CA-2017-114895",
+        "transaction_date": "2017-11-21",
+        "customer_id": "MV-18190",
+        "buyer_name": "Mike Vittorini",
+        "amount": "$1418.15",
+        "productIds": [
+            "OFF-PA-10000232"
+        ]
+    },
+    {
+        "_id": "CA-2017-114944",
+        "transaction_date": "2017-01-30",
+        "customer_id": "HE-14800",
+        "buyer_name": "Harold Engle",
+        "amount": "$14699.35",
+        "productIds": [
+            "OFF-PA-10003892"
+        ]
+    },
+    {
+        "_id": "CA-2017-114951",
+        "transaction_date": "2017-06-26",
+        "customer_id": "DN-13690",
+        "buyer_name": "Duane Noonan",
+        "amount": "$11468.34",
+        "productIds": [
+            "FUR-FU-10002364"
+        ]
+    },
+    {
+        "_id": "CA-2017-114972",
+        "transaction_date": "2017-11-03",
+        "customer_id": "PF-19225",
+        "buyer_name": "Phillip Flathmann",
+        "amount": "$20160.65",
+        "productIds": [
+            "FUR-CH-10001190",
+            "TEC-AC-10000682",
+            "OFF-LA-10004545",
+            "OFF-AP-10003057"
+        ]
+    },
+    {
+        "_id": "CA-2017-115224",
+        "transaction_date": "2017-12-08",
+        "customer_id": "DB-13615",
+        "buyer_name": "Doug Bickford",
+        "amount": "$16077.00",
+        "productIds": [
+            "OFF-ST-10000615",
+            "OFF-ST-10003816"
+        ]
+    },
+    {
+        "_id": "CA-2017-115378",
+        "transaction_date": "2017-11-18",
+        "customer_id": "AJ-10945",
+        "buyer_name": "Ashley Jarboe",
+        "amount": "$6647.60",
+        "productIds": [
+            "FUR-CH-10000863"
+        ]
+    },
+    {
+        "_id": "CA-2017-115476",
+        "transaction_date": "2017-03-17",
+        "customer_id": "VM-21835",
+        "buyer_name": "Vivian Mathis",
+        "amount": "$9928.32",
+        "productIds": [
+            "TEC-PH-10000673",
+            "OFF-BI-10000962"
+        ]
+    },
+    {
+        "_id": "CA-2017-115483",
+        "transaction_date": "2017-07-14",
+        "customer_id": "JS-15880",
+        "buyer_name": "John Stevenson",
+        "amount": "$8020.80",
+        "productIds": [
+            "OFF-PA-10001497"
+        ]
+    },
+    {
+        "_id": "CA-2017-115504",
+        "transaction_date": "2017-03-12",
+        "customer_id": "MC-18130",
+        "buyer_name": "Mike Caudle",
+        "amount": "$7766.88",
+        "productIds": [
+            "OFF-PA-10003953"
+        ]
+    },
+    {
+        "_id": "CA-2017-115525",
+        "transaction_date": "2017-07-25",
+        "customer_id": "RR-19525",
+        "buyer_name": "Rick Reed",
+        "amount": "$15922.21",
+        "productIds": [
+            "OFF-AP-10000026"
+        ]
+    },
+    {
+        "_id": "CA-2017-115574",
+        "transaction_date": "2017-12-23",
+        "customer_id": "BP-11185",
+        "buyer_name": "Ben Peterman",
+        "amount": "$6681.95",
+        "productIds": [
+            "FUR-BO-10003441"
+        ]
+    },
+    {
+        "_id": "CA-2017-115588",
+        "transaction_date": "2017-11-10",
+        "customer_id": "AF-10885",
+        "buyer_name": "Art Foster",
+        "amount": "$22095.67",
+        "productIds": [
+            "OFF-SU-10001225",
+            "OFF-ST-10001558"
+        ]
+    },
+    {
+        "_id": "CA-2017-115756",
+        "transaction_date": "2017-09-05",
+        "customer_id": "PK-19075",
+        "buyer_name": "Pete Kriz",
+        "amount": "$34275.29",
+        "productIds": [
+            "FUR-FU-10000246",
+            "OFF-ST-10000060",
+            "OFF-ST-10003058",
+            "OFF-PA-10002222",
+            "FUR-CH-10002372",
+            "OFF-LA-10001317"
+        ]
+    },
+    {
+        "_id": "CA-2017-115917",
+        "transaction_date": "2017-05-20",
+        "customer_id": "RB-19465",
+        "buyer_name": "Rick Bensley",
+        "amount": "$3251.95",
+        "productIds": [
+            "FUR-FU-10000576",
+            "OFF-BI-10004728"
+        ]
+    },
+    {
+        "_id": "CA-2017-116232",
+        "transaction_date": "2017-09-22",
+        "customer_id": "AC-10450",
+        "buyer_name": "Amy Cox",
+        "amount": "$6679.73",
+        "productIds": [
+            "OFF-BI-10004022",
+            "OFF-LA-10001158"
+        ]
+    },
+    {
+        "_id": "CA-2017-116337",
+        "transaction_date": "2017-11-07",
+        "customer_id": "MC-17845",
+        "buyer_name": "Michael Chen",
+        "amount": "$3514.86",
+        "productIds": [
+            "FUR-FU-10002030",
+            "OFF-ST-10001272"
+        ]
+    },
+    {
+        "_id": "CA-2017-116344",
+        "transaction_date": "2017-07-29",
+        "customer_id": "JO-15145",
+        "buyer_name": "Jack O'Briant",
+        "amount": "$4479.48",
+        "productIds": [
+            "OFF-ST-10001713"
+        ]
+    },
+    {
+        "_id": "CA-2017-116379",
+        "transaction_date": "2017-11-07",
+        "customer_id": "LD-17005",
+        "buyer_name": "Lisa DeCherney",
+        "amount": "$11149.96",
+        "productIds": [
+            "OFF-BI-10001543"
+        ]
+    },
+    {
+        "_id": "CA-2017-116526",
+        "transaction_date": "2017-09-01",
+        "customer_id": "JA-15970",
+        "buyer_name": "Joseph Airdo",
+        "amount": "$48820.76",
+        "productIds": [
+            "OFF-BI-10004728",
+            "TEC-PH-10002365",
+            "OFF-AP-10002457",
+            "OFF-BI-10000320",
+            "OFF-AR-10004999",
+            "OFF-BI-10001116"
+        ]
+    },
+    {
+        "_id": "CA-2017-116540",
+        "transaction_date": "2017-09-02",
+        "customer_id": "SS-20590",
+        "buyer_name": "Sonia Sunley",
+        "amount": "$6020.40",
+        "productIds": [
+            "OFF-FA-10002676",
+            "OFF-BI-10004970"
+        ]
+    },
+    {
+        "_id": "CA-2017-116547",
+        "transaction_date": "2017-01-10",
+        "customer_id": "KB-16585",
+        "buyer_name": "Ken Black",
+        "amount": "$25351.32",
+        "productIds": [
+            "FUR-FU-10000076",
+            "TEC-AC-10002335"
+        ]
+    },
+    {
+        "_id": "CA-2017-116561",
+        "transaction_date": "2017-09-11",
+        "customer_id": "EB-14110",
+        "buyer_name": "Eugene Barchas",
+        "amount": "$4863.91",
+        "productIds": [
+            "OFF-ST-10004186",
+            "OFF-BI-10001658"
+        ]
+    },
+    {
+        "_id": "CA-2017-116596",
+        "transaction_date": "2017-10-27",
+        "customer_id": "BW-11200",
+        "buyer_name": "Ben Wallace",
+        "amount": "$27919.92",
+        "productIds": [
+            "FUR-CH-10000553",
+            "OFF-FA-10000134",
+            "OFF-ST-10000636",
+            "OFF-BI-10002949"
+        ]
+    },
+    {
+        "_id": "CA-2017-116603",
+        "transaction_date": "2017-07-17",
+        "customer_id": "AT-10735",
+        "buyer_name": "Annie Thurman",
+        "amount": "$6917.60",
+        "productIds": [
+            "OFF-AP-10002892"
+        ]
+    },
+    {
+        "_id": "CA-2017-116722",
+        "transaction_date": "2017-11-11",
+        "customer_id": "LP-17080",
+        "buyer_name": "Liz Pelletier",
+        "amount": "$13827.55",
+        "productIds": [
+            "FUR-FU-10001934",
+            "FUR-CH-10004997",
+            "OFF-BI-10001890"
+        ]
+    },
+    {
+        "_id": "CA-2017-116736",
+        "transaction_date": "2017-01-17",
+        "customer_id": "CC-12430",
+        "buyer_name": "Chuck Clark",
+        "amount": "$8400.95",
+        "productIds": [
+            "FUR-FU-10004017",
+            "TEC-AC-10003628",
+            "TEC-AC-10002049"
+        ]
+    },
+    {
+        "_id": "CA-2017-116764",
+        "transaction_date": "2017-08-27",
+        "customer_id": "EM-13825",
+        "buyer_name": "Elizabeth Moffitt",
+        "amount": "$5396.24",
+        "productIds": [
+            "OFF-LA-10002473"
+        ]
+    },
+    {
+        "_id": "CA-2017-116799",
+        "transaction_date": "2017-03-03",
+        "customer_id": "JG-15310",
+        "buyer_name": "Jason Gross",
+        "amount": "$21469.65",
+        "productIds": [
+            "OFF-PA-10001892",
+            "FUR-CH-10004983"
+        ]
+    },
+    {
+        "_id": "CA-2017-116911",
+        "transaction_date": "2017-09-15",
+        "customer_id": "JD-16150",
+        "buyer_name": "Justin Deggeller",
+        "amount": "$14023.41",
+        "productIds": [
+            "OFF-BI-10001249",
+            "FUR-TA-10003473"
+        ]
+    },
+    {
+        "_id": "CA-2017-116918",
+        "transaction_date": "2017-10-01",
+        "customer_id": "JK-15205",
+        "buyer_name": "Jamie Kunitz",
+        "amount": "$8147.59",
+        "productIds": [
+            "OFF-BI-10004140",
+            "OFF-AR-10003631"
+        ]
+    },
+    {
+        "_id": "CA-2017-116974",
+        "transaction_date": "2017-10-09",
+        "customer_id": "MP-17965",
+        "buyer_name": "Michael Paige",
+        "amount": "$17876.20",
+        "productIds": [
+            "TEC-PH-10004897"
+        ]
+    },
+    {
+        "_id": "CA-2017-117121",
+        "transaction_date": "2017-12-17",
+        "customer_id": "AB-10105",
+        "buyer_name": "Adrian Barton",
+        "amount": "$8377.85",
+        "productIds": [
+            "OFF-BI-10000545"
+        ]
+    },
+    {
+        "_id": "CA-2017-117226",
+        "transaction_date": "2017-12-30",
+        "customer_id": "KD-16495",
+        "buyer_name": "Keith Dawkins",
+        "amount": "$975.78",
+        "productIds": [
+            "OFF-BI-10004654"
+        ]
+    },
+    {
+        "_id": "CA-2017-117282",
+        "transaction_date": "2017-07-14",
+        "customer_id": "DR-12880",
+        "buyer_name": "Dan Reichenbach",
+        "amount": "$9372.13",
+        "productIds": [
+            "OFF-BI-10004094"
+        ]
+    },
+    {
+        "_id": "CA-2017-117408",
+        "transaction_date": "2017-08-31",
+        "customer_id": "TP-21130",
+        "buyer_name": "Theone Pippenger",
+        "amount": "$11823.00",
+        "productIds": [
+            "OFF-ST-10001580"
+        ]
+    },
+    {
+        "_id": "CA-2017-117590",
+        "transaction_date": "2017-12-08",
+        "customer_id": "GH-14485",
+        "buyer_name": "Gene Hale",
+        "amount": "$5393.31",
+        "productIds": [
+            "TEC-PH-10004977",
+            "FUR-FU-10003664"
+        ]
+    },
+    {
+        "_id": "CA-2017-117604",
+        "transaction_date": "2017-09-04",
+        "customer_id": "JP-15520",
+        "buyer_name": "Jeremy Pistek",
+        "amount": "$5059.05",
+        "productIds": [
+            "OFF-PA-10001357"
+        ]
+    },
+    {
+        "_id": "CA-2017-117625",
+        "transaction_date": "2017-05-10",
+        "customer_id": "GM-14500",
+        "buyer_name": "Gene McClure",
+        "amount": "$6601.44",
+        "productIds": [
+            "OFF-EN-10001535"
+        ]
+    },
+    {
+        "_id": "CA-2017-117660",
+        "transaction_date": "2017-12-30",
+        "customer_id": "BM-11785",
+        "buyer_name": "Bryan Mills",
+        "amount": "$7487.63",
+        "productIds": [
+            "OFF-LA-10003720",
+            "OFF-SU-10001664"
+        ]
+    },
+    {
+        "_id": "CA-2017-117681",
+        "transaction_date": "2017-04-09",
+        "customer_id": "HF-14995",
+        "buyer_name": "Herbert Flentye",
+        "amount": "$4369.89",
+        "productIds": [
+            "FUR-BO-10001798"
+        ]
+    },
+    {
+        "_id": "CA-2017-117849",
+        "transaction_date": "2017-04-15",
+        "customer_id": "JK-16120",
+        "buyer_name": "Julie Kriz",
+        "amount": "$4161.00",
+        "productIds": [
+            "OFF-PA-10004327"
+        ]
+    },
+    {
+        "_id": "CA-2017-117912",
+        "transaction_date": "2017-02-04",
+        "customer_id": "TB-21520",
+        "buyer_name": "Tracy Blumstein",
+        "amount": "$1431.93",
+        "productIds": [
+            "FUR-FU-10002088"
+        ]
+    },
+    {
+        "_id": "CA-2017-117919",
+        "transaction_date": "2017-08-27",
+        "customer_id": "TB-21355",
+        "buyer_name": "Todd Boyes",
+        "amount": "$2816.02",
+        "productIds": [
+            "OFF-ST-10003572",
+            "OFF-PA-10004353"
+        ]
+    },
+    {
+        "_id": "CA-2017-118052",
+        "transaction_date": "2017-05-06",
+        "customer_id": "BE-11455",
+        "buyer_name": "Brad Eason",
+        "amount": "$16572.00",
+        "productIds": [
+            "OFF-FA-10004248",
+            "OFF-PA-10002581",
+            "FUR-FU-10004848"
+        ]
+    },
+    {
+        "_id": "CA-2017-118073",
+        "transaction_date": "2017-08-12",
+        "customer_id": "CS-12490",
+        "buyer_name": "Cindy Schnelling",
+        "amount": "$11437.02",
+        "productIds": [
+            "FUR-TA-10002533"
+        ]
+    },
+    {
+        "_id": "CA-2017-118101",
+        "transaction_date": "2017-06-26",
+        "customer_id": "SN-20560",
+        "buyer_name": "Skye Norling",
+        "amount": "$25114.51",
+        "productIds": [
+            "OFF-PA-10000357",
+            "OFF-BI-10000773",
+            "OFF-ST-10001837"
+        ]
+    },
+    {
+        "_id": "CA-2017-118129",
+        "transaction_date": "2017-12-19",
+        "customer_id": "CL-12565",
+        "buyer_name": "Clay Ludtke",
+        "amount": "$2778.30",
+        "productIds": [
+            "FUR-FU-10004904"
+        ]
+    },
+    {
+        "_id": "CA-2017-118178",
+        "transaction_date": "2017-03-19",
+        "customer_id": "CC-12610",
+        "buyer_name": "Corey Catlett",
+        "amount": "$463.12",
+        "productIds": [
+            "OFF-BI-10001153"
+        ]
+    },
+    {
+        "_id": "CA-2017-118255",
+        "transaction_date": "2017-03-11",
+        "customer_id": "ON-18715",
+        "buyer_name": "Odella Nelson",
+        "amount": "$7732.10",
+        "productIds": [
+            "TEC-AC-10000171",
+            "OFF-BI-10003291"
+        ]
+    },
+    {
+        "_id": "CA-2017-118311",
+        "transaction_date": "2017-10-24",
+        "customer_id": "ED-13885",
+        "buyer_name": "Emily Ducich",
+        "amount": "$7597.72",
+        "productIds": [
+            "TEC-AC-10000892"
+        ]
+    },
+    {
+        "_id": "CA-2017-118332",
+        "transaction_date": "2017-12-16",
+        "customer_id": "PK-19075",
+        "buyer_name": "Pete Kriz",
+        "amount": "$7438.20",
+        "productIds": [
+            "FUR-CH-10001708"
+        ]
+    },
+    {
+        "_id": "CA-2017-118500",
+        "transaction_date": "2017-11-17",
+        "customer_id": "HJ-14875",
+        "buyer_name": "Heather Jas",
+        "amount": "$1875.52",
+        "productIds": [
+            "OFF-SU-10004231"
+        ]
+    },
+    {
+        "_id": "CA-2017-118514",
+        "transaction_date": "2017-02-03",
+        "customer_id": "LC-17050",
+        "buyer_name": "Liz Carlisle",
+        "amount": "$9093.97",
+        "productIds": [
+            "FUR-CH-10000015"
+        ]
+    },
+    {
+        "_id": "CA-2017-118570",
+        "transaction_date": "2017-11-13",
+        "customer_id": "CC-12430",
+        "buyer_name": "Chuck Clark",
+        "amount": "$15337.80",
+        "productIds": [
+            "OFF-PA-10001289"
+        ]
+    },
+    {
+        "_id": "CA-2017-118626",
+        "transaction_date": "2017-08-15",
+        "customer_id": "JC-15775",
+        "buyer_name": "John Castell",
+        "amount": "$5791.38",
+        "productIds": [
+            "TEC-PH-10000369"
+        ]
+    },
+    {
+        "_id": "CA-2017-118689",
+        "transaction_date": "2017-10-02",
+        "customer_id": "TC-20980",
+        "buyer_name": "Tamara Chand",
+        "amount": "$15744.17",
+        "productIds": [
+            "OFF-ST-10001558",
+            "TEC-CO-10004722",
+            "OFF-BI-10004600",
+            "OFF-BI-10003712",
+            "OFF-AR-10001958"
+        ]
+    },
+    {
+        "_id": "CA-2017-118745",
+        "transaction_date": "2017-06-11",
+        "customer_id": "SV-20365",
+        "buyer_name": "Seth Vernon",
+        "amount": "$660.18",
+        "productIds": [
+            "FUR-TA-10003473"
+        ]
+    },
+    {
+        "_id": "CA-2017-118759",
+        "transaction_date": "2017-11-14",
+        "customer_id": "MB-17305",
+        "buyer_name": "Maria Bertelson",
+        "amount": "$6462.47",
+        "productIds": [
+            "FUR-CH-10002335",
+            "OFF-ST-10001590"
+        ]
+    },
+    {
+        "_id": "CA-2017-118899",
+        "transaction_date": "2017-03-22",
+        "customer_id": "MC-17275",
+        "buyer_name": "Marc Crier",
+        "amount": "$6395.29",
+        "productIds": [
+            "FUR-CH-10004754"
+        ]
+    },
+    {
+        "_id": "CA-2017-118913",
+        "transaction_date": "2017-06-25",
+        "customer_id": "AS-10240",
+        "buyer_name": "Alan Shonely",
+        "amount": "$2883.70",
+        "productIds": [
+            "OFF-AP-10000692"
+        ]
+    },
+    {
+        "_id": "CA-2017-118934",
+        "transaction_date": "2017-08-09",
+        "customer_id": "GH-14410",
+        "buyer_name": "Gary Hansen",
+        "amount": "$8135.33",
+        "productIds": [
+            "OFF-BI-10003314",
+            "OFF-BI-10004465"
+        ]
+    },
+    {
+        "_id": "CA-2017-118969",
+        "transaction_date": "2017-10-02",
+        "customer_id": "LP-17095",
+        "buyer_name": "Liz Preis",
+        "amount": "$1215.30",
+        "productIds": [
+            "OFF-BI-10002429"
+        ]
+    },
+    {
+        "_id": "CA-2017-119018",
+        "transaction_date": "2017-11-04",
+        "customer_id": "CW-11905",
+        "buyer_name": "Carl Weiss",
+        "amount": "$29935.98",
+        "productIds": [
+            "OFF-BI-10003314",
+            "OFF-BI-10000494",
+            "OFF-PA-10000295"
+        ]
+    },
+    {
+        "_id": "CA-2017-119025",
+        "transaction_date": "2017-02-22",
+        "customer_id": "PV-18985",
+        "buyer_name": "Paul Van Hugh",
+        "amount": "$1905.28",
+        "productIds": [
+            "OFF-AP-10001205"
+        ]
+    },
+    {
+        "_id": "CA-2017-119074",
+        "transaction_date": "2017-03-27",
+        "customer_id": "DS-13180",
+        "buyer_name": "David Smith",
+        "amount": "$16482.96",
+        "productIds": [
+            "FUR-FU-10004053",
+            "FUR-FU-10003731",
+            "OFF-BI-10000962"
+        ]
+    },
+    {
+        "_id": "CA-2017-119123",
+        "transaction_date": "2017-03-13",
+        "customer_id": "DB-13360",
+        "buyer_name": "Dennis Bolton",
+        "amount": "$6853.04",
+        "productIds": [
+            "OFF-BI-10001036"
+        ]
+    },
+    {
+        "_id": "CA-2017-119165",
+        "transaction_date": "2017-10-31",
+        "customer_id": "BD-11320",
+        "buyer_name": "Bill Donatelli",
+        "amount": "$18904.80",
+        "productIds": [
+            "FUR-CH-10000988"
+        ]
+    },
+    {
+        "_id": "CA-2017-119186",
+        "transaction_date": "2017-05-26",
+        "customer_id": "MS-17710",
+        "buyer_name": "Maurice Satty",
+        "amount": "$32549.78",
+        "productIds": [
+            "OFF-PA-10004621",
+            "FUR-CH-10001973",
+            "OFF-PA-10004040",
+            "TEC-AC-10000580"
+        ]
+    },
+    {
+        "_id": "CA-2017-119445",
+        "transaction_date": "2017-06-26",
+        "customer_id": "GM-14500",
+        "buyer_name": "Gene McClure",
+        "amount": "$6767.64",
+        "productIds": [
+            "OFF-ST-10000617"
+        ]
+    },
+    {
+        "_id": "CA-2017-119515",
+        "transaction_date": "2017-08-14",
+        "customer_id": "TR-21325",
+        "buyer_name": "Toby Ritter",
+        "amount": "$3795.69",
+        "productIds": [
+            "OFF-PA-10000552"
+        ]
+    },
+    {
+        "_id": "CA-2017-119641",
+        "transaction_date": "2017-09-22",
+        "customer_id": "CS-12250",
+        "buyer_name": "Chris Selesnick",
+        "amount": "$6247.95",
+        "productIds": [
+            "FUR-FU-10002445"
+        ]
+    },
+    {
+        "_id": "CA-2017-119683",
+        "transaction_date": "2017-03-12",
+        "customer_id": "CK-12595",
+        "buyer_name": "Clytie Kelty",
+        "amount": "$5526.15",
+        "productIds": [
+            "OFF-EN-10001099"
+        ]
+    },
+    {
+        "_id": "CA-2017-119823",
+        "transaction_date": "2017-06-04",
+        "customer_id": "KD-16270",
+        "buyer_name": "Karen Daniels",
+        "amount": "$9786.70",
+        "productIds": [
+            "OFF-PA-10000482"
+        ]
+    },
+    {
+        "_id": "CA-2017-119865",
+        "transaction_date": "2017-06-21",
+        "customer_id": "AS-10090",
+        "buyer_name": "Adam Shillingsburg",
+        "amount": "$26999.05",
+        "productIds": [
+            "OFF-BI-10001553",
+            "OFF-BI-10003007",
+            "FUR-BO-10003272"
+        ]
+    },
+    {
+        "_id": "CA-2017-119935",
+        "transaction_date": "2017-11-10",
+        "customer_id": "KM-16225",
+        "buyer_name": "Kalyca Meade",
+        "amount": "$2046.11",
+        "productIds": [
+            "FUR-FU-10001085",
+            "OFF-BI-10001597"
+        ]
+    },
+    {
+        "_id": "CA-2017-119963",
+        "transaction_date": "2017-11-18",
+        "customer_id": "SN-20710",
+        "buyer_name": "Steve Nguyen",
+        "amount": "$66695.06",
+        "productIds": [
+            "OFF-AR-10003514",
+            "OFF-LA-10003510",
+            "OFF-PA-10001970",
+            "FUR-CH-10003817"
+        ]
+    },
+    {
+        "_id": "CA-2017-120005",
+        "transaction_date": "2017-03-03",
+        "customer_id": "TS-21160",
+        "buyer_name": "Theresa Swint",
+        "amount": "$20542.23",
+        "productIds": [
+            "OFF-SU-10004782",
+            "FUR-FU-10000672"
+        ]
+    },
+    {
+        "_id": "CA-2017-120082",
+        "transaction_date": "2017-03-25",
+        "customer_id": "DK-12835",
+        "buyer_name": "Damala Kotsonis",
+        "amount": "$1645.04",
+        "productIds": [
+            "OFF-AR-10001955"
+        ]
+    },
+    {
+        "_id": "CA-2017-120180",
+        "transaction_date": "2017-07-14",
+        "customer_id": "TP-21130",
+        "buyer_name": "Theone Pippenger",
+        "amount": "$7499.84",
+        "productIds": [
+            "OFF-SU-10004115"
+        ]
+    },
+    {
+        "_id": "CA-2017-120250",
+        "transaction_date": "2017-09-19",
+        "customer_id": "AP-10720",
+        "buyer_name": "Anne Pryor",
+        "amount": "$1170.52",
+        "productIds": [
+            "FUR-FU-10003424"
+        ]
+    },
+    {
+        "_id": "CA-2017-120257",
+        "transaction_date": "2017-09-22",
+        "customer_id": "PW-19240",
+        "buyer_name": "Pierre Wener",
+        "amount": "$6056.10",
+        "productIds": [
+            "OFF-AR-10003481"
+        ]
+    },
+    {
+        "_id": "CA-2017-120355",
+        "transaction_date": "2017-09-18",
+        "customer_id": "MM-17260",
+        "buyer_name": "Magdelene Morse",
+        "amount": "$15639.52",
+        "productIds": [
+            "FUR-CH-10001394",
+            "FUR-FU-10004053"
+        ]
+    },
+    {
+        "_id": "CA-2017-120369",
+        "transaction_date": "2017-10-28",
+        "customer_id": "VB-21745",
+        "buyer_name": "Victoria Brennan",
+        "amount": "$15984.76",
+        "productIds": [
+            "FUR-FU-10003806"
+        ]
+    },
+    {
+        "_id": "CA-2017-120530",
+        "transaction_date": "2017-04-07",
+        "customer_id": "Dl-13600",
+        "buyer_name": "Dorris liebe",
+        "amount": "$1953.76",
+        "productIds": [
+            "FUR-CH-10000454"
+        ]
+    },
+    {
+        "_id": "CA-2017-120558",
+        "transaction_date": "2017-06-07",
+        "customer_id": "RD-19810",
+        "buyer_name": "Ross DeVincentis",
+        "amount": "$4799.99",
+        "productIds": [
+            "OFF-PA-10003441"
+        ]
+    },
+    {
+        "_id": "CA-2017-120796",
+        "transaction_date": "2017-04-03",
+        "customer_id": "CS-11950",
+        "buyer_name": "Carlos Soltero",
+        "amount": "$10645.20",
+        "productIds": [
+            "OFF-BI-10004330"
+        ]
+    },
+    {
+        "_id": "CA-2017-120803",
+        "transaction_date": "2017-03-09",
+        "customer_id": "RB-19465",
+        "buyer_name": "Rick Bensley",
+        "amount": "$14172.67",
+        "productIds": [
+            "TEC-AC-10004469"
+        ]
+    },
+    {
+        "_id": "CA-2017-120824",
+        "transaction_date": "2017-06-12",
+        "customer_id": "AW-10930",
+        "buyer_name": "Arthur Wiediger",
+        "amount": "$63146.05",
+        "productIds": [
+            "OFF-AP-10001242",
+            "FUR-FU-10001424",
+            "OFF-AR-10003469",
+            "OFF-PA-10000232",
+            "FUR-CH-10000229",
+            "OFF-ST-10002562",
+            "OFF-BI-10001525"
+        ]
+    },
+    {
+        "_id": "CA-2017-120859",
+        "transaction_date": "2017-09-01",
+        "customer_id": "CV-12805",
+        "buyer_name": "Cynthia Voltz",
+        "amount": "$16671.05",
+        "productIds": [
+            "OFF-EN-10001335"
+        ]
+    },
+    {
+        "_id": "CA-2017-120873",
+        "transaction_date": "2017-10-27",
+        "customer_id": "BW-11200",
+        "buyer_name": "Ben Wallace",
+        "amount": "$9873.21",
+        "productIds": [
+            "FUR-CH-10000847"
+        ]
+    },
+    {
+        "_id": "CA-2017-121020",
+        "transaction_date": "2017-10-24",
+        "customer_id": "CG-12040",
+        "buyer_name": "Catherine Glotzbach",
+        "amount": "$11161.00",
+        "productIds": [
+            "TEC-PH-10001061"
+        ]
+    },
+    {
+        "_id": "CA-2017-121034",
+        "transaction_date": "2017-08-08",
+        "customer_id": "JF-15565",
+        "buyer_name": "Jill Fjeld",
+        "amount": "$8633.24",
+        "productIds": [
+            "OFF-FA-10000585",
+            "OFF-PA-10001994"
+        ]
+    },
+    {
+        "_id": "CA-2017-121223",
+        "transaction_date": "2017-09-11",
+        "customer_id": "GD-14590",
+        "buyer_name": "Giulietta Dortch",
+        "amount": "$17616.13",
+        "productIds": [
+            "OFF-PA-10001204",
+            "TEC-PH-10004667"
+        ]
+    },
+    {
+        "_id": "CA-2017-121356",
+        "transaction_date": "2017-11-20",
+        "customer_id": "SJ-20500",
+        "buyer_name": "Shirley Jackson",
+        "amount": "$1404.96",
+        "productIds": [
+            "OFF-BI-10002133"
+        ]
+    },
+    {
+        "_id": "CA-2017-121370",
+        "transaction_date": "2017-11-14",
+        "customer_id": "EB-14110",
+        "buyer_name": "Eugene Barchas",
+        "amount": "$27206.42",
+        "productIds": [
+            "FUR-CH-10000785",
+            "TEC-CO-10004115",
+            "FUR-FU-10002813"
+        ]
+    },
+    {
+        "_id": "CA-2017-121377",
+        "transaction_date": "2017-05-28",
+        "customer_id": "TN-21040",
+        "buyer_name": "Tanja Norvell",
+        "amount": "$9211.36",
+        "productIds": [
+            "TEC-PH-10001817"
+        ]
+    },
+    {
+        "_id": "CA-2017-121447",
+        "transaction_date": "2017-02-21",
+        "customer_id": "EA-14035",
+        "buyer_name": "Erin Ashbrook",
+        "amount": "$3003.44",
+        "productIds": [
+            "FUR-FU-10001861"
+        ]
+    },
+    {
+        "_id": "CA-2017-121601",
+        "transaction_date": "2017-10-04",
+        "customer_id": "MO-17500",
+        "buyer_name": "Mary O'Rourke",
+        "amount": "$4605.78",
+        "productIds": [
+            "OFF-EN-10003862"
+        ]
+    },
+    {
+        "_id": "CA-2017-121671",
+        "transaction_date": "2017-07-17",
+        "customer_id": "AA-10480",
+        "buyer_name": "Andrew Allen",
+        "amount": "$29356.16",
+        "productIds": [
+            "OFF-PA-10001471",
+            "OFF-ST-10002344",
+            "OFF-PA-10001892",
+            "OFF-PA-10001934",
+            "OFF-ST-10000078"
+        ]
+    },
+    {
+        "_id": "CA-2017-121748",
+        "transaction_date": "2017-10-24",
+        "customer_id": "VW-21775",
+        "buyer_name": "Victoria Wilson",
+        "amount": "$3641.96",
+        "productIds": [
+            "TEC-AC-10003063",
+            "TEC-AC-10002637"
+        ]
+    },
+    {
+        "_id": "CA-2017-121755",
+        "transaction_date": "2017-01-16",
+        "customer_id": "EH-13945",
+        "buyer_name": "Eric Hoffmann",
+        "amount": "$12770.22",
+        "productIds": [
+            "OFF-BI-10001634",
+            "TEC-AC-10003027"
+        ]
+    },
+    {
+        "_id": "CA-2017-121958",
+        "transaction_date": "2017-11-13",
+        "customer_id": "CS-12505",
+        "buyer_name": "Cindy Stewart",
+        "amount": "$1392.81",
+        "productIds": [
+            "OFF-SU-10000381"
+        ]
+    },
+    {
+        "_id": "CA-2017-121993",
+        "transaction_date": "2017-06-10",
+        "customer_id": "JB-16000",
+        "buyer_name": "Joy Bell-",
+        "amount": "$21245.00",
+        "productIds": [
+            "OFF-LA-10003720"
+        ]
+    },
+    {
+        "_id": "CA-2017-122017",
+        "transaction_date": "2017-12-29",
+        "customer_id": "CD-11920",
+        "buyer_name": "Carlos Daly",
+        "amount": "$17934.92",
+        "productIds": [
+            "FUR-FU-10000672",
+            "OFF-AP-10001293"
+        ]
+    },
+    {
+        "_id": "CA-2017-122063",
+        "transaction_date": "2017-12-03",
+        "customer_id": "MM-17920",
+        "buyer_name": "Michael Moore",
+        "amount": "$1638.60",
+        "productIds": [
+            "FUR-TA-10004575",
+            "FUR-CH-10004754"
+        ]
+    },
+    {
+        "_id": "CA-2017-122133",
+        "transaction_date": "2017-05-16",
+        "customer_id": "JR-15670",
+        "buyer_name": "Jim Radford",
+        "amount": "$21451.10",
+        "productIds": [
+            "OFF-ST-10002574"
+        ]
+    },
+    {
+        "_id": "CA-2017-122322",
+        "transaction_date": "2017-07-15",
+        "customer_id": "RH-19510",
+        "buyer_name": "Rick Huthwaite",
+        "amount": "$16768.29",
+        "productIds": [
+            "OFF-SU-10000952"
+        ]
+    },
+    {
+        "_id": "CA-2017-122392",
+        "transaction_date": "2017-07-22",
+        "customer_id": "CJ-12010",
+        "buyer_name": "Caroline Jumper",
+        "amount": "$15879.32",
+        "productIds": [
+            "OFF-AR-10002221",
+            "FUR-FU-10002456"
+        ]
+    },
+    {
+        "_id": "CA-2017-122448",
+        "transaction_date": "2017-06-09",
+        "customer_id": "DB-13210",
+        "buyer_name": "Dean Braden",
+        "amount": "$3429.95",
+        "productIds": [
+            "FUR-CH-10002774"
+        ]
+    },
+    {
+        "_id": "CA-2017-122511",
+        "transaction_date": "2017-03-11",
+        "customer_id": "BT-11485",
+        "buyer_name": "Brad Thomas",
+        "amount": "$10377.76",
+        "productIds": [
+            "FUR-FU-10001037"
+        ]
+    },
+    {
+        "_id": "CA-2017-122518",
+        "transaction_date": "2017-03-04",
+        "customer_id": "RF-19345",
+        "buyer_name": "Randy Ferguson",
+        "amount": "$20320.25",
+        "productIds": [
+            "OFF-LA-10001641"
+        ]
+    },
+    {
+        "_id": "CA-2017-122728",
+        "transaction_date": "2017-05-18",
+        "customer_id": "EB-13930",
+        "buyer_name": "Eric Barreto",
+        "amount": "$10836.55",
+        "productIds": [
+            "OFF-ST-10000604",
+            "OFF-PA-10004040"
+        ]
+    },
+    {
+        "_id": "CA-2017-122903",
+        "transaction_date": "2017-05-27",
+        "customer_id": "LA-16780",
+        "buyer_name": "Laura Armstrong",
+        "amount": "$16071.13",
+        "productIds": [
+            "FUR-CH-10002024",
+            "OFF-PA-10001790",
+            "OFF-PA-10000994"
+        ]
+    },
+    {
+        "_id": "CA-2017-123015",
+        "transaction_date": "2017-12-26",
+        "customer_id": "AJ-10795",
+        "buyer_name": "Anthony Johnson",
+        "amount": "$1605.50",
+        "productIds": [
+            "OFF-BI-10004967"
+        ]
+    },
+    {
+        "_id": "CA-2017-123050",
+        "transaction_date": "2017-04-04",
+        "customer_id": "BC-11125",
+        "buyer_name": "Becky Castell",
+        "amount": "$19056.14",
+        "productIds": [
+            "FUR-FU-10000723",
+            "OFF-ST-10003455",
+            "TEC-AC-10001109"
+        ]
+    },
+    {
+        "_id": "CA-2017-123120",
+        "transaction_date": "2017-09-04",
+        "customer_id": "CV-12295",
+        "buyer_name": "Christina VanderZanden",
+        "amount": "$7859.51",
+        "productIds": [
+            "FUR-FU-10004748",
+            "OFF-BI-10001460",
+            "OFF-SU-10002503"
+        ]
+    },
+    {
+        "_id": "CA-2017-123176",
+        "transaction_date": "2017-09-27",
+        "customer_id": "JG-15160",
+        "buyer_name": "James Galang",
+        "amount": "$9283.70",
+        "productIds": [
+            "OFF-PA-10003971",
+            "OFF-AR-10004685"
+        ]
+    },
+    {
+        "_id": "CA-2017-123274",
+        "transaction_date": "2017-02-19",
+        "customer_id": "GT-14710",
+        "buyer_name": "Greg Tran",
+        "amount": "$10560.92",
+        "productIds": [
+            "FUR-FU-10004090",
+            "OFF-ST-10000736"
+        ]
+    },
+    {
+        "_id": "CA-2017-123337",
+        "transaction_date": "2017-09-16",
+        "customer_id": "KD-16495",
+        "buyer_name": "Keith Dawkins",
+        "amount": "$3588.93",
+        "productIds": [
+            "FUR-BO-10001918",
+            "OFF-AP-10002287"
+        ]
+    },
+    {
+        "_id": "CA-2017-123358",
+        "transaction_date": "2017-04-10",
+        "customer_id": "BT-11680",
+        "buyer_name": "Brian Thompson",
+        "amount": "$45132.68",
+        "productIds": [
+            "OFF-AP-10004980",
+            "OFF-ST-10001932",
+            "OFF-ST-10000636",
+            "OFF-BI-10000069"
+        ]
+    },
+    {
+        "_id": "CA-2017-123414",
+        "transaction_date": "2017-08-21",
+        "customer_id": "SU-20665",
+        "buyer_name": "Stephanie Ulpright",
+        "amount": "$3412.85",
+        "productIds": [
+            "OFF-LA-10004559",
+            "OFF-SU-10002573"
+        ]
+    },
+    {
+        "_id": "CA-2017-123512",
+        "transaction_date": "2017-06-17",
+        "customer_id": "MV-18190",
+        "buyer_name": "Mike Vittorini",
+        "amount": "$17239.81",
+        "productIds": [
+            "FUR-BO-10004218",
+            "OFF-LA-10000081",
+            "OFF-PA-10001497"
+        ]
+    },
+    {
+        "_id": "CA-2017-123526",
+        "transaction_date": "2017-12-24",
+        "customer_id": "BV-11245",
+        "buyer_name": "Benjamin Venier",
+        "amount": "$347.76",
+        "productIds": [
+            "OFF-PA-10002986"
+        ]
+    },
+    {
+        "_id": "CA-2017-123533",
+        "transaction_date": "2017-11-24",
+        "customer_id": "SC-20050",
+        "buyer_name": "Sample Company A",
+        "amount": "$30410.17",
+        "productIds": [
+            "FUR-BO-10001619",
+            "OFF-PA-10001609",
+            "OFF-AP-10002765"
+        ]
+    },
+    {
+        "_id": "CA-2017-123540",
+        "transaction_date": "2017-04-02",
+        "customer_id": "DJ-13420",
+        "buyer_name": "Denny Joy",
+        "amount": "$3230.25",
+        "productIds": [
+            "FUR-CH-10000847"
+        ]
+    },
+    {
+        "_id": "CA-2017-123617",
+        "transaction_date": "2017-11-28",
+        "customer_id": "AJ-10780",
+        "buyer_name": "Anthony Jacobs",
+        "amount": "$4926.74",
+        "productIds": [
+            "OFF-BI-10002976"
+        ]
+    },
+    {
+        "_id": "CA-2017-123666",
+        "transaction_date": "2017-03-26",
+        "customer_id": "SP-20545",
+        "buyer_name": "Sibella Parks",
+        "amount": "$958.30",
+        "productIds": [
+            "OFF-ST-10001522"
+        ]
+    },
+    {
+        "_id": "CA-2017-123722",
+        "transaction_date": "2017-09-25",
+        "customer_id": "NH-18610",
+        "buyer_name": "Nicole Hansen",
+        "amount": "$10240.23",
+        "productIds": [
+            "OFF-LA-10001569"
+        ]
+    },
+    {
+        "_id": "CA-2017-123806",
+        "transaction_date": "2017-11-24",
+        "customer_id": "LA-16780",
+        "buyer_name": "Laura Armstrong",
+        "amount": "$14214.00",
+        "productIds": [
+            "FUR-FU-10000965"
+        ]
+    },
+    {
+        "_id": "CA-2017-123932",
+        "transaction_date": "2017-09-06",
+        "customer_id": "YC-21895",
+        "buyer_name": "Yoseph Carroll",
+        "amount": "$21704.02",
+        "productIds": [
+            "OFF-PA-10004665",
+            "TEC-PH-10002447"
+        ]
+    },
+    {
+        "_id": "CA-2017-123946",
+        "transaction_date": "2017-09-12",
+        "customer_id": "AJ-10795",
+        "buyer_name": "Anthony Johnson",
+        "amount": "$19378.07",
+        "productIds": [
+            "TEC-AC-10004877",
+            "OFF-FA-10002975",
+            "OFF-ST-10000419",
+            "FUR-CH-10002073"
+        ]
+    },
+    {
+        "_id": "CA-2017-124016",
+        "transaction_date": "2017-09-23",
+        "customer_id": "JS-15940",
+        "buyer_name": "Joni Sundaresam",
+        "amount": "$27550.96",
+        "productIds": [
+            "OFF-PA-10002586",
+            "FUR-FU-10004963",
+            "OFF-BI-10002071"
+        ]
+    },
+    {
+        "_id": "CA-2017-124051",
+        "transaction_date": "2017-12-29",
+        "customer_id": "KA-16525",
+        "buyer_name": "Kelly Andreada",
+        "amount": "$8820.10",
+        "productIds": [
+            "OFF-PA-10001289"
+        ]
+    },
+    {
+        "_id": "CA-2017-124100",
+        "transaction_date": "2017-03-31",
+        "customer_id": "EH-13990",
+        "buyer_name": "Erica Hackney",
+        "amount": "$19221.20",
+        "productIds": [
+            "FUR-CH-10003817"
+        ]
+    },
+    {
+        "_id": "CA-2017-124149",
+        "transaction_date": "2017-04-23",
+        "customer_id": "MJ-17740",
+        "buyer_name": "Max Jones",
+        "amount": "$16697.98",
+        "productIds": [
+            "OFF-PA-10002421",
+            "OFF-ST-10000760",
+            "OFF-PA-10002923"
+        ]
+    },
+    {
+        "_id": "CA-2017-124233",
+        "transaction_date": "2017-04-08",
+        "customer_id": "CK-12595",
+        "buyer_name": "Clytie Kelty",
+        "amount": "$10723.32",
+        "productIds": [
+            "FUR-FU-10002597"
+        ]
+    },
+    {
+        "_id": "CA-2017-124254",
+        "transaction_date": "2017-04-12",
+        "customer_id": "TB-21175",
+        "buyer_name": "Thomas Boland",
+        "amount": "$3454.48",
+        "productIds": [
+            "OFF-ST-10001469",
+            "OFF-ST-10000060",
+            "OFF-PA-10000807"
+        ]
+    },
+    {
+        "_id": "CA-2017-124352",
+        "transaction_date": "2017-10-15",
+        "customer_id": "CD-12790",
+        "buyer_name": "Cynthia Delaney",
+        "amount": "$27866.20",
+        "productIds": [
+            "OFF-LA-10004559",
+            "OFF-LA-10003223",
+            "OFF-AP-10002651",
+            "OFF-PA-10003177",
+            "TEC-PH-10003442",
+            "OFF-BI-10000977"
+        ]
+    },
+    {
+        "_id": "CA-2017-124485",
+        "transaction_date": "2017-11-24",
+        "customer_id": "NC-18340",
+        "buyer_name": "Nat Carroll",
+        "amount": "$28496.12",
+        "productIds": [
+            "OFF-BI-10000822",
+            "OFF-PA-10004971",
+            "TEC-AC-10002323",
+            "OFF-PA-10004888"
+        ]
+    },
+    {
+        "_id": "CA-2017-124506",
+        "transaction_date": "2017-11-11",
+        "customer_id": "BB-11545",
+        "buyer_name": "Brenda Bowman",
+        "amount": "$17224.06",
+        "productIds": [
+            "TEC-AC-10003280",
+            "FUR-CH-10004540"
+        ]
+    },
+    {
+        "_id": "CA-2017-124527",
+        "transaction_date": "2017-11-16",
+        "customer_id": "IM-15055",
+        "buyer_name": "Ionia McGrath",
+        "amount": "$2163.84",
+        "productIds": [
+            "OFF-BI-10004967"
+        ]
+    },
+    {
+        "_id": "CA-2017-124562",
+        "transaction_date": "2017-12-08",
+        "customer_id": "JP-16135",
+        "buyer_name": "Julie Prescott",
+        "amount": "$8023.44",
+        "productIds": [
+            "OFF-BI-10001267"
+        ]
+    },
+    {
+        "_id": "CA-2017-124583",
+        "transaction_date": "2017-09-01",
+        "customer_id": "LB-16795",
+        "buyer_name": "Laurel Beltran",
+        "amount": "$18148.08",
+        "productIds": [
+            "OFF-EN-10002500"
+        ]
+    },
+    {
+        "_id": "CA-2017-124590",
+        "transaction_date": "2017-11-12",
+        "customer_id": "SP-20920",
+        "buyer_name": "Susan Pistek",
+        "amount": "$18189.33",
+        "productIds": [
+            "FUR-CH-10004495",
+            "OFF-AP-10002311",
+            "OFF-FA-10000585",
+            "FUR-CH-10000454",
+            "FUR-CH-10003746"
+        ]
+    },
+    {
+        "_id": "CA-2017-124667",
+        "transaction_date": "2017-11-11",
+        "customer_id": "BD-11770",
+        "buyer_name": "Bryan Davis",
+        "amount": "$13913.80",
+        "productIds": [
+            "TEC-AC-10003447",
+            "OFF-ST-10002276"
+        ]
+    },
+    {
+        "_id": "CA-2017-124681",
+        "transaction_date": "2017-07-18",
+        "customer_id": "SV-20935",
+        "buyer_name": "Susan Vittorini",
+        "amount": "$8031.96",
+        "productIds": [
+            "TEC-AC-10000487"
+        ]
+    },
+    {
+        "_id": "CA-2017-124772",
+        "transaction_date": "2017-12-05",
+        "customer_id": "JG-15160",
+        "buyer_name": "James Galang",
+        "amount": "$6559.56",
+        "productIds": [
+            "FUR-FU-10004748"
+        ]
+    },
+    {
+        "_id": "CA-2017-124793",
+        "transaction_date": "2017-03-14",
+        "customer_id": "MM-18280",
+        "buyer_name": "Muhammed MacIntyre",
+        "amount": "$3118.50",
+        "productIds": [
+            "FUR-CH-10002880"
+        ]
+    },
+    {
+        "_id": "CA-2017-124814",
+        "transaction_date": "2017-04-10",
+        "customer_id": "FM-14215",
+        "buyer_name": "Filia McAdams",
+        "amount": "$11669.62",
+        "productIds": [
+            "OFF-PA-10002787",
+            "OFF-BI-10000174"
+        ]
+    },
+    {
+        "_id": "CA-2017-125017",
+        "transaction_date": "2017-02-06",
+        "customer_id": "KB-16240",
+        "buyer_name": "Karen Bern",
+        "amount": "$3495.52",
+        "productIds": [
+            "FUR-FU-10000723"
+        ]
+    },
+    {
+        "_id": "CA-2017-125080",
+        "transaction_date": "2017-10-21",
+        "customer_id": "VW-21775",
+        "buyer_name": "Victoria Wilson",
+        "amount": "$2896.62",
+        "productIds": [
+            "FUR-TA-10003238"
+        ]
+    },
+    {
+        "_id": "CA-2017-125087",
+        "transaction_date": "2017-04-18",
+        "customer_id": "TH-21115",
+        "buyer_name": "Thea Hudgings",
+        "amount": "$7111.32",
+        "productIds": [
+            "FUR-CH-10002880",
+            "OFF-ST-10001780",
+            "FUR-FU-10004748"
+        ]
+    },
+    {
+        "_id": "CA-2017-125094",
+        "transaction_date": "2017-11-05",
+        "customer_id": "NP-18700",
+        "buyer_name": "Nora Preis",
+        "amount": "$9961.00",
+        "productIds": [
+            "TEC-AC-10004420"
+        ]
+    },
+    {
+        "_id": "CA-2017-125164",
+        "transaction_date": "2017-11-10",
+        "customer_id": "SH-19975",
+        "buyer_name": "Sally Hughsby",
+        "amount": "$9962.67",
+        "productIds": [
+            "OFF-BI-10001191",
+            "OFF-BI-10003982"
+        ]
+    },
+    {
+        "_id": "CA-2017-125206",
+        "transaction_date": "2017-01-03",
+        "customer_id": "LR-16915",
+        "buyer_name": "Lena Radford",
+        "amount": "$3173.20",
+        "productIds": [
+            "OFF-ST-10003692"
+        ]
+    },
+    {
+        "_id": "CA-2017-125220",
+        "transaction_date": "2017-10-14",
+        "customer_id": "BE-11410",
+        "buyer_name": "Bobby Elias",
+        "amount": "$1658.56",
+        "productIds": [
+            "TEC-AC-10003033"
+        ]
+    },
+    {
+        "_id": "CA-2017-125318",
+        "transaction_date": "2017-06-06",
+        "customer_id": "RC-19825",
+        "buyer_name": "Roy Collins",
+        "amount": "$8657.10",
+        "productIds": [
+            "TEC-PH-10001433"
+        ]
+    },
+    {
+        "_id": "CA-2017-125661",
+        "transaction_date": "2017-11-24",
+        "customer_id": "CA-12055",
+        "buyer_name": "Cathy Armstrong",
+        "amount": "$6669.92",
+        "productIds": [
+            "OFF-EN-10001532",
+            "TEC-AC-10004855"
+        ]
+    },
+    {
+        "_id": "CA-2017-125724",
+        "transaction_date": "2017-09-22",
+        "customer_id": "SM-20950",
+        "buyer_name": "Suzanne McNair",
+        "amount": "$1419.15",
+        "productIds": [
+            "FUR-FU-10000246"
+        ]
+    },
+    {
+        "_id": "CA-2017-125738",
+        "transaction_date": "2017-10-15",
+        "customer_id": "PB-18805",
+        "buyer_name": "Patrick Bzostek",
+        "amount": "$15118.48",
+        "productIds": [
+            "OFF-PA-10000740",
+            "OFF-PA-10003001",
+            "OFF-BI-10001628",
+            "OFF-PA-10001509"
+        ]
+    },
+    {
+        "_id": "CA-2017-125815",
+        "transaction_date": "2017-10-28",
+        "customer_id": "DL-13330",
+        "buyer_name": "Denise Leinenbach",
+        "amount": "$4085.45",
+        "productIds": [
+            "OFF-AR-10004441"
+        ]
+    },
+    {
+        "_id": "CA-2017-125843",
+        "transaction_date": "2017-08-13",
+        "customer_id": "RF-19840",
+        "buyer_name": "Roy Franz\u00f6sisch",
+        "amount": "$4939.10",
+        "productIds": [
+            "OFF-BI-10002309",
+            "OFF-LA-10003923"
+        ]
+    },
+    {
+        "_id": "CA-2017-125850",
+        "transaction_date": "2017-01-22",
+        "customer_id": "FP-14320",
+        "buyer_name": "Frank Preis",
+        "amount": "$20056.34",
+        "productIds": [
+            "OFF-LA-10003498",
+            "OFF-LA-10004484"
+        ]
+    },
+    {
+        "_id": "CA-2017-125920",
+        "transaction_date": "2017-05-21",
+        "customer_id": "SH-19975",
+        "buyer_name": "Sally Hughsby",
+        "amount": "$4298.46",
+        "productIds": [
+            "OFF-BI-10003429"
+        ]
+    },
+    {
+        "_id": "CA-2017-126004",
+        "transaction_date": "2017-12-04",
+        "customer_id": "BM-11140",
+        "buyer_name": "Becky Martin",
+        "amount": "$31651.83",
+        "productIds": [
+            "FUR-FU-10001602",
+            "TEC-AC-10001432",
+            "OFF-BI-10004656",
+            "OFF-PA-10001685",
+            "OFF-ST-10001418",
+            "OFF-ST-10000676"
+        ]
+    },
+    {
+        "_id": "CA-2017-126102",
+        "transaction_date": "2017-09-10",
+        "customer_id": "DV-13465",
+        "buyer_name": "Dianna Vittorini",
+        "amount": "$6640.32",
+        "productIds": [
+            "OFF-BI-10004318"
+        ]
+    },
+    {
+        "_id": "CA-2017-126158",
+        "transaction_date": "2017-07-25",
+        "customer_id": "SC-20095",
+        "buyer_name": "Sanjit Chand",
+        "amount": "$12693.85",
+        "productIds": [
+            "OFF-BI-10002498",
+            "FUR-FU-10004864",
+            "FUR-CH-10002602",
+            "FUR-FU-10000073"
+        ]
+    },
+    {
+        "_id": "CA-2017-126165",
+        "transaction_date": "2017-05-05",
+        "customer_id": "AH-10465",
+        "buyer_name": "Amy Hunt",
+        "amount": "$10353.12",
+        "productIds": [
+            "FUR-TA-10001676"
+        ]
+    },
+    {
+        "_id": "CA-2017-126270",
+        "transaction_date": "2017-04-23",
+        "customer_id": "AF-10870",
+        "buyer_name": "Art Ferguson",
+        "amount": "$4509.59",
+        "productIds": [
+            "OFF-BI-10002764",
+            "OFF-EN-10004386"
+        ]
+    },
+    {
+        "_id": "CA-2017-126284",
+        "transaction_date": "2017-09-20",
+        "customer_id": "EN-13780",
+        "buyer_name": "Edward Nazzal",
+        "amount": "$5313.63",
+        "productIds": [
+            "OFF-BI-10004828"
+        ]
+    },
+    {
+        "_id": "CA-2017-126529",
+        "transaction_date": "2017-01-11",
+        "customer_id": "DE-13255",
+        "buyer_name": "Deanra Eno",
+        "amount": "$11949.68",
+        "productIds": [
+            "OFF-PA-10001166",
+            "OFF-PA-10003656",
+            "TEC-PH-10000148"
+        ]
+    },
+    {
+        "_id": "CA-2017-126543",
+        "transaction_date": "2017-01-09",
+        "customer_id": "MF-17665",
+        "buyer_name": "Maureen Fritzler",
+        "amount": "$1914.65",
+        "productIds": [
+            "FUR-FU-10002445"
+        ]
+    },
+    {
+        "_id": "CA-2017-126613",
+        "transaction_date": "2017-07-10",
+        "customer_id": "AA-10375",
+        "buyer_name": "Allen Armold",
+        "amount": "$2941.56",
+        "productIds": [
+            "OFF-ST-10001325"
+        ]
+    },
+    {
+        "_id": "CA-2017-126732",
+        "transaction_date": "2017-09-02",
+        "customer_id": "LR-16915",
+        "buyer_name": "Lena Radford",
+        "amount": "$34946.21",
+        "productIds": [
+            "FUR-FU-10001889",
+            "OFF-ST-10000321",
+            "TEC-PH-10001530",
+            "OFF-AR-10004752",
+            "FUR-TA-10001539",
+            "OFF-BI-10001553"
+        ]
+    },
+    {
+        "_id": "CA-2017-126795",
+        "transaction_date": "2017-06-13",
+        "customer_id": "GT-14710",
+        "buyer_name": "Greg Tran",
+        "amount": "$701.50",
+        "productIds": [
+            "OFF-BI-10001989"
+        ]
+    },
+    {
+        "_id": "CA-2017-126809",
+        "transaction_date": "2017-04-09",
+        "customer_id": "EB-13750",
+        "buyer_name": "Edward Becker",
+        "amount": "$3166.80",
+        "productIds": [
+            "OFF-BI-10003712"
+        ]
+    },
+    {
+        "_id": "CA-2017-126858",
+        "transaction_date": "2017-11-19",
+        "customer_id": "JM-15265",
+        "buyer_name": "Janet Molinari",
+        "amount": "$4346.08",
+        "productIds": [
+            "FUR-FU-10000448"
+        ]
+    },
+    {
+        "_id": "CA-2017-126935",
+        "transaction_date": "2017-05-19",
+        "customer_id": "BT-11395",
+        "buyer_name": "Bill Tyler",
+        "amount": "$8894.49",
+        "productIds": [
+            "OFF-BI-10004817"
+        ]
+    },
+    {
+        "_id": "CA-2017-127138",
+        "transaction_date": "2017-03-12",
+        "customer_id": "DK-13225",
+        "buyer_name": "Dean Katz",
+        "amount": "$16614.32",
+        "productIds": [
+            "OFF-ST-10002756",
+            "OFF-AP-10003842",
+            "OFF-EN-10004459",
+            "FUR-CH-10003746"
+        ]
+    },
+    {
+        "_id": "CA-2017-127194",
+        "transaction_date": "2017-12-10",
+        "customer_id": "BW-11110",
+        "buyer_name": "Bart Watters",
+        "amount": "$13426.09",
+        "productIds": [
+            "OFF-PA-10000659"
+        ]
+    },
+    {
+        "_id": "CA-2017-127208",
+        "transaction_date": "2017-06-12",
+        "customer_id": "SC-20770",
+        "buyer_name": "Stewart Carmichael",
+        "amount": "$8078.80",
+        "productIds": [
+            "OFF-AP-10002118",
+            "OFF-BI-10002309"
+        ]
+    },
+    {
+        "_id": "CA-2017-127236",
+        "transaction_date": "2017-03-29",
+        "customer_id": "TB-21595",
+        "buyer_name": "Troy Blackwell",
+        "amount": "$12462.62",
+        "productIds": [
+            "FUR-BO-10004015",
+            "TEC-PH-10000141"
+        ]
+    },
+    {
+        "_id": "CA-2017-127243",
+        "transaction_date": "2017-11-28",
+        "customer_id": "DS-13180",
+        "buyer_name": "David Smith",
+        "amount": "$36402.80",
+        "productIds": [
+            "TEC-PH-10004539",
+            "OFF-FA-10004076",
+            "OFF-BI-10003166",
+            "OFF-ST-10002301",
+            "FUR-CH-10002647"
+        ]
+    },
+    {
+        "_id": "CA-2017-127250",
+        "transaction_date": "2017-11-03",
+        "customer_id": "SF-20200",
+        "buyer_name": "Sarah Foster",
+        "amount": "$2760.60",
+        "productIds": [
+            "OFF-AR-10003394"
+        ]
+    },
+    {
+        "_id": "CA-2017-127369",
+        "transaction_date": "2017-06-06",
+        "customer_id": "DB-13060",
+        "buyer_name": "Dave Brooks",
+        "amount": "$1829.44",
+        "productIds": [
+            "OFF-ST-10003306"
+        ]
+    },
+    {
+        "_id": "CA-2017-127642",
+        "transaction_date": "2017-05-21",
+        "customer_id": "CP-12340",
+        "buyer_name": "Christine Phan",
+        "amount": "$4855.15",
+        "productIds": [
+            "OFF-PA-10000565"
+        ]
+    },
+    {
+        "_id": "CA-2017-127649",
+        "transaction_date": "2017-10-07",
+        "customer_id": "DL-13495",
+        "buyer_name": "Dionis Lloyd",
+        "amount": "$15087.96",
+        "productIds": [
+            "TEC-MA-10001972"
+        ]
+    },
+    {
+        "_id": "CA-2017-127670",
+        "transaction_date": "2017-03-20",
+        "customer_id": "RD-19660",
+        "buyer_name": "Robert Dilbeck",
+        "amount": "$1299.64",
+        "productIds": [
+            "FUR-TA-10001095"
+        ]
+    },
+    {
+        "_id": "CA-2017-127698",
+        "transaction_date": "2017-12-01",
+        "customer_id": "MV-18190",
+        "buyer_name": "Mike Vittorini",
+        "amount": "$14963.58",
+        "productIds": [
+            "TEC-PH-10003811"
+        ]
+    },
+    {
+        "_id": "CA-2017-127761",
+        "transaction_date": "2017-11-10",
+        "customer_id": "SW-20275",
+        "buyer_name": "Scott Williamson",
+        "amount": "$1258.16",
+        "productIds": [
+            "OFF-BI-10002557",
+            "TEC-PH-10003691"
+        ]
+    },
+    {
+        "_id": "CA-2017-127775",
+        "transaction_date": "2017-06-11",
+        "customer_id": "ES-14020",
+        "buyer_name": "Erica Smith",
+        "amount": "$152.10",
+        "productIds": [
+            "TEC-AC-10002402"
+        ]
+    },
+    {
+        "_id": "CA-2017-127985",
+        "transaction_date": "2017-04-01",
+        "customer_id": "DB-12910",
+        "buyer_name": "Daniel Byrd",
+        "amount": "$5428.50",
+        "productIds": [
+            "FUR-FU-10003274"
+        ]
+    },
+    {
+        "_id": "CA-2017-128111",
+        "transaction_date": "2017-03-17",
+        "customer_id": "CS-12355",
+        "buyer_name": "Christine Sundaresam",
+        "amount": "$10950.00",
+        "productIds": [
+            "OFF-AR-10000588"
+        ]
+    },
+    {
+        "_id": "CA-2017-128223",
+        "transaction_date": "2017-06-14",
+        "customer_id": "EB-13705",
+        "buyer_name": "Ed Braxton",
+        "amount": "$7641.18",
+        "productIds": [
+            "FUR-TA-10001771"
+        ]
+    },
+    {
+        "_id": "CA-2017-128258",
+        "transaction_date": "2017-03-30",
+        "customer_id": "CP-12085",
+        "buyer_name": "Cathy Prescott",
+        "amount": "$2787.48",
+        "productIds": [
+            "OFF-PA-10004156"
+        ]
+    },
+    {
+        "_id": "CA-2017-128307",
+        "transaction_date": "2017-07-25",
+        "customer_id": "BE-11335",
+        "buyer_name": "Bill Eplett",
+        "amount": "$21315.60",
+        "productIds": [
+            "OFF-EN-10003040"
+        ]
+    },
+    {
+        "_id": "CA-2017-128412",
+        "transaction_date": "2017-12-10",
+        "customer_id": "AP-10915",
+        "buyer_name": "Arthur Prichep",
+        "amount": "$19625.61",
+        "productIds": [
+            "OFF-BI-10001718",
+            "OFF-AP-10002082",
+            "OFF-PA-10001125",
+            "OFF-AP-10000252",
+            "TEC-AC-10003038"
+        ]
+    },
+    {
+        "_id": "CA-2017-128517",
+        "transaction_date": "2017-04-09",
+        "customer_id": "SW-20350",
+        "buyer_name": "Sean Wendt",
+        "amount": "$21184.63",
+        "productIds": [
+            "TEC-PH-10002555",
+            "OFF-BI-10000831"
+        ]
+    },
+    {
+        "_id": "CA-2017-128531",
+        "transaction_date": "2017-11-24",
+        "customer_id": "NS-18505",
+        "buyer_name": "Neola Schneider",
+        "amount": "$49642.93",
+        "productIds": [
+            "OFF-ST-10001325",
+            "TEC-AC-10002049",
+            "OFF-FA-10002676",
+            "TEC-AC-10003023",
+            "OFF-PA-10000167",
+            "OFF-AR-10003405"
+        ]
+    },
+    {
+        "_id": "CA-2017-128594",
+        "transaction_date": "2017-08-26",
+        "customer_id": "DJ-13510",
+        "buyer_name": "Don Jones",
+        "amount": "$1959.04",
+        "productIds": [
+            "FUR-CH-10001215"
+        ]
+    },
+    {
+        "_id": "CA-2017-128671",
+        "transaction_date": "2017-08-11",
+        "customer_id": "MT-18070",
+        "buyer_name": "Michelle Tran",
+        "amount": "$30158.14",
+        "productIds": [
+            "OFF-PA-10001870",
+            "OFF-BI-10003305",
+            "OFF-BI-10003007"
+        ]
+    },
+    {
+        "_id": "CA-2017-128706",
+        "transaction_date": "2017-02-27",
+        "customer_id": "DW-13540",
+        "buyer_name": "Don Weiss",
+        "amount": "$4322.20",
+        "productIds": [
+            "FUR-FU-10004053"
+        ]
+    },
+    {
+        "_id": "CA-2017-128727",
+        "transaction_date": "2017-08-29",
+        "customer_id": "MO-17800",
+        "buyer_name": "Meg O'Connel",
+        "amount": "$10260.32",
+        "productIds": [
+            "TEC-PH-10003442"
+        ]
+    },
+    {
+        "_id": "CA-2017-128811",
+        "transaction_date": "2017-09-12",
+        "customer_id": "SF-20200",
+        "buyer_name": "Sarah Foster",
+        "amount": "$10832.90",
+        "productIds": [
+            "OFF-FA-10000585",
+            "OFF-LA-10003720",
+            "OFF-BI-10000301"
+        ]
+    },
+    {
+        "_id": "CA-2017-128818",
+        "transaction_date": "2017-05-07",
+        "customer_id": "CJ-12010",
+        "buyer_name": "Caroline Jumper",
+        "amount": "$19300.51",
+        "productIds": [
+            "OFF-BI-10000309",
+            "OFF-LA-10003923",
+            "FUR-CH-10002084",
+            "TEC-MA-10000488",
+            "TEC-AC-10001767",
+            "FUR-FU-10001940"
+        ]
+    },
+    {
+        "_id": "CA-2017-128867",
+        "transaction_date": "2017-11-03",
+        "customer_id": "CL-12565",
+        "buyer_name": "Clay Ludtke",
+        "amount": "$21320.74",
+        "productIds": [
+            "OFF-AR-10000380",
+            "OFF-BI-10003981"
+        ]
+    },
+    {
+        "_id": "CA-2017-128916",
+        "transaction_date": "2017-08-18",
+        "customer_id": "MA-17560",
+        "buyer_name": "Matt Abelman",
+        "amount": "$3663.90",
+        "productIds": [
+            "FUR-FU-10001940",
+            "FUR-FU-10000320"
+        ]
+    },
+    {
+        "_id": "CA-2017-128923",
+        "transaction_date": "2017-12-09",
+        "customer_id": "GB-14530",
+        "buyer_name": "George Bell",
+        "amount": "$19499.30",
+        "productIds": [
+            "OFF-PA-10002250",
+            "OFF-AR-10000475"
+        ]
+    },
+    {
+        "_id": "CA-2017-128972",
+        "transaction_date": "2017-11-13",
+        "customer_id": "TS-21430",
+        "buyer_name": "Tom Stivers",
+        "amount": "$2591.26",
+        "productIds": [
+            "FUR-FU-10003096"
+        ]
+    },
+    {
+        "_id": "CA-2017-129126",
+        "transaction_date": "2017-12-14",
+        "customer_id": "PK-19075",
+        "buyer_name": "Pete Kriz",
+        "amount": "$38366.73",
+        "productIds": [
+            "OFF-PA-10001471",
+            "OFF-LA-10003190",
+            "OFF-FA-10000621",
+            "FUR-FU-10002937",
+            "OFF-ST-10004507",
+            "OFF-BI-10000279"
+        ]
+    },
+    {
+        "_id": "CA-2017-129196",
+        "transaction_date": "2017-11-01",
+        "customer_id": "XP-21865",
+        "buyer_name": "Xylona Preis",
+        "amount": "$6378.93",
+        "productIds": [
+            "TEC-AC-10002473"
+        ]
+    },
+    {
+        "_id": "CA-2017-129238",
+        "transaction_date": "2017-01-31",
+        "customer_id": "SC-20050",
+        "buyer_name": "Sample Company A",
+        "amount": "$28192.80",
+        "productIds": [
+            "TEC-PH-10004120",
+            "OFF-PA-10002764"
+        ]
+    },
+    {
+        "_id": "CA-2017-129280",
+        "transaction_date": "2017-05-03",
+        "customer_id": "SM-20905",
+        "buyer_name": "Susan MacKendrick",
+        "amount": "$46885.28",
+        "productIds": [
+            "TEC-AC-10003832",
+            "OFF-ST-10002554",
+            "FUR-FU-10001876",
+            "TEC-AC-10002637",
+            "TEC-MA-10003589",
+            "OFF-LA-10000081"
+        ]
+    },
+    {
+        "_id": "CA-2017-129308",
+        "transaction_date": "2017-07-07",
+        "customer_id": "CC-12100",
+        "buyer_name": "Chad Cunningham",
+        "amount": "$27184.05",
+        "productIds": [
+            "OFF-LA-10002945",
+            "TEC-PH-10002310",
+            "OFF-BI-10001525",
+            "OFF-BI-10001308"
+        ]
+    },
+    {
+        "_id": "CA-2017-129686",
+        "transaction_date": "2017-11-27",
+        "customer_id": "GG-14650",
+        "buyer_name": "Greg Guthrie",
+        "amount": "$10959.98",
+        "productIds": [
+            "OFF-ST-10004337",
+            "TEC-AC-10001266"
+        ]
+    },
+    {
+        "_id": "CA-2017-129693",
+        "transaction_date": "2017-11-26",
+        "customer_id": "TC-20980",
+        "buyer_name": "Tamara Chand",
+        "amount": "$1253.73",
+        "productIds": [
+            "OFF-BI-10002954"
+        ]
+    },
+    {
+        "_id": "CA-2017-129714",
+        "transaction_date": "2017-09-01",
+        "customer_id": "AB-10060",
+        "buyer_name": "Adam Bellavance",
+        "amount": "$23796.20",
+        "productIds": [
+            "TEC-AC-10000290",
+            "OFF-PA-10001970",
+            "OFF-BI-10002160",
+            "OFF-PA-10001970",
+            "OFF-BI-10004995"
+        ]
+    },
+    {
+        "_id": "CA-2017-129728",
+        "transaction_date": "2017-05-30",
+        "customer_id": "JG-15310",
+        "buyer_name": "Jason Gross",
+        "amount": "$510.76",
+        "productIds": [
+            "FUR-FU-10003247"
+        ]
+    },
+    {
+        "_id": "CA-2017-129847",
+        "transaction_date": "2017-09-02",
+        "customer_id": "TA-21385",
+        "buyer_name": "Tom Ashbrook",
+        "amount": "$9445.17",
+        "productIds": [
+            "FUR-FU-10000277"
+        ]
+    },
+    {
+        "_id": "CA-2017-129861",
+        "transaction_date": "2017-06-17",
+        "customer_id": "DM-13345",
+        "buyer_name": "Denise Monton",
+        "amount": "$413.25",
+        "productIds": [
+            "FUR-TA-10003715"
+        ]
+    },
+    {
+        "_id": "CA-2017-129868",
+        "transaction_date": "2017-12-26",
+        "customer_id": "MC-18130",
+        "buyer_name": "Mike Caudle",
+        "amount": "$34505.92",
+        "productIds": [
+            "OFF-SU-10000952",
+            "TEC-PH-10002275",
+            "FUR-CH-10003535",
+            "OFF-AP-10004052",
+            "FUR-TA-10003473",
+            "OFF-AR-10001897"
+        ]
+    },
+    {
+        "_id": "CA-2017-129903",
+        "transaction_date": "2017-12-01",
+        "customer_id": "GZ-14470",
+        "buyer_name": "Gary Zandusky",
+        "amount": "$1570.80",
+        "productIds": [
+            "OFF-PA-10004040"
+        ]
+    },
+    {
+        "_id": "CA-2017-130001",
+        "transaction_date": "2017-04-23",
+        "customer_id": "HK-14890",
+        "buyer_name": "Heather Kirkland",
+        "amount": "$9142.98",
+        "productIds": [
+            "OFF-PA-10002666"
+        ]
+    },
+    {
+        "_id": "CA-2017-130029",
+        "transaction_date": "2017-07-03",
+        "customer_id": "GT-14755",
+        "buyer_name": "Guy Thornton",
+        "amount": "$5807.70",
+        "productIds": [
+            "OFF-PA-10000552",
+            "OFF-FA-10001135"
+        ]
+    },
+    {
+        "_id": "CA-2017-130050",
+        "transaction_date": "2017-07-16",
+        "customer_id": "MC-17425",
+        "buyer_name": "Mark Cousins",
+        "amount": "$4327.02",
+        "productIds": [
+            "FUR-FU-10001940"
+        ]
+    },
+    {
+        "_id": "CA-2017-130078",
+        "transaction_date": "2017-08-08",
+        "customer_id": "CC-12145",
+        "buyer_name": "Charles Crestani",
+        "amount": "$4646.04",
+        "productIds": [
+            "OFF-PA-10003270"
+        ]
+    },
+    {
+        "_id": "CA-2017-130162",
+        "transaction_date": "2017-10-28",
+        "customer_id": "JH-15910",
+        "buyer_name": "Jonathan Howell",
+        "amount": "$5300.90",
+        "productIds": [
+            "OFF-ST-10001328",
+            "TEC-PH-10002563"
+        ]
+    },
+    {
+        "_id": "CA-2017-130267",
+        "transaction_date": "2017-09-19",
+        "customer_id": "SW-20245",
+        "buyer_name": "Scot Wooten",
+        "amount": "$2306.88",
+        "productIds": [
+            "OFF-PA-10002222"
+        ]
+    },
+    {
+        "_id": "CA-2017-130288",
+        "transaction_date": "2017-11-26",
+        "customer_id": "DK-13225",
+        "buyer_name": "Dean Katz",
+        "amount": "$8198.46",
+        "productIds": [
+            "FUR-TA-10002958"
+        ]
+    },
+    {
+        "_id": "CA-2017-130393",
+        "transaction_date": "2017-12-01",
+        "customer_id": "JM-15865",
+        "buyer_name": "John Murray",
+        "amount": "$9012.48",
+        "productIds": [
+            "FUR-CH-10002647",
+            "OFF-AP-10004859",
+            "FUR-CH-10004477"
+        ]
+    },
+    {
+        "_id": "CA-2017-130400",
+        "transaction_date": "2017-03-08",
+        "customer_id": "SJ-20125",
+        "buyer_name": "Sanjit Jacobs",
+        "amount": "$7373.42",
+        "productIds": [
+            "OFF-BI-10001757",
+            "TEC-AC-10004633",
+            "OFF-EN-10001453"
+        ]
+    },
+    {
+        "_id": "CA-2017-130407",
+        "transaction_date": "2017-09-02",
+        "customer_id": "KD-16270",
+        "buyer_name": "Karen Daniels",
+        "amount": "$6084.86",
+        "productIds": [
+            "OFF-AR-10002240",
+            "FUR-FU-10001967"
+        ]
+    },
+    {
+        "_id": "CA-2017-130442",
+        "transaction_date": "2017-12-16",
+        "customer_id": "SF-20065",
+        "buyer_name": "Sandra Flanagan",
+        "amount": "$891.56",
+        "productIds": [
+            "OFF-AP-10004859"
+        ]
+    },
+    {
+        "_id": "CA-2017-130477",
+        "transaction_date": "2017-04-08",
+        "customer_id": "LC-17140",
+        "buyer_name": "Logan Currie",
+        "amount": "$40884.98",
+        "productIds": [
+            "OFF-PA-10002947",
+            "OFF-ST-10002583",
+            "OFF-PA-10000019"
+        ]
+    },
+    {
+        "_id": "CA-2017-130484",
+        "transaction_date": "2017-08-22",
+        "customer_id": "SG-20470",
+        "buyer_name": "Sheri Gordon",
+        "amount": "$1828.05",
+        "productIds": [
+            "OFF-BI-10000088"
+        ]
+    },
+    {
+        "_id": "CA-2017-130638",
+        "transaction_date": "2017-05-16",
+        "customer_id": "SC-20095",
+        "buyer_name": "Sanjit Chand",
+        "amount": "$21536.60",
+        "productIds": [
+            "FUR-FU-10002116",
+            "OFF-LA-10002195"
+        ]
+    },
+    {
+        "_id": "CA-2017-130680",
+        "transaction_date": "2017-06-24",
+        "customer_id": "BD-11320",
+        "buyer_name": "Bill Donatelli",
+        "amount": "$1180.26",
+        "productIds": [
+            "TEC-PH-10004833"
+        ]
+    },
+    {
+        "_id": "CA-2017-130778",
+        "transaction_date": "2017-11-19",
+        "customer_id": "ND-18370",
+        "buyer_name": "Natalie DeCherney",
+        "amount": "$16233.10",
+        "productIds": [
+            "OFF-AP-10000595",
+            "OFF-PA-10001509"
+        ]
+    },
+    {
+        "_id": "CA-2017-130799",
+        "transaction_date": "2017-11-11",
+        "customer_id": "BK-11260",
+        "buyer_name": "Berenike Kampe",
+        "amount": "$254.50",
+        "productIds": [
+            "FUR-FU-10001852"
+        ]
+    },
+    {
+        "_id": "CA-2017-130820",
+        "transaction_date": "2017-11-15",
+        "customer_id": "ON-18715",
+        "buyer_name": "Odella Nelson",
+        "amount": "$597.80",
+        "productIds": [
+            "FUR-TA-10001768"
+        ]
+    },
+    {
+        "_id": "CA-2017-130911",
+        "transaction_date": "2017-03-24",
+        "customer_id": "DC-12850",
+        "buyer_name": "Dan Campbell",
+        "amount": "$18421.86",
+        "productIds": [
+            "FUR-BO-10004357",
+            "OFF-AR-10000475"
+        ]
+    },
+    {
+        "_id": "CA-2017-130946",
+        "transaction_date": "2017-04-08",
+        "customer_id": "ZC-21910",
+        "buyer_name": "Zuschuss Carroll",
+        "amount": "$12393.55",
+        "productIds": [
+            "TEC-AC-10001990",
+            "FUR-CH-10004540",
+            "OFF-BI-10004995"
+        ]
+    },
+    {
+        "_id": "CA-2017-131065",
+        "transaction_date": "2017-11-14",
+        "customer_id": "AA-10375",
+        "buyer_name": "Allen Armold",
+        "amount": "$20185.99",
+        "productIds": [
+            "TEC-AC-10004145",
+            "OFF-PA-10002479",
+            "OFF-BI-10004970"
+        ]
+    },
+    {
+        "_id": "CA-2017-131093",
+        "transaction_date": "2017-09-17",
+        "customer_id": "TS-21610",
+        "buyer_name": "Troy Staebel",
+        "amount": "$495.55",
+        "productIds": [
+            "OFF-ST-10002790"
+        ]
+    },
+    {
+        "_id": "CA-2017-131205",
+        "transaction_date": "2017-09-04",
+        "customer_id": "AA-10645",
+        "buyer_name": "Anna Andreadi",
+        "amount": "$16004.39",
+        "productIds": [
+            "FUR-FU-10003347",
+            "OFF-BI-10000315",
+            "OFF-ST-10002583",
+            "OFF-AR-10003469"
+        ]
+    },
+    {
+        "_id": "CA-2017-131289",
+        "transaction_date": "2017-12-08",
+        "customer_id": "SP-20620",
+        "buyer_name": "Stefania Perrino",
+        "amount": "$10657.88",
+        "productIds": [
+            "OFF-AR-10003056",
+            "OFF-PA-10003363",
+            "FUR-TA-10003954"
+        ]
+    },
+    {
+        "_id": "CA-2017-131296",
+        "transaction_date": "2017-10-04",
+        "customer_id": "MS-17830",
+        "buyer_name": "Melanie Seite",
+        "amount": "$5436.48",
+        "productIds": [
+            "FUR-TA-10002622"
+        ]
+    },
+    {
+        "_id": "CA-2017-131380",
+        "transaction_date": "2017-03-28",
+        "customer_id": "CC-12220",
+        "buyer_name": "Chris Cortes",
+        "amount": "$11449.83",
+        "productIds": [
+            "OFF-ST-10002485",
+            "OFF-PA-10001243"
+        ]
+    },
+    {
+        "_id": "CA-2017-131499",
+        "transaction_date": "2017-09-08",
+        "customer_id": "MG-17875",
+        "buyer_name": "Michael Grace",
+        "amount": "$6889.14",
+        "productIds": [
+            "OFF-AP-10003779"
+        ]
+    },
+    {
+        "_id": "CA-2017-131576",
+        "transaction_date": "2017-11-22",
+        "customer_id": "RD-19585",
+        "buyer_name": "Rob Dowd",
+        "amount": "$671.40",
+        "productIds": [
+            "OFF-BI-10002852"
+        ]
+    },
+    {
+        "_id": "CA-2017-131639",
+        "transaction_date": "2017-12-17",
+        "customer_id": "NS-18640",
+        "buyer_name": "Noel Staavos",
+        "amount": "$9480.83",
+        "productIds": [
+            "OFF-BI-10001636",
+            "OFF-BI-10000948"
+        ]
+    },
+    {
+        "_id": "CA-2017-131737",
+        "transaction_date": "2017-03-17",
+        "customer_id": "GZ-14470",
+        "buyer_name": "Gary Zandusky",
+        "amount": "$26049.26",
+        "productIds": [
+            "OFF-EN-10003055",
+            "OFF-AP-10002945",
+            "FUR-FU-10004306"
+        ]
+    },
+    {
+        "_id": "CA-2017-131744",
+        "transaction_date": "2017-06-18",
+        "customer_id": "SC-20770",
+        "buyer_name": "Stewart Carmichael",
+        "amount": "$31823.58",
+        "productIds": [
+            "OFF-PA-10004610",
+            "OFF-BI-10003910",
+            "OFF-AP-10001394"
+        ]
+    },
+    {
+        "_id": "CA-2017-131835",
+        "transaction_date": "2017-07-17",
+        "customer_id": "MC-17590",
+        "buyer_name": "Matt Collister",
+        "amount": "$30925.11",
+        "productIds": [
+            "OFF-AP-10004487",
+            "TEC-PH-10001760",
+            "OFF-PA-10004071"
+        ]
+    },
+    {
+        "_id": "CA-2017-131968",
+        "transaction_date": "2017-11-11",
+        "customer_id": "LB-16795",
+        "buyer_name": "Laurel Beltran",
+        "amount": "$8626.04",
+        "productIds": [
+            "OFF-BI-10002852",
+            "OFF-AP-10001058"
+        ]
+    },
+    {
+        "_id": "CA-2017-132017",
+        "transaction_date": "2017-09-26",
+        "customer_id": "MH-17620",
+        "buyer_name": "Matt Hagelstein",
+        "amount": "$938.64",
+        "productIds": [
+            "OFF-BI-10004001"
+        ]
+    },
+    {
+        "_id": "CA-2017-132066",
+        "transaction_date": "2017-10-16",
+        "customer_id": "NB-18655",
+        "buyer_name": "Nona Balk",
+        "amount": "$15509.10",
+        "productIds": [
+            "FUR-TA-10001539"
+        ]
+    },
+    {
+        "_id": "CA-2017-132094",
+        "transaction_date": "2017-08-26",
+        "customer_id": "VG-21805",
+        "buyer_name": "Vivek Grady",
+        "amount": "$20650.98",
+        "productIds": [
+            "OFF-AR-10004165",
+            "TEC-AC-10001109"
+        ]
+    },
+    {
+        "_id": "CA-2017-132143",
+        "transaction_date": "2017-09-03",
+        "customer_id": "FM-14215",
+        "buyer_name": "Filia McAdams",
+        "amount": "$5318.70",
+        "productIds": [
+            "OFF-PA-10002713"
+        ]
+    },
+    {
+        "_id": "CA-2017-132304",
+        "transaction_date": "2017-06-14",
+        "customer_id": "AR-10825",
+        "buyer_name": "Anthony Rawles",
+        "amount": "$10193.40",
+        "productIds": [
+            "FUR-TA-10004619"
+        ]
+    },
+    {
+        "_id": "CA-2017-132409",
+        "transaction_date": "2017-05-26",
+        "customer_id": "TH-21235",
+        "buyer_name": "Tiffany House",
+        "amount": "$10240.86",
+        "productIds": [
+            "OFF-AR-10001919",
+            "OFF-AP-10002082"
+        ]
+    },
+    {
+        "_id": "CA-2017-132479",
+        "transaction_date": "2017-09-24",
+        "customer_id": "MK-17905",
+        "buyer_name": "Michael Kennedy",
+        "amount": "$4734.96",
+        "productIds": [
+            "OFF-BI-10004584"
+        ]
+    },
+    {
+        "_id": "CA-2017-132549",
+        "transaction_date": "2017-11-25",
+        "customer_id": "JK-15370",
+        "buyer_name": "Jay Kimmel",
+        "amount": "$12609.30",
+        "productIds": [
+            "OFF-ST-10001325"
+        ]
+    },
+    {
+        "_id": "CA-2017-132661",
+        "transaction_date": "2017-10-23",
+        "customer_id": "SR-20740",
+        "buyer_name": "Steven Roelle",
+        "amount": "$15571.08",
+        "productIds": [
+            "OFF-PA-10000482"
+        ]
+    },
+    {
+        "_id": "CA-2017-132731",
+        "transaction_date": "2017-11-24",
+        "customer_id": "GA-14515",
+        "buyer_name": "George Ashbrook",
+        "amount": "$20659.10",
+        "productIds": [
+            "TEC-PH-10004120"
+        ]
+    },
+    {
+        "_id": "CA-2017-132829",
+        "transaction_date": "2017-12-23",
+        "customer_id": "LA-16780",
+        "buyer_name": "Laura Armstrong",
+        "amount": "$43696.58",
+        "productIds": [
+            "TEC-PH-10004539",
+            "OFF-LA-10002945",
+            "TEC-PH-10004345",
+            "TEC-PH-10004912",
+            "FUR-FU-10000206"
+        ]
+    },
+    {
+        "_id": "CA-2017-132899",
+        "transaction_date": "2017-04-07",
+        "customer_id": "SF-20200",
+        "buyer_name": "Sarah Foster",
+        "amount": "$592.41",
+        "productIds": [
+            "OFF-AR-10002833"
+        ]
+    },
+    {
+        "_id": "CA-2017-132990",
+        "transaction_date": "2017-08-01",
+        "customer_id": "KM-16660",
+        "buyer_name": "Khloe Miller",
+        "amount": "$1775.65",
+        "productIds": [
+            "FUR-FU-10004864"
+        ]
+    },
+    {
+        "_id": "CA-2017-132997",
+        "transaction_date": "2017-11-07",
+        "customer_id": "LW-17215",
+        "buyer_name": "Luke Weiss",
+        "amount": "$30927.90",
+        "productIds": [
+            "TEC-PH-10000586",
+            "TEC-PH-10003811",
+            "OFF-PA-10004983",
+            "OFF-ST-10003479",
+            "OFF-BI-10004318"
+        ]
+    },
+    {
+        "_id": "CA-2017-133123",
+        "transaction_date": "2017-09-06",
+        "customer_id": "KB-16315",
+        "buyer_name": "Karl Braun",
+        "amount": "$15067.50",
+        "productIds": [
+            "OFF-EN-10003055",
+            "OFF-BI-10001031"
+        ]
+    },
+    {
+        "_id": "CA-2017-133144",
+        "transaction_date": "2017-05-16",
+        "customer_id": "DO-13435",
+        "buyer_name": "Denny Ordway",
+        "amount": "$1301.50",
+        "productIds": [
+            "OFF-PA-10004971"
+        ]
+    },
+    {
+        "_id": "CA-2017-133319",
+        "transaction_date": "2017-09-05",
+        "customer_id": "MV-17485",
+        "buyer_name": "Mark Van Huff",
+        "amount": "$2081.20",
+        "productIds": [
+            "OFF-PA-10001815"
+        ]
+    },
+    {
+        "_id": "CA-2017-133340",
+        "transaction_date": "2017-12-09",
+        "customer_id": "LH-17155",
+        "buyer_name": "Logan Haushalter",
+        "amount": "$24323.63",
+        "productIds": [
+            "TEC-PH-10003988",
+            "TEC-AC-10001109",
+            "OFF-AP-10002311"
+        ]
+    },
+    {
+        "_id": "CA-2017-133368",
+        "transaction_date": "2017-01-14",
+        "customer_id": "AG-10675",
+        "buyer_name": "Anna Gayman",
+        "amount": "$21260.72",
+        "productIds": [
+            "OFF-PA-10004039",
+            "FUR-FU-10003374"
+        ]
+    },
+    {
+        "_id": "CA-2017-133550",
+        "transaction_date": "2017-07-31",
+        "customer_id": "KL-16645",
+        "buyer_name": "Ken Lonsdale",
+        "amount": "$37918.48",
+        "productIds": [
+            "OFF-AP-10001005",
+            "TEC-PH-10004042",
+            "TEC-PH-10001079",
+            "FUR-FU-10002918"
+        ]
+    },
+    {
+        "_id": "CA-2017-133613",
+        "transaction_date": "2017-06-17",
+        "customer_id": "CP-12340",
+        "buyer_name": "Christine Phan",
+        "amount": "$33767.13",
+        "productIds": [
+            "OFF-BI-10002003",
+            "TEC-PH-10004539",
+            "OFF-AR-10003829"
+        ]
+    },
+    {
+        "_id": "CA-2017-133669",
+        "transaction_date": "2017-10-21",
+        "customer_id": "SV-20935",
+        "buyer_name": "Susan Vittorini",
+        "amount": "$686.82",
+        "productIds": [
+            "TEC-PH-10001305"
+        ]
+    },
+    {
+        "_id": "CA-2017-133697",
+        "transaction_date": "2017-10-20",
+        "customer_id": "CM-12445",
+        "buyer_name": "Chuck Magee",
+        "amount": "$18292.26",
+        "productIds": [
+            "OFF-PA-10000726",
+            "OFF-FA-10003112",
+            "FUR-CH-10002372"
+        ]
+    },
+    {
+        "_id": "CA-2017-133711",
+        "transaction_date": "2017-11-26",
+        "customer_id": "MC-17425",
+        "buyer_name": "Mark Cousins",
+        "amount": "$23485.15",
+        "productIds": [
+            "OFF-PA-10001685",
+            "OFF-BI-10000666",
+            "OFF-BI-10004352",
+            "TEC-MA-10000010"
+        ]
+    },
+    {
+        "_id": "CA-2017-133725",
+        "transaction_date": "2017-05-23",
+        "customer_id": "KL-16645",
+        "buyer_name": "Ken Lonsdale",
+        "amount": "$398.22",
+        "productIds": [
+            "TEC-PH-10004165"
+        ]
+    },
+    {
+        "_id": "CA-2017-133795",
+        "transaction_date": "2017-12-18",
+        "customer_id": "JE-15475",
+        "buyer_name": "Jeremy Ellison",
+        "amount": "$24643.75",
+        "productIds": [
+            "TEC-AC-10001465",
+            "TEC-AC-10003832",
+            "FUR-FU-10003731"
+        ]
+    },
+    {
+        "_id": "CA-2017-133802",
+        "transaction_date": "2017-03-14",
+        "customer_id": "SP-20650",
+        "buyer_name": "Stephanie Phelps",
+        "amount": "$3571.70",
+        "productIds": [
+            "OFF-BI-10003291"
+        ]
+    },
+    {
+        "_id": "CA-2017-133816",
+        "transaction_date": "2017-05-10",
+        "customer_id": "CS-12400",
+        "buyer_name": "Christopher Schild",
+        "amount": "$21119.56",
+        "productIds": [
+            "TEC-PH-10001795"
+        ]
+    },
+    {
+        "_id": "CA-2017-133872",
+        "transaction_date": "2017-06-14",
+        "customer_id": "VM-21835",
+        "buyer_name": "Vivian Mathis",
+        "amount": "$13144.55",
+        "productIds": [
+            "OFF-BI-10002082",
+            "TEC-AC-10000521"
+        ]
+    },
+    {
+        "_id": "CA-2017-133935",
+        "transaction_date": "2017-09-18",
+        "customer_id": "JW-15220",
+        "buyer_name": "Jane Waco",
+        "amount": "$3803.83",
+        "productIds": [
+            "FUR-CH-10001215",
+            "OFF-PA-10000100",
+            "FUR-CH-10002880"
+        ]
+    },
+    {
+        "_id": "CA-2017-134110",
+        "transaction_date": "2017-11-17",
+        "customer_id": "BG-11035",
+        "buyer_name": "Barry Gonzalez",
+        "amount": "$2190.07",
+        "productIds": [
+            "TEC-PH-10002350",
+            "OFF-PA-10000697"
+        ]
+    },
+    {
+        "_id": "CA-2017-134138",
+        "transaction_date": "2017-02-16",
+        "customer_id": "JD-15790",
+        "buyer_name": "John Dryer",
+        "amount": "$3362.52",
+        "productIds": [
+            "FUR-CH-10001545"
+        ]
+    },
+    {
+        "_id": "CA-2017-134180",
+        "transaction_date": "2017-11-03",
+        "customer_id": "JP-16135",
+        "buyer_name": "Julie Prescott",
+        "amount": "$23826.18",
+        "productIds": [
+            "TEC-AC-10000892",
+            "FUR-CH-10004886"
+        ]
+    },
+    {
+        "_id": "CA-2017-134208",
+        "transaction_date": "2017-09-17",
+        "customer_id": "CS-12505",
+        "buyer_name": "Cindy Stewart",
+        "amount": "$5265.26",
+        "productIds": [
+            "TEC-MA-10004458"
+        ]
+    },
+    {
+        "_id": "CA-2017-134222",
+        "transaction_date": "2017-07-10",
+        "customer_id": "NZ-18565",
+        "buyer_name": "Nick Zandusky",
+        "amount": "$11653.62",
+        "productIds": [
+            "OFF-BI-10001658"
+        ]
+    },
+    {
+        "_id": "CA-2017-134334",
+        "transaction_date": "2017-02-14",
+        "customer_id": "DK-13090",
+        "buyer_name": "Dave Kipp",
+        "amount": "$22635.41",
+        "productIds": [
+            "OFF-PA-10000791",
+            "OFF-AR-10001770",
+            "FUR-TA-10002356",
+            "FUR-FU-10003274"
+        ]
+    },
+    {
+        "_id": "CA-2017-134348",
+        "transaction_date": "2017-11-12",
+        "customer_id": "MS-17710",
+        "buyer_name": "Maurice Satty",
+        "amount": "$16949.47",
+        "productIds": [
+            "OFF-BI-10003727",
+            "OFF-BI-10004967",
+            "TEC-AC-10003447"
+        ]
+    },
+    {
+        "_id": "CA-2017-134362",
+        "transaction_date": "2017-09-29",
+        "customer_id": "LS-16945",
+        "buyer_name": "Linda Southworth",
+        "amount": "$696.15",
+        "productIds": [
+            "OFF-LA-10004853"
+        ]
+    },
+    {
+        "_id": "CA-2017-134376",
+        "transaction_date": "2017-10-02",
+        "customer_id": "TT-21265",
+        "buyer_name": "Tim Taslimi",
+        "amount": "$169.47",
+        "productIds": [
+            "OFF-AP-10004532"
+        ]
+    },
+    {
+        "_id": "CA-2017-134425",
+        "transaction_date": "2017-12-08",
+        "customer_id": "QJ-19255",
+        "buyer_name": "Quincy Jones",
+        "amount": "$13632.80",
+        "productIds": [
+            "TEC-PH-10003555"
+        ]
+    },
+    {
+        "_id": "CA-2017-134474",
+        "transaction_date": "2017-01-05",
+        "customer_id": "AJ-10795",
+        "buyer_name": "Anthony Johnson",
+        "amount": "$6519.66",
+        "productIds": [
+            "TEC-AC-10001714",
+            "OFF-AR-10003958",
+            "TEC-PH-10002923"
+        ]
+    },
+    {
+        "_id": "CA-2017-134516",
+        "transaction_date": "2017-09-20",
+        "customer_id": "FM-14215",
+        "buyer_name": "Filia McAdams",
+        "amount": "$13713.40",
+        "productIds": [
+            "FUR-FU-10001546",
+            "FUR-CH-10002880"
+        ]
+    },
+    {
+        "_id": "CA-2017-134544",
+        "transaction_date": "2017-03-17",
+        "customer_id": "AC-10660",
+        "buyer_name": "Anna Chung",
+        "amount": "$11477.25",
+        "productIds": [
+            "TEC-PH-10003800"
+        ]
+    },
+    {
+        "_id": "CA-2017-134691",
+        "transaction_date": "2017-11-14",
+        "customer_id": "KC-16540",
+        "buyer_name": "Kelly Collister",
+        "amount": "$2505.60",
+        "productIds": [
+            "OFF-BI-10002393"
+        ]
+    },
+    {
+        "_id": "CA-2017-134775",
+        "transaction_date": "2017-10-28",
+        "customer_id": "AS-10285",
+        "buyer_name": "Alejandro Savely",
+        "amount": "$14860.35",
+        "productIds": [
+            "OFF-PA-10004734",
+            "OFF-BI-10002225"
+        ]
+    },
+    {
+        "_id": "CA-2017-134789",
+        "transaction_date": "2017-04-08",
+        "customer_id": "CK-12325",
+        "buyer_name": "Christine Kargatis",
+        "amount": "$16461.53",
+        "productIds": [
+            "OFF-FA-10002280",
+            "OFF-PA-10001934",
+            "FUR-FU-10003268"
+        ]
+    },
+    {
+        "_id": "CA-2017-134803",
+        "transaction_date": "2017-05-28",
+        "customer_id": "CL-12565",
+        "buyer_name": "Clay Ludtke",
+        "amount": "$33876.44",
+        "productIds": [
+            "OFF-AP-10000891",
+            "OFF-PA-10003790",
+            "TEC-AC-10002217",
+            "OFF-BI-10002215",
+            "TEC-MA-10001972"
+        ]
+    },
+    {
+        "_id": "CA-2017-134887",
+        "transaction_date": "2017-03-25",
+        "customer_id": "TB-21280",
+        "buyer_name": "Toby Braunhardt",
+        "amount": "$13193.00",
+        "productIds": [
+            "TEC-AC-10003832"
+        ]
+    },
+    {
+        "_id": "CA-2017-134936",
+        "transaction_date": "2017-12-19",
+        "customer_id": "ES-14080",
+        "buyer_name": "Erin Smith",
+        "amount": "$22001.50",
+        "productIds": [
+            "FUR-TA-10001086",
+            "OFF-BI-10000174",
+            "OFF-BI-10002103"
+        ]
+    },
+    {
+        "_id": "CA-2017-135265",
+        "transaction_date": "2017-07-07",
+        "customer_id": "CC-12370",
+        "buyer_name": "Christopher Conant",
+        "amount": "$23063.77",
+        "productIds": [
+            "FUR-CH-10003061",
+            "TEC-CO-10003763",
+            "OFF-PA-10002923"
+        ]
+    },
+    {
+        "_id": "CA-2017-135461",
+        "transaction_date": "2017-02-07",
+        "customer_id": "EB-13975",
+        "buyer_name": "Erica Bern",
+        "amount": "$4930.64",
+        "productIds": [
+            "TEC-PH-10004094"
+        ]
+    },
+    {
+        "_id": "CA-2017-135594",
+        "transaction_date": "2017-06-30",
+        "customer_id": "AH-10120",
+        "buyer_name": "Adrian Hane",
+        "amount": "$12030.84",
+        "productIds": [
+            "TEC-AC-10003038"
+        ]
+    },
+    {
+        "_id": "CA-2017-135636",
+        "transaction_date": "2017-10-08",
+        "customer_id": "DB-13615",
+        "buyer_name": "Doug Bickford",
+        "amount": "$12685.40",
+        "productIds": [
+            "OFF-ST-10000676"
+        ]
+    },
+    {
+        "_id": "CA-2017-135776",
+        "transaction_date": "2017-12-23",
+        "customer_id": "EH-13765",
+        "buyer_name": "Edward Hooks",
+        "amount": "$52359.13",
+        "productIds": [
+            "OFF-AR-10001246",
+            "OFF-PA-10001295",
+            "OFF-AR-10001231",
+            "OFF-ST-10002743",
+            "OFF-PA-10004327",
+            "OFF-EN-10004773",
+            "OFF-ST-10003470"
+        ]
+    },
+    {
+        "_id": "CA-2017-135965",
+        "transaction_date": "2017-09-22",
+        "customer_id": "SZ-20035",
+        "buyer_name": "Sam Zeldin",
+        "amount": "$21558.36",
+        "productIds": [
+            "OFF-ST-10002370"
+        ]
+    },
+    {
+        "_id": "CA-2017-136021",
+        "transaction_date": "2017-08-14",
+        "customer_id": "JM-15580",
+        "buyer_name": "Jill Matthias",
+        "amount": "$9965.43",
+        "productIds": [
+            "OFF-PA-10000551",
+            "TEC-MA-10000423"
+        ]
+    },
+    {
+        "_id": "CA-2017-136049",
+        "transaction_date": "2017-12-23",
+        "customer_id": "NM-18520",
+        "buyer_name": "Neoma Murray",
+        "amount": "$1469.58",
+        "productIds": [
+            "OFF-BI-10001267"
+        ]
+    },
+    {
+        "_id": "CA-2017-136126",
+        "transaction_date": "2017-05-24",
+        "customer_id": "EH-14125",
+        "buyer_name": "Eugene Hildebrand",
+        "amount": "$32304.79",
+        "productIds": [
+            "OFF-SU-10000898",
+            "OFF-PA-10004327"
+        ]
+    },
+    {
+        "_id": "CA-2017-136133",
+        "transaction_date": "2017-08-18",
+        "customer_id": "HW-14935",
+        "buyer_name": "Helen Wasserman",
+        "amount": "$2546.60",
+        "productIds": [
+            "OFF-AP-10000576"
+        ]
+    },
+    {
+        "_id": "CA-2017-136231",
+        "transaction_date": "2017-09-05",
+        "customer_id": "DM-13015",
+        "buyer_name": "Darrin Martin",
+        "amount": "$48608.63",
+        "productIds": [
+            "OFF-EN-10001099",
+            "OFF-BI-10001597",
+            "TEC-PH-10002660",
+            "OFF-PA-10000327"
+        ]
+    },
+    {
+        "_id": "CA-2017-136287",
+        "transaction_date": "2017-06-13",
+        "customer_id": "SS-20590",
+        "buyer_name": "Sonia Sunley",
+        "amount": "$10857.55",
+        "productIds": [
+            "OFF-LA-10003148"
+        ]
+    },
+    {
+        "_id": "CA-2017-136301",
+        "transaction_date": "2017-03-13",
+        "customer_id": "EH-13765",
+        "buyer_name": "Edward Hooks",
+        "amount": "$20038.06",
+        "productIds": [
+            "FUR-FU-10004712",
+            "OFF-SU-10000151"
+        ]
+    },
+    {
+        "_id": "CA-2017-136329",
+        "transaction_date": "2017-07-09",
+        "customer_id": "JD-15895",
+        "buyer_name": "Jonathan Doherty",
+        "amount": "$7885.53",
+        "productIds": [
+            "FUR-CH-10002335",
+            "FUR-FU-10000723"
+        ]
+    },
+    {
+        "_id": "CA-2017-136371",
+        "transaction_date": "2017-03-19",
+        "customer_id": "SV-20935",
+        "buyer_name": "Susan Vittorini",
+        "amount": "$7900.27",
+        "productIds": [
+            "FUR-FU-10000409",
+            "FUR-FU-10000221"
+        ]
+    },
+    {
+        "_id": "CA-2017-136406",
+        "transaction_date": "2017-04-15",
+        "customer_id": "BD-11320",
+        "buyer_name": "Bill Donatelli",
+        "amount": "$2457.30",
+        "productIds": [
+            "FUR-CH-10002024"
+        ]
+    },
+    {
+        "_id": "CA-2017-136434",
+        "transaction_date": "2017-12-01",
+        "customer_id": "RD-19480",
+        "buyer_name": "Rick Duston",
+        "amount": "$322.60",
+        "productIds": [
+            "FUR-FU-10001196"
+        ]
+    },
+    {
+        "_id": "CA-2017-136483",
+        "transaction_date": "2017-12-01",
+        "customer_id": "AG-10390",
+        "buyer_name": "Allen Goldenen",
+        "amount": "$13848.91",
+        "productIds": [
+            "OFF-AR-10000940"
+        ]
+    },
+    {
+        "_id": "CA-2017-136595",
+        "transaction_date": "2017-09-05",
+        "customer_id": "EM-13825",
+        "buyer_name": "Elizabeth Moffitt",
+        "amount": "$12228.72",
+        "productIds": [
+            "FUR-FU-10004671"
+        ]
+    },
+    {
+        "_id": "CA-2017-136686",
+        "transaction_date": "2017-12-12",
+        "customer_id": "RF-19840",
+        "buyer_name": "Roy Franz\u00f6sisch",
+        "amount": "$22342.50",
+        "productIds": [
+            "FUR-FU-10004864",
+            "OFF-AP-10002350"
+        ]
+    },
+    {
+        "_id": "CA-2017-136770",
+        "transaction_date": "2017-08-14",
+        "customer_id": "SP-20650",
+        "buyer_name": "Stephanie Phelps",
+        "amount": "$22718.89",
+        "productIds": [
+            "TEC-PH-10003580",
+            "TEC-PH-10001530",
+            "TEC-AC-10000420"
+        ]
+    },
+    {
+        "_id": "CA-2017-136812",
+        "transaction_date": "2017-11-18",
+        "customer_id": "AW-10930",
+        "buyer_name": "Arthur Wiediger",
+        "amount": "$6357.40",
+        "productIds": [
+            "OFF-ST-10003470"
+        ]
+    },
+    {
+        "_id": "CA-2017-136924",
+        "transaction_date": "2017-07-14",
+        "customer_id": "ES-14080",
+        "buyer_name": "Erin Smith",
+        "amount": "$701.46",
+        "productIds": [
+            "TEC-PH-10002262"
+        ]
+    },
+    {
+        "_id": "CA-2017-136994",
+        "transaction_date": "2017-05-27",
+        "customer_id": "LS-17245",
+        "buyer_name": "Lynn Smith",
+        "amount": "$11198.24",
+        "productIds": [
+            "OFF-PA-10000575"
+        ]
+    },
+    {
+        "_id": "CA-2017-137043",
+        "transaction_date": "2017-12-23",
+        "customer_id": "LC-17140",
+        "buyer_name": "Logan Currie",
+        "amount": "$14283.72",
+        "productIds": [
+            "FUR-FU-10003664",
+            "FUR-FU-10003664"
+        ]
+    },
+    {
+        "_id": "CA-2017-137050",
+        "transaction_date": "2017-07-14",
+        "customer_id": "SW-20755",
+        "buyer_name": "Steven Ward",
+        "amount": "$39364.92",
+        "productIds": [
+            "OFF-ST-10004634",
+            "OFF-BI-10002160",
+            "OFF-FA-10002988",
+            "OFF-AR-10004999",
+            "OFF-BI-10001031",
+            "FUR-BO-10004695"
+        ]
+    },
+    {
+        "_id": "CA-2017-137127",
+        "transaction_date": "2017-06-16",
+        "customer_id": "JJ-15445",
+        "buyer_name": "Jennifer Jackson",
+        "amount": "$591.90",
+        "productIds": [
+            "OFF-LA-10001641"
+        ]
+    },
+    {
+        "_id": "CA-2017-137176",
+        "transaction_date": "2017-09-09",
+        "customer_id": "DB-12910",
+        "buyer_name": "Daniel Byrd",
+        "amount": "$7204.45",
+        "productIds": [
+            "FUR-FU-10003832"
+        ]
+    },
+    {
+        "_id": "CA-2017-137204",
+        "transaction_date": "2017-04-28",
+        "customer_id": "BO-11350",
+        "buyer_name": "Bill Overfelt",
+        "amount": "$15692.86",
+        "productIds": [
+            "FUR-CH-10002304"
+        ]
+    },
+    {
+        "_id": "CA-2017-137239",
+        "transaction_date": "2017-08-22",
+        "customer_id": "CR-12730",
+        "buyer_name": "Craig Reiter",
+        "amount": "$17693.36",
+        "productIds": [
+            "OFF-AP-10002439",
+            "OFF-BI-10002827",
+            "OFF-EN-10002230"
+        ]
+    },
+    {
+        "_id": "CA-2017-137330",
+        "transaction_date": "2017-12-09",
+        "customer_id": "KB-16585",
+        "buyer_name": "Ken Black",
+        "amount": "$4662.16",
+        "productIds": [
+            "OFF-AR-10000246",
+            "OFF-AP-10001492"
+        ]
+    },
+    {
+        "_id": "CA-2017-137337",
+        "transaction_date": "2017-03-08",
+        "customer_id": "GB-14575",
+        "buyer_name": "Giulietta Baptist",
+        "amount": "$9577.32",
+        "productIds": [
+            "FUR-FU-10003347",
+            "OFF-PA-10001934",
+            "OFF-BI-10000632"
+        ]
+    },
+    {
+        "_id": "CA-2017-137393",
+        "transaction_date": "2017-05-06",
+        "customer_id": "GM-14500",
+        "buyer_name": "Gene McClure",
+        "amount": "$2865.21",
+        "productIds": [
+            "FUR-FU-10001617"
+        ]
+    },
+    {
+        "_id": "CA-2017-137652",
+        "transaction_date": "2017-08-28",
+        "customer_id": "EB-13750",
+        "buyer_name": "Edward Becker",
+        "amount": "$3884.85",
+        "productIds": [
+            "OFF-BI-10004099"
+        ]
+    },
+    {
+        "_id": "CA-2017-137673",
+        "transaction_date": "2017-09-05",
+        "customer_id": "ML-17395",
+        "buyer_name": "Marina Lichtenstein",
+        "amount": "$918.61",
+        "productIds": [
+            "TEC-AC-10002345"
+        ]
+    },
+    {
+        "_id": "CA-2017-137729",
+        "transaction_date": "2017-05-05",
+        "customer_id": "BF-11005",
+        "buyer_name": "Barry Franz",
+        "amount": "$28988.49",
+        "productIds": [
+            "OFF-ST-10001505",
+            "TEC-PH-10001433"
+        ]
+    },
+    {
+        "_id": "CA-2017-137736",
+        "transaction_date": "2017-11-10",
+        "customer_id": "DC-13285",
+        "buyer_name": "Debra Catini",
+        "amount": "$12322.38",
+        "productIds": [
+            "OFF-AR-10004999"
+        ]
+    },
+    {
+        "_id": "CA-2017-137743",
+        "transaction_date": "2017-07-30",
+        "customer_id": "KH-16360",
+        "buyer_name": "Katherine Hughes",
+        "amount": "$7293.80",
+        "productIds": [
+            "OFF-LA-10003663",
+            "OFF-ST-10001780"
+        ]
+    },
+    {
+        "_id": "CA-2017-137848",
+        "transaction_date": "2017-01-15",
+        "customer_id": "WB-21850",
+        "buyer_name": "William Brown",
+        "amount": "$43604.86",
+        "productIds": [
+            "OFF-EN-10001137",
+            "OFF-PA-10004285",
+            "OFF-BI-10002225"
+        ]
+    },
+    {
+        "_id": "CA-2017-137939",
+        "transaction_date": "2017-07-20",
+        "customer_id": "PJ-19015",
+        "buyer_name": "Pauline Johnson",
+        "amount": "$1190.91",
+        "productIds": [
+            "TEC-PH-10003589"
+        ]
+    },
+    {
+        "_id": "CA-2017-138037",
+        "transaction_date": "2017-09-29",
+        "customer_id": "AR-10540",
+        "buyer_name": "Andy Reiter",
+        "amount": "$10388.00",
+        "productIds": [
+            "OFF-BI-10002982"
+        ]
+    },
+    {
+        "_id": "CA-2017-138079",
+        "transaction_date": "2017-01-22",
+        "customer_id": "AJ-10795",
+        "buyer_name": "Anthony Johnson",
+        "amount": "$2657.70",
+        "productIds": [
+            "FUR-FU-10001475"
+        ]
+    },
+    {
+        "_id": "CA-2017-138233",
+        "transaction_date": "2017-11-09",
+        "customer_id": "PF-19165",
+        "buyer_name": "Philip Fox",
+        "amount": "$14587.52",
+        "productIds": [
+            "TEC-AC-10002001"
+        ]
+    },
+    {
+        "_id": "CA-2017-138282",
+        "transaction_date": "2017-05-19",
+        "customer_id": "AH-10690",
+        "buyer_name": "Anna H\u00e4berlin",
+        "amount": "$18910.60",
+        "productIds": [
+            "OFF-AP-10001366"
+        ]
+    },
+    {
+        "_id": "CA-2017-138478",
+        "transaction_date": "2017-10-21",
+        "customer_id": "DP-13390",
+        "buyer_name": "Dennis Pardue",
+        "amount": "$28446.90",
+        "productIds": [
+            "OFF-AR-10002240",
+            "OFF-PA-10001801",
+            "OFF-BI-10001120"
+        ]
+    },
+    {
+        "_id": "CA-2017-138520",
+        "transaction_date": "2017-04-08",
+        "customer_id": "JL-15505",
+        "buyer_name": "Jeremy Lonsdale",
+        "amount": "$16686.29",
+        "productIds": [
+            "FUR-BO-10002268",
+            "OFF-EN-10001137",
+            "OFF-AR-10002399",
+            "OFF-PA-10002713"
+        ]
+    },
+    {
+        "_id": "CA-2017-138583",
+        "transaction_date": "2017-05-24",
+        "customer_id": "DP-13390",
+        "buyer_name": "Dennis Pardue",
+        "amount": "$5324.27",
+        "productIds": [
+            "OFF-AR-10001860"
+        ]
+    },
+    {
+        "_id": "CA-2017-138597",
+        "transaction_date": "2017-12-18",
+        "customer_id": "PN-18775",
+        "buyer_name": "Parhena Norris",
+        "amount": "$2711.55",
+        "productIds": [
+            "FUR-CH-10004997"
+        ]
+    },
+    {
+        "_id": "CA-2017-138667",
+        "transaction_date": "2017-12-27",
+        "customer_id": "MW-18220",
+        "buyer_name": "Mitch Webber",
+        "amount": "$14291.84",
+        "productIds": [
+            "TEC-AC-10003063"
+        ]
+    },
+    {
+        "_id": "CA-2017-138688",
+        "transaction_date": "2017-06-12",
+        "customer_id": "DV-13045",
+        "buyer_name": "Darrin Van Huff",
+        "amount": "$1911.36",
+        "productIds": [
+            "OFF-LA-10000240"
+        ]
+    },
+    {
+        "_id": "CA-2017-138695",
+        "transaction_date": "2017-05-28",
+        "customer_id": "KC-16675",
+        "buyer_name": "Kimberly Carter",
+        "amount": "$4098.40",
+        "productIds": [
+            "FUR-CH-10003833",
+            "OFF-PA-10001667"
+        ]
+    },
+    {
+        "_id": "CA-2017-138933",
+        "transaction_date": "2017-04-24",
+        "customer_id": "JL-15130",
+        "buyer_name": "Jack Lebron",
+        "amount": "$13523.50",
+        "productIds": [
+            "OFF-BI-10003355"
+        ]
+    },
+    {
+        "_id": "CA-2017-138968",
+        "transaction_date": "2017-03-15",
+        "customer_id": "FC-14335",
+        "buyer_name": "Fred Chung",
+        "amount": "$25238.75",
+        "productIds": [
+            "OFF-BI-10003529",
+            "FUR-CH-10000309"
+        ]
+    },
+    {
+        "_id": "CA-2017-139010",
+        "transaction_date": "2017-02-21",
+        "customer_id": "MC-17635",
+        "buyer_name": "Matthew Clasen",
+        "amount": "$21718.98",
+        "productIds": [
+            "TEC-AC-10004227",
+            "OFF-BI-10000174",
+            "OFF-ST-10001809",
+            "OFF-BI-10002309"
+        ]
+    },
+    {
+        "_id": "CA-2017-139157",
+        "transaction_date": "2017-10-01",
+        "customer_id": "GM-14680",
+        "buyer_name": "Greg Matthias",
+        "amount": "$3250.53",
+        "productIds": [
+            "FUR-TA-10003238"
+        ]
+    },
+    {
+        "_id": "CA-2017-139234",
+        "transaction_date": "2017-05-06",
+        "customer_id": "AF-10870",
+        "buyer_name": "Art Ferguson",
+        "amount": "$8274.02",
+        "productIds": [
+            "OFF-BI-10000773",
+            "TEC-AC-10004510"
+        ]
+    },
+    {
+        "_id": "CA-2017-139269",
+        "transaction_date": "2017-05-25",
+        "customer_id": "JB-16045",
+        "buyer_name": "Julia Barnett",
+        "amount": "$28318.03",
+        "productIds": [
+            "FUR-FU-10000755",
+            "OFF-PA-10002893",
+            "OFF-ST-10000689"
+        ]
+    },
+    {
+        "_id": "CA-2017-139381",
+        "transaction_date": "2017-04-18",
+        "customer_id": "RF-19840",
+        "buyer_name": "Roy Franz\u00f6sisch",
+        "amount": "$4616.40",
+        "productIds": [
+            "OFF-AP-10001271",
+            "TEC-PH-10004924"
+        ]
+    },
+    {
+        "_id": "CA-2017-139395",
+        "transaction_date": "2017-12-12",
+        "customer_id": "MG-17650",
+        "buyer_name": "Matthew Grinstein",
+        "amount": "$13437.79",
+        "productIds": [
+            "TEC-PH-10002103",
+            "FUR-FU-10003724",
+            "OFF-AR-10003732",
+            "OFF-ST-10000885"
+        ]
+    },
+    {
+        "_id": "CA-2017-139409",
+        "transaction_date": "2017-09-05",
+        "customer_id": "FW-14395",
+        "buyer_name": "Fred Wasserman",
+        "amount": "$9633.91",
+        "productIds": [
+            "TEC-PH-10003988"
+        ]
+    },
+    {
+        "_id": "CA-2017-139549",
+        "transaction_date": "2017-10-20",
+        "customer_id": "MY-18295",
+        "buyer_name": "Muhammed Yedwab",
+        "amount": "$925.49",
+        "productIds": [
+            "FUR-CH-10001802"
+        ]
+    },
+    {
+        "_id": "CA-2017-139556",
+        "transaction_date": "2017-04-26",
+        "customer_id": "DB-13360",
+        "buyer_name": "Dennis Bolton",
+        "amount": "$5768.84",
+        "productIds": [
+            "FUR-CH-10004983"
+        ]
+    },
+    {
+        "_id": "CA-2017-139689",
+        "transaction_date": "2017-12-29",
+        "customer_id": "MP-17965",
+        "buyer_name": "Michael Paige",
+        "amount": "$17638.54",
+        "productIds": [
+            "OFF-BI-10004781",
+            "OFF-BI-10000145"
+        ]
+    },
+    {
+        "_id": "CA-2017-139808",
+        "transaction_date": "2017-10-07",
+        "customer_id": "MC-18100",
+        "buyer_name": "Mick Crebagga",
+        "amount": "$5563.32",
+        "productIds": [
+            "OFF-FA-10001883"
+        ]
+    },
+    {
+        "_id": "CA-2017-139878",
+        "transaction_date": "2017-11-11",
+        "customer_id": "LD-17005",
+        "buyer_name": "Lisa DeCherney",
+        "amount": "$14037.32",
+        "productIds": [
+            "TEC-PH-10001336"
+        ]
+    },
+    {
+        "_id": "CA-2017-139885",
+        "transaction_date": "2017-12-04",
+        "customer_id": "EB-13840",
+        "buyer_name": "Ellis Ballard",
+        "amount": "$41.70",
+        "productIds": [
+            "OFF-ST-10003324"
+        ]
+    },
+    {
+        "_id": "CA-2017-139934",
+        "transaction_date": "2017-12-18",
+        "customer_id": "AY-10555",
+        "buyer_name": "Andy Yotov",
+        "amount": "$9880.50",
+        "productIds": [
+            "TEC-PH-10001552"
+        ]
+    },
+    {
+        "_id": "CA-2017-139941",
+        "transaction_date": "2017-06-12",
+        "customer_id": "CB-12415",
+        "buyer_name": "Christy Brittain",
+        "amount": "$7376.24",
+        "productIds": [
+            "OFF-PA-10000241",
+            "OFF-AP-10004036"
+        ]
+    },
+    {
+        "_id": "CA-2017-139997",
+        "transaction_date": "2017-07-01",
+        "customer_id": "EM-14140",
+        "buyer_name": "Eugene Moren",
+        "amount": "$3497.20",
+        "productIds": [
+            "TEC-CO-10000971"
+        ]
+    },
+    {
+        "_id": "CA-2017-140018",
+        "transaction_date": "2017-11-21",
+        "customer_id": "CK-12205",
+        "buyer_name": "Chloris Kastensmidt",
+        "amount": "$26241.02",
+        "productIds": [
+            "TEC-MA-10000752",
+            "FUR-CH-10003817",
+            "FUR-FU-10001876"
+        ]
+    },
+    {
+        "_id": "CA-2017-140046",
+        "transaction_date": "2017-07-28",
+        "customer_id": "KM-16660",
+        "buyer_name": "Khloe Miller",
+        "amount": "$12604.48",
+        "productIds": [
+            "OFF-LA-10000305"
+        ]
+    },
+    {
+        "_id": "CA-2017-140081",
+        "transaction_date": "2017-06-20",
+        "customer_id": "CG-12040",
+        "buyer_name": "Catherine Glotzbach",
+        "amount": "$33417.95",
+        "productIds": [
+            "OFF-PA-10001745",
+            "OFF-BI-10004826",
+            "OFF-PA-10001870",
+            "OFF-AP-10001058"
+        ]
+    },
+    {
+        "_id": "CA-2017-140130",
+        "transaction_date": "2017-10-31",
+        "customer_id": "HW-14935",
+        "buyer_name": "Helen Wasserman",
+        "amount": "$16700.32",
+        "productIds": [
+            "OFF-SU-10001218",
+            "FUR-CH-10002084",
+            "OFF-AR-10004269",
+            "OFF-ST-10001128"
+        ]
+    },
+    {
+        "_id": "CA-2017-140207",
+        "transaction_date": "2017-11-05",
+        "customer_id": "CS-12400",
+        "buyer_name": "Christopher Schild",
+        "amount": "$6276.96",
+        "productIds": [
+            "OFF-BI-10003963"
+        ]
+    },
+    {
+        "_id": "CA-2017-140249",
+        "transaction_date": "2017-09-27",
+        "customer_id": "SW-20455",
+        "buyer_name": "Shaun Weien",
+        "amount": "$11641.11",
+        "productIds": [
+            "TEC-PH-10002584"
+        ]
+    },
+    {
+        "_id": "CA-2017-140256",
+        "transaction_date": "2017-08-22",
+        "customer_id": "PW-19030",
+        "buyer_name": "Pauline Webber",
+        "amount": "$10595.70",
+        "productIds": [
+            "OFF-AR-10002255"
+        ]
+    },
+    {
+        "_id": "CA-2017-140382",
+        "transaction_date": "2017-06-23",
+        "customer_id": "RD-19900",
+        "buyer_name": "Ruben Dartt",
+        "amount": "$26475.18",
+        "productIds": [
+            "OFF-ST-10003638",
+            "OFF-LA-10001934",
+            "TEC-PH-10003012",
+            "OFF-PA-10001019"
+        ]
+    },
+    {
+        "_id": "CA-2017-140417",
+        "transaction_date": "2017-09-25",
+        "customer_id": "KE-16420",
+        "buyer_name": "Katrina Edelman",
+        "amount": "$2225.91",
+        "productIds": [
+            "OFF-PA-10000380",
+            "OFF-BI-10004828"
+        ]
+    },
+    {
+        "_id": "CA-2017-140438",
+        "transaction_date": "2017-12-24",
+        "customer_id": "PW-19030",
+        "buyer_name": "Pauline Webber",
+        "amount": "$1295.40",
+        "productIds": [
+            "TEC-PH-10001750"
+        ]
+    },
+    {
+        "_id": "CA-2017-140501",
+        "transaction_date": "2017-06-23",
+        "customer_id": "IM-15070",
+        "buyer_name": "Irene Maddox",
+        "amount": "$66719.56",
+        "productIds": [
+            "OFF-LA-10003510",
+            "OFF-LA-10000248",
+            "OFF-ST-10000060",
+            "OFF-PA-10003129",
+            "OFF-FA-10004076"
+        ]
+    },
+    {
+        "_id": "CA-2017-140543",
+        "transaction_date": "2017-06-29",
+        "customer_id": "Co-12640",
+        "buyer_name": "Corey-Lock",
+        "amount": "$1826.07",
+        "productIds": [
+            "OFF-ST-10000563"
+        ]
+    },
+    {
+        "_id": "CA-2017-140564",
+        "transaction_date": "2017-12-05",
+        "customer_id": "TC-21475",
+        "buyer_name": "Tony Chapman",
+        "amount": "$480.22",
+        "productIds": [
+            "OFF-AR-10000034"
+        ]
+    },
+    {
+        "_id": "CA-2017-140571",
+        "transaction_date": "2017-03-15",
+        "customer_id": "SJ-20125",
+        "buyer_name": "Sanjit Jacobs",
+        "amount": "$10817.61",
+        "productIds": [
+            "OFF-PA-10001954",
+            "OFF-PA-10001954"
+        ]
+    },
+    {
+        "_id": "CA-2017-140613",
+        "transaction_date": "2017-07-22",
+        "customer_id": "KN-16705",
+        "buyer_name": "Kristina Nunn",
+        "amount": "$688.05",
+        "productIds": [
+            "OFF-SU-10004261"
+        ]
+    },
+    {
+        "_id": "CA-2017-140634",
+        "transaction_date": "2017-10-03",
+        "customer_id": "HL-15040",
+        "buyer_name": "Hunter Lopez",
+        "amount": "$231.84",
+        "productIds": [
+            "OFF-EN-10001099"
+        ]
+    },
+    {
+        "_id": "CA-2017-140641",
+        "transaction_date": "2017-10-28",
+        "customer_id": "EP-13915",
+        "buyer_name": "Emily Phan",
+        "amount": "$57.77",
+        "productIds": [
+            "OFF-BI-10001191"
+        ]
+    },
+    {
+        "_id": "CA-2017-140746",
+        "transaction_date": "2017-01-15",
+        "customer_id": "RC-19825",
+        "buyer_name": "Roy Collins",
+        "amount": "$9067.08",
+        "productIds": [
+            "FUR-TA-10002903"
+        ]
+    },
+    {
+        "_id": "CA-2017-140774",
+        "transaction_date": "2017-09-05",
+        "customer_id": "BE-11455",
+        "buyer_name": "Brad Eason",
+        "amount": "$3724.60",
+        "productIds": [
+            "OFF-AR-10004022"
+        ]
+    },
+    {
+        "_id": "CA-2017-140928",
+        "transaction_date": "2017-09-18",
+        "customer_id": "NB-18655",
+        "buyer_name": "Nona Balk",
+        "amount": "$17255.52",
+        "productIds": [
+            "FUR-TA-10001095"
+        ]
+    },
+    {
+        "_id": "CA-2017-140935",
+        "transaction_date": "2017-11-10",
+        "customer_id": "AB-10015",
+        "buyer_name": "Aaron Bergman",
+        "amount": "$16577.17",
+        "productIds": [
+            "TEC-PH-10000562",
+            "FUR-BO-10003966"
+        ]
+    },
+    {
+        "_id": "CA-2017-140977",
+        "transaction_date": "2017-06-16",
+        "customer_id": "JL-15175",
+        "buyer_name": "James Lanier",
+        "amount": "$7803.36",
+        "productIds": [
+            "TEC-MA-10003493"
+        ]
+    },
+    {
+        "_id": "CA-2017-141019",
+        "transaction_date": "2017-05-14",
+        "customer_id": "LH-17155",
+        "buyer_name": "Logan Haushalter",
+        "amount": "$323.64",
+        "productIds": [
+            "FUR-FU-10002937"
+        ]
+    },
+    {
+        "_id": "CA-2017-141082",
+        "transaction_date": "2017-12-09",
+        "customer_id": "FM-14380",
+        "buyer_name": "Fred McMath",
+        "amount": "$26966.59",
+        "productIds": [
+            "OFF-LA-10001404",
+            "OFF-LA-10001474"
+        ]
+    },
+    {
+        "_id": "CA-2017-141180",
+        "transaction_date": "2017-05-15",
+        "customer_id": "DP-13000",
+        "buyer_name": "Darren Powers",
+        "amount": "$929.53",
+        "productIds": [
+            "OFF-BI-10000301"
+        ]
+    },
+    {
+        "_id": "CA-2017-141397",
+        "transaction_date": "2017-06-20",
+        "customer_id": "RC-19825",
+        "buyer_name": "Roy Collins",
+        "amount": "$54654.55",
+        "productIds": [
+            "OFF-PA-10002986",
+            "OFF-BI-10000320",
+            "OFF-AP-10003971",
+            "OFF-ST-10001469",
+            "FUR-CH-10003846"
+        ]
+    },
+    {
+        "_id": "CA-2017-141523",
+        "transaction_date": "2017-12-19",
+        "customer_id": "MH-17440",
+        "buyer_name": "Mark Haberlin",
+        "amount": "$21771.35",
+        "productIds": [
+            "OFF-BI-10000948",
+            "OFF-AR-10001545"
+        ]
+    },
+    {
+        "_id": "CA-2017-141551",
+        "transaction_date": "2017-09-24",
+        "customer_id": "BP-11230",
+        "buyer_name": "Benjamin Patterson",
+        "amount": "$5050.44",
+        "productIds": [
+            "OFF-BI-10001249",
+            "OFF-PA-10001569"
+        ]
+    },
+    {
+        "_id": "CA-2017-141586",
+        "transaction_date": "2017-10-17",
+        "customer_id": "NK-18490",
+        "buyer_name": "Neil Knudson",
+        "amount": "$6393.17",
+        "productIds": [
+            "OFF-BI-10003981"
+        ]
+    },
+    {
+        "_id": "CA-2017-141887",
+        "transaction_date": "2017-01-11",
+        "customer_id": "MP-17470",
+        "buyer_name": "Mark Packer",
+        "amount": "$1367.60",
+        "productIds": [
+            "FUR-FU-10002268"
+        ]
+    },
+    {
+        "_id": "CA-2017-141957",
+        "transaction_date": "2017-07-21",
+        "customer_id": "JG-15310",
+        "buyer_name": "Jason Gross",
+        "amount": "$28233.79",
+        "productIds": [
+            "OFF-AR-10000914",
+            "OFF-BI-10001116",
+            "OFF-ST-10002276",
+            "OFF-ST-10004340"
+        ]
+    },
+    {
+        "_id": "CA-2017-142097",
+        "transaction_date": "2017-10-15",
+        "customer_id": "QJ-19255",
+        "buyer_name": "Quincy Jones",
+        "amount": "$15600.37",
+        "productIds": [
+            "OFF-BI-10002082",
+            "OFF-EN-10002312",
+            "OFF-AP-10000696"
+        ]
+    },
+    {
+        "_id": "CA-2017-142335",
+        "transaction_date": "2017-12-15",
+        "customer_id": "MP-17965",
+        "buyer_name": "Michael Paige",
+        "amount": "$28015.87",
+        "productIds": [
+            "FUR-TA-10000198",
+            "OFF-ST-10000036"
+        ]
+    },
+    {
+        "_id": "CA-2017-142370",
+        "transaction_date": "2017-09-19",
+        "customer_id": "TP-21130",
+        "buyer_name": "Theone Pippenger",
+        "amount": "$15877.20",
+        "productIds": [
+            "OFF-SU-10003002",
+            "TEC-AC-10002926"
+        ]
+    },
+    {
+        "_id": "CA-2017-142398",
+        "transaction_date": "2017-04-12",
+        "customer_id": "BP-11290",
+        "buyer_name": "Beth Paige",
+        "amount": "$3169.25",
+        "productIds": [
+            "FUR-CH-10001545",
+            "OFF-BI-10004826"
+        ]
+    },
+    {
+        "_id": "CA-2017-142405",
+        "transaction_date": "2017-06-11",
+        "customer_id": "SE-20110",
+        "buyer_name": "Sanjit Engle",
+        "amount": "$8288.65",
+        "productIds": [
+            "OFF-LA-10004093",
+            "OFF-BI-10004728",
+            "TEC-AC-10003095"
+        ]
+    },
+    {
+        "_id": "CA-2017-142524",
+        "transaction_date": "2017-09-04",
+        "customer_id": "MB-18085",
+        "buyer_name": "Mick Brown",
+        "amount": "$27509.39",
+        "productIds": [
+            "OFF-EN-10003286",
+            "TEC-AC-10000109"
+        ]
+    },
+    {
+        "_id": "CA-2017-142545",
+        "transaction_date": "2017-10-28",
+        "customer_id": "JD-15895",
+        "buyer_name": "Jonathan Doherty",
+        "amount": "$43115.98",
+        "productIds": [
+            "OFF-PA-10002105",
+            "OFF-ST-10002756",
+            "OFF-PA-10004243",
+            "FUR-FU-10001861",
+            "OFF-BI-10002706"
+        ]
+    },
+    {
+        "_id": "CA-2017-142594",
+        "transaction_date": "2017-12-01",
+        "customer_id": "EJ-14155",
+        "buyer_name": "Eva Jacobs",
+        "amount": "$19146.18",
+        "productIds": [
+            "TEC-PH-10000193",
+            "FUR-FU-10002045",
+            "OFF-AP-10002945",
+            "FUR-TA-10001095"
+        ]
+    },
+    {
+        "_id": "CA-2017-142615",
+        "transaction_date": "2017-11-20",
+        "customer_id": "BM-11575",
+        "buyer_name": "Brendan Murry",
+        "amount": "$7471.44",
+        "productIds": [
+            "TEC-AC-10004803"
+        ]
+    },
+    {
+        "_id": "CA-2017-142762",
+        "transaction_date": "2017-05-23",
+        "customer_id": "LD-17005",
+        "buyer_name": "Lisa DeCherney",
+        "amount": "$16905.60",
+        "productIds": [
+            "FUR-FU-10003691"
+        ]
+    },
+    {
+        "_id": "CA-2017-142895",
+        "transaction_date": "2017-07-21",
+        "customer_id": "BP-11290",
+        "buyer_name": "Beth Paige",
+        "amount": "$4412.01",
+        "productIds": [
+            "OFF-LA-10000262",
+            "FUR-CH-10002961"
+        ]
+    },
+    {
+        "_id": "CA-2017-142902",
+        "transaction_date": "2017-09-12",
+        "customer_id": "BP-11185",
+        "buyer_name": "Ben Peterman",
+        "amount": "$44386.91",
+        "productIds": [
+            "FUR-FU-10001918",
+            "FUR-CH-10004086",
+            "FUR-FU-10001756",
+            "OFF-LA-10000634"
+        ]
+    },
+    {
+        "_id": "CA-2017-142958",
+        "transaction_date": "2017-12-13",
+        "customer_id": "RW-19630",
+        "buyer_name": "Rob Williams",
+        "amount": "$4197.34",
+        "productIds": [
+            "OFF-BI-10001759",
+            "FUR-TA-10000577"
+        ]
+    },
+    {
+        "_id": "CA-2017-143154",
+        "transaction_date": "2017-12-02",
+        "customer_id": "AS-10225",
+        "buyer_name": "Alan Schoenberger",
+        "amount": "$1430.66",
+        "productIds": [
+            "TEC-AC-10002942"
+        ]
+    },
+    {
+        "_id": "CA-2017-143308",
+        "transaction_date": "2017-11-04",
+        "customer_id": "RC-19825",
+        "buyer_name": "Roy Collins",
+        "amount": "$550.24",
+        "productIds": [
+            "OFF-FA-10000621"
+        ]
+    },
+    {
+        "_id": "CA-2017-143406",
+        "transaction_date": "2017-09-26",
+        "customer_id": "LR-17035",
+        "buyer_name": "Lisa Ryan",
+        "amount": "$11614.38",
+        "productIds": [
+            "OFF-AP-10001564",
+            "FUR-CH-10000513"
+        ]
+    },
+    {
+        "_id": "CA-2017-143441",
+        "transaction_date": "2017-11-05",
+        "customer_id": "EB-14170",
+        "buyer_name": "Evan Bailliet",
+        "amount": "$6309.52",
+        "productIds": [
+            "OFF-LA-10002312"
+        ]
+    },
+    {
+        "_id": "CA-2017-143476",
+        "transaction_date": "2017-09-11",
+        "customer_id": "LC-16930",
+        "buyer_name": "Linda Cazamias",
+        "amount": "$19055.85",
+        "productIds": [
+            "OFF-AR-10003759",
+            "OFF-PA-10001837",
+            "OFF-PA-10001667"
+        ]
+    },
+    {
+        "_id": "CA-2017-143609",
+        "transaction_date": "2017-12-11",
+        "customer_id": "DB-13270",
+        "buyer_name": "Deborah Brumfield",
+        "amount": "$4711.28",
+        "productIds": [
+            "FUR-CH-10004218"
+        ]
+    },
+    {
+        "_id": "CA-2017-143714",
+        "transaction_date": "2017-05-23",
+        "customer_id": "CC-12370",
+        "buyer_name": "Christopher Conant",
+        "amount": "$31358.91",
+        "productIds": [
+            "TEC-CO-10004722",
+            "OFF-BI-10004308",
+            "OFF-PA-10000029",
+            "TEC-PH-10004080"
+        ]
+    },
+    {
+        "_id": "CA-2017-143749",
+        "transaction_date": "2017-12-05",
+        "customer_id": "AG-10300",
+        "buyer_name": "Aleksandra Gannaway",
+        "amount": "$10953.60",
+        "productIds": [
+            "FUR-BO-10002853"
+        ]
+    },
+    {
+        "_id": "CA-2017-143805",
+        "transaction_date": "2017-12-01",
+        "customer_id": "JD-15895",
+        "buyer_name": "Jonathan Doherty",
+        "amount": "$19615.65",
+        "productIds": [
+            "OFF-AP-10002945",
+            "OFF-SU-10004664"
+        ]
+    },
+    {
+        "_id": "CA-2017-143910",
+        "transaction_date": "2017-08-12",
+        "customer_id": "BC-11125",
+        "buyer_name": "Becky Castell",
+        "amount": "$13145.19",
+        "productIds": [
+            "FUR-CH-10000225"
+        ]
+    },
+    {
+        "_id": "CA-2017-143924",
+        "transaction_date": "2017-07-28",
+        "customer_id": "SC-20680",
+        "buyer_name": "Steve Carroll",
+        "amount": "$6868.39",
+        "productIds": [
+            "OFF-FA-10000735",
+            "OFF-PA-10002120"
+        ]
+    },
+    {
+        "_id": "CA-2017-144015",
+        "transaction_date": "2017-06-26",
+        "customer_id": "AH-10075",
+        "buyer_name": "Adam Hart",
+        "amount": "$29143.55",
+        "productIds": [
+            "OFF-SU-10003505",
+            "OFF-FA-10000624",
+            "OFF-PA-10002870"
+        ]
+    },
+    {
+        "_id": "CA-2017-144092",
+        "transaction_date": "2017-11-05",
+        "customer_id": "LH-17155",
+        "buyer_name": "Logan Haushalter",
+        "amount": "$14110.04",
+        "productIds": [
+            "TEC-AC-10002305",
+            "FUR-CH-10004875",
+            "OFF-EN-10001434"
+        ]
+    },
+    {
+        "_id": "CA-2017-144148",
+        "transaction_date": "2017-07-31",
+        "customer_id": "AH-10690",
+        "buyer_name": "Anna H\u00e4berlin",
+        "amount": "$1438.68",
+        "productIds": [
+            "FUR-TA-10002774"
+        ]
+    },
+    {
+        "_id": "CA-2017-144218",
+        "transaction_date": "2017-10-31",
+        "customer_id": "JD-15895",
+        "buyer_name": "Jonathan Doherty",
+        "amount": "$2810.85",
+        "productIds": [
+            "OFF-ST-10002615"
+        ]
+    },
+    {
+        "_id": "CA-2017-144309",
+        "transaction_date": "2017-12-10",
+        "customer_id": "CM-12235",
+        "buyer_name": "Chris McAfee",
+        "amount": "$31747.28",
+        "productIds": [
+            "OFF-PA-10001776",
+            "OFF-BI-10003656"
+        ]
+    },
+    {
+        "_id": "CA-2017-144337",
+        "transaction_date": "2017-08-01",
+        "customer_id": "SG-20890",
+        "buyer_name": "Susan Gilcrest",
+        "amount": "$8544.45",
+        "productIds": [
+            "OFF-PA-10000249"
+        ]
+    },
+    {
+        "_id": "CA-2017-144344",
+        "transaction_date": "2017-10-28",
+        "customer_id": "PG-18820",
+        "buyer_name": "Patrick Gardner",
+        "amount": "$26339.01",
+        "productIds": [
+            "FUR-FU-10000076",
+            "OFF-BI-10003719",
+            "FUR-FU-10003268",
+            "FUR-FU-10003553"
+        ]
+    },
+    {
+        "_id": "CA-2017-144400",
+        "transaction_date": "2017-02-23",
+        "customer_id": "AC-10420",
+        "buyer_name": "Alyssa Crouse",
+        "amount": "$18899.54",
+        "productIds": [
+            "OFF-EN-10004386"
+        ]
+    },
+    {
+        "_id": "CA-2017-144540",
+        "transaction_date": "2017-09-05",
+        "customer_id": "GH-14410",
+        "buyer_name": "Gary Hansen",
+        "amount": "$23627.67",
+        "productIds": [
+            "OFF-AP-10002457",
+            "OFF-FA-10002763"
+        ]
+    },
+    {
+        "_id": "CA-2017-144554",
+        "transaction_date": "2017-11-07",
+        "customer_id": "DM-13345",
+        "buyer_name": "Denise Monton",
+        "amount": "$10423.53",
+        "productIds": [
+            "TEC-AC-10002800"
+        ]
+    },
+    {
+        "_id": "CA-2017-144645",
+        "transaction_date": "2017-02-02",
+        "customer_id": "NS-18640",
+        "buyer_name": "Noel Staavos",
+        "amount": "$4654.98",
+        "productIds": [
+            "FUR-FU-10003601"
+        ]
+    },
+    {
+        "_id": "CA-2017-144729",
+        "transaction_date": "2017-10-21",
+        "customer_id": "JE-15745",
+        "buyer_name": "Joel Eaton",
+        "amount": "$3725.16",
+        "productIds": [
+            "OFF-ST-10004804"
+        ]
+    },
+    {
+        "_id": "CA-2017-144764",
+        "transaction_date": "2017-09-02",
+        "customer_id": "RL-19615",
+        "buyer_name": "Rob Lucas",
+        "amount": "$8087.59",
+        "productIds": [
+            "OFF-LA-10000240",
+            "OFF-ST-10002485",
+            "TEC-MA-10003230"
+        ]
+    },
+    {
+        "_id": "CA-2017-144785",
+        "transaction_date": "2017-04-18",
+        "customer_id": "CS-12490",
+        "buyer_name": "Cindy Schnelling",
+        "amount": "$6457.33",
+        "productIds": [
+            "OFF-AR-10001573",
+            "OFF-SU-10004290"
+        ]
+    },
+    {
+        "_id": "CA-2017-144792",
+        "transaction_date": "2017-04-30",
+        "customer_id": "KD-16615",
+        "buyer_name": "Ken Dana",
+        "amount": "$2033.24",
+        "productIds": [
+            "FUR-FU-10002759"
+        ]
+    },
+    {
+        "_id": "CA-2017-144855",
+        "transaction_date": "2017-07-22",
+        "customer_id": "DL-13495",
+        "buyer_name": "Dionis Lloyd",
+        "amount": "$4790.55",
+        "productIds": [
+            "OFF-LA-10003766"
+        ]
+    },
+    {
+        "_id": "CA-2017-144911",
+        "transaction_date": "2017-11-27",
+        "customer_id": "RW-19630",
+        "buyer_name": "Rob Williams",
+        "amount": "$3501.30",
+        "productIds": [
+            "TEC-AC-10004633",
+            "OFF-BI-10000977"
+        ]
+    },
+    {
+        "_id": "CA-2017-144939",
+        "transaction_date": "2017-10-03",
+        "customer_id": "EB-13870",
+        "buyer_name": "Emily Burns",
+        "amount": "$14635.72",
+        "productIds": [
+            "FUR-CH-10003199"
+        ]
+    },
+    {
+        "_id": "CA-2017-145009",
+        "transaction_date": "2017-12-05",
+        "customer_id": "RF-19345",
+        "buyer_name": "Randy Ferguson",
+        "amount": "$4789.07",
+        "productIds": [
+            "OFF-LA-10004853"
+        ]
+    },
+    {
+        "_id": "CA-2017-145135",
+        "transaction_date": "2017-11-26",
+        "customer_id": "CD-12790",
+        "buyer_name": "Cynthia Delaney",
+        "amount": "$9954.99",
+        "productIds": [
+            "TEC-AC-10003447",
+            "OFF-PA-10004285"
+        ]
+    },
+    {
+        "_id": "CA-2017-145177",
+        "transaction_date": "2017-11-10",
+        "customer_id": "PP-18955",
+        "buyer_name": "Paul Prost",
+        "amount": "$62699.34",
+        "productIds": [
+            "OFF-LA-10001613",
+            "TEC-PH-10000376",
+            "OFF-PA-10004039",
+            "OFF-PA-10001776",
+            "OFF-AP-10002457",
+            "FUR-FU-10000758",
+            "OFF-PA-10000682",
+            "TEC-AC-10002550",
+            "OFF-BI-10002082"
+        ]
+    },
+    {
+        "_id": "CA-2017-145240",
+        "transaction_date": "2017-09-06",
+        "customer_id": "BG-11740",
+        "buyer_name": "Bruce Geld",
+        "amount": "$319.34",
+        "productIds": [
+            "OFF-ST-10001590"
+        ]
+    },
+    {
+        "_id": "CA-2017-145247",
+        "transaction_date": "2017-05-05",
+        "customer_id": "ND-18370",
+        "buyer_name": "Natalie DeCherney",
+        "amount": "$7566.44",
+        "productIds": [
+            "OFF-PA-10003641"
+        ]
+    },
+    {
+        "_id": "CA-2017-145261",
+        "transaction_date": "2017-12-18",
+        "customer_id": "AH-10120",
+        "buyer_name": "Adrian Hane",
+        "amount": "$28929.81",
+        "productIds": [
+            "OFF-BI-10001670",
+            "OFF-AR-10004078",
+            "OFF-PA-10003036",
+            "TEC-AC-10000991",
+            "FUR-TA-10002530",
+            "OFF-LA-10000407",
+            "TEC-PH-10004833"
+        ]
+    },
+    {
+        "_id": "CA-2017-145303",
+        "transaction_date": "2017-08-28",
+        "customer_id": "TP-21415",
+        "buyer_name": "Tom Prescott",
+        "amount": "$17403.76",
+        "productIds": [
+            "OFF-BI-10000050",
+            "OFF-BI-10002414",
+            "FUR-BO-10003159"
+        ]
+    },
+    {
+        "_id": "CA-2017-145492",
+        "transaction_date": "2017-11-20",
+        "customer_id": "MC-17605",
+        "buyer_name": "Matt Connell",
+        "amount": "$11818.32",
+        "productIds": [
+            "OFF-AP-10003622"
+        ]
+    },
+    {
+        "_id": "CA-2017-145499",
+        "transaction_date": "2017-05-30",
+        "customer_id": "RW-19690",
+        "buyer_name": "Robert Waldorf",
+        "amount": "$4199.00",
+        "productIds": [
+            "OFF-BI-10000848"
+        ]
+    },
+    {
+        "_id": "CA-2017-145548",
+        "transaction_date": "2017-11-11",
+        "customer_id": "EB-13750",
+        "buyer_name": "Edward Becker",
+        "amount": "$47230.19",
+        "productIds": [
+            "OFF-ST-10002562",
+            "TEC-AC-10002305",
+            "OFF-AR-10003373",
+            "FUR-CH-10003774",
+            "OFF-BI-10001510",
+            "OFF-BI-10004236"
+        ]
+    },
+    {
+        "_id": "CA-2017-145583",
+        "transaction_date": "2017-10-13",
+        "customer_id": "LC-16885",
+        "buyer_name": "Lena Creighton",
+        "amount": "$24291.84",
+        "productIds": [
+            "OFF-PA-10001804",
+            "OFF-PA-10001736",
+            "OFF-AR-10001149",
+            "OFF-FA-10002988",
+            "OFF-BI-10004781",
+            "OFF-SU-10001218",
+            "FUR-FU-10001706"
+        ]
+    },
+    {
+        "_id": "CA-2017-145611",
+        "transaction_date": "2017-09-20",
+        "customer_id": "HA-14905",
+        "buyer_name": "Helen Abelman",
+        "amount": "$73.26",
+        "productIds": [
+            "OFF-AP-10001005"
+        ]
+    },
+    {
+        "_id": "CA-2017-145625",
+        "transaction_date": "2017-09-11",
+        "customer_id": "KC-16540",
+        "buyer_name": "Kelly Collister",
+        "amount": "$9741.70",
+        "productIds": [
+            "OFF-PA-10004569",
+            "TEC-AC-10003832"
+        ]
+    },
+    {
+        "_id": "CA-2017-145709",
+        "transaction_date": "2017-10-04",
+        "customer_id": "AH-10690",
+        "buyer_name": "Anna H\u00e4berlin",
+        "amount": "$26428.67",
+        "productIds": [
+            "TEC-PH-10003095",
+            "FUR-FU-10002885"
+        ]
+    },
+    {
+        "_id": "CA-2017-145730",
+        "transaction_date": "2017-03-03",
+        "customer_id": "CC-12220",
+        "buyer_name": "Chris Cortes",
+        "amount": "$6387.25",
+        "productIds": [
+            "FUR-TA-10004915",
+            "TEC-MA-10001016",
+            "OFF-EN-10000483"
+        ]
+    },
+    {
+        "_id": "CA-2017-145842",
+        "transaction_date": "2017-06-17",
+        "customer_id": "FM-14380",
+        "buyer_name": "Fred McMath",
+        "amount": "$711.00",
+        "productIds": [
+            "OFF-ST-10000419"
+        ]
+    },
+    {
+        "_id": "CA-2017-145898",
+        "transaction_date": "2017-09-26",
+        "customer_id": "CM-12445",
+        "buyer_name": "Chuck Magee",
+        "amount": "$15247.62",
+        "productIds": [
+            "OFF-ST-10004507",
+            "OFF-LA-10000262",
+            "OFF-AR-10002445",
+            "OFF-PA-10001667"
+        ]
+    },
+    {
+        "_id": "CA-2017-145905",
+        "transaction_date": "2017-09-18",
+        "customer_id": "AM-10705",
+        "buyer_name": "Anne McFarland",
+        "amount": "$20879.03",
+        "productIds": [
+            "FUR-CH-10001854",
+            "OFF-PA-10000533",
+            "OFF-ST-10003716"
+        ]
+    },
+    {
+        "_id": "CA-2017-145919",
+        "transaction_date": "2017-12-18",
+        "customer_id": "HG-14965",
+        "buyer_name": "Henry Goldwyn",
+        "amount": "$18687.28",
+        "productIds": [
+            "OFF-PA-10003072",
+            "FUR-FU-10004960",
+            "OFF-SU-10003505"
+        ]
+    },
+    {
+        "_id": "CA-2017-145982",
+        "transaction_date": "2017-08-27",
+        "customer_id": "TB-21055",
+        "buyer_name": "Ted Butterfield",
+        "amount": "$78829.90",
+        "productIds": [
+            "OFF-PA-10000675",
+            "FUR-TA-10001307",
+            "TEC-PH-10000011",
+            "OFF-PA-10002666",
+            "OFF-FA-10000735",
+            "OFF-BI-10000174"
+        ]
+    },
+    {
+        "_id": "CA-2017-146010",
+        "transaction_date": "2017-05-20",
+        "customer_id": "EH-14125",
+        "buyer_name": "Eugene Hildebrand",
+        "amount": "$1765.86",
+        "productIds": [
+            "OFF-BI-10003638"
+        ]
+    },
+    {
+        "_id": "CA-2017-146143",
+        "transaction_date": "2017-12-14",
+        "customer_id": "MC-17845",
+        "buyer_name": "Michael Chen",
+        "amount": "$1870.71",
+        "productIds": [
+            "FUR-FU-10002045"
+        ]
+    },
+    {
+        "_id": "CA-2017-146150",
+        "transaction_date": "2017-02-14",
+        "customer_id": "FM-14380",
+        "buyer_name": "Fred McMath",
+        "amount": "$3416.55",
+        "productIds": [
+            "OFF-AR-10002240"
+        ]
+    },
+    {
+        "_id": "CA-2017-146157",
+        "transaction_date": "2017-11-21",
+        "customer_id": "RD-19720",
+        "buyer_name": "Roger Demir",
+        "amount": "$7829.01",
+        "productIds": [
+            "OFF-PA-10001790",
+            "OFF-ST-10001590",
+            "TEC-AC-10003657"
+        ]
+    },
+    {
+        "_id": "CA-2017-146171",
+        "transaction_date": "2017-03-11",
+        "customer_id": "JP-16135",
+        "buyer_name": "Julie Prescott",
+        "amount": "$19205.06",
+        "productIds": [
+            "FUR-FU-10004270",
+            "OFF-ST-10001526"
+        ]
+    },
+    {
+        "_id": "CA-2017-146206",
+        "transaction_date": "2017-09-10",
+        "customer_id": "KT-16480",
+        "buyer_name": "Kean Thornton",
+        "amount": "$12680.19",
+        "productIds": [
+            "FUR-TA-10004086",
+            "TEC-PH-10000895"
+        ]
+    },
+    {
+        "_id": "CA-2017-146318",
+        "transaction_date": "2017-01-22",
+        "customer_id": "MC-17275",
+        "buyer_name": "Marc Crier",
+        "amount": "$8361.10",
+        "productIds": [
+            "OFF-PA-10003953"
+        ]
+    },
+    {
+        "_id": "CA-2017-146325",
+        "transaction_date": "2017-12-14",
+        "customer_id": "DS-13180",
+        "buyer_name": "David Smith",
+        "amount": "$11933.38",
+        "productIds": [
+            "FUR-CH-10001146",
+            "OFF-ST-10001590"
+        ]
+    },
+    {
+        "_id": "CA-2017-146423",
+        "transaction_date": "2017-04-21",
+        "customer_id": "BT-11680",
+        "buyer_name": "Brian Thompson",
+        "amount": "$12193.26",
+        "productIds": [
+            "OFF-AR-10004817",
+            "OFF-PA-10003797"
+        ]
+    },
+    {
+        "_id": "CA-2017-146437",
+        "transaction_date": "2017-01-28",
+        "customer_id": "HG-14965",
+        "buyer_name": "Henry Goldwyn",
+        "amount": "$2053.12",
+        "productIds": [
+            "OFF-AR-10000588"
+        ]
+    },
+    {
+        "_id": "CA-2017-146521",
+        "transaction_date": "2017-07-21",
+        "customer_id": "CC-12610",
+        "buyer_name": "Corey Catlett",
+        "amount": "$786.73",
+        "productIds": [
+            "OFF-BI-10000301"
+        ]
+    },
+    {
+        "_id": "CA-2017-146633",
+        "transaction_date": "2017-11-15",
+        "customer_id": "TG-21310",
+        "buyer_name": "Toby Gnade",
+        "amount": "$20722.75",
+        "productIds": [
+            "OFF-BI-10003527",
+            "OFF-BI-10002982"
+        ]
+    },
+    {
+        "_id": "CA-2017-146682",
+        "transaction_date": "2017-10-29",
+        "customer_id": "KW-16435",
+        "buyer_name": "Katrina Willman",
+        "amount": "$3675.50",
+        "productIds": [
+            "FUR-FU-10002671"
+        ]
+    },
+    {
+        "_id": "CA-2017-146766",
+        "transaction_date": "2017-11-04",
+        "customer_id": "TT-21220",
+        "buyer_name": "Thomas Thornton",
+        "amount": "$1917.54",
+        "productIds": [
+            "OFF-AR-10002135"
+        ]
+    },
+    {
+        "_id": "CA-2017-146836",
+        "transaction_date": "2017-05-02",
+        "customer_id": "CC-12475",
+        "buyer_name": "Cindy Chapman",
+        "amount": "$13925.13",
+        "productIds": [
+            "OFF-ST-10001580",
+            "OFF-BI-10000315"
+        ]
+    },
+    {
+        "_id": "CA-2017-146913",
+        "transaction_date": "2017-10-31",
+        "customer_id": "SF-20965",
+        "buyer_name": "Sylvia Foulston",
+        "amount": "$6998.80",
+        "productIds": [
+            "FUR-CH-10001854"
+        ]
+    },
+    {
+        "_id": "CA-2017-146934",
+        "transaction_date": "2017-05-22",
+        "customer_id": "AF-10870",
+        "buyer_name": "Art Ferguson",
+        "amount": "$21331.00",
+        "productIds": [
+            "TEC-PH-10004614",
+            "FUR-TA-10003748",
+            "OFF-AP-10003217",
+            "TEC-AC-10002399",
+            "OFF-EN-10002973",
+            "TEC-PH-10001336"
+        ]
+    },
+    {
+        "_id": "CA-2017-146941",
+        "transaction_date": "2017-12-10",
+        "customer_id": "DL-13315",
+        "buyer_name": "Delfina Latchford",
+        "amount": "$35368.39",
+        "productIds": [
+            "OFF-ST-10001228",
+            "OFF-EN-10003296"
+        ]
+    },
+    {
+        "_id": "CA-2017-147067",
+        "transaction_date": "2017-12-18",
+        "customer_id": "JD-16150",
+        "buyer_name": "Justin Deggeller",
+        "amount": "$650.02",
+        "productIds": [
+            "FUR-FU-10000732"
+        ]
+    },
+    {
+        "_id": "CA-2017-147109",
+        "transaction_date": "2017-12-17",
+        "customer_id": "AH-10075",
+        "buyer_name": "Adam Hart",
+        "amount": "$7992.22",
+        "productIds": [
+            "OFF-PA-10001972",
+            "TEC-AC-10002942"
+        ]
+    },
+    {
+        "_id": "CA-2017-147123",
+        "transaction_date": "2017-12-10",
+        "customer_id": "SJ-20125",
+        "buyer_name": "Sanjit Jacobs",
+        "amount": "$4309.76",
+        "productIds": [
+            "OFF-PA-10000575"
+        ]
+    },
+    {
+        "_id": "CA-2017-147137",
+        "transaction_date": "2017-07-04",
+        "customer_id": "AA-10645",
+        "buyer_name": "Anna Andreadi",
+        "amount": "$13823.14",
+        "productIds": [
+            "FUR-FU-10000221",
+            "OFF-EN-10003567",
+            "FUR-BO-10001811",
+            "OFF-ST-10002486"
+        ]
+    },
+    {
+        "_id": "CA-2017-147256",
+        "transaction_date": "2017-10-17",
+        "customer_id": "FC-14245",
+        "buyer_name": "Frank Carlisle",
+        "amount": "$13637.78",
+        "productIds": [
+            "TEC-PH-10003072",
+            "OFF-AP-10003057"
+        ]
+    },
+    {
+        "_id": "CA-2017-147368",
+        "transaction_date": "2017-06-09",
+        "customer_id": "TC-21295",
+        "buyer_name": "Toby Carlisle",
+        "amount": "$1897.60",
+        "productIds": [
+            "TEC-MA-10002178"
+        ]
+    },
+    {
+        "_id": "CA-2017-147375",
+        "transaction_date": "2017-06-12",
+        "customer_id": "PO-19180",
+        "buyer_name": "Philisse Overcash",
+        "amount": "$11287.74",
+        "productIds": [
+            "TEC-MA-10002937",
+            "OFF-PA-10001970"
+        ]
+    },
+    {
+        "_id": "CA-2017-147417",
+        "transaction_date": "2017-07-25",
+        "customer_id": "CB-12415",
+        "buyer_name": "Christy Brittain",
+        "amount": "$909.30",
+        "productIds": [
+            "TEC-CO-10001449"
+        ]
+    },
+    {
+        "_id": "CA-2017-147431",
+        "transaction_date": "2017-02-02",
+        "customer_id": "AB-10105",
+        "buyer_name": "Adrian Barton",
+        "amount": "$18451.98",
+        "productIds": [
+            "OFF-ST-10003994"
+        ]
+    },
+    {
+        "_id": "CA-2017-147473",
+        "transaction_date": "2017-05-30",
+        "customer_id": "NL-18310",
+        "buyer_name": "Nancy Lomonaco",
+        "amount": "$6787.07",
+        "productIds": [
+            "OFF-PA-10004782"
+        ]
+    },
+    {
+        "_id": "CA-2017-147536",
+        "transaction_date": "2017-12-26",
+        "customer_id": "AR-10510",
+        "buyer_name": "Andrew Roberts",
+        "amount": "$2894.94",
+        "productIds": [
+            "TEC-AC-10003280"
+        ]
+    },
+    {
+        "_id": "CA-2017-147578",
+        "transaction_date": "2017-04-22",
+        "customer_id": "PG-18895",
+        "buyer_name": "Paul Gonzalez",
+        "amount": "$5750.88",
+        "productIds": [
+            "FUR-FU-10001889"
+        ]
+    },
+    {
+        "_id": "CA-2017-147585",
+        "transaction_date": "2017-11-07",
+        "customer_id": "CB-12535",
+        "buyer_name": "Claudia Bergmann",
+        "amount": "$995.74",
+        "productIds": [
+            "FUR-FU-10002597"
+        ]
+    },
+    {
+        "_id": "CA-2017-147683",
+        "transaction_date": "2017-11-13",
+        "customer_id": "PO-19180",
+        "buyer_name": "Philisse Overcash",
+        "amount": "$4368.00",
+        "productIds": [
+            "FUR-FU-10004848"
+        ]
+    },
+    {
+        "_id": "CA-2017-147970",
+        "transaction_date": "2017-01-31",
+        "customer_id": "AB-10150",
+        "buyer_name": "Aimee Bixby",
+        "amount": "$262.15",
+        "productIds": [
+            "OFF-PA-10003936"
+        ]
+    },
+    {
+        "_id": "CA-2017-148096",
+        "transaction_date": "2017-08-16",
+        "customer_id": "AO-10810",
+        "buyer_name": "Anthony O'Donnell",
+        "amount": "$16509.50",
+        "productIds": [
+            "FUR-TA-10004152"
+        ]
+    },
+    {
+        "_id": "CA-2017-148201",
+        "transaction_date": "2017-08-26",
+        "customer_id": "CC-12145",
+        "buyer_name": "Charles Crestani",
+        "amount": "$9793.52",
+        "productIds": [
+            "OFF-PA-10000019"
+        ]
+    },
+    {
+        "_id": "CA-2017-148208",
+        "transaction_date": "2017-01-22",
+        "customer_id": "BT-11530",
+        "buyer_name": "Bradley Talbott",
+        "amount": "$1548.52",
+        "productIds": [
+            "TEC-PH-10004093",
+            "TEC-AC-10000171"
+        ]
+    },
+    {
+        "_id": "CA-2017-148516",
+        "transaction_date": "2017-08-07",
+        "customer_id": "DW-13585",
+        "buyer_name": "Dorothy Wardle",
+        "amount": "$3524.64",
+        "productIds": [
+            "TEC-AC-10003610"
+        ]
+    },
+    {
+        "_id": "CA-2017-148593",
+        "transaction_date": "2017-06-16",
+        "customer_id": "BD-11320",
+        "buyer_name": "Bill Donatelli",
+        "amount": "$2428.24",
+        "productIds": [
+            "OFF-PA-10001776"
+        ]
+    },
+    {
+        "_id": "CA-2017-148684",
+        "transaction_date": "2017-12-25",
+        "customer_id": "TS-21655",
+        "buyer_name": "Trudy Schmidt",
+        "amount": "$13758.71",
+        "productIds": [
+            "OFF-AR-10003811",
+            "TEC-AC-10001838",
+            "FUR-FU-10003553",
+            "OFF-PA-10003302"
+        ]
+    },
+    {
+        "_id": "CA-2017-148698",
+        "transaction_date": "2017-05-02",
+        "customer_id": "BD-11770",
+        "buyer_name": "Bryan Davis",
+        "amount": "$17646.24",
+        "productIds": [
+            "OFF-AR-10004022"
+        ]
+    },
+    {
+        "_id": "CA-2017-148740",
+        "transaction_date": "2017-11-15",
+        "customer_id": "AH-10690",
+        "buyer_name": "Anna H\u00e4berlin",
+        "amount": "$2091.64",
+        "productIds": [
+            "TEC-PH-10002549"
+        ]
+    },
+    {
+        "_id": "CA-2017-148747",
+        "transaction_date": "2017-09-25",
+        "customer_id": "AS-10045",
+        "buyer_name": "Aaron Smayling",
+        "amount": "$4874.70",
+        "productIds": [
+            "FUR-BO-10002613"
+        ]
+    },
+    {
+        "_id": "CA-2017-148796",
+        "transaction_date": "2017-04-14",
+        "customer_id": "PB-19150",
+        "buyer_name": "Philip Brown",
+        "amount": "$1400.22",
+        "productIds": [
+            "FUR-CH-10004886"
+        ]
+    },
+    {
+        "_id": "CA-2017-148852",
+        "transaction_date": "2017-05-26",
+        "customer_id": "SV-20785",
+        "buyer_name": "Stewart Visinsky",
+        "amount": "$42120.08",
+        "productIds": [
+            "OFF-FA-10003467",
+            "OFF-PA-10001293",
+            "TEC-PH-10003885",
+            "FUR-CH-10004860",
+            "TEC-MA-10002428"
+        ]
+    },
+    {
+        "_id": "CA-2017-148908",
+        "transaction_date": "2017-11-05",
+        "customer_id": "JH-15985",
+        "buyer_name": "Joseph Holt",
+        "amount": "$16220.87",
+        "productIds": [
+            "OFF-BI-10002082"
+        ]
+    },
+    {
+        "_id": "CA-2017-149111",
+        "transaction_date": "2017-04-17",
+        "customer_id": "BF-11170",
+        "buyer_name": "Ben Ferrer",
+        "amount": "$2506.30",
+        "productIds": [
+            "TEC-PH-10003092",
+            "FUR-FU-10000206"
+        ]
+    },
+    {
+        "_id": "CA-2017-149195",
+        "transaction_date": "2017-09-05",
+        "customer_id": "DM-13525",
+        "buyer_name": "Don Miller",
+        "amount": "$20521.85",
+        "productIds": [
+            "OFF-PA-10001870",
+            "OFF-FA-10001843",
+            "OFF-PA-10002036"
+        ]
+    },
+    {
+        "_id": "CA-2017-149223",
+        "transaction_date": "2017-09-06",
+        "customer_id": "ER-13855",
+        "buyer_name": "Elpida Rittenbach",
+        "amount": "$8423.90",
+        "productIds": [
+            "OFF-AP-10000358"
+        ]
+    },
+    {
+        "_id": "CA-2017-149237",
+        "transaction_date": "2017-05-26",
+        "customer_id": "CM-12235",
+        "buyer_name": "Chris McAfee",
+        "amount": "$5586.70",
+        "productIds": [
+            "FUR-FU-10002088"
+        ]
+    },
+    {
+        "_id": "CA-2017-149279",
+        "transaction_date": "2017-04-24",
+        "customer_id": "CL-12700",
+        "buyer_name": "Craig Leslie",
+        "amount": "$10121.84",
+        "productIds": [
+            "OFF-PA-10003441",
+            "FUR-CH-10004287",
+            "OFF-BI-10004040"
+        ]
+    },
+    {
+        "_id": "CA-2017-149314",
+        "transaction_date": "2017-07-02",
+        "customer_id": "GB-14530",
+        "buyer_name": "George Bell",
+        "amount": "$526.36",
+        "productIds": [
+            "FUR-CH-10002126"
+        ]
+    },
+    {
+        "_id": "CA-2017-149335",
+        "transaction_date": "2017-07-25",
+        "customer_id": "BC-11125",
+        "buyer_name": "Becky Castell",
+        "amount": "$4263.04",
+        "productIds": [
+            "OFF-AR-10001419"
+        ]
+    },
+    {
+        "_id": "CA-2017-149349",
+        "transaction_date": "2017-11-12",
+        "customer_id": "SP-20650",
+        "buyer_name": "Stephanie Phelps",
+        "amount": "$14513.40",
+        "productIds": [
+            "FUR-FU-10001037"
+        ]
+    },
+    {
+        "_id": "CA-2017-149370",
+        "transaction_date": "2017-09-15",
+        "customer_id": "DB-13210",
+        "buyer_name": "Dean Braden",
+        "amount": "$3938.51",
+        "productIds": [
+            "OFF-PA-10003651"
+        ]
+    },
+    {
+        "_id": "CA-2017-149454",
+        "transaction_date": "2017-07-25",
+        "customer_id": "KM-16375",
+        "buyer_name": "Katherine Murray",
+        "amount": "$19005.58",
+        "productIds": [
+            "OFF-BI-10003694"
+        ]
+    },
+    {
+        "_id": "CA-2017-149461",
+        "transaction_date": "2017-11-13",
+        "customer_id": "AS-10135",
+        "buyer_name": "Adrian Shami",
+        "amount": "$5317.48",
+        "productIds": [
+            "FUR-FU-10004270"
+        ]
+    },
+    {
+        "_id": "CA-2017-149482",
+        "transaction_date": "2017-11-14",
+        "customer_id": "RR-19315",
+        "buyer_name": "Ralph Ritter",
+        "amount": "$17623.25",
+        "productIds": [
+            "OFF-LA-10000248"
+        ]
+    },
+    {
+        "_id": "CA-2017-149503",
+        "transaction_date": "2017-12-09",
+        "customer_id": "SP-20650",
+        "buyer_name": "Stephanie Phelps",
+        "amount": "$6641.25",
+        "productIds": [
+            "OFF-BI-10002133"
+        ]
+    },
+    {
+        "_id": "CA-2017-149671",
+        "transaction_date": "2017-06-05",
+        "customer_id": "KB-16600",
+        "buyer_name": "Ken Brennan",
+        "amount": "$9927.17",
+        "productIds": [
+            "OFF-SU-10002537"
+        ]
+    },
+    {
+        "_id": "CA-2017-149685",
+        "transaction_date": "2017-10-08",
+        "customer_id": "PM-19135",
+        "buyer_name": "Peter McVee",
+        "amount": "$1901.58",
+        "productIds": [
+            "OFF-LA-10004545"
+        ]
+    },
+    {
+        "_id": "CA-2017-149762",
+        "transaction_date": "2017-12-03",
+        "customer_id": "RD-19720",
+        "buyer_name": "Roger Demir",
+        "amount": "$38276.92",
+        "productIds": [
+            "FUR-TA-10004147",
+            "OFF-AR-10001662",
+            "OFF-ST-10001558",
+            "FUR-BO-10001337"
+        ]
+    },
+    {
+        "_id": "CA-2017-149783",
+        "transaction_date": "2017-09-04",
+        "customer_id": "DL-13315",
+        "buyer_name": "Delfina Latchford",
+        "amount": "$15171.12",
+        "productIds": [
+            "OFF-PA-10002195",
+            "OFF-AP-10001205",
+            "OFF-AR-10002987"
+        ]
+    },
+    {
+        "_id": "CA-2017-149797",
+        "transaction_date": "2017-09-15",
+        "customer_id": "AH-10075",
+        "buyer_name": "Adam Hart",
+        "amount": "$2698.04",
+        "productIds": [
+            "OFF-BI-10003650"
+        ]
+    },
+    {
+        "_id": "CA-2017-149902",
+        "transaction_date": "2017-04-01",
+        "customer_id": "DW-13540",
+        "buyer_name": "Don Weiss",
+        "amount": "$1041.60",
+        "productIds": [
+            "OFF-AR-10002956"
+        ]
+    },
+    {
+        "_id": "CA-2017-149916",
+        "transaction_date": "2017-12-22",
+        "customer_id": "ED-13885",
+        "buyer_name": "Emily Ducich",
+        "amount": "$18817.08",
+        "productIds": [
+            "OFF-BI-10004002",
+            "TEC-MA-10000752"
+        ]
+    },
+    {
+        "_id": "CA-2017-149965",
+        "transaction_date": "2017-06-20",
+        "customer_id": "BS-11365",
+        "buyer_name": "Bill Shonely",
+        "amount": "$7767.29",
+        "productIds": [
+            "TEC-AC-10004877",
+            "FUR-FU-10004270"
+        ]
+    },
+    {
+        "_id": "CA-2017-149979",
+        "transaction_date": "2017-09-23",
+        "customer_id": "RA-19915",
+        "buyer_name": "Russell Applegate",
+        "amount": "$18571.90",
+        "productIds": [
+            "OFF-ST-10003058",
+            "FUR-CH-10002084"
+        ]
+    },
+    {
+        "_id": "CA-2017-150000",
+        "transaction_date": "2017-04-08",
+        "customer_id": "PG-18820",
+        "buyer_name": "Patrick Gardner",
+        "amount": "$3405.82",
+        "productIds": [
+            "OFF-EN-10002973"
+        ]
+    },
+    {
+        "_id": "CA-2017-150007",
+        "transaction_date": "2017-09-11",
+        "customer_id": "AS-10090",
+        "buyer_name": "Adam Shillingsburg",
+        "amount": "$11527.69",
+        "productIds": [
+            "OFF-LA-10001982",
+            "OFF-BI-10004141"
+        ]
+    },
+    {
+        "_id": "CA-2017-150077",
+        "transaction_date": "2017-02-04",
+        "customer_id": "MS-17365",
+        "buyer_name": "Maribeth Schnelling",
+        "amount": "$9420.18",
+        "productIds": [
+            "TEC-PH-10002890"
+        ]
+    },
+    {
+        "_id": "CA-2017-150343",
+        "transaction_date": "2017-08-16",
+        "customer_id": "PK-19075",
+        "buyer_name": "Pete Kriz",
+        "amount": "$1410.75",
+        "productIds": [
+            "OFF-EN-10004030"
+        ]
+    },
+    {
+        "_id": "CA-2017-150350",
+        "transaction_date": "2017-08-23",
+        "customer_id": "MS-17770",
+        "buyer_name": "Maxwell Schwartz",
+        "amount": "$44629.84",
+        "productIds": [
+            "TEC-MA-10001972",
+            "OFF-EN-10002504",
+            "OFF-PA-10002160",
+            "FUR-CH-10001973",
+            "OFF-AP-10001492",
+            "OFF-SU-10002189"
+        ]
+    },
+    {
+        "_id": "CA-2017-150483",
+        "transaction_date": "2017-05-31",
+        "customer_id": "BP-11290",
+        "buyer_name": "Beth Paige",
+        "amount": "$23695.13",
+        "productIds": [
+            "FUR-FU-10001379",
+            "OFF-PA-10001846",
+            "FUR-CH-10000422",
+            "OFF-PA-10004621"
+        ]
+    },
+    {
+        "_id": "CA-2017-150658",
+        "transaction_date": "2017-11-17",
+        "customer_id": "MS-17365",
+        "buyer_name": "Maribeth Schnelling",
+        "amount": "$8521.50",
+        "productIds": [
+            "OFF-BI-10004140"
+        ]
+    },
+    {
+        "_id": "CA-2017-150889",
+        "transaction_date": "2017-03-20",
+        "customer_id": "PB-19105",
+        "buyer_name": "Peter B\u00fchler",
+        "amount": "$10186.75",
+        "productIds": [
+            "TEC-PH-10000004"
+        ]
+    },
+    {
+        "_id": "CA-2017-150945",
+        "transaction_date": "2017-12-18",
+        "customer_id": "JK-16120",
+        "buyer_name": "Julie Kriz",
+        "amount": "$1841.29",
+        "productIds": [
+            "OFF-ST-10003716"
+        ]
+    },
+    {
+        "_id": "CA-2017-151092",
+        "transaction_date": "2017-08-06",
+        "customer_id": "VG-21790",
+        "buyer_name": "Vivek Gonzalez",
+        "amount": "$8004.90",
+        "productIds": [
+            "TEC-PH-10001700"
+        ]
+    },
+    {
+        "_id": "CA-2017-151141",
+        "transaction_date": "2017-08-20",
+        "customer_id": "DW-13480",
+        "buyer_name": "Dianna Wilson",
+        "amount": "$4828.45",
+        "productIds": [
+            "TEC-PH-10004924"
+        ]
+    },
+    {
+        "_id": "CA-2017-151148",
+        "transaction_date": "2017-09-12",
+        "customer_id": "PO-19180",
+        "buyer_name": "Philisse Overcash",
+        "amount": "$24084.02",
+        "productIds": [
+            "TEC-PH-10001870",
+            "FUR-CH-10002304"
+        ]
+    },
+    {
+        "_id": "CA-2017-151155",
+        "transaction_date": "2017-12-20",
+        "customer_id": "AB-10255",
+        "buyer_name": "Alejandro Ballentine",
+        "amount": "$20089.96",
+        "productIds": [
+            "FUR-FU-10001918",
+            "OFF-BI-10003910"
+        ]
+    },
+    {
+        "_id": "CA-2017-151169",
+        "transaction_date": "2017-10-21",
+        "customer_id": "MY-18295",
+        "buyer_name": "Muhammed Yedwab",
+        "amount": "$1955.12",
+        "productIds": [
+            "OFF-BI-10002813"
+        ]
+    },
+    {
+        "_id": "CA-2017-151323",
+        "transaction_date": "2017-10-23",
+        "customer_id": "AB-10255",
+        "buyer_name": "Alejandro Ballentine",
+        "amount": "$16574.60",
+        "productIds": [
+            "OFF-FA-10002983"
+        ]
+    },
+    {
+        "_id": "CA-2017-151372",
+        "transaction_date": "2017-09-05",
+        "customer_id": "JH-15985",
+        "buyer_name": "Joseph Holt",
+        "amount": "$42216.66",
+        "productIds": [
+            "OFF-PA-10004381",
+            "OFF-BI-10000050",
+            "OFF-FA-10000304"
+        ]
+    },
+    {
+        "_id": "CA-2017-151498",
+        "transaction_date": "2017-04-21",
+        "customer_id": "DN-13690",
+        "buyer_name": "Duane Noonan",
+        "amount": "$4550.20",
+        "productIds": [
+            "OFF-BI-10004967"
+        ]
+    },
+    {
+        "_id": "CA-2017-151512",
+        "transaction_date": "2017-12-26",
+        "customer_id": "SH-19975",
+        "buyer_name": "Sally Hughsby",
+        "amount": "$608.22",
+        "productIds": [
+            "OFF-AP-10000252"
+        ]
+    },
+    {
+        "_id": "CA-2017-151561",
+        "transaction_date": "2017-09-01",
+        "customer_id": "PG-18820",
+        "buyer_name": "Patrick Gardner",
+        "amount": "$11617.42",
+        "productIds": [
+            "TEC-AC-10001432",
+            "TEC-AC-10003399",
+            "OFF-SU-10001574",
+            "FUR-FU-10004864"
+        ]
+    },
+    {
+        "_id": "CA-2017-151974",
+        "transaction_date": "2017-09-22",
+        "customer_id": "RD-19660",
+        "buyer_name": "Robert Dilbeck",
+        "amount": "$3032.73",
+        "productIds": [
+            "OFF-LA-10004484"
+        ]
+    },
+    {
+        "_id": "CA-2017-152072",
+        "transaction_date": "2017-01-15",
+        "customer_id": "Dp-13240",
+        "buyer_name": "Dean percer",
+        "amount": "$37129.15",
+        "productIds": [
+            "OFF-EN-10003040",
+            "OFF-AR-10001573",
+            "TEC-AC-10000844"
+        ]
+    },
+    {
+        "_id": "CA-2017-152121",
+        "transaction_date": "2017-11-27",
+        "customer_id": "CC-12670",
+        "buyer_name": "Craig Carreira",
+        "amount": "$5230.82",
+        "productIds": [
+            "TEC-PH-10002483"
+        ]
+    },
+    {
+        "_id": "CA-2017-152156",
+        "transaction_date": "2017-11-08",
+        "customer_id": "CG-12520",
+        "buyer_name": "Claire Gute",
+        "amount": "$5268.64",
+        "productIds": [
+            "FUR-BO-10001798",
+            "FUR-CH-10000454"
+        ]
+    },
+    {
+        "_id": "CA-2017-152163",
+        "transaction_date": "2017-07-01",
+        "customer_id": "JF-15355",
+        "buyer_name": "Jay Fein",
+        "amount": "$13623.78",
+        "productIds": [
+            "OFF-BI-10002215",
+            "OFF-PA-10000788",
+            "OFF-BI-10003364"
+        ]
+    },
+    {
+        "_id": "CA-2017-152170",
+        "transaction_date": "2017-11-12",
+        "customer_id": "FH-14275",
+        "buyer_name": "Frank Hawley",
+        "amount": "$51771.02",
+        "productIds": [
+            "OFF-EN-10002831",
+            "OFF-AP-10002350",
+            "OFF-PA-10001763",
+            "OFF-AR-10003394",
+            "OFF-BI-10002072"
+        ]
+    },
+    {
+        "_id": "CA-2017-152247",
+        "transaction_date": "2017-11-07",
+        "customer_id": "MA-17995",
+        "buyer_name": "Michelle Arnett",
+        "amount": "$7813.50",
+        "productIds": [
+            "FUR-CH-10001215"
+        ]
+    },
+    {
+        "_id": "CA-2017-152289",
+        "transaction_date": "2017-08-26",
+        "customer_id": "LC-16930",
+        "buyer_name": "Linda Cazamias",
+        "amount": "$13193.73",
+        "productIds": [
+            "TEC-AC-10004571",
+            "FUR-CH-10002126"
+        ]
+    },
+    {
+        "_id": "CA-2017-152331",
+        "transaction_date": "2017-06-26",
+        "customer_id": "LD-16855",
+        "buyer_name": "Lela Donovan",
+        "amount": "$4454.00",
+        "productIds": [
+            "OFF-AR-10001547"
+        ]
+    },
+    {
+        "_id": "CA-2017-152408",
+        "transaction_date": "2017-05-15",
+        "customer_id": "TT-21220",
+        "buyer_name": "Thomas Thornton",
+        "amount": "$2846.76",
+        "productIds": [
+            "OFF-BI-10002393"
+        ]
+    },
+    {
+        "_id": "CA-2017-152457",
+        "transaction_date": "2017-09-12",
+        "customer_id": "SC-20695",
+        "buyer_name": "Steve Chapman",
+        "amount": "$3838.80",
+        "productIds": [
+            "OFF-PA-10003790"
+        ]
+    },
+    {
+        "_id": "CA-2017-152471",
+        "transaction_date": "2017-07-08",
+        "customer_id": "ZD-21925",
+        "buyer_name": "Zuschuss Donatelli",
+        "amount": "$17654.34",
+        "productIds": [
+            "TEC-PH-10002824",
+            "OFF-PA-10004965"
+        ]
+    },
+    {
+        "_id": "CA-2017-152520",
+        "transaction_date": "2017-07-08",
+        "customer_id": "TH-21115",
+        "buyer_name": "Thea Hudgings",
+        "amount": "$8179.65",
+        "productIds": [
+            "OFF-PA-10000289"
+        ]
+    },
+    {
+        "_id": "CA-2017-152534",
+        "transaction_date": "2017-06-20",
+        "customer_id": "DP-13105",
+        "buyer_name": "Dave Poirier",
+        "amount": "$6164.92",
+        "productIds": [
+            "OFF-AR-10002335",
+            "OFF-PA-10001870"
+        ]
+    },
+    {
+        "_id": "CA-2017-152555",
+        "transaction_date": "2017-03-29",
+        "customer_id": "ME-17320",
+        "buyer_name": "Maria Etezadi",
+        "amount": "$9300.84",
+        "productIds": [
+            "OFF-PA-10001295",
+            "FUR-CH-10002965",
+            "TEC-PH-10001254"
+        ]
+    },
+    {
+        "_id": "CA-2017-152632",
+        "transaction_date": "2017-10-27",
+        "customer_id": "JE-15475",
+        "buyer_name": "Jeremy Ellison",
+        "amount": "$3942.30",
+        "productIds": [
+            "FUR-FU-10002671"
+        ]
+    },
+    {
+        "_id": "CA-2017-152646",
+        "transaction_date": "2017-11-21",
+        "customer_id": "TH-21235",
+        "buyer_name": "Tiffany House",
+        "amount": "$4339.20",
+        "productIds": [
+            "OFF-PA-10004451"
+        ]
+    },
+    {
+        "_id": "CA-2017-152688",
+        "transaction_date": "2017-10-17",
+        "customer_id": "NR-18550",
+        "buyer_name": "Nick Radford",
+        "amount": "$10798.20",
+        "productIds": [
+            "FUR-BO-10001337",
+            "OFF-BI-10004584"
+        ]
+    },
+    {
+        "_id": "CA-2017-152730",
+        "transaction_date": "2017-05-30",
+        "customer_id": "EM-14140",
+        "buyer_name": "Eugene Moren",
+        "amount": "$48049.42",
+        "productIds": [
+            "OFF-AP-10002684",
+            "FUR-FU-10001037",
+            "OFF-ST-10000876",
+            "OFF-AR-10003732",
+            "OFF-PA-10000994",
+            "OFF-AR-10000940",
+            "OFF-PA-10004888",
+            "TEC-PH-10000441"
+        ]
+    },
+    {
+        "_id": "CA-2017-152765",
+        "transaction_date": "2017-06-15",
+        "customer_id": "LS-17245",
+        "buyer_name": "Lynn Smith",
+        "amount": "$14520.00",
+        "productIds": [
+            "OFF-PA-10000483"
+        ]
+    },
+    {
+        "_id": "CA-2017-152800",
+        "transaction_date": "2017-04-13",
+        "customer_id": "SP-20920",
+        "buyer_name": "Susan Pistek",
+        "amount": "$8460.32",
+        "productIds": [
+            "OFF-EN-10001509"
+        ]
+    },
+    {
+        "_id": "CA-2017-152814",
+        "transaction_date": "2017-04-28",
+        "customer_id": "EH-14005",
+        "buyer_name": "Erica Hernandez",
+        "amount": "$10233.75",
+        "productIds": [
+            "OFF-PA-10001970"
+        ]
+    },
+    {
+        "_id": "CA-2017-152940",
+        "transaction_date": "2017-11-10",
+        "customer_id": "RO-19780",
+        "buyer_name": "Rose O'Brian",
+        "amount": "$5285.52",
+        "productIds": [
+            "OFF-ST-10000352"
+        ]
+    },
+    {
+        "_id": "CA-2017-153101",
+        "transaction_date": "2017-09-08",
+        "customer_id": "PJ-19015",
+        "buyer_name": "Pauline Johnson",
+        "amount": "$1848.88",
+        "productIds": [
+            "FUR-TA-10003008"
+        ]
+    },
+    {
+        "_id": "CA-2017-153157",
+        "transaction_date": "2017-09-11",
+        "customer_id": "TB-21625",
+        "buyer_name": "Trudy Brown",
+        "amount": "$1401.12",
+        "productIds": [
+            "TEC-PH-10003171"
+        ]
+    },
+    {
+        "_id": "CA-2017-153178",
+        "transaction_date": "2017-09-14",
+        "customer_id": "CL-12565",
+        "buyer_name": "Clay Ludtke",
+        "amount": "$14519.92",
+        "productIds": [
+            "TEC-PH-10001944",
+            "OFF-BI-10004390"
+        ]
+    },
+    {
+        "_id": "CA-2017-153185",
+        "transaction_date": "2017-09-03",
+        "customer_id": "MH-17620",
+        "buyer_name": "Matt Hagelstein",
+        "amount": "$6160.14",
+        "productIds": [
+            "OFF-PA-10002246"
+        ]
+    },
+    {
+        "_id": "CA-2017-153269",
+        "transaction_date": "2017-03-09",
+        "customer_id": "PS-18760",
+        "buyer_name": "Pamela Stobb",
+        "amount": "$10270.94",
+        "productIds": [
+            "OFF-ST-10004634",
+            "FUR-CH-10002647",
+            "OFF-PA-10001801",
+            "OFF-BI-10004632"
+        ]
+    },
+    {
+        "_id": "CA-2017-153318",
+        "transaction_date": "2017-10-25",
+        "customer_id": "JS-15595",
+        "buyer_name": "Jill Stevenson",
+        "amount": "$76.28",
+        "productIds": [
+            "TEC-PH-10000984"
+        ]
+    },
+    {
+        "_id": "CA-2017-153346",
+        "transaction_date": "2017-01-25",
+        "customer_id": "TB-21355",
+        "buyer_name": "Todd Boyes",
+        "amount": "$12206.22",
+        "productIds": [
+            "OFF-AR-10000315",
+            "OFF-PA-10000007"
+        ]
+    },
+    {
+        "_id": "CA-2017-153353",
+        "transaction_date": "2017-08-18",
+        "customer_id": "GG-14650",
+        "buyer_name": "Greg Guthrie",
+        "amount": "$16522.56",
+        "productIds": [
+            "TEC-PH-10000439"
+        ]
+    },
+    {
+        "_id": "CA-2017-153577",
+        "transaction_date": "2017-06-27",
+        "customer_id": "KH-16330",
+        "buyer_name": "Katharine Harms",
+        "amount": "$2941.75",
+        "productIds": [
+            "OFF-PA-10000575",
+            "FUR-CH-10003981"
+        ]
+    },
+    {
+        "_id": "CA-2017-153598",
+        "transaction_date": "2017-12-03",
+        "customer_id": "NM-18520",
+        "buyer_name": "Neoma Murray",
+        "amount": "$4494.18",
+        "productIds": [
+            "TEC-AC-10003870",
+            "FUR-FU-10001085"
+        ]
+    },
+    {
+        "_id": "CA-2017-153661",
+        "transaction_date": "2017-01-30",
+        "customer_id": "SC-20725",
+        "buyer_name": "Steven Cartwright",
+        "amount": "$14573.65",
+        "productIds": [
+            "OFF-ST-10000675",
+            "OFF-BI-10004781",
+            "OFF-LA-10004689"
+        ]
+    },
+    {
+        "_id": "CA-2017-153682",
+        "transaction_date": "2017-05-30",
+        "customer_id": "BG-11695",
+        "buyer_name": "Brooke Gillingham",
+        "amount": "$10303.44",
+        "productIds": [
+            "TEC-CO-10001046"
+        ]
+    },
+    {
+        "_id": "CA-2017-153836",
+        "transaction_date": "2017-10-30",
+        "customer_id": "EH-13765",
+        "buyer_name": "Edward Hooks",
+        "amount": "$30576.66",
+        "productIds": [
+            "OFF-BI-10004817",
+            "OFF-AR-10004602"
+        ]
+    },
+    {
+        "_id": "CA-2017-154018",
+        "transaction_date": "2017-10-13",
+        "customer_id": "HA-14920",
+        "buyer_name": "Helen Andreada",
+        "amount": "$39757.86",
+        "productIds": [
+            "TEC-AC-10002402",
+            "OFF-PA-10000551",
+            "FUR-FU-10003394",
+            "OFF-AR-10002067",
+            "OFF-BI-10004140"
+        ]
+    },
+    {
+        "_id": "CA-2017-154053",
+        "transaction_date": "2017-03-04",
+        "customer_id": "MG-17890",
+        "buyer_name": "Michael Granlund",
+        "amount": "$1341.40",
+        "productIds": [
+            "OFF-AR-10003727"
+        ]
+    },
+    {
+        "_id": "CA-2017-154060",
+        "transaction_date": "2017-05-02",
+        "customer_id": "DL-12865",
+        "buyer_name": "Dan Lawera",
+        "amount": "$1024.04",
+        "productIds": [
+            "FUR-CH-10002304"
+        ]
+    },
+    {
+        "_id": "CA-2017-154067",
+        "transaction_date": "2017-02-01",
+        "customer_id": "SM-20950",
+        "buyer_name": "Suzanne McNair",
+        "amount": "$4829.70",
+        "productIds": [
+            "OFF-PA-10002254"
+        ]
+    },
+    {
+        "_id": "CA-2017-154081",
+        "transaction_date": "2017-05-22",
+        "customer_id": "JE-15610",
+        "buyer_name": "Jim Epp",
+        "amount": "$3556.64",
+        "productIds": [
+            "TEC-PH-10001918"
+        ]
+    },
+    {
+        "_id": "CA-2017-154235",
+        "transaction_date": "2017-09-24",
+        "customer_id": "RD-19900",
+        "buyer_name": "Ruben Dartt",
+        "amount": "$8305.00",
+        "productIds": [
+            "FUR-FU-10004006"
+        ]
+    },
+    {
+        "_id": "CA-2017-154403",
+        "transaction_date": "2017-05-23",
+        "customer_id": "AP-10720",
+        "buyer_name": "Anne Pryor",
+        "amount": "$1227.38",
+        "productIds": [
+            "OFF-PA-10001526"
+        ]
+    },
+    {
+        "_id": "CA-2017-154508",
+        "transaction_date": "2017-11-16",
+        "customer_id": "RD-19900",
+        "buyer_name": "Ruben Dartt",
+        "amount": "$2244.85",
+        "productIds": [
+            "OFF-EN-10001990"
+        ]
+    },
+    {
+        "_id": "CA-2017-154536",
+        "transaction_date": "2017-09-05",
+        "customer_id": "JC-15340",
+        "buyer_name": "Jasper Cacioppo",
+        "amount": "$8316.40",
+        "productIds": [
+            "OFF-BI-10004410"
+        ]
+    },
+    {
+        "_id": "CA-2017-154662",
+        "transaction_date": "2017-06-09",
+        "customer_id": "BF-11215",
+        "buyer_name": "Benjamin Farhat",
+        "amount": "$16195.20",
+        "productIds": [
+            "FUR-TA-10001771"
+        ]
+    },
+    {
+        "_id": "CA-2017-154690",
+        "transaction_date": "2017-08-15",
+        "customer_id": "CC-12370",
+        "buyer_name": "Christopher Conant",
+        "amount": "$2287.38",
+        "productIds": [
+            "FUR-CH-10000988"
+        ]
+    },
+    {
+        "_id": "CA-2017-154711",
+        "transaction_date": "2017-11-22",
+        "customer_id": "TB-21355",
+        "buyer_name": "Todd Boyes",
+        "amount": "$34307.41",
+        "productIds": [
+            "FUR-FU-10000397",
+            "OFF-BI-10000605",
+            "OFF-AR-10001860"
+        ]
+    },
+    {
+        "_id": "CA-2017-154739",
+        "transaction_date": "2017-12-10",
+        "customer_id": "LH-17155",
+        "buyer_name": "Logan Haushalter",
+        "amount": "$1332.66",
+        "productIds": [
+            "FUR-CH-10002965"
+        ]
+    },
+    {
+        "_id": "CA-2017-154767",
+        "transaction_date": "2017-06-28",
+        "customer_id": "BP-11155",
+        "buyer_name": "Becky Pak",
+        "amount": "$38848.15",
+        "productIds": [
+            "FUR-CH-10003535",
+            "OFF-AP-10000595",
+            "OFF-PA-10003039",
+            "OFF-BI-10002003",
+            "OFF-AP-10002311"
+        ]
+    },
+    {
+        "_id": "CA-2017-154788",
+        "transaction_date": "2017-04-30",
+        "customer_id": "JL-15835",
+        "buyer_name": "John Lee",
+        "amount": "$1658.60",
+        "productIds": [
+            "OFF-BI-10003314"
+        ]
+    },
+    {
+        "_id": "CA-2017-154998",
+        "transaction_date": "2017-04-07",
+        "customer_id": "ES-14080",
+        "buyer_name": "Erin Smith",
+        "amount": "$943.41",
+        "productIds": [
+            "OFF-PA-10004243"
+        ]
+    },
+    {
+        "_id": "CA-2017-155005",
+        "transaction_date": "2017-06-13",
+        "customer_id": "SC-20050",
+        "buyer_name": "Sample Company A",
+        "amount": "$7037.52",
+        "productIds": [
+            "TEC-PH-10003484"
+        ]
+    },
+    {
+        "_id": "CA-2017-155033",
+        "transaction_date": "2017-10-07",
+        "customer_id": "CC-12475",
+        "buyer_name": "Cindy Chapman",
+        "amount": "$1359.90",
+        "productIds": [
+            "OFF-PA-10000143"
+        ]
+    },
+    {
+        "_id": "CA-2017-155138",
+        "transaction_date": "2017-09-08",
+        "customer_id": "JM-15580",
+        "buyer_name": "Jill Matthias",
+        "amount": "$16079.29",
+        "productIds": [
+            "TEC-AC-10004209",
+            "OFF-PA-10000501"
+        ]
+    },
+    {
+        "_id": "CA-2017-155166",
+        "transaction_date": "2017-12-26",
+        "customer_id": "BB-11545",
+        "buyer_name": "Brenda Bowman",
+        "amount": "$1384.61",
+        "productIds": [
+            "FUR-CH-10003968",
+            "OFF-AP-10002765"
+        ]
+    },
+    {
+        "_id": "CA-2017-155187",
+        "transaction_date": "2017-09-24",
+        "customer_id": "LA-16780",
+        "buyer_name": "Laura Armstrong",
+        "amount": "$849.62",
+        "productIds": [
+            "OFF-ST-10000642",
+            "OFF-PA-10000380"
+        ]
+    },
+    {
+        "_id": "CA-2017-155383",
+        "transaction_date": "2017-12-17",
+        "customer_id": "SC-20680",
+        "buyer_name": "Steve Carroll",
+        "amount": "$1915.01",
+        "productIds": [
+            "OFF-ST-10001328"
+        ]
+    },
+    {
+        "_id": "CA-2017-155439",
+        "transaction_date": "2017-09-14",
+        "customer_id": "PN-18775",
+        "buyer_name": "Parhena Norris",
+        "amount": "$4577.76",
+        "productIds": [
+            "OFF-PA-10000029"
+        ]
+    },
+    {
+        "_id": "CA-2017-155446",
+        "transaction_date": "2017-12-16",
+        "customer_id": "TN-21040",
+        "buyer_name": "Tanja Norvell",
+        "amount": "$1922.34",
+        "productIds": [
+            "TEC-AC-10001445"
+        ]
+    },
+    {
+        "_id": "CA-2017-155474",
+        "transaction_date": "2017-07-08",
+        "customer_id": "CC-12220",
+        "buyer_name": "Chris Cortes",
+        "amount": "$21139.76",
+        "productIds": [
+            "TEC-PH-10001580",
+            "OFF-BI-10004209"
+        ]
+    },
+    {
+        "_id": "CA-2017-155481",
+        "transaction_date": "2017-09-01",
+        "customer_id": "DK-13225",
+        "buyer_name": "Dean Katz",
+        "amount": "$34789.43",
+        "productIds": [
+            "OFF-PA-10004675",
+            "TEC-PH-10002293",
+            "OFF-FA-10002780"
+        ]
+    },
+    {
+        "_id": "CA-2017-155488",
+        "transaction_date": "2017-11-13",
+        "customer_id": "FM-14290",
+        "buyer_name": "Frank Merwin",
+        "amount": "$18766.50",
+        "productIds": [
+            "OFF-AR-10002956"
+        ]
+    },
+    {
+        "_id": "CA-2017-155516",
+        "transaction_date": "2017-10-21",
+        "customer_id": "MK-17905",
+        "buyer_name": "Michael Kennedy",
+        "amount": "$40621.44",
+        "productIds": [
+            "OFF-BI-10002412",
+            "OFF-SU-10001225",
+            "OFF-ST-10002406",
+            "FUR-BO-10002545"
+        ]
+    },
+    {
+        "_id": "CA-2017-155530",
+        "transaction_date": "2017-12-17",
+        "customer_id": "CM-12160",
+        "buyer_name": "Charles McCrossin",
+        "amount": "$3640.34",
+        "productIds": [
+            "FUR-TA-10004256"
+        ]
+    },
+    {
+        "_id": "CA-2017-155551",
+        "transaction_date": "2017-04-18",
+        "customer_id": "CR-12580",
+        "buyer_name": "Clay Rozendal",
+        "amount": "$14079.08",
+        "productIds": [
+            "OFF-ST-10003656",
+            "OFF-PA-10001560"
+        ]
+    },
+    {
+        "_id": "CA-2017-155565",
+        "transaction_date": "2017-05-28",
+        "customer_id": "EH-13765",
+        "buyer_name": "Edward Hooks",
+        "amount": "$7017.80",
+        "productIds": [
+            "OFF-SU-10001218"
+        ]
+    },
+    {
+        "_id": "CA-2017-155670",
+        "transaction_date": "2017-08-13",
+        "customer_id": "EM-14065",
+        "buyer_name": "Erin Mull",
+        "amount": "$10794.74",
+        "productIds": [
+            "OFF-BI-10000138",
+            "OFF-PA-10004947"
+        ]
+    },
+    {
+        "_id": "CA-2017-155747",
+        "transaction_date": "2017-06-14",
+        "customer_id": "JS-15685",
+        "buyer_name": "Jim Sink",
+        "amount": "$5399.30",
+        "productIds": [
+            "FUR-TA-10003392"
+        ]
+    },
+    {
+        "_id": "CA-2017-155845",
+        "transaction_date": "2017-08-12",
+        "customer_id": "CM-12235",
+        "buyer_name": "Chris McAfee",
+        "amount": "$1828.14",
+        "productIds": [
+            "TEC-AC-10004145"
+        ]
+    },
+    {
+        "_id": "CA-2017-155978",
+        "transaction_date": "2017-08-01",
+        "customer_id": "TS-21205",
+        "buyer_name": "Thomas Seio",
+        "amount": "$16459.29",
+        "productIds": [
+            "TEC-PH-10002885",
+            "OFF-AP-10002892"
+        ]
+    },
+    {
+        "_id": "CA-2017-155992",
+        "transaction_date": "2017-10-01",
+        "customer_id": "CC-12220",
+        "buyer_name": "Chris Cortes",
+        "amount": "$3133.82",
+        "productIds": [
+            "TEC-PH-10000215",
+            "FUR-FU-10003724"
+        ]
+    },
+    {
+        "_id": "CA-2017-156139",
+        "transaction_date": "2017-12-31",
+        "customer_id": "BP-11155",
+        "buyer_name": "Becky Pak",
+        "amount": "$17359.94",
+        "productIds": [
+            "OFF-BI-10004233"
+        ]
+    },
+    {
+        "_id": "CA-2017-156251",
+        "transaction_date": "2017-08-13",
+        "customer_id": "TS-21160",
+        "buyer_name": "Theresa Swint",
+        "amount": "$9923.60",
+        "productIds": [
+            "FUR-BO-10001337",
+            "OFF-BI-10003529"
+        ]
+    },
+    {
+        "_id": "CA-2017-156265",
+        "transaction_date": "2017-08-02",
+        "customer_id": "BF-11020",
+        "buyer_name": "Barry Franz\u00f6sisch",
+        "amount": "$25443.47",
+        "productIds": [
+            "FUR-TA-10001691",
+            "TEC-PH-10001918",
+            "OFF-BI-10000285"
+        ]
+    },
+    {
+        "_id": "CA-2017-156300",
+        "transaction_date": "2017-12-29",
+        "customer_id": "TB-21595",
+        "buyer_name": "Troy Blackwell",
+        "amount": "$2989.14",
+        "productIds": [
+            "FUR-CH-10001714"
+        ]
+    },
+    {
+        "_id": "CA-2017-156503",
+        "transaction_date": "2017-10-14",
+        "customer_id": "NC-18415",
+        "buyer_name": "Nathan Cano",
+        "amount": "$20643.94",
+        "productIds": [
+            "FUR-CH-10003606",
+            "TEC-AC-10002473",
+            "OFF-PA-10002319",
+            "OFF-SU-10000946",
+            "OFF-EN-10001335",
+            "OFF-PA-10002377"
+        ]
+    },
+    {
+        "_id": "CA-2017-156573",
+        "transaction_date": "2017-05-29",
+        "customer_id": "RB-19360",
+        "buyer_name": "Raymond Buch",
+        "amount": "$34971.10",
+        "productIds": [
+            "OFF-BI-10002414",
+            "OFF-AR-10003732",
+            "FUR-FU-10001085"
+        ]
+    },
+    {
+        "_id": "CA-2017-156685",
+        "transaction_date": "2017-07-08",
+        "customer_id": "SC-20230",
+        "buyer_name": "Scot Coram",
+        "amount": "$30413.57",
+        "productIds": [
+            "TEC-PH-10004345",
+            "OFF-AR-10000588"
+        ]
+    },
+    {
+        "_id": "CA-2017-156748",
+        "transaction_date": "2017-11-30",
+        "customer_id": "BS-11755",
+        "buyer_name": "Bruce Stewart",
+        "amount": "$9739.55",
+        "productIds": [
+            "OFF-PA-10000380",
+            "OFF-PA-10002713",
+            "OFF-ST-10001370",
+            "FUR-CH-10000513"
+        ]
+    },
+    {
+        "_id": "CA-2017-156811",
+        "transaction_date": "2017-10-27",
+        "customer_id": "BP-11095",
+        "buyer_name": "Bart Pistole",
+        "amount": "$19445.56",
+        "productIds": [
+            "OFF-AP-10001366",
+            "OFF-BI-10001628"
+        ]
+    },
+    {
+        "_id": "CA-2017-157000",
+        "transaction_date": "2017-07-16",
+        "customer_id": "AM-10360",
+        "buyer_name": "Alice McCarthy",
+        "amount": "$6316.42",
+        "productIds": [
+            "OFF-ST-10001328",
+            "OFF-PA-10001950"
+        ]
+    },
+    {
+        "_id": "CA-2017-157161",
+        "transaction_date": "2017-07-16",
+        "customer_id": "JD-15895",
+        "buyer_name": "Jonathan Doherty",
+        "amount": "$30783.72",
+        "productIds": [
+            "OFF-EN-10001509",
+            "OFF-AR-10003338",
+            "OFF-BI-10004728",
+            "TEC-AC-10000358",
+            "OFF-BI-10002764",
+            "OFF-PA-10001461"
+        ]
+    },
+    {
+        "_id": "CA-2017-157217",
+        "transaction_date": "2017-07-19",
+        "customer_id": "TC-21535",
+        "buyer_name": "Tracy Collins",
+        "amount": "$3844.89",
+        "productIds": [
+            "TEC-PH-10002070",
+            "TEC-AC-10003095"
+        ]
+    },
+    {
+        "_id": "CA-2017-157245",
+        "transaction_date": "2017-05-19",
+        "customer_id": "LE-16810",
+        "buyer_name": "Laurel Elliston",
+        "amount": "$1133.42",
+        "productIds": [
+            "FUR-CH-10003746"
+        ]
+    },
+    {
+        "_id": "CA-2017-157259",
+        "transaction_date": "2017-12-24",
+        "customer_id": "JM-15535",
+        "buyer_name": "Jessica Myrick",
+        "amount": "$11394.00",
+        "productIds": [
+            "FUR-FU-10003192"
+        ]
+    },
+    {
+        "_id": "CA-2017-157266",
+        "transaction_date": "2017-05-26",
+        "customer_id": "TB-21280",
+        "buyer_name": "Toby Braunhardt",
+        "amount": "$28697.91",
+        "productIds": [
+            "OFF-PA-10002689",
+            "OFF-BI-10004728",
+            "OFF-PA-10004675",
+            "FUR-FU-10000629"
+        ]
+    },
+    {
+        "_id": "CA-2017-157280",
+        "transaction_date": "2017-11-05",
+        "customer_id": "LW-17125",
+        "buyer_name": "Liz Willingham",
+        "amount": "$18097.43",
+        "productIds": [
+            "FUR-FU-10004665",
+            "TEC-AC-10000057",
+            "FUR-FU-10003806"
+        ]
+    },
+    {
+        "_id": "CA-2017-157336",
+        "transaction_date": "2017-12-01",
+        "customer_id": "SJ-20500",
+        "buyer_name": "Shirley Jackson",
+        "amount": "$3087.29",
+        "productIds": [
+            "OFF-BI-10004236",
+            "FUR-CH-10004997"
+        ]
+    },
+    {
+        "_id": "CA-2017-157364",
+        "transaction_date": "2017-11-19",
+        "customer_id": "LT-17110",
+        "buyer_name": "Liz Thompson",
+        "amount": "$4501.71",
+        "productIds": [
+            "OFF-AR-10003752"
+        ]
+    },
+    {
+        "_id": "CA-2017-157511",
+        "transaction_date": "2017-09-18",
+        "customer_id": "SV-20365",
+        "buyer_name": "Seth Vernon",
+        "amount": "$28932.56",
+        "productIds": [
+            "FUR-FU-10002107",
+            "FUR-CH-10002647",
+            "OFF-AR-10002257"
+        ]
+    },
+    {
+        "_id": "CA-2017-157588",
+        "transaction_date": "2017-07-14",
+        "customer_id": "AR-10570",
+        "buyer_name": "Anemone Ratner",
+        "amount": "$21832.66",
+        "productIds": [
+            "OFF-BI-10003963",
+            "FUR-FU-10004848"
+        ]
+    },
+    {
+        "_id": "CA-2017-157686",
+        "transaction_date": "2017-10-01",
+        "customer_id": "BD-11620",
+        "buyer_name": "Brian DeCherney",
+        "amount": "$3566.10",
+        "productIds": [
+            "FUR-CH-10001146"
+        ]
+    },
+    {
+        "_id": "CA-2017-157707",
+        "transaction_date": "2017-10-10",
+        "customer_id": "CC-12610",
+        "buyer_name": "Corey Catlett",
+        "amount": "$24639.82",
+        "productIds": [
+            "FUR-BO-10001567",
+            "TEC-PH-10002583",
+            "FUR-CH-10004853"
+        ]
+    },
+    {
+        "_id": "CA-2017-157714",
+        "transaction_date": "2017-09-26",
+        "customer_id": "CS-12175",
+        "buyer_name": "Charles Sheldon",
+        "amount": "$20525.50",
+        "productIds": [
+            "OFF-PA-10004022"
+        ]
+    },
+    {
+        "_id": "CA-2017-157742",
+        "transaction_date": "2017-12-29",
+        "customer_id": "KL-16645",
+        "buyer_name": "Ken Lonsdale",
+        "amount": "$556.36",
+        "productIds": [
+            "OFF-EN-10002592"
+        ]
+    },
+    {
+        "_id": "CA-2017-157749",
+        "transaction_date": "2017-06-04",
+        "customer_id": "KL-16645",
+        "buyer_name": "Ken Lonsdale",
+        "amount": "$38975.62",
+        "productIds": [
+            "OFF-PA-10003349",
+            "FUR-FU-10000576",
+            "FUR-FU-10004351",
+            "TEC-PH-10000011",
+            "FUR-TA-10002607",
+            "FUR-FU-10002505",
+            "OFF-AR-10004685"
+        ]
+    },
+    {
+        "_id": "CA-2017-157763",
+        "transaction_date": "2017-07-18",
+        "customer_id": "KH-16330",
+        "buyer_name": "Katharine Harms",
+        "amount": "$5836.20",
+        "productIds": [
+            "FUR-CH-10000988"
+        ]
+    },
+    {
+        "_id": "CA-2017-157791",
+        "transaction_date": "2017-12-23",
+        "customer_id": "CA-11965",
+        "buyer_name": "Carol Adams",
+        "amount": "$7477.12",
+        "productIds": [
+            "TEC-CO-10002095"
+        ]
+    },
+    {
+        "_id": "CA-2017-157868",
+        "transaction_date": "2017-12-23",
+        "customer_id": "MC-17590",
+        "buyer_name": "Matt Collister",
+        "amount": "$6028.88",
+        "productIds": [
+            "OFF-FA-10000992"
+        ]
+    },
+    {
+        "_id": "CA-2017-158001",
+        "transaction_date": "2017-08-23",
+        "customer_id": "JP-15460",
+        "buyer_name": "Jennifer Patt",
+        "amount": "$20713.46",
+        "productIds": [
+            "OFF-AR-10002399",
+            "OFF-AP-10002118",
+            "OFF-AR-10001954"
+        ]
+    },
+    {
+        "_id": "CA-2017-158043",
+        "transaction_date": "2017-01-31",
+        "customer_id": "JK-15325",
+        "buyer_name": "Jason Klamczynski",
+        "amount": "$7031.50",
+        "productIds": [
+            "OFF-EN-10003134"
+        ]
+    },
+    {
+        "_id": "CA-2017-158099",
+        "transaction_date": "2017-09-03",
+        "customer_id": "PK-18910",
+        "buyer_name": "Paul Knutson",
+        "amount": "$3488.00",
+        "productIds": [
+            "OFF-BI-10000545",
+            "TEC-PH-10002496"
+        ]
+    },
+    {
+        "_id": "CA-2017-158211",
+        "transaction_date": "2017-01-04",
+        "customer_id": "BP-11185",
+        "buyer_name": "Ben Peterman",
+        "amount": "$7411.01",
+        "productIds": [
+            "OFF-AR-10004078",
+            "OFF-BI-10002026"
+        ]
+    },
+    {
+        "_id": "CA-2017-158260",
+        "transaction_date": "2017-11-04",
+        "customer_id": "CC-12475",
+        "buyer_name": "Cindy Chapman",
+        "amount": "$1528.94",
+        "productIds": [
+            "TEC-MA-10003176"
+        ]
+    },
+    {
+        "_id": "CA-2017-158302",
+        "transaction_date": "2017-12-08",
+        "customer_id": "JB-16045",
+        "buyer_name": "Julia Barnett",
+        "amount": "$18097.31",
+        "productIds": [
+            "OFF-PA-10002615"
+        ]
+    },
+    {
+        "_id": "CA-2017-158358",
+        "transaction_date": "2017-03-04",
+        "customer_id": "EM-13810",
+        "buyer_name": "Eleni McCrary",
+        "amount": "$15705.28",
+        "productIds": [
+            "TEC-AC-10002567"
+        ]
+    },
+    {
+        "_id": "CA-2017-158435",
+        "transaction_date": "2017-05-17",
+        "customer_id": "AG-10900",
+        "buyer_name": "Arthur Gainer",
+        "amount": "$12949.45",
+        "productIds": [
+            "OFF-SU-10000381",
+            "OFF-LA-10002475",
+            "FUR-FU-10003975"
+        ]
+    },
+    {
+        "_id": "CA-2017-158547",
+        "transaction_date": "2017-05-30",
+        "customer_id": "JM-16195",
+        "buyer_name": "Justin MacKendrick",
+        "amount": "$18884.25",
+        "productIds": [
+            "OFF-AP-10003842"
+        ]
+    },
+    {
+        "_id": "CA-2017-158568",
+        "transaction_date": "2017-08-29",
+        "customer_id": "RB-19465",
+        "buyer_name": "Rick Bensley",
+        "amount": "$36314.68",
+        "productIds": [
+            "OFF-PA-10003256",
+            "TEC-AC-10001767",
+            "OFF-BI-10002609"
+        ]
+    },
+    {
+        "_id": "CA-2017-158575",
+        "transaction_date": "2017-11-18",
+        "customer_id": "SB-20290",
+        "buyer_name": "Sean Braxton",
+        "amount": "$15513.01",
+        "productIds": [
+            "OFF-AP-10002998"
+        ]
+    },
+    {
+        "_id": "CA-2017-158610",
+        "transaction_date": "2017-09-19",
+        "customer_id": "CK-12595",
+        "buyer_name": "Clytie Kelty",
+        "amount": "$8390.86",
+        "productIds": [
+            "OFF-ST-10000604"
+        ]
+    },
+    {
+        "_id": "CA-2017-158617",
+        "transaction_date": "2017-09-22",
+        "customer_id": "AC-10660",
+        "buyer_name": "Anna Chung",
+        "amount": "$7526.82",
+        "productIds": [
+            "OFF-PA-10002245"
+        ]
+    },
+    {
+        "_id": "CA-2017-158694",
+        "transaction_date": "2017-11-10",
+        "customer_id": "AI-10855",
+        "buyer_name": "Arianne Irving",
+        "amount": "$59437.64",
+        "productIds": [
+            "OFF-PA-10002421",
+            "OFF-AP-10000055",
+            "FUR-FU-10000965",
+            "OFF-PA-10001363",
+            "OFF-ST-10001496",
+            "OFF-BI-10004656",
+            "OFF-AR-10001227"
+        ]
+    },
+    {
+        "_id": "CA-2017-158778",
+        "transaction_date": "2017-09-05",
+        "customer_id": "DB-13210",
+        "buyer_name": "Dean Braden",
+        "amount": "$13135.97",
+        "productIds": [
+            "FUR-FU-10000260",
+            "FUR-CH-10001146",
+            "OFF-AR-10000896",
+            "FUR-CH-10000309"
+        ]
+    },
+    {
+        "_id": "CA-2017-158806",
+        "transaction_date": "2017-01-07",
+        "customer_id": "NM-18520",
+        "buyer_name": "Neoma Murray",
+        "amount": "$14003.15",
+        "productIds": [
+            "FUR-FU-10004270",
+            "OFF-PA-10004621"
+        ]
+    },
+    {
+        "_id": "CA-2017-158834",
+        "transaction_date": "2017-03-13",
+        "customer_id": "TW-21025",
+        "buyer_name": "Tamara Willingham",
+        "amount": "$4618.71",
+        "productIds": [
+            "OFF-AP-10000326",
+            "TEC-PH-10001254"
+        ]
+    },
+    {
+        "_id": "CA-2017-158841",
+        "transaction_date": "2017-02-02",
+        "customer_id": "SE-20110",
+        "buyer_name": "Sanjit Engle",
+        "amount": "$14543.17",
+        "productIds": [
+            "TEC-MA-10001127",
+            "OFF-BI-10002557",
+            "FUR-FU-10001731"
+        ]
+    },
+    {
+        "_id": "CA-2017-158869",
+        "transaction_date": "2017-08-06",
+        "customer_id": "AH-10690",
+        "buyer_name": "Anna H\u00e4berlin",
+        "amount": "$6938.40",
+        "productIds": [
+            "OFF-PA-10000474"
+        ]
+    },
+    {
+        "_id": "CA-2017-158925",
+        "transaction_date": "2017-10-24",
+        "customer_id": "JP-15460",
+        "buyer_name": "Jennifer Patt",
+        "amount": "$4862.90",
+        "productIds": [
+            "OFF-PA-10003072"
+        ]
+    },
+    {
+        "_id": "CA-2017-159009",
+        "transaction_date": "2017-09-23",
+        "customer_id": "DP-13105",
+        "buyer_name": "Dave Poirier",
+        "amount": "$5629.03",
+        "productIds": [
+            "OFF-BI-10004970",
+            "FUR-CH-10003396"
+        ]
+    },
+    {
+        "_id": "CA-2017-159016",
+        "transaction_date": "2017-03-10",
+        "customer_id": "KF-16285",
+        "buyer_name": "Karen Ferguson",
+        "amount": "$8220.40",
+        "productIds": [
+            "OFF-PA-10004405",
+            "TEC-PH-10002885"
+        ]
+    },
+    {
+        "_id": "CA-2017-159023",
+        "transaction_date": "2017-11-03",
+        "customer_id": "NW-18400",
+        "buyer_name": "Natalie Webber",
+        "amount": "$23939.95",
+        "productIds": [
+            "OFF-BI-10002813",
+            "TEC-MA-10003337"
+        ]
+    },
+    {
+        "_id": "CA-2017-159142",
+        "transaction_date": "2017-04-04",
+        "customer_id": "ME-17320",
+        "buyer_name": "Maria Etezadi",
+        "amount": "$16982.20",
+        "productIds": [
+            "TEC-PH-10001448",
+            "OFF-PA-10001776"
+        ]
+    },
+    {
+        "_id": "CA-2017-159212",
+        "transaction_date": "2017-11-01",
+        "customer_id": "KM-16375",
+        "buyer_name": "Katherine Murray",
+        "amount": "$7142.06",
+        "productIds": [
+            "TEC-PH-10003988",
+            "OFF-EN-10002230"
+        ]
+    },
+    {
+        "_id": "CA-2017-159345",
+        "transaction_date": "2017-06-17",
+        "customer_id": "IG-15085",
+        "buyer_name": "Ivan Gibson",
+        "amount": "$4176.72",
+        "productIds": [
+            "OFF-PA-10000806"
+        ]
+    },
+    {
+        "_id": "CA-2017-159373",
+        "transaction_date": "2017-03-13",
+        "customer_id": "LT-17110",
+        "buyer_name": "Liz Thompson",
+        "amount": "$30823.81",
+        "productIds": [
+            "OFF-PA-10000659",
+            "OFF-BI-10004141",
+            "FUR-TA-10004619"
+        ]
+    },
+    {
+        "_id": "CA-2017-159639",
+        "transaction_date": "2017-11-27",
+        "customer_id": "PC-18745",
+        "buyer_name": "Pamela Coakley",
+        "amount": "$7335.20",
+        "productIds": [
+            "FUR-FU-10001889"
+        ]
+    },
+    {
+        "_id": "CA-2017-159653",
+        "transaction_date": "2017-05-22",
+        "customer_id": "JF-15490",
+        "buyer_name": "Jeremy Farry",
+        "amount": "$19305.09",
+        "productIds": [
+            "OFF-LA-10004345"
+        ]
+    },
+    {
+        "_id": "CA-2017-159695",
+        "transaction_date": "2017-04-05",
+        "customer_id": "GM-14455",
+        "buyer_name": "Gary Mitchum",
+        "amount": "$1736.46",
+        "productIds": [
+            "OFF-ST-10003442"
+        ]
+    },
+    {
+        "_id": "CA-2017-159730",
+        "transaction_date": "2017-09-17",
+        "customer_id": "SJ-20125",
+        "buyer_name": "Sanjit Jacobs",
+        "amount": "$12114.14",
+        "productIds": [
+            "FUR-CH-10004875",
+            "TEC-PH-10002085"
+        ]
+    },
+    {
+        "_id": "CA-2017-159737",
+        "transaction_date": "2017-09-03",
+        "customer_id": "CS-11950",
+        "buyer_name": "Carlos Soltero",
+        "amount": "$2201.04",
+        "productIds": [
+            "OFF-BI-10004236"
+        ]
+    },
+    {
+        "_id": "CA-2017-159765",
+        "transaction_date": "2017-05-09",
+        "customer_id": "TH-21100",
+        "buyer_name": "Thea Hendricks",
+        "amount": "$7196.28",
+        "productIds": [
+            "OFF-AR-10003514"
+        ]
+    },
+    {
+        "_id": "CA-2017-159891",
+        "transaction_date": "2017-01-31",
+        "customer_id": "BF-11170",
+        "buyer_name": "Ben Ferrer",
+        "amount": "$8440.82",
+        "productIds": [
+            "OFF-BI-10003527",
+            "OFF-EN-10004483"
+        ]
+    },
+    {
+        "_id": "CA-2017-159912",
+        "transaction_date": "2017-08-29",
+        "customer_id": "GB-14530",
+        "buyer_name": "George Bell",
+        "amount": "$25195.06",
+        "productIds": [
+            "FUR-TA-10004152",
+            "FUR-BO-10002853",
+            "OFF-BI-10002071",
+            "OFF-FA-10000053"
+        ]
+    },
+    {
+        "_id": "CA-2017-159940",
+        "transaction_date": "2017-07-07",
+        "customer_id": "BF-11020",
+        "buyer_name": "Barry Franz\u00f6sisch",
+        "amount": "$19624.35",
+        "productIds": [
+            "FUR-FU-10004973",
+            "OFF-FA-10000936",
+            "OFF-PA-10001609",
+            "FUR-CH-10000785"
+        ]
+    },
+    {
+        "_id": "CA-2017-159989",
+        "transaction_date": "2017-12-09",
+        "customer_id": "EB-13870",
+        "buyer_name": "Emily Burns",
+        "amount": "$4914.00",
+        "productIds": [
+            "TEC-PH-10000169"
+        ]
+    },
+    {
+        "_id": "CA-2017-160108",
+        "transaction_date": "2017-12-08",
+        "customer_id": "AG-10900",
+        "buyer_name": "Arthur Gainer",
+        "amount": "$8682.74",
+        "productIds": [
+            "FUR-BO-10003450",
+            "FUR-CH-10002335"
+        ]
+    },
+    {
+        "_id": "CA-2017-160129",
+        "transaction_date": "2017-11-23",
+        "customer_id": "LS-17200",
+        "buyer_name": "Luke Schmidt",
+        "amount": "$12793.78",
+        "productIds": [
+            "OFF-FA-10002763",
+            "FUR-FU-10002088",
+            "FUR-FU-10003976"
+        ]
+    },
+    {
+        "_id": "CA-2017-160136",
+        "transaction_date": "2017-11-03",
+        "customer_id": "PJ-18835",
+        "buyer_name": "Patrick Jones",
+        "amount": "$7947.94",
+        "productIds": [
+            "OFF-PA-10002160"
+        ]
+    },
+    {
+        "_id": "CA-2017-160220",
+        "transaction_date": "2017-10-20",
+        "customer_id": "JS-16030",
+        "buyer_name": "Joy Smith",
+        "amount": "$14759.78",
+        "productIds": [
+            "TEC-PH-10001300",
+            "TEC-PH-10001557",
+            "OFF-ST-10000617"
+        ]
+    },
+    {
+        "_id": "CA-2017-160234",
+        "transaction_date": "2017-06-26",
+        "customer_id": "PF-19225",
+        "buyer_name": "Phillip Flathmann",
+        "amount": "$624.33",
+        "productIds": [
+            "TEC-PH-10004434"
+        ]
+    },
+    {
+        "_id": "CA-2017-160241",
+        "transaction_date": "2017-11-29",
+        "customer_id": "DR-12940",
+        "buyer_name": "Daniel Raglin",
+        "amount": "$3391.00",
+        "productIds": [
+            "FUR-FU-10003806"
+        ]
+    },
+    {
+        "_id": "CA-2017-160304",
+        "transaction_date": "2017-01-02",
+        "customer_id": "BM-11575",
+        "buyer_name": "Brendan Murry",
+        "amount": "$3776.10",
+        "productIds": [
+            "FUR-BO-10004709",
+            "TEC-PH-10000455"
+        ]
+    },
+    {
+        "_id": "CA-2017-160395",
+        "transaction_date": "2017-12-31",
+        "customer_id": "KL-16555",
+        "buyer_name": "Kelly Lampkin",
+        "amount": "$25880.72",
+        "productIds": [
+            "OFF-AR-10003759",
+            "OFF-BI-10003984"
+        ]
+    },
+    {
+        "_id": "CA-2017-160479",
+        "transaction_date": "2017-09-15",
+        "customer_id": "AH-10585",
+        "buyer_name": "Angele Hood",
+        "amount": "$5664.10",
+        "productIds": [
+            "OFF-AR-10002445"
+        ]
+    },
+    {
+        "_id": "CA-2017-160486",
+        "transaction_date": "2017-12-30",
+        "customer_id": "EH-14185",
+        "buyer_name": "Evan Henry",
+        "amount": "$8186.16",
+        "productIds": [
+            "OFF-PA-10002421"
+        ]
+    },
+    {
+        "_id": "CA-2017-160500",
+        "transaction_date": "2017-05-05",
+        "customer_id": "DM-13015",
+        "buyer_name": "Darrin Martin",
+        "amount": "$21489.47",
+        "productIds": [
+            "OFF-BI-10003784",
+            "FUR-TA-10003748"
+        ]
+    },
+    {
+        "_id": "CA-2017-160535",
+        "transaction_date": "2017-11-25",
+        "customer_id": "BP-11050",
+        "buyer_name": "Barry Pond",
+        "amount": "$21409.89",
+        "productIds": [
+            "OFF-ST-10000689",
+            "TEC-MA-10004255"
+        ]
+    },
+    {
+        "_id": "CA-2017-160598",
+        "transaction_date": "2017-08-26",
+        "customer_id": "SV-20815",
+        "buyer_name": "Stuart Van",
+        "amount": "$793.44",
+        "productIds": [
+            "OFF-PA-10002319"
+        ]
+    },
+    {
+        "_id": "CA-2017-160717",
+        "transaction_date": "2017-06-06",
+        "customer_id": "ME-17320",
+        "buyer_name": "Maria Etezadi",
+        "amount": "$13101.46",
+        "productIds": [
+            "TEC-PH-10001459",
+            "TEC-AC-10002134",
+            "TEC-PH-10001760"
+        ]
+    },
+    {
+        "_id": "CA-2017-160745",
+        "transaction_date": "2017-12-11",
+        "customer_id": "AR-10825",
+        "buyer_name": "Anthony Rawles",
+        "amount": "$14760.99",
+        "productIds": [
+            "FUR-FU-10001935",
+            "TEC-PH-10003273",
+            "TEC-AC-10001142"
+        ]
+    },
+    {
+        "_id": "CA-2017-160815",
+        "transaction_date": "2017-09-05",
+        "customer_id": "TR-21325",
+        "buyer_name": "Toby Ritter",
+        "amount": "$7350.91",
+        "productIds": [
+            "TEC-PH-10003505"
+        ]
+    },
+    {
+        "_id": "CA-2017-160941",
+        "transaction_date": "2017-07-21",
+        "customer_id": "DK-12835",
+        "buyer_name": "Damala Kotsonis",
+        "amount": "$6944.33",
+        "productIds": [
+            "OFF-EN-10003001",
+            "OFF-LA-10003766"
+        ]
+    },
+    {
+        "_id": "CA-2017-161025",
+        "transaction_date": "2017-12-03",
+        "customer_id": "GM-14440",
+        "buyer_name": "Gary McGarr",
+        "amount": "$6640.90",
+        "productIds": [
+            "OFF-ST-10001932"
+        ]
+    },
+    {
+        "_id": "CA-2017-161095",
+        "transaction_date": "2017-06-28",
+        "customer_id": "CS-12250",
+        "buyer_name": "Chris Selesnick",
+        "amount": "$5715.15",
+        "productIds": [
+            "OFF-BI-10002764",
+            "OFF-BI-10001524"
+        ]
+    },
+    {
+        "_id": "CA-2017-161158",
+        "transaction_date": "2017-05-09",
+        "customer_id": "PS-18970",
+        "buyer_name": "Paul Stevenson",
+        "amount": "$1813.14",
+        "productIds": [
+            "OFF-AR-10000462"
+        ]
+    },
+    {
+        "_id": "CA-2017-161207",
+        "transaction_date": "2017-08-29",
+        "customer_id": "AB-10060",
+        "buyer_name": "Adam Bellavance",
+        "amount": "$192.36",
+        "productIds": [
+            "OFF-SU-10000381"
+        ]
+    },
+    {
+        "_id": "CA-2017-161361",
+        "transaction_date": "2017-03-26",
+        "customer_id": "MV-17485",
+        "buyer_name": "Mark Van Huff",
+        "amount": "$20072.85",
+        "productIds": [
+            "OFF-PA-10001838",
+            "OFF-BI-10002215"
+        ]
+    },
+    {
+        "_id": "CA-2017-161389",
+        "transaction_date": "2017-12-05",
+        "customer_id": "IM-15070",
+        "buyer_name": "Irene Maddox",
+        "amount": "$21321.00",
+        "productIds": [
+            "OFF-BI-10003656"
+        ]
+    },
+    {
+        "_id": "CA-2017-161473",
+        "transaction_date": "2017-04-01",
+        "customer_id": "TB-21175",
+        "buyer_name": "Thomas Boland",
+        "amount": "$20394.58",
+        "productIds": [
+            "OFF-LA-10001297",
+            "OFF-SU-10001574",
+            "OFF-BI-10003305"
+        ]
+    },
+    {
+        "_id": "CA-2017-161543",
+        "transaction_date": "2017-05-10",
+        "customer_id": "RD-19720",
+        "buyer_name": "Roger Demir",
+        "amount": "$1991.88",
+        "productIds": [
+            "OFF-PA-10003971"
+        ]
+    },
+    {
+        "_id": "CA-2017-161662",
+        "transaction_date": "2017-02-07",
+        "customer_id": "BE-11410",
+        "buyer_name": "Bobby Elias",
+        "amount": "$2551.50",
+        "productIds": [
+            "OFF-PA-10003465"
+        ]
+    },
+    {
+        "_id": "CA-2017-161669",
+        "transaction_date": "2017-11-07",
+        "customer_id": "EM-14095",
+        "buyer_name": "Eudokia Martin",
+        "amount": "$37038.99",
+        "productIds": [
+            "OFF-BI-10001294",
+            "OFF-BI-10001636",
+            "OFF-SU-10002503",
+            "OFF-LA-10004093"
+        ]
+    },
+    {
+        "_id": "CA-2017-161676",
+        "transaction_date": "2017-07-18",
+        "customer_id": "JP-15460",
+        "buyer_name": "Jennifer Patt",
+        "amount": "$8586.63",
+        "productIds": [
+            "OFF-SU-10004782"
+        ]
+    },
+    {
+        "_id": "CA-2017-161746",
+        "transaction_date": "2017-10-21",
+        "customer_id": "CS-11950",
+        "buyer_name": "Carlos Soltero",
+        "amount": "$17089.77",
+        "productIds": [
+            "FUR-CH-10004626",
+            "OFF-AR-10000390",
+            "FUR-FU-10003731",
+            "OFF-ST-10002743"
+        ]
+    },
+    {
+        "_id": "CA-2017-161781",
+        "transaction_date": "2017-09-29",
+        "customer_id": "CC-12100",
+        "buyer_name": "Chad Cunningham",
+        "amount": "$6548.75",
+        "productIds": [
+            "OFF-AR-10000255"
+        ]
+    },
+    {
+        "_id": "CA-2017-161816",
+        "transaction_date": "2017-04-28",
+        "customer_id": "NB-18655",
+        "buyer_name": "Nona Balk",
+        "amount": "$1139.44",
+        "productIds": [
+            "TEC-PH-10003012",
+            "OFF-LA-10004345"
+        ]
+    },
+    {
+        "_id": "CA-2017-161907",
+        "transaction_date": "2017-04-05",
+        "customer_id": "JH-16180",
+        "buyer_name": "Justin Hirsh",
+        "amount": "$21825.95",
+        "productIds": [
+            "TEC-PH-10000141",
+            "OFF-SU-10000646"
+        ]
+    },
+    {
+        "_id": "CA-2017-161928",
+        "transaction_date": "2017-06-27",
+        "customer_id": "AC-10660",
+        "buyer_name": "Anna Chung",
+        "amount": "$5655.36",
+        "productIds": [
+            "TEC-PH-10003484"
+        ]
+    },
+    {
+        "_id": "CA-2017-162082",
+        "transaction_date": "2017-03-14",
+        "customer_id": "JS-15880",
+        "buyer_name": "John Stevenson",
+        "amount": "$2718.58",
+        "productIds": [
+            "FUR-BO-10004409",
+            "OFF-PA-10001934",
+            "OFF-AR-10001044"
+        ]
+    },
+    {
+        "_id": "CA-2017-162110",
+        "transaction_date": "2017-07-18",
+        "customer_id": "NP-18670",
+        "buyer_name": "Nora Paige",
+        "amount": "$1272.55",
+        "productIds": [
+            "TEC-PH-10001924"
+        ]
+    },
+    {
+        "_id": "CA-2017-162138",
+        "transaction_date": "2017-04-23",
+        "customer_id": "GK-14620",
+        "buyer_name": "Grace Kelly",
+        "amount": "$10292.48",
+        "productIds": [
+            "OFF-BI-10004593",
+            "TEC-AC-10001908"
+        ]
+    },
+    {
+        "_id": "CA-2017-162159",
+        "transaction_date": "2017-09-16",
+        "customer_id": "CR-12625",
+        "buyer_name": "Corey Roper",
+        "amount": "$20205.90",
+        "productIds": [
+            "FUR-CH-10001146"
+        ]
+    },
+    {
+        "_id": "CA-2017-162187",
+        "transaction_date": "2017-12-11",
+        "customer_id": "NS-18640",
+        "buyer_name": "Noel Staavos",
+        "amount": "$20065.99",
+        "productIds": [
+            "OFF-ST-10001558",
+            "OFF-SU-10004782",
+            "FUR-CH-10003298",
+            "OFF-AP-10000576",
+            "FUR-TA-10003008"
+        ]
+    },
+    {
+        "_id": "CA-2017-162222",
+        "transaction_date": "2017-04-03",
+        "customer_id": "SR-20740",
+        "buyer_name": "Steven Roelle",
+        "amount": "$11499.81",
+        "productIds": [
+            "OFF-PA-10003893"
+        ]
+    },
+    {
+        "_id": "CA-2017-162236",
+        "transaction_date": "2017-11-04",
+        "customer_id": "ER-13855",
+        "buyer_name": "Elpida Rittenbach",
+        "amount": "$2435.26",
+        "productIds": [
+            "OFF-ST-10003442",
+            "FUR-TA-10002533",
+            "OFF-SU-10003505"
+        ]
+    },
+    {
+        "_id": "CA-2017-162313",
+        "transaction_date": "2017-11-27",
+        "customer_id": "VB-21745",
+        "buyer_name": "Victoria Brennan",
+        "amount": "$1205.58",
+        "productIds": [
+            "OFF-AP-10003842"
+        ]
+    },
+    {
+        "_id": "CA-2017-162348",
+        "transaction_date": "2017-11-10",
+        "customer_id": "BF-11170",
+        "buyer_name": "Ben Ferrer",
+        "amount": "$151.90",
+        "productIds": [
+            "FUR-FU-10003731"
+        ]
+    },
+    {
+        "_id": "CA-2017-162355",
+        "transaction_date": "2017-06-30",
+        "customer_id": "PF-19165",
+        "buyer_name": "Philip Fox",
+        "amount": "$31323.24",
+        "productIds": [
+            "OFF-AR-10004344",
+            "FUR-BO-10004695"
+        ]
+    },
+    {
+        "_id": "CA-2017-162383",
+        "transaction_date": "2017-09-05",
+        "customer_id": "MD-17350",
+        "buyer_name": "Maribeth Dona",
+        "amount": "$22931.49",
+        "productIds": [
+            "OFF-BI-10002824",
+            "OFF-BI-10001757",
+            "FUR-CH-10004477"
+        ]
+    },
+    {
+        "_id": "CA-2017-162390",
+        "transaction_date": "2017-12-06",
+        "customer_id": "DP-13105",
+        "buyer_name": "Dave Poirier",
+        "amount": "$54354.86",
+        "productIds": [
+            "OFF-BI-10004318",
+            "OFF-BI-10001721",
+            "TEC-CO-10004202"
+        ]
+    },
+    {
+        "_id": "CA-2017-162404",
+        "transaction_date": "2017-07-23",
+        "customer_id": "NF-18475",
+        "buyer_name": "Neil Franz\u00f6sisch",
+        "amount": "$9687.16",
+        "productIds": [
+            "OFF-BI-10000948"
+        ]
+    },
+    {
+        "_id": "CA-2017-162614",
+        "transaction_date": "2017-10-07",
+        "customer_id": "TB-21250",
+        "buyer_name": "Tim Brockman",
+        "amount": "$562.12",
+        "productIds": [
+            "OFF-BI-10004001"
+        ]
+    },
+    {
+        "_id": "CA-2017-162726",
+        "transaction_date": "2017-12-27",
+        "customer_id": "MT-17815",
+        "buyer_name": "Meg Tillman",
+        "amount": "$3929.24",
+        "productIds": [
+            "OFF-PA-10001972",
+            "OFF-PA-10004041"
+        ]
+    },
+    {
+        "_id": "CA-2017-162733",
+        "transaction_date": "2017-05-11",
+        "customer_id": "TT-21070",
+        "buyer_name": "Ted Trevino",
+        "amount": "$8787.45",
+        "productIds": [
+            "OFF-PA-10002751"
+        ]
+    },
+    {
+        "_id": "CA-2017-162747",
+        "transaction_date": "2017-03-20",
+        "customer_id": "AH-10030",
+        "buyer_name": "Aaron Hawkins",
+        "amount": "$8365.80",
+        "productIds": [
+            "FUR-FU-10003691"
+        ]
+    },
+    {
+        "_id": "CA-2017-162901",
+        "transaction_date": "2017-03-28",
+        "customer_id": "AS-10045",
+        "buyer_name": "Aaron Smayling",
+        "amount": "$1464.16",
+        "productIds": [
+            "OFF-ST-10000649"
+        ]
+    },
+    {
+        "_id": "CA-2017-162943",
+        "transaction_date": "2017-07-24",
+        "customer_id": "DB-12970",
+        "buyer_name": "Darren Budd",
+        "amount": "$17356.00",
+        "productIds": [
+            "FUR-CH-10001708"
+        ]
+    },
+    {
+        "_id": "CA-2017-163048",
+        "transaction_date": "2017-02-08",
+        "customer_id": "MH-17440",
+        "buyer_name": "Mark Haberlin",
+        "amount": "$12399.20",
+        "productIds": [
+            "FUR-CH-10001270"
+        ]
+    },
+    {
+        "_id": "CA-2017-163153",
+        "transaction_date": "2017-03-21",
+        "customer_id": "DM-12955",
+        "buyer_name": "Dario Medina",
+        "amount": "$30564.44",
+        "productIds": [
+            "FUR-TA-10004767",
+            "OFF-AR-10001868"
+        ]
+    },
+    {
+        "_id": "CA-2017-163167",
+        "transaction_date": "2017-11-28",
+        "customer_id": "RF-19345",
+        "buyer_name": "Randy Ferguson",
+        "amount": "$29390.50",
+        "productIds": [
+            "FUR-CH-10004477",
+            "TEC-AC-10003441",
+            "OFF-ST-10004459",
+            "OFF-ST-10003805"
+        ]
+    },
+    {
+        "_id": "CA-2017-163174",
+        "transaction_date": "2017-08-26",
+        "customer_id": "XP-21865",
+        "buyer_name": "Xylona Preis",
+        "amount": "$6210.50",
+        "productIds": [
+            "FUR-FU-10000308"
+        ]
+    },
+    {
+        "_id": "CA-2017-163202",
+        "transaction_date": "2017-09-27",
+        "customer_id": "BM-11650",
+        "buyer_name": "Brian Moss",
+        "amount": "$11392.72",
+        "productIds": [
+            "OFF-BI-10002764"
+        ]
+    },
+    {
+        "_id": "CA-2017-163216",
+        "transaction_date": "2017-10-07",
+        "customer_id": "AW-10930",
+        "buyer_name": "Arthur Wiediger",
+        "amount": "$10725.90",
+        "productIds": [
+            "OFF-LA-10000134"
+        ]
+    },
+    {
+        "_id": "CA-2017-163328",
+        "transaction_date": "2017-11-04",
+        "customer_id": "TP-21565",
+        "buyer_name": "Tracy Poddar",
+        "amount": "$25325.23",
+        "productIds": [
+            "OFF-SU-10002301",
+            "FUR-CH-10003298",
+            "OFF-PA-10004353",
+            "FUR-CH-10000229",
+            "OFF-LA-10003930",
+            "OFF-PA-10000176"
+        ]
+    },
+    {
+        "_id": "CA-2017-163384",
+        "transaction_date": "2017-11-10",
+        "customer_id": "CC-12430",
+        "buyer_name": "Chuck Clark",
+        "amount": "$12412.62",
+        "productIds": [
+            "OFF-BI-10004970",
+            "OFF-PA-10003172"
+        ]
+    },
+    {
+        "_id": "CA-2017-163398",
+        "transaction_date": "2017-05-03",
+        "customer_id": "CB-12415",
+        "buyer_name": "Christy Brittain",
+        "amount": "$16390.12",
+        "productIds": [
+            "OFF-BI-10000014",
+            "OFF-AR-10003217",
+            "OFF-AP-10002403"
+        ]
+    },
+    {
+        "_id": "CA-2017-163573",
+        "transaction_date": "2017-11-24",
+        "customer_id": "AC-10450",
+        "buyer_name": "Amy Cox",
+        "amount": "$823.44",
+        "productIds": [
+            "OFF-BI-10004632"
+        ]
+    },
+    {
+        "_id": "CA-2017-163594",
+        "transaction_date": "2017-04-12",
+        "customer_id": "JF-15295",
+        "buyer_name": "Jason Fortune-",
+        "amount": "$25096.92",
+        "productIds": [
+            "OFF-PA-10000809",
+            "FUR-CH-10000225",
+            "OFF-BI-10003707"
+        ]
+    },
+    {
+        "_id": "CA-2017-163636",
+        "transaction_date": "2017-12-05",
+        "customer_id": "MP-18175",
+        "buyer_name": "Mike Pelletier",
+        "amount": "$20253.60",
+        "productIds": [
+            "OFF-AR-10001547"
+        ]
+    },
+    {
+        "_id": "CA-2017-163755",
+        "transaction_date": "2017-11-04",
+        "customer_id": "AS-10285",
+        "buyer_name": "Alejandro Savely",
+        "amount": "$796.66",
+        "productIds": [
+            "FUR-FU-10003394"
+        ]
+    },
+    {
+        "_id": "CA-2017-163776",
+        "transaction_date": "2017-07-19",
+        "customer_id": "JS-16030",
+        "buyer_name": "Joy Smith",
+        "amount": "$46832.15",
+        "productIds": [
+            "FUR-FU-10001185",
+            "OFF-BI-10003007",
+            "OFF-ST-10002485",
+            "OFF-PA-10001033",
+            "OFF-BI-10000404",
+            "FUR-BO-10003546"
+        ]
+    },
+    {
+        "_id": "CA-2017-163804",
+        "transaction_date": "2017-12-02",
+        "customer_id": "DB-13270",
+        "buyer_name": "Deborah Brumfield",
+        "amount": "$25007.39",
+        "productIds": [
+            "OFF-ST-10000142",
+            "TEC-PH-10000441",
+            "FUR-FU-10004864"
+        ]
+    },
+    {
+        "_id": "CA-2017-163937",
+        "transaction_date": "2017-01-10",
+        "customer_id": "JB-16000",
+        "buyer_name": "Joy Bell-",
+        "amount": "$7454.08",
+        "productIds": [
+            "FUR-FU-10000010"
+        ]
+    },
+    {
+        "_id": "CA-2017-163951",
+        "transaction_date": "2017-12-30",
+        "customer_id": "CJ-11875",
+        "buyer_name": "Carl Jackson",
+        "amount": "$7324.65",
+        "productIds": [
+            "OFF-AR-10004269"
+        ]
+    },
+    {
+        "_id": "CA-2017-163972",
+        "transaction_date": "2017-10-17",
+        "customer_id": "MG-17890",
+        "buyer_name": "Michael Granlund",
+        "amount": "$16132.20",
+        "productIds": [
+            "FUR-BO-10003894"
+        ]
+    },
+    {
+        "_id": "CA-2017-163986",
+        "transaction_date": "2017-09-03",
+        "customer_id": "JJ-15445",
+        "buyer_name": "Jennifer Jackson",
+        "amount": "$1696.24",
+        "productIds": [
+            "OFF-ST-10000918"
+        ]
+    },
+    {
+        "_id": "CA-2017-164035",
+        "transaction_date": "2017-06-12",
+        "customer_id": "CR-12730",
+        "buyer_name": "Craig Reiter",
+        "amount": "$3737.72",
+        "productIds": [
+            "OFF-PA-10002160"
+        ]
+    },
+    {
+        "_id": "CA-2017-164091",
+        "transaction_date": "2017-09-17",
+        "customer_id": "LA-16780",
+        "buyer_name": "Laura Armstrong",
+        "amount": "$1903.15",
+        "productIds": [
+            "TEC-PH-10001944",
+            "FUR-FU-10004952"
+        ]
+    },
+    {
+        "_id": "CA-2017-164154",
+        "transaction_date": "2017-09-11",
+        "customer_id": "NZ-18565",
+        "buyer_name": "Nick Zandusky",
+        "amount": "$26963.03",
+        "productIds": [
+            "OFF-BI-10001658",
+            "OFF-ST-10002562"
+        ]
+    },
+    {
+        "_id": "CA-2017-164350",
+        "transaction_date": "2017-09-10",
+        "customer_id": "CG-12040",
+        "buyer_name": "Catherine Glotzbach",
+        "amount": "$687.47",
+        "productIds": [
+            "OFF-AR-10000538"
+        ]
+    },
+    {
+        "_id": "CA-2017-164399",
+        "transaction_date": "2017-11-12",
+        "customer_id": "DW-13480",
+        "buyer_name": "Dianna Wilson",
+        "amount": "$3941.96",
+        "productIds": [
+            "TEC-PH-10004908",
+            "FUR-TA-10003392"
+        ]
+    },
+    {
+        "_id": "CA-2017-164483",
+        "transaction_date": "2017-01-30",
+        "customer_id": "JF-15490",
+        "buyer_name": "Jeremy Farry",
+        "amount": "$3698.16",
+        "productIds": [
+            "OFF-BI-10000014"
+        ]
+    },
+    {
+        "_id": "CA-2017-164490",
+        "transaction_date": "2017-09-05",
+        "customer_id": "SU-20665",
+        "buyer_name": "Stephanie Ulpright",
+        "amount": "$8658.58",
+        "productIds": [
+            "OFF-PA-10004971"
+        ]
+    },
+    {
+        "_id": "CA-2017-164511",
+        "transaction_date": "2017-11-19",
+        "customer_id": "DJ-13630",
+        "buyer_name": "Doug Jacobs",
+        "amount": "$32371.00",
+        "productIds": [
+            "OFF-BI-10003305",
+            "OFF-ST-10002583",
+            "OFF-ST-10004507"
+        ]
+    },
+    {
+        "_id": "CA-2017-164574",
+        "transaction_date": "2017-07-29",
+        "customer_id": "RH-19555",
+        "buyer_name": "Ritsa Hightower",
+        "amount": "$11345.58",
+        "productIds": [
+            "OFF-ST-10003816",
+            "OFF-BI-10002429"
+        ]
+    },
+    {
+        "_id": "CA-2017-164637",
+        "transaction_date": "2017-03-04",
+        "customer_id": "RD-19480",
+        "buyer_name": "Rick Duston",
+        "amount": "$3161.50",
+        "productIds": [
+            "OFF-BI-10003876"
+        ]
+    },
+    {
+        "_id": "CA-2017-164672",
+        "transaction_date": "2017-05-08",
+        "customer_id": "GB-14530",
+        "buyer_name": "George Bell",
+        "amount": "$3392.60",
+        "productIds": [
+            "FUR-FU-10001488"
+        ]
+    },
+    {
+        "_id": "CA-2017-164735",
+        "transaction_date": "2017-04-14",
+        "customer_id": "TB-21400",
+        "buyer_name": "Tom Boeckenhauer",
+        "amount": "$3427.60",
+        "productIds": [
+            "OFF-ST-10001558"
+        ]
+    },
+    {
+        "_id": "CA-2017-164770",
+        "transaction_date": "2017-12-02",
+        "customer_id": "MY-18295",
+        "buyer_name": "Muhammed Yedwab",
+        "amount": "$2021.97",
+        "productIds": [
+            "FUR-BO-10003893",
+            "OFF-PA-10003893"
+        ]
+    },
+    {
+        "_id": "CA-2017-164784",
+        "transaction_date": "2017-05-01",
+        "customer_id": "HF-14995",
+        "buyer_name": "Herbert Flentye",
+        "amount": "$12951.19",
+        "productIds": [
+            "OFF-LA-10001569",
+            "FUR-TA-10004534",
+            "OFF-BI-10002954"
+        ]
+    },
+    {
+        "_id": "CA-2017-164896",
+        "transaction_date": "2017-11-07",
+        "customer_id": "PS-19045",
+        "buyer_name": "Penelope Sewall",
+        "amount": "$7299.39",
+        "productIds": [
+            "OFF-PA-10002246"
+        ]
+    },
+    {
+        "_id": "CA-2017-164924",
+        "transaction_date": "2017-07-10",
+        "customer_id": "EA-14035",
+        "buyer_name": "Erin Ashbrook",
+        "amount": "$219.26",
+        "productIds": [
+            "TEC-MA-10000904"
+        ]
+    },
+    {
+        "_id": "CA-2017-164938",
+        "transaction_date": "2017-02-11",
+        "customer_id": "PB-19210",
+        "buyer_name": "Phillip Breyer",
+        "amount": "$4855.59",
+        "productIds": [
+            "TEC-PH-10004897"
+        ]
+    },
+    {
+        "_id": "CA-2017-165015",
+        "transaction_date": "2017-02-25",
+        "customer_id": "BD-11725",
+        "buyer_name": "Bruce Degenhardt",
+        "amount": "$708.62",
+        "productIds": [
+            "OFF-EN-10003134"
+        ]
+    },
+    {
+        "_id": "CA-2017-165148",
+        "transaction_date": "2017-10-22",
+        "customer_id": "PM-19135",
+        "buyer_name": "Peter McVee",
+        "amount": "$10544.43",
+        "productIds": [
+            "FUR-FU-10000732"
+        ]
+    },
+    {
+        "_id": "CA-2017-165169",
+        "transaction_date": "2017-06-05",
+        "customer_id": "JL-15235",
+        "buyer_name": "Janet Lee",
+        "amount": "$9137.67",
+        "productIds": [
+            "OFF-ST-10001496",
+            "OFF-AR-10000122",
+            "OFF-LA-10000407"
+        ]
+    },
+    {
+        "_id": "CA-2017-165218",
+        "transaction_date": "2017-03-05",
+        "customer_id": "RW-19630",
+        "buyer_name": "Rob Williams",
+        "amount": "$11890.60",
+        "productIds": [
+            "OFF-EN-10000056",
+            "OFF-ST-10001558"
+        ]
+    },
+    {
+        "_id": "CA-2017-165316",
+        "transaction_date": "2017-07-23",
+        "customer_id": "JB-15400",
+        "buyer_name": "Jennifer Braxton",
+        "amount": "$21998.51",
+        "productIds": [
+            "OFF-AR-10002956",
+            "OFF-AP-10003266",
+            "TEC-MA-10004002"
+        ]
+    },
+    {
+        "_id": "CA-2017-165330",
+        "transaction_date": "2017-12-11",
+        "customer_id": "WB-21850",
+        "buyer_name": "William Brown",
+        "amount": "$71344.84",
+        "productIds": [
+            "OFF-BI-10004593",
+            "OFF-AR-10000914",
+            "OFF-PA-10000241",
+            "TEC-AC-10000057",
+            "FUR-CH-10003774",
+            "OFF-BI-10002824",
+            "OFF-BI-10004001",
+            "FUR-TA-10004619",
+            "OFF-ST-10000636",
+            "OFF-AP-10001469",
+            "OFF-BI-10002897"
+        ]
+    },
+    {
+        "_id": "CA-2017-165470",
+        "transaction_date": "2017-11-25",
+        "customer_id": "HJ-14875",
+        "buyer_name": "Heather Jas",
+        "amount": "$830.71",
+        "productIds": [
+            "OFF-PA-10004675"
+        ]
+    },
+    {
+        "_id": "CA-2017-165484",
+        "transaction_date": "2017-10-23",
+        "customer_id": "HK-14890",
+        "buyer_name": "Heather Kirkland",
+        "amount": "$12912.02",
+        "productIds": [
+            "FUR-FU-10001196",
+            "OFF-PA-10000595"
+        ]
+    },
+    {
+        "_id": "CA-2017-165561",
+        "transaction_date": "2017-11-24",
+        "customer_id": "CR-12580",
+        "buyer_name": "Clay Rozendal",
+        "amount": "$8966.16",
+        "productIds": [
+            "OFF-SU-10004782"
+        ]
+    },
+    {
+        "_id": "CA-2017-165673",
+        "transaction_date": "2017-05-15",
+        "customer_id": "MN-17935",
+        "buyer_name": "Michael Nguyen",
+        "amount": "$2319.87",
+        "productIds": [
+            "OFF-PA-10000697"
+        ]
+    },
+    {
+        "_id": "CA-2017-165820",
+        "transaction_date": "2017-09-26",
+        "customer_id": "DW-13585",
+        "buyer_name": "Dorothy Wardle",
+        "amount": "$2334.05",
+        "productIds": [
+            "OFF-PA-10004735"
+        ]
+    },
+    {
+        "_id": "CA-2017-165827",
+        "transaction_date": "2017-11-04",
+        "customer_id": "MF-17665",
+        "buyer_name": "Maureen Fritzler",
+        "amount": "$9682.35",
+        "productIds": [
+            "FUR-FU-10001889"
+        ]
+    },
+    {
+        "_id": "CA-2017-165848",
+        "transaction_date": "2017-06-04",
+        "customer_id": "EN-13780",
+        "buyer_name": "Edward Nazzal",
+        "amount": "$20741.67",
+        "productIds": [
+            "OFF-PA-10000349",
+            "TEC-MA-10003356",
+            "FUR-BO-10000362",
+            "FUR-FU-10003878"
+        ]
+    },
+    {
+        "_id": "CA-2017-165918",
+        "transaction_date": "2017-09-10",
+        "customer_id": "BD-11770",
+        "buyer_name": "Bryan Davis",
+        "amount": "$42544.80",
+        "productIds": [
+            "OFF-LA-10003720",
+            "OFF-BI-10004364",
+            "OFF-PA-10000100",
+            "OFF-BI-10004826"
+        ]
+    },
+    {
+        "_id": "CA-2017-165995",
+        "transaction_date": "2017-08-30",
+        "customer_id": "BG-11740",
+        "buyer_name": "Bruce Geld",
+        "amount": "$16481.75",
+        "productIds": [
+            "FUR-FU-10000672",
+            "TEC-PH-10004908"
+        ]
+    },
+    {
+        "_id": "CA-2017-166163",
+        "transaction_date": "2017-08-15",
+        "customer_id": "CY-12745",
+        "buyer_name": "Craig Yedwab",
+        "amount": "$25738.65",
+        "productIds": [
+            "TEC-PH-10004896",
+            "OFF-LA-10000452"
+        ]
+    },
+    {
+        "_id": "CA-2017-166226",
+        "transaction_date": "2017-11-18",
+        "customer_id": "TC-21535",
+        "buyer_name": "Tracy Collins",
+        "amount": "$7742.15",
+        "productIds": [
+            "TEC-PH-10003357",
+            "OFF-AP-10002867"
+        ]
+    },
+    {
+        "_id": "CA-2017-166240",
+        "transaction_date": "2017-06-24",
+        "customer_id": "DH-13075",
+        "buyer_name": "Dave Hallsten",
+        "amount": "$922.88",
+        "productIds": [
+            "OFF-AP-10002082"
+        ]
+    },
+    {
+        "_id": "CA-2017-166275",
+        "transaction_date": "2017-10-24",
+        "customer_id": "SS-20590",
+        "buyer_name": "Sonia Sunley",
+        "amount": "$14479.88",
+        "productIds": [
+            "TEC-AC-10001838"
+        ]
+    },
+    {
+        "_id": "CA-2017-166282",
+        "transaction_date": "2017-04-16",
+        "customer_id": "PK-19075",
+        "buyer_name": "Pete Kriz",
+        "amount": "$3638.74",
+        "productIds": [
+            "TEC-AC-10004209",
+            "OFF-PA-10003022"
+        ]
+    },
+    {
+        "_id": "CA-2017-166373",
+        "transaction_date": "2017-10-21",
+        "customer_id": "JF-15565",
+        "buyer_name": "Jill Fjeld",
+        "amount": "$14450.40",
+        "productIds": [
+            "TEC-AC-10002323"
+        ]
+    },
+    {
+        "_id": "CA-2017-166380",
+        "transaction_date": "2017-05-30",
+        "customer_id": "EB-13750",
+        "buyer_name": "Edward Becker",
+        "amount": "$1647.92",
+        "productIds": [
+            "OFF-EN-10002600",
+            "TEC-AC-10000109"
+        ]
+    },
+    {
+        "_id": "CA-2017-166429",
+        "transaction_date": "2017-09-02",
+        "customer_id": "TG-21310",
+        "buyer_name": "Toby Gnade",
+        "amount": "$2325.15",
+        "productIds": [
+            "TEC-CO-10002095"
+        ]
+    },
+    {
+        "_id": "CA-2017-166443",
+        "transaction_date": "2017-11-04",
+        "customer_id": "LH-17020",
+        "buyer_name": "Lisa Hazard",
+        "amount": "$14572.11",
+        "productIds": [
+            "FUR-FU-10004020"
+        ]
+    },
+    {
+        "_id": "CA-2017-166485",
+        "transaction_date": "2017-02-20",
+        "customer_id": "AH-10210",
+        "buyer_name": "Alan Hwang",
+        "amount": "$3472.65",
+        "productIds": [
+            "OFF-PA-10004996"
+        ]
+    },
+    {
+        "_id": "CA-2017-166618",
+        "transaction_date": "2017-11-14",
+        "customer_id": "DP-13000",
+        "buyer_name": "Darren Powers",
+        "amount": "$21963.29",
+        "productIds": [
+            "TEC-PH-10003356",
+            "OFF-AR-10001725"
+        ]
+    },
+    {
+        "_id": "CA-2017-166625",
+        "transaction_date": "2017-04-14",
+        "customer_id": "JM-15580",
+        "buyer_name": "Jill Matthias",
+        "amount": "$8628.75",
+        "productIds": [
+            "OFF-BI-10002414"
+        ]
+    },
+    {
+        "_id": "CA-2017-166674",
+        "transaction_date": "2017-04-01",
+        "customer_id": "RB-19360",
+        "buyer_name": "Raymond Buch",
+        "amount": "$42805.11",
+        "productIds": [
+            "OFF-AR-10000588",
+            "OFF-ST-10001469",
+            "OFF-AR-10001953",
+            "OFF-AR-10003156",
+            "OFF-AR-10004974",
+            "TEC-PH-10002365"
+        ]
+    },
+    {
+        "_id": "CA-2017-166772",
+        "transaction_date": "2017-09-20",
+        "customer_id": "HJ-14875",
+        "buyer_name": "Heather Jas",
+        "amount": "$7794.47",
+        "productIds": [
+            "FUR-BO-10002853"
+        ]
+    },
+    {
+        "_id": "CA-2017-166912",
+        "transaction_date": "2017-01-15",
+        "customer_id": "BE-11335",
+        "buyer_name": "Bill Eplett",
+        "amount": "$3634.38",
+        "productIds": [
+            "OFF-PA-10001033"
+        ]
+    },
+    {
+        "_id": "CA-2017-167115",
+        "transaction_date": "2017-04-04",
+        "customer_id": "EH-14185",
+        "buyer_name": "Evan Henry",
+        "amount": "$4039.84",
+        "productIds": [
+            "OFF-BI-10004600"
+        ]
+    },
+    {
+        "_id": "CA-2017-167241",
+        "transaction_date": "2017-08-15",
+        "customer_id": "BD-11320",
+        "buyer_name": "Bill Donatelli",
+        "amount": "$8646.23",
+        "productIds": [
+            "FUR-FU-10004071",
+            "OFF-ST-10001505",
+            "TEC-PH-10004614",
+            "OFF-PA-10004911"
+        ]
+    },
+    {
+        "_id": "CA-2017-167290",
+        "transaction_date": "2017-10-30",
+        "customer_id": "JF-15295",
+        "buyer_name": "Jason Fortune-",
+        "amount": "$1449.08",
+        "productIds": [
+            "OFF-AR-10004078"
+        ]
+    },
+    {
+        "_id": "CA-2017-167416",
+        "transaction_date": "2017-05-12",
+        "customer_id": "JM-15580",
+        "buyer_name": "Jill Matthias",
+        "amount": "$21539.04",
+        "productIds": [
+            "OFF-EN-10001141"
+        ]
+    },
+    {
+        "_id": "CA-2017-167507",
+        "transaction_date": "2017-12-22",
+        "customer_id": "SA-20830",
+        "buyer_name": "Sue Ann Reed",
+        "amount": "$19498.98",
+        "productIds": [
+            "OFF-BI-10003694",
+            "FUR-FU-10001935",
+            "FUR-FU-10002878"
+        ]
+    },
+    {
+        "_id": "CA-2017-167556",
+        "transaction_date": "2017-03-29",
+        "customer_id": "JM-15250",
+        "buyer_name": "Janet Martin",
+        "amount": "$23334.29",
+        "productIds": [
+            "OFF-PA-10000466",
+            "OFF-BI-10003708",
+            "FUR-FU-10004848",
+            "OFF-BI-10000320"
+        ]
+    },
+    {
+        "_id": "CA-2017-167584",
+        "transaction_date": "2017-08-12",
+        "customer_id": "LC-16870",
+        "buyer_name": "Lena Cacioppo",
+        "amount": "$4262.30",
+        "productIds": [
+            "OFF-PA-10000029"
+        ]
+    },
+    {
+        "_id": "CA-2017-167605",
+        "transaction_date": "2017-04-28",
+        "customer_id": "RB-19570",
+        "buyer_name": "Rob Beeghly",
+        "amount": "$4192.71",
+        "productIds": [
+            "FUR-FU-10001602"
+        ]
+    },
+    {
+        "_id": "CA-2017-167682",
+        "transaction_date": "2017-04-03",
+        "customer_id": "ZD-21925",
+        "buyer_name": "Zuschuss Donatelli",
+        "amount": "$1616.90",
+        "productIds": [
+            "FUR-FU-10003799",
+            "TEC-PH-10000673"
+        ]
+    },
+    {
+        "_id": "CA-2017-167759",
+        "transaction_date": "2017-03-03",
+        "customer_id": "CC-12670",
+        "buyer_name": "Craig Carreira",
+        "amount": "$3695.28",
+        "productIds": [
+            "TEC-PH-10003171"
+        ]
+    },
+    {
+        "_id": "CA-2017-167983",
+        "transaction_date": "2017-08-21",
+        "customer_id": "RP-19270",
+        "buyer_name": "Rachel Payne",
+        "amount": "$14129.50",
+        "productIds": [
+            "OFF-BI-10003727"
+        ]
+    },
+    {
+        "_id": "CA-2017-168032",
+        "transaction_date": "2017-01-30",
+        "customer_id": "DF-13135",
+        "buyer_name": "David Flashing",
+        "amount": "$22589.54",
+        "productIds": [
+            "TEC-PH-10004241",
+            "OFF-BI-10000546",
+            "FUR-TA-10004256"
+        ]
+    },
+    {
+        "_id": "CA-2017-168046",
+        "transaction_date": "2017-01-25",
+        "customer_id": "JD-15895",
+        "buyer_name": "Jonathan Doherty",
+        "amount": "$51617.78",
+        "productIds": [
+            "OFF-BI-10003676",
+            "FUR-TA-10001095",
+            "FUR-FU-10000747",
+            "OFF-ST-10004337"
+        ]
+    },
+    {
+        "_id": "CA-2017-168081",
+        "transaction_date": "2017-04-24",
+        "customer_id": "CA-12055",
+        "buyer_name": "Cathy Armstrong",
+        "amount": "$569.16",
+        "productIds": [
+            "TEC-AC-10003174"
+        ]
+    },
+    {
+        "_id": "CA-2017-168354",
+        "transaction_date": "2017-09-19",
+        "customer_id": "RH-19510",
+        "buyer_name": "Rick Huthwaite",
+        "amount": "$33282.07",
+        "productIds": [
+            "OFF-ST-10001490",
+            "OFF-PA-10002377",
+            "OFF-BI-10004826",
+            "FUR-CH-10004675"
+        ]
+    },
+    {
+        "_id": "CA-2017-168361",
+        "transaction_date": "2017-06-21",
+        "customer_id": "KB-16600",
+        "buyer_name": "Ken Brennan",
+        "amount": "$1374.80",
+        "productIds": [
+            "OFF-BI-10003727"
+        ]
+    },
+    {
+        "_id": "CA-2017-168536",
+        "transaction_date": "2017-12-20",
+        "customer_id": "SC-20800",
+        "buyer_name": "Stuart Calhoun",
+        "amount": "$2245.20",
+        "productIds": [
+            "TEC-AC-10002323"
+        ]
+    },
+    {
+        "_id": "CA-2017-168543",
+        "transaction_date": "2017-07-03",
+        "customer_id": "DK-13225",
+        "buyer_name": "Dean Katz",
+        "amount": "$14451.00",
+        "productIds": [
+            "OFF-AP-10000938"
+        ]
+    },
+    {
+        "_id": "CA-2017-168557",
+        "transaction_date": "2017-09-19",
+        "customer_id": "FH-14275",
+        "buyer_name": "Frank Hawley",
+        "amount": "$1474.24",
+        "productIds": [
+            "OFF-BI-10002309"
+        ]
+    },
+    {
+        "_id": "CA-2017-168753",
+        "transaction_date": "2017-05-29",
+        "customer_id": "RL-19615",
+        "buyer_name": "Rob Lucas",
+        "amount": "$20975.61",
+        "productIds": [
+            "TEC-PH-10000984",
+            "OFF-BI-10002557"
+        ]
+    },
+    {
+        "_id": "CA-2017-168774",
+        "transaction_date": "2017-09-04",
+        "customer_id": "RP-19855",
+        "buyer_name": "Roy Phan",
+        "amount": "$15780.00",
+        "productIds": [
+            "OFF-ST-10001490"
+        ]
+    },
+    {
+        "_id": "CA-2017-168830",
+        "transaction_date": "2017-11-07",
+        "customer_id": "ML-17395",
+        "buyer_name": "Marina Lichtenstein",
+        "amount": "$1044.84",
+        "productIds": [
+            "TEC-AC-10003911"
+        ]
+    },
+    {
+        "_id": "CA-2017-168844",
+        "transaction_date": "2017-05-31",
+        "customer_id": "NM-18520",
+        "buyer_name": "Neoma Murray",
+        "amount": "$1043.99",
+        "productIds": [
+            "OFF-BI-10002609",
+            "TEC-PH-10003215"
+        ]
+    },
+    {
+        "_id": "CA-2017-168893",
+        "transaction_date": "2017-11-03",
+        "customer_id": "AP-10915",
+        "buyer_name": "Arthur Prichep",
+        "amount": "$18994.03",
+        "productIds": [
+            "OFF-FA-10002280",
+            "OFF-AR-10001770",
+            "FUR-FU-10002885",
+            "OFF-AR-10003772",
+            "FUR-TA-10003392"
+        ]
+    },
+    {
+        "_id": "CA-2017-168921",
+        "transaction_date": "2017-10-20",
+        "customer_id": "AG-10495",
+        "buyer_name": "Andrew Gjertsen",
+        "amount": "$1767.04",
+        "productIds": [
+            "OFF-BI-10004209"
+        ]
+    },
+    {
+        "_id": "CA-2017-168956",
+        "transaction_date": "2017-02-16",
+        "customer_id": "EA-14035",
+        "buyer_name": "Erin Ashbrook",
+        "amount": "$24955.64",
+        "productIds": [
+            "OFF-AP-10004233",
+            "OFF-FA-10000304",
+            "FUR-CH-10004754",
+            "OFF-PA-10000809"
+        ]
+    },
+    {
+        "_id": "CA-2017-169026",
+        "transaction_date": "2017-08-08",
+        "customer_id": "CM-12655",
+        "buyer_name": "Corinna Mitchell",
+        "amount": "$6102.74",
+        "productIds": [
+            "OFF-FA-10001883"
+        ]
+    },
+    {
+        "_id": "CA-2017-169103",
+        "transaction_date": "2017-03-08",
+        "customer_id": "ZC-21910",
+        "buyer_name": "Zuschuss Carroll",
+        "amount": "$16962.86",
+        "productIds": [
+            "TEC-PH-10001530",
+            "FUR-FU-10004006"
+        ]
+    },
+    {
+        "_id": "CA-2017-169166",
+        "transaction_date": "2017-05-09",
+        "customer_id": "SS-20590",
+        "buyer_name": "Sonia Sunley",
+        "amount": "$22683.98",
+        "productIds": [
+            "TEC-AC-10000991"
+        ]
+    },
+    {
+        "_id": "CA-2017-169194",
+        "transaction_date": "2017-06-20",
+        "customer_id": "LH-16900",
+        "buyer_name": "Lena Hernandez",
+        "amount": "$23873.43",
+        "productIds": [
+            "TEC-AC-10002167",
+            "TEC-PH-10003988"
+        ]
+    },
+    {
+        "_id": "CA-2017-169215",
+        "transaction_date": "2017-07-14",
+        "customer_id": "RE-19450",
+        "buyer_name": "Richard Eichhorn",
+        "amount": "$2335.04",
+        "productIds": [
+            "OFF-FA-10000936"
+        ]
+    },
+    {
+        "_id": "CA-2017-169334",
+        "transaction_date": "2017-10-21",
+        "customer_id": "GW-14605",
+        "buyer_name": "Giulietta Weimer",
+        "amount": "$4352.50",
+        "productIds": [
+            "OFF-ST-10004950"
+        ]
+    },
+    {
+        "_id": "CA-2017-169663",
+        "transaction_date": "2017-03-10",
+        "customer_id": "RH-19510",
+        "buyer_name": "Rick Huthwaite",
+        "amount": "$14123.33",
+        "productIds": [
+            "TEC-AC-10003038",
+            "TEC-MA-10000984"
+        ]
+    },
+    {
+        "_id": "CA-2017-169670",
+        "transaction_date": "2017-12-25",
+        "customer_id": "JE-15715",
+        "buyer_name": "Joe Elijah",
+        "amount": "$6910.60",
+        "productIds": [
+            "FUR-CH-10002331"
+        ]
+    },
+    {
+        "_id": "CA-2017-169838",
+        "transaction_date": "2017-11-25",
+        "customer_id": "BB-11545",
+        "buyer_name": "Brenda Bowman",
+        "amount": "$14800.82",
+        "productIds": [
+            "FUR-TA-10001095",
+            "OFF-BI-10004002",
+            "TEC-AC-10004518"
+        ]
+    },
+    {
+        "_id": "CA-2017-169887",
+        "transaction_date": "2017-10-22",
+        "customer_id": "MS-17530",
+        "buyer_name": "MaryBeth Skach",
+        "amount": "$4377.92",
+        "productIds": [
+            "OFF-PA-10003001",
+            "OFF-AR-10002766",
+            "FUR-FU-10003095"
+        ]
+    },
+    {
+        "_id": "CA-2017-169922",
+        "transaction_date": "2017-06-11",
+        "customer_id": "MZ-17515",
+        "buyer_name": "Mary Zewe",
+        "amount": "$13349.06",
+        "productIds": [
+            "OFF-BI-10003784",
+            "OFF-BI-10001617",
+            "FUR-FU-10004415"
+        ]
+    },
+    {
+        "_id": "CA-2017-169943",
+        "transaction_date": "2017-05-19",
+        "customer_id": "BN-11515",
+        "buyer_name": "Bradley Nguyen",
+        "amount": "$32580.56",
+        "productIds": [
+            "OFF-AP-10001563",
+            "OFF-ST-10004123",
+            "FUR-FU-10002088",
+            "FUR-FU-10000010",
+            "OFF-BI-10002824"
+        ]
+    },
+    {
+        "_id": "CA-2017-169957",
+        "transaction_date": "2017-09-26",
+        "customer_id": "SN-20710",
+        "buyer_name": "Steve Nguyen",
+        "amount": "$31951.88",
+        "productIds": [
+            "OFF-AP-10000576",
+            "OFF-PA-10004040",
+            "TEC-AC-10003063"
+        ]
+    },
+    {
+        "_id": "CA-2017-169971",
+        "transaction_date": "2017-09-04",
+        "customer_id": "IL-15100",
+        "buyer_name": "Ivan Liston",
+        "amount": "$3240.11",
+        "productIds": [
+            "OFF-AR-10002804",
+            "OFF-AR-10001044"
+        ]
+    },
+    {
+        "_id": "US-2017-100405",
+        "transaction_date": "2017-08-26",
+        "customer_id": "TS-21430",
+        "buyer_name": "Tom Stivers",
+        "amount": "$10880.54",
+        "productIds": [
+            "OFF-AR-10000390"
+        ]
+    },
+    {
+        "_id": "US-2017-100419",
+        "transaction_date": "2017-12-16",
+        "customer_id": "CC-12670",
+        "buyer_name": "Craig Carreira",
+        "amount": "$14219.20",
+        "productIds": [
+            "OFF-BI-10002194"
+        ]
+    },
+    {
+        "_id": "US-2017-100461",
+        "transaction_date": "2017-01-08",
+        "customer_id": "JO-15145",
+        "buyer_name": "Jack O'Briant",
+        "amount": "$2842.92",
+        "productIds": [
+            "FUR-BO-10002545",
+            "OFF-BI-10001460"
+        ]
+    },
+    {
+        "_id": "US-2017-100566",
+        "transaction_date": "2017-09-03",
+        "customer_id": "JK-16120",
+        "buyer_name": "Julie Kriz",
+        "amount": "$6657.09",
+        "productIds": [
+            "FUR-FU-10003394"
+        ]
+    },
+    {
+        "_id": "US-2017-100720",
+        "transaction_date": "2017-07-16",
+        "customer_id": "CK-12205",
+        "buyer_name": "Chloris Kastensmidt",
+        "amount": "$37863.76",
+        "productIds": [
+            "TEC-PH-10001425",
+            "TEC-PH-10003963",
+            "OFF-SU-10001574"
+        ]
+    },
+    {
+        "_id": "US-2017-100839",
+        "transaction_date": "2017-10-13",
+        "customer_id": "NC-18625",
+        "buyer_name": "Noah Childs",
+        "amount": "$22926.54",
+        "productIds": [
+            "FUR-TA-10004575",
+            "FUR-FU-10001617"
+        ]
+    },
+    {
+        "_id": "US-2017-101196",
+        "transaction_date": "2017-05-12",
+        "customer_id": "FM-14215",
+        "buyer_name": "Filia McAdams",
+        "amount": "$5235.60",
+        "productIds": [
+            "OFF-ST-10004804"
+        ]
+    },
+    {
+        "_id": "US-2017-101497",
+        "transaction_date": "2017-09-29",
+        "customer_id": "PS-18760",
+        "buyer_name": "Pamela Stobb",
+        "amount": "$7873.44",
+        "productIds": [
+            "OFF-PA-10000176"
+        ]
+    },
+    {
+        "_id": "US-2017-101616",
+        "transaction_date": "2017-09-03",
+        "customer_id": "CY-12745",
+        "buyer_name": "Craig Yedwab",
+        "amount": "$6593.02",
+        "productIds": [
+            "OFF-BI-10000014"
+        ]
+    },
+    {
+        "_id": "US-2017-102141",
+        "transaction_date": "2017-08-26",
+        "customer_id": "KD-16615",
+        "buyer_name": "Ken Dana",
+        "amount": "$2508.70",
+        "productIds": [
+            "OFF-BI-10001510"
+        ]
+    },
+    {
+        "_id": "US-2017-102232",
+        "transaction_date": "2017-08-05",
+        "customer_id": "MF-17665",
+        "buyer_name": "Maureen Fritzler",
+        "amount": "$4161.90",
+        "productIds": [
+            "OFF-AR-10000538"
+        ]
+    },
+    {
+        "_id": "US-2017-102239",
+        "transaction_date": "2017-05-05",
+        "customer_id": "LW-16990",
+        "buyer_name": "Lindsay Williams",
+        "amount": "$11350.85",
+        "productIds": [
+            "FUR-TA-10003392",
+            "OFF-BI-10001890"
+        ]
+    },
+    {
+        "_id": "US-2017-103646",
+        "transaction_date": "2017-04-21",
+        "customer_id": "SP-20545",
+        "buyer_name": "Sibella Parks",
+        "amount": "$13038.17",
+        "productIds": [
+            "OFF-ST-10000563",
+            "OFF-AP-10004487",
+            "OFF-BI-10002854"
+        ]
+    },
+    {
+        "_id": "US-2017-104794",
+        "transaction_date": "2017-12-16",
+        "customer_id": "KD-16495",
+        "buyer_name": "Keith Dawkins",
+        "amount": "$8845.02",
+        "productIds": [
+            "OFF-FA-10001754"
+        ]
+    },
+    {
+        "_id": "US-2017-104815",
+        "transaction_date": "2017-09-03",
+        "customer_id": "RB-19570",
+        "buyer_name": "Rob Beeghly",
+        "amount": "$18897.00",
+        "productIds": [
+            "FUR-BO-10003894"
+        ]
+    },
+    {
+        "_id": "US-2017-105452",
+        "transaction_date": "2017-07-28",
+        "customer_id": "BF-11005",
+        "buyer_name": "Barry Franz",
+        "amount": "$17832.06",
+        "productIds": [
+            "FUR-FU-10003691",
+            "FUR-FU-10003806"
+        ]
+    },
+    {
+        "_id": "US-2017-105578",
+        "transaction_date": "2017-05-30",
+        "customer_id": "MY-17380",
+        "buyer_name": "Maribeth Yedwab",
+        "amount": "$56593.72",
+        "productIds": [
+            "OFF-BI-10001670",
+            "OFF-BI-10001658",
+            "FUR-CH-10001215",
+            "OFF-BI-10000831",
+            "OFF-PA-10000357"
+        ]
+    },
+    {
+        "_id": "US-2017-105830",
+        "transaction_date": "2017-12-31",
+        "customer_id": "DB-13660",
+        "buyer_name": "Duane Benoit",
+        "amount": "$15245.94",
+        "productIds": [
+            "OFF-ST-10002554"
+        ]
+    },
+    {
+        "_id": "US-2017-106313",
+        "transaction_date": "2017-08-22",
+        "customer_id": "DG-13300",
+        "buyer_name": "Deirdre Greer",
+        "amount": "$5031.40",
+        "productIds": [
+            "OFF-PA-10001870"
+        ]
+    },
+    {
+        "_id": "US-2017-106600",
+        "transaction_date": "2017-04-08",
+        "customer_id": "RM-19375",
+        "buyer_name": "Raymond Messe",
+        "amount": "$4672.91",
+        "productIds": [
+            "FUR-BO-10001608"
+        ]
+    },
+    {
+        "_id": "US-2017-106677",
+        "transaction_date": "2017-11-05",
+        "customer_id": "AS-10285",
+        "buyer_name": "Alejandro Savely",
+        "amount": "$1695.37",
+        "productIds": [
+            "TEC-PH-10003187"
+        ]
+    },
+    {
+        "_id": "US-2017-107440",
+        "transaction_date": "2017-04-16",
+        "customer_id": "BS-11365",
+        "buyer_name": "Bill Shonely",
+        "amount": "$2834.58",
+        "productIds": [
+            "TEC-MA-10001047",
+            "FUR-FU-10000550",
+            "OFF-BI-10002432"
+        ]
+    },
+    {
+        "_id": "US-2017-108098",
+        "transaction_date": "2017-10-14",
+        "customer_id": "CP-12340",
+        "buyer_name": "Christine Phan",
+        "amount": "$3900.36",
+        "productIds": [
+            "TEC-AC-10000865"
+        ]
+    },
+    {
+        "_id": "US-2017-108455",
+        "transaction_date": "2017-12-02",
+        "customer_id": "MK-18160",
+        "buyer_name": "Mike Kennedy",
+        "amount": "$15787.36",
+        "productIds": [
+            "OFF-PA-10002262",
+            "OFF-PA-10002464",
+            "OFF-ST-10002214"
+        ]
+    },
+    {
+        "_id": "US-2017-108497",
+        "transaction_date": "2017-06-14",
+        "customer_id": "MH-17290",
+        "buyer_name": "Marc Harrigan",
+        "amount": "$17849.00",
+        "productIds": [
+            "FUR-BO-10004218"
+        ]
+    },
+    {
+        "_id": "US-2017-108504",
+        "transaction_date": "2017-02-05",
+        "customer_id": "PP-18955",
+        "buyer_name": "Paul Prost",
+        "amount": "$90913.14",
+        "productIds": [
+            "OFF-ST-10002344",
+            "OFF-PA-10001289",
+            "OFF-FA-10000053",
+            "FUR-FU-10004091",
+            "FUR-BO-10004015",
+            "OFF-EN-10003001",
+            "TEC-PH-10000215",
+            "TEC-PH-10003645",
+            "OFF-PA-10000357",
+            "OFF-ST-10004804",
+            "OFF-PA-10003892"
+        ]
+    },
+    {
+        "_id": "US-2017-108637",
+        "transaction_date": "2017-03-13",
+        "customer_id": "AB-10060",
+        "buyer_name": "Adam Bellavance",
+        "amount": "$3830.42",
+        "productIds": [
+            "FUR-FU-10004864",
+            "OFF-AP-10004540",
+            "OFF-BI-10004965"
+        ]
+    },
+    {
+        "_id": "US-2017-108777",
+        "transaction_date": "2017-12-12",
+        "customer_id": "JM-15655",
+        "buyer_name": "Jim Mitchum",
+        "amount": "$4131.40",
+        "productIds": [
+            "OFF-BI-10003982",
+            "TEC-AC-10002567"
+        ]
+    },
+    {
+        "_id": "US-2017-109260",
+        "transaction_date": "2017-09-26",
+        "customer_id": "TN-21040",
+        "buyer_name": "Tanja Norvell",
+        "amount": "$232.09",
+        "productIds": [
+            "TEC-AC-10002637"
+        ]
+    },
+    {
+        "_id": "US-2017-110156",
+        "transaction_date": "2017-11-19",
+        "customer_id": "EH-13945",
+        "buyer_name": "Eric Hoffmann",
+        "amount": "$53096.46",
+        "productIds": [
+            "OFF-ST-10000642",
+            "FUR-FU-10000206",
+            "OFF-BI-10003676",
+            "OFF-FA-10003495",
+            "OFF-EN-10003798",
+            "TEC-PH-10003589",
+            "OFF-PA-10004735",
+            "OFF-BI-10002609"
+        ]
+    },
+    {
+        "_id": "US-2017-110170",
+        "transaction_date": "2017-09-27",
+        "customer_id": "HM-14860",
+        "buyer_name": "Harry Marie",
+        "amount": "$3337.80",
+        "productIds": [
+            "FUR-BO-10000780"
+        ]
+    },
+    {
+        "_id": "US-2017-111290",
+        "transaction_date": "2017-07-22",
+        "customer_id": "DK-13375",
+        "buyer_name": "Dennis Kane",
+        "amount": "$21525.97",
+        "productIds": [
+            "TEC-AC-10004975",
+            "OFF-ST-10001932",
+            "OFF-AR-10001761",
+            "OFF-PA-10002262"
+        ]
+    },
+    {
+        "_id": "US-2017-111528",
+        "transaction_date": "2017-12-30",
+        "customer_id": "JP-16135",
+        "buyer_name": "Julie Prescott",
+        "amount": "$14988.19",
+        "productIds": [
+            "OFF-ST-10001526",
+            "OFF-BI-10002194"
+        ]
+    },
+    {
+        "_id": "US-2017-111563",
+        "transaction_date": "2017-11-04",
+        "customer_id": "SM-20005",
+        "buyer_name": "Sally Matthias",
+        "amount": "$36156.20",
+        "productIds": [
+            "FUR-FU-10002445",
+            "FUR-FU-10000723"
+        ]
+    },
+    {
+        "_id": "US-2017-112396",
+        "transaction_date": "2017-02-09",
+        "customer_id": "JR-16210",
+        "buyer_name": "Justin Ritter",
+        "amount": "$16793.74",
+        "productIds": [
+            "TEC-AC-10003628",
+            "TEC-AC-10004761"
+        ]
+    },
+    {
+        "_id": "US-2017-112970",
+        "transaction_date": "2017-11-14",
+        "customer_id": "TB-21250",
+        "buyer_name": "Tim Brockman",
+        "amount": "$21271.68",
+        "productIds": [
+            "OFF-AR-10003829"
+        ]
+    },
+    {
+        "_id": "US-2017-112977",
+        "transaction_date": "2017-03-10",
+        "customer_id": "CJ-12010",
+        "buyer_name": "Caroline Jumper",
+        "amount": "$8527.20",
+        "productIds": [
+            "FUR-BO-10003272"
+        ]
+    },
+    {
+        "_id": "US-2017-113509",
+        "transaction_date": "2017-03-15",
+        "customer_id": "PL-18925",
+        "buyer_name": "Paul Lucas",
+        "amount": "$991.35",
+        "productIds": [
+            "TEC-AC-10004855"
+        ]
+    },
+    {
+        "_id": "US-2017-113649",
+        "transaction_date": "2017-08-09",
+        "customer_id": "HA-14920",
+        "buyer_name": "Helen Andreada",
+        "amount": "$7441.00",
+        "productIds": [
+            "OFF-PA-10000130",
+            "TEC-PH-10002350",
+            "OFF-AP-10002518"
+        ]
+    },
+    {
+        "_id": "US-2017-113677",
+        "transaction_date": "2017-11-13",
+        "customer_id": "CM-12655",
+        "buyer_name": "Corinna Mitchell",
+        "amount": "$32416.77",
+        "productIds": [
+            "TEC-PH-10002114",
+            "OFF-LA-10001569"
+        ]
+    },
+    {
+        "_id": "US-2017-113985",
+        "transaction_date": "2017-12-02",
+        "customer_id": "KD-16495",
+        "buyer_name": "Keith Dawkins",
+        "amount": "$11120.99",
+        "productIds": [
+            "OFF-BI-10002353",
+            "OFF-AP-10001303",
+            "FUR-FU-10003026",
+            "OFF-BI-10000632"
+        ]
+    },
+    {
+        "_id": "US-2017-114013",
+        "transaction_date": "2017-03-13",
+        "customer_id": "SC-20770",
+        "buyer_name": "Stewart Carmichael",
+        "amount": "$82396.15",
+        "productIds": [
+            "FUR-CH-10004287",
+            "TEC-AC-10000474",
+            "TEC-PH-10001494",
+            "OFF-PA-10004996",
+            "OFF-BI-10004318",
+            "OFF-ST-10002574",
+            "OFF-BI-10002353",
+            "OFF-ST-10003641",
+            "TEC-MA-10001148"
+        ]
+    },
+    {
+        "_id": "US-2017-114174",
+        "transaction_date": "2017-09-08",
+        "customer_id": "AP-10720",
+        "buyer_name": "Anne Pryor",
+        "amount": "$16384.72",
+        "productIds": [
+            "FUR-BO-10003450",
+            "OFF-LA-10000248"
+        ]
+    },
+    {
+        "_id": "US-2017-114230",
+        "transaction_date": "2017-11-27",
+        "customer_id": "CM-12235",
+        "buyer_name": "Chris McAfee",
+        "amount": "$11763.49",
+        "productIds": [
+            "OFF-ST-10000876"
+        ]
+    },
+    {
+        "_id": "US-2017-114293",
+        "transaction_date": "2017-11-21",
+        "customer_id": "JH-16180",
+        "buyer_name": "Justin Hirsh",
+        "amount": "$7715.16",
+        "productIds": [
+            "FUR-CH-10003833"
+        ]
+    },
+    {
+        "_id": "US-2017-114622",
+        "transaction_date": "2017-04-10",
+        "customer_id": "JR-16210",
+        "buyer_name": "Justin Ritter",
+        "amount": "$10480.96",
+        "productIds": [
+            "OFF-BI-10004716"
+        ]
+    },
+    {
+        "_id": "US-2017-114776",
+        "transaction_date": "2017-12-06",
+        "customer_id": "GG-14650",
+        "buyer_name": "Greg Guthrie",
+        "amount": "$8569.56",
+        "productIds": [
+            "OFF-PA-10004100"
+        ]
+    },
+    {
+        "_id": "US-2017-114888",
+        "transaction_date": "2017-09-19",
+        "customer_id": "CC-12430",
+        "buyer_name": "Chuck Clark",
+        "amount": "$16491.26",
+        "productIds": [
+            "OFF-BI-10003355",
+            "OFF-SU-10001212"
+        ]
+    },
+    {
+        "_id": "US-2017-115455",
+        "transaction_date": "2017-09-08",
+        "customer_id": "SE-20110",
+        "buyer_name": "Sanjit Engle",
+        "amount": "$12778.90",
+        "productIds": [
+            "FUR-FU-10004671",
+            "FUR-TA-10003569"
+        ]
+    },
+    {
+        "_id": "US-2017-115819",
+        "transaction_date": "2017-04-19",
+        "customer_id": "JO-15280",
+        "buyer_name": "Jas O'Carroll",
+        "amount": "$35447.89",
+        "productIds": [
+            "TEC-PH-10004700",
+            "OFF-AR-10000823",
+            "OFF-AR-10004456",
+            "OFF-BI-10000050",
+            "OFF-PA-10002377",
+            "OFF-BI-10000591"
+        ]
+    },
+    {
+        "_id": "US-2017-115952",
+        "transaction_date": "2017-10-06",
+        "customer_id": "JH-15910",
+        "buyer_name": "Jonathan Howell",
+        "amount": "$10500.71",
+        "productIds": [
+            "OFF-BI-10004654"
+        ]
+    },
+    {
+        "_id": "US-2017-116365",
+        "transaction_date": "2017-01-03",
+        "customer_id": "CA-12310",
+        "buyer_name": "Christine Abelman",
+        "amount": "$18520.82",
+        "productIds": [
+            "TEC-AC-10002217",
+            "TEC-AC-10002942",
+            "TEC-PH-10002890"
+        ]
+    },
+    {
+        "_id": "US-2017-116400",
+        "transaction_date": "2017-10-22",
+        "customer_id": "EB-13930",
+        "buyer_name": "Eric Barreto",
+        "amount": "$6603.84",
+        "productIds": [
+            "FUR-FU-10003731"
+        ]
+    },
+    {
+        "_id": "US-2017-116442",
+        "transaction_date": "2017-12-15",
+        "customer_id": "BP-11230",
+        "buyer_name": "Benjamin Patterson",
+        "amount": "$1554.93",
+        "productIds": [
+            "FUR-FU-10002364"
+        ]
+    },
+    {
+        "_id": "US-2017-116729",
+        "transaction_date": "2017-12-25",
+        "customer_id": "GK-14620",
+        "buyer_name": "Grace Kelly",
+        "amount": "$15535.38",
+        "productIds": [
+            "TEC-PH-10002200",
+            "OFF-PA-10002005",
+            "TEC-AC-10001465"
+        ]
+    },
+    {
+        "_id": "US-2017-117037",
+        "transaction_date": "2017-05-17",
+        "customer_id": "LW-17215",
+        "buyer_name": "Luke Weiss",
+        "amount": "$22592.47",
+        "productIds": [
+            "OFF-BI-10000279",
+            "OFF-FA-10000936",
+            "FUR-FU-10004973",
+            "OFF-PA-10000791"
+        ]
+    },
+    {
+        "_id": "US-2017-117387",
+        "transaction_date": "2017-10-27",
+        "customer_id": "PA-19060",
+        "buyer_name": "Pete Armstrong",
+        "amount": "$6106.88",
+        "productIds": [
+            "OFF-BI-10004308"
+        ]
+    },
+    {
+        "_id": "US-2017-117541",
+        "transaction_date": "2017-11-14",
+        "customer_id": "JM-16195",
+        "buyer_name": "Justin MacKendrick",
+        "amount": "$26993.72",
+        "productIds": [
+            "OFF-PA-10001609",
+            "FUR-FU-10000550"
+        ]
+    },
+    {
+        "_id": "US-2017-117793",
+        "transaction_date": "2017-08-23",
+        "customer_id": "MA-17560",
+        "buyer_name": "Matt Abelman",
+        "amount": "$18335.30",
+        "productIds": [
+            "OFF-LA-10002945",
+            "OFF-LA-10003537",
+            "OFF-ST-10002406",
+            "TEC-AC-10003433"
+        ]
+    },
+    {
+        "_id": "US-2017-118780",
+        "transaction_date": "2017-09-10",
+        "customer_id": "PN-18775",
+        "buyer_name": "Parhena Norris",
+        "amount": "$12269.44",
+        "productIds": [
+            "OFF-ST-10000352",
+            "OFF-PA-10000575"
+        ]
+    },
+    {
+        "_id": "US-2017-119046",
+        "transaction_date": "2017-06-02",
+        "customer_id": "EH-13765",
+        "buyer_name": "Edward Hooks",
+        "amount": "$3703.86",
+        "productIds": [
+            "OFF-PA-10000246",
+            "OFF-BI-10001078",
+            "OFF-BI-10000138"
+        ]
+    },
+    {
+        "_id": "US-2017-119270",
+        "transaction_date": "2017-03-12",
+        "customer_id": "SW-20245",
+        "buyer_name": "Scot Wooten",
+        "amount": "$10788.60",
+        "productIds": [
+            "OFF-PA-10004022"
+        ]
+    },
+    {
+        "_id": "US-2017-119298",
+        "transaction_date": "2017-11-25",
+        "customer_id": "EP-13915",
+        "buyer_name": "Emily Phan",
+        "amount": "$2986.86",
+        "productIds": [
+            "TEC-PH-10002564"
+        ]
+    },
+    {
+        "_id": "US-2017-120460",
+        "transaction_date": "2017-04-30",
+        "customer_id": "BF-11170",
+        "buyer_name": "Ben Ferrer",
+        "amount": "$4760.64",
+        "productIds": [
+            "FUR-FU-10004973"
+        ]
+    },
+    {
+        "_id": "US-2017-120929",
+        "transaction_date": "2017-03-18",
+        "customer_id": "RO-19780",
+        "buyer_name": "Rose O'Brian",
+        "amount": "$3460.66",
+        "productIds": [
+            "FUR-TA-10001857"
+        ]
+    },
+    {
+        "_id": "US-2017-121013",
+        "transaction_date": "2017-09-05",
+        "customer_id": "MM-17920",
+        "buyer_name": "Michael Moore",
+        "amount": "$10772.00",
+        "productIds": [
+            "OFF-LA-10004545",
+            "FUR-TA-10003238"
+        ]
+    },
+    {
+        "_id": "US-2017-122182",
+        "transaction_date": "2017-03-10",
+        "customer_id": "BD-11770",
+        "buyer_name": "Bryan Davis",
+        "amount": "$7588.35",
+        "productIds": [
+            "TEC-AC-10002800"
+        ]
+    },
+    {
+        "_id": "US-2017-122245",
+        "transaction_date": "2017-09-25",
+        "customer_id": "AB-10105",
+        "buyer_name": "Adrian Barton",
+        "amount": "$1739.43",
+        "productIds": [
+            "FUR-TA-10002356"
+        ]
+    },
+    {
+        "_id": "US-2017-123470",
+        "transaction_date": "2017-08-15",
+        "customer_id": "ME-17725",
+        "buyer_name": "Max Engle",
+        "amount": "$15878.80",
+        "productIds": [
+            "OFF-BI-10001989",
+            "OFF-AP-10003287"
+        ]
+    },
+    {
+        "_id": "US-2017-123610",
+        "transaction_date": "2017-05-12",
+        "customer_id": "VM-21835",
+        "buyer_name": "Vivian Mathis",
+        "amount": "$13704.69",
+        "productIds": [
+            "TEC-AC-10004518",
+            "OFF-AP-10002222"
+        ]
+    },
+    {
+        "_id": "US-2017-123750",
+        "transaction_date": "2017-04-15",
+        "customer_id": "RB-19795",
+        "buyer_name": "Ross Baird",
+        "amount": "$17728.30",
+        "productIds": [
+            "OFF-BI-10004584",
+            "TEC-AC-10004659",
+            "TEC-AC-10004659",
+            "OFF-ST-10000617"
+        ]
+    },
+    {
+        "_id": "US-2017-124163",
+        "transaction_date": "2017-09-25",
+        "customer_id": "SC-20695",
+        "buyer_name": "Steve Chapman",
+        "amount": "$29423.20",
+        "productIds": [
+            "TEC-AC-10001908",
+            "OFF-AR-10000817",
+            "FUR-CH-10004218",
+            "FUR-FU-10000755"
+        ]
+    },
+    {
+        "_id": "US-2017-125969",
+        "transaction_date": "2017-11-06",
+        "customer_id": "LS-16975",
+        "buyer_name": "Lindsay Shagiari",
+        "amount": "$16838.20",
+        "productIds": [
+            "FUR-CH-10001146",
+            "FUR-FU-10003773"
+        ]
+    },
+    {
+        "_id": "US-2017-126431",
+        "transaction_date": "2017-07-01",
+        "customer_id": "SU-20665",
+        "buyer_name": "Stephanie Ulpright",
+        "amount": "$19892.19",
+        "productIds": [
+            "OFF-LA-10001474",
+            "TEC-AC-10001635",
+            "OFF-PA-10001950"
+        ]
+    },
+    {
+        "_id": "US-2017-126452",
+        "transaction_date": "2017-08-21",
+        "customer_id": "SC-20230",
+        "buyer_name": "Scot Coram",
+        "amount": "$38012.77",
+        "productIds": [
+            "OFF-BI-10004465",
+            "TEC-PH-10003555",
+            "TEC-AC-10000844",
+            "TEC-PH-10003187",
+            "FUR-TA-10003569",
+            "OFF-PA-10003848",
+            "OFF-PA-10002606"
+        ]
+    },
+    {
+        "_id": "US-2017-126844",
+        "transaction_date": "2017-10-08",
+        "customer_id": "BW-11110",
+        "buyer_name": "Bart Watters",
+        "amount": "$8600.30",
+        "productIds": [
+            "FUR-FU-10004909"
+        ]
+    },
+    {
+        "_id": "US-2017-126893",
+        "transaction_date": "2017-11-26",
+        "customer_id": "CT-11995",
+        "buyer_name": "Carol Triggs",
+        "amount": "$8294.76",
+        "productIds": [
+            "TEC-PH-10004165"
+        ]
+    },
+    {
+        "_id": "US-2017-127334",
+        "transaction_date": "2017-12-15",
+        "customer_id": "MP-18175",
+        "buyer_name": "Mike Pelletier",
+        "amount": "$16639.57",
+        "productIds": [
+            "FUR-TA-10003473",
+            "OFF-AP-10001205"
+        ]
+    },
+    {
+        "_id": "US-2017-127425",
+        "transaction_date": "2017-08-26",
+        "customer_id": "DR-12880",
+        "buyer_name": "Dan Reichenbach",
+        "amount": "$14794.83",
+        "productIds": [
+            "TEC-PH-10003442",
+            "TEC-AC-10002800"
+        ]
+    },
+    {
+        "_id": "US-2017-127971",
+        "transaction_date": "2017-11-20",
+        "customer_id": "DW-13195",
+        "buyer_name": "David Wiener",
+        "amount": "$8009.90",
+        "productIds": [
+            "FUR-CH-10003774",
+            "TEC-PH-10003095",
+            "FUR-FU-10000023"
+        ]
+    },
+    {
+        "_id": "US-2017-128195",
+        "transaction_date": "2017-08-04",
+        "customer_id": "RA-19285",
+        "buyer_name": "Ralph Arnett",
+        "amount": "$4242.80",
+        "productIds": [
+            "OFF-BI-10002003"
+        ]
+    },
+    {
+        "_id": "US-2017-128293",
+        "transaction_date": "2017-06-02",
+        "customer_id": "KC-16255",
+        "buyer_name": "Karen Carlisle",
+        "amount": "$5520.25",
+        "productIds": [
+            "OFF-ST-10000736"
+        ]
+    },
+    {
+        "_id": "US-2017-128678",
+        "transaction_date": "2017-09-15",
+        "customer_id": "RB-19570",
+        "buyer_name": "Rob Beeghly",
+        "amount": "$11183.96",
+        "productIds": [
+            "OFF-PA-10000807",
+            "OFF-BI-10002103"
+        ]
+    },
+    {
+        "_id": "US-2017-128902",
+        "transaction_date": "2017-03-11",
+        "customer_id": "MB-18085",
+        "buyer_name": "Mick Brown",
+        "amount": "$2702.00",
+        "productIds": [
+            "FUR-TA-10001095"
+        ]
+    },
+    {
+        "_id": "US-2017-128909",
+        "transaction_date": "2017-10-09",
+        "customer_id": "SP-20545",
+        "buyer_name": "Sibella Parks",
+        "amount": "$30149.04",
+        "productIds": [
+            "OFF-PA-10001593",
+            "FUR-FU-10004071"
+        ]
+    },
+    {
+        "_id": "US-2017-129469",
+        "transaction_date": "2017-09-23",
+        "customer_id": "KL-16555",
+        "buyer_name": "Kelly Lampkin",
+        "amount": "$16916.30",
+        "productIds": [
+            "FUR-FU-10002298",
+            "OFF-AR-10000315"
+        ]
+    },
+    {
+        "_id": "US-2017-131058",
+        "transaction_date": "2017-12-27",
+        "customer_id": "EM-14140",
+        "buyer_name": "Eugene Moren",
+        "amount": "$1237.80",
+        "productIds": [
+            "OFF-LA-10001613"
+        ]
+    },
+    {
+        "_id": "US-2017-131114",
+        "transaction_date": "2017-12-09",
+        "customer_id": "RW-19630",
+        "buyer_name": "Rob Williams",
+        "amount": "$28029.64",
+        "productIds": [
+            "OFF-SU-10001664",
+            "OFF-AP-10003971",
+            "TEC-AC-10000199"
+        ]
+    },
+    {
+        "_id": "US-2017-131149",
+        "transaction_date": "2017-07-10",
+        "customer_id": "LH-17155",
+        "buyer_name": "Logan Haushalter",
+        "amount": "$6493.73",
+        "productIds": [
+            "OFF-ST-10000689",
+            "OFF-AR-10002135"
+        ]
+    },
+    {
+        "_id": "US-2017-131611",
+        "transaction_date": "2017-11-05",
+        "customer_id": "EP-13915",
+        "buyer_name": "Emily Phan",
+        "amount": "$26219.76",
+        "productIds": [
+            "FUR-TA-10002774",
+            "OFF-BI-10004364",
+            "FUR-BO-10000780",
+            "OFF-BI-10001989",
+            "TEC-AC-10004001"
+        ]
+    },
+    {
+        "_id": "US-2017-131674",
+        "transaction_date": "2017-11-29",
+        "customer_id": "NC-18535",
+        "buyer_name": "Nick Crebassa",
+        "amount": "$1274.56",
+        "productIds": [
+            "TEC-AC-10004864"
+        ]
+    },
+    {
+        "_id": "US-2017-131891",
+        "transaction_date": "2017-07-29",
+        "customer_id": "PW-19240",
+        "buyer_name": "Pierre Wener",
+        "amount": "$5838.56",
+        "productIds": [
+            "OFF-BI-10000201"
+        ]
+    },
+    {
+        "_id": "US-2017-131912",
+        "transaction_date": "2017-10-29",
+        "customer_id": "LH-17155",
+        "buyer_name": "Logan Haushalter",
+        "amount": "$4978.93",
+        "productIds": [
+            "OFF-BI-10004236"
+        ]
+    },
+    {
+        "_id": "US-2017-132423",
+        "transaction_date": "2017-04-15",
+        "customer_id": "MY-18295",
+        "buyer_name": "Muhammed Yedwab",
+        "amount": "$11048.44",
+        "productIds": [
+            "OFF-AR-10001221",
+            "OFF-FA-10002988"
+        ]
+    },
+    {
+        "_id": "US-2017-132577",
+        "transaction_date": "2017-11-22",
+        "customer_id": "JE-15475",
+        "buyer_name": "Jeremy Ellison",
+        "amount": "$36600.83",
+        "productIds": [
+            "OFF-BI-10004040",
+            "OFF-AR-10003481",
+            "TEC-AC-10000387",
+            "OFF-LA-10000262",
+            "OFF-BI-10003196"
+        ]
+    },
+    {
+        "_id": "US-2017-132857",
+        "transaction_date": "2017-12-11",
+        "customer_id": "CA-12775",
+        "buyer_name": "Cynthia Arntzen",
+        "amount": "$5306.50",
+        "productIds": [
+            "OFF-AR-10003251"
+        ]
+    },
+    {
+        "_id": "US-2017-133508",
+        "transaction_date": "2017-04-17",
+        "customer_id": "SW-20350",
+        "buyer_name": "Sean Wendt",
+        "amount": "$1312.17",
+        "productIds": [
+            "OFF-FA-10000134"
+        ]
+    },
+    {
+        "_id": "US-2017-133879",
+        "transaction_date": "2017-03-21",
+        "customer_id": "KT-16465",
+        "buyer_name": "Kean Takahito",
+        "amount": "$8575.64",
+        "productIds": [
+            "OFF-BI-10004465",
+            "FUR-CH-10000665",
+            "OFF-AR-10004956"
+        ]
+    },
+    {
+        "_id": "US-2017-134369",
+        "transaction_date": "2017-09-16",
+        "customer_id": "BC-11125",
+        "buyer_name": "Becky Castell",
+        "amount": "$41.31",
+        "productIds": [
+            "OFF-PA-10002195"
+        ]
+    },
+    {
+        "_id": "US-2017-134488",
+        "transaction_date": "2017-09-24",
+        "customer_id": "PK-19075",
+        "buyer_name": "Pete Kriz",
+        "amount": "$1353.00",
+        "productIds": [
+            "FUR-CH-10003199"
+        ]
+    },
+    {
+        "_id": "US-2017-134656",
+        "transaction_date": "2017-09-28",
+        "customer_id": "MM-18280",
+        "buyer_name": "Muhammed MacIntyre",
+        "amount": "$4635.84",
+        "productIds": [
+            "OFF-PA-10003039"
+        ]
+    },
+    {
+        "_id": "US-2017-134761",
+        "transaction_date": "2017-11-30",
+        "customer_id": "DB-13210",
+        "buyer_name": "Dean Braden",
+        "amount": "$15273.09",
+        "productIds": [
+            "TEC-PH-10002890"
+        ]
+    },
+    {
+        "_id": "US-2017-134908",
+        "transaction_date": "2017-06-05",
+        "customer_id": "JS-15940",
+        "buyer_name": "Joni Sundaresam",
+        "amount": "$13205.58",
+        "productIds": [
+            "OFF-ST-10003479",
+            "OFF-LA-10000973"
+        ]
+    },
+    {
+        "_id": "US-2017-135209",
+        "transaction_date": "2017-12-29",
+        "customer_id": "MH-17290",
+        "buyer_name": "Marc Harrigan",
+        "amount": "$5393.67",
+        "productIds": [
+            "OFF-PA-10002986",
+            "OFF-PA-10000143"
+        ]
+    },
+    {
+        "_id": "US-2017-135720",
+        "transaction_date": "2017-12-11",
+        "customer_id": "FM-14380",
+        "buyer_name": "Fred McMath",
+        "amount": "$10972.22",
+        "productIds": [
+            "OFF-ST-10001963",
+            "TEC-AC-10001267",
+            "TEC-PH-10002103"
+        ]
+    },
+    {
+        "_id": "US-2017-135923",
+        "transaction_date": "2017-01-22",
+        "customer_id": "CM-11935",
+        "buyer_name": "Carlos Meador",
+        "amount": "$37001.28",
+        "productIds": [
+            "FUR-FU-10002107",
+            "FUR-BO-10002213",
+            "OFF-AP-10000692"
+        ]
+    },
+    {
+        "_id": "US-2017-136581",
+        "transaction_date": "2017-11-10",
+        "customer_id": "SV-20365",
+        "buyer_name": "Seth Vernon",
+        "amount": "$15897.21",
+        "productIds": [
+            "OFF-PA-10002787"
+        ]
+    },
+    {
+        "_id": "US-2017-137295",
+        "transaction_date": "2017-01-08",
+        "customer_id": "VS-21820",
+        "buyer_name": "Vivek Sundaresam",
+        "amount": "$6690.06",
+        "productIds": [
+            "OFF-BI-10004236",
+            "OFF-AR-10001955",
+            "TEC-PH-10004080"
+        ]
+    },
+    {
+        "_id": "US-2017-137547",
+        "transaction_date": "2017-03-07",
+        "customer_id": "EB-13705",
+        "buyer_name": "Ed Braxton",
+        "amount": "$13230.14",
+        "productIds": [
+            "TEC-PH-10002365"
+        ]
+    },
+    {
+        "_id": "US-2017-138408",
+        "transaction_date": "2017-11-18",
+        "customer_id": "KC-16255",
+        "buyer_name": "Karen Carlisle",
+        "amount": "$1358.28",
+        "productIds": [
+            "TEC-AC-10003870"
+        ]
+    },
+    {
+        "_id": "US-2017-139087",
+        "transaction_date": "2017-07-17",
+        "customer_id": "DK-13375",
+        "buyer_name": "Dennis Kane",
+        "amount": "$35421.76",
+        "productIds": [
+            "FUR-FU-10001847",
+            "TEC-AC-10004595",
+            "FUR-FU-10004164",
+            "OFF-LA-10001074",
+            "OFF-ST-10000604",
+            "TEC-PH-10000148",
+            "OFF-BI-10000042"
+        ]
+    },
+    {
+        "_id": "US-2017-139262",
+        "transaction_date": "2017-02-21",
+        "customer_id": "LC-16960",
+        "buyer_name": "Lindsay Castell",
+        "amount": "$11907.95",
+        "productIds": [
+            "OFF-BI-10003727",
+            "OFF-BI-10002026",
+            "OFF-ST-10001496"
+        ]
+    },
+    {
+        "_id": "US-2017-139388",
+        "transaction_date": "2017-11-07",
+        "customer_id": "CC-12475",
+        "buyer_name": "Cindy Chapman",
+        "amount": "$10388.96",
+        "productIds": [
+            "OFF-FA-10004968"
+        ]
+    },
+    {
+        "_id": "US-2017-139486",
+        "transaction_date": "2017-05-21",
+        "customer_id": "LH-17155",
+        "buyer_name": "Logan Haushalter",
+        "amount": "$30994.04",
+        "productIds": [
+            "TEC-PH-10003555",
+            "TEC-AC-10003832"
+        ]
+    },
+    {
+        "_id": "US-2017-139710",
+        "transaction_date": "2017-06-09",
+        "customer_id": "GM-14680",
+        "buyer_name": "Greg Matthias",
+        "amount": "$3462.00",
+        "productIds": [
+            "TEC-PH-10001198"
+        ]
+    },
+    {
+        "_id": "US-2017-140158",
+        "transaction_date": "2017-10-04",
+        "customer_id": "DR-12940",
+        "buyer_name": "Daniel Raglin",
+        "amount": "$16861.57",
+        "productIds": [
+            "OFF-BI-10000977",
+            "TEC-CO-10001449",
+            "OFF-ST-10000136"
+        ]
+    },
+    {
+        "_id": "US-2017-140172",
+        "transaction_date": "2017-03-08",
+        "customer_id": "SP-20650",
+        "buyer_name": "Stephanie Phelps",
+        "amount": "$19282.44",
+        "productIds": [
+            "OFF-AP-10004233",
+            "OFF-AR-10002766"
+        ]
+    },
+    {
+        "_id": "US-2017-140809",
+        "transaction_date": "2017-02-01",
+        "customer_id": "CK-12760",
+        "buyer_name": "Cyma Kinney",
+        "amount": "$2490.93",
+        "productIds": [
+            "OFF-ST-10002214"
+        ]
+    },
+    {
+        "_id": "US-2017-141264",
+        "transaction_date": "2017-08-13",
+        "customer_id": "CT-11995",
+        "buyer_name": "Carol Triggs",
+        "amount": "$21001.25",
+        "productIds": [
+            "OFF-SU-10003505",
+            "OFF-AP-10002534"
+        ]
+    },
+    {
+        "_id": "US-2017-141544",
+        "transaction_date": "2017-08-30",
+        "customer_id": "PO-18850",
+        "buyer_name": "Patrick O'Brill",
+        "amount": "$42891.87",
+        "productIds": [
+            "TEC-PH-10003645",
+            "OFF-ST-10000675",
+            "FUR-CH-10003312",
+            "OFF-LA-10001074",
+            "OFF-BI-10001524"
+        ]
+    },
+    {
+        "_id": "US-2017-141880",
+        "transaction_date": "2017-08-22",
+        "customer_id": "TC-21475",
+        "buyer_name": "Tony Chapman",
+        "amount": "$7951.46",
+        "productIds": [
+            "FUR-FU-10001979"
+        ]
+    },
+    {
+        "_id": "US-2017-142251",
+        "transaction_date": "2017-10-31",
+        "customer_id": "FO-14305",
+        "buyer_name": "Frank Olsen",
+        "amount": "$1239.28",
+        "productIds": [
+            "OFF-PA-10002986"
+        ]
+    },
+    {
+        "_id": "US-2017-142685",
+        "transaction_date": "2017-06-23",
+        "customer_id": "MG-17695",
+        "buyer_name": "Maureen Gnade",
+        "amount": "$4555.60",
+        "productIds": [
+            "OFF-SU-10000157"
+        ]
+    },
+    {
+        "_id": "US-2017-143280",
+        "transaction_date": "2017-02-22",
+        "customer_id": "TZ-21580",
+        "buyer_name": "Tracy Zic",
+        "amount": "$19263.32",
+        "productIds": [
+            "TEC-PH-10002398",
+            "TEC-AC-10003399",
+            "OFF-FA-10000992"
+        ]
+    },
+    {
+        "_id": "US-2017-143448",
+        "transaction_date": "2017-12-10",
+        "customer_id": "MH-17455",
+        "buyer_name": "Mark Hamilton",
+        "amount": "$10098.77",
+        "productIds": [
+            "FUR-CH-10003379"
+        ]
+    },
+    {
+        "_id": "US-2017-143819",
+        "transaction_date": "2017-03-01",
+        "customer_id": "KD-16270",
+        "buyer_name": "Karen Daniels",
+        "amount": "$11336.24",
+        "productIds": [
+            "FUR-TA-10001095",
+            "OFF-PA-10003127",
+            "OFF-ST-10003208",
+            "TEC-MA-10003979"
+        ]
+    },
+    {
+        "_id": "US-2017-144057",
+        "transaction_date": "2017-05-09",
+        "customer_id": "CV-12805",
+        "buyer_name": "Cynthia Voltz",
+        "amount": "$18246.43",
+        "productIds": [
+            "OFF-ST-10001490",
+            "OFF-BI-10002852",
+            "OFF-AP-10000390",
+            "OFF-PA-10004327",
+            "OFF-BI-10002353"
+        ]
+    },
+    {
+        "_id": "US-2017-144211",
+        "transaction_date": "2017-08-28",
+        "customer_id": "CS-12130",
+        "buyer_name": "Chad Sievert",
+        "amount": "$14993.80",
+        "productIds": [
+            "OFF-PA-10002246",
+            "TEC-PH-10002890"
+        ]
+    },
+    {
+        "_id": "US-2017-144351",
+        "transaction_date": "2017-11-14",
+        "customer_id": "RC-19960",
+        "buyer_name": "Ryan Crowe",
+        "amount": "$12292.56",
+        "productIds": [
+            "TEC-PH-10001644"
+        ]
+    },
+    {
+        "_id": "US-2017-144393",
+        "transaction_date": "2017-10-28",
+        "customer_id": "SM-20950",
+        "buyer_name": "Suzanne McNair",
+        "amount": "$1418.62",
+        "productIds": [
+            "OFF-BI-10004236"
+        ]
+    },
+    {
+        "_id": "US-2017-144477",
+        "transaction_date": "2017-08-12",
+        "customer_id": "DB-13270",
+        "buyer_name": "Deborah Brumfield",
+        "amount": "$588.30",
+        "productIds": [
+            "OFF-AR-10000914"
+        ]
+    },
+    {
+        "_id": "US-2017-144547",
+        "transaction_date": "2017-11-10",
+        "customer_id": "MS-17770",
+        "buyer_name": "Maxwell Schwartz",
+        "amount": "$1107.13",
+        "productIds": [
+            "TEC-AC-10004901"
+        ]
+    },
+    {
+        "_id": "US-2017-146066",
+        "transaction_date": "2017-08-21",
+        "customer_id": "RB-19465",
+        "buyer_name": "Rick Bensley",
+        "amount": "$1099.68",
+        "productIds": [
+            "FUR-TA-10002530"
+        ]
+    },
+    {
+        "_id": "US-2017-146570",
+        "transaction_date": "2017-05-15",
+        "customer_id": "SN-20710",
+        "buyer_name": "Steve Nguyen",
+        "amount": "$10168.02",
+        "productIds": [
+            "OFF-BI-10001718",
+            "OFF-AR-10004602",
+            "OFF-AR-10003856"
+        ]
+    },
+    {
+        "_id": "US-2017-146710",
+        "transaction_date": "2017-08-27",
+        "customer_id": "SS-20875",
+        "buyer_name": "Sung Shariari",
+        "amount": "$22032.83",
+        "productIds": [
+            "OFF-SU-10004498",
+            "OFF-PA-10002615",
+            "OFF-PA-10004971",
+            "OFF-SU-10004261"
+        ]
+    },
+    {
+        "_id": "US-2017-146794",
+        "transaction_date": "2017-09-26",
+        "customer_id": "SH-19975",
+        "buyer_name": "Sally Hughsby",
+        "amount": "$4622.76",
+        "productIds": [
+            "FUR-BO-10004467"
+        ]
+    },
+    {
+        "_id": "US-2017-146857",
+        "transaction_date": "2017-05-06",
+        "customer_id": "BE-11455",
+        "buyer_name": "Brad Eason",
+        "amount": "$2532.46",
+        "productIds": [
+            "OFF-AP-10001205"
+        ]
+    },
+    {
+        "_id": "US-2017-147340",
+        "transaction_date": "2017-09-24",
+        "customer_id": "EB-13750",
+        "buyer_name": "Edward Becker",
+        "amount": "$2413.26",
+        "productIds": [
+            "FUR-FU-10002501"
+        ]
+    },
+    {
+        "_id": "US-2017-147711",
+        "transaction_date": "2017-09-03",
+        "customer_id": "HF-14995",
+        "buyer_name": "Herbert Flentye",
+        "amount": "$33466.65",
+        "productIds": [
+            "FUR-BO-10003159",
+            "FUR-FU-10002364",
+            "OFF-BI-10003350",
+            "OFF-LA-10004093"
+        ]
+    },
+    {
+        "_id": "US-2017-147991",
+        "transaction_date": "2017-05-05",
+        "customer_id": "ZD-21925",
+        "buyer_name": "Zuschuss Donatelli",
+        "amount": "$6569.36",
+        "productIds": [
+            "FUR-FU-10004270"
+        ]
+    },
+    {
+        "_id": "US-2017-148110",
+        "transaction_date": "2017-09-05",
+        "customer_id": "AR-10825",
+        "buyer_name": "Anthony Rawles",
+        "amount": "$12015.77",
+        "productIds": [
+            "FUR-CH-10002647"
+        ]
+    },
+    {
+        "_id": "US-2017-148334",
+        "transaction_date": "2017-08-22",
+        "customer_id": "DD-13570",
+        "buyer_name": "Dorothy Dickinson",
+        "amount": "$13190.31",
+        "productIds": [
+            "OFF-BI-10003676"
+        ]
+    },
+    {
+        "_id": "US-2017-148803",
+        "transaction_date": "2017-12-11",
+        "customer_id": "LR-16915",
+        "buyer_name": "Lena Radford",
+        "amount": "$3454.56",
+        "productIds": [
+            "OFF-ST-10001476"
+        ]
+    },
+    {
+        "_id": "US-2017-148901",
+        "transaction_date": "2017-05-14",
+        "customer_id": "MK-17905",
+        "buyer_name": "Michael Kennedy",
+        "amount": "$37433.80",
+        "productIds": [
+            "OFF-BI-10001718",
+            "OFF-PA-10004983",
+            "FUR-FU-10002396",
+            "TEC-PH-10003988",
+            "OFF-AR-10002467",
+            "OFF-BI-10004002",
+            "OFF-BI-10002309"
+        ]
+    },
+    {
+        "_id": "US-2017-148957",
+        "transaction_date": "2017-09-17",
+        "customer_id": "CC-12430",
+        "buyer_name": "Chuck Clark",
+        "amount": "$8535.15",
+        "productIds": [
+            "OFF-LA-10002195"
+        ]
+    },
+    {
+        "_id": "US-2017-149790",
+        "transaction_date": "2017-09-26",
+        "customer_id": "SC-20380",
+        "buyer_name": "Shahid Collister",
+        "amount": "$43.00",
+        "productIds": [
+            "OFF-BI-10002026"
+        ]
+    },
+    {
+        "_id": "US-2017-150035",
+        "transaction_date": "2017-12-01",
+        "customer_id": "CL-11890",
+        "buyer_name": "Carl Ludwig",
+        "amount": "$3224.94",
+        "productIds": [
+            "FUR-FU-10003724"
+        ]
+    },
+    {
+        "_id": "US-2017-150140",
+        "transaction_date": "2017-04-06",
+        "customer_id": "VM-21685",
+        "buyer_name": "Valerie Mitchum",
+        "amount": "$3275.80",
+        "productIds": [
+            "TEC-PH-10002555"
+        ]
+    },
+    {
+        "_id": "US-2017-150147",
+        "transaction_date": "2017-04-25",
+        "customer_id": "JL-15850",
+        "buyer_name": "John Lucas",
+        "amount": "$15704.73",
+        "productIds": [
+            "TEC-PH-10004614",
+            "OFF-BI-10001153",
+            "OFF-BI-10001982"
+        ]
+    },
+    {
+        "_id": "US-2017-150357",
+        "transaction_date": "2017-10-10",
+        "customer_id": "EB-13975",
+        "buyer_name": "Erica Bern",
+        "amount": "$26244.01",
+        "productIds": [
+            "OFF-SU-10004498",
+            "OFF-BI-10002557"
+        ]
+    },
+    {
+        "_id": "US-2017-150567",
+        "transaction_date": "2017-05-17",
+        "customer_id": "RP-19855",
+        "buyer_name": "Roy Phan",
+        "amount": "$457.32",
+        "productIds": [
+            "OFF-BI-10001757",
+            "OFF-BI-10000069"
+        ]
+    },
+    {
+        "_id": "US-2017-150861",
+        "transaction_date": "2017-12-03",
+        "customer_id": "EG-13900",
+        "buyer_name": "Emily Grady",
+        "amount": "$35656.50",
+        "productIds": [
+            "OFF-PA-10001954",
+            "FUR-TA-10002228",
+            "OFF-ST-10004634",
+            "FUR-CH-10002965",
+            "OFF-LA-10001317"
+        ]
+    },
+    {
+        "_id": "US-2017-151260",
+        "transaction_date": "2017-12-11",
+        "customer_id": "SC-20695",
+        "buyer_name": "Steve Chapman",
+        "amount": "$732.99",
+        "productIds": [
+            "OFF-AP-10002892"
+        ]
+    },
+    {
+        "_id": "US-2017-151827",
+        "transaction_date": "2017-03-31",
+        "customer_id": "CS-11950",
+        "buyer_name": "Carlos Soltero",
+        "amount": "$7526.88",
+        "productIds": [
+            "TEC-PH-10002789",
+            "TEC-AC-10003289"
+        ]
+    },
+    {
+        "_id": "US-2017-151862",
+        "transaction_date": "2017-03-01",
+        "customer_id": "ON-18715",
+        "buyer_name": "Odella Nelson",
+        "amount": "$134.37",
+        "productIds": [
+            "TEC-PH-10003535"
+        ]
+    },
+    {
+        "_id": "US-2017-152051",
+        "transaction_date": "2017-06-25",
+        "customer_id": "TS-21160",
+        "buyer_name": "Theresa Swint",
+        "amount": "$27844.87",
+        "productIds": [
+            "FUR-CH-10002965",
+            "OFF-BI-10004781",
+            "OFF-ST-10001713"
+        ]
+    },
+    {
+        "_id": "US-2017-152373",
+        "transaction_date": "2017-09-05",
+        "customer_id": "PT-19090",
+        "buyer_name": "Pete Takahito",
+        "amount": "$13379.56",
+        "productIds": [
+            "OFF-ST-10003479"
+        ]
+    },
+    {
+        "_id": "US-2017-152415",
+        "transaction_date": "2017-09-17",
+        "customer_id": "PO-18865",
+        "buyer_name": "Patrick O'Donnell",
+        "amount": "$16061.65",
+        "productIds": [
+            "FUR-FU-10002597",
+            "FUR-FU-10004864"
+        ]
+    },
+    {
+        "_id": "US-2017-152835",
+        "transaction_date": "2017-05-19",
+        "customer_id": "RP-19855",
+        "buyer_name": "Roy Phan",
+        "amount": "$9674.95",
+        "productIds": [
+            "OFF-AR-10003056"
+        ]
+    },
+    {
+        "_id": "US-2017-153129",
+        "transaction_date": "2017-12-26",
+        "customer_id": "FP-14320",
+        "buyer_name": "Frank Preis",
+        "amount": "$834.21",
+        "productIds": [
+            "OFF-PA-10003673"
+        ]
+    },
+    {
+        "_id": "US-2017-153815",
+        "transaction_date": "2017-11-06",
+        "customer_id": "KL-16555",
+        "buyer_name": "Kelly Lampkin",
+        "amount": "$9252.26",
+        "productIds": [
+            "FUR-CH-10000513",
+            "OFF-PA-10002421",
+            "FUR-FU-10004090",
+            "OFF-PA-10004071"
+        ]
+    },
+    {
+        "_id": "US-2017-154256",
+        "transaction_date": "2017-06-23",
+        "customer_id": "SM-20005",
+        "buyer_name": "Sally Matthias",
+        "amount": "$6740.20",
+        "productIds": [
+            "OFF-LA-10003720"
+        ]
+    },
+    {
+        "_id": "US-2017-154361",
+        "transaction_date": "2017-03-14",
+        "customer_id": "HZ-14950",
+        "buyer_name": "Henia Zydlo",
+        "amount": "$889.00",
+        "productIds": [
+            "FUR-FU-10004020"
+        ]
+    },
+    {
+        "_id": "US-2017-155103",
+        "transaction_date": "2017-12-02",
+        "customer_id": "JF-15190",
+        "buyer_name": "Jamie Frazer",
+        "amount": "$20759.75",
+        "productIds": [
+            "OFF-BI-10004318",
+            "OFF-BI-10004236",
+            "OFF-PA-10000062"
+        ]
+    },
+    {
+        "_id": "US-2017-155173",
+        "transaction_date": "2017-03-06",
+        "customer_id": "JB-16045",
+        "buyer_name": "Julia Barnett",
+        "amount": "$18120.36",
+        "productIds": [
+            "TEC-PH-10004586",
+            "OFF-BI-10002982",
+            "TEC-PH-10002538"
+        ]
+    },
+    {
+        "_id": "US-2017-155180",
+        "transaction_date": "2017-01-22",
+        "customer_id": "TB-21280",
+        "buyer_name": "Toby Braunhardt",
+        "amount": "$10568.56",
+        "productIds": [
+            "OFF-BI-10004506"
+        ]
+    },
+    {
+        "_id": "US-2017-155404",
+        "transaction_date": "2017-09-22",
+        "customer_id": "AS-10630",
+        "buyer_name": "Ann Steele",
+        "amount": "$2986.74",
+        "productIds": [
+            "FUR-FU-10004586"
+        ]
+    },
+    {
+        "_id": "US-2017-155768",
+        "transaction_date": "2017-12-01",
+        "customer_id": "LB-16795",
+        "buyer_name": "Laurel Beltran",
+        "amount": "$13953.63",
+        "productIds": [
+            "FUR-FU-10000448",
+            "OFF-PA-10001357",
+            "OFF-ST-10002292",
+            "OFF-EN-10001219"
+        ]
+    },
+    {
+        "_id": "US-2017-155971",
+        "transaction_date": "2017-06-06",
+        "customer_id": "RB-19795",
+        "buyer_name": "Ross Baird",
+        "amount": "$13770.78",
+        "productIds": [
+            "OFF-LA-10000452",
+            "OFF-PA-10000210"
+        ]
+    },
+    {
+        "_id": "US-2017-156097",
+        "transaction_date": "2017-09-19",
+        "customer_id": "EH-14125",
+        "buyer_name": "Eugene Hildebrand",
+        "amount": "$11874.50",
+        "productIds": [
+            "FUR-CH-10001215",
+            "OFF-BI-10004654"
+        ]
+    },
+    {
+        "_id": "US-2017-156692",
+        "transaction_date": "2017-08-13",
+        "customer_id": "HG-15025",
+        "buyer_name": "Hunter Glantz",
+        "amount": "$3950.53",
+        "productIds": [
+            "OFF-AP-10002222",
+            "TEC-AC-10000158"
+        ]
+    },
+    {
+        "_id": "US-2017-156986",
+        "transaction_date": "2017-03-20",
+        "customer_id": "ZC-21910",
+        "buyer_name": "Zuschuss Carroll",
+        "amount": "$22620.77",
+        "productIds": [
+            "TEC-PH-10003800",
+            "OFF-PA-10002005",
+            "OFF-BI-10002498",
+            "OFF-PA-10004101"
+        ]
+    },
+    {
+        "_id": "US-2017-157308",
+        "transaction_date": "2017-08-17",
+        "customer_id": "NM-18520",
+        "buyer_name": "Neoma Murray",
+        "amount": "$12644.31",
+        "productIds": [
+            "OFF-BI-10003712"
+        ]
+    },
+    {
+        "_id": "US-2017-157490",
+        "transaction_date": "2017-10-06",
+        "customer_id": "LB-16795",
+        "buyer_name": "Laurel Beltran",
+        "amount": "$26606.45",
+        "productIds": [
+            "TEC-MA-10001695",
+            "OFF-BI-10002824",
+            "OFF-BI-10002571",
+            "TEC-AC-10001553"
+        ]
+    },
+    {
+        "_id": "US-2017-157840",
+        "transaction_date": "2017-12-20",
+        "customer_id": "MC-17575",
+        "buyer_name": "Matt Collins",
+        "amount": "$1132.30",
+        "productIds": [
+            "OFF-PA-10003673"
+        ]
+    },
+    {
+        "_id": "US-2017-157945",
+        "transaction_date": "2017-09-26",
+        "customer_id": "NF-18385",
+        "buyer_name": "Natalie Fritzler",
+        "amount": "$14671.78",
+        "productIds": [
+            "FUR-CH-10002331",
+            "OFF-EN-10001415"
+        ]
+    },
+    {
+        "_id": "US-2017-158288",
+        "transaction_date": "2017-11-26",
+        "customer_id": "EH-13945",
+        "buyer_name": "Eric Hoffmann",
+        "amount": "$4833.45",
+        "productIds": [
+            "OFF-BI-10003364"
+        ]
+    },
+    {
+        "_id": "US-2017-158309",
+        "transaction_date": "2017-11-26",
+        "customer_id": "PA-19060",
+        "buyer_name": "Pete Armstrong",
+        "amount": "$9432.36",
+        "productIds": [
+            "OFF-BI-10000145"
+        ]
+    },
+    {
+        "_id": "US-2017-158680",
+        "transaction_date": "2017-07-01",
+        "customer_id": "NZ-18565",
+        "buyer_name": "Nick Zandusky",
+        "amount": "$14619.20",
+        "productIds": [
+            "OFF-BI-10000145"
+        ]
+    },
+    {
+        "_id": "US-2017-158708",
+        "transaction_date": "2017-06-26",
+        "customer_id": "AB-10255",
+        "buyer_name": "Alejandro Ballentine",
+        "amount": "$7902.40",
+        "productIds": [
+            "TEC-AC-10003133"
+        ]
+    },
+    {
+        "_id": "US-2017-159093",
+        "transaction_date": "2017-05-09",
+        "customer_id": "RS-19420",
+        "buyer_name": "Ricardo Sperren",
+        "amount": "$10151.12",
+        "productIds": [
+            "OFF-PA-10001260"
+        ]
+    },
+    {
+        "_id": "US-2017-159415",
+        "transaction_date": "2017-04-17",
+        "customer_id": "CS-12175",
+        "buyer_name": "Charles Sheldon",
+        "amount": "$7482.40",
+        "productIds": [
+            "FUR-FU-10003798"
+        ]
+    },
+    {
+        "_id": "US-2017-159856",
+        "transaction_date": "2017-10-18",
+        "customer_id": "EP-13915",
+        "buyer_name": "Emily Phan",
+        "amount": "$523.24",
+        "productIds": [
+            "FUR-CH-10003396"
+        ]
+    },
+    {
+        "_id": "US-2017-160206",
+        "transaction_date": "2017-04-01",
+        "customer_id": "MY-18295",
+        "buyer_name": "Muhammed Yedwab",
+        "amount": "$5144.06",
+        "productIds": [
+            "TEC-PH-10000148"
+        ]
+    },
+    {
+        "_id": "US-2017-160528",
+        "transaction_date": "2017-08-23",
+        "customer_id": "MH-18115",
+        "buyer_name": "Mick Hernandez",
+        "amount": "$13572.54",
+        "productIds": [
+            "OFF-ST-10002743",
+            "FUR-FU-10004973",
+            "TEC-AC-10002842"
+        ]
+    },
+    {
+        "_id": "US-2017-161396",
+        "transaction_date": "2017-04-19",
+        "customer_id": "GM-14455",
+        "buyer_name": "Gary Mitchum",
+        "amount": "$14429.52",
+        "productIds": [
+            "FUR-TA-10002622",
+            "OFF-PA-10000418"
+        ]
+    },
+    {
+        "_id": "US-2017-161683",
+        "transaction_date": "2017-12-03",
+        "customer_id": "CJ-12010",
+        "buyer_name": "Caroline Jumper",
+        "amount": "$11055.45",
+        "productIds": [
+            "OFF-AP-10000179",
+            "OFF-BI-10001072"
+        ]
+    },
+    {
+        "_id": "US-2017-161844",
+        "transaction_date": "2017-12-09",
+        "customer_id": "DK-12835",
+        "buyer_name": "Damala Kotsonis",
+        "amount": "$19578.66",
+        "productIds": [
+            "FUR-TA-10001676",
+            "OFF-BI-10003712"
+        ]
+    },
+    {
+        "_id": "US-2017-162026",
+        "transaction_date": "2017-10-08",
+        "customer_id": "JE-15745",
+        "buyer_name": "Joel Eaton",
+        "amount": "$5485.62",
+        "productIds": [
+            "OFF-PA-10000167"
+        ]
+    },
+    {
+        "_id": "US-2017-162103",
+        "transaction_date": "2017-11-13",
+        "customer_id": "LB-16795",
+        "buyer_name": "Laurel Beltran",
+        "amount": "$18593.28",
+        "productIds": [
+            "OFF-BI-10000285"
+        ]
+    },
+    {
+        "_id": "US-2017-162677",
+        "transaction_date": "2017-03-26",
+        "customer_id": "DB-13210",
+        "buyer_name": "Dean Braden",
+        "amount": "$26186.08",
+        "productIds": [
+            "OFF-ST-10001291",
+            "TEC-AC-10001314"
+        ]
+    },
+    {
+        "_id": "US-2017-162852",
+        "transaction_date": "2017-12-27",
+        "customer_id": "BG-11695",
+        "buyer_name": "Brooke Gillingham",
+        "amount": "$8729.76",
+        "productIds": [
+            "FUR-CH-10004853"
+        ]
+    },
+    {
+        "_id": "US-2017-162859",
+        "transaction_date": "2017-02-15",
+        "customer_id": "PG-18820",
+        "buyer_name": "Patrick Gardner",
+        "amount": "$12697.72",
+        "productIds": [
+            "OFF-BI-10004519",
+            "OFF-FA-10000304"
+        ]
+    },
+    {
+        "_id": "US-2017-163258",
+        "transaction_date": "2017-12-29",
+        "customer_id": "PF-19225",
+        "buyer_name": "Phillip Flathmann",
+        "amount": "$12165.30",
+        "productIds": [
+            "OFF-BI-10000138"
+        ]
+    },
+    {
+        "_id": "US-2017-163461",
+        "transaction_date": "2017-06-18",
+        "customer_id": "BT-11440",
+        "buyer_name": "Bobby Trafton",
+        "amount": "$4472.60",
+        "productIds": [
+            "OFF-PA-10003134"
+        ]
+    },
+    {
+        "_id": "US-2017-163538",
+        "transaction_date": "2017-08-26",
+        "customer_id": "SS-20515",
+        "buyer_name": "Shirley Schmidt",
+        "amount": "$7920.88",
+        "productIds": [
+            "TEC-AC-10002006"
+        ]
+    },
+    {
+        "_id": "US-2017-163881",
+        "transaction_date": "2017-11-24",
+        "customer_id": "SP-20860",
+        "buyer_name": "Sung Pak",
+        "amount": "$25701.40",
+        "productIds": [
+            "TEC-AC-10003033",
+            "FUR-CH-10001394",
+            "TEC-AC-10000420"
+        ]
+    },
+    {
+        "_id": "US-2017-164189",
+        "transaction_date": "2017-03-24",
+        "customer_id": "DR-12880",
+        "buyer_name": "Dan Reichenbach",
+        "amount": "$2319.80",
+        "productIds": [
+            "TEC-PH-10003691"
+        ]
+    },
+    {
+        "_id": "US-2017-164196",
+        "transaction_date": "2017-11-11",
+        "customer_id": "AS-10285",
+        "buyer_name": "Alejandro Savely",
+        "amount": "$10207.68",
+        "productIds": [
+            "FUR-TA-10001950"
+        ]
+    },
+    {
+        "_id": "US-2017-164588",
+        "transaction_date": "2017-04-16",
+        "customer_id": "AP-10915",
+        "buyer_name": "Arthur Prichep",
+        "amount": "$7587.27",
+        "productIds": [
+            "OFF-AR-10003056"
+        ]
+    },
+    {
+        "_id": "US-2017-164630",
+        "transaction_date": "2017-01-04",
+        "customer_id": "EB-13975",
+        "buyer_name": "Erica Bern",
+        "amount": "$9823.30",
+        "productIds": [
+            "TEC-CO-10000971"
+        ]
+    },
+    {
+        "_id": "US-2017-164945",
+        "transaction_date": "2017-11-22",
+        "customer_id": "CA-12055",
+        "buyer_name": "Cathy Armstrong",
+        "amount": "$2764.02",
+        "productIds": [
+            "OFF-BI-10001524"
+        ]
+    },
+    {
+        "_id": "US-2017-165078",
+        "transaction_date": "2017-11-05",
+        "customer_id": "MA-17995",
+        "buyer_name": "Michelle Arnett",
+        "amount": "$23418.80",
+        "productIds": [
+            "OFF-BI-10001989",
+            "OFF-AR-10002987",
+            "OFF-LA-10000414"
+        ]
+    },
+    {
+        "_id": "US-2017-165505",
+        "transaction_date": "2017-01-23",
+        "customer_id": "CB-12535",
+        "buyer_name": "Claudia Bergmann",
+        "amount": "$17147.34",
+        "productIds": [
+            "TEC-AC-10002926",
+            "OFF-AR-10003477",
+            "OFF-ST-10001526"
+        ]
+    },
+    {
+        "_id": "US-2017-165953",
+        "transaction_date": "2017-12-31",
+        "customer_id": "EP-13915",
+        "buyer_name": "Emily Phan",
+        "amount": "$20407.36",
+        "productIds": [
+            "OFF-AR-10000588",
+            "OFF-PA-10002250"
+        ]
+    },
+    {
+        "_id": "US-2017-166660",
+        "transaction_date": "2017-01-30",
+        "customer_id": "TB-21250",
+        "buyer_name": "Tim Brockman",
+        "amount": "$14197.99",
+        "productIds": [
+            "FUR-CH-10001190",
+            "FUR-BO-10000468"
+        ]
+    },
+    {
+        "_id": "US-2017-167339",
+        "transaction_date": "2017-01-21",
+        "customer_id": "TD-20995",
+        "buyer_name": "Tamara Dahlen",
+        "amount": "$7726.72",
+        "productIds": [
+            "FUR-CH-10004289",
+            "FUR-CH-10000785"
+        ]
+    },
+    {
+        "_id": "US-2017-167472",
+        "transaction_date": "2017-06-06",
+        "customer_id": "CK-12595",
+        "buyer_name": "Clytie Kelty",
+        "amount": "$36874.87",
+        "productIds": [
+            "TEC-AC-10001109",
+            "TEC-AC-10003038",
+            "TEC-AC-10003174",
+            "OFF-PA-10000157",
+            "OFF-BI-10001721",
+            "OFF-BI-10000591",
+            "OFF-PA-10001534"
+        ]
+    },
+    {
+        "_id": "US-2017-168095",
+        "transaction_date": "2017-07-15",
+        "customer_id": "MC-17425",
+        "buyer_name": "Mark Cousins",
+        "amount": "$3709.28",
+        "productIds": [
+            "FUR-CH-10004886",
+            "OFF-PA-10003641"
+        ]
+    },
+    {
+        "_id": "US-2017-168410",
+        "transaction_date": "2017-02-21",
+        "customer_id": "BV-11245",
+        "buyer_name": "Benjamin Venier",
+        "amount": "$20453.33",
+        "productIds": [
+            "FUR-FU-10000629",
+            "OFF-ST-10000036",
+            "TEC-PH-10002583"
+        ]
+    },
+    {
+        "_id": "US-2017-168620",
+        "transaction_date": "2017-12-24",
+        "customer_id": "RB-19795",
+        "buyer_name": "Ross Baird",
+        "amount": "$10305.58",
+        "productIds": [
+            "OFF-BI-10001575",
+            "OFF-ST-10003716",
+            "TEC-AC-10004469"
+        ]
+    },
+    {
+        "_id": "US-2017-169040",
+        "transaction_date": "2017-12-06",
+        "customer_id": "GT-14710",
+        "buyer_name": "Greg Tran",
+        "amount": "$23891.52",
+        "productIds": [
+            "TEC-PH-10002310",
+            "TEC-PH-10002834",
+            "OFF-EN-10000927",
+            "OFF-BI-10001636",
+            "OFF-PA-10001736",
+            "OFF-PA-10000482",
+            "OFF-BI-10001658"
+        ]
+    },
+    {
+        "_id": "US-2017-169369",
+        "transaction_date": "2017-12-12",
+        "customer_id": "EC-14050",
+        "buyer_name": "Erin Creighton",
+        "amount": "$30171.14",
+        "productIds": [
+            "TEC-AC-10001314",
+            "OFF-PA-10004438"
+        ]
+    }
+];
+
+export const products = [
+    {
+        "_id": "FUR-BO-10000362",
+        "price": "$890.72",
+        "expense": "$64.51",
+        "transactions": [
+            "CA-2017-165848"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10000468",
+        "price": "$775.93",
+        "expense": "$366.10",
+        "transactions": [
+            "US-2017-166660"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10000780",
+        "price": "$556.30",
+        "expense": "$563.27",
+        "transactions": [
+            "US-2017-110170",
+            "US-2017-131611"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10001337",
+        "price": "$720.98",
+        "expense": "$83.93",
+        "transactions": [
+            "CA-2017-156251",
+            "CA-2017-149762",
+            "CA-2017-152688"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10001567",
+        "price": "$853.85",
+        "expense": "$681.16",
+        "transactions": [
+            "CA-2017-157707"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10001608",
+        "price": "$203.17",
+        "expense": "$898.86",
+        "transactions": [
+            "US-2017-106600"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10001619",
+        "price": "$622.61",
+        "expense": "$799.94",
+        "transactions": [
+            "CA-2017-123533"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10001798",
+        "price": "$901.06",
+        "expense": "$464.48",
+        "transactions": [
+            "CA-2017-152156",
+            "CA-2017-117681"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10001811",
+        "price": "$714.15",
+        "expense": "$271.10",
+        "transactions": [
+            "CA-2017-102981",
+            "CA-2017-147137"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10001918",
+        "price": "$160.29",
+        "expense": "$981.15",
+        "transactions": [
+            "CA-2017-123337"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10002202",
+        "price": "$76.21",
+        "expense": "$934.12",
+        "transactions": [
+            "CA-2017-106383"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10002213",
+        "price": "$785.52",
+        "expense": "$502.51",
+        "transactions": [
+            "US-2017-135923",
+            "CA-2017-107104"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10002268",
+        "price": "$94.38",
+        "expense": "$131.15",
+        "transactions": [
+            "CA-2017-138520"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10002545",
+        "price": "$744.87",
+        "expense": "$172.74",
+        "transactions": [
+            "CA-2017-155516",
+            "US-2017-100461"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10002598",
+        "price": "$372.58",
+        "expense": "$776.61",
+        "transactions": [
+            "CA-2017-113425"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10002613",
+        "price": "$487.47",
+        "expense": "$754.91",
+        "transactions": [
+            "CA-2017-148747"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10002853",
+        "price": "$912.80",
+        "expense": "$807.10",
+        "transactions": [
+            "CA-2017-143749",
+            "CA-2017-159912",
+            "CA-2017-166772"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10003034",
+        "price": "$578.34",
+        "expense": "$229.39",
+        "transactions": [
+            "CA-2017-106243"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10003159",
+        "price": "$282.95",
+        "expense": "$433.79",
+        "transactions": [
+            "CA-2017-145303",
+            "US-2017-147711"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10003272",
+        "price": "$501.60",
+        "expense": "$110.28",
+        "transactions": [
+            "US-2017-112977",
+            "CA-2017-119865"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10003441",
+        "price": "$607.45",
+        "expense": "$115.41",
+        "transactions": [
+            "CA-2017-115574",
+            "CA-2017-108735"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10003450",
+        "price": "$450.00",
+        "expense": "$474.07",
+        "transactions": [
+            "US-2017-114174",
+            "CA-2017-160108"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10003546",
+        "price": "$957.47",
+        "expense": "$149.35",
+        "transactions": [
+            "CA-2017-163776"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10003893",
+        "price": "$202.21",
+        "expense": "$688.47",
+        "transactions": [
+            "CA-2017-164770"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10003894",
+        "price": "$944.85",
+        "expense": "$831.84",
+        "transactions": [
+            "US-2017-104815",
+            "CA-2017-163972"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10003966",
+        "price": "$859.76",
+        "expense": "$606.68",
+        "transactions": [
+            "CA-2017-140935"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10004015",
+        "price": "$485.54",
+        "expense": "$351.87",
+        "transactions": [
+            "US-2017-108504",
+            "CA-2017-127236"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10004218",
+        "price": "$892.45",
+        "expense": "$698.12",
+        "transactions": [
+            "US-2017-108497",
+            "CA-2017-123512"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10004357",
+        "price": "$113.65",
+        "expense": "$432.94",
+        "transactions": [
+            "CA-2017-130911"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10004409",
+        "price": "$187.34",
+        "expense": "$998.24",
+        "transactions": [
+            "CA-2017-162082",
+            "CA-2017-107783"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10004467",
+        "price": "$256.82",
+        "expense": "$338.02",
+        "transactions": [
+            "US-2017-146794"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10004695",
+        "price": "$708.78",
+        "expense": "$254.18",
+        "transactions": [
+            "CA-2017-137050",
+            "CA-2017-113845",
+            "CA-2017-162355"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10004709",
+        "price": "$14.95",
+        "expense": "$931.84",
+        "transactions": [
+            "CA-2017-110772",
+            "CA-2017-160304"
+        ]
+    },
+    {
+        "_id": "FUR-BO-10004834",
+        "price": "$56.69",
+        "expense": "$251.94",
+        "transactions": [
+            "CA-2017-108987"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10000015",
+        "price": "$478.63",
+        "expense": "$417.54",
+        "transactions": [
+            "CA-2017-118514"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10000225",
+        "price": "$571.53",
+        "expense": "$531.34",
+        "transactions": [
+            "CA-2017-143910",
+            "CA-2017-163594"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10000229",
+        "price": "$540.07",
+        "expense": "$83.54",
+        "transactions": [
+            "CA-2017-163328",
+            "CA-2017-120824"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10000309",
+        "price": "$627.24",
+        "expense": "$765.63",
+        "transactions": [
+            "CA-2017-158778",
+            "CA-2017-138968"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10000422",
+        "price": "$369.54",
+        "expense": "$369.75",
+        "transactions": [
+            "CA-2017-150483"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10000454",
+        "price": "$138.70",
+        "expense": "$756.10",
+        "transactions": [
+            "CA-2017-152156",
+            "CA-2017-114489",
+            "CA-2017-120530",
+            "CA-2017-111213",
+            "CA-2017-124590",
+            "CA-2017-105746"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10000513",
+        "price": "$929.72",
+        "expense": "$703.51",
+        "transactions": [
+            "US-2017-153815",
+            "CA-2017-156748",
+            "CA-2017-143406"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10000553",
+        "price": "$853.01",
+        "expense": "$69.25",
+        "transactions": [
+            "CA-2017-116596"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10000665",
+        "price": "$127.24",
+        "expense": "$458.15",
+        "transactions": [
+            "US-2017-133879",
+            "CA-2017-102813"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10000785",
+        "price": "$624.36",
+        "expense": "$219.12",
+        "transactions": [
+            "CA-2017-159940",
+            "US-2017-167339",
+            "CA-2017-121370"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10000847",
+        "price": "$429.27",
+        "expense": "$93.49",
+        "transactions": [
+            "CA-2017-120873",
+            "CA-2017-105081",
+            "CA-2017-123540"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10000863",
+        "price": "$332.38",
+        "expense": "$910.02",
+        "transactions": [
+            "CA-2017-115378"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10000988",
+        "price": "$583.62",
+        "expense": "$862.74",
+        "transactions": [
+            "CA-2017-157763",
+            "CA-2017-119165",
+            "CA-2017-154690",
+            "CA-2017-100944"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10001146",
+        "price": "$649.54",
+        "expense": "$415.53",
+        "transactions": [
+            "US-2017-125969",
+            "CA-2017-157686",
+            "CA-2017-101693",
+            "CA-2017-158778",
+            "CA-2017-146325",
+            "CA-2017-162159"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10001190",
+        "price": "$210.19",
+        "expense": "$469.79",
+        "transactions": [
+            "CA-2017-114972",
+            "US-2017-166660"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10001215",
+        "price": "$394.65",
+        "expense": "$419.39",
+        "transactions": [
+            "US-2017-105578",
+            "US-2017-156097",
+            "CA-2017-128594",
+            "CA-2017-152247",
+            "CA-2017-133935"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10001270",
+        "price": "$779.36",
+        "expense": "$151.35",
+        "transactions": [
+            "CA-2017-113621",
+            "CA-2017-163048"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10001394",
+        "price": "$607.05",
+        "expense": "$915.94",
+        "transactions": [
+            "US-2017-163881",
+            "CA-2017-120355"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10001545",
+        "price": "$725.13",
+        "expense": "$506.89",
+        "transactions": [
+            "CA-2017-142398",
+            "CA-2017-134138"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10001708",
+        "price": "$371.91",
+        "expense": "$608.56",
+        "transactions": [
+            "CA-2017-118332",
+            "CA-2017-162943"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10001714",
+        "price": "$142.34",
+        "expense": "$444.58",
+        "transactions": [
+            "CA-2017-156300"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10001802",
+        "price": "$48.71",
+        "expense": "$805.30",
+        "transactions": [
+            "CA-2017-139549",
+            "CA-2017-105781"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10001854",
+        "price": "$768.83",
+        "expense": "$896.61",
+        "transactions": [
+            "CA-2017-145905",
+            "CA-2017-146913"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10001973",
+        "price": "$815.72",
+        "expense": "$699.05",
+        "transactions": [
+            "CA-2017-119186",
+            "CA-2017-150350"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10002024",
+        "price": "$819.10",
+        "expense": "$417.22",
+        "transactions": [
+            "CA-2017-136406",
+            "CA-2017-122903"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10002073",
+        "price": "$358.66",
+        "expense": "$781.48",
+        "transactions": [
+            "CA-2017-123946"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10002084",
+        "price": "$574.06",
+        "expense": "$162.45",
+        "transactions": [
+            "CA-2017-128818",
+            "CA-2017-149979",
+            "CA-2017-140130"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10002126",
+        "price": "$526.36",
+        "expense": "$834.22",
+        "transactions": [
+            "CA-2017-149314",
+            "CA-2017-152289"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10002304",
+        "price": "$825.94",
+        "expense": "$486.65",
+        "transactions": [
+            "CA-2017-137204",
+            "CA-2017-154060",
+            "CA-2017-151148"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10002331",
+        "price": "$990.89",
+        "expense": "$940.15",
+        "transactions": [
+            "US-2017-157945",
+            "CA-2017-114727",
+            "CA-2017-169670"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10002335",
+        "price": "$435.32",
+        "expense": "$587.60",
+        "transactions": [
+            "CA-2017-114727",
+            "CA-2017-136329",
+            "CA-2017-118759",
+            "CA-2017-160108"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10002372",
+        "price": "$492.21",
+        "expense": "$967.25",
+        "transactions": [
+            "CA-2017-115756",
+            "CA-2017-133697"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10002602",
+        "price": "$243.43",
+        "expense": "$983.70",
+        "transactions": [
+            "CA-2017-126158"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10002647",
+        "price": "$924.29",
+        "expense": "$246.75",
+        "transactions": [
+            "US-2017-148110",
+            "CA-2017-157511",
+            "CA-2017-127243",
+            "CA-2017-130393",
+            "CA-2017-153269"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10002774",
+        "price": "$685.99",
+        "expense": "$40.64",
+        "transactions": [
+            "CA-2017-122448"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10002880",
+        "price": "$141.75",
+        "expense": "$249.87",
+        "transactions": [
+            "CA-2017-124793",
+            "CA-2017-134516",
+            "CA-2017-133935",
+            "CA-2017-125087"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10002961",
+        "price": "$320.73",
+        "expense": "$48.61",
+        "transactions": [
+            "CA-2017-142895"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10002965",
+        "price": "$63.46",
+        "expense": "$383.34",
+        "transactions": [
+            "CA-2017-154739",
+            "US-2017-150861",
+            "US-2017-152051",
+            "CA-2017-152555"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003061",
+        "price": "$820.27",
+        "expense": "$580.80",
+        "transactions": [
+            "CA-2017-135265",
+            "CA-2017-106278"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003199",
+        "price": "$665.26",
+        "expense": "$486.55",
+        "transactions": [
+            "CA-2017-144939",
+            "US-2017-134488"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003298",
+        "price": "$4.10",
+        "expense": "$957.12",
+        "transactions": [
+            "CA-2017-162187",
+            "CA-2017-163328",
+            "CA-2017-109400"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003312",
+        "price": "$328.93",
+        "expense": "$648.73",
+        "transactions": [
+            "US-2017-141544"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003379",
+        "price": "$918.07",
+        "expense": "$49.91",
+        "transactions": [
+            "US-2017-143448"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003396",
+        "price": "$261.62",
+        "expense": "$609.47",
+        "transactions": [
+            "US-2017-159856",
+            "CA-2017-159009"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003535",
+        "price": "$613.84",
+        "expense": "$12.28",
+        "transactions": [
+            "CA-2017-129868",
+            "CA-2017-154767"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003606",
+        "price": "$215.32",
+        "expense": "$556.49",
+        "transactions": [
+            "CA-2017-156503"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003746",
+        "price": "$566.71",
+        "expense": "$65.19",
+        "transactions": [
+            "CA-2017-157245",
+            "CA-2017-127138",
+            "CA-2017-124590",
+            "CA-2017-110975"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003774",
+        "price": "$712.82",
+        "expense": "$129.25",
+        "transactions": [
+            "US-2017-127971",
+            "CA-2017-145548",
+            "CA-2017-165330"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003817",
+        "price": "$844.80",
+        "expense": "$791.86",
+        "transactions": [
+            "CA-2017-119963",
+            "CA-2017-140018",
+            "CA-2017-124100"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003833",
+        "price": "$857.24",
+        "expense": "$303.45",
+        "transactions": [
+            "US-2017-114293",
+            "CA-2017-138695"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003846",
+        "price": "$481.13",
+        "expense": "$292.90",
+        "transactions": [
+            "CA-2017-141397"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003968",
+        "price": "$1.51",
+        "expense": "$87.40",
+        "transactions": [
+            "CA-2017-111682",
+            "CA-2017-155166"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10003981",
+        "price": "$165.81",
+        "expense": "$687.03",
+        "transactions": [
+            "CA-2017-153577"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004063",
+        "price": "$719.81",
+        "expense": "$823.49",
+        "transactions": [
+            "CA-2017-101672"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004086",
+        "price": "$663.61",
+        "expense": "$59.26",
+        "transactions": [
+            "CA-2017-142902",
+            "CA-2017-112669"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004218",
+        "price": "$648.56",
+        "expense": "$57.00",
+        "transactions": [
+            "US-2017-124163",
+            "CA-2017-143609"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004287",
+        "price": "$301.63",
+        "expense": "$106.34",
+        "transactions": [
+            "CA-2017-112109",
+            "CA-2017-149279",
+            "US-2017-114013"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004289",
+        "price": "$889.22",
+        "expense": "$843.96",
+        "transactions": [
+            "US-2017-167339"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004477",
+        "price": "$639.53",
+        "expense": "$785.83",
+        "transactions": [
+            "CA-2017-163167",
+            "CA-2017-162383",
+            "CA-2017-130393"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004495",
+        "price": "$411.89",
+        "expense": "$978.84",
+        "transactions": [
+            "CA-2017-124590"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004540",
+        "price": "$305.29",
+        "expense": "$486.64",
+        "transactions": [
+            "CA-2017-130946",
+            "CA-2017-124506"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004626",
+        "price": "$121.64",
+        "expense": "$186.97",
+        "transactions": [
+            "CA-2017-161746"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004675",
+        "price": "$230.45",
+        "expense": "$675.40",
+        "transactions": [
+            "CA-2017-168354"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004698",
+        "price": "$987.59",
+        "expense": "$498.92",
+        "transactions": [
+            "CA-2017-113341"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004754",
+        "price": "$270.19",
+        "expense": "$231.02",
+        "transactions": [
+            "CA-2017-168956",
+            "CA-2017-122063",
+            "CA-2017-109827",
+            "CA-2017-118899"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004853",
+        "price": "$727.48",
+        "expense": "$91.07",
+        "transactions": [
+            "US-2017-162852",
+            "CA-2017-107146",
+            "CA-2017-157707"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004860",
+        "price": "$594.99",
+        "expense": "$862.31",
+        "transactions": [
+            "CA-2017-148852"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004875",
+        "price": "$264.30",
+        "expense": "$747.12",
+        "transactions": [
+            "CA-2017-159730",
+            "CA-2017-144092"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004886",
+        "price": "$233.37",
+        "expense": "$366.22",
+        "transactions": [
+            "CA-2017-148796",
+            "US-2017-168095",
+            "CA-2017-134180"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004983",
+        "price": "$564.73",
+        "expense": "$69.61",
+        "transactions": [
+            "CA-2017-116799",
+            "CA-2017-139556"
+        ]
+    },
+    {
+        "_id": "FUR-CH-10004997",
+        "price": "$290.29",
+        "expense": "$192.68",
+        "transactions": [
+            "CA-2017-157336",
+            "CA-2017-138597",
+            "CA-2017-116722"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000010",
+        "price": "$927.28",
+        "expense": "$221.34",
+        "transactions": [
+            "CA-2017-100468",
+            "CA-2017-169943",
+            "CA-2017-163937"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000023",
+        "price": "$124.05",
+        "expense": "$996.41",
+        "transactions": [
+            "CA-2017-109869",
+            "US-2017-127971"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000073",
+        "price": "$730.08",
+        "expense": "$3.08",
+        "transactions": [
+            "CA-2017-126158",
+            "CA-2017-109953"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000076",
+        "price": "$562.83",
+        "expense": "$116.42",
+        "transactions": [
+            "CA-2017-144344",
+            "CA-2017-116547"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000206",
+        "price": "$826.86",
+        "expense": "$905.40",
+        "transactions": [
+            "CA-2017-107216",
+            "US-2017-110156",
+            "CA-2017-149111",
+            "CA-2017-132829"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000221",
+        "price": "$277.55",
+        "expense": "$547.41",
+        "transactions": [
+            "CA-2017-136371",
+            "CA-2017-147137",
+            "CA-2017-103107"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000246",
+        "price": "$525.37",
+        "expense": "$196.03",
+        "transactions": [
+            "CA-2017-115756",
+            "CA-2017-105753",
+            "CA-2017-125724"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000260",
+        "price": "$770.55",
+        "expense": "$6.74",
+        "transactions": [
+            "CA-2017-158778"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000277",
+        "price": "$449.77",
+        "expense": "$659.23",
+        "transactions": [
+            "CA-2017-129847",
+            "CA-2017-114860"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000308",
+        "price": "$248.42",
+        "expense": "$31.83",
+        "transactions": [
+            "CA-2017-163174"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000320",
+        "price": "$883.89",
+        "expense": "$76.89",
+        "transactions": [
+            "CA-2017-128916",
+            "CA-2017-100510"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000397",
+        "price": "$652.52",
+        "expense": "$165.54",
+        "transactions": [
+            "CA-2017-154711"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000409",
+        "price": "$476.42",
+        "expense": "$837.73",
+        "transactions": [
+            "CA-2017-136371"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000448",
+        "price": "$112.95",
+        "expense": "$203.28",
+        "transactions": [
+            "US-2017-155768",
+            "CA-2017-126858"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000550",
+        "price": "$46.59",
+        "expense": "$801.33",
+        "transactions": [
+            "US-2017-107440",
+            "US-2017-117541"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000576",
+        "price": "$850.33",
+        "expense": "$181.74",
+        "transactions": [
+            "CA-2017-157749",
+            "CA-2017-115917"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000629",
+        "price": "$556.04",
+        "expense": "$328.44",
+        "transactions": [
+            "CA-2017-157266",
+            "US-2017-168410"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000672",
+        "price": "$264.29",
+        "expense": "$828.71",
+        "transactions": [
+            "CA-2017-120005",
+            "CA-2017-122017",
+            "CA-2017-165995"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000719",
+        "price": "$354.65",
+        "expense": "$191.32",
+        "transactions": [
+            "CA-2017-113656"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000723",
+        "price": "$298.37",
+        "expense": "$163.08",
+        "transactions": [
+            "CA-2017-136329",
+            "CA-2017-125017",
+            "CA-2017-123050",
+            "US-2017-111563"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000732",
+        "price": "$46.43",
+        "expense": "$99.67",
+        "transactions": [
+            "CA-2017-147067",
+            "CA-2017-165148"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000747",
+        "price": "$946.09",
+        "expense": "$226.70",
+        "transactions": [
+            "CA-2017-168046"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000755",
+        "price": "$834.41",
+        "expense": "$960.13",
+        "transactions": [
+            "CA-2017-139269",
+            "US-2017-124163"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000758",
+        "price": "$583.48",
+        "expense": "$958.22",
+        "transactions": [
+            "CA-2017-145177"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000771",
+        "price": "$76.80",
+        "expense": "$295.36",
+        "transactions": [
+            "CA-2017-101651"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000794",
+        "price": "$492.12",
+        "expense": "$382.08",
+        "transactions": [
+            "CA-2017-114307"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10000965",
+        "price": "$592.25",
+        "expense": "$817.16",
+        "transactions": [
+            "CA-2017-123806",
+            "CA-2017-158694"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001037",
+        "price": "$798.14",
+        "expense": "$183.78",
+        "transactions": [
+            "CA-2017-152730",
+            "CA-2017-149349",
+            "CA-2017-122511"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001085",
+        "price": "$765.25",
+        "expense": "$753.63",
+        "transactions": [
+            "CA-2017-156573",
+            "CA-2017-119935",
+            "CA-2017-153598"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001185",
+        "price": "$786.36",
+        "expense": "$93.54",
+        "transactions": [
+            "CA-2017-163776"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001196",
+        "price": "$82.39",
+        "expense": "$176.83",
+        "transactions": [
+            "CA-2017-165484",
+            "CA-2017-136434"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001379",
+        "price": "$347.69",
+        "expense": "$106.60",
+        "transactions": [
+            "CA-2017-150483"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001424",
+        "price": "$795.53",
+        "expense": "$394.68",
+        "transactions": [
+            "CA-2017-120824"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001475",
+        "price": "$147.65",
+        "expense": "$593.64",
+        "transactions": [
+            "CA-2017-138079"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001488",
+        "price": "$339.26",
+        "expense": "$399.84",
+        "transactions": [
+            "CA-2017-164672",
+            "CA-2017-114748"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001546",
+        "price": "$320.26",
+        "expense": "$468.79",
+        "transactions": [
+            "CA-2017-134516"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001591",
+        "price": "$456.52",
+        "expense": "$810.71",
+        "transactions": [
+            "CA-2017-110254"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001602",
+        "price": "$578.40",
+        "expense": "$461.74",
+        "transactions": [
+            "CA-2017-126004",
+            "CA-2017-167605"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001617",
+        "price": "$790.83",
+        "expense": "$865.77",
+        "transactions": [
+            "US-2017-100839",
+            "CA-2017-137393"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001706",
+        "price": "$204.42",
+        "expense": "$200.53",
+        "transactions": [
+            "CA-2017-145583"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001731",
+        "price": "$774.81",
+        "expense": "$575.01",
+        "transactions": [
+            "CA-2017-158841"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001756",
+        "price": "$589.01",
+        "expense": "$268.98",
+        "transactions": [
+            "CA-2017-142902",
+            "CA-2017-103919"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001847",
+        "price": "$780.00",
+        "expense": "$77.35",
+        "transactions": [
+            "US-2017-139087"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001852",
+        "price": "$50.90",
+        "expense": "$156.11",
+        "transactions": [
+            "CA-2017-130799"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001861",
+        "price": "$994.11",
+        "expense": "$408.99",
+        "transactions": [
+            "CA-2017-142545",
+            "CA-2017-121447"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001876",
+        "price": "$292.10",
+        "expense": "$841.35",
+        "transactions": [
+            "CA-2017-140018",
+            "CA-2017-129280"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001889",
+        "price": "$479.24",
+        "expense": "$244.94",
+        "transactions": [
+            "CA-2017-147578",
+            "CA-2017-159639",
+            "CA-2017-165827",
+            "CA-2017-126732"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001918",
+        "price": "$527.64",
+        "expense": "$731.27",
+        "transactions": [
+            "CA-2017-142902",
+            "CA-2017-151155"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001934",
+        "price": "$553.13",
+        "expense": "$985.21",
+        "transactions": [
+            "CA-2017-116722",
+            "CA-2017-114860"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001935",
+        "price": "$463.26",
+        "expense": "$878.87",
+        "transactions": [
+            "CA-2017-160745",
+            "CA-2017-167507"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001940",
+        "price": "$382.26",
+        "expense": "$185.93",
+        "transactions": [
+            "CA-2017-128818",
+            "CA-2017-130050",
+            "CA-2017-128916"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001967",
+        "price": "$204.17",
+        "expense": "$16.10",
+        "transactions": [
+            "CA-2017-130407"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10001979",
+        "price": "$722.86",
+        "expense": "$743.18",
+        "transactions": [
+            "US-2017-141880"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002030",
+        "price": "$163.54",
+        "expense": "$916.68",
+        "transactions": [
+            "CA-2017-116337"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002045",
+        "price": "$623.57",
+        "expense": "$133.43",
+        "transactions": [
+            "CA-2017-146143",
+            "CA-2017-142594"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002088",
+        "price": "$892.95",
+        "expense": "$591.47",
+        "transactions": [
+            "CA-2017-169943",
+            "CA-2017-160129",
+            "CA-2017-117912",
+            "CA-2017-149237"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002107",
+        "price": "$673.67",
+        "expense": "$277.87",
+        "transactions": [
+            "US-2017-135923",
+            "CA-2017-157511"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002116",
+        "price": "$694.54",
+        "expense": "$813.34",
+        "transactions": [
+            "CA-2017-130638"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002157",
+        "price": "$801.77",
+        "expense": "$878.46",
+        "transactions": [
+            "CA-2017-103730"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002191",
+        "price": "$273.67",
+        "expense": "$570.68",
+        "transactions": [
+            "CA-2017-101791"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002268",
+        "price": "$170.95",
+        "expense": "$634.99",
+        "transactions": [
+            "CA-2017-141887"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002298",
+        "price": "$9.30",
+        "expense": "$45.88",
+        "transactions": [
+            "US-2017-129469",
+            "CA-2017-107146"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002364",
+        "price": "$882.18",
+        "expense": "$232.88",
+        "transactions": [
+            "CA-2017-114951",
+            "US-2017-116442",
+            "US-2017-147711"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002396",
+        "price": "$4.43",
+        "expense": "$97.02",
+        "transactions": [
+            "US-2017-148901"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002445",
+        "price": "$382.93",
+        "expense": "$132.28",
+        "transactions": [
+            "CA-2017-126543",
+            "US-2017-111563",
+            "CA-2017-119641"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002456",
+        "price": "$685.56",
+        "expense": "$372.93",
+        "transactions": [
+            "CA-2017-122392"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002501",
+        "price": "$134.07",
+        "expense": "$609.33",
+        "transactions": [
+            "US-2017-147340"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002505",
+        "price": "$314.01",
+        "expense": "$180.83",
+        "transactions": [
+            "CA-2017-157749"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002597",
+        "price": "$497.87",
+        "expense": "$869.06",
+        "transactions": [
+            "CA-2017-147585",
+            "CA-2017-124233",
+            "US-2017-152415"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002671",
+        "price": "$262.82",
+        "expense": "$333.37",
+        "transactions": [
+            "CA-2017-152632",
+            "CA-2017-146682",
+            "CA-2017-108875"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002759",
+        "price": "$184.84",
+        "expense": "$456.41",
+        "transactions": [
+            "CA-2017-144792"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002813",
+        "price": "$689.29",
+        "expense": "$10.82",
+        "transactions": [
+            "CA-2017-121370",
+            "CA-2017-113082"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002878",
+        "price": "$619.88",
+        "expense": "$437.34",
+        "transactions": [
+            "CA-2017-167507"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002885",
+        "price": "$623.06",
+        "expense": "$536.16",
+        "transactions": [
+            "CA-2017-168893",
+            "CA-2017-145709"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002918",
+        "price": "$999.38",
+        "expense": "$298.82",
+        "transactions": [
+            "CA-2017-133550"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10002937",
+        "price": "$26.97",
+        "expense": "$563.85",
+        "transactions": [
+            "CA-2017-141019",
+            "CA-2017-129126",
+            "CA-2017-107104"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003026",
+        "price": "$206.34",
+        "expense": "$213.36",
+        "transactions": [
+            "US-2017-113985"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003039",
+        "price": "$358.97",
+        "expense": "$216.79",
+        "transactions": [
+            "CA-2017-100965",
+            "CA-2017-110009"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003095",
+        "price": "$323.92",
+        "expense": "$827.06",
+        "transactions": [
+            "CA-2017-169887"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003096",
+        "price": "$185.09",
+        "expense": "$19.13",
+        "transactions": [
+            "CA-2017-128972"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003142",
+        "price": "$403.95",
+        "expense": "$818.75",
+        "transactions": [
+            "CA-2017-101168"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003192",
+        "price": "$569.70",
+        "expense": "$298.73",
+        "transactions": [
+            "CA-2017-157259"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003247",
+        "price": "$510.76",
+        "expense": "$773.70",
+        "transactions": [
+            "CA-2017-129728",
+            "CA-2017-101791"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003268",
+        "price": "$386.06",
+        "expense": "$943.80",
+        "transactions": [
+            "CA-2017-144344",
+            "CA-2017-134789"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003274",
+        "price": "$217.14",
+        "expense": "$922.42",
+        "transactions": [
+            "CA-2017-127985",
+            "CA-2017-134334"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003347",
+        "price": "$588.94",
+        "expense": "$447.38",
+        "transactions": [
+            "CA-2017-131205",
+            "CA-2017-137337"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003374",
+        "price": "$472.96",
+        "expense": "$779.04",
+        "transactions": [
+            "CA-2017-133368"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003394",
+        "price": "$796.66",
+        "expense": "$566.35",
+        "transactions": [
+            "CA-2017-163755",
+            "US-2017-100566",
+            "CA-2017-154018"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003424",
+        "price": "$90.04",
+        "expense": "$608.76",
+        "transactions": [
+            "CA-2017-120250"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003535",
+        "price": "$910.67",
+        "expense": "$983.21",
+        "transactions": [
+            "CA-2017-101161",
+            "CA-2017-113726"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003553",
+        "price": "$415.19",
+        "expense": "$707.60",
+        "transactions": [
+            "CA-2017-144344",
+            "CA-2017-148684"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003601",
+        "price": "$517.22",
+        "expense": "$782.05",
+        "transactions": [
+            "CA-2017-144645"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003664",
+        "price": "$332.61",
+        "expense": "$816.79",
+        "transactions": [
+            "CA-2017-117590",
+            "CA-2017-137043",
+            "CA-2017-137043",
+            "CA-2017-105732"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003691",
+        "price": "$845.28",
+        "expense": "$237.51",
+        "transactions": [
+            "CA-2017-142762",
+            "CA-2017-162747",
+            "US-2017-105452"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003724",
+        "price": "$136.56",
+        "expense": "$513.02",
+        "transactions": [
+            "CA-2017-155992",
+            "US-2017-150035",
+            "CA-2017-139395",
+            "CA-2017-102134"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003731",
+        "price": "$275.16",
+        "expense": "$179.50",
+        "transactions": [
+            "US-2017-116400",
+            "CA-2017-133795",
+            "CA-2017-162348",
+            "CA-2017-119074",
+            "CA-2017-161746"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003773",
+        "price": "$624.62",
+        "expense": "$365.82",
+        "transactions": [
+            "US-2017-125969",
+            "CA-2017-110898",
+            "CA-2017-108105"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003798",
+        "price": "$935.30",
+        "expense": "$226.58",
+        "transactions": [
+            "US-2017-159415"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003799",
+        "price": "$344.66",
+        "expense": "$64.83",
+        "transactions": [
+            "CA-2017-167682"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003806",
+        "price": "$940.28",
+        "expense": "$24.73",
+        "transactions": [
+            "CA-2017-120369",
+            "CA-2017-160241",
+            "CA-2017-157280",
+            "US-2017-105452"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003832",
+        "price": "$654.95",
+        "expense": "$5.33",
+        "transactions": [
+            "CA-2017-137176"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003878",
+        "price": "$509.11",
+        "expense": "$573.59",
+        "transactions": [
+            "CA-2017-165848"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003919",
+        "price": "$256.19",
+        "expense": "$351.26",
+        "transactions": [
+            "CA-2017-101693"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003975",
+        "price": "$301.94",
+        "expense": "$240.61",
+        "transactions": [
+            "CA-2017-113061",
+            "CA-2017-158435"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10003976",
+        "price": "$468.51",
+        "expense": "$215.50",
+        "transactions": [
+            "CA-2017-160129",
+            "CA-2017-102127"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004006",
+        "price": "$496.94",
+        "expense": "$355.36",
+        "transactions": [
+            "CA-2017-169103",
+            "CA-2017-154235"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004017",
+        "price": "$412.68",
+        "expense": "$596.46",
+        "transactions": [
+            "CA-2017-116736"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004020",
+        "price": "$222.25",
+        "expense": "$969.40",
+        "transactions": [
+            "US-2017-154361",
+            "CA-2017-166443"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004053",
+        "price": "$667.11",
+        "expense": "$656.01",
+        "transactions": [
+            "CA-2017-120355",
+            "CA-2017-128706",
+            "CA-2017-119074"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004071",
+        "price": "$836.64",
+        "expense": "$474.73",
+        "transactions": [
+            "US-2017-128909",
+            "CA-2017-167241"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004090",
+        "price": "$601.42",
+        "expense": "$91.41",
+        "transactions": [
+            "CA-2017-123274",
+            "US-2017-153815"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004091",
+        "price": "$585.66",
+        "expense": "$693.74",
+        "transactions": [
+            "US-2017-108504"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004164",
+        "price": "$46.60",
+        "expense": "$895.11",
+        "transactions": [
+            "US-2017-139087"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004270",
+        "price": "$759.64",
+        "expense": "$776.95",
+        "transactions": [
+            "CA-2017-149461",
+            "CA-2017-146171",
+            "US-2017-147991",
+            "CA-2017-149965",
+            "CA-2017-158806"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004306",
+        "price": "$850.78",
+        "expense": "$450.71",
+        "transactions": [
+            "CA-2017-131737"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004351",
+        "price": "$935.41",
+        "expense": "$476.16",
+        "transactions": [
+            "CA-2017-157749"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004415",
+        "price": "$267.95",
+        "expense": "$10.14",
+        "transactions": [
+            "CA-2017-169922"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004586",
+        "price": "$165.93",
+        "expense": "$296.65",
+        "transactions": [
+            "US-2017-155404"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004665",
+        "price": "$896.04",
+        "expense": "$188.39",
+        "transactions": [
+            "CA-2017-157280"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004671",
+        "price": "$379.82",
+        "expense": "$52.07",
+        "transactions": [
+            "US-2017-115455",
+            "CA-2017-136595"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004712",
+        "price": "$421.58",
+        "expense": "$5.95",
+        "transactions": [
+            "CA-2017-136301"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004748",
+        "price": "$364.42",
+        "expense": "$872.81",
+        "transactions": [
+            "CA-2017-124772",
+            "CA-2017-123120",
+            "CA-2017-125087"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004848",
+        "price": "$521.85",
+        "expense": "$772.59",
+        "transactions": [
+            "CA-2017-110366",
+            "CA-2017-118052",
+            "CA-2017-167556",
+            "CA-2017-157588",
+            "CA-2017-147683"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004864",
+        "price": "$49.63",
+        "expense": "$692.19",
+        "transactions": [
+            "CA-2017-126158",
+            "US-2017-108637",
+            "CA-2017-136686",
+            "CA-2017-151561",
+            "CA-2017-163804",
+            "US-2017-152415",
+            "CA-2017-132990"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004904",
+        "price": "$555.66",
+        "expense": "$22.71",
+        "transactions": [
+            "CA-2017-118129"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004909",
+        "price": "$860.03",
+        "expense": "$723.23",
+        "transactions": [
+            "US-2017-126844"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004952",
+        "price": "$122.31",
+        "expense": "$90.37",
+        "transactions": [
+            "CA-2017-164091"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004960",
+        "price": "$494.34",
+        "expense": "$269.30",
+        "transactions": [
+            "CA-2017-145919"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004963",
+        "price": "$13.93",
+        "expense": "$468.08",
+        "transactions": [
+            "CA-2017-124016"
+        ]
+    },
+    {
+        "_id": "FUR-FU-10004973",
+        "price": "$198.36",
+        "expense": "$388.55",
+        "transactions": [
+            "US-2017-120460",
+            "CA-2017-159940",
+            "US-2017-160528",
+            "US-2017-117037"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10000198",
+        "price": "$744.27",
+        "expense": "$156.06",
+        "transactions": [
+            "CA-2017-142335"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10000577",
+        "price": "$72.64",
+        "expense": "$754.29",
+        "transactions": [
+            "CA-2017-142958"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10000617",
+        "price": "$826.70",
+        "expense": "$220.64",
+        "transactions": [
+            "CA-2017-105207"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10000849",
+        "price": "$559.37",
+        "expense": "$932.49",
+        "transactions": [
+            "CA-2017-110898"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10001039",
+        "price": "$663.44",
+        "expense": "$129.27",
+        "transactions": [
+            "CA-2017-104276"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10001086",
+        "price": "$922.45",
+        "expense": "$741.96",
+        "transactions": [
+            "CA-2017-134936"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10001095",
+        "price": "$750.24",
+        "expense": "$175.67",
+        "transactions": [
+            "CA-2017-140928",
+            "CA-2017-127670",
+            "US-2017-143819",
+            "US-2017-128902",
+            "CA-2017-169838",
+            "CA-2017-100993",
+            "CA-2017-142594",
+            "CA-2017-168046",
+            "CA-2017-105459"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10001307",
+        "price": "$996.17",
+        "expense": "$316.78",
+        "transactions": [
+            "CA-2017-145982",
+            "CA-2017-105081"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10001539",
+        "price": "$912.30",
+        "expense": "$569.90",
+        "transactions": [
+            "CA-2017-132066",
+            "CA-2017-126732"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10001676",
+        "price": "$567.61",
+        "expense": "$50.56",
+        "transactions": [
+            "US-2017-161844",
+            "CA-2017-126165"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10001691",
+        "price": "$684.30",
+        "expense": "$967.22",
+        "transactions": [
+            "CA-2017-156265"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10001768",
+        "price": "$979.64",
+        "expense": "$247.11",
+        "transactions": [
+            "CA-2017-106950",
+            "CA-2017-130820"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10001771",
+        "price": "$424.51",
+        "expense": "$67.27",
+        "transactions": [
+            "CA-2017-128223",
+            "CA-2017-154662"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10001857",
+        "price": "$182.14",
+        "expense": "$516.48",
+        "transactions": [
+            "US-2017-120929"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10001889",
+        "price": "$657.60",
+        "expense": "$277.12",
+        "transactions": [
+            "CA-2017-109869"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10001932",
+        "price": "$707.09",
+        "expense": "$848.14",
+        "transactions": [
+            "CA-2017-107328"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10001950",
+        "price": "$729.12",
+        "expense": "$529.69",
+        "transactions": [
+            "US-2017-164196"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10002228",
+        "price": "$845.72",
+        "expense": "$484.98",
+        "transactions": [
+            "US-2017-150861"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10002356",
+        "price": "$248.49",
+        "expense": "$720.70",
+        "transactions": [
+            "US-2017-122245",
+            "CA-2017-134334"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10002530",
+        "price": "$183.28",
+        "expense": "$711.84",
+        "transactions": [
+            "US-2017-146066",
+            "CA-2017-145261",
+            "CA-2017-102092"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10002533",
+        "price": "$336.91",
+        "expense": "$545.99",
+        "transactions": [
+            "CA-2017-162236",
+            "CA-2017-118073"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10002607",
+        "price": "$249.38",
+        "expense": "$139.68",
+        "transactions": [
+            "CA-2017-157749",
+            "CA-2017-109827"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10002622",
+        "price": "$870.67",
+        "expense": "$960.09",
+        "transactions": [
+            "US-2017-161396",
+            "CA-2017-131296"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10002645",
+        "price": "$933.71",
+        "expense": "$609.21",
+        "transactions": [
+            "CA-2017-113831"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10002774",
+        "price": "$310.40",
+        "expense": "$644.27",
+        "transactions": [
+            "US-2017-131611",
+            "CA-2017-144148"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10002903",
+        "price": "$412.14",
+        "expense": "$286.19",
+        "transactions": [
+            "CA-2017-140746"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10002958",
+        "price": "$455.47",
+        "expense": "$939.95",
+        "transactions": [
+            "CA-2017-130288",
+            "CA-2017-110975"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10003008",
+        "price": "$269.55",
+        "expense": "$518.30",
+        "transactions": [
+            "CA-2017-162187",
+            "CA-2017-153101"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10003238",
+        "price": "$361.17",
+        "expense": "$578.96",
+        "transactions": [
+            "CA-2017-139157",
+            "CA-2017-125080",
+            "US-2017-121013"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10003392",
+        "price": "$216.54",
+        "expense": "$57.44",
+        "transactions": [
+            "CA-2017-168893",
+            "US-2017-102239",
+            "CA-2017-164399",
+            "CA-2017-155747"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10003473",
+        "price": "$372.30",
+        "expense": "$599.44",
+        "transactions": [
+            "CA-2017-129868",
+            "US-2017-127334",
+            "CA-2017-118745",
+            "CA-2017-116911"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10003569",
+        "price": "$505.38",
+        "expense": "$729.79",
+        "transactions": [
+            "US-2017-115455",
+            "US-2017-126452"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10003715",
+        "price": "$21.75",
+        "expense": "$304.45",
+        "transactions": [
+            "CA-2017-129861"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10003748",
+        "price": "$305.02",
+        "expense": "$875.78",
+        "transactions": [
+            "CA-2017-146934",
+            "CA-2017-160500"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10003954",
+        "price": "$405.73",
+        "expense": "$877.48",
+        "transactions": [
+            "CA-2017-131289"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10004086",
+        "price": "$53.18",
+        "expense": "$481.70",
+        "transactions": [
+            "CA-2017-112102",
+            "CA-2017-146206"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10004147",
+        "price": "$462.92",
+        "expense": "$960.75",
+        "transactions": [
+            "CA-2017-114601",
+            "CA-2017-149762"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10004152",
+        "price": "$111.76",
+        "expense": "$476.74",
+        "transactions": [
+            "CA-2017-159912",
+            "CA-2017-148096"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10004256",
+        "price": "$889.52",
+        "expense": "$533.61",
+        "transactions": [
+            "CA-2017-113243",
+            "CA-2017-155530",
+            "CA-2017-168032"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10004534",
+        "price": "$219.43",
+        "expense": "$214.82",
+        "transactions": [
+            "CA-2017-164784"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10004575",
+        "price": "$300.91",
+        "expense": "$740.93",
+        "transactions": [
+            "US-2017-100839",
+            "CA-2017-122063"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10004619",
+        "price": "$940.47",
+        "expense": "$522.99",
+        "transactions": [
+            "CA-2017-159373",
+            "CA-2017-165330",
+            "CA-2017-132304"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10004767",
+        "price": "$598.81",
+        "expense": "$98.41",
+        "transactions": [
+            "CA-2017-163153"
+        ]
+    },
+    {
+        "_id": "FUR-TA-10004915",
+        "price": "$58.42",
+        "expense": "$86.41",
+        "transactions": [
+            "CA-2017-104157",
+            "CA-2017-145730"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10000026",
+        "price": "$692.27",
+        "expense": "$302.80",
+        "transactions": [
+            "CA-2017-115525"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10000055",
+        "price": "$274.55",
+        "expense": "$608.75",
+        "transactions": [
+            "CA-2017-158694",
+            "CA-2017-107104"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10000159",
+        "price": "$782.28",
+        "expense": "$237.28",
+        "transactions": [
+            "CA-2017-106950"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10000179",
+        "price": "$326.82",
+        "expense": "$404.07",
+        "transactions": [
+            "US-2017-161683"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10000252",
+        "price": "$619.50",
+        "expense": "$141.42",
+        "transactions": [
+            "CA-2017-128412",
+            "CA-2017-151512"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10000326",
+        "price": "$89.97",
+        "expense": "$819.76",
+        "transactions": [
+            "CA-2017-158834"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10000358",
+        "price": "$842.39",
+        "expense": "$843.03",
+        "transactions": [
+            "CA-2017-149223"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10000390",
+        "price": "$273.63",
+        "expense": "$862.12",
+        "transactions": [
+            "US-2017-144057"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10000576",
+        "price": "$363.80",
+        "expense": "$176.50",
+        "transactions": [
+            "CA-2017-136133",
+            "CA-2017-169957",
+            "CA-2017-162187"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10000595",
+        "price": "$770.22",
+        "expense": "$796.50",
+        "transactions": [
+            "CA-2017-154767",
+            "CA-2017-130778"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10000692",
+        "price": "$576.74",
+        "expense": "$353.58",
+        "transactions": [
+            "CA-2017-118913",
+            "US-2017-135923"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10000696",
+        "price": "$378.31",
+        "expense": "$176.55",
+        "transactions": [
+            "CA-2017-142097"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10000891",
+        "price": "$505.56",
+        "expense": "$328.01",
+        "transactions": [
+            "CA-2017-134803"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10000938",
+        "price": "$722.55",
+        "expense": "$179.89",
+        "transactions": [
+            "CA-2017-168543"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001005",
+        "price": "$998.74",
+        "expense": "$916.42",
+        "transactions": [
+            "CA-2017-133550",
+            "CA-2017-145611"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001058",
+        "price": "$688.01",
+        "expense": "$112.88",
+        "transactions": [
+            "CA-2017-140081",
+            "CA-2017-131968"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001205",
+        "price": "$952.64",
+        "expense": "$540.27",
+        "transactions": [
+            "CA-2017-119025",
+            "CA-2017-149783",
+            "US-2017-146857",
+            "US-2017-127334"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001242",
+        "price": "$266.34",
+        "expense": "$364.76",
+        "transactions": [
+            "CA-2017-120824",
+            "CA-2017-100300"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001271",
+        "price": "$558.87",
+        "expense": "$694.19",
+        "transactions": [
+            "CA-2017-139381"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001293",
+        "price": "$961.82",
+        "expense": "$620.88",
+        "transactions": [
+            "CA-2017-122017"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001303",
+        "price": "$638.68",
+        "expense": "$63.08",
+        "transactions": [
+            "US-2017-113985"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001366",
+        "price": "$864.08",
+        "expense": "$599.83",
+        "transactions": [
+            "CA-2017-156811",
+            "CA-2017-138282"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001394",
+        "price": "$956.12",
+        "expense": "$605.32",
+        "transactions": [
+            "CA-2017-105732",
+            "CA-2017-131744"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001469",
+        "price": "$135.93",
+        "expense": "$625.39",
+        "transactions": [
+            "CA-2017-165330"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001492",
+        "price": "$73.08",
+        "expense": "$969.56",
+        "transactions": [
+            "CA-2017-137330",
+            "CA-2017-150350"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001563",
+        "price": "$482.66",
+        "expense": "$200.32",
+        "transactions": [
+            "CA-2017-169943"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001564",
+        "price": "$292.86",
+        "expense": "$280.78",
+        "transactions": [
+            "CA-2017-143406"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001626",
+        "price": "$722.56",
+        "expense": "$190.45",
+        "transactions": [
+            "CA-2017-112389",
+            "CA-2017-110898"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10001947",
+        "price": "$641.47",
+        "expense": "$408.18",
+        "transactions": [
+            "CA-2017-111143"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002082",
+        "price": "$711.50",
+        "expense": "$495.52",
+        "transactions": [
+            "CA-2017-128412",
+            "CA-2017-132409",
+            "CA-2017-166240"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002118",
+        "price": "$319.17",
+        "expense": "$388.19",
+        "transactions": [
+            "CA-2017-127208",
+            "CA-2017-158001"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002222",
+        "price": "$254.09",
+        "expense": "$988.77",
+        "transactions": [
+            "US-2017-156692",
+            "US-2017-123610"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002287",
+        "price": "$108.00",
+        "expense": "$823.10",
+        "transactions": [
+            "CA-2017-123337"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002311",
+        "price": "$662.36",
+        "expense": "$212.67",
+        "transactions": [
+            "CA-2017-133340",
+            "CA-2017-124590",
+            "CA-2017-154767"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002350",
+        "price": "$83.60",
+        "expense": "$307.71",
+        "transactions": [
+            "CA-2017-103947",
+            "CA-2017-152170",
+            "CA-2017-136686",
+            "CA-2017-114307"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002403",
+        "price": "$431.55",
+        "expense": "$354.96",
+        "transactions": [
+            "CA-2017-163398"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002439",
+        "price": "$15.47",
+        "expense": "$38.51",
+        "transactions": [
+            "CA-2017-137239"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002457",
+        "price": "$175.63",
+        "expense": "$24.33",
+        "transactions": [
+            "CA-2017-145177",
+            "CA-2017-144540",
+            "CA-2017-116526"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002518",
+        "price": "$349.47",
+        "expense": "$744.46",
+        "transactions": [
+            "US-2017-113649"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002534",
+        "price": "$879.47",
+        "expense": "$852.38",
+        "transactions": [
+            "US-2017-141264"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002578",
+        "price": "$359.44",
+        "expense": "$8.11",
+        "transactions": [
+            "CA-2017-109869"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002651",
+        "price": "$538.66",
+        "expense": "$355.13",
+        "transactions": [
+            "CA-2017-124352"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002684",
+        "price": "$737.82",
+        "expense": "$602.08",
+        "transactions": [
+            "CA-2017-112697",
+            "CA-2017-152730"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002765",
+        "price": "$264.41",
+        "expense": "$535.92",
+        "transactions": [
+            "CA-2017-155166",
+            "CA-2017-123533"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002867",
+        "price": "$349.96",
+        "expense": "$245.85",
+        "transactions": [
+            "CA-2017-166226"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002892",
+        "price": "$546.86",
+        "expense": "$581.85",
+        "transactions": [
+            "CA-2017-155978",
+            "CA-2017-116603",
+            "US-2017-151260"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002945",
+        "price": "$151.09",
+        "expense": "$811.08",
+        "transactions": [
+            "CA-2017-131737",
+            "CA-2017-142594",
+            "CA-2017-143805"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10002998",
+        "price": "$912.53",
+        "expense": "$763.18",
+        "transactions": [
+            "CA-2017-158575",
+            "CA-2017-109365",
+            "CA-2017-109953"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10003057",
+        "price": "$155.39",
+        "expense": "$562.92",
+        "transactions": [
+            "CA-2017-114972",
+            "CA-2017-147256"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10003217",
+        "price": "$309.39",
+        "expense": "$925.46",
+        "transactions": [
+            "CA-2017-146934"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10003266",
+        "price": "$248.59",
+        "expense": "$307.20",
+        "transactions": [
+            "CA-2017-165316"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10003287",
+        "price": "$393.78",
+        "expense": "$487.30",
+        "transactions": [
+            "US-2017-123470"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10003590",
+        "price": "$790.48",
+        "expense": "$389.54",
+        "transactions": [
+            "CA-2017-113292"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10003622",
+        "price": "$492.43",
+        "expense": "$316.18",
+        "transactions": [
+            "CA-2017-145492"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10003779",
+        "price": "$382.73",
+        "expense": "$738.55",
+        "transactions": [
+            "CA-2017-131499"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10003842",
+        "price": "$401.86",
+        "expense": "$261.79",
+        "transactions": [
+            "CA-2017-162313",
+            "CA-2017-158547",
+            "CA-2017-127138"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10003849",
+        "price": "$949.97",
+        "expense": "$817.93",
+        "transactions": [
+            "CA-2017-113978",
+            "CA-2017-112585"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10003971",
+        "price": "$371.65",
+        "expense": "$382.95",
+        "transactions": [
+            "CA-2017-141397",
+            "US-2017-131114"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10004036",
+        "price": "$551.59",
+        "expense": "$911.88",
+        "transactions": [
+            "CA-2017-139941"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10004052",
+        "price": "$146.45",
+        "expense": "$623.01",
+        "transactions": [
+            "CA-2017-129868",
+            "CA-2017-107783"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10004233",
+        "price": "$119.17",
+        "expense": "$679.81",
+        "transactions": [
+            "CA-2017-168956",
+            "US-2017-140172"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10004336",
+        "price": "$687.77",
+        "expense": "$605.79",
+        "transactions": [
+            "CA-2017-102456"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10004487",
+        "price": "$80.76",
+        "expense": "$524.74",
+        "transactions": [
+            "US-2017-103646",
+            "CA-2017-131835",
+            "CA-2017-107328"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10004532",
+        "price": "$24.21",
+        "expense": "$628.62",
+        "transactions": [
+            "CA-2017-134376"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10004540",
+        "price": "$71.44",
+        "expense": "$923.86",
+        "transactions": [
+            "US-2017-108637"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10004859",
+        "price": "$134.09",
+        "expense": "$953.68",
+        "transactions": [
+            "CA-2017-110982",
+            "CA-2017-130442",
+            "CA-2017-130393"
+        ]
+    },
+    {
+        "_id": "OFF-AP-10004980",
+        "price": "$588.22",
+        "expense": "$793.95",
+        "transactions": [
+            "CA-2017-123358"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000034",
+        "price": "$240.11",
+        "expense": "$228.22",
+        "transactions": [
+            "CA-2017-140564",
+            "CA-2017-109652"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000122",
+        "price": "$45.92",
+        "expense": "$260.57",
+        "transactions": [
+            "CA-2017-165169"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000246",
+        "price": "$564.50",
+        "expense": "$154.00",
+        "transactions": [
+            "CA-2017-137330"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000255",
+        "price": "$261.95",
+        "expense": "$656.04",
+        "transactions": [
+            "CA-2017-161781"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000315",
+        "price": "$674.42",
+        "expense": "$809.09",
+        "transactions": [
+            "US-2017-129469",
+            "CA-2017-153346"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000380",
+        "price": "$986.02",
+        "expense": "$728.50",
+        "transactions": [
+            "CA-2017-128867"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000390",
+        "price": "$989.14",
+        "expense": "$352.64",
+        "transactions": [
+            "US-2017-100405",
+            "CA-2017-161746"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000462",
+        "price": "$86.34",
+        "expense": "$103.29",
+        "transactions": [
+            "CA-2017-161158"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000475",
+        "price": "$904.25",
+        "expense": "$409.78",
+        "transactions": [
+            "CA-2017-128923",
+            "CA-2017-130911"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000538",
+        "price": "$29.89",
+        "expense": "$274.59",
+        "transactions": [
+            "CA-2017-164350",
+            "US-2017-102232"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000588",
+        "price": "$642.54",
+        "expense": "$447.30",
+        "transactions": [
+            "CA-2017-166674",
+            "CA-2017-156685",
+            "CA-2017-128111",
+            "US-2017-165953",
+            "CA-2017-146437"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000614",
+        "price": "$458.12",
+        "expense": "$550.72",
+        "transactions": [
+            "CA-2017-101329"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000716",
+        "price": "$516.86",
+        "expense": "$324.74",
+        "transactions": [
+            "CA-2017-101525",
+            "CA-2017-106915"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000817",
+        "price": "$407.71",
+        "expense": "$41.92",
+        "transactions": [
+            "US-2017-124163"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000823",
+        "price": "$663.43",
+        "expense": "$124.01",
+        "transactions": [
+            "US-2017-115819"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000896",
+        "price": "$602.33",
+        "expense": "$577.03",
+        "transactions": [
+            "CA-2017-158778"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000914",
+        "price": "$239.50",
+        "expense": "$731.24",
+        "transactions": [
+            "CA-2017-141957",
+            "CA-2017-165330",
+            "US-2017-144477"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10000940",
+        "price": "$728.89",
+        "expense": "$779.47",
+        "transactions": [
+            "CA-2017-136483",
+            "CA-2017-100244",
+            "CA-2017-152730"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001044",
+        "price": "$257.76",
+        "expense": "$31.70",
+        "transactions": [
+            "CA-2017-169971",
+            "CA-2017-162082"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001149",
+        "price": "$216.67",
+        "expense": "$499.10",
+        "transactions": [
+            "CA-2017-145583",
+            "CA-2017-108616",
+            "CA-2017-104689"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001216",
+        "price": "$482.87",
+        "expense": "$600.80",
+        "transactions": [
+            "CA-2017-112256"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001221",
+        "price": "$691.99",
+        "expense": "$516.87",
+        "transactions": [
+            "US-2017-132423"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001227",
+        "price": "$575.79",
+        "expense": "$137.95",
+        "transactions": [
+            "CA-2017-158694"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001231",
+        "price": "$529.80",
+        "expense": "$996.26",
+        "transactions": [
+            "CA-2017-135776"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001246",
+        "price": "$353.91",
+        "expense": "$93.89",
+        "transactions": [
+            "CA-2017-135776"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001315",
+        "price": "$894.02",
+        "expense": "$562.19",
+        "transactions": [
+            "CA-2017-114748"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001419",
+        "price": "$532.88",
+        "expense": "$688.97",
+        "transactions": [
+            "CA-2017-149335"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001446",
+        "price": "$745.06",
+        "expense": "$59.36",
+        "transactions": [
+            "CA-2017-113390"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001545",
+        "price": "$449.09",
+        "expense": "$253.89",
+        "transactions": [
+            "CA-2017-107216",
+            "CA-2017-141523",
+            "CA-2017-102561"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001547",
+        "price": "$222.70",
+        "expense": "$88.13",
+        "transactions": [
+            "CA-2017-152331",
+            "CA-2017-163636"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001573",
+        "price": "$849.01",
+        "expense": "$650.88",
+        "transactions": [
+            "CA-2017-152072",
+            "CA-2017-144785"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001615",
+        "price": "$358.65",
+        "expense": "$676.42",
+        "transactions": [
+            "CA-2017-111283"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001662",
+        "price": "$713.28",
+        "expense": "$162.59",
+        "transactions": [
+            "CA-2017-109911",
+            "CA-2017-149762"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001725",
+        "price": "$819.19",
+        "expense": "$225.43",
+        "transactions": [
+            "CA-2017-166618"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001761",
+        "price": "$433.57",
+        "expense": "$860.65",
+        "transactions": [
+            "US-2017-111290"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001770",
+        "price": "$514.50",
+        "expense": "$874.95",
+        "transactions": [
+            "CA-2017-168893",
+            "CA-2017-134334"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001860",
+        "price": "$504.47",
+        "expense": "$186.48",
+        "transactions": [
+            "CA-2017-154711",
+            "CA-2017-101161",
+            "CA-2017-138583"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001868",
+        "price": "$295.23",
+        "expense": "$306.20",
+        "transactions": [
+            "CA-2017-111682",
+            "CA-2017-163153"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001897",
+        "price": "$1.21",
+        "expense": "$95.05",
+        "transactions": [
+            "CA-2017-129868"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001919",
+        "price": "$813.13",
+        "expense": "$641.49",
+        "transactions": [
+            "CA-2017-132409"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001953",
+        "price": "$467.89",
+        "expense": "$955.44",
+        "transactions": [
+            "CA-2017-166674",
+            "CA-2017-108868",
+            "CA-2017-112256"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001954",
+        "price": "$308.74",
+        "expense": "$615.03",
+        "transactions": [
+            "CA-2017-158001"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001955",
+        "price": "$280.67",
+        "expense": "$374.71",
+        "transactions": [
+            "CA-2017-109176",
+            "US-2017-137295",
+            "CA-2017-120082"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10001958",
+        "price": "$819.60",
+        "expense": "$788.10",
+        "transactions": [
+            "CA-2017-118689"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002053",
+        "price": "$570.98",
+        "expense": "$709.07",
+        "transactions": [
+            "CA-2017-106341"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002067",
+        "price": "$917.89",
+        "expense": "$763.58",
+        "transactions": [
+            "CA-2017-154018"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002135",
+        "price": "$430.43",
+        "expense": "$180.41",
+        "transactions": [
+            "US-2017-131149",
+            "CA-2017-146766"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002221",
+        "price": "$701.48",
+        "expense": "$65.81",
+        "transactions": [
+            "CA-2017-122392"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002240",
+        "price": "$607.48",
+        "expense": "$680.34",
+        "transactions": [
+            "CA-2017-130407",
+            "CA-2017-138478",
+            "CA-2017-146150"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002255",
+        "price": "$222.63",
+        "expense": "$755.79",
+        "transactions": [
+            "CA-2017-107216",
+            "CA-2017-140256"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002257",
+        "price": "$639.74",
+        "expense": "$376.31",
+        "transactions": [
+            "CA-2017-157511"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002335",
+        "price": "$513.83",
+        "expense": "$753.76",
+        "transactions": [
+            "CA-2017-152534"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002375",
+        "price": "$45.46",
+        "expense": "$586.84",
+        "transactions": [
+            "CA-2017-106621"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002399",
+        "price": "$68.49",
+        "expense": "$681.15",
+        "transactions": [
+            "CA-2017-138520",
+            "CA-2017-158001",
+            "CA-2017-105263"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002445",
+        "price": "$475.09",
+        "expense": "$434.19",
+        "transactions": [
+            "CA-2017-114538",
+            "CA-2017-145898",
+            "CA-2017-160479"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002467",
+        "price": "$539.68",
+        "expense": "$719.23",
+        "transactions": [
+            "US-2017-148901"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002578",
+        "price": "$588.44",
+        "expense": "$87.52",
+        "transactions": [
+            "CA-2017-114601"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002656",
+        "price": "$594.90",
+        "expense": "$458.84",
+        "transactions": [
+            "CA-2017-105900"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002766",
+        "price": "$512.74",
+        "expense": "$20.61",
+        "transactions": [
+            "CA-2017-169887",
+            "US-2017-140172"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002804",
+        "price": "$920.27",
+        "expense": "$707.14",
+        "transactions": [
+            "CA-2017-169971"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002833",
+        "price": "$28.21",
+        "expense": "$856.60",
+        "transactions": [
+            "CA-2017-132899"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002956",
+        "price": "$777.86",
+        "expense": "$608.36",
+        "transactions": [
+            "CA-2017-165316",
+            "CA-2017-155488",
+            "CA-2017-149902"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10002987",
+        "price": "$607.71",
+        "expense": "$913.62",
+        "transactions": [
+            "US-2017-165078",
+            "CA-2017-149783"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003045",
+        "price": "$187.97",
+        "expense": "$665.84",
+        "transactions": [
+            "CA-2017-100790"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003056",
+        "price": "$599.51",
+        "expense": "$472.45",
+        "transactions": [
+            "CA-2017-131289",
+            "US-2017-152835",
+            "US-2017-164588"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003156",
+        "price": "$331.84",
+        "expense": "$470.86",
+        "transactions": [
+            "CA-2017-166674"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003183",
+        "price": "$594.98",
+        "expense": "$274.04",
+        "transactions": [
+            "CA-2017-113390"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003190",
+        "price": "$860.49",
+        "expense": "$921.79",
+        "transactions": [
+            "CA-2017-101329"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003217",
+        "price": "$70.02",
+        "expense": "$960.29",
+        "transactions": [
+            "CA-2017-163398"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003251",
+        "price": "$212.26",
+        "expense": "$285.06",
+        "transactions": [
+            "US-2017-132857"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003338",
+        "price": "$160.31",
+        "expense": "$701.41",
+        "transactions": [
+            "CA-2017-157161",
+            "CA-2017-103709"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003373",
+        "price": "$101.56",
+        "expense": "$681.05",
+        "transactions": [
+            "CA-2017-113747",
+            "CA-2017-145548"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003394",
+        "price": "$184.04",
+        "expense": "$556.89",
+        "transactions": [
+            "CA-2017-127250",
+            "CA-2017-152170",
+            "CA-2017-103128"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003405",
+        "price": "$835.81",
+        "expense": "$816.94",
+        "transactions": [
+            "CA-2017-128531"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003469",
+        "price": "$596.19",
+        "expense": "$217.36",
+        "transactions": [
+            "CA-2017-131205",
+            "CA-2017-120824"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003477",
+        "price": "$183.41",
+        "expense": "$917.74",
+        "transactions": [
+            "US-2017-165505"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003481",
+        "price": "$336.45",
+        "expense": "$293.34",
+        "transactions": [
+            "CA-2017-120257",
+            "US-2017-132577"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003514",
+        "price": "$817.39",
+        "expense": "$60.04",
+        "transactions": [
+            "CA-2017-119963",
+            "CA-2017-159765"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003560",
+        "price": "$940.61",
+        "expense": "$314.12",
+        "transactions": [
+            "CA-2017-106950"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003582",
+        "price": "$557.87",
+        "expense": "$798.65",
+        "transactions": [
+            "CA-2017-101336"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003631",
+        "price": "$585.97",
+        "expense": "$443.75",
+        "transactions": [
+            "CA-2017-116918"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003696",
+        "price": "$548.82",
+        "expense": "$690.46",
+        "transactions": [
+            "CA-2017-101938"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003727",
+        "price": "$67.07",
+        "expense": "$182.14",
+        "transactions": [
+            "CA-2017-154053",
+            "CA-2017-109743"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003732",
+        "price": "$626.54",
+        "expense": "$637.67",
+        "transactions": [
+            "CA-2017-156573",
+            "CA-2017-139395",
+            "CA-2017-152730"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003752",
+        "price": "$500.19",
+        "expense": "$960.13",
+        "transactions": [
+            "CA-2017-157364"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003759",
+        "price": "$799.47",
+        "expense": "$723.29",
+        "transactions": [
+            "CA-2017-160395",
+            "CA-2017-143476"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003770",
+        "price": "$586.38",
+        "expense": "$116.48",
+        "transactions": [
+            "CA-2017-113138"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003772",
+        "price": "$153.65",
+        "expense": "$806.53",
+        "transactions": [
+            "CA-2017-168893"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003811",
+        "price": "$570.71",
+        "expense": "$870.38",
+        "transactions": [
+            "CA-2017-148684"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003829",
+        "price": "$886.32",
+        "expense": "$617.34",
+        "transactions": [
+            "US-2017-112970",
+            "CA-2017-133613"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003856",
+        "price": "$181.84",
+        "expense": "$232.21",
+        "transactions": [
+            "US-2017-146570"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003958",
+        "price": "$184.94",
+        "expense": "$391.01",
+        "transactions": [
+            "CA-2017-134474"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10003986",
+        "price": "$50.94",
+        "expense": "$391.38",
+        "transactions": [
+            "CA-2017-101469"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004022",
+        "price": "$735.26",
+        "expense": "$164.80",
+        "transactions": [
+            "CA-2017-148698",
+            "CA-2017-140774",
+            "CA-2017-109666"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004078",
+        "price": "$724.54",
+        "expense": "$147.78",
+        "transactions": [
+            "CA-2017-167290",
+            "CA-2017-145261",
+            "CA-2017-158211"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004165",
+        "price": "$652.79",
+        "expense": "$777.34",
+        "transactions": [
+            "CA-2017-132094"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004269",
+        "price": "$463.15",
+        "expense": "$407.64",
+        "transactions": [
+            "CA-2017-140130",
+            "CA-2017-163951",
+            "CA-2017-107104"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004344",
+        "price": "$834.73",
+        "expense": "$562.55",
+        "transactions": [
+            "CA-2017-162355"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004441",
+        "price": "$82.67",
+        "expense": "$721.57",
+        "transactions": [
+            "CA-2017-101385",
+            "CA-2017-125815"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004456",
+        "price": "$726.52",
+        "expense": "$426.92",
+        "transactions": [
+            "US-2017-115819",
+            "CA-2017-102498"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004582",
+        "price": "$890.55",
+        "expense": "$531.12",
+        "transactions": [
+            "CA-2017-109666"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004602",
+        "price": "$408.45",
+        "expense": "$891.74",
+        "transactions": [
+            "US-2017-146570",
+            "CA-2017-106397",
+            "CA-2017-153836"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004685",
+        "price": "$376.26",
+        "expense": "$60.41",
+        "transactions": [
+            "CA-2017-157749",
+            "CA-2017-123176"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004752",
+        "price": "$478.73",
+        "expense": "$356.32",
+        "transactions": [
+            "CA-2017-126732"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004757",
+        "price": "$124.31",
+        "expense": "$622.45",
+        "transactions": [
+            "CA-2017-102792"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004817",
+        "price": "$631.41",
+        "expense": "$837.87",
+        "transactions": [
+            "CA-2017-146423"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004930",
+        "price": "$481.74",
+        "expense": "$793.09",
+        "transactions": [
+            "CA-2017-109806"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004956",
+        "price": "$316.61",
+        "expense": "$447.20",
+        "transactions": [
+            "US-2017-133879"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004974",
+        "price": "$66.84",
+        "expense": "$218.38",
+        "transactions": [
+            "CA-2017-166674"
+        ]
+    },
+    {
+        "_id": "OFF-AR-10004999",
+        "price": "$893.38",
+        "expense": "$360.91",
+        "transactions": [
+            "CA-2017-137050",
+            "CA-2017-137736",
+            "CA-2017-116526"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000014",
+        "price": "$462.27",
+        "expense": "$538.51",
+        "transactions": [
+            "CA-2017-164483",
+            "CA-2017-163398",
+            "US-2017-101616",
+            "CA-2017-106950"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000042",
+        "price": "$832.48",
+        "expense": "$305.12",
+        "transactions": [
+            "US-2017-139087"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000050",
+        "price": "$470.65",
+        "expense": "$679.97",
+        "transactions": [
+            "US-2017-115819",
+            "CA-2017-145303",
+            "CA-2017-151372"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000069",
+        "price": "$23.06",
+        "expense": "$948.94",
+        "transactions": [
+            "US-2017-150567",
+            "CA-2017-123358"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000088",
+        "price": "$121.87",
+        "expense": "$400.61",
+        "transactions": [
+            "CA-2017-130484"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000138",
+        "price": "$948.88",
+        "expense": "$665.14",
+        "transactions": [
+            "CA-2017-155670",
+            "US-2017-163258",
+            "US-2017-119046"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000145",
+        "price": "$640.59",
+        "expense": "$378.54",
+        "transactions": [
+            "CA-2017-139689",
+            "US-2017-158309",
+            "US-2017-158680"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000174",
+        "price": "$653.26",
+        "expense": "$576.66",
+        "transactions": [
+            "CA-2017-139010",
+            "CA-2017-145982",
+            "CA-2017-124814",
+            "CA-2017-134936",
+            "CA-2017-109666"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000201",
+        "price": "$364.91",
+        "expense": "$897.53",
+        "transactions": [
+            "US-2017-131891",
+            "CA-2017-113600"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000279",
+        "price": "$302.53",
+        "expense": "$750.07",
+        "transactions": [
+            "CA-2017-129126",
+            "US-2017-117037"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000285",
+        "price": "$774.72",
+        "expense": "$265.56",
+        "transactions": [
+            "US-2017-162103",
+            "CA-2017-109407",
+            "CA-2017-156265"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000301",
+        "price": "$786.73",
+        "expense": "$964.49",
+        "transactions": [
+            "CA-2017-146521",
+            "CA-2017-141180",
+            "CA-2017-105277",
+            "CA-2017-128811"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000309",
+        "price": "$82.07",
+        "expense": "$844.79",
+        "transactions": [
+            "CA-2017-128818"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000315",
+        "price": "$541.04",
+        "expense": "$314.73",
+        "transactions": [
+            "CA-2017-109869",
+            "CA-2017-146836",
+            "CA-2017-131205"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000320",
+        "price": "$430.31",
+        "expense": "$902.54",
+        "transactions": [
+            "CA-2017-141397",
+            "CA-2017-113138",
+            "CA-2017-167556",
+            "CA-2017-116526"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000343",
+        "price": "$733.81",
+        "expense": "$545.68",
+        "transactions": [
+            "CA-2017-111913",
+            "CA-2017-108644",
+            "CA-2017-100041",
+            "CA-2017-114209"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000404",
+        "price": "$447.45",
+        "expense": "$123.48",
+        "transactions": [
+            "CA-2017-163776"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000474",
+        "price": "$406.42",
+        "expense": "$985.73",
+        "transactions": [
+            "CA-2017-109820"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000494",
+        "price": "$241.48",
+        "expense": "$505.04",
+        "transactions": [
+            "CA-2017-119018"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000545",
+        "price": "$488.43",
+        "expense": "$764.16",
+        "transactions": [
+            "CA-2017-158099",
+            "CA-2017-108196",
+            "CA-2017-107783",
+            "CA-2017-117121"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000546",
+        "price": "$353.89",
+        "expense": "$493.45",
+        "transactions": [
+            "CA-2017-168032"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000591",
+        "price": "$459.71",
+        "expense": "$402.53",
+        "transactions": [
+            "US-2017-115819",
+            "US-2017-167472"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000605",
+        "price": "$863.92",
+        "expense": "$635.60",
+        "transactions": [
+            "CA-2017-154711"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000632",
+        "price": "$962.71",
+        "expense": "$719.24",
+        "transactions": [
+            "US-2017-113985",
+            "CA-2017-137337"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000666",
+        "price": "$226.38",
+        "expense": "$999.20",
+        "transactions": [
+            "CA-2017-133711",
+            "CA-2017-101980"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000756",
+        "price": "$88.41",
+        "expense": "$385.88",
+        "transactions": [
+            "CA-2017-102932"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000773",
+        "price": "$136.85",
+        "expense": "$530.04",
+        "transactions": [
+            "CA-2017-139234",
+            "CA-2017-118101"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000778",
+        "price": "$738.05",
+        "expense": "$145.65",
+        "transactions": [
+            "CA-2017-112697"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000822",
+        "price": "$519.27",
+        "expense": "$306.34",
+        "transactions": [
+            "CA-2017-124485"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000829",
+        "price": "$194.62",
+        "expense": "$948.03",
+        "transactions": [
+            "CA-2017-110982"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000831",
+        "price": "$969.84",
+        "expense": "$370.98",
+        "transactions": [
+            "US-2017-105578",
+            "CA-2017-128517"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000848",
+        "price": "$221.00",
+        "expense": "$541.70",
+        "transactions": [
+            "CA-2017-145499"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000948",
+        "price": "$691.94",
+        "expense": "$906.15",
+        "transactions": [
+            "CA-2017-162404",
+            "CA-2017-141523",
+            "CA-2017-131639"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000962",
+        "price": "$817.14",
+        "expense": "$617.81",
+        "transactions": [
+            "CA-2017-115476",
+            "CA-2017-119074"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10000977",
+        "price": "$644.91",
+        "expense": "$571.24",
+        "transactions": [
+            "CA-2017-124352",
+            "CA-2017-100244",
+            "CA-2017-144911",
+            "US-2017-140158"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001031",
+        "price": "$199.73",
+        "expense": "$119.45",
+        "transactions": [
+            "CA-2017-137050",
+            "CA-2017-133123"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001036",
+        "price": "$674.51",
+        "expense": "$265.40",
+        "transactions": [
+            "CA-2017-110023",
+            "CA-2017-119123"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001071",
+        "price": "$476.36",
+        "expense": "$792.02",
+        "transactions": [
+            "CA-2017-112123"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001072",
+        "price": "$417.51",
+        "expense": "$361.75",
+        "transactions": [
+            "US-2017-161683"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001078",
+        "price": "$5.58",
+        "expense": "$836.38",
+        "transactions": [
+            "US-2017-119046"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001107",
+        "price": "$189.00",
+        "expense": "$351.97",
+        "transactions": [
+            "CA-2017-105354"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001116",
+        "price": "$629.57",
+        "expense": "$77.50",
+        "transactions": [
+            "CA-2017-141957",
+            "CA-2017-116526"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001120",
+        "price": "$708.37",
+        "expense": "$298.04",
+        "transactions": [
+            "CA-2017-138478"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001132",
+        "price": "$370.48",
+        "expense": "$671.92",
+        "transactions": [
+            "CA-2017-112739"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001153",
+        "price": "$424.29",
+        "expense": "$118.66",
+        "transactions": [
+            "US-2017-150147",
+            "CA-2017-118178"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001191",
+        "price": "$57.77",
+        "expense": "$629.17",
+        "transactions": [
+            "CA-2017-140641",
+            "CA-2017-125164"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001249",
+        "price": "$325.97",
+        "expense": "$617.24",
+        "transactions": [
+            "CA-2017-141551",
+            "CA-2017-116911"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001267",
+        "price": "$334.31",
+        "expense": "$388.93",
+        "transactions": [
+            "CA-2017-124562",
+            "CA-2017-136049"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001294",
+        "price": "$673.35",
+        "expense": "$861.81",
+        "transactions": [
+            "CA-2017-161669"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001308",
+        "price": "$591.53",
+        "expense": "$561.25",
+        "transactions": [
+            "CA-2017-129308"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001359",
+        "price": "$723.35",
+        "expense": "$962.52",
+        "transactions": [
+            "CA-2017-101546"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001460",
+        "price": "$502.84",
+        "expense": "$957.08",
+        "transactions": [
+            "CA-2017-111682",
+            "CA-2017-123120",
+            "US-2017-100461"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001510",
+        "price": "$12.85",
+        "expense": "$781.50",
+        "transactions": [
+            "CA-2017-145548",
+            "US-2017-102141"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001524",
+        "price": "$983.79",
+        "expense": "$580.90",
+        "transactions": [
+            "US-2017-141544",
+            "CA-2017-161095",
+            "CA-2017-111941",
+            "US-2017-164945"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001525",
+        "price": "$382.97",
+        "expense": "$956.84",
+        "transactions": [
+            "CA-2017-129308",
+            "CA-2017-120824"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001543",
+        "price": "$655.88",
+        "expense": "$960.97",
+        "transactions": [
+            "CA-2017-116379"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001553",
+        "price": "$119.68",
+        "expense": "$82.53",
+        "transactions": [
+            "CA-2017-119865",
+            "CA-2017-126732"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001575",
+        "price": "$2.69",
+        "expense": "$163.06",
+        "transactions": [
+            "US-2017-168620"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001597",
+        "price": "$551.14",
+        "expense": "$849.90",
+        "transactions": [
+            "CA-2017-136231",
+            "CA-2017-119935"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001617",
+        "price": "$750.40",
+        "expense": "$869.80",
+        "transactions": [
+            "CA-2017-169922",
+            "CA-2017-113551"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001628",
+        "price": "$249.73",
+        "expense": "$38.45",
+        "transactions": [
+            "CA-2017-125738",
+            "CA-2017-156811"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001634",
+        "price": "$773.06",
+        "expense": "$586.08",
+        "transactions": [
+            "CA-2017-121755",
+            "CA-2017-112109"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001636",
+        "price": "$721.91",
+        "expense": "$108.21",
+        "transactions": [
+            "CA-2017-161669",
+            "US-2017-169040",
+            "CA-2017-131639"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001658",
+        "price": "$639.67",
+        "expense": "$445.36",
+        "transactions": [
+            "US-2017-105578",
+            "US-2017-169040",
+            "CA-2017-164154",
+            "CA-2017-134222",
+            "CA-2017-116561"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001670",
+        "price": "$570.68",
+        "expense": "$903.62",
+        "transactions": [
+            "US-2017-105578",
+            "CA-2017-145261"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001718",
+        "price": "$269.05",
+        "expense": "$916.38",
+        "transactions": [
+            "US-2017-146570",
+            "CA-2017-128412",
+            "US-2017-148901"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001721",
+        "price": "$113.52",
+        "expense": "$611.79",
+        "transactions": [
+            "US-2017-167472",
+            "CA-2017-162390"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001757",
+        "price": "$67.24",
+        "expense": "$478.18",
+        "transactions": [
+            "US-2017-150567",
+            "CA-2017-162383",
+            "CA-2017-130400"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001759",
+        "price": "$458.30",
+        "expense": "$643.70",
+        "transactions": [
+            "CA-2017-142958"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001890",
+        "price": "$469.07",
+        "expense": "$421.06",
+        "transactions": [
+            "CA-2017-105018",
+            "US-2017-102239",
+            "CA-2017-116722"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001982",
+        "price": "$549.96",
+        "expense": "$799.77",
+        "transactions": [
+            "US-2017-150147"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10001989",
+        "price": "$338.32",
+        "expense": "$431.27",
+        "transactions": [
+            "US-2017-123470",
+            "CA-2017-113516",
+            "CA-2017-108616",
+            "US-2017-131611",
+            "US-2017-165078",
+            "CA-2017-126795"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002003",
+        "price": "$848.56",
+        "expense": "$132.89",
+        "transactions": [
+            "US-2017-128195",
+            "CA-2017-154767",
+            "CA-2017-133613"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002012",
+        "price": "$625.80",
+        "expense": "$84.39",
+        "transactions": [
+            "CA-2017-108364",
+            "CA-2017-114307"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002026",
+        "price": "$880.07",
+        "expense": "$212.08",
+        "transactions": [
+            "CA-2017-111416",
+            "CA-2017-158211",
+            "US-2017-139262",
+            "US-2017-149790"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002071",
+        "price": "$182.17",
+        "expense": "$21.43",
+        "transactions": [
+            "CA-2017-109365",
+            "CA-2017-159912",
+            "CA-2017-124016"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002072",
+        "price": "$977.33",
+        "expense": "$476.07",
+        "transactions": [
+            "CA-2017-152170"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002082",
+        "price": "$312.72",
+        "expense": "$304.49",
+        "transactions": [
+            "CA-2017-112109",
+            "CA-2017-145177",
+            "CA-2017-142097",
+            "CA-2017-148908",
+            "CA-2017-133872"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002103",
+        "price": "$909.22",
+        "expense": "$5.24",
+        "transactions": [
+            "US-2017-128678",
+            "CA-2017-134936"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002133",
+        "price": "$117.08",
+        "expense": "$185.14",
+        "transactions": [
+            "CA-2017-121356",
+            "CA-2017-149503"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002160",
+        "price": "$834.98",
+        "expense": "$898.22",
+        "transactions": [
+            "CA-2017-129714",
+            "CA-2017-137050",
+            "CA-2017-107328"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002194",
+        "price": "$888.70",
+        "expense": "$281.12",
+        "transactions": [
+            "US-2017-100419",
+            "US-2017-111528"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002215",
+        "price": "$499.26",
+        "expense": "$159.53",
+        "transactions": [
+            "CA-2017-134803",
+            "CA-2017-152163",
+            "CA-2017-161361"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002225",
+        "price": "$541.95",
+        "expense": "$40.36",
+        "transactions": [
+            "CA-2017-134775",
+            "CA-2017-113516",
+            "CA-2017-137848"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002309",
+        "price": "$19.91",
+        "expense": "$162.76",
+        "transactions": [
+            "CA-2017-127208",
+            "CA-2017-139010",
+            "US-2017-148901",
+            "CA-2017-125843",
+            "CA-2017-168557"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002353",
+        "price": "$221.31",
+        "expense": "$75.63",
+        "transactions": [
+            "CA-2017-112025",
+            "US-2017-113985",
+            "US-2017-114013",
+            "US-2017-144057"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002393",
+        "price": "$835.20",
+        "expense": "$543.62",
+        "transactions": [
+            "CA-2017-134691",
+            "CA-2017-152408"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002412",
+        "price": "$80.47",
+        "expense": "$988.27",
+        "transactions": [
+            "CA-2017-155516",
+            "CA-2017-108105"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002414",
+        "price": "$954.90",
+        "expense": "$837.56",
+        "transactions": [
+            "CA-2017-156573",
+            "CA-2017-145303",
+            "CA-2017-166625"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002429",
+        "price": "$607.65",
+        "expense": "$695.29",
+        "transactions": [
+            "CA-2017-118969",
+            "CA-2017-164574"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002432",
+        "price": "$511.17",
+        "expense": "$6.85",
+        "transactions": [
+            "US-2017-107440"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002437",
+        "price": "$920.34",
+        "expense": "$897.02",
+        "transactions": [
+            "CA-2017-108630"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002498",
+        "price": "$203.52",
+        "expense": "$909.68",
+        "transactions": [
+            "CA-2017-126158",
+            "US-2017-156986"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002557",
+        "price": "$534.73",
+        "expense": "$820.05",
+        "transactions": [
+            "CA-2017-168753",
+            "US-2017-150357",
+            "CA-2017-158841",
+            "CA-2017-127761"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002571",
+        "price": "$668.40",
+        "expense": "$470.42",
+        "transactions": [
+            "US-2017-157490"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002609",
+        "price": "$718.02",
+        "expense": "$841.08",
+        "transactions": [
+            "CA-2017-158568",
+            "US-2017-110156",
+            "CA-2017-168844"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002706",
+        "price": "$301.63",
+        "expense": "$909.68",
+        "transactions": [
+            "CA-2017-142545"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002735",
+        "price": "$648.81",
+        "expense": "$167.90",
+        "transactions": [
+            "CA-2017-114489"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002764",
+        "price": "$998.25",
+        "expense": "$766.79",
+        "transactions": [
+            "CA-2017-161095",
+            "CA-2017-163202",
+            "CA-2017-157161",
+            "CA-2017-126270"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002813",
+        "price": "$977.56",
+        "expense": "$575.31",
+        "transactions": [
+            "CA-2017-151169",
+            "CA-2017-159023"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002824",
+        "price": "$775.11",
+        "expense": "$981.49",
+        "transactions": [
+            "CA-2017-169943",
+            "CA-2017-165330",
+            "CA-2017-162383",
+            "US-2017-157490"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002827",
+        "price": "$458.55",
+        "expense": "$973.33",
+        "transactions": [
+            "CA-2017-137239"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002852",
+        "price": "$223.80",
+        "expense": "$650.08",
+        "transactions": [
+            "CA-2017-131576",
+            "CA-2017-131968",
+            "US-2017-144057"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002854",
+        "price": "$462.85",
+        "expense": "$168.38",
+        "transactions": [
+            "US-2017-103646"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002897",
+        "price": "$484.56",
+        "expense": "$76.20",
+        "transactions": [
+            "CA-2017-165330"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002949",
+        "price": "$105.10",
+        "expense": "$571.27",
+        "transactions": [
+            "CA-2017-116596"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002954",
+        "price": "$417.91",
+        "expense": "$375.65",
+        "transactions": [
+            "CA-2017-129693",
+            "CA-2017-164784"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002976",
+        "price": "$351.91",
+        "expense": "$486.11",
+        "transactions": [
+            "CA-2017-123617"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10002982",
+        "price": "$407.00",
+        "expense": "$771.06",
+        "transactions": [
+            "CA-2017-146633",
+            "CA-2017-138037",
+            "US-2017-155173"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003007",
+        "price": "$998.57",
+        "expense": "$471.01",
+        "transactions": [
+            "CA-2017-119865",
+            "CA-2017-163776",
+            "CA-2017-128671"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003166",
+        "price": "$782.65",
+        "expense": "$347.17",
+        "transactions": [
+            "CA-2017-106950",
+            "CA-2017-127243"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003196",
+        "price": "$511.04",
+        "expense": "$436.48",
+        "transactions": [
+            "US-2017-132577"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003274",
+        "price": "$12.20",
+        "expense": "$112.42",
+        "transactions": [
+            "CA-2017-110492"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003291",
+        "price": "$283.29",
+        "expense": "$282.07",
+        "transactions": [
+            "CA-2017-118255",
+            "CA-2017-111913",
+            "CA-2017-133802"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003305",
+        "price": "$521.78",
+        "expense": "$988.15",
+        "transactions": [
+            "CA-2017-164511",
+            "CA-2017-103163",
+            "CA-2017-161473",
+            "CA-2017-128671"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003314",
+        "price": "$82.93",
+        "expense": "$165.16",
+        "transactions": [
+            "CA-2017-154788",
+            "CA-2017-119018",
+            "CA-2017-118934"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003350",
+        "price": "$441.03",
+        "expense": "$999.88",
+        "transactions": [
+            "US-2017-147711"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003355",
+        "price": "$540.94",
+        "expense": "$782.77",
+        "transactions": [
+            "CA-2017-138933",
+            "US-2017-114888"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003364",
+        "price": "$648.66",
+        "expense": "$94.91",
+        "transactions": [
+            "CA-2017-105494",
+            "CA-2017-152163",
+            "US-2017-158288"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003429",
+        "price": "$368.08",
+        "expense": "$818.33",
+        "transactions": [
+            "CA-2017-101980",
+            "CA-2017-125920"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003460",
+        "price": "$853.19",
+        "expense": "$726.68",
+        "transactions": [
+            "CA-2017-109820"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003527",
+        "price": "$812.63",
+        "expense": "$550.12",
+        "transactions": [
+            "CA-2017-146633",
+            "CA-2017-159891"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003529",
+        "price": "$498.92",
+        "expense": "$347.53",
+        "transactions": [
+            "CA-2017-156251",
+            "CA-2017-138968"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003638",
+        "price": "$294.31",
+        "expense": "$69.15",
+        "transactions": [
+            "CA-2017-146010"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003650",
+        "price": "$674.51",
+        "expense": "$659.24",
+        "transactions": [
+            "CA-2017-149797"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003656",
+        "price": "$852.84",
+        "expense": "$675.25",
+        "transactions": [
+            "CA-2017-161389",
+            "CA-2017-100244",
+            "CA-2017-144309"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003676",
+        "price": "$703.48",
+        "expense": "$78.47",
+        "transactions": [
+            "US-2017-110156",
+            "CA-2017-106306",
+            "US-2017-148334",
+            "CA-2017-168046"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003694",
+        "price": "$727.99",
+        "expense": "$483.84",
+        "transactions": [
+            "CA-2017-167507",
+            "CA-2017-149454"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003707",
+        "price": "$318.58",
+        "expense": "$599.28",
+        "transactions": [
+            "CA-2017-163594"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003708",
+        "price": "$517.27",
+        "expense": "$544.16",
+        "transactions": [
+            "CA-2017-167556"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003712",
+        "price": "$243.60",
+        "expense": "$8.42",
+        "transactions": [
+            "CA-2017-126809",
+            "US-2017-161844",
+            "US-2017-157308",
+            "CA-2017-118689"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003719",
+        "price": "$990.77",
+        "expense": "$348.39",
+        "transactions": [
+            "CA-2017-144344"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003727",
+        "price": "$670.70",
+        "expense": "$412.16",
+        "transactions": [
+            "CA-2017-134348",
+            "US-2017-139262",
+            "CA-2017-168361",
+            "CA-2017-167983"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003784",
+        "price": "$152.51",
+        "expense": "$924.58",
+        "transactions": [
+            "CA-2017-169922",
+            "CA-2017-160500"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003876",
+        "price": "$316.15",
+        "expense": "$739.72",
+        "transactions": [
+            "CA-2017-164637"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003910",
+        "price": "$451.18",
+        "expense": "$759.61",
+        "transactions": [
+            "CA-2017-103730",
+            "CA-2017-151155",
+            "CA-2017-131744"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003963",
+        "price": "$348.72",
+        "expense": "$249.63",
+        "transactions": [
+            "CA-2017-140207",
+            "CA-2017-157588"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003981",
+        "price": "$959.47",
+        "expense": "$967.75",
+        "transactions": [
+            "CA-2017-128867",
+            "CA-2017-141586",
+            "CA-2017-109365"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003982",
+        "price": "$569.12",
+        "expense": "$963.22",
+        "transactions": [
+            "US-2017-108777",
+            "CA-2017-125164"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10003984",
+        "price": "$773.06",
+        "expense": "$204.82",
+        "transactions": [
+            "CA-2017-160395"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004001",
+        "price": "$140.53",
+        "expense": "$312.50",
+        "transactions": [
+            "CA-2017-162614",
+            "CA-2017-165330",
+            "CA-2017-132017"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004002",
+        "price": "$703.39",
+        "expense": "$859.98",
+        "transactions": [
+            "CA-2017-113817",
+            "US-2017-148901",
+            "CA-2017-169838",
+            "CA-2017-149916"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004022",
+        "price": "$138.40",
+        "expense": "$517.22",
+        "transactions": [
+            "CA-2017-116232"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004040",
+        "price": "$391.73",
+        "expense": "$904.63",
+        "transactions": [
+            "CA-2017-149279",
+            "US-2017-132577"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004094",
+        "price": "$493.27",
+        "expense": "$470.53",
+        "transactions": [
+            "CA-2017-117282"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004099",
+        "price": "$776.97",
+        "expense": "$865.54",
+        "transactions": [
+            "CA-2017-137652"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004140",
+        "price": "$78.13",
+        "expense": "$338.52",
+        "transactions": [
+            "CA-2017-154018",
+            "CA-2017-108567",
+            "CA-2017-150658",
+            "CA-2017-111213",
+            "CA-2017-116918"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004141",
+        "price": "$545.15",
+        "expense": "$902.47",
+        "transactions": [
+            "CA-2017-159373",
+            "CA-2017-150007"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004187",
+        "price": "$940.86",
+        "expense": "$455.82",
+        "transactions": [
+            "CA-2017-101742"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004209",
+        "price": "$558.57",
+        "expense": "$850.53",
+        "transactions": [
+            "CA-2017-155474",
+            "CA-2017-168921"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004224",
+        "price": "$93.17",
+        "expense": "$932.56",
+        "transactions": [
+            "CA-2017-104969"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004233",
+        "price": "$754.78",
+        "expense": "$956.38",
+        "transactions": [
+            "CA-2017-156139",
+            "CA-2017-103359"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004236",
+        "price": "$202.66",
+        "expense": "$191.61",
+        "transactions": [
+            "US-2017-144393",
+            "CA-2017-159737",
+            "CA-2017-157336",
+            "US-2017-131912",
+            "US-2017-155103",
+            "CA-2017-145548",
+            "US-2017-137295"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004308",
+        "price": "$511.02",
+        "expense": "$481.97",
+        "transactions": [
+            "CA-2017-143714",
+            "US-2017-117387"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004318",
+        "price": "$524.53",
+        "expense": "$532.22",
+        "transactions": [
+            "US-2017-155103",
+            "CA-2017-101980",
+            "US-2017-114013",
+            "CA-2017-132997",
+            "CA-2017-162390",
+            "CA-2017-126102"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004330",
+        "price": "$532.26",
+        "expense": "$466.34",
+        "transactions": [
+            "CA-2017-120796"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004352",
+        "price": "$511.75",
+        "expense": "$446.28",
+        "transactions": [
+            "CA-2017-133711"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004364",
+        "price": "$852.85",
+        "expense": "$769.07",
+        "transactions": [
+            "US-2017-131611",
+            "CA-2017-112256",
+            "CA-2017-165918",
+            "CA-2017-105207"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004390",
+        "price": "$960.52",
+        "expense": "$471.38",
+        "transactions": [
+            "CA-2017-153178"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004410",
+        "price": "$831.64",
+        "expense": "$88.73",
+        "transactions": [
+            "CA-2017-154536"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004465",
+        "price": "$619.58",
+        "expense": "$420.74",
+        "transactions": [
+            "US-2017-133879",
+            "US-2017-126452",
+            "CA-2017-118934"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004506",
+        "price": "$556.24",
+        "expense": "$151.48",
+        "transactions": [
+            "US-2017-155180"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004519",
+        "price": "$269.16",
+        "expense": "$933.75",
+        "transactions": [
+            "US-2017-162859"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004584",
+        "price": "$128.61",
+        "expense": "$213.69",
+        "transactions": [
+            "US-2017-123750",
+            "CA-2017-132479",
+            "CA-2017-152688"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004593",
+        "price": "$436.59",
+        "expense": "$136.85",
+        "transactions": [
+            "CA-2017-162138",
+            "CA-2017-165330"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004600",
+        "price": "$504.98",
+        "expense": "$74.39",
+        "transactions": [
+            "CA-2017-167115",
+            "CA-2017-118689"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004632",
+        "price": "$34.31",
+        "expense": "$840.99",
+        "transactions": [
+            "CA-2017-163573",
+            "CA-2017-153269"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004654",
+        "price": "$676.20",
+        "expense": "$160.93",
+        "transactions": [
+            "CA-2017-106075",
+            "US-2017-156097",
+            "CA-2017-112893",
+            "CA-2017-117226",
+            "US-2017-115952"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004656",
+        "price": "$352.02",
+        "expense": "$613.53",
+        "transactions": [
+            "CA-2017-126004",
+            "CA-2017-158694",
+            "CA-2017-110898"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004716",
+        "price": "$748.64",
+        "expense": "$12.78",
+        "transactions": [
+            "US-2017-114622"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004728",
+        "price": "$254.47",
+        "expense": "$869.82",
+        "transactions": [
+            "CA-2017-115917",
+            "CA-2017-157266",
+            "CA-2017-142405",
+            "CA-2017-157161",
+            "CA-2017-116526"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004738",
+        "price": "$613.47",
+        "expense": "$14.73",
+        "transactions": [
+            "CA-2017-101448"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004781",
+        "price": "$3.23",
+        "expense": "$681.75",
+        "transactions": [
+            "CA-2017-145583",
+            "US-2017-152051",
+            "CA-2017-139689",
+            "CA-2017-153661"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004817",
+        "price": "$808.59",
+        "expense": "$49.73",
+        "transactions": [
+            "CA-2017-126935",
+            "CA-2017-153836"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004826",
+        "price": "$421.78",
+        "expense": "$160.85",
+        "transactions": [
+            "CA-2017-140081",
+            "CA-2017-168354",
+            "CA-2017-142398",
+            "CA-2017-165918"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004828",
+        "price": "$312.48",
+        "expense": "$908.63",
+        "transactions": [
+            "CA-2017-140417",
+            "CA-2017-126284"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004965",
+        "price": "$14.34",
+        "expense": "$774.37",
+        "transactions": [
+            "US-2017-108637"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004967",
+        "price": "$367.52",
+        "expense": "$490.55",
+        "transactions": [
+            "CA-2017-134348",
+            "CA-2017-114727",
+            "CA-2017-123015",
+            "CA-2017-124527",
+            "CA-2017-151498"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004970",
+        "price": "$191.21",
+        "expense": "$655.52",
+        "transactions": [
+            "CA-2017-163384",
+            "CA-2017-131065",
+            "CA-2017-116540",
+            "CA-2017-159009"
+        ]
+    },
+    {
+        "_id": "OFF-BI-10004995",
+        "price": "$518.28",
+        "expense": "$567.43",
+        "transactions": [
+            "CA-2017-129714",
+            "CA-2017-130946"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10000056",
+        "price": "$121.26",
+        "expense": "$528.37",
+        "transactions": [
+            "CA-2017-165218"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10000483",
+        "price": "$341.08",
+        "expense": "$278.03",
+        "transactions": [
+            "CA-2017-145730"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10000927",
+        "price": "$903.79",
+        "expense": "$131.40",
+        "transactions": [
+            "US-2017-169040"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10001099",
+        "price": "$57.96",
+        "expense": "$842.01",
+        "transactions": [
+            "CA-2017-140634",
+            "CA-2017-119683",
+            "CA-2017-136231"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10001137",
+        "price": "$858.78",
+        "expense": "$251.26",
+        "transactions": [
+            "CA-2017-138520",
+            "CA-2017-137848"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10001141",
+        "price": "$897.46",
+        "expense": "$163.60",
+        "transactions": [
+            "CA-2017-167416"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10001219",
+        "price": "$604.69",
+        "expense": "$503.95",
+        "transactions": [
+            "US-2017-155768"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10001335",
+        "price": "$980.65",
+        "expense": "$501.77",
+        "transactions": [
+            "CA-2017-120859",
+            "CA-2017-156503"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10001415",
+        "price": "$518.82",
+        "expense": "$550.34",
+        "transactions": [
+            "US-2017-157945"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10001434",
+        "price": "$883.51",
+        "expense": "$441.04",
+        "transactions": [
+            "CA-2017-144092"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10001453",
+        "price": "$389.59",
+        "expense": "$8.52",
+        "transactions": [
+            "CA-2017-100944",
+            "CA-2017-130400"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10001509",
+        "price": "$512.92",
+        "expense": "$953.79",
+        "transactions": [
+            "CA-2017-106656",
+            "CA-2017-157161",
+            "CA-2017-152800"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10001532",
+        "price": "$69.38",
+        "expense": "$990.36",
+        "transactions": [
+            "CA-2017-125661"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10001535",
+        "price": "$275.06",
+        "expense": "$347.60",
+        "transactions": [
+            "CA-2017-117625"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10001990",
+        "price": "$118.15",
+        "expense": "$994.42",
+        "transactions": [
+            "CA-2017-154508",
+            "CA-2017-101651"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10002230",
+        "price": "$544.68",
+        "expense": "$558.70",
+        "transactions": [
+            "CA-2017-137239",
+            "CA-2017-159212"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10002312",
+        "price": "$65.66",
+        "expense": "$60.56",
+        "transactions": [
+            "CA-2017-104969",
+            "CA-2017-142097",
+            "CA-2017-102162"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10002500",
+        "price": "$667.86",
+        "expense": "$710.15",
+        "transactions": [
+            "CA-2017-103730",
+            "CA-2017-112102",
+            "CA-2017-124583"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10002504",
+        "price": "$669.45",
+        "expense": "$676.27",
+        "transactions": [
+            "CA-2017-150350",
+            "CA-2017-104150"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10002592",
+        "price": "$39.74",
+        "expense": "$377.66",
+        "transactions": [
+            "CA-2017-157742"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10002600",
+        "price": "$102.08",
+        "expense": "$711.60",
+        "transactions": [
+            "CA-2017-166380"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10002831",
+        "price": "$313.43",
+        "expense": "$646.40",
+        "transactions": [
+            "CA-2017-152170"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10002973",
+        "price": "$372.22",
+        "expense": "$882.98",
+        "transactions": [
+            "CA-2017-146934",
+            "CA-2017-150000"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10003001",
+        "price": "$235.83",
+        "expense": "$556.04",
+        "transactions": [
+            "US-2017-108504",
+            "CA-2017-160941"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10003040",
+        "price": "$661.44",
+        "expense": "$460.65",
+        "transactions": [
+            "CA-2017-152072",
+            "CA-2017-128307"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10003055",
+        "price": "$635.32",
+        "expense": "$860.87",
+        "transactions": [
+            "CA-2017-133123",
+            "CA-2017-131737"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10003134",
+        "price": "$72.39",
+        "expense": "$144.80",
+        "transactions": [
+            "CA-2017-109176",
+            "CA-2017-165015",
+            "CA-2017-158043"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10003286",
+        "price": "$750.75",
+        "expense": "$742.42",
+        "transactions": [
+            "CA-2017-142524"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10003296",
+        "price": "$923.47",
+        "expense": "$248.44",
+        "transactions": [
+            "CA-2017-146941"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10003567",
+        "price": "$181.53",
+        "expense": "$838.26",
+        "transactions": [
+            "CA-2017-147137",
+            "CA-2017-106278"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10003798",
+        "price": "$118.70",
+        "expense": "$264.67",
+        "transactions": [
+            "US-2017-110156"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10003862",
+        "price": "$767.63",
+        "expense": "$296.75",
+        "transactions": [
+            "CA-2017-121601"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10004030",
+        "price": "$56.43",
+        "expense": "$868.68",
+        "transactions": [
+            "CA-2017-150343"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10004386",
+        "price": "$859.07",
+        "expense": "$729.33",
+        "transactions": [
+            "CA-2017-144400",
+            "CA-2017-126270"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10004459",
+        "price": "$193.90",
+        "expense": "$573.24",
+        "transactions": [
+            "CA-2017-127138"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10004483",
+        "price": "$791.15",
+        "expense": "$440.50",
+        "transactions": [
+            "CA-2017-159891"
+        ]
+    },
+    {
+        "_id": "OFF-EN-10004773",
+        "price": "$813.42",
+        "expense": "$850.62",
+        "transactions": [
+            "CA-2017-135776"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10000053",
+        "price": "$781.61",
+        "expense": "$346.35",
+        "transactions": [
+            "US-2017-108504",
+            "CA-2017-159912"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10000134",
+        "price": "$437.39",
+        "expense": "$285.53",
+        "transactions": [
+            "US-2017-133508",
+            "CA-2017-116596"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10000304",
+        "price": "$34.62",
+        "expense": "$750.98",
+        "transactions": [
+            "CA-2017-105816",
+            "US-2017-162859",
+            "CA-2017-168956",
+            "CA-2017-151372"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10000585",
+        "price": "$579.26",
+        "expense": "$281.11",
+        "transactions": [
+            "CA-2017-121034",
+            "CA-2017-124590",
+            "CA-2017-128811"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10000621",
+        "price": "$34.39",
+        "expense": "$916.24",
+        "transactions": [
+            "CA-2017-143308",
+            "CA-2017-129126",
+            "CA-2017-102596"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10000624",
+        "price": "$715.87",
+        "expense": "$775.09",
+        "transactions": [
+            "CA-2017-111115",
+            "CA-2017-144015"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10000735",
+        "price": "$755.81",
+        "expense": "$878.17",
+        "transactions": [
+            "CA-2017-145982",
+            "CA-2017-143924"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10000936",
+        "price": "$925.53",
+        "expense": "$692.71",
+        "transactions": [
+            "CA-2017-159940",
+            "CA-2017-169215",
+            "US-2017-117037"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10000992",
+        "price": "$274.04",
+        "expense": "$686.77",
+        "transactions": [
+            "CA-2017-157868",
+            "US-2017-143280"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10001135",
+        "price": "$357.03",
+        "expense": "$741.35",
+        "transactions": [
+            "CA-2017-130029"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10001332",
+        "price": "$431.11",
+        "expense": "$458.98",
+        "transactions": [
+            "CA-2017-103982"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10001561",
+        "price": "$303.14",
+        "expense": "$143.30",
+        "transactions": [
+            "CA-2017-109365"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10001754",
+        "price": "$294.06",
+        "expense": "$742.51",
+        "transactions": [
+            "CA-2017-105284",
+            "US-2017-104794"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10001843",
+        "price": "$752.08",
+        "expense": "$609.67",
+        "transactions": [
+            "CA-2017-149195"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10001883",
+        "price": "$435.91",
+        "expense": "$905.03",
+        "transactions": [
+            "CA-2017-169026",
+            "CA-2017-139808"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10002280",
+        "price": "$251.85",
+        "expense": "$488.16",
+        "transactions": [
+            "CA-2017-168893",
+            "CA-2017-134789"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10002676",
+        "price": "$509.75",
+        "expense": "$567.72",
+        "transactions": [
+            "CA-2017-128531",
+            "CA-2017-116540"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10002763",
+        "price": "$974.96",
+        "expense": "$895.87",
+        "transactions": [
+            "CA-2017-160129",
+            "CA-2017-144540"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10002780",
+        "price": "$558.83",
+        "expense": "$749.70",
+        "transactions": [
+            "CA-2017-155481"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10002975",
+        "price": "$85.45",
+        "expense": "$969.64",
+        "transactions": [
+            "CA-2017-123946"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10002983",
+        "price": "$627.29",
+        "expense": "$134.37",
+        "transactions": [
+            "CA-2017-110772",
+            "CA-2017-105585",
+            "CA-2017-151323"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10002988",
+        "price": "$340.17",
+        "expense": "$573.97",
+        "transactions": [
+            "CA-2017-145583",
+            "CA-2017-137050",
+            "US-2017-132423",
+            "CA-2017-107475"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10003059",
+        "price": "$15.73",
+        "expense": "$182.62",
+        "transactions": [
+            "CA-2017-105291"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10003112",
+        "price": "$93.63",
+        "expense": "$325.85",
+        "transactions": [
+            "CA-2017-103947",
+            "CA-2017-133697"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10003467",
+        "price": "$791.80",
+        "expense": "$714.11",
+        "transactions": [
+            "CA-2017-148852"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10003472",
+        "price": "$339.81",
+        "expense": "$831.26",
+        "transactions": [
+            "CA-2017-111010"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10003495",
+        "price": "$447.57",
+        "expense": "$612.67",
+        "transactions": [
+            "US-2017-110156",
+            "CA-2017-101623"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10004076",
+        "price": "$698.66",
+        "expense": "$940.91",
+        "transactions": [
+            "CA-2017-140501",
+            "CA-2017-127243"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10004248",
+        "price": "$347.04",
+        "expense": "$919.68",
+        "transactions": [
+            "CA-2017-118052"
+        ]
+    },
+    {
+        "_id": "OFF-FA-10004968",
+        "price": "$649.31",
+        "expense": "$973.99",
+        "transactions": [
+            "US-2017-139388",
+            "CA-2017-111976"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10000081",
+        "price": "$770.86",
+        "expense": "$718.34",
+        "transactions": [
+            "CA-2017-123512",
+            "CA-2017-129280"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10000134",
+        "price": "$715.06",
+        "expense": "$685.77",
+        "transactions": [
+            "CA-2017-163216"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10000240",
+        "price": "$159.28",
+        "expense": "$537.68",
+        "transactions": [
+            "CA-2017-138688",
+            "CA-2017-144764"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10000248",
+        "price": "$211.73",
+        "expense": "$628.18",
+        "transactions": [
+            "CA-2017-140501",
+            "CA-2017-149482",
+            "US-2017-114174"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10000262",
+        "price": "$339.66",
+        "expense": "$543.39",
+        "transactions": [
+            "CA-2017-145898",
+            "CA-2017-142895",
+            "US-2017-132577"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10000305",
+        "price": "$741.44",
+        "expense": "$943.32",
+        "transactions": [
+            "CA-2017-140046"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10000407",
+        "price": "$493.85",
+        "expense": "$206.06",
+        "transactions": [
+            "CA-2017-165169",
+            "CA-2017-145261",
+            "CA-2017-101161"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10000414",
+        "price": "$680.60",
+        "expense": "$805.96",
+        "transactions": [
+            "US-2017-165078"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10000452",
+        "price": "$281.85",
+        "expense": "$807.48",
+        "transactions": [
+            "CA-2017-166163",
+            "US-2017-155971"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10000634",
+        "price": "$268.39",
+        "expense": "$561.46",
+        "transactions": [
+            "CA-2017-142902"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10000973",
+        "price": "$124.58",
+        "expense": "$421.38",
+        "transactions": [
+            "US-2017-134908",
+            "CA-2017-104311"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10001045",
+        "price": "$971.68",
+        "expense": "$30.59",
+        "transactions": [
+            "CA-2017-106894"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10001074",
+        "price": "$926.13",
+        "expense": "$962.27",
+        "transactions": [
+            "US-2017-141544",
+            "US-2017-139087"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10001158",
+        "price": "$182.11",
+        "expense": "$220.21",
+        "transactions": [
+            "CA-2017-116232"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10001297",
+        "price": "$230.24",
+        "expense": "$448.25",
+        "transactions": [
+            "CA-2017-113243",
+            "CA-2017-161473",
+            "CA-2017-113831"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10001317",
+        "price": "$875.25",
+        "expense": "$34.65",
+        "transactions": [
+            "CA-2017-115756",
+            "US-2017-150861"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10001404",
+        "price": "$233.39",
+        "expense": "$654.45",
+        "transactions": [
+            "CA-2017-141082"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10001474",
+        "price": "$979.66",
+        "expense": "$366.27",
+        "transactions": [
+            "CA-2017-141082",
+            "US-2017-126431"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10001569",
+        "price": "$930.93",
+        "expense": "$402.12",
+        "transactions": [
+            "CA-2017-123722",
+            "CA-2017-164784",
+            "US-2017-113677"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10001613",
+        "price": "$644.78",
+        "expense": "$653.36",
+        "transactions": [
+            "CA-2017-145177",
+            "US-2017-131058"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10001641",
+        "price": "$812.81",
+        "expense": "$266.03",
+        "transactions": [
+            "CA-2017-122518",
+            "CA-2017-137127"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10001934",
+        "price": "$113.81",
+        "expense": "$351.32",
+        "transactions": [
+            "CA-2017-140382"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10001982",
+        "price": "$238.16",
+        "expense": "$729.84",
+        "transactions": [
+            "CA-2017-150007"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10002034",
+        "price": "$67.72",
+        "expense": "$679.90",
+        "transactions": [
+            "CA-2017-110254"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10002195",
+        "price": "$569.01",
+        "expense": "$612.96",
+        "transactions": [
+            "US-2017-148957",
+            "CA-2017-130638"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10002271",
+        "price": "$914.33",
+        "expense": "$23.87",
+        "transactions": [
+            "CA-2017-101672"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10002312",
+        "price": "$901.36",
+        "expense": "$283.12",
+        "transactions": [
+            "CA-2017-143441"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10002368",
+        "price": "$626.91",
+        "expense": "$873.29",
+        "transactions": [
+            "CA-2017-111605"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10002473",
+        "price": "$674.53",
+        "expense": "$279.35",
+        "transactions": [
+            "CA-2017-116764"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10002475",
+        "price": "$756.31",
+        "expense": "$57.43",
+        "transactions": [
+            "CA-2017-114104",
+            "CA-2017-158435"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10002787",
+        "price": "$664.93",
+        "expense": "$923.61",
+        "transactions": [
+            "CA-2017-111409"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10002945",
+        "price": "$593.63",
+        "expense": "$745.98",
+        "transactions": [
+            "CA-2017-129308",
+            "US-2017-117793",
+            "CA-2017-132829"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10003148",
+        "price": "$987.05",
+        "expense": "$1.79",
+        "transactions": [
+            "CA-2017-136287",
+            "CA-2017-106656"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10003190",
+        "price": "$237.71",
+        "expense": "$863.67",
+        "transactions": [
+            "CA-2017-129126"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10003223",
+        "price": "$631.05",
+        "expense": "$164.18",
+        "transactions": [
+            "CA-2017-124352",
+            "CA-2017-100993"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10003498",
+        "price": "$112.76",
+        "expense": "$275.02",
+        "transactions": [
+            "CA-2017-125850"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10003510",
+        "price": "$786.80",
+        "expense": "$821.74",
+        "transactions": [
+            "CA-2017-140501",
+            "CA-2017-119963"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10003537",
+        "price": "$554.41",
+        "expense": "$781.03",
+        "transactions": [
+            "US-2017-117793"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10003663",
+        "price": "$332.70",
+        "expense": "$850.02",
+        "transactions": [
+            "CA-2017-137743"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10003720",
+        "price": "$849.80",
+        "expense": "$319.86",
+        "transactions": [
+            "CA-2017-121993",
+            "CA-2017-117660",
+            "CA-2017-128811",
+            "US-2017-154256",
+            "CA-2017-165918"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10003766",
+        "price": "$319.37",
+        "expense": "$931.06",
+        "transactions": [
+            "CA-2017-144855",
+            "CA-2017-160941"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10003923",
+        "price": "$532.16",
+        "expense": "$494.50",
+        "transactions": [
+            "CA-2017-128818",
+            "CA-2017-125843"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10003930",
+        "price": "$317.16",
+        "expense": "$856.45",
+        "transactions": [
+            "CA-2017-163328"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10004093",
+        "price": "$31.04",
+        "expense": "$103.75",
+        "transactions": [
+            "CA-2017-161669",
+            "CA-2017-142405",
+            "US-2017-147711"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10004345",
+        "price": "$66.12",
+        "expense": "$427.38",
+        "transactions": [
+            "CA-2017-161816",
+            "CA-2017-103037",
+            "CA-2017-159653"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10004425",
+        "price": "$552.40",
+        "expense": "$606.01",
+        "transactions": [
+            "CA-2017-101630"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10004484",
+        "price": "$717.04",
+        "expense": "$762.15",
+        "transactions": [
+            "CA-2017-110254",
+            "CA-2017-125850",
+            "CA-2017-151974"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10004545",
+        "price": "$123.14",
+        "expense": "$55.99",
+        "transactions": [
+            "CA-2017-114972",
+            "CA-2017-149685",
+            "US-2017-121013"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10004559",
+        "price": "$98.31",
+        "expense": "$645.48",
+        "transactions": [
+            "CA-2017-124352",
+            "CA-2017-123414",
+            "CA-2017-105732"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10004689",
+        "price": "$597.55",
+        "expense": "$811.19",
+        "transactions": [
+            "CA-2017-110772",
+            "CA-2017-153661"
+        ]
+    },
+    {
+        "_id": "OFF-LA-10004853",
+        "price": "$40.95",
+        "expense": "$503.23",
+        "transactions": [
+            "CA-2017-134362",
+            "CA-2017-145009"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000007",
+        "price": "$496.22",
+        "expense": "$556.92",
+        "transactions": [
+            "CA-2017-153346"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000019",
+        "price": "$873.15",
+        "expense": "$203.56",
+        "transactions": [
+            "CA-2017-130477",
+            "CA-2017-148201",
+            "CA-2017-113117"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000029",
+        "price": "$852.46",
+        "expense": "$372.05",
+        "transactions": [
+            "CA-2017-167584",
+            "CA-2017-155439",
+            "CA-2017-143714"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000062",
+        "price": "$857.20",
+        "expense": "$67.62",
+        "transactions": [
+            "US-2017-155103"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000100",
+        "price": "$932.03",
+        "expense": "$255.07",
+        "transactions": [
+            "CA-2017-112102",
+            "CA-2017-133935",
+            "CA-2017-165918"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000130",
+        "price": "$213.15",
+        "expense": "$574.02",
+        "transactions": [
+            "US-2017-113649"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000143",
+        "price": "$75.55",
+        "expense": "$662.01",
+        "transactions": [
+            "CA-2017-155033",
+            "US-2017-135209"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000157",
+        "price": "$7.17",
+        "expense": "$102.32",
+        "transactions": [
+            "US-2017-167472"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000167",
+        "price": "$399.43",
+        "expense": "$6.37",
+        "transactions": [
+            "CA-2017-128531",
+            "US-2017-162026",
+            "CA-2017-104983"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000176",
+        "price": "$328.06",
+        "expense": "$242.80",
+        "transactions": [
+            "US-2017-101497",
+            "CA-2017-163328"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000210",
+        "price": "$205.83",
+        "expense": "$501.90",
+        "transactions": [
+            "US-2017-155971"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000232",
+        "price": "$283.63",
+        "expense": "$337.49",
+        "transactions": [
+            "CA-2017-114895",
+            "CA-2017-120824"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000241",
+        "price": "$328.66",
+        "expense": "$174.66",
+        "transactions": [
+            "CA-2017-100083",
+            "CA-2017-165330",
+            "CA-2017-139941",
+            "CA-2017-104633"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000246",
+        "price": "$24.48",
+        "expense": "$519.13",
+        "transactions": [
+            "US-2017-119046"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000249",
+        "price": "$569.63",
+        "expense": "$198.08",
+        "transactions": [
+            "CA-2017-144337"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000289",
+        "price": "$545.31",
+        "expense": "$874.59",
+        "transactions": [
+            "CA-2017-152520"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000295",
+        "price": "$522.88",
+        "expense": "$564.57",
+        "transactions": [
+            "CA-2017-119018"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000304",
+        "price": "$835.85",
+        "expense": "$291.51",
+        "transactions": [
+            "CA-2017-109806"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000327",
+        "price": "$554.22",
+        "expense": "$43.66",
+        "transactions": [
+            "CA-2017-136231"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000349",
+        "price": "$168.27",
+        "expense": "$697.77",
+        "transactions": [
+            "CA-2017-165848"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000350",
+        "price": "$512.73",
+        "expense": "$780.36",
+        "transactions": [
+            "CA-2017-105760"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000357",
+        "price": "$342.19",
+        "expense": "$843.65",
+        "transactions": [
+            "US-2017-105578",
+            "US-2017-108504",
+            "CA-2017-118101"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000380",
+        "price": "$416.16",
+        "expense": "$521.46",
+        "transactions": [
+            "CA-2017-155187",
+            "CA-2017-140417",
+            "CA-2017-156748"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000418",
+        "price": "$920.55",
+        "expense": "$856.86",
+        "transactions": [
+            "US-2017-161396",
+            "CA-2017-100041",
+            "CA-2017-100300"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000466",
+        "price": "$555.31",
+        "expense": "$807.27",
+        "transactions": [
+            "CA-2017-167556"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000474",
+        "price": "$77.85",
+        "expense": "$205.36",
+        "transactions": [
+            "CA-2017-111794",
+            "CA-2017-158869"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000477",
+        "price": "$258.74",
+        "expense": "$662.06",
+        "transactions": [
+            "CA-2017-109365",
+            "CA-2017-114867"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000482",
+        "price": "$978.67",
+        "expense": "$623.34",
+        "transactions": [
+            "CA-2017-119823",
+            "CA-2017-132661",
+            "US-2017-169040"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000483",
+        "price": "$726.00",
+        "expense": "$538.38",
+        "transactions": [
+            "CA-2017-152765"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000501",
+        "price": "$154.92",
+        "expense": "$486.10",
+        "transactions": [
+            "CA-2017-155138"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000520",
+        "price": "$294.91",
+        "expense": "$257.67",
+        "transactions": [
+            "CA-2017-102813"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000533",
+        "price": "$514.08",
+        "expense": "$47.58",
+        "transactions": [
+            "CA-2017-145905"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000551",
+        "price": "$76.26",
+        "expense": "$747.13",
+        "transactions": [
+            "CA-2017-154018",
+            "CA-2017-136021"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000552",
+        "price": "$243.31",
+        "expense": "$775.42",
+        "transactions": [
+            "CA-2017-130029",
+            "CA-2017-119515"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000565",
+        "price": "$971.03",
+        "expense": "$285.68",
+        "transactions": [
+            "CA-2017-127642"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000575",
+        "price": "$86.58",
+        "expense": "$474.67",
+        "transactions": [
+            "US-2017-118780",
+            "CA-2017-153577",
+            "CA-2017-147123",
+            "CA-2017-136994"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000587",
+        "price": "$42.56",
+        "expense": "$488.25",
+        "transactions": [
+            "CA-2017-111682"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000595",
+        "price": "$597.19",
+        "expense": "$576.65",
+        "transactions": [
+            "CA-2017-165484"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000605",
+        "price": "$884.86",
+        "expense": "$235.93",
+        "transactions": [
+            "CA-2017-114601"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000659",
+        "price": "$250.74",
+        "expense": "$892.29",
+        "transactions": [
+            "CA-2017-159373",
+            "CA-2017-127194"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000675",
+        "price": "$200.70",
+        "expense": "$102.88",
+        "transactions": [
+            "CA-2017-145982"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000682",
+        "price": "$101.25",
+        "expense": "$735.92",
+        "transactions": [
+            "CA-2017-145177"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000697",
+        "price": "$110.47",
+        "expense": "$571.65",
+        "transactions": [
+            "CA-2017-165673",
+            "CA-2017-134110"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000726",
+        "price": "$575.08",
+        "expense": "$21.31",
+        "transactions": [
+            "CA-2017-133697"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000740",
+        "price": "$725.82",
+        "expense": "$902.57",
+        "transactions": [
+            "CA-2017-125738"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000788",
+        "price": "$876.57",
+        "expense": "$134.93",
+        "transactions": [
+            "CA-2017-152163"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000791",
+        "price": "$590.50",
+        "expense": "$902.97",
+        "transactions": [
+            "US-2017-117037",
+            "CA-2017-134334"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000806",
+        "price": "$464.08",
+        "expense": "$993.48",
+        "transactions": [
+            "CA-2017-159345"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000807",
+        "price": "$261.47",
+        "expense": "$694.52",
+        "transactions": [
+            "US-2017-128678",
+            "CA-2017-124254"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000809",
+        "price": "$983.20",
+        "expense": "$925.58",
+        "transactions": [
+            "CA-2017-168956",
+            "CA-2017-108581",
+            "CA-2017-163594"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000955",
+        "price": "$144.71",
+        "expense": "$298.57",
+        "transactions": [
+            "CA-2017-109820"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10000994",
+        "price": "$878.78",
+        "expense": "$312.33",
+        "transactions": [
+            "CA-2017-122903",
+            "CA-2017-112060",
+            "CA-2017-152730"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001001",
+        "price": "$170.22",
+        "expense": "$652.78",
+        "transactions": [
+            "CA-2017-105662"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001019",
+        "price": "$11.08",
+        "expense": "$4.53",
+        "transactions": [
+            "CA-2017-140382"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001033",
+        "price": "$605.73",
+        "expense": "$495.81",
+        "transactions": [
+            "CA-2017-166912",
+            "CA-2017-163776"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001125",
+        "price": "$128.72",
+        "expense": "$614.85",
+        "transactions": [
+            "CA-2017-128412"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001166",
+        "price": "$397.98",
+        "expense": "$112.79",
+        "transactions": [
+            "CA-2017-126529"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001204",
+        "price": "$576.29",
+        "expense": "$645.69",
+        "transactions": [
+            "CA-2017-121223"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001243",
+        "price": "$570.66",
+        "expense": "$725.03",
+        "transactions": [
+            "CA-2017-131380"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001260",
+        "price": "$725.08",
+        "expense": "$499.52",
+        "transactions": [
+            "US-2017-159093"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001289",
+        "price": "$238.34",
+        "expense": "$462.71",
+        "transactions": [
+            "US-2017-108504",
+            "CA-2017-118570",
+            "CA-2017-124051"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001293",
+        "price": "$330.16",
+        "expense": "$565.07",
+        "transactions": [
+            "CA-2017-148852"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001295",
+        "price": "$516.69",
+        "expense": "$281.54",
+        "transactions": [
+            "CA-2017-152555",
+            "CA-2017-135776",
+            "CA-2017-101161"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001357",
+        "price": "$301.58",
+        "expense": "$79.30",
+        "transactions": [
+            "US-2017-155768",
+            "CA-2017-117604"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001363",
+        "price": "$653.90",
+        "expense": "$231.85",
+        "transactions": [
+            "CA-2017-158694"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001461",
+        "price": "$476.53",
+        "expense": "$788.61",
+        "transactions": [
+            "CA-2017-157161"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001471",
+        "price": "$235.36",
+        "expense": "$298.55",
+        "transactions": [
+            "CA-2017-121671",
+            "CA-2017-100244",
+            "CA-2017-129126"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001497",
+        "price": "$503.82",
+        "expense": "$404.27",
+        "transactions": [
+            "CA-2017-101525",
+            "CA-2017-123512",
+            "CA-2017-115483"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001509",
+        "price": "$537.72",
+        "expense": "$506.08",
+        "transactions": [
+            "CA-2017-125738",
+            "CA-2017-130778"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001526",
+        "price": "$111.58",
+        "expense": "$726.47",
+        "transactions": [
+            "CA-2017-154403"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001534",
+        "price": "$781.90",
+        "expense": "$808.52",
+        "transactions": [
+            "US-2017-167472"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001560",
+        "price": "$574.78",
+        "expense": "$912.83",
+        "transactions": [
+            "CA-2017-155551"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001569",
+        "price": "$157.29",
+        "expense": "$392.64",
+        "transactions": [
+            "CA-2017-111682",
+            "CA-2017-141551"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001593",
+        "price": "$990.12",
+        "expense": "$769.72",
+        "transactions": [
+            "US-2017-128909"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001609",
+        "price": "$34.20",
+        "expense": "$807.85",
+        "transactions": [
+            "CA-2017-159940",
+            "US-2017-117541",
+            "CA-2017-123533"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001622",
+        "price": "$412.71",
+        "expense": "$366.75",
+        "transactions": [
+            "CA-2017-100041"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001667",
+        "price": "$408.85",
+        "expense": "$632.55",
+        "transactions": [
+            "CA-2017-138695",
+            "CA-2017-145898",
+            "CA-2017-143476"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001685",
+        "price": "$357.43",
+        "expense": "$855.35",
+        "transactions": [
+            "CA-2017-126004",
+            "CA-2017-133711"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001725",
+        "price": "$751.16",
+        "expense": "$817.61",
+        "transactions": [
+            "CA-2017-109365"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001736",
+        "price": "$204.74",
+        "expense": "$458.76",
+        "transactions": [
+            "CA-2017-145583",
+            "US-2017-169040",
+            "CA-2017-106460"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001745",
+        "price": "$398.39",
+        "expense": "$665.92",
+        "transactions": [
+            "CA-2017-140081"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001763",
+        "price": "$566.32",
+        "expense": "$293.36",
+        "transactions": [
+            "CA-2017-152170"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001776",
+        "price": "$28.88",
+        "expense": "$566.86",
+        "transactions": [
+            "CA-2017-145177",
+            "CA-2017-148593",
+            "CA-2017-159142",
+            "CA-2017-144309"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001790",
+        "price": "$819.60",
+        "expense": "$377.34",
+        "transactions": [
+            "CA-2017-122903",
+            "CA-2017-146157"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001801",
+        "price": "$285.25",
+        "expense": "$323.05",
+        "transactions": [
+            "CA-2017-138478",
+            "CA-2017-153269"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001804",
+        "price": "$876.57",
+        "expense": "$710.96",
+        "transactions": [
+            "CA-2017-145583"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001815",
+        "price": "$104.06",
+        "expense": "$254.75",
+        "transactions": [
+            "CA-2017-133319"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001837",
+        "price": "$54.29",
+        "expense": "$715.01",
+        "transactions": [
+            "CA-2017-143476"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001838",
+        "price": "$808.72",
+        "expense": "$169.15",
+        "transactions": [
+            "CA-2017-105732",
+            "CA-2017-161361"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001846",
+        "price": "$335.92",
+        "expense": "$44.67",
+        "transactions": [
+            "CA-2017-150483"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001870",
+        "price": "$856.21",
+        "expense": "$501.86",
+        "transactions": [
+            "CA-2017-152534",
+            "CA-2017-140081",
+            "CA-2017-149195",
+            "US-2017-106313",
+            "CA-2017-128671"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001878",
+        "price": "$82.19",
+        "expense": "$452.88",
+        "transactions": [
+            "CA-2017-101672"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001892",
+        "price": "$632.97",
+        "expense": "$210.65",
+        "transactions": [
+            "CA-2017-112340",
+            "CA-2017-121671",
+            "CA-2017-116799"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001934",
+        "price": "$779.88",
+        "expense": "$967.16",
+        "transactions": [
+            "CA-2017-121671",
+            "CA-2017-162082",
+            "CA-2017-134789",
+            "CA-2017-137337"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001950",
+        "price": "$380.98",
+        "expense": "$235.53",
+        "transactions": [
+            "CA-2017-157000",
+            "US-2017-126431"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001954",
+        "price": "$665.85",
+        "expense": "$278.10",
+        "transactions": [
+            "US-2017-150861",
+            "CA-2017-140571",
+            "CA-2017-140571"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001970",
+        "price": "$698.85",
+        "expense": "$429.63",
+        "transactions": [
+            "CA-2017-129714",
+            "CA-2017-129714",
+            "CA-2017-147375",
+            "CA-2017-152814",
+            "CA-2017-119963",
+            "CA-2017-113607"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001972",
+        "price": "$36.01",
+        "expense": "$872.14",
+        "transactions": [
+            "CA-2017-162726",
+            "CA-2017-147109"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001977",
+        "price": "$91.93",
+        "expense": "$202.99",
+        "transactions": [
+            "CA-2017-112123"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10001994",
+        "price": "$119.02",
+        "expense": "$86.11",
+        "transactions": [
+            "CA-2017-121034",
+            "CA-2017-113803"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002005",
+        "price": "$216.10",
+        "expense": "$178.06",
+        "transactions": [
+            "US-2017-156986",
+            "US-2017-116729"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002036",
+        "price": "$804.11",
+        "expense": "$344.29",
+        "transactions": [
+            "CA-2017-149195"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002105",
+        "price": "$663.84",
+        "expense": "$664.22",
+        "transactions": [
+            "CA-2017-142545"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002120",
+        "price": "$742.23",
+        "expense": "$502.73",
+        "transactions": [
+            "CA-2017-143924"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002160",
+        "price": "$934.43",
+        "expense": "$568.51",
+        "transactions": [
+            "CA-2017-164035",
+            "CA-2017-150350",
+            "CA-2017-160136"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002195",
+        "price": "$737.15",
+        "expense": "$750.44",
+        "transactions": [
+            "CA-2017-149783",
+            "US-2017-134369"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002222",
+        "price": "$663.08",
+        "expense": "$132.04",
+        "transactions": [
+            "CA-2017-115756",
+            "CA-2017-130267"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002245",
+        "price": "$537.63",
+        "expense": "$529.19",
+        "transactions": [
+            "CA-2017-158617"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002246",
+        "price": "$830.50",
+        "expense": "$335.64",
+        "transactions": [
+            "US-2017-144211",
+            "CA-2017-164896",
+            "CA-2017-153185"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002250",
+        "price": "$310.90",
+        "expense": "$365.86",
+        "transactions": [
+            "CA-2017-128923",
+            "US-2017-165953",
+            "CA-2017-105732"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002254",
+        "price": "$321.98",
+        "expense": "$837.59",
+        "transactions": [
+            "CA-2017-154067"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002262",
+        "price": "$507.55",
+        "expense": "$389.40",
+        "transactions": [
+            "US-2017-108455",
+            "US-2017-111290"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002319",
+        "price": "$800.70",
+        "expense": "$694.45",
+        "transactions": [
+            "CA-2017-100244",
+            "CA-2017-156503",
+            "CA-2017-160598"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002377",
+        "price": "$107.26",
+        "expense": "$246.59",
+        "transactions": [
+            "US-2017-115819",
+            "CA-2017-168354",
+            "CA-2017-156503"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002421",
+        "price": "$183.18",
+        "expense": "$807.79",
+        "transactions": [
+            "CA-2017-124149",
+            "US-2017-153815",
+            "CA-2017-158694",
+            "CA-2017-160486"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002464",
+        "price": "$30.37",
+        "expense": "$586.98",
+        "transactions": [
+            "US-2017-108455"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002479",
+        "price": "$314.09",
+        "expense": "$93.54",
+        "transactions": [
+            "CA-2017-131065"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002552",
+        "price": "$926.29",
+        "expense": "$781.30",
+        "transactions": [
+            "CA-2017-100307"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002581",
+        "price": "$267.56",
+        "expense": "$81.67",
+        "transactions": [
+            "CA-2017-118052"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002586",
+        "price": "$917.90",
+        "expense": "$529.81",
+        "transactions": [
+            "CA-2017-124016"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002606",
+        "price": "$463.76",
+        "expense": "$306.70",
+        "transactions": [
+            "US-2017-126452"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002615",
+        "price": "$657.85",
+        "expense": "$818.34",
+        "transactions": [
+            "US-2017-146710",
+            "CA-2017-110009",
+            "CA-2017-158302"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002666",
+        "price": "$435.38",
+        "expense": "$286.80",
+        "transactions": [
+            "CA-2017-130001",
+            "CA-2017-145982"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002689",
+        "price": "$433.88",
+        "expense": "$678.64",
+        "transactions": [
+            "CA-2017-157266"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002713",
+        "price": "$75.79",
+        "expense": "$363.99",
+        "transactions": [
+            "CA-2017-138520",
+            "CA-2017-132143",
+            "CA-2017-156748"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002751",
+        "price": "$418.45",
+        "expense": "$368.63",
+        "transactions": [
+            "CA-2017-162733",
+            "CA-2017-111696"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002764",
+        "price": "$303.28",
+        "expense": "$939.06",
+        "transactions": [
+            "CA-2017-129238"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002787",
+        "price": "$645.35",
+        "expense": "$38.00",
+        "transactions": [
+            "CA-2017-124814",
+            "US-2017-136581"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002870",
+        "price": "$976.53",
+        "expense": "$993.36",
+        "transactions": [
+            "CA-2017-144015"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002893",
+        "price": "$734.72",
+        "expense": "$928.71",
+        "transactions": [
+            "CA-2017-139269"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002923",
+        "price": "$199.46",
+        "expense": "$127.89",
+        "transactions": [
+            "CA-2017-124149",
+            "CA-2017-135265"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002947",
+        "price": "$638.75",
+        "expense": "$305.26",
+        "transactions": [
+            "CA-2017-130477"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10002986",
+        "price": "$796.50",
+        "expense": "$975.06",
+        "transactions": [
+            "CA-2017-141397",
+            "CA-2017-106530",
+            "CA-2017-123526",
+            "US-2017-142251",
+            "US-2017-135209"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003001",
+        "price": "$146.39",
+        "expense": "$480.16",
+        "transactions": [
+            "CA-2017-125738",
+            "CA-2017-169887"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003022",
+        "price": "$264.25",
+        "expense": "$847.86",
+        "transactions": [
+            "CA-2017-166282"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003036",
+        "price": "$372.04",
+        "expense": "$684.03",
+        "transactions": [
+            "CA-2017-145261"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003039",
+        "price": "$421.44",
+        "expense": "$156.06",
+        "transactions": [
+            "US-2017-134656",
+            "CA-2017-154767"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003072",
+        "price": "$707.40",
+        "expense": "$2.79",
+        "transactions": [
+            "CA-2017-145919",
+            "CA-2017-158925"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003127",
+        "price": "$661.27",
+        "expense": "$487.95",
+        "transactions": [
+            "US-2017-143819"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003129",
+        "price": "$664.37",
+        "expense": "$782.77",
+        "transactions": [
+            "CA-2017-140501"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003134",
+        "price": "$223.63",
+        "expense": "$978.84",
+        "transactions": [
+            "US-2017-163461"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003172",
+        "price": "$674.54",
+        "expense": "$320.57",
+        "transactions": [
+            "CA-2017-163384"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003177",
+        "price": "$568.94",
+        "expense": "$402.03",
+        "transactions": [
+            "CA-2017-124352"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003256",
+        "price": "$940.72",
+        "expense": "$98.43",
+        "transactions": [
+            "CA-2017-158568"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003270",
+        "price": "$331.86",
+        "expense": "$553.97",
+        "transactions": [
+            "CA-2017-130078"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003302",
+        "price": "$235.29",
+        "expense": "$236.99",
+        "transactions": [
+            "CA-2017-148684"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003349",
+        "price": "$227.69",
+        "expense": "$445.14",
+        "transactions": [
+            "CA-2017-157749"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003363",
+        "price": "$175.06",
+        "expense": "$366.58",
+        "transactions": [
+            "CA-2017-131289"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003441",
+        "price": "$111.00",
+        "expense": "$393.59",
+        "transactions": [
+            "CA-2017-113243",
+            "CA-2017-120558",
+            "CA-2017-149279",
+            "CA-2017-106397"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003465",
+        "price": "$364.50",
+        "expense": "$967.52",
+        "transactions": [
+            "CA-2017-161662"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003591",
+        "price": "$298.31",
+        "expense": "$324.41",
+        "transactions": [
+            "CA-2017-114209"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003625",
+        "price": "$466.69",
+        "expense": "$66.82",
+        "transactions": [
+            "CA-2017-105585"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003641",
+        "price": "$540.46",
+        "expense": "$650.08",
+        "transactions": [
+            "CA-2017-145247",
+            "US-2017-168095"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003651",
+        "price": "$207.29",
+        "expense": "$437.68",
+        "transactions": [
+            "CA-2017-149370"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003656",
+        "price": "$214.50",
+        "expense": "$345.63",
+        "transactions": [
+            "CA-2017-126529",
+            "CA-2017-108350"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003673",
+        "price": "$834.21",
+        "expense": "$973.48",
+        "transactions": [
+            "US-2017-153129",
+            "US-2017-157840"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003790",
+        "price": "$131.95",
+        "expense": "$600.18",
+        "transactions": [
+            "CA-2017-134803",
+            "CA-2017-152457"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003797",
+        "price": "$591.87",
+        "expense": "$10.00",
+        "transactions": [
+            "CA-2017-146423"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003845",
+        "price": "$425.31",
+        "expense": "$148.83",
+        "transactions": [
+            "CA-2017-114482"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003848",
+        "price": "$724.62",
+        "expense": "$768.76",
+        "transactions": [
+            "US-2017-126452"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003892",
+        "price": "$725.94",
+        "expense": "$515.72",
+        "transactions": [
+            "US-2017-108504",
+            "CA-2017-114944"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003893",
+        "price": "$547.61",
+        "expense": "$133.88",
+        "transactions": [
+            "CA-2017-162222",
+            "CA-2017-164770"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003936",
+        "price": "$262.15",
+        "expense": "$952.34",
+        "transactions": [
+            "CA-2017-147970",
+            "CA-2017-101525"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003953",
+        "price": "$706.08",
+        "expense": "$460.89",
+        "transactions": [
+            "CA-2017-115504",
+            "CA-2017-146318"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10003971",
+        "price": "$592.42",
+        "expense": "$352.08",
+        "transactions": [
+            "CA-2017-112676",
+            "CA-2017-161543",
+            "CA-2017-123176"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004000",
+        "price": "$280.06",
+        "expense": "$278.69",
+        "transactions": [
+            "CA-2017-103163"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004022",
+        "price": "$821.02",
+        "expense": "$950.48",
+        "transactions": [
+            "CA-2017-157714",
+            "US-2017-119270"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004039",
+        "price": "$827.37",
+        "expense": "$846.26",
+        "transactions": [
+            "CA-2017-145177",
+            "CA-2017-133368"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004040",
+        "price": "$785.40",
+        "expense": "$650.92",
+        "transactions": [
+            "CA-2017-129903",
+            "CA-2017-119186",
+            "CA-2017-122728",
+            "CA-2017-169957"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004041",
+        "price": "$757.04",
+        "expense": "$877.91",
+        "transactions": [
+            "CA-2017-162726"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004071",
+        "price": "$942.42",
+        "expense": "$926.97",
+        "transactions": [
+            "CA-2017-131835",
+            "US-2017-153815"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004092",
+        "price": "$722.78",
+        "expense": "$993.41",
+        "transactions": [
+            "CA-2017-112942"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004100",
+        "price": "$714.13",
+        "expense": "$278.03",
+        "transactions": [
+            "US-2017-114776",
+            "CA-2017-114307"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004101",
+        "price": "$173.17",
+        "expense": "$446.04",
+        "transactions": [
+            "US-2017-156986"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004156",
+        "price": "$232.29",
+        "expense": "$353.79",
+        "transactions": [
+            "CA-2017-128258"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004243",
+        "price": "$503.23",
+        "expense": "$417.78",
+        "transactions": [
+            "CA-2017-142545",
+            "CA-2017-154998"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004285",
+        "price": "$526.86",
+        "expense": "$769.28",
+        "transactions": [
+            "CA-2017-137848",
+            "CA-2017-145135"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004327",
+        "price": "$219.00",
+        "expense": "$42.85",
+        "transactions": [
+            "CA-2017-117849",
+            "CA-2017-135776",
+            "CA-2017-136126",
+            "US-2017-144057"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004353",
+        "price": "$318.86",
+        "expense": "$149.57",
+        "transactions": [
+            "CA-2017-117919",
+            "CA-2017-163328"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004355",
+        "price": "$667.43",
+        "expense": "$32.06",
+        "transactions": [
+            "CA-2017-112256"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004359",
+        "price": "$975.22",
+        "expense": "$110.61",
+        "transactions": [
+            "CA-2017-109365"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004381",
+        "price": "$881.16",
+        "expense": "$79.51",
+        "transactions": [
+            "CA-2017-151372"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004405",
+        "price": "$94.18",
+        "expense": "$891.58",
+        "transactions": [
+            "CA-2017-159016"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004438",
+        "price": "$882.26",
+        "expense": "$49.47",
+        "transactions": [
+            "US-2017-169369"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004451",
+        "price": "$471.84",
+        "expense": "$97.80",
+        "transactions": [
+            "CA-2017-106530",
+            "CA-2017-152646"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004569",
+        "price": "$297.10",
+        "expense": "$419.63",
+        "transactions": [
+            "CA-2017-145625"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004610",
+        "price": "$820.04",
+        "expense": "$724.22",
+        "transactions": [
+            "CA-2017-103709",
+            "CA-2017-101672",
+            "CA-2017-131744"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004621",
+        "price": "$158.50",
+        "expense": "$587.14",
+        "transactions": [
+            "CA-2017-119186",
+            "CA-2017-158806",
+            "CA-2017-150483"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004665",
+        "price": "$638.40",
+        "expense": "$317.05",
+        "transactions": [
+            "CA-2017-104157",
+            "CA-2017-123932",
+            "CA-2017-113551"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004675",
+        "price": "$476.43",
+        "expense": "$628.06",
+        "transactions": [
+            "CA-2017-157266",
+            "CA-2017-155481",
+            "CA-2017-165470"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004734",
+        "price": "$340.35",
+        "expense": "$248.50",
+        "transactions": [
+            "CA-2017-134775"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004735",
+        "price": "$686.24",
+        "expense": "$241.22",
+        "transactions": [
+            "US-2017-110156",
+            "CA-2017-165820"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004782",
+        "price": "$295.09",
+        "expense": "$944.72",
+        "transactions": [
+            "CA-2017-147473",
+            "CA-2017-104633"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004888",
+        "price": "$159.53",
+        "expense": "$390.41",
+        "transactions": [
+            "CA-2017-124485",
+            "CA-2017-152730"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004911",
+        "price": "$603.26",
+        "expense": "$979.51",
+        "transactions": [
+            "CA-2017-167241"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004947",
+        "price": "$56.78",
+        "expense": "$285.07",
+        "transactions": [
+            "CA-2017-155670"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004965",
+        "price": "$684.45",
+        "expense": "$45.28",
+        "transactions": [
+            "CA-2017-152471"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004971",
+        "price": "$1.06",
+        "expense": "$901.20",
+        "transactions": [
+            "US-2017-146710",
+            "CA-2017-124485",
+            "CA-2017-133144",
+            "CA-2017-164490",
+            "CA-2017-102561"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004983",
+        "price": "$961.26",
+        "expense": "$644.28",
+        "transactions": [
+            "US-2017-148901",
+            "CA-2017-132997"
+        ]
+    },
+    {
+        "_id": "OFF-PA-10004996",
+        "price": "$385.85",
+        "expense": "$873.74",
+        "transactions": [
+            "CA-2017-166485",
+            "US-2017-114013"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000036",
+        "price": "$728.60",
+        "expense": "$604.80",
+        "transactions": [
+            "CA-2017-142335",
+            "US-2017-168410"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000060",
+        "price": "$139.32",
+        "expense": "$814.27",
+        "transactions": [
+            "CA-2017-115756",
+            "CA-2017-140501",
+            "CA-2017-109722",
+            "CA-2017-124254"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000078",
+        "price": "$31.28",
+        "expense": "$253.34",
+        "transactions": [
+            "CA-2017-121671",
+            "CA-2017-105459"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000136",
+        "price": "$651.13",
+        "expense": "$841.99",
+        "transactions": [
+            "US-2017-140158"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000142",
+        "price": "$508.55",
+        "expense": "$570.31",
+        "transactions": [
+            "CA-2017-163804"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000321",
+        "price": "$320.60",
+        "expense": "$763.23",
+        "transactions": [
+            "CA-2017-104157",
+            "CA-2017-104311",
+            "CA-2017-126732"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000352",
+        "price": "$997.34",
+        "expense": "$331.11",
+        "transactions": [
+            "US-2017-118780",
+            "CA-2017-152940"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000419",
+        "price": "$243.15",
+        "expense": "$297.20",
+        "transactions": [
+            "CA-2017-112389",
+            "CA-2017-145842",
+            "CA-2017-123946",
+            "CA-2017-105732"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000532",
+        "price": "$370.17",
+        "expense": "$782.30",
+        "transactions": [
+            "CA-2017-113236"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000563",
+        "price": "$160.75",
+        "expense": "$862.72",
+        "transactions": [
+            "US-2017-103646",
+            "CA-2017-140543"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000604",
+        "price": "$437.10",
+        "expense": "$804.72",
+        "transactions": [
+            "CA-2017-111682",
+            "CA-2017-122728",
+            "US-2017-139087",
+            "CA-2017-158610"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000615",
+        "price": "$72.05",
+        "expense": "$276.38",
+        "transactions": [
+            "CA-2017-115224"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000617",
+        "price": "$840.57",
+        "expense": "$225.27",
+        "transactions": [
+            "US-2017-123750",
+            "CA-2017-119445",
+            "CA-2017-160220"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000636",
+        "price": "$979.48",
+        "expense": "$928.19",
+        "transactions": [
+            "CA-2017-123358",
+            "CA-2017-165330",
+            "CA-2017-116596"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000642",
+        "price": "$705.37",
+        "expense": "$653.27",
+        "transactions": [
+            "US-2017-110156",
+            "CA-2017-155187"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000649",
+        "price": "$91.51",
+        "expense": "$9.32",
+        "transactions": [
+            "CA-2017-162901",
+            "CA-2017-106530"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000675",
+        "price": "$958.25",
+        "expense": "$2.04",
+        "transactions": [
+            "US-2017-141544",
+            "CA-2017-153661"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000676",
+        "price": "$280.58",
+        "expense": "$209.84",
+        "transactions": [
+            "CA-2017-126004",
+            "CA-2017-135636"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000689",
+        "price": "$390.51",
+        "expense": "$618.92",
+        "transactions": [
+            "CA-2017-100790",
+            "CA-2017-114727",
+            "US-2017-131149",
+            "CA-2017-139269",
+            "CA-2017-160535"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000736",
+        "price": "$769.81",
+        "expense": "$648.94",
+        "transactions": [
+            "CA-2017-123274",
+            "US-2017-128293"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000760",
+        "price": "$717.21",
+        "expense": "$291.51",
+        "transactions": [
+            "CA-2017-124149"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000777",
+        "price": "$55.04",
+        "expense": "$278.46",
+        "transactions": [
+            "CA-2017-103730"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000876",
+        "price": "$256.28",
+        "expense": "$536.64",
+        "transactions": [
+            "CA-2017-101336",
+            "CA-2017-152730",
+            "US-2017-114230"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000885",
+        "price": "$940.64",
+        "expense": "$433.26",
+        "transactions": [
+            "CA-2017-139395"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000918",
+        "price": "$121.16",
+        "expense": "$799.51",
+        "transactions": [
+            "CA-2017-163986"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000934",
+        "price": "$742.19",
+        "expense": "$462.74",
+        "transactions": [
+            "CA-2017-108987"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10000991",
+        "price": "$839.74",
+        "expense": "$374.28",
+        "transactions": [
+            "CA-2017-109666"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001128",
+        "price": "$623.84",
+        "expense": "$614.51",
+        "transactions": [
+            "CA-2017-140130"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001228",
+        "price": "$877.26",
+        "expense": "$328.66",
+        "transactions": [
+            "CA-2017-146941",
+            "CA-2017-112669"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001272",
+        "price": "$646.51",
+        "expense": "$486.17",
+        "transactions": [
+            "CA-2017-103709",
+            "CA-2017-116337",
+            "CA-2017-108959"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001291",
+        "price": "$583.52",
+        "expense": "$331.67",
+        "transactions": [
+            "US-2017-162677"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001325",
+        "price": "$980.52",
+        "expense": "$727.20",
+        "transactions": [
+            "CA-2017-126613",
+            "CA-2017-128531",
+            "CA-2017-132549"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001328",
+        "price": "$193.24",
+        "expense": "$683.45",
+        "transactions": [
+            "CA-2017-157000",
+            "CA-2017-130162",
+            "CA-2017-155383"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001370",
+        "price": "$810.66",
+        "expense": "$530.84",
+        "transactions": [
+            "CA-2017-108875",
+            "CA-2017-156748"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001418",
+        "price": "$405.31",
+        "expense": "$835.72",
+        "transactions": [
+            "CA-2017-126004"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001469",
+        "price": "$800.37",
+        "expense": "$742.39",
+        "transactions": [
+            "CA-2017-166674",
+            "CA-2017-141397",
+            "CA-2017-124254"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001476",
+        "price": "$575.76",
+        "expense": "$818.60",
+        "transactions": [
+            "US-2017-148803",
+            "CA-2017-102561"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001490",
+        "price": "$151.24",
+        "expense": "$930.59",
+        "transactions": [
+            "CA-2017-168354",
+            "CA-2017-168774",
+            "US-2017-144057"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001496",
+        "price": "$566.48",
+        "expense": "$267.15",
+        "transactions": [
+            "CA-2017-165169",
+            "CA-2017-158694",
+            "CA-2017-101791",
+            "US-2017-139262"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001505",
+        "price": "$426.41",
+        "expense": "$141.33",
+        "transactions": [
+            "CA-2017-112109",
+            "CA-2017-137729",
+            "CA-2017-167241"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001522",
+        "price": "$136.90",
+        "expense": "$767.39",
+        "transactions": [
+            "CA-2017-123666"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001526",
+        "price": "$846.02",
+        "expense": "$946.47",
+        "transactions": [
+            "CA-2017-146171",
+            "US-2017-111528",
+            "US-2017-165505"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001558",
+        "price": "$427.12",
+        "expense": "$278.64",
+        "transactions": [
+            "CA-2017-165218",
+            "CA-2017-164735",
+            "CA-2017-115588",
+            "CA-2017-162187",
+            "CA-2017-118689",
+            "CA-2017-149762"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001580",
+        "price": "$898.22",
+        "expense": "$883.54",
+        "transactions": [
+            "CA-2017-108987",
+            "CA-2017-146836",
+            "CA-2017-117408"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001590",
+        "price": "$45.62",
+        "expense": "$660.26",
+        "transactions": [
+            "CA-2017-145240",
+            "CA-2017-118759",
+            "CA-2017-146157",
+            "CA-2017-146325"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001713",
+        "price": "$559.17",
+        "expense": "$995.44",
+        "transactions": [
+            "US-2017-152051",
+            "CA-2017-116344"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001780",
+        "price": "$105.44",
+        "expense": "$199.02",
+        "transactions": [
+            "CA-2017-137743",
+            "CA-2017-125087"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001809",
+        "price": "$309.39",
+        "expense": "$181.26",
+        "transactions": [
+            "CA-2017-139010"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001837",
+        "price": "$656.20",
+        "expense": "$29.00",
+        "transactions": [
+            "CA-2017-118101"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001932",
+        "price": "$572.72",
+        "expense": "$773.11",
+        "transactions": [
+            "US-2017-111290",
+            "CA-2017-161025",
+            "CA-2017-123358"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10001963",
+        "price": "$287.84",
+        "expense": "$591.75",
+        "transactions": [
+            "US-2017-135720"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002011",
+        "price": "$349.18",
+        "expense": "$106.77",
+        "transactions": [
+            "CA-2017-106530"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002205",
+        "price": "$106.65",
+        "expense": "$90.58",
+        "transactions": [
+            "CA-2017-105494"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002214",
+        "price": "$498.61",
+        "expense": "$723.08",
+        "transactions": [
+            "US-2017-108455",
+            "US-2017-140809"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002276",
+        "price": "$88.98",
+        "expense": "$97.60",
+        "transactions": [
+            "CA-2017-124667",
+            "CA-2017-141957"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002292",
+        "price": "$106.04",
+        "expense": "$257.48",
+        "transactions": [
+            "CA-2017-114727",
+            "US-2017-155768"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002301",
+        "price": "$153.47",
+        "expense": "$452.07",
+        "transactions": [
+            "CA-2017-127243"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002344",
+        "price": "$966.06",
+        "expense": "$529.80",
+        "transactions": [
+            "US-2017-108504",
+            "CA-2017-121671"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002370",
+        "price": "$937.32",
+        "expense": "$489.89",
+        "transactions": [
+            "CA-2017-135965"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002406",
+        "price": "$26.30",
+        "expense": "$300.92",
+        "transactions": [
+            "CA-2017-155516",
+            "CA-2017-109057",
+            "US-2017-117793"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002485",
+        "price": "$34.15",
+        "expense": "$925.82",
+        "transactions": [
+            "CA-2017-163776",
+            "CA-2017-144764",
+            "CA-2017-131380"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002486",
+        "price": "$133.79",
+        "expense": "$815.85",
+        "transactions": [
+            "CA-2017-147137"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002554",
+        "price": "$896.82",
+        "expense": "$131.66",
+        "transactions": [
+            "US-2017-105830",
+            "CA-2017-129280"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002562",
+        "price": "$597.21",
+        "expense": "$728.70",
+        "transactions": [
+            "CA-2017-164154",
+            "CA-2017-145548",
+            "CA-2017-120824"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002574",
+        "price": "$975.05",
+        "expense": "$631.91",
+        "transactions": [
+            "CA-2017-122133",
+            "US-2017-114013",
+            "CA-2017-113978"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002583",
+        "price": "$860.76",
+        "expense": "$659.32",
+        "transactions": [
+            "CA-2017-164511",
+            "CA-2017-130477",
+            "CA-2017-131205"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002615",
+        "price": "$442.49",
+        "expense": "$501.45",
+        "transactions": [
+            "CA-2017-108434",
+            "CA-2017-144218"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002743",
+        "price": "$420.41",
+        "expense": "$678.70",
+        "transactions": [
+            "US-2017-160528",
+            "CA-2017-135776",
+            "CA-2017-161746"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002756",
+        "price": "$176.97",
+        "expense": "$723.35",
+        "transactions": [
+            "CA-2017-142545",
+            "CA-2017-127138"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002790",
+        "price": "$99.11",
+        "expense": "$188.97",
+        "transactions": [
+            "CA-2017-131093"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10002957",
+        "price": "$818.10",
+        "expense": "$341.91",
+        "transactions": [
+            "CA-2017-104311"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003058",
+        "price": "$860.94",
+        "expense": "$605.81",
+        "transactions": [
+            "CA-2017-115756",
+            "CA-2017-149979"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003123",
+        "price": "$491.76",
+        "expense": "$913.89",
+        "transactions": [
+            "CA-2017-101161"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003208",
+        "price": "$218.10",
+        "expense": "$331.12",
+        "transactions": [
+            "US-2017-143819"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003306",
+        "price": "$228.68",
+        "expense": "$500.82",
+        "transactions": [
+            "CA-2017-127369"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003324",
+        "price": "$41.70",
+        "expense": "$65.29",
+        "transactions": [
+            "CA-2017-139885"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003327",
+        "price": "$691.71",
+        "expense": "$805.97",
+        "transactions": [
+            "CA-2017-113845"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003442",
+        "price": "$289.41",
+        "expense": "$530.43",
+        "transactions": [
+            "CA-2017-159695",
+            "CA-2017-109925",
+            "CA-2017-162236"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003455",
+        "price": "$301.67",
+        "expense": "$268.45",
+        "transactions": [
+            "CA-2017-101336",
+            "CA-2017-113096",
+            "CA-2017-123050"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003470",
+        "price": "$908.20",
+        "expense": "$599.61",
+        "transactions": [
+            "CA-2017-136812",
+            "CA-2017-135776"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003479",
+        "price": "$995.40",
+        "expense": "$205.78",
+        "transactions": [
+            "CA-2017-101343",
+            "US-2017-134908",
+            "US-2017-152373",
+            "CA-2017-132997"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003572",
+        "price": "$407.24",
+        "expense": "$397.11",
+        "transactions": [
+            "CA-2017-117919"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003638",
+        "price": "$835.59",
+        "expense": "$92.33",
+        "transactions": [
+            "CA-2017-140382"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003641",
+        "price": "$794.65",
+        "expense": "$460.63",
+        "transactions": [
+            "US-2017-114013"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003656",
+        "price": "$645.87",
+        "expense": "$926.58",
+        "transactions": [
+            "CA-2017-155551"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003692",
+        "price": "$634.64",
+        "expense": "$17.75",
+        "transactions": [
+            "CA-2017-125206"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003716",
+        "price": "$905.28",
+        "expense": "$149.83",
+        "transactions": [
+            "US-2017-168620",
+            "CA-2017-145905",
+            "CA-2017-150945",
+            "CA-2017-110492"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003722",
+        "price": "$676.65",
+        "expense": "$632.06",
+        "transactions": [
+            "CA-2017-112578"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003805",
+        "price": "$89.06",
+        "expense": "$498.19",
+        "transactions": [
+            "CA-2017-163167"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003816",
+        "price": "$599.85",
+        "expense": "$275.50",
+        "transactions": [
+            "CA-2017-115224",
+            "CA-2017-164574"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10003994",
+        "price": "$802.26",
+        "expense": "$239.17",
+        "transactions": [
+            "CA-2017-147431"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10004123",
+        "price": "$445.24",
+        "expense": "$226.15",
+        "transactions": [
+            "CA-2017-169943"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10004180",
+        "price": "$897.64",
+        "expense": "$883.10",
+        "transactions": [
+            "CA-2017-101189"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10004186",
+        "price": "$274.88",
+        "expense": "$276.73",
+        "transactions": [
+            "CA-2017-116561"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10004258",
+        "price": "$736.79",
+        "expense": "$822.79",
+        "transactions": [
+            "CA-2017-101336"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10004337",
+        "price": "$454.05",
+        "expense": "$410.08",
+        "transactions": [
+            "CA-2017-129686",
+            "CA-2017-168046"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10004340",
+        "price": "$306.75",
+        "expense": "$138.96",
+        "transactions": [
+            "CA-2017-141957",
+            "CA-2017-105732",
+            "CA-2017-100993"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10004459",
+        "price": "$302.44",
+        "expense": "$241.27",
+        "transactions": [
+            "CA-2017-163167"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10004507",
+        "price": "$802.04",
+        "expense": "$443.23",
+        "transactions": [
+            "CA-2017-164511",
+            "CA-2017-145898",
+            "CA-2017-129126"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10004634",
+        "price": "$804.47",
+        "expense": "$255.95",
+        "transactions": [
+            "US-2017-150861",
+            "CA-2017-137050",
+            "CA-2017-153269"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10004804",
+        "price": "$348.81",
+        "expense": "$39.71",
+        "transactions": [
+            "US-2017-108504",
+            "CA-2017-144729",
+            "US-2017-101196"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10004950",
+        "price": "$158.00",
+        "expense": "$514.07",
+        "transactions": [
+            "CA-2017-100671",
+            "CA-2017-169334"
+        ]
+    },
+    {
+        "_id": "OFF-ST-10004963",
+        "price": "$315.97",
+        "expense": "$381.18",
+        "transactions": [
+            "CA-2017-113978"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10000151",
+        "price": "$363.96",
+        "expense": "$335.70",
+        "transactions": [
+            "CA-2017-103982",
+            "CA-2017-136301"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10000157",
+        "price": "$325.40",
+        "expense": "$225.73",
+        "transactions": [
+            "US-2017-142685"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10000381",
+        "price": "$48.09",
+        "expense": "$45.96",
+        "transactions": [
+            "CA-2017-161207",
+            "CA-2017-121958",
+            "CA-2017-102932",
+            "CA-2017-158435"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10000646",
+        "price": "$382.01",
+        "expense": "$842.71",
+        "transactions": [
+            "CA-2017-112697",
+            "CA-2017-161907"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10000898",
+        "price": "$684.35",
+        "expense": "$641.01",
+        "transactions": [
+            "CA-2017-136126"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10000946",
+        "price": "$248.71",
+        "expense": "$386.03",
+        "transactions": [
+            "CA-2017-156503",
+            "CA-2017-111213"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10000952",
+        "price": "$986.37",
+        "expense": "$183.11",
+        "transactions": [
+            "CA-2017-122322",
+            "CA-2017-129868"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10001165",
+        "price": "$871.52",
+        "expense": "$128.79",
+        "transactions": [
+            "CA-2017-112256"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10001212",
+        "price": "$616.75",
+        "expense": "$750.56",
+        "transactions": [
+            "US-2017-114888"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10001218",
+        "price": "$135.74",
+        "expense": "$964.04",
+        "transactions": [
+            "CA-2017-145583",
+            "CA-2017-155565",
+            "CA-2017-140130",
+            "CA-2017-109666"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10001225",
+        "price": "$981.14",
+        "expense": "$31.53",
+        "transactions": [
+            "CA-2017-155516",
+            "CA-2017-115588"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10001574",
+        "price": "$455.71",
+        "expense": "$990.88",
+        "transactions": [
+            "US-2017-100720",
+            "CA-2017-161473",
+            "CA-2017-151561"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10001664",
+        "price": "$741.34",
+        "expense": "$608.73",
+        "transactions": [
+            "CA-2017-117660",
+            "CA-2017-101630",
+            "US-2017-131114"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10002189",
+        "price": "$759.24",
+        "expense": "$250.41",
+        "transactions": [
+            "CA-2017-150350"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10002301",
+        "price": "$94.28",
+        "expense": "$674.75",
+        "transactions": [
+            "CA-2017-163328"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10002503",
+        "price": "$727.80",
+        "expense": "$44.78",
+        "transactions": [
+            "CA-2017-161669",
+            "CA-2017-123120"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10002522",
+        "price": "$887.32",
+        "expense": "$274.71",
+        "transactions": [
+            "CA-2017-109666"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10002537",
+        "price": "$902.47",
+        "expense": "$451.83",
+        "transactions": [
+            "CA-2017-149671"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10002557",
+        "price": "$200.28",
+        "expense": "$200.22",
+        "transactions": [
+            "CA-2017-112578"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10002573",
+        "price": "$9.15",
+        "expense": "$380.70",
+        "transactions": [
+            "CA-2017-110254",
+            "CA-2017-123414"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10003002",
+        "price": "$37.48",
+        "expense": "$215.19",
+        "transactions": [
+            "CA-2017-142370"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10003505",
+        "price": "$562.66",
+        "expense": "$676.09",
+        "transactions": [
+            "CA-2017-109869",
+            "CA-2017-145919",
+            "CA-2017-162236",
+            "CA-2017-144015",
+            "US-2017-141264"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10003567",
+        "price": "$794.41",
+        "expense": "$398.64",
+        "transactions": [
+            "CA-2017-105473"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10004115",
+        "price": "$468.74",
+        "expense": "$857.32",
+        "transactions": [
+            "CA-2017-120180"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10004231",
+        "price": "$937.76",
+        "expense": "$516.13",
+        "transactions": [
+            "CA-2017-118500"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10004261",
+        "price": "$694.47",
+        "expense": "$961.52",
+        "transactions": [
+            "US-2017-146710",
+            "CA-2017-140613"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10004290",
+        "price": "$252.95",
+        "expense": "$837.30",
+        "transactions": [
+            "CA-2017-144785"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10004498",
+        "price": "$812.99",
+        "expense": "$746.80",
+        "transactions": [
+            "US-2017-146710",
+            "US-2017-150357"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10004664",
+        "price": "$554.76",
+        "expense": "$327.38",
+        "transactions": [
+            "CA-2017-114713",
+            "CA-2017-143805"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10004737",
+        "price": "$859.22",
+        "expense": "$24.52",
+        "transactions": [
+            "CA-2017-110730"
+        ]
+    },
+    {
+        "_id": "OFF-SU-10004782",
+        "price": "$660.51",
+        "expense": "$835.37",
+        "transactions": [
+            "CA-2017-161676",
+            "CA-2017-120005",
+            "CA-2017-162187",
+            "CA-2017-165561",
+            "CA-2017-105732"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000057",
+        "price": "$26.63",
+        "expense": "$699.59",
+        "transactions": [
+            "CA-2017-165330",
+            "CA-2017-157280"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000109",
+        "price": "$69.68",
+        "expense": "$250.98",
+        "transactions": [
+            "CA-2017-166380",
+            "CA-2017-142524",
+            "CA-2017-108210"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000158",
+        "price": "$593.22",
+        "expense": "$276.86",
+        "transactions": [
+            "CA-2017-108987",
+            "US-2017-156692"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000171",
+        "price": "$649.85",
+        "expense": "$542.25",
+        "transactions": [
+            "CA-2017-118255",
+            "CA-2017-148208"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000199",
+        "price": "$445.23",
+        "expense": "$895.47",
+        "transactions": [
+            "US-2017-131114"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000290",
+        "price": "$530.39",
+        "expense": "$906.95",
+        "transactions": [
+            "CA-2017-129714"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000358",
+        "price": "$370.47",
+        "expense": "$989.63",
+        "transactions": [
+            "CA-2017-157161"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000387",
+        "price": "$170.32",
+        "expense": "$482.01",
+        "transactions": [
+            "US-2017-132577"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000397",
+        "price": "$174.85",
+        "expense": "$723.17",
+        "transactions": [
+            "CA-2017-102127"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000420",
+        "price": "$503.46",
+        "expense": "$239.81",
+        "transactions": [
+            "CA-2017-108882",
+            "CA-2017-108616",
+            "US-2017-163881",
+            "CA-2017-136770"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000474",
+        "price": "$567.76",
+        "expense": "$892.79",
+        "transactions": [
+            "US-2017-114013"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000487",
+        "price": "$669.33",
+        "expense": "$865.14",
+        "transactions": [
+            "CA-2017-124681"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000521",
+        "price": "$675.85",
+        "expense": "$853.32",
+        "transactions": [
+            "CA-2017-133872"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000580",
+        "price": "$270.81",
+        "expense": "$846.39",
+        "transactions": [
+            "CA-2017-119186"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000682",
+        "price": "$724.58",
+        "expense": "$193.26",
+        "transactions": [
+            "CA-2017-114972"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000844",
+        "price": "$244.67",
+        "expense": "$662.16",
+        "transactions": [
+            "CA-2017-152072",
+            "US-2017-126452"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000865",
+        "price": "$975.09",
+        "expense": "$707.35",
+        "transactions": [
+            "US-2017-108098"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000892",
+        "price": "$584.44",
+        "expense": "$972.86",
+        "transactions": [
+            "CA-2017-118311",
+            "CA-2017-134180"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000926",
+        "price": "$571.98",
+        "expense": "$636.45",
+        "transactions": [
+            "CA-2017-108196"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10000991",
+        "price": "$986.26",
+        "expense": "$349.43",
+        "transactions": [
+            "CA-2017-169166",
+            "CA-2017-145261"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001013",
+        "price": "$774.00",
+        "expense": "$214.00",
+        "transactions": [
+            "CA-2017-107216",
+            "CA-2017-107615"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001109",
+        "price": "$517.75",
+        "expense": "$246.57",
+        "transactions": [
+            "CA-2017-108581",
+            "CA-2017-133340",
+            "CA-2017-132094",
+            "US-2017-167472",
+            "CA-2017-123050"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001142",
+        "price": "$338.92",
+        "expense": "$246.85",
+        "transactions": [
+            "CA-2017-160745",
+            "CA-2017-106558"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001266",
+        "price": "$62.78",
+        "expense": "$675.40",
+        "transactions": [
+            "CA-2017-129686"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001267",
+        "price": "$837.37",
+        "expense": "$8.31",
+        "transactions": [
+            "US-2017-135720",
+            "CA-2017-113236"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001314",
+        "price": "$702.56",
+        "expense": "$908.74",
+        "transactions": [
+            "US-2017-162677",
+            "US-2017-169369"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001432",
+        "price": "$211.82",
+        "expense": "$522.00",
+        "transactions": [
+            "CA-2017-126004",
+            "CA-2017-151561"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001445",
+        "price": "$137.31",
+        "expense": "$575.99",
+        "transactions": [
+            "CA-2017-155446"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001465",
+        "price": "$672.22",
+        "expense": "$756.78",
+        "transactions": [
+            "CA-2017-106530",
+            "US-2017-116729",
+            "CA-2017-133795"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001553",
+        "price": "$875.70",
+        "expense": "$126.26",
+        "transactions": [
+            "US-2017-157490"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001635",
+        "price": "$758.60",
+        "expense": "$828.67",
+        "transactions": [
+            "US-2017-126431"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001714",
+        "price": "$89.37",
+        "expense": "$21.72",
+        "transactions": [
+            "CA-2017-134474",
+            "CA-2017-112739"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001767",
+        "price": "$219.22",
+        "expense": "$633.96",
+        "transactions": [
+            "CA-2017-158568",
+            "CA-2017-128818"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001772",
+        "price": "$843.27",
+        "expense": "$462.91",
+        "transactions": [
+            "CA-2017-100153"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001838",
+        "price": "$629.56",
+        "expense": "$939.07",
+        "transactions": [
+            "CA-2017-166275",
+            "CA-2017-148684"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001908",
+        "price": "$110.63",
+        "expense": "$581.80",
+        "transactions": [
+            "CA-2017-162138",
+            "US-2017-124163"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10001990",
+        "price": "$512.78",
+        "expense": "$795.92",
+        "transactions": [
+            "CA-2017-130946"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002001",
+        "price": "$2.08",
+        "expense": "$705.58",
+        "transactions": [
+            "CA-2017-110772",
+            "CA-2017-138233"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002006",
+        "price": "$990.11",
+        "expense": "$198.33",
+        "transactions": [
+            "US-2017-163538"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002018",
+        "price": "$235.18",
+        "expense": "$274.59",
+        "transactions": [
+            "CA-2017-102127"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002049",
+        "price": "$87.31",
+        "expense": "$105.53",
+        "transactions": [
+            "CA-2017-116736",
+            "CA-2017-128531",
+            "CA-2017-106950"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002134",
+        "price": "$439.16",
+        "expense": "$128.44",
+        "transactions": [
+            "CA-2017-160717"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002167",
+        "price": "$818.23",
+        "expense": "$185.42",
+        "transactions": [
+            "CA-2017-169194",
+            "CA-2017-111682"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002217",
+        "price": "$909.71",
+        "expense": "$928.60",
+        "transactions": [
+            "CA-2017-134803",
+            "CA-2017-109827",
+            "US-2017-116365"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002305",
+        "price": "$284.98",
+        "expense": "$474.78",
+        "transactions": [
+            "CA-2017-145548",
+            "CA-2017-144092"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002323",
+        "price": "$223.42",
+        "expense": "$684.60",
+        "transactions": [
+            "CA-2017-124485",
+            "CA-2017-168536",
+            "CA-2017-166373"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002335",
+        "price": "$660.12",
+        "expense": "$291.32",
+        "transactions": [
+            "CA-2017-116547"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002345",
+        "price": "$176.94",
+        "expense": "$949.43",
+        "transactions": [
+            "CA-2017-101378",
+            "CA-2017-137673"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002399",
+        "price": "$401.77",
+        "expense": "$265.97",
+        "transactions": [
+            "CA-2017-146934"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002402",
+        "price": "$613.34",
+        "expense": "$216.65",
+        "transactions": [
+            "CA-2017-154018",
+            "CA-2017-127775"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002473",
+        "price": "$862.98",
+        "expense": "$823.68",
+        "transactions": [
+            "CA-2017-156503",
+            "CA-2017-129196",
+            "CA-2017-113733"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002550",
+        "price": "$903.40",
+        "expense": "$529.16",
+        "transactions": [
+            "CA-2017-145177"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002567",
+        "price": "$21.08",
+        "expense": "$592.48",
+        "transactions": [
+            "US-2017-108777",
+            "CA-2017-158358"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002637",
+        "price": "$475.70",
+        "expense": "$613.09",
+        "transactions": [
+            "CA-2017-121748",
+            "US-2017-109260",
+            "CA-2017-129280"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002800",
+        "price": "$801.81",
+        "expense": "$633.41",
+        "transactions": [
+            "CA-2017-144554",
+            "US-2017-122182",
+            "US-2017-127425"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002842",
+        "price": "$321.81",
+        "expense": "$636.70",
+        "transactions": [
+            "US-2017-160528",
+            "CA-2017-103464"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002857",
+        "price": "$229.89",
+        "expense": "$636.04",
+        "transactions": [
+            "CA-2017-103982"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002926",
+        "price": "$716.58",
+        "expense": "$765.74",
+        "transactions": [
+            "CA-2017-142370",
+            "US-2017-165505"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10002942",
+        "price": "$291.79",
+        "expense": "$223.66",
+        "transactions": [
+            "CA-2017-147109",
+            "CA-2017-143154",
+            "US-2017-116365"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003023",
+        "price": "$167.11",
+        "expense": "$869.29",
+        "transactions": [
+            "CA-2017-128531"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003027",
+        "price": "$369.63",
+        "expense": "$183.92",
+        "transactions": [
+            "CA-2017-121755"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003033",
+        "price": "$588.02",
+        "expense": "$638.67",
+        "transactions": [
+            "US-2017-163881",
+            "CA-2017-113831",
+            "CA-2017-125220"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003038",
+        "price": "$249.98",
+        "expense": "$191.90",
+        "transactions": [
+            "CA-2017-128412",
+            "US-2017-167472",
+            "CA-2017-169663",
+            "CA-2017-135594"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003063",
+        "price": "$121.56",
+        "expense": "$741.44",
+        "transactions": [
+            "CA-2017-106894",
+            "CA-2017-169957",
+            "CA-2017-121748",
+            "CA-2017-138667"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003095",
+        "price": "$207.94",
+        "expense": "$994.85",
+        "transactions": [
+            "CA-2017-142405",
+            "CA-2017-157217"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003133",
+        "price": "$987.80",
+        "expense": "$608.55",
+        "transactions": [
+            "US-2017-158708"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003174",
+        "price": "$63.24",
+        "expense": "$751.50",
+        "transactions": [
+            "CA-2017-168081",
+            "US-2017-167472"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003280",
+        "price": "$281.84",
+        "expense": "$684.98",
+        "transactions": [
+            "CA-2017-124506",
+            "CA-2017-147536"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003289",
+        "price": "$483.30",
+        "expense": "$590.27",
+        "transactions": [
+            "US-2017-151827"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003399",
+        "price": "$494.16",
+        "expense": "$258.04",
+        "transactions": [
+            "US-2017-143280",
+            "CA-2017-151561"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003433",
+        "price": "$196.49",
+        "expense": "$643.90",
+        "transactions": [
+            "US-2017-117793"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003441",
+        "price": "$840.64",
+        "expense": "$871.08",
+        "transactions": [
+            "CA-2017-163167"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003447",
+        "price": "$368.17",
+        "expense": "$134.74",
+        "transactions": [
+            "CA-2017-134348",
+            "CA-2017-124667",
+            "CA-2017-145135"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003610",
+        "price": "$881.16",
+        "expense": "$693.99",
+        "transactions": [
+            "CA-2017-148516"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003628",
+        "price": "$356.24",
+        "expense": "$464.71",
+        "transactions": [
+            "CA-2017-116736",
+            "US-2017-112396",
+            "CA-2017-105781"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003657",
+        "price": "$438.92",
+        "expense": "$244.72",
+        "transactions": [
+            "CA-2017-146157"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003832",
+        "price": "$752.30",
+        "expense": "$124.81",
+        "transactions": [
+            "CA-2017-145625",
+            "US-2017-139486",
+            "CA-2017-105963",
+            "CA-2017-111794",
+            "CA-2017-134887",
+            "CA-2017-133795",
+            "CA-2017-108224",
+            "CA-2017-129280"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003870",
+        "price": "$133.59",
+        "expense": "$298.47",
+        "transactions": [
+            "CA-2017-153598",
+            "US-2017-138408"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10003911",
+        "price": "$695.45",
+        "expense": "$984.89",
+        "transactions": [
+            "CA-2017-114601",
+            "CA-2017-168830"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004001",
+        "price": "$299.47",
+        "expense": "$103.16",
+        "transactions": [
+            "US-2017-131611"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004145",
+        "price": "$199.45",
+        "expense": "$629.43",
+        "transactions": [
+            "CA-2017-131065",
+            "CA-2017-155845"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004209",
+        "price": "$882.05",
+        "expense": "$835.68",
+        "transactions": [
+            "CA-2017-155138",
+            "CA-2017-166282"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004227",
+        "price": "$550.26",
+        "expense": "$721.72",
+        "transactions": [
+            "CA-2017-139010"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004353",
+        "price": "$1.32",
+        "expense": "$379.80",
+        "transactions": [
+            "CA-2017-109827"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004420",
+        "price": "$996.10",
+        "expense": "$439.56",
+        "transactions": [
+            "CA-2017-125094"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004469",
+        "price": "$17.44",
+        "expense": "$853.95",
+        "transactions": [
+            "US-2017-168620",
+            "CA-2017-120803"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004510",
+        "price": "$252.64",
+        "expense": "$861.43",
+        "transactions": [
+            "CA-2017-139234",
+            "CA-2017-111493"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004518",
+        "price": "$579.79",
+        "expense": "$372.11",
+        "transactions": [
+            "CA-2017-169838",
+            "US-2017-123610"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004571",
+        "price": "$507.11",
+        "expense": "$491.00",
+        "transactions": [
+            "CA-2017-152289"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004595",
+        "price": "$855.73",
+        "expense": "$407.96",
+        "transactions": [
+            "US-2017-139087"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004633",
+        "price": "$135.27",
+        "expense": "$78.62",
+        "transactions": [
+            "CA-2017-144911",
+            "CA-2017-130400"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004659",
+        "price": "$238.09",
+        "expense": "$616.18",
+        "transactions": [
+            "US-2017-123750",
+            "US-2017-123750"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004761",
+        "price": "$642.51",
+        "expense": "$48.11",
+        "transactions": [
+            "CA-2017-102981",
+            "US-2017-112396"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004803",
+        "price": "$781.52",
+        "expense": "$932.91",
+        "transactions": [
+            "CA-2017-104150",
+            "CA-2017-142615"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004855",
+        "price": "$330.45",
+        "expense": "$961.33",
+        "transactions": [
+            "US-2017-113509",
+            "CA-2017-125661"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004864",
+        "price": "$318.64",
+        "expense": "$880.90",
+        "transactions": [
+            "US-2017-131674"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004877",
+        "price": "$977.07",
+        "expense": "$363.91",
+        "transactions": [
+            "CA-2017-113733",
+            "CA-2017-123946",
+            "CA-2017-149965"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004901",
+        "price": "$58.27",
+        "expense": "$745.81",
+        "transactions": [
+            "US-2017-144547"
+        ]
+    },
+    {
+        "_id": "TEC-AC-10004975",
+        "price": "$404.41",
+        "expense": "$709.48",
+        "transactions": [
+            "US-2017-111290"
+        ]
+    },
+    {
+        "_id": "TEC-CO-10000971",
+        "price": "$982.33",
+        "expense": "$433.53",
+        "transactions": [
+            "US-2017-164630",
+            "CA-2017-139997"
+        ]
+    },
+    {
+        "_id": "TEC-CO-10001046",
+        "price": "$490.64",
+        "expense": "$171.07",
+        "transactions": [
+            "CA-2017-153682"
+        ]
+    },
+    {
+        "_id": "TEC-CO-10001449",
+        "price": "$60.62",
+        "expense": "$411.05",
+        "transactions": [
+            "CA-2017-147417",
+            "US-2017-140158"
+        ]
+    },
+    {
+        "_id": "TEC-CO-10001943",
+        "price": "$565.50",
+        "expense": "$315.93",
+        "transactions": [
+            "CA-2017-102162"
+        ]
+    },
+    {
+        "_id": "TEC-CO-10002095",
+        "price": "$290.33",
+        "expense": "$24.78",
+        "transactions": [
+            "CA-2017-110499",
+            "CA-2017-157791",
+            "CA-2017-166429"
+        ]
+    },
+    {
+        "_id": "TEC-CO-10003763",
+        "price": "$121.45",
+        "expense": "$768.91",
+        "transactions": [
+            "CA-2017-135265"
+        ]
+    },
+    {
+        "_id": "TEC-CO-10004115",
+        "price": "$625.79",
+        "expense": "$525.40",
+        "transactions": [
+            "CA-2017-121370"
+        ]
+    },
+    {
+        "_id": "TEC-CO-10004202",
+        "price": "$937.83",
+        "expense": "$974.25",
+        "transactions": [
+            "CA-2017-162390"
+        ]
+    },
+    {
+        "_id": "TEC-CO-10004722",
+        "price": "$468.93",
+        "expense": "$795.10",
+        "transactions": [
+            "CA-2017-143714",
+            "CA-2017-118689"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10000010",
+        "price": "$893.39",
+        "expense": "$123.85",
+        "transactions": [
+            "CA-2017-133711"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10000112",
+        "price": "$483.46",
+        "expense": "$630.24",
+        "transactions": [
+            "CA-2017-107202"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10000418",
+        "price": "$422.16",
+        "expense": "$125.41",
+        "transactions": [
+            "CA-2017-108196"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10000423",
+        "price": "$359.23",
+        "expense": "$997.20",
+        "transactions": [
+            "CA-2017-136021"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10000488",
+        "price": "$953.99",
+        "expense": "$230.89",
+        "transactions": [
+            "CA-2017-128818"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10000752",
+        "price": "$980.08",
+        "expense": "$832.59",
+        "transactions": [
+            "CA-2017-140018",
+            "CA-2017-149916"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10000904",
+        "price": "$109.63",
+        "expense": "$797.82",
+        "transactions": [
+            "CA-2017-164924"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10000984",
+        "price": "$413.33",
+        "expense": "$554.00",
+        "transactions": [
+            "CA-2017-169663",
+            "CA-2017-100300"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10001016",
+        "price": "$424.41",
+        "expense": "$766.82",
+        "transactions": [
+            "CA-2017-145730"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10001047",
+        "price": "$76.94",
+        "expense": "$229.32",
+        "transactions": [
+            "US-2017-107440"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10001127",
+        "price": "$523.48",
+        "expense": "$667.02",
+        "transactions": [
+            "CA-2017-158841"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10001148",
+        "price": "$827.20",
+        "expense": "$88.60",
+        "transactions": [
+            "US-2017-114013"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10001695",
+        "price": "$270.43",
+        "expense": "$191.67",
+        "transactions": [
+            "US-2017-157490"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10001972",
+        "price": "$375.59",
+        "expense": "$976.10",
+        "transactions": [
+            "CA-2017-150350",
+            "CA-2017-134803",
+            "CA-2017-127649"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10002178",
+        "price": "$474.40",
+        "expense": "$213.32",
+        "transactions": [
+            "CA-2017-147368"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10002428",
+        "price": "$101.72",
+        "expense": "$344.62",
+        "transactions": [
+            "CA-2017-148852"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10002937",
+        "price": "$550.14",
+        "expense": "$312.58",
+        "transactions": [
+            "CA-2017-147375"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10003176",
+        "price": "$764.47",
+        "expense": "$260.11",
+        "transactions": [
+            "CA-2017-158260"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10003230",
+        "price": "$972.79",
+        "expense": "$828.03",
+        "transactions": [
+            "CA-2017-144764"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10003337",
+        "price": "$614.99",
+        "expense": "$326.80",
+        "transactions": [
+            "CA-2017-159023"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10003356",
+        "price": "$922.33",
+        "expense": "$416.90",
+        "transactions": [
+            "CA-2017-165848",
+            "CA-2017-109827"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10003493",
+        "price": "$325.14",
+        "expense": "$958.72",
+        "transactions": [
+            "CA-2017-140977"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10003589",
+        "price": "$94.30",
+        "expense": "$977.42",
+        "transactions": [
+            "CA-2017-129280"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10003979",
+        "price": "$27.16",
+        "expense": "$506.43",
+        "transactions": [
+            "US-2017-143819"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10004002",
+        "price": "$984.60",
+        "expense": "$413.53",
+        "transactions": [
+            "CA-2017-165316"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10004255",
+        "price": "$169.62",
+        "expense": "$831.74",
+        "transactions": [
+            "CA-2017-160535"
+        ]
+    },
+    {
+        "_id": "TEC-MA-10004458",
+        "price": "$405.02",
+        "expense": "$506.49",
+        "transactions": [
+            "CA-2017-134208"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000004",
+        "price": "$407.47",
+        "expense": "$330.63",
+        "transactions": [
+            "CA-2017-150889"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000011",
+        "price": "$833.46",
+        "expense": "$465.77",
+        "transactions": [
+            "CA-2017-157749",
+            "CA-2017-145982"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000141",
+        "price": "$647.06",
+        "expense": "$124.67",
+        "transactions": [
+            "CA-2017-127236",
+            "CA-2017-161907"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000148",
+        "price": "$568.52",
+        "expense": "$474.08",
+        "transactions": [
+            "CA-2017-126529",
+            "US-2017-139087",
+            "US-2017-160206"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000149",
+        "price": "$316.44",
+        "expense": "$272.44",
+        "transactions": [
+            "CA-2017-103891"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000169",
+        "price": "$702.00",
+        "expense": "$45.43",
+        "transactions": [
+            "CA-2017-159989"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000193",
+        "price": "$378.12",
+        "expense": "$548.05",
+        "transactions": [
+            "CA-2017-142594"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000215",
+        "price": "$210.51",
+        "expense": "$958.33",
+        "transactions": [
+            "CA-2017-114489",
+            "CA-2017-155992",
+            "US-2017-108504"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000369",
+        "price": "$965.23",
+        "expense": "$353.24",
+        "transactions": [
+            "CA-2017-118626"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000376",
+        "price": "$545.81",
+        "expense": "$16.45",
+        "transactions": [
+            "CA-2017-145177"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000439",
+        "price": "$688.44",
+        "expense": "$104.77",
+        "transactions": [
+            "CA-2017-153353"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000441",
+        "price": "$420.90",
+        "expense": "$847.56",
+        "transactions": [
+            "CA-2017-163804",
+            "CA-2017-152730"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000455",
+        "price": "$623.38",
+        "expense": "$333.64",
+        "transactions": [
+            "CA-2017-160304"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000560",
+        "price": "$717.37",
+        "expense": "$830.25",
+        "transactions": [
+            "CA-2017-109722"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000562",
+        "price": "$791.09",
+        "expense": "$34.60",
+        "transactions": [
+            "CA-2017-140935"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000586",
+        "price": "$655.42",
+        "expense": "$516.96",
+        "transactions": [
+            "CA-2017-132997"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000673",
+        "price": "$423.90",
+        "expense": "$925.78",
+        "transactions": [
+            "CA-2017-115476",
+            "CA-2017-167682"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000895",
+        "price": "$187.00",
+        "expense": "$871.43",
+        "transactions": [
+            "CA-2017-146206",
+            "CA-2017-103982"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000923",
+        "price": "$99.79",
+        "expense": "$801.60",
+        "transactions": [
+            "CA-2017-108868"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10000984",
+        "price": "$475.46",
+        "expense": "$130.91",
+        "transactions": [
+            "CA-2017-168753",
+            "CA-2017-153318"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001061",
+        "price": "$446.44",
+        "expense": "$641.91",
+        "transactions": [
+            "CA-2017-121020"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001079",
+        "price": "$605.32",
+        "expense": "$254.59",
+        "transactions": [
+            "CA-2017-133550"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001198",
+        "price": "$432.75",
+        "expense": "$293.45",
+        "transactions": [
+            "US-2017-139710",
+            "CA-2017-103107",
+            "CA-2017-105662"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001254",
+        "price": "$754.79",
+        "expense": "$206.84",
+        "transactions": [
+            "CA-2017-158834",
+            "CA-2017-152555"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001299",
+        "price": "$185.96",
+        "expense": "$552.95",
+        "transactions": [
+            "CA-2017-110044",
+            "CA-2017-110086"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001300",
+        "price": "$659.95",
+        "expense": "$509.10",
+        "transactions": [
+            "CA-2017-100468",
+            "CA-2017-160220"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001305",
+        "price": "$277.57",
+        "expense": "$379.68",
+        "transactions": [
+            "CA-2017-101987",
+            "CA-2017-133669"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001336",
+        "price": "$744.40",
+        "expense": "$895.83",
+        "transactions": [
+            "CA-2017-146934",
+            "CA-2017-139878"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001425",
+        "price": "$910.72",
+        "expense": "$961.74",
+        "transactions": [
+            "US-2017-100720"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001433",
+        "price": "$577.14",
+        "expense": "$186.85",
+        "transactions": [
+            "CA-2017-125318",
+            "CA-2017-137729"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001448",
+        "price": "$419.30",
+        "expense": "$17.45",
+        "transactions": [
+            "CA-2017-114489",
+            "CA-2017-159142",
+            "CA-2017-100993"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001459",
+        "price": "$484.08",
+        "expense": "$324.46",
+        "transactions": [
+            "CA-2017-160717"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001494",
+        "price": "$365.87",
+        "expense": "$649.22",
+        "transactions": [
+            "US-2017-114013"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001530",
+        "price": "$994.67",
+        "expense": "$237.36",
+        "transactions": [
+            "CA-2017-105256",
+            "CA-2017-169103",
+            "CA-2017-136770",
+            "CA-2017-126732"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001552",
+        "price": "$174.59",
+        "expense": "$246.06",
+        "transactions": [
+            "CA-2017-112382",
+            "CA-2017-139934"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001557",
+        "price": "$485.29",
+        "expense": "$359.95",
+        "transactions": [
+            "CA-2017-112123",
+            "CA-2017-160220"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001580",
+        "price": "$520.66",
+        "expense": "$786.29",
+        "transactions": [
+            "CA-2017-155474",
+            "CA-2017-114482"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001644",
+        "price": "$878.04",
+        "expense": "$40.13",
+        "transactions": [
+            "US-2017-144351",
+            "CA-2017-105732"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001700",
+        "price": "$533.66",
+        "expense": "$851.02",
+        "transactions": [
+            "CA-2017-151092"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001750",
+        "price": "$64.77",
+        "expense": "$847.09",
+        "transactions": [
+            "CA-2017-140438"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001760",
+        "price": "$962.33",
+        "expense": "$20.48",
+        "transactions": [
+            "CA-2017-131835",
+            "CA-2017-160717"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001795",
+        "price": "$959.98",
+        "expense": "$269.56",
+        "transactions": [
+            "CA-2017-133816"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001817",
+        "price": "$575.71",
+        "expense": "$777.59",
+        "transactions": [
+            "CA-2017-121377",
+            "CA-2017-108056"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001835",
+        "price": "$906.65",
+        "expense": "$349.29",
+        "transactions": [
+            "CA-2017-100510"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001870",
+        "price": "$819.38",
+        "expense": "$372.85",
+        "transactions": [
+            "CA-2017-151148"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001918",
+        "price": "$771.07",
+        "expense": "$4.15",
+        "transactions": [
+            "CA-2017-156265",
+            "CA-2017-154081"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001924",
+        "price": "$254.51",
+        "expense": "$172.27",
+        "transactions": [
+            "CA-2017-162110"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10001944",
+        "price": "$401.18",
+        "expense": "$451.22",
+        "transactions": [
+            "CA-2017-164091",
+            "CA-2017-104276",
+            "CA-2017-153178"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002070",
+        "price": "$457.46",
+        "expense": "$237.79",
+        "transactions": [
+            "CA-2017-157217"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002085",
+        "price": "$544.36",
+        "expense": "$935.05",
+        "transactions": [
+            "CA-2017-159730"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002103",
+        "price": "$43.47",
+        "expense": "$237.78",
+        "transactions": [
+            "US-2017-135720",
+            "CA-2017-139395"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002114",
+        "price": "$721.87",
+        "expense": "$919.81",
+        "transactions": [
+            "US-2017-113677"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002170",
+        "price": "$27.18",
+        "expense": "$953.50",
+        "transactions": [
+            "CA-2017-114601"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002200",
+        "price": "$732.46",
+        "expense": "$302.44",
+        "transactions": [
+            "US-2017-116729"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002262",
+        "price": "$38.97",
+        "expense": "$993.37",
+        "transactions": [
+            "CA-2017-136924"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002275",
+        "price": "$822.67",
+        "expense": "$226.06",
+        "transactions": [
+            "CA-2017-111913",
+            "CA-2017-129868"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002293",
+        "price": "$785.57",
+        "expense": "$276.36",
+        "transactions": [
+            "CA-2017-155481",
+            "CA-2017-108210"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002310",
+        "price": "$290.34",
+        "expense": "$737.21",
+        "transactions": [
+            "US-2017-169040",
+            "CA-2017-129308"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002350",
+        "price": "$67.21",
+        "expense": "$45.15",
+        "transactions": [
+            "US-2017-113649",
+            "CA-2017-134110"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002365",
+        "price": "$474.35",
+        "expense": "$773.19",
+        "transactions": [
+            "CA-2017-166674",
+            "US-2017-137547",
+            "CA-2017-116526"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002398",
+        "price": "$987.19",
+        "expense": "$212.96",
+        "transactions": [
+            "US-2017-143280"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002447",
+        "price": "$995.71",
+        "expense": "$963.45",
+        "transactions": [
+            "CA-2017-105816",
+            "CA-2017-123932"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002483",
+        "price": "$373.63",
+        "expense": "$418.21",
+        "transactions": [
+            "CA-2017-152121"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002496",
+        "price": "$278.71",
+        "expense": "$70.62",
+        "transactions": [
+            "CA-2017-158099",
+            "CA-2017-113733"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002538",
+        "price": "$560.79",
+        "expense": "$483.36",
+        "transactions": [
+            "US-2017-155173"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002549",
+        "price": "$522.91",
+        "expense": "$614.44",
+        "transactions": [
+            "CA-2017-148740"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002555",
+        "price": "$247.45",
+        "expense": "$814.14",
+        "transactions": [
+            "CA-2017-128517",
+            "US-2017-150140"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002563",
+        "price": "$184.44",
+        "expense": "$950.23",
+        "transactions": [
+            "CA-2017-130162",
+            "CA-2017-100202"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002564",
+        "price": "$224.32",
+        "expense": "$918.20",
+        "transactions": [
+            "CA-2017-103107",
+            "US-2017-119298"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002583",
+        "price": "$886.75",
+        "expense": "$176.51",
+        "transactions": [
+            "US-2017-168410",
+            "CA-2017-157707"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002584",
+        "price": "$612.69",
+        "expense": "$669.18",
+        "transactions": [
+            "CA-2017-140249"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002624",
+        "price": "$911.75",
+        "expense": "$529.05",
+        "transactions": [
+            "CA-2017-109344"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002645",
+        "price": "$502.10",
+        "expense": "$420.32",
+        "transactions": [
+            "CA-2017-114867"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002660",
+        "price": "$77.31",
+        "expense": "$808.54",
+        "transactions": [
+            "CA-2017-136231"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002726",
+        "price": "$382.38",
+        "expense": "$133.22",
+        "transactions": [
+            "CA-2017-108882"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002789",
+        "price": "$203.36",
+        "expense": "$802.02",
+        "transactions": [
+            "US-2017-151827"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002824",
+        "price": "$613.77",
+        "expense": "$378.34",
+        "transactions": [
+            "CA-2017-152471"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002834",
+        "price": "$175.05",
+        "expense": "$488.38",
+        "transactions": [
+            "US-2017-169040"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002885",
+        "price": "$443.14",
+        "expense": "$430.41",
+        "transactions": [
+            "CA-2017-159016",
+            "CA-2017-155978"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002890",
+        "price": "$507.26",
+        "expense": "$411.78",
+        "transactions": [
+            "US-2017-144211",
+            "US-2017-134761",
+            "CA-2017-111976",
+            "US-2017-116365",
+            "CA-2017-150077"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10002923",
+        "price": "$236.22",
+        "expense": "$573.77",
+        "transactions": [
+            "CA-2017-134474"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003012",
+        "price": "$125.90",
+        "expense": "$147.54",
+        "transactions": [
+            "CA-2017-161816",
+            "CA-2017-140382"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003072",
+        "price": "$799.66",
+        "expense": "$97.35",
+        "transactions": [
+            "CA-2017-147256"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003092",
+        "price": "$164.10",
+        "expense": "$330.86",
+        "transactions": [
+            "CA-2017-149111"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003095",
+        "price": "$737.96",
+        "expense": "$417.68",
+        "transactions": [
+            "US-2017-127971",
+            "CA-2017-145709"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003171",
+        "price": "$461.91",
+        "expense": "$880.34",
+        "transactions": [
+            "CA-2017-167759",
+            "CA-2017-153157"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003187",
+        "price": "$89.23",
+        "expense": "$132.28",
+        "transactions": [
+            "US-2017-106677",
+            "US-2017-126452"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003215",
+        "price": "$121.06",
+        "expense": "$543.89",
+        "transactions": [
+            "CA-2017-168844"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003273",
+        "price": "$873.35",
+        "expense": "$405.24",
+        "transactions": [
+            "CA-2017-160745"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003356",
+        "price": "$863.48",
+        "expense": "$41.00",
+        "transactions": [
+            "CA-2017-166618"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003357",
+        "price": "$299.43",
+        "expense": "$409.01",
+        "transactions": [
+            "CA-2017-166226",
+            "CA-2017-113845"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003437",
+        "price": "$571.10",
+        "expense": "$903.78",
+        "transactions": [
+            "CA-2017-101966"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003442",
+        "price": "$641.27",
+        "expense": "$543.27",
+        "transactions": [
+            "CA-2017-128727",
+            "CA-2017-124352",
+            "US-2017-127425"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003484",
+        "price": "$586.46",
+        "expense": "$23.51",
+        "transactions": [
+            "CA-2017-155005",
+            "CA-2017-161928"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003505",
+        "price": "$386.89",
+        "expense": "$654.51",
+        "transactions": [
+            "CA-2017-160815",
+            "CA-2017-112277"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003535",
+        "price": "$44.79",
+        "expense": "$987.81",
+        "transactions": [
+            "US-2017-151862"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003555",
+        "price": "$740.46",
+        "expense": "$908.99",
+        "transactions": [
+            "US-2017-139486",
+            "CA-2017-134425",
+            "US-2017-126452"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003580",
+        "price": "$242.67",
+        "expense": "$744.92",
+        "transactions": [
+            "CA-2017-136770"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003589",
+        "price": "$897.73",
+        "expense": "$483.38",
+        "transactions": [
+            "US-2017-110156",
+            "CA-2017-137939"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003645",
+        "price": "$710.72",
+        "expense": "$974.32",
+        "transactions": [
+            "US-2017-141544",
+            "US-2017-108504"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003691",
+        "price": "$331.40",
+        "expense": "$214.87",
+        "transactions": [
+            "US-2017-164189",
+            "CA-2017-127761"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003800",
+        "price": "$942.37",
+        "expense": "$518.27",
+        "transactions": [
+            "US-2017-156986",
+            "CA-2017-134544"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003811",
+        "price": "$831.31",
+        "expense": "$938.17",
+        "transactions": [
+            "CA-2017-127698",
+            "CA-2017-132997"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003875",
+        "price": "$95.08",
+        "expense": "$882.79",
+        "transactions": [
+            "CA-2017-103730"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003885",
+        "price": "$997.86",
+        "expense": "$713.65",
+        "transactions": [
+            "CA-2017-148852"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003931",
+        "price": "$997.42",
+        "expense": "$641.47",
+        "transactions": [
+            "CA-2017-113621"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003963",
+        "price": "$780.16",
+        "expense": "$756.63",
+        "transactions": [
+            "US-2017-100720"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10003988",
+        "price": "$903.05",
+        "expense": "$619.04",
+        "transactions": [
+            "CA-2017-169194",
+            "CA-2017-159212",
+            "CA-2017-133340",
+            "US-2017-148901",
+            "CA-2017-139409"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004042",
+        "price": "$149.88",
+        "expense": "$134.12",
+        "transactions": [
+            "CA-2017-133550"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004071",
+        "price": "$395.80",
+        "expense": "$549.08",
+        "transactions": [
+            "CA-2017-109743"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004080",
+        "price": "$768.14",
+        "expense": "$942.95",
+        "transactions": [
+            "CA-2017-143714",
+            "US-2017-137295"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004093",
+        "price": "$877.05",
+        "expense": "$834.60",
+        "transactions": [
+            "CA-2017-109806",
+            "CA-2017-148208",
+            "CA-2017-109953"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004094",
+        "price": "$379.28",
+        "expense": "$996.72",
+        "transactions": [
+            "CA-2017-135461",
+            "CA-2017-113607"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004100",
+        "price": "$634.88",
+        "expense": "$992.70",
+        "transactions": [
+            "CA-2017-111318"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004120",
+        "price": "$939.05",
+        "expense": "$980.41",
+        "transactions": [
+            "CA-2017-132731",
+            "CA-2017-129238"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004165",
+        "price": "$398.22",
+        "expense": "$492.23",
+        "transactions": [
+            "CA-2017-133725",
+            "US-2017-126893"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004241",
+        "price": "$328.07",
+        "expense": "$451.44",
+        "transactions": [
+            "CA-2017-168032"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004345",
+        "price": "$385.63",
+        "expense": "$229.54",
+        "transactions": [
+            "CA-2017-156685",
+            "CA-2017-132829"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004434",
+        "price": "$624.33",
+        "expense": "$43.98",
+        "transactions": [
+            "CA-2017-160234"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004536",
+        "price": "$792.24",
+        "expense": "$877.60",
+        "transactions": [
+            "CA-2017-114104"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004539",
+        "price": "$557.98",
+        "expense": "$543.30",
+        "transactions": [
+            "CA-2017-107790",
+            "CA-2017-127243",
+            "CA-2017-133613",
+            "CA-2017-132829"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004586",
+        "price": "$242.06",
+        "expense": "$876.07",
+        "transactions": [
+            "US-2017-155173"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004614",
+        "price": "$73.91",
+        "expense": "$188.15",
+        "transactions": [
+            "US-2017-150147",
+            "CA-2017-146934",
+            "CA-2017-167241"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004667",
+        "price": "$781.92",
+        "expense": "$660.93",
+        "transactions": [
+            "CA-2017-121223"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004700",
+        "price": "$497.53",
+        "expense": "$743.69",
+        "transactions": [
+            "US-2017-115819"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004774",
+        "price": "$630.58",
+        "expense": "$749.86",
+        "transactions": [
+            "CA-2017-109666"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004833",
+        "price": "$393.42",
+        "expense": "$755.52",
+        "transactions": [
+            "CA-2017-130680",
+            "CA-2017-145261"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004896",
+        "price": "$778.85",
+        "expense": "$919.75",
+        "transactions": [
+            "CA-2017-166163"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004897",
+        "price": "$539.51",
+        "expense": "$739.02",
+        "transactions": [
+            "CA-2017-164938",
+            "CA-2017-116974",
+            "CA-2017-105732"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004908",
+        "price": "$279.00",
+        "expense": "$734.33",
+        "transactions": [
+            "CA-2017-165995",
+            "CA-2017-164399"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004912",
+        "price": "$352.50",
+        "expense": "$770.68",
+        "transactions": [
+            "CA-2017-132829"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004924",
+        "price": "$438.95",
+        "expense": "$913.85",
+        "transactions": [
+            "CA-2017-151141",
+            "CA-2017-139381"
+        ]
+    },
+    {
+        "_id": "TEC-PH-10004977",
+        "price": "$580.41",
+        "expense": "$702.18",
+        "transactions": [
+            "CA-2017-117590"
+        ]
+    }
 ];

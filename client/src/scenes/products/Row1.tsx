@@ -11,29 +11,13 @@ import { DataGrid, GridCellParams } from "@mui/x-data-grid";
 import React, { useMemo } from "react";
 import { Cell, Pie, PieChart } from "recharts";
 
-const Row3 = () => {
+const Row1 = () => {
   const { palette } = useTheme();
   const pieColors = [palette.primary[800], palette.primary[500]];
 
   const { data: kpiData } = useGetKpisQuery();
   const { data: productData } = useGetProductsQuery();
   const { data: transactionData } = useGetTransactionsQuery();
-
-  const pieChartData = useMemo(() => {
-    if (kpiData) {
-      const expensesByCategory = kpiData[0].expensesByCategory;
-      
-      // Compute the total sum of all category expenses
-      const totalCategoryExpenses = Object.values(expensesByCategory)
-        .reduce((sum, value) => sum + parseFloat(value), 0);
-  
-      return Object.entries(expensesByCategory).map(([key, value]) => ({
-        name: key,
-        value: (parseFloat(value) / totalCategoryExpenses) * 100, // Convert to percentage
-      }));
-    }
-    return [];
-  }, [kpiData]);
 
   const productColumns = [
     {
@@ -83,7 +67,7 @@ const Row3 = () => {
 
   return (
     <>
-      {/* <DashboardBox gridArea="g">
+      <DashboardBox gridArea="g">
         <BoxHeader
           title="List of Products"
           sideText={`${productData?.length} products`}
@@ -94,7 +78,7 @@ const Row3 = () => {
           height="75%"
           sx={{
             "& .MuiDataGrid-root": {
-              color: palette.grey[300],
+              color: palette.text.primary,
               border: "none",
             },
             "& .MuiDataGrid-cell": {
@@ -130,7 +114,7 @@ const Row3 = () => {
           height="80%"
           sx={{
             "& .MuiDataGrid-root": {
-              color: palette.grey[300],
+              color: palette.text.primary,
               border: "none",
             },
             "& .MuiDataGrid-cell": {
@@ -154,8 +138,8 @@ const Row3 = () => {
 
           />
         </Box>
-      </DashboardBox> */}
-      <DashboardBox gridArea="i">
+      </DashboardBox>
+      {/* <DashboardBox gridArea="i">
       <BoxHeader title="Expense Breakdown By Category" sideText="" />
   <FlexBetween mt="0.5rem" gap="0.5rem" p="0 1rem" textAlign="center">
     {pieChartData?.map((data, i) => (
@@ -183,7 +167,7 @@ const Row3 = () => {
       </Box>
     ))}
   </FlexBetween>
-      </DashboardBox>
+      </DashboardBox> */}
       {/* <DashboardBox gridArea="j">
         <BoxHeader
           title="Overall Summary and Explanation Data"
@@ -213,4 +197,4 @@ const Row3 = () => {
   );
 };
 
-export default Row3;
+export default Row1;

@@ -8,6 +8,8 @@ import {
   Tooltip,
   CartesianGrid,
   LineChart,
+  BarChart,
+  Bar,
   ResponsiveContainer,
   XAxis,
   YAxis,
@@ -27,10 +29,21 @@ const pieData = [
 
 const Row2 = () => {
   const { palette } = useTheme();
-  const pieColors = [palette.primary[800], palette.primary[300]];
+  const pieColors = ["#22c55e", "#ef4444"];
   const { data: operationalData } = useGetKpisQuery();
   const { data: productData } = useGetProductsQuery();
 
+  const revenue = useMemo(() => {
+      return (
+        operationalData &&
+        operationalData[0].monthlyData.map(({ month, revenue }) => {
+          return {
+            name: month.substring(0, 3),
+            revenue: revenue,
+          };
+        })
+      );
+    }, [operationalData]);
   const operationalExpenses = useMemo(() => {
     return (
       operationalData &&
@@ -59,9 +72,104 @@ const Row2 = () => {
     );
   }, [productData]);
 
+  const lossesAndProfitsData = useMemo(() => {
+    if (!operationalData) {
+      return { last3: { totalProfit: 0, totalLoss: 0 }, lossChange: 0, profitChange: 0 };
+    }
+  
+    // Get last 6 months of revenue & expenses
+    const lastSixMonths = operationalData[0].monthlyData.slice(-6);
+  
+    // Split into two sets: Last 3 months & Previous 3 months
+    const last3Months = lastSixMonths.slice(-3);
+    const prev3Months = lastSixMonths.slice(0, 3);
+  
+    // Calculate total profit & losses
+    const calcTotals = (data: { revenue: number; expenses: number }[]) => {
+      return data.reduce(
+        (totals, { revenue, expenses }) => {
+          if (revenue > expenses) {
+            totals.totalProfit += revenue - expenses;
+          } else {
+            totals.totalLoss += expenses - revenue;
+          }
+          return totals;
+        },
+        { totalProfit: 0, totalLoss: 0 }
+      );
+    };
+  
+    const last3 = calcTotals(last3Months);
+    const prev3 = calcTotals(prev3Months);
+  
+    // Calculate percentage changes
+    const lossChange = prev3.totalLoss
+      ? ((last3.totalLoss - prev3.totalLoss) / prev3.totalLoss) * 100
+      : 0;
+    const profitChange = prev3.totalProfit
+      ? ((last3.totalProfit - prev3.totalProfit) / prev3.totalProfit) * 100
+      : 0;
+  
+    return { last3, lossChange, profitChange };
+  }, [operationalData]);
+  
+  const pieData = [
+    { name: "Losses", value: lossesAndProfitsData?.last3.totalLoss },
+    { name: "Profits", value: lossesAndProfitsData?.last3.totalProfit },
+  ];
+  
   return (
     <>
-      <DashboardBox gridArea="d">
+     <DashboardBox gridArea="c">
+             <BoxHeader
+               title="Revenue Month by Month"
+               subtitle="graph representing the revenue month by month"
+               sideText=""
+             />
+             <ResponsiveContainer width="100%" height="100%">
+               <BarChart
+                 width={500}
+                 height={300}
+                 data={revenue}
+                 margin={{
+                   top: 17,
+                   right: 15,
+                   left: -5,
+                   bottom: 58,
+                 }}
+               >
+                 <defs>
+                   <linearGradient id="colorRevenue" x1="0" y1="0" x2="0" y2="1">
+                     <stop
+                       offset="5%"
+                       stopColor={palette.primary[300]}
+                       stopOpacity={0.8}
+                     />
+                     <stop
+                       offset="95%"
+                       stopColor={palette.primary[300]}
+                       stopOpacity={0}
+                     />
+                   </linearGradient>
+                 </defs>
+                 <CartesianGrid vertical={false} stroke={palette.grey[800]} />
+                 <XAxis
+                   dataKey="name"
+                   axisLine={false}
+                   tickLine={false}
+                   style={{ fontSize: "10px" }}
+                 />
+                 <YAxis
+                   axisLine={false}
+                   tickLine={false}
+                   style={{ fontSize: "10px" }}
+                 />
+                 <Tooltip />
+                 <Bar dataKey="revenue" fill="url(#colorRevenue)" />
+               </BarChart>
+             </ResponsiveContainer>
+           </DashboardBox>
+      {/* <DashboardBox gridArea="d">
         <BoxHeader
           title="Operational vs Non-Operational Expenses"
           sideText="+4%"
@@ -111,9 +219,9 @@ const Row2 = () => {
             />
           </LineChart>
         </ResponsiveContainer>
-      </DashboardBox>
+      </DashboardBox> */}
       <DashboardBox gridArea="e">
-        <BoxHeader title="Campaigns and Targets" sideText="+4%" />
+        <BoxHeader title="Losses vs Profits (Last 3 Months)" sideText="" />
         <FlexBetween mt="0.25rem" gap="1.5rem" pr="1rem">
           <PieChart
             width={110}
@@ -139,28 +247,31 @@ const Row2 = () => {
             </Pie>
           </PieChart>
           <Box ml="-0.7rem" flexBasis="40%" textAlign="center">
-            <Typography variant="h5">Target Sales</Typography>
-            <Typography m="0.3rem 0" variant="h3" color={palette.primary[300]}>
-              83
-            </Typography>
-            <Typography variant="h6">
-              Finance goals of the campaign that is desired
-            </Typography>
+          <Typography variant="h5">
+            Losses {lossesAndProfitsData?.lossChange > 0 ? "⬆" : "⬇"}
+          </Typography>
+          <Typography variant="h3" color={palette.primary[300]}>
+            {lossesAndProfitsData?.lossChange.toFixed(1)}%
+          </Typography>
+          <Typography variant="h6">
+            {lossesAndProfitsData?.lossChange > 0 ? "Losses are up" : "Losses are down"} from the previous 3 months.
+          </Typography>
           </Box>
           <Box flexBasis="40%">
-            <Typography variant="h5">Losses in Revenue</Typography>
-            <Typography variant="h6">Losses are down 25%</Typography>
-            <Typography mt="0.4rem" variant="h5">
-              Profit Margins
-            </Typography>
-            <Typography variant="h6">
-              Margins are up by 30% from last month.
-            </Typography>
+              <Typography variant="h5">
+            Profits {lossesAndProfitsData?.profitChange > 0 ? "⬆" : "⬇"}
+          </Typography>
+          <Typography variant="h3" color={palette.primary[300]}>
+            {lossesAndProfitsData?.profitChange.toFixed(1)}%
+          </Typography>
+          <Typography variant="h6">
+            {lossesAndProfitsData?.profitChange > 0 ? "Profits are up" : "Profits are down"} from the previous 3 months.
+          </Typography>
           </Box>
         </FlexBetween>
       </DashboardBox>
       <DashboardBox gridArea="f">
-        <BoxHeader title="Product Prices vs Expenses" sideText="+4%" />
+        <BoxHeader title="Product Prices vs Expenses" sideText="" />
         <ResponsiveContainer width="100%" height="100%">
           <ScatterChart
             margin={{
