@@ -54,7 +54,7 @@ const Predictions = () => {
       <FlexBetween m="1rem 2.5rem" gap="1rem">
         <Box>
           <Typography variant="h3">Revenue and Predictions</Typography>
-          <Typography variant="h6">
+          <Typography variant="h5">
             charted revenue and predicted revenue based on a simple linear
             regression model
           </Typography>
@@ -62,8 +62,8 @@ const Predictions = () => {
         <Button
           onClick={() => setIsPredictions(!isPredictions)}
           sx={{
-            color: palette.grey[900],
-            backgroundColor: palette.grey[700],
+            color: palette.grey[800],
+            backgroundColor: palette.grey[300],
             boxShadow: "0.1rem 0.1rem 0.1rem 0.1rem rgba(0,0,0,.4)",
           }}
         >
@@ -81,20 +81,22 @@ const Predictions = () => {
           }}
         >
           <CartesianGrid strokeDasharray="3 3" stroke={palette.grey[800]} />
-          <XAxis dataKey="name" tickLine={false} style={{ fontSize: "10px" }}>
-            <Label value="Month" offset={-5} position="insideBottom" />
+          <XAxis dataKey="name" tickLine={false} style={{ fontSize: "10px",fontWeight: "bold" }}>
+            <Label value="Month" offset={-5} position="insideBottom"  style={{ fontWeight: "bold", fontSize: "15px" }}  />
           </XAxis>
           <YAxis
             domain={[12000, 26000]}
             axisLine={{ strokeWidth: "0" }}
-            style={{ fontSize: "10px" }}
+            style={{ fontSize: "10px" , fontWeight: "bold" }}
             tickFormatter={(v) => `$${v}`}
           >
             <Label
               value="Revenue in USD"
               angle={-90}
-              offset={-5}
+              offset={-15}
               position="insideLeft"
+              style={{ fontWeight: "bold", fontSize: "15px" }} 
+              
             />
           </YAxis>
           <Tooltip />
@@ -102,8 +104,10 @@ const Predictions = () => {
           <Line
             type="monotone"
             dataKey="Actual Revenue"
-            stroke={palette.primary.main}
+            // stroke="#666042"
+            stroke="#E53935" 
             strokeWidth={0}
+
             dot={{ strokeWidth: 5 }}
           />
           <Line
@@ -111,12 +115,16 @@ const Predictions = () => {
             dataKey="Regression Line"
             stroke="#8884d8"
             dot={false}
+            strokeWidth={3}
           />
           {isPredictions && (
             <Line
               strokeDasharray="5 5"
               dataKey="Predicted Revenue"
-              stroke={palette.secondary[500]}
+              
+              stroke="#666042"
+              strokeWidth={2}
+              
             />
           )}
         </LineChart>

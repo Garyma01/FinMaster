@@ -1,7 +1,7 @@
 import BoxHeader from "@/components/BoxHeader";
 import DashboardBox from "@/components/DashboardBox";
 import FlexBetween from "@/components/FlexBetween";
-import { useGetKpisQuery, useGetProductsQuery } from "@/state/api";
+import { useGetKpisQuery, useGetProductsQuery, useGetStateRevenuesQuery } from "@/state/api";
 import { Box, Typography, useTheme } from "@mui/material";
 import React, { useMemo } from "react";
 import {
@@ -22,6 +22,11 @@ import {
   ZAxis,
 } from "recharts";
 
+
+interface StateRevenue {
+  state: string;
+  totalRevenue: number;
+}
 const pieData = [
   { name: "Group A", value: 600 },
   { name: "Group B", value: 400 },
@@ -32,6 +37,7 @@ const Row2 = () => {
   const pieColors = ["#22c55e", "#ef4444"];
   const { data: operationalData } = useGetKpisQuery();
   const { data: productData } = useGetProductsQuery();
+  const { data: stateData, isLoading } = useGetStateRevenuesQuery();
 
   const revenue = useMemo(() => {
       return (
@@ -118,6 +124,16 @@ const Row2 = () => {
     { name: "Profits", value: lossesAndProfitsData?.last3.totalProfit },
   ];
   
+  const topRevenueStates = useMemo(() => {
+      if (!stateData) return [];
+      return [...stateData]
+        .sort((a: StateRevenue, b: StateRevenue) => b.totalRevenue - a.totalRevenue)
+        .slice(0, 5)
+        .map(({ state, totalRevenue }) => ({
+          name: state,
+          revenue: totalRevenue,
+        }));
+    }, [stateData]);
   return (
     <>
      <DashboardBox gridArea="c">
@@ -157,14 +173,17 @@ const Row2 = () => {
                    dataKey="name"
                    axisLine={false}
                    tickLine={false}
+                   stroke={palette.grey[800]}
                    style={{ fontSize: "10px" }}
                  />
                  <YAxis
                    axisLine={false}
                    tickLine={false}
                    style={{ fontSize: "10px" }}
+                   stroke={palette.grey[800]}
+                   tickFormatter={(value) => `$${Math.round(value / 1000)}K`}
                  />
-                 <Tooltip />
+                 <Tooltip formatter={(value) => [`$${value.toLocaleString()}`]}/>
                  <Bar dataKey="revenue" fill="url(#colorRevenue)" />
                </BarChart>
              </ResponsiveContainer>
@@ -271,45 +290,32 @@ const Row2 = () => {
         </FlexBetween>
       </DashboardBox>
       <DashboardBox gridArea="f">
-        <BoxHeader title="Product Prices vs Expenses" sideText="" />
-        <ResponsiveContainer width="100%" height="100%">
-          <ScatterChart
-            margin={{
-              top: 20,
-              right: 25,
-              bottom: 40,
-              left: -10,
-            }}
-          >
-            <CartesianGrid stroke={palette.grey[800]} />
-            <XAxis
-              type="number"
-              dataKey="price"
-              name="price"
-              axisLine={false}
-              tickLine={false}
-              style={{ fontSize: "10px" }}
-              tickFormatter={(v) => `$${v}`}
-            />
-            <YAxis
-              type="number"
-              dataKey="expense"
-              name="expense"
-              axisLine={false}
-              tickLine={false}
-              style={{ fontSize: "10px" }}
-              tickFormatter={(v) => `$${v}`}
-            />
-            <ZAxis type="number" range={[20]} />
-            <Tooltip formatter={(v) => `$${v}`} />
-            <Scatter
-              name="Product Expense Ratio"
-              data={productExpenseData}
-              fill={palette.tertiary[500]}
-            />
-          </ScatterChart>
-        </ResponsiveContainer>
-      </DashboardBox>
+      <BoxHeader
+        title="Top 5 Revenue-Generating States"
+        subtitle="A horizontal bar chart showing the highest revenue states"
+        sideText=""
+      />
+      <ResponsiveContainer width="100%" height="90%">
+        <BarChart
+          layout="vertical" // Horizontal bars
+          data={topRevenueStates}
+          margin={{ top: 20, right: 20, left: 5, bottom: 20 }}
+        >
+          <defs>
+            <linearGradient id="colorRevenue" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="5%" stopColor="#1e40af" stopOpacity={0.9} /> {/* Strong blue */}
+            <stop offset="95%" stopColor="#3b82f6" stopOpacity={0.7} />
+            </linearGradient>
+          </defs>
+          <CartesianGrid horizontal={false} stroke={palette.grey[700]} />
+          <XAxis type="number"  tickLine={false} style={{ fontSize: "10px" }} tick={{ fill: palette.grey[900], fontSize: "12px" }} tickFormatter={(value) => `$${value.toLocaleString()}`}/>
+          <YAxis type="category" dataKey="name" axisLine={false} tickLine={false}  tick={{ fill: palette.grey[900], fontSize: "12px" }} // Darker and bigger font
+        width={100}  />
+          <Tooltip cursor={{ fill: "rgba(255, 255, 255, 0.1)" }} formatter={(value) => [`$${value.toLocaleString()}`, "Sales"]}/>
+          <Bar dataKey="revenue" fill="#B388EB" barSize={20} radius={[5, 5, 0, 0]}/>
+        </BarChart>
+      </ResponsiveContainer>
+    </DashboardBox>
     </>
   );
 };

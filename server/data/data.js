@@ -13048,5336 +13048,7539 @@ export const products = [
     {
         "id": "FUR-BO-10000330",
         "product_name": "Sauder Camden County Barrister Bookcase, Planked Cherry Finish",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$546.36",
         "expense": "$780.11",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-130785"
-        ]
+        ],
+        "totalSales": "$1639.08"
     },
     {
         "id": "FUR-BO-10000362",
         "product_name": "Sauder Inglewood Library Bookcases",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$467.33",
         "expense": "$639.51",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-118423"
-        ]
+        ],
+        "totalSales": "$10281.26"
     },
     {
         "id": "FUR-BO-10000468",
         "product_name": "O'Sullivan 2-Shelf Heavy-Duty Bookcases",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$682.74",
         "expense": "$926.50",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-168480"
-        ]
+        ],
+        "totalSales": "$4779.18"
     },
     {
         "id": "FUR-BO-10000780",
         "product_name": "O'Sullivan Plantations 2-Door Library in Landvery Oak",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$29.91",
         "expense": "$324.12",
+        "totalQuantity": 2,
         "transactions": [
             "US-2016-164238"
-        ]
+        ],
+        "totalSales": "$59.82"
     },
     {
         "id": "FUR-BO-10001337",
         "product_name": "O'Sullivan Living Dimensions 2-Shelf Bookcases",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$807.04",
         "expense": "$621.56",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-163965"
-        ]
+        ],
+        "totalSales": "$2421.12"
     },
     {
         "id": "FUR-BO-10001519",
         "product_name": "O'Sullivan 3-Shelf Heavy-Duty Bookcases",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$965.34",
         "expense": "$958.40",
+        "totalQuantity": 27,
         "transactions": [
             "CA-2016-100454",
             "CA-2016-137974"
-        ]
+        ],
+        "totalSales": "$26064.18"
     },
     {
         "id": "FUR-BO-10001608",
         "product_name": "Hon Metal Bookcases, Black",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$398.58",
         "expense": "$566.82",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-137925",
             "CA-2016-143364"
-        ]
+        ],
+        "totalSales": "$12355.98"
     },
     {
         "id": "FUR-BO-10001811",
         "product_name": "Atlantic Metals Mobile 5-Shelf Bookcases, Custom Colors",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$300.07",
         "expense": "$794.25",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-133585",
             "CA-2016-130183"
-        ]
+        ],
+        "totalSales": "$9302.17"
     },
     {
         "id": "FUR-BO-10001918",
         "product_name": "Sauder Forest Hills Library with Doors, Woodland Oak Finish",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$92.56",
         "expense": "$906.53",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-162950"
-        ]
+        ],
+        "totalSales": "$1943.76"
     },
     {
         "id": "FUR-BO-10002213",
         "product_name": "DMI Eclipse Executive Suite Bookcases",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$916.54",
         "expense": "$833.62",
+        "totalQuantity": 62,
         "transactions": [
             "CA-2016-164882",
             "CA-2016-148635",
             "US-2016-126977",
             "US-2016-145422"
-        ]
+        ],
+        "totalSales": "$56825.48"
     },
     {
         "id": "FUR-BO-10002268",
         "product_name": "Sauder Barrister Bookcases",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$197.88",
         "expense": "$360.35",
+        "totalQuantity": 19,
         "transactions": [
             "US-2016-165743"
-        ]
+        ],
+        "totalSales": "$3759.72"
     },
     {
         "id": "FUR-BO-10002545",
         "product_name": "Atlantic Metals Mobile 3-Shelf Bookcases, Custom Colors",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$618.75",
         "expense": "$915.83",
+        "totalQuantity": 53,
         "transactions": [
             "CA-2016-117415",
             "CA-2016-102281",
             "CA-2016-111514",
             "US-2016-122784"
-        ]
+        ],
+        "totalSales": "$32793.75"
     },
     {
         "id": "FUR-BO-10002598",
         "product_name": "Hon Metal Bookcases, Putty",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$930.71",
         "expense": "$986.39",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-115511",
             "CA-2016-156482"
-        ]
+        ],
+        "totalSales": "$24198.46"
     },
     {
         "id": "FUR-BO-10002613",
         "product_name": "Atlantic Metals Mobile 4-Shelf Bookcases, Custom Colors",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$41.70",
         "expense": "$689.05",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-102281",
             "US-2016-103471",
             "CA-2016-113152"
-        ]
+        ],
+        "totalSales": "$834.00"
     },
     {
         "id": "FUR-BO-10002824",
         "product_name": "Bush Mission Pointe Library",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$488.87",
         "expense": "$494.70",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-146087"
-        ]
+        ],
+        "totalSales": "$1466.61"
     },
     {
         "id": "FUR-BO-10002853",
         "product_name": "O'Sullivan 5-Shelf Heavy-Duty Bookcases",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$126.60",
         "expense": "$237.59",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-103870"
-        ]
+        ],
+        "totalSales": "$379.80"
     },
     {
         "id": "FUR-BO-10002916",
         "product_name": "Rush Hierlooms Collection 1\" Thick Stackable Bookcases",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$354.92",
         "expense": "$260.81",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-105627",
             "CA-2016-130974"
-        ]
+        ],
+        "totalSales": "$11002.52"
     },
     {
         "id": "FUR-BO-10003159",
         "product_name": "Sauder Camden County Collection Libraries, Planked Cherry Finish",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$962.87",
         "expense": "$512.12",
+        "totalQuantity": 27,
         "transactions": [
             "CA-2016-130785",
             "CA-2016-138534"
-        ]
+        ],
+        "totalSales": "$25997.49"
     },
     {
         "id": "FUR-BO-10003272",
         "product_name": "O'Sullivan Living Dimensions 5-Shelf Bookcases",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$512.43",
         "expense": "$349.33",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-141243"
-        ]
+        ],
+        "totalSales": "$10761.03"
     },
     {
         "id": "FUR-BO-10003433",
         "product_name": "Sauder Cornerstone Collection Library",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$515.22",
         "expense": "$738.28",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-115847"
-        ]
+        ],
+        "totalSales": "$4636.98"
     },
     {
         "id": "FUR-BO-10003450",
         "product_name": "Bush Westfield Collection Bookcases, Dark Cherry Finish",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$199.09",
         "expense": "$449.22",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-104346"
-        ]
+        ],
+        "totalSales": "$1393.63"
     },
     {
         "id": "FUR-BO-10003660",
         "product_name": "Bush Cubix Collection Bookcases, Fully Assembled",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$866.43",
         "expense": "$115.05",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-133445"
-        ]
+        ],
+        "totalSales": "$6931.44"
     },
     {
         "id": "FUR-BO-10003893",
         "product_name": "Sauder Camden County Collection Library",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$321.92",
         "expense": "$828.13",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-130456"
-        ]
+        ],
+        "totalSales": "$2253.44"
     },
     {
         "id": "FUR-BO-10003965",
         "product_name": "O'Sullivan Manor Hill 2-Door Library in Brianna Oak",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$552.09",
         "expense": "$162.59",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-105690",
             "CA-2016-135251"
-        ]
+        ],
+        "totalSales": "$6625.08"
     },
     {
         "id": "FUR-BO-10003966",
         "product_name": "Sauder Facets Collection Library, Sky Alder Finish",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$468.88",
         "expense": "$155.53",
+        "totalQuantity": 24,
         "transactions": [
             "US-2016-123218"
-        ]
+        ],
+        "totalSales": "$11253.12"
     },
     {
         "id": "FUR-BO-10004015",
         "product_name": "Bush Andora Bookcase, Maple/Graphite Gray Finish",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$447.00",
         "expense": "$141.50",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-100146"
-        ]
+        ],
+        "totalSales": "$9387.00"
     },
     {
         "id": "FUR-BO-10004218",
         "product_name": "Bush Heritage Pine Collection 5-Shelf Bookcase, Albany Pine Finish, *Special Order",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$565.83",
         "expense": "$660.19",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-167010"
-        ]
+        ],
+        "totalSales": "$2829.15"
     },
     {
         "id": "FUR-BO-10004357",
         "product_name": "O'Sullivan Living Dimensions 3-Shelf Bookcases",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$397.58",
         "expense": "$696.64",
+        "totalQuantity": 29,
         "transactions": [
             "CA-2016-147788",
             "CA-2016-168207"
-        ]
+        ],
+        "totalSales": "$11529.82"
     },
     {
         "id": "FUR-BO-10004360",
         "product_name": "Rush Hierlooms Collection Rich Wood Bookcases",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$95.50",
         "expense": "$27.53",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-153717"
-        ]
+        ],
+        "totalSales": "$286.50"
     },
     {
         "id": "FUR-BO-10004409",
         "product_name": "Safco Value Mate Series Steel Bookcases, Baked Enamel Finish on Steel, Gray",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$528.51",
         "expense": "$100.37",
+        "totalQuantity": 62,
         "transactions": [
             "US-2016-157014",
             "CA-2016-114237",
             "CA-2016-126137"
-        ]
+        ],
+        "totalSales": "$32767.62"
     },
     {
         "id": "FUR-BO-10004467",
         "product_name": "Bestar Classic Bookcase",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$279.40",
         "expense": "$743.77",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-115798"
-        ]
+        ],
+        "totalSales": "$3632.20"
     },
     {
         "id": "FUR-BO-10004690",
         "product_name": "O'Sullivan Cherrywood Estates Traditional Barrister Bookcase",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$757.97",
         "expense": "$601.31",
+        "totalQuantity": 41,
         "transactions": [
             "US-2016-122784",
             "CA-2016-103954"
-        ]
+        ],
+        "totalSales": "$31076.77"
     },
     {
         "id": "FUR-BO-10004695",
         "product_name": "O'Sullivan 2-Door Barrister Bookcase in Odessa Pine",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$156.71",
         "expense": "$947.06",
+        "totalQuantity": 49,
         "transactions": [
             "CA-2016-146262",
             "US-2016-147242",
             "CA-2016-121188"
-        ]
+        ],
+        "totalSales": "$7678.79"
     },
     {
         "id": "FUR-BO-10004709",
         "product_name": "Bush Westfield Collection Bookcases, Medium Cherry Finish",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$826.69",
         "expense": "$498.04",
+        "totalQuantity": 32,
         "transactions": [
             "CA-2016-105102",
             "US-2016-149629"
-        ]
+        ],
+        "totalSales": "$26454.08"
     },
     {
         "id": "FUR-BO-10004834",
         "product_name": "Riverside Palais Royal Lawyers Bookcase, Royale Cherry Finish",
+        "category": "Furniture",
+        "sub_category": "Bookcases",
         "price": "$742.99",
         "expense": "$188.52",
+        "totalQuantity": 38,
         "transactions": [
             "US-2016-150630",
             "US-2016-126977",
             "CA-2016-117086"
-        ]
+        ],
+        "totalSales": "$28233.62"
     },
     {
         "id": "FUR-CH-10000015",
         "product_name": "Hon Multipurpose Stacking Arm Chairs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$859.82",
         "expense": "$493.83",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-115567"
-        ]
+        ],
+        "totalSales": "$7738.38"
     },
     {
         "id": "FUR-CH-10000225",
         "product_name": "Global Geo Office Task Chair, Gray",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$375.58",
         "expense": "$75.35",
+        "totalQuantity": 25,
         "transactions": [
             "US-2016-163433"
-        ]
+        ],
+        "totalSales": "$9389.50"
     },
     {
         "id": "FUR-CH-10000309",
         "product_name": "Global Comet Stacking Arm Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$42.09",
         "expense": "$942.41",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-124450",
             "CA-2016-158421"
-        ]
+        ],
+        "totalSales": "$1094.34"
     },
     {
         "id": "FUR-CH-10000422",
         "product_name": "Global Highback Leather Tilter in Burgundy",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$392.03",
         "expense": "$634.72",
+        "totalQuantity": 58,
         "transactions": [
             "CA-2016-133445",
             "CA-2016-126739",
             "CA-2016-130848"
-        ]
+        ],
+        "totalSales": "$22737.74"
     },
     {
         "id": "FUR-CH-10000513",
         "product_name": "High-Back Leather Manager's Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$454.88",
         "expense": "$890.82",
+        "totalQuantity": 30,
         "transactions": [
             "US-2016-134026",
             "CA-2016-168746",
             "CA-2016-124499"
-        ]
+        ],
+        "totalSales": "$13646.40"
     },
     {
         "id": "FUR-CH-10000553",
         "product_name": "Metal Folding Chairs, Beige, 4/Carton",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$938.71",
         "expense": "$581.35",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-122623"
-        ]
+        ],
+        "totalSales": "$6570.97"
     },
     {
         "id": "FUR-CH-10000595",
         "product_name": "Safco Contoured Stacking Chairs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$651.93",
         "expense": "$667.55",
+        "totalQuantity": 55,
         "transactions": [
             "CA-2016-102848",
             "CA-2016-114069",
             "CA-2016-124058",
             "CA-2016-162887"
-        ]
+        ],
+        "totalSales": "$35856.15"
     },
     {
         "id": "FUR-CH-10000665",
         "product_name": "Global Airflow Leather Mesh Back Chair, Black",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$393.63",
         "expense": "$175.06",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-150791"
-        ]
+        ],
+        "totalSales": "$2755.41"
     },
     {
         "id": "FUR-CH-10000785",
         "product_name": "Global Ergonomic Managers Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$39.58",
         "expense": "$754.62",
+        "totalQuantity": 51,
         "transactions": [
             "CA-2016-168564",
             "CA-2016-117800",
             "US-2016-138093"
-        ]
+        ],
+        "totalSales": "$2018.58"
     },
     {
         "id": "FUR-CH-10000863",
         "product_name": "Novimex Swivel Fabric Task Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$508.79",
         "expense": "$797.30",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-111339",
             "CA-2016-143147"
-        ]
+        ],
+        "totalSales": "$15772.49"
     },
     {
         "id": "FUR-CH-10000988",
         "product_name": "Hon Olson Stacker Stools",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$481.22",
         "expense": "$921.73",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-153381"
-        ]
+        ],
+        "totalSales": "$9143.18"
     },
     {
         "id": "FUR-CH-10001146",
         "product_name": "Global Value Mid-Back Manager's Chair, Gray",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$390.39",
         "expense": "$350.54",
+        "totalQuantity": 44,
         "transactions": [
             "US-2016-164175",
             "CA-2016-109512"
-        ]
+        ],
+        "totalSales": "$17177.16"
     },
     {
         "id": "FUR-CH-10001215",
         "product_name": "Global Troy Executive Leather Low-Back Tilter",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$938.03",
         "expense": "$972.22",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-137113"
-        ]
+        ],
+        "totalSales": "$17822.57"
     },
     {
         "id": "FUR-CH-10001270",
         "product_name": "Harbour Creations Steel Folding Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$189.15",
         "expense": "$641.64",
+        "totalQuantity": 32,
         "transactions": [
             "CA-2016-143119",
             "CA-2016-131422",
             "CA-2016-157287"
-        ]
+        ],
+        "totalSales": "$6052.80"
     },
     {
         "id": "FUR-CH-10001482",
         "product_name": "Office Star - Mesh Screen back chair with Vinyl seat",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$843.53",
         "expense": "$424.22",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-168004",
             "CA-2016-165799"
-        ]
+        ],
+        "totalSales": "$15183.54"
     },
     {
         "id": "FUR-CH-10001545",
         "product_name": "Hon Comfortask Task/Swivel Chairs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$569.71",
         "expense": "$848.89",
+        "totalQuantity": 35,
         "transactions": [
             "CA-2016-141740",
             "CA-2016-151869"
-        ]
+        ],
+        "totalSales": "$19939.85"
     },
     {
         "id": "FUR-CH-10001708",
         "product_name": "Office Star - Contemporary Swivel Chair with Padded Adjustable Arms and Flex Back",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$91.64",
         "expense": "$237.66",
+        "totalQuantity": 36,
         "transactions": [
             "CA-2016-118955",
             "CA-2016-156482",
             "CA-2016-126725"
-        ]
+        ],
+        "totalSales": "$3299.04"
     },
     {
         "id": "FUR-CH-10001854",
         "product_name": "Office Star - Professional Matrix Back Chair with 2-to-1 Synchro Tilt and Mesh Fabric Seat",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$182.26",
         "expense": "$426.43",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-148635",
             "CA-2016-132486"
-        ]
+        ],
+        "totalSales": "$2733.90"
     },
     {
         "id": "FUR-CH-10001891",
         "product_name": "Global Deluxe Office Fabric Chairs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$232.28",
         "expense": "$822.81",
+        "totalQuantity": 36,
         "transactions": [
             "CA-2016-114300",
             "CA-2016-107678",
             "CA-2016-123141"
-        ]
+        ],
+        "totalSales": "$8362.08"
     },
     {
         "id": "FUR-CH-10001973",
         "product_name": "Office Star Flex Back Scooter Chair with White Frame",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$886.06",
         "expense": "$727.93",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-122406",
             "US-2016-126977"
-        ]
+        ],
+        "totalSales": "$20379.38"
     },
     {
         "id": "FUR-CH-10002017",
         "product_name": "SAFCO Optional Arm Kit for Workspace Cribbage Stacking Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$610.55",
         "expense": "$82.64",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-137302"
-        ]
+        ],
+        "totalSales": "$6716.05"
     },
     {
         "id": "FUR-CH-10002024",
         "product_name": "HON 5400 Series Task Chairs for Big and Tall",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$96.88",
         "expense": "$871.15",
+        "totalQuantity": 49,
         "transactions": [
             "CA-2016-139731",
             "CA-2016-164777"
-        ]
+        ],
+        "totalSales": "$4747.12"
     },
     {
         "id": "FUR-CH-10002044",
         "product_name": "Office Star - Contemporary Task Swivel chair with 2-way adjustable arms, Plum",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$955.39",
         "expense": "$628.32",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-119550"
-        ]
+        ],
+        "totalSales": "$9553.90"
     },
     {
         "id": "FUR-CH-10002073",
         "product_name": "Hon Olson Stacker Chairs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$714.29",
         "expense": "$144.51",
+        "totalQuantity": 27,
         "transactions": [
             "CA-2016-110863",
             "CA-2016-160227"
-        ]
+        ],
+        "totalSales": "$19285.83"
     },
     {
         "id": "FUR-CH-10002084",
         "product_name": "Hon Mobius Operator's Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$242.98",
         "expense": "$921.64",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-105627"
-        ]
+        ],
+        "totalSales": "$1214.90"
     },
     {
         "id": "FUR-CH-10002304",
         "product_name": "Global Stack Chair without Arms, Black",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$991.67",
         "expense": "$600.33",
+        "totalQuantity": 5,
         "transactions": [
             "US-2016-164966"
-        ]
+        ],
+        "totalSales": "$4958.35"
     },
     {
         "id": "FUR-CH-10002320",
         "product_name": "Hon Pagoda Stacking Chairs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$117.34",
         "expense": "$302.87",
+        "totalQuantity": 1,
         "transactions": [
             "CA-2016-120677"
-        ]
+        ],
+        "totalSales": "$117.34"
     },
     {
         "id": "FUR-CH-10002335",
         "product_name": "Hon GuestStacker Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$521.27",
         "expense": "$671.94",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-144267"
-        ]
+        ],
+        "totalSales": "$11989.21"
     },
     {
         "id": "FUR-CH-10002372",
         "product_name": "Office Star - Ergonomically Designed Knee Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$989.95",
         "expense": "$175.96",
+        "totalQuantity": 50,
         "transactions": [
             "CA-2016-161718",
             "US-2016-146745"
-        ]
+        ],
+        "totalSales": "$49497.50"
     },
     {
         "id": "FUR-CH-10002439",
         "product_name": "Iceberg Nesting Folding Chair, 19w x 6d x 43h",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$436.03",
         "expense": "$815.99",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-109862"
-        ]
+        ],
+        "totalSales": "$1744.12"
     },
     {
         "id": "FUR-CH-10002647",
         "product_name": "Situations Contoured Folding Chairs, 4/Set",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$324.74",
         "expense": "$824.19",
+        "totalQuantity": 46,
         "transactions": [
             "CA-2016-134894",
             "CA-2016-101910",
             "CA-2016-125185",
             "US-2016-160857"
-        ]
+        ],
+        "totalSales": "$14938.04"
     },
     {
         "id": "FUR-CH-10002774",
         "product_name": "Global Deluxe Stacking Chair, Gray",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$434.97",
         "expense": "$741.46",
+        "totalQuantity": 15,
         "transactions": [
             "US-2016-139759",
             "CA-2016-146038"
-        ]
+        ],
+        "totalSales": "$6524.55"
     },
     {
         "id": "FUR-CH-10002880",
         "product_name": "Global High-Back Leather Tilter, Burgundy",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$398.21",
         "expense": "$731.58",
+        "totalQuantity": 45,
         "transactions": [
             "CA-2016-110016",
             "US-2016-165512",
             "CA-2016-110891"
-        ]
+        ],
+        "totalSales": "$17919.45"
     },
     {
         "id": "FUR-CH-10002965",
         "product_name": "Global Leather Highback Executive Chair with Pneumatic Height Adjustment, Black",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$396.15",
         "expense": "$942.06",
+        "totalQuantity": 52,
         "transactions": [
             "CA-2016-161718",
             "CA-2016-112130",
             "CA-2016-156734"
-        ]
+        ],
+        "totalSales": "$20599.80"
     },
     {
         "id": "FUR-CH-10003061",
         "product_name": "Global Leather Task Chair, Black",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$587.15",
         "expense": "$136.89",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-115742"
-        ]
+        ],
+        "totalSales": "$12917.30"
     },
     {
         "id": "FUR-CH-10003199",
         "product_name": "Office Star - Contemporary Task Swivel Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$182.73",
         "expense": "$204.41",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-115938",
             "CA-2016-127754"
-        ]
+        ],
+        "totalSales": "$3837.33"
     },
     {
         "id": "FUR-CH-10003298",
         "product_name": "Office Star - Contemporary Task Swivel chair with Loop Arms, Charcoal",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$788.95",
         "expense": "$913.67",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-113628",
             "CA-2016-104871"
-        ]
+        ],
+        "totalSales": "$18145.85"
     },
     {
         "id": "FUR-CH-10003312",
         "product_name": "Hon 2090 \u201cPillow Soft\u201d Series Mid Back Swivel/Tilt Chairs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$101.31",
         "expense": "$686.44",
+        "totalQuantity": 30,
         "transactions": [
             "CA-2016-113404",
             "CA-2016-121720"
-        ]
+        ],
+        "totalSales": "$3039.30"
     },
     {
         "id": "FUR-CH-10003379",
         "product_name": "Global Commerce Series High-Back Swivel/Tilt Chairs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$846.71",
         "expense": "$295.38",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-154823"
-        ]
+        ],
+        "totalSales": "$9313.81"
     },
     {
         "id": "FUR-CH-10003396",
         "product_name": "Global Deluxe Steno Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$232.45",
         "expense": "$935.11",
+        "totalQuantity": 34,
         "transactions": [
             "US-2016-125374",
             "CA-2016-154970",
             "CA-2016-102316"
-        ]
+        ],
+        "totalSales": "$7903.30"
     },
     {
         "id": "FUR-CH-10003535",
         "product_name": "Global Armless Task Chair, Royal Blue",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$207.67",
         "expense": "$872.57",
+        "totalQuantity": 39,
         "transactions": [
             "CA-2016-130659",
             "CA-2016-100657",
             "CA-2016-130365",
             "CA-2016-110814"
-        ]
+        ],
+        "totalSales": "$8099.13"
     },
     {
         "id": "FUR-CH-10003746",
         "product_name": "Hon 4070 Series Pagoda Round Back Stacking Chairs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$692.29",
         "expense": "$147.06",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-114811"
-        ]
+        ],
+        "totalSales": "$2769.16"
     },
     {
         "id": "FUR-CH-10003774",
         "product_name": "Global Wood Trimmed Manager's Task Chair, Khaki",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$50.23",
         "expense": "$510.40",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-157322"
-        ]
+        ],
+        "totalSales": "$1255.75"
     },
     {
         "id": "FUR-CH-10003817",
         "product_name": "Global Value Steno Chair, Gray",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$779.21",
         "expense": "$709.61",
+        "totalQuantity": 49,
         "transactions": [
             "CA-2016-104626",
             "US-2016-138121",
             "CA-2016-136728"
-        ]
+        ],
+        "totalSales": "$38181.29"
     },
     {
         "id": "FUR-CH-10003833",
         "product_name": "Novimex Fabric Task Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$737.07",
         "expense": "$879.68",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-142237",
             "CA-2016-100146"
-        ]
+        ],
+        "totalSales": "$8107.77"
     },
     {
         "id": "FUR-CH-10003846",
         "product_name": "Hon Valutask Swivel Chairs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$788.83",
         "expense": "$170.77",
+        "totalQuantity": 21,
         "transactions": [
             "US-2016-138121"
-        ]
+        ],
+        "totalSales": "$16565.43"
     },
     {
         "id": "FUR-CH-10003956",
         "product_name": "Novimex High-Tech Fabric Mesh Task Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$952.09",
         "expense": "$264.44",
+        "totalQuantity": 35,
         "transactions": [
             "CA-2016-128139",
             "CA-2016-149650"
-        ]
+        ],
+        "totalSales": "$33323.15"
     },
     {
         "id": "FUR-CH-10003968",
         "product_name": "Novimex Turbo Task Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$990.84",
         "expense": "$493.71",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-161627",
             "CA-2016-142734"
-        ]
+        ],
+        "totalSales": "$8917.56"
     },
     {
         "id": "FUR-CH-10003973",
         "product_name": "GuestStacker Chair with Chrome Finish Legs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$41.92",
         "expense": "$750.27",
+        "totalQuantity": 35,
         "transactions": [
             "CA-2016-161452",
             "CA-2016-111038"
-        ]
+        ],
+        "totalSales": "$1467.20"
     },
     {
         "id": "FUR-CH-10003981",
         "product_name": "Global Commerce Series Low-Back Swivel/Tilt Chairs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$68.50",
         "expense": "$515.18",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-139374"
-        ]
+        ],
+        "totalSales": "$1712.50"
     },
     {
         "id": "FUR-CH-10004063",
         "product_name": "Global Deluxe High-Back Manager's Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$163.32",
         "expense": "$740.04",
+        "totalQuantity": 5,
         "transactions": [
             "US-2016-139675"
-        ]
+        ],
+        "totalSales": "$816.60"
     },
     {
         "id": "FUR-CH-10004086",
         "product_name": "Hon 4070 Series Pagoda Armless Upholstered Stacking Chairs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$995.55",
         "expense": "$925.72",
+        "totalQuantity": 49,
         "transactions": [
             "CA-2016-153549",
             "CA-2016-113404",
             "US-2016-114839",
             "CA-2016-157322"
-        ]
+        ],
+        "totalSales": "$48781.95"
     },
     {
         "id": "FUR-CH-10004218",
         "product_name": "Global Fabric Manager's Chair, Dark Gray",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$399.45",
         "expense": "$990.31",
+        "totalQuantity": 53,
         "transactions": [
             "CA-2016-117415",
             "CA-2016-164882",
             "CA-2016-127327"
-        ]
+        ],
+        "totalSales": "$21170.85"
     },
     {
         "id": "FUR-CH-10004287",
         "product_name": "SAFCO Arco Folding Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$105.09",
         "expense": "$413.67",
+        "totalQuantity": 42,
         "transactions": [
             "CA-2016-135538",
             "CA-2016-123141",
             "CA-2016-143364"
-        ]
+        ],
+        "totalSales": "$4413.78"
     },
     {
         "id": "FUR-CH-10004289",
         "product_name": "Global Super Steno Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$886.43",
         "expense": "$332.68",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-121650",
             "CA-2016-149083"
-        ]
+        ],
+        "totalSales": "$13296.45"
     },
     {
         "id": "FUR-CH-10004477",
         "product_name": "Global Push Button Manager's Chair, Indigo",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$817.90",
         "expense": "$926.87",
+        "totalQuantity": 53,
         "transactions": [
             "US-2016-145436",
             "CA-2016-113628",
             "CA-2016-126557",
             "US-2016-131842"
-        ]
+        ],
+        "totalSales": "$43348.70"
     },
     {
         "id": "FUR-CH-10004495",
         "product_name": "Global Leather and Oak Executive Chair, Black",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$708.41",
         "expense": "$303.51",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-132486",
             "CA-2016-100146"
-        ]
+        ],
+        "totalSales": "$14876.61"
     },
     {
         "id": "FUR-CH-10004540",
         "product_name": "Global Chrome Stack Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$633.96",
         "expense": "$830.15",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-132486",
             "CA-2016-135727"
-        ]
+        ],
+        "totalSales": "$16482.96"
     },
     {
         "id": "FUR-CH-10004675",
         "product_name": "Lifetime Advantage Folding Chairs, 4/Carton",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$359.17",
         "expense": "$351.90",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-154620"
-        ]
+        ],
+        "totalSales": "$718.34"
     },
     {
         "id": "FUR-CH-10004698",
         "product_name": "Padded Folding Chairs, Black, 4/Carton",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$331.24",
         "expense": "$70.00",
+        "totalQuantity": 21,
         "transactions": [
             "US-2016-101511"
-        ]
+        ],
+        "totalSales": "$6956.04"
     },
     {
         "id": "FUR-CH-10004754",
         "product_name": "Global Stack Chair with Arms, Black",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$534.57",
         "expense": "$222.10",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-143147"
-        ]
+        ],
+        "totalSales": "$11225.97"
     },
     {
         "id": "FUR-CH-10004853",
         "product_name": "Global Manager's Adjustable Task Chair, Storm",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$900.04",
         "expense": "$288.68",
+        "totalQuantity": 33,
         "transactions": [
             "CA-2016-138009",
             "CA-2016-102582",
             "CA-2016-146948"
-        ]
+        ],
+        "totalSales": "$29701.32"
     },
     {
         "id": "FUR-CH-10004860",
         "product_name": "Global Low Back Tilter Chair",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$842.41",
         "expense": "$821.81",
+        "totalQuantity": 6,
         "transactions": [
             "US-2016-145436",
             "CA-2016-131884"
-        ]
+        ],
+        "totalSales": "$5054.46"
     },
     {
         "id": "FUR-CH-10004875",
         "product_name": "Harbour Creations 67200 Series Stacking Chairs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$191.09",
         "expense": "$41.40",
+        "totalQuantity": 29,
         "transactions": [
             "US-2016-138121",
             "CA-2016-141250"
-        ]
+        ],
+        "totalSales": "$5541.61"
     },
     {
         "id": "FUR-CH-10004983",
         "product_name": "Office Star - Mid Back Dual function Ergonomic High Back Chair with 2-Way Adjustable Arms",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$807.96",
         "expense": "$837.08",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-162047"
-        ]
+        ],
+        "totalSales": "$8079.60"
     },
     {
         "id": "FUR-CH-10004997",
         "product_name": "Hon Every-Day Series Multi-Task Chairs",
+        "category": "Furniture",
+        "sub_category": "Chairs",
         "price": "$816.78",
         "expense": "$385.48",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-149972",
             "CA-2016-166947"
-        ]
+        ],
+        "totalSales": "$5717.46"
     },
     {
         "id": "FUR-FU-10000010",
         "product_name": "DAX Value U-Channel Document Frames, Easel Back",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$128.36",
         "expense": "$721.15",
+        "totalQuantity": 35,
         "transactions": [
             "CA-2016-103835",
             "CA-2016-113740"
-        ]
+        ],
+        "totalSales": "$4492.60"
     },
     {
         "id": "FUR-FU-10000023",
         "product_name": "Eldon Wave Desk Accessories",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$665.23",
         "expense": "$231.05",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-140221",
             "CA-2016-108259"
-        ]
+        ],
+        "totalSales": "$18626.44"
     },
     {
         "id": "FUR-FU-10000073",
         "product_name": "Deflect-O Glasstique Clear Desk Accessories",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$195.47",
         "expense": "$446.07",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-126186"
-        ]
+        ],
+        "totalSales": "$2736.58"
     },
     {
         "id": "FUR-FU-10000076",
         "product_name": "24-Hour Round Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$800.50",
         "expense": "$91.26",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-140718"
-        ]
+        ],
+        "totalSales": "$16810.50"
     },
     {
         "id": "FUR-FU-10000087",
         "product_name": "Executive Impressions 14\" Two-Color Numerals Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$121.98",
         "expense": "$194.38",
+        "totalQuantity": 65,
         "transactions": [
             "CA-2016-169397",
             "CA-2016-161711",
             "CA-2016-125563",
             "CA-2016-102778"
-        ]
+        ],
+        "totalSales": "$7928.70"
     },
     {
         "id": "FUR-FU-10000175",
         "product_name": "DAX Wood Document Frame.",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$118.81",
         "expense": "$154.20",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-131856"
-        ]
+        ],
+        "totalSales": "$712.86"
     },
     {
         "id": "FUR-FU-10000193",
         "product_name": "Tenex Chairmats For Use with Hard Floors",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$487.91",
         "expense": "$961.30",
+        "totalQuantity": 27,
         "transactions": [
             "CA-2016-154823",
             "CA-2016-163181"
-        ]
+        ],
+        "totalSales": "$13173.57"
     },
     {
         "id": "FUR-FU-10000221",
         "product_name": "Master Caster Door Stop, Brown",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$167.60",
         "expense": "$118.38",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-153038"
-        ]
+        ],
+        "totalSales": "$3854.80"
     },
     {
         "id": "FUR-FU-10000222",
         "product_name": "Seth Thomas 16\" Steel Case Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$173.80",
         "expense": "$856.03",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-123092"
-        ]
+        ],
+        "totalSales": "$1564.20"
     },
     {
         "id": "FUR-FU-10000277",
         "product_name": "Deflect-o DuraMat Antistatic Studded Beveled Mat for Medium Pile Carpeting",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$559.06",
         "expense": "$761.33",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-132465"
-        ]
+        ],
+        "totalSales": "$5590.60"
     },
     {
         "id": "FUR-FU-10000293",
         "product_name": "Eldon Antistatic Chair Mats for Low to Medium Pile Carpets",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$584.96",
         "expense": "$454.57",
+        "totalQuantity": 22,
         "transactions": [
             "US-2016-153500"
-        ]
+        ],
+        "totalSales": "$12869.12"
     },
     {
         "id": "FUR-FU-10000305",
         "product_name": "Tenex V2T-RE Standard Weight Series Chair Mat, 45\" x 53\", Lip 25\" x 12\"",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$56.38",
         "expense": "$925.98",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-151680",
             "US-2016-124219"
-        ]
+        ],
+        "totalSales": "$1747.78"
     },
     {
         "id": "FUR-FU-10000308",
         "product_name": "Deflect-o Glass Clear Studded Chair Mats",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$135.80",
         "expense": "$127.01",
+        "totalQuantity": 69,
         "transactions": [
             "CA-2016-142944",
             "CA-2016-104626",
             "CA-2016-105627",
             "CA-2016-109386"
-        ]
+        ],
+        "totalSales": "$9370.20"
     },
     {
         "id": "FUR-FU-10000320",
         "product_name": "OIC Stacking Trays",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$891.63",
         "expense": "$37.56",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-128013"
-        ]
+        ],
+        "totalSales": "$9807.93"
     },
     {
         "id": "FUR-FU-10000397",
         "product_name": "Luxo Economy Swing Arm Lamp",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$413.09",
         "expense": "$145.26",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-135545"
-        ]
+        ],
+        "totalSales": "$826.18"
     },
     {
         "id": "FUR-FU-10000576",
         "product_name": "Luxo Professional Fluorescent Magnifier Lamp with Clamp-Mount Base",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$974.91",
         "expense": "$243.20",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-141327"
-        ]
+        ],
+        "totalSales": "$21448.02"
     },
     {
         "id": "FUR-FU-10000629",
         "product_name": "9-3/4 Diameter Round Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$533.00",
         "expense": "$893.59",
+        "totalQuantity": 14,
         "transactions": [
             "US-2016-144771"
-        ]
+        ],
+        "totalSales": "$7462.00"
     },
     {
         "id": "FUR-FU-10000672",
         "product_name": "Executive Impressions 10\" Spectator Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$728.06",
         "expense": "$708.71",
+        "totalQuantity": 13,
         "transactions": [
             "US-2016-142020"
-        ]
+        ],
+        "totalSales": "$9464.78"
     },
     {
         "id": "FUR-FU-10000719",
         "product_name": "DAX Cubicle Frames, 8-1/2 x 11",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$243.11",
         "expense": "$593.53",
+        "totalQuantity": 14,
         "transactions": [
             "US-2016-126235"
-        ]
+        ],
+        "totalSales": "$3403.54"
     },
     {
         "id": "FUR-FU-10000723",
         "product_name": "Deflect-o EconoMat Studded, No Bevel Mat for Low Pile Carpeting",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$514.92",
         "expense": "$648.91",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-136798"
-        ]
+        ],
+        "totalSales": "$9268.56"
     },
     {
         "id": "FUR-FU-10000732",
         "product_name": "Eldon 200 Class Desk Accessories",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$186.85",
         "expense": "$791.74",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-121965"
-        ]
+        ],
+        "totalSales": "$2055.35"
     },
     {
         "id": "FUR-FU-10000747",
         "product_name": "Tenex B1-RE Series Chair Mats for Low Pile Carpets",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$60.73",
         "expense": "$493.18",
+        "totalQuantity": 25,
         "transactions": [
             "US-2016-163279",
             "US-2016-136749"
-        ]
+        ],
+        "totalSales": "$1518.25"
     },
     {
         "id": "FUR-FU-10000794",
         "product_name": "Eldon Stackable Tray, Side-Load, Legal, Smoke",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$801.52",
         "expense": "$286.87",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-144519",
             "CA-2016-106187"
-        ]
+        ],
+        "totalSales": "$4809.12"
     },
     {
         "id": "FUR-FU-10000820",
         "product_name": "Tensor Brushed Steel Torchiere Floor Lamp",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$814.82",
         "expense": "$255.53",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-135510"
-        ]
+        ],
+        "totalSales": "$20370.50"
     },
     {
         "id": "FUR-FU-10000965",
         "product_name": "Howard Miller 11-1/2\" Diameter Ridgewood Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$544.38",
         "expense": "$684.17",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-108665",
             "CA-2016-113145",
             "US-2016-129637"
-        ]
+        ],
+        "totalSales": "$15242.64"
     },
     {
         "id": "FUR-FU-10001025",
         "product_name": "Eldon Im\u00e0ge Series Desk Accessories, Clear",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$716.26",
         "expense": "$91.24",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-153073",
             "US-2016-115238"
-        ]
+        ],
+        "totalSales": "$18622.76"
     },
     {
         "id": "FUR-FU-10001037",
         "product_name": "DAX Charcoal/Nickel-Tone Document Frame, 5 x 7",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$910.92",
         "expense": "$890.63",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-167010"
-        ]
+        ],
+        "totalSales": "$14574.72"
     },
     {
         "id": "FUR-FU-10001085",
         "product_name": "3M Polarizing Light Filter Sleeves",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$134.61",
         "expense": "$853.54",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-128125"
-        ]
+        ],
+        "totalSales": "$1480.71"
     },
     {
         "id": "FUR-FU-10001095",
         "product_name": "DAX Black Cherry Wood-Tone Poster Frame",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$911.13",
         "expense": "$777.48",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-161998",
             "US-2016-160857"
-        ]
+        ],
+        "totalSales": "$3644.52"
     },
     {
         "id": "FUR-FU-10001185",
         "product_name": "Advantus Employee of the Month Certificate Frame, 11 x 13-1/2",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$785.80",
         "expense": "$397.14",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-135685"
-        ]
+        ],
+        "totalSales": "$13358.60"
     },
     {
         "id": "FUR-FU-10001215",
         "product_name": "Howard Miller 11-1/2\" Diameter Brentwood Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$174.09",
         "expense": "$958.32",
+        "totalQuantity": 35,
         "transactions": [
             "CA-2016-144722",
             "CA-2016-145394"
-        ]
+        ],
+        "totalSales": "$6093.15"
     },
     {
         "id": "FUR-FU-10001290",
         "product_name": "Executive Impressions Supervisor Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$485.89",
         "expense": "$607.82",
+        "totalQuantity": 1,
         "transactions": [
             "CA-2016-125563"
-        ]
+        ],
+        "totalSales": "$485.89"
     },
     {
         "id": "FUR-FU-10001468",
         "product_name": "Tenex Antistatic Computer Chair Mats",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$69.26",
         "expense": "$738.43",
+        "totalQuantity": 22,
         "transactions": [
             "US-2016-147739",
             "CA-2016-167010",
             "CA-2016-137974"
-        ]
+        ],
+        "totalSales": "$1523.72"
     },
     {
         "id": "FUR-FU-10001473",
         "product_name": "Eldon Executive Woodline II Desk Accessories, Mahogany",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$761.32",
         "expense": "$876.88",
+        "totalQuantity": 59,
         "transactions": [
             "CA-2016-128860",
             "CA-2016-104346",
             "CA-2016-104241",
             "CA-2016-168809"
-        ]
+        ],
+        "totalSales": "$44917.88"
     },
     {
         "id": "FUR-FU-10001487",
         "product_name": "Eldon Expressions Wood and Plastic Desk Accessories, Cherry Wood",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$575.12",
         "expense": "$129.00",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-103135"
-        ]
+        ],
+        "totalSales": "$9201.92"
     },
     {
         "id": "FUR-FU-10001488",
         "product_name": "Tenex 46\" x 60\" Computer Anti-Static Chairmat, Rectangular Shaped",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$456.51",
         "expense": "$542.56",
+        "totalQuantity": 18,
         "transactions": [
             "US-2016-126753"
-        ]
+        ],
+        "totalSales": "$8217.18"
     },
     {
         "id": "FUR-FU-10001546",
         "product_name": "Dana Swing-Arm Lamps",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$822.85",
         "expense": "$677.58",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-158323",
             "US-2016-158589"
-        ]
+        ],
+        "totalSales": "$9874.20"
     },
     {
         "id": "FUR-FU-10001588",
         "product_name": "Deflect-o SuperTray Unbreakable Stackable Tray, Letter, Black",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$474.72",
         "expense": "$544.87",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-168529"
-        ]
+        ],
+        "totalSales": "$9494.40"
     },
     {
         "id": "FUR-FU-10001591",
         "product_name": "Advantus Panel Wall Certificate Holder - 8.5x11",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$74.16",
         "expense": "$431.23",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-167745",
             "CA-2016-126725"
-        ]
+        ],
+        "totalSales": "$1483.20"
     },
     {
         "id": "FUR-FU-10001706",
         "product_name": "Longer-Life Soft White Bulbs",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$763.57",
         "expense": "$357.46",
+        "totalQuantity": 55,
         "transactions": [
             "CA-2016-115742",
             "CA-2016-126697",
             "CA-2016-131338",
             "CA-2016-105158"
-        ]
+        ],
+        "totalSales": "$41996.35"
     },
     {
         "id": "FUR-FU-10001731",
         "product_name": "Acrylic Self-Standing Desk Frames",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$402.82",
         "expense": "$776.13",
+        "totalQuantity": 42,
         "transactions": [
             "CA-2016-128083",
             "CA-2016-151624",
             "US-2016-160563"
-        ]
+        ],
+        "totalSales": "$16918.44"
     },
     {
         "id": "FUR-FU-10001847",
         "product_name": "Eldon Image Series Black Desk Accessories",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$885.22",
         "expense": "$922.21",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-149748"
-        ]
+        ],
+        "totalSales": "$1770.44"
     },
     {
         "id": "FUR-FU-10001852",
         "product_name": "Eldon Regeneration Recycled Desk Accessories, Smoke",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$939.26",
         "expense": "$487.31",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-113971"
-        ]
+        ],
+        "totalSales": "$2817.78"
     },
     {
         "id": "FUR-FU-10001861",
         "product_name": "Floodlight Indoor Halogen Bulbs, 1 Bulb per Pack, 60 Watts",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$200.53",
         "expense": "$131.41",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-126557",
             "CA-2016-137526"
-        ]
+        ],
+        "totalSales": "$1002.65"
     },
     {
         "id": "FUR-FU-10001867",
         "product_name": "Eldon Expressions Punched Metal & Wood Desk Accessories, Pewter & Cherry",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$377.61",
         "expense": "$641.67",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-120439"
-        ]
+        ],
+        "totalSales": "$4531.32"
     },
     {
         "id": "FUR-FU-10001876",
         "product_name": "Computer Room Manger, 14\"",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$922.14",
         "expense": "$794.57",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-121797"
-        ]
+        ],
+        "totalSales": "$7377.12"
     },
     {
         "id": "FUR-FU-10001889",
         "product_name": "Ultra Door Pull Handle",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$825.54",
         "expense": "$257.79",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-148495"
-        ]
+        ],
+        "totalSales": "$19812.96"
     },
     {
         "id": "FUR-FU-10001918",
         "product_name": "C-Line Cubicle Keepers Polyproplyene Holder With Velcro Backings",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$418.70",
         "expense": "$616.34",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-162537"
-        ]
+        ],
+        "totalSales": "$9630.10"
     },
     {
         "id": "FUR-FU-10001935",
         "product_name": "3M Hangers With Command Adhesive",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$957.46",
         "expense": "$251.66",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-122756",
             "CA-2016-133627"
-        ]
+        ],
+        "totalSales": "$6702.22"
     },
     {
         "id": "FUR-FU-10001940",
         "product_name": "Staple-based wall hangings",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$590.49",
         "expense": "$808.61",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-129700"
-        ]
+        ],
+        "totalSales": "$11809.80"
     },
     {
         "id": "FUR-FU-10001979",
         "product_name": "Dana Halogen Swing-Arm Architect Lamp",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$898.20",
         "expense": "$801.55",
+        "totalQuantity": 33,
         "transactions": [
             "CA-2016-137750",
             "US-2016-139675",
             "CA-2016-100146"
-        ]
+        ],
+        "totalSales": "$29640.60"
     },
     {
         "id": "FUR-FU-10001986",
         "product_name": "Dana Fluorescent Magnifying Lamp, White, 36\"",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$672.85",
         "expense": "$443.91",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-135391",
             "CA-2016-153535"
-        ]
+        ],
+        "totalSales": "$4037.10"
     },
     {
         "id": "FUR-FU-10002030",
         "product_name": "Executive Impressions 14\" Contract Wall Clock with Quartz Movement",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$847.13",
         "expense": "$955.72",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-103870"
-        ]
+        ],
+        "totalSales": "$12706.95"
     },
     {
         "id": "FUR-FU-10002088",
         "product_name": "Nu-Dell Float Frame 11 x 14 1/2",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$465.45",
         "expense": "$870.21",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-154795"
-        ]
+        ],
+        "totalSales": "$3258.15"
     },
     {
         "id": "FUR-FU-10002107",
         "product_name": "Eldon Pizzaz Desk Accessories",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$578.34",
         "expense": "$559.46",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-125934"
-        ]
+        ],
+        "totalSales": "$3470.04"
     },
     {
         "id": "FUR-FU-10002111",
         "product_name": "Master Caster Door Stop, Large Brown",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$302.94",
         "expense": "$724.45",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-118871"
-        ]
+        ],
+        "totalSales": "$3635.28"
     },
     {
         "id": "FUR-FU-10002116",
         "product_name": "Tenex Carpeted, Granite-Look or Clear Contemporary Contour Shape Chair Mats",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$861.43",
         "expense": "$508.14",
+        "totalQuantity": 12,
         "transactions": [
             "US-2016-138121"
-        ]
+        ],
+        "totalSales": "$10337.16"
     },
     {
         "id": "FUR-FU-10002157",
         "product_name": "Artistic Insta-Plaque",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$457.27",
         "expense": "$970.21",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-131338"
-        ]
+        ],
+        "totalSales": "$5487.24"
     },
     {
         "id": "FUR-FU-10002191",
         "product_name": "G.E. Halogen Desk Lamp Bulbs",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$194.19",
         "expense": "$977.03",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-108665"
-        ]
+        ],
+        "totalSales": "$4660.56"
     },
     {
         "id": "FUR-FU-10002240",
         "product_name": "Nu-Dell EZ-Mount Plastic Wall Frames",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$159.27",
         "expense": "$22.08",
+        "totalQuantity": 29,
         "transactions": [
             "CA-2016-168809",
             "CA-2016-114811"
-        ]
+        ],
+        "totalSales": "$4618.83"
     },
     {
         "id": "FUR-FU-10002253",
         "product_name": "Howard Miller 13\" Diameter Pewter Finish Round Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$642.44",
         "expense": "$754.04",
+        "totalQuantity": 52,
         "transactions": [
             "CA-2016-144806",
             "CA-2016-140144",
             "CA-2016-120810"
-        ]
+        ],
+        "totalSales": "$33406.88"
     },
     {
         "id": "FUR-FU-10002268",
         "product_name": "Ultra Door Push Plate",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$788.31",
         "expense": "$386.65",
+        "totalQuantity": 33,
         "transactions": [
             "US-2016-130519",
             "CA-2016-141768"
-        ]
+        ],
+        "totalSales": "$26014.23"
     },
     {
         "id": "FUR-FU-10002298",
         "product_name": "Rubbermaid ClusterMat Chairmats, Mat Size- 66\" x 60\", Lip 20\" x 11\" -90 Degree Angle",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$158.29",
         "expense": "$995.02",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-107937"
-        ]
+        ],
+        "totalSales": "$3482.38"
     },
     {
         "id": "FUR-FU-10002364",
         "product_name": "Eldon Expressions Wood Desk Accessories, Oak",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$902.36",
         "expense": "$576.43",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-156377",
             "CA-2016-112214",
             "CA-2016-112305"
-        ]
+        ],
+        "totalSales": "$27973.16"
     },
     {
         "id": "FUR-FU-10002396",
         "product_name": "DAX Copper Panel Document Frame, 5 x 7 Size",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$608.92",
         "expense": "$519.77",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-129896"
-        ]
+        ],
+        "totalSales": "$12178.40"
     },
     {
         "id": "FUR-FU-10002445",
         "product_name": "DAX Two-Tone Rosewood/Black Document Frame, Desktop, 5 x 7",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$964.43",
         "expense": "$838.72",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-161718",
             "US-2016-115238"
-        ]
+        ],
+        "totalSales": "$10608.73"
     },
     {
         "id": "FUR-FU-10002456",
         "product_name": "Master Caster Door Stop, Large Neon Orange",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$15.80",
         "expense": "$44.06",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-104346"
-        ]
+        ],
+        "totalSales": "$126.40"
     },
     {
         "id": "FUR-FU-10002505",
         "product_name": "Eldon 100 Class Desk Accessories",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$588.08",
         "expense": "$796.20",
+        "totalQuantity": 38,
         "transactions": [
             "US-2016-159982",
             "CA-2016-127824"
-        ]
+        ],
+        "totalSales": "$22347.04"
     },
     {
         "id": "FUR-FU-10002506",
         "product_name": "Tensor \"Hersey Kiss\" Styled Floor Lamp",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$660.83",
         "expense": "$952.87",
+        "totalQuantity": 27,
         "transactions": [
             "CA-2016-130974",
             "CA-2016-111339"
-        ]
+        ],
+        "totalSales": "$17842.41"
     },
     {
         "id": "FUR-FU-10002554",
         "product_name": "Westinghouse Floor Lamp with Metal Mesh Shade, Black",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$45.95",
         "expense": "$518.38",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-134992"
-        ]
+        ],
+        "totalSales": "$91.90"
     },
     {
         "id": "FUR-FU-10002671",
         "product_name": "Electrix 20W Halogen Replacement Bulb for Zoom-In Desk Lamp",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$983.33",
         "expense": "$344.99",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-144253"
-        ]
+        ],
+        "totalSales": "$19666.60"
     },
     {
         "id": "FUR-FU-10002703",
         "product_name": "Tenex Traditional Chairmats for Hard Floors, Average Lip, 36\" x 48\"",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$339.08",
         "expense": "$417.59",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-100818"
-        ]
+        ],
+        "totalSales": "$8137.92"
     },
     {
         "id": "FUR-FU-10002759",
         "product_name": "12-1/2 Diameter Round Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$970.83",
         "expense": "$990.24",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-135272",
             "CA-2016-145324"
-        ]
+        ],
+        "totalSales": "$22329.09"
     },
     {
         "id": "FUR-FU-10002813",
         "product_name": "DAX Contemporary Wood Frame with Silver Metal Mat, Desktop, 11 x 14 Size",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$583.49",
         "expense": "$307.92",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-126725",
             "CA-2016-107685"
-        ]
+        ],
+        "totalSales": "$14003.76"
     },
     {
         "id": "FUR-FU-10002874",
         "product_name": "Ultra Commercial Grade Dual Valve Door Closer",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$421.20",
         "expense": "$73.42",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-116484"
-        ]
+        ],
+        "totalSales": "$4212.00"
     },
     {
         "id": "FUR-FU-10002878",
         "product_name": "Seth Thomas 14\" Day/Date Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$709.20",
         "expense": "$315.79",
+        "totalQuantity": 25,
         "transactions": [
             "US-2016-127040"
-        ]
+        ],
+        "totalSales": "$17730.00"
     },
     {
         "id": "FUR-FU-10002885",
         "product_name": "Magna Visual Magnetic Picture Hangers",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$436.51",
         "expense": "$959.72",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-162537",
             "CA-2016-120103"
-        ]
+        ],
+        "totalSales": "$11349.26"
     },
     {
         "id": "FUR-FU-10002918",
         "product_name": "Eldon ClusterMat Chair Mat with Cordless Antistatic Protection",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$725.52",
         "expense": "$973.97",
+        "totalQuantity": 16,
         "transactions": [
             "US-2016-101399",
             "CA-2016-132626"
-        ]
+        ],
+        "totalSales": "$11608.32"
     },
     {
         "id": "FUR-FU-10002937",
         "product_name": "GE 48\" Fluorescent Tube, Cool White Energy Saver, 34 Watts, 30/Box",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$317.91",
         "expense": "$367.14",
+        "totalQuantity": 35,
         "transactions": [
             "CA-2016-149342",
             "CA-2016-113215"
-        ]
+        ],
+        "totalSales": "$11126.85"
     },
     {
         "id": "FUR-FU-10002960",
         "product_name": "Eldon 200 Class Desk Accessories, Burgundy",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$437.39",
         "expense": "$56.16",
+        "totalQuantity": 19,
         "transactions": [
             "US-2016-115238"
-        ]
+        ],
+        "totalSales": "$8310.41"
     },
     {
         "id": "FUR-FU-10002963",
         "product_name": "Master Caster Door Stop, Gray",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$775.12",
         "expense": "$672.07",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-130253"
-        ]
+        ],
+        "totalSales": "$18602.88"
     },
     {
         "id": "FUR-FU-10003026",
         "product_name": "Eldon Regeneration Recycled Desk Accessories, Black",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$130.91",
         "expense": "$687.43",
+        "totalQuantity": 34,
         "transactions": [
             "US-2016-131359",
             "US-2016-128587"
-        ]
+        ],
+        "totalSales": "$4450.94"
     },
     {
         "id": "FUR-FU-10003039",
         "product_name": "Howard Miller 11-1/2\" Diameter Grantwood Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$805.16",
         "expense": "$746.32",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-154284"
-        ]
+        ],
+        "totalSales": "$8051.60"
     },
     {
         "id": "FUR-FU-10003142",
         "product_name": "Master Big Foot Doorstop, Beige",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$435.54",
         "expense": "$543.63",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-142237"
-        ]
+        ],
+        "totalSales": "$5662.02"
     },
     {
         "id": "FUR-FU-10003192",
         "product_name": "Luxo Adjustable Task Clamp Lamp",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$466.39",
         "expense": "$915.67",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-141012"
-        ]
+        ],
+        "totalSales": "$5130.29"
     },
     {
         "id": "FUR-FU-10003194",
         "product_name": "Eldon Expressions Desk Accessory, Wood Pencil Holder, Oak",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$72.54",
         "expense": "$386.15",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-128083"
-        ]
+        ],
+        "totalSales": "$1813.50"
     },
     {
         "id": "FUR-FU-10003247",
         "product_name": "36X48 HARDFLOOR CHAIRMAT",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$242.69",
         "expense": "$427.60",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-125185"
-        ]
+        ],
+        "totalSales": "$2426.90"
     },
     {
         "id": "FUR-FU-10003274",
         "product_name": "Regeneration Desk Collection",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$970.00",
         "expense": "$904.34",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-155334"
-        ]
+        ],
+        "totalSales": "$20370.00"
     },
     {
         "id": "FUR-FU-10003347",
         "product_name": "Coloredge Poster Frame",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$360.20",
         "expense": "$844.67",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-140921",
             "CA-2016-140410"
-        ]
+        ],
+        "totalSales": "$4322.40"
     },
     {
         "id": "FUR-FU-10003394",
         "product_name": "Tenex \"The Solids\" Textured Chair Mats",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$342.63",
         "expense": "$585.24",
+        "totalQuantity": 30,
         "transactions": [
             "US-2016-130519",
             "CA-2016-107678"
-        ]
+        ],
+        "totalSales": "$10278.90"
     },
     {
         "id": "FUR-FU-10003424",
         "product_name": "Nu-Dell Oak Frame",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$360.27",
         "expense": "$19.65",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-149097"
-        ]
+        ],
+        "totalSales": "$9006.75"
     },
     {
         "id": "FUR-FU-10003464",
         "product_name": "Seth Thomas 8 1/2\" Cubicle Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$488.85",
         "expense": "$244.43",
+        "totalQuantity": 34,
         "transactions": [
             "CA-2016-121720",
             "CA-2016-133242",
             "CA-2016-149517"
-        ]
+        ],
+        "totalSales": "$16620.90"
     },
     {
         "id": "FUR-FU-10003535",
         "product_name": "Howard Miller Distant Time Traveler Alarm Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$113.32",
         "expense": "$670.94",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-143077"
-        ]
+        ],
+        "totalSales": "$1699.80"
     },
     {
         "id": "FUR-FU-10003623",
         "product_name": "DataProducts Ampli Magnifier Task Lamp, Black,",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$336.42",
         "expense": "$372.67",
+        "totalQuantity": 47,
         "transactions": [
             "CA-2016-134859",
             "CA-2016-139850"
-        ]
+        ],
+        "totalSales": "$15811.74"
     },
     {
         "id": "FUR-FU-10003708",
         "product_name": "Tenex Traditional Chairmats for Medium Pile Carpet, Standard Lip, 36\" x 48\"",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$476.11",
         "expense": "$335.84",
+        "totalQuantity": 18,
         "transactions": [
             "US-2016-134026",
             "CA-2016-131352"
-        ]
+        ],
+        "totalSales": "$8569.98"
     },
     {
         "id": "FUR-FU-10003724",
         "product_name": "Westinghouse Clip-On Gooseneck Lamps",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$939.91",
         "expense": "$550.26",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-136805"
-        ]
+        ],
+        "totalSales": "$15978.47"
     },
     {
         "id": "FUR-FU-10003799",
         "product_name": "Seth Thomas 13 1/2\" Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$674.12",
         "expense": "$427.71",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-149587",
             "CA-2016-108672",
             "CA-2016-111612"
-        ]
+        ],
+        "totalSales": "$16178.88"
     },
     {
         "id": "FUR-FU-10003829",
         "product_name": "Stackable Trays",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$313.62",
         "expense": "$554.57",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-116750",
             "CA-2016-125066",
             "US-2016-158911"
-        ]
+        ],
+        "totalSales": "$9722.22"
     },
     {
         "id": "FUR-FU-10003832",
         "product_name": "Eldon Expressions Punched Metal & Wood Desk Accessories, Black & Cherry",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$727.25",
         "expense": "$665.79",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-145457"
-        ]
+        ],
+        "totalSales": "$15999.50"
     },
     {
         "id": "FUR-FU-10003849",
         "product_name": "DAX Metal Frame, Desktop, Stepped-Edge",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$756.57",
         "expense": "$200.62",
+        "totalQuantity": 34,
         "transactions": [
             "US-2016-100531",
             "CA-2016-148964"
-        ]
+        ],
+        "totalSales": "$25723.38"
     },
     {
         "id": "FUR-FU-10003930",
         "product_name": "Howard Miller 12-3/4 Diameter Accuwave DS  Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$978.94",
         "expense": "$578.48",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-166975"
-        ]
+        ],
+        "totalSales": "$24473.50"
     },
     {
         "id": "FUR-FU-10003975",
         "product_name": "Eldon Advantage Chair Mats for Low to Medium Pile Carpets",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$81.80",
         "expense": "$993.87",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-118843"
-        ]
+        ],
+        "totalSales": "$1963.20"
     },
     {
         "id": "FUR-FU-10003981",
         "product_name": "Eldon Wave Desk Accessories",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$612.34",
         "expense": "$254.14",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-121188"
-        ]
+        ],
+        "totalSales": "$1837.02"
     },
     {
         "id": "FUR-FU-10004006",
         "product_name": "Deflect-o DuraMat Lighweight, Studded, Beveled Mat for Low Pile Carpeting",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$281.59",
         "expense": "$135.90",
+        "totalQuantity": 38,
         "transactions": [
             "US-2016-156867",
             "CA-2016-127593"
-        ]
+        ],
+        "totalSales": "$10700.42"
     },
     {
         "id": "FUR-FU-10004017",
         "product_name": "Executive Impressions 13\" Chairman Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$82.98",
         "expense": "$372.64",
+        "totalQuantity": 20,
         "transactions": [
             "US-2016-111927",
             "CA-2016-136196"
-        ]
+        ],
+        "totalSales": "$1659.60"
     },
     {
         "id": "FUR-FU-10004018",
         "product_name": "Tensor Computer Mounted Lamp",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$286.59",
         "expense": "$762.29",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-142454"
-        ]
+        ],
+        "totalSales": "$4872.03"
     },
     {
         "id": "FUR-FU-10004090",
         "product_name": "Executive Impressions 14\" Contract Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$246.61",
         "expense": "$182.19",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-123568",
             "CA-2016-156440"
-        ]
+        ],
+        "totalSales": "$3205.93"
     },
     {
         "id": "FUR-FU-10004091",
         "product_name": "Howard Miller 13\" Diameter Goldtone Round Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$408.00",
         "expense": "$433.51",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-147830"
-        ]
+        ],
+        "totalSales": "$2448.00"
     },
     {
         "id": "FUR-FU-10004093",
         "product_name": "Hand-Finished Solid Wood Document Frame",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$533.99",
         "expense": "$497.83",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-157959"
-        ]
+        ],
+        "totalSales": "$5873.89"
     },
     {
         "id": "FUR-FU-10004188",
         "product_name": "Luxo Professional Combination Clamp-On Lamps",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$409.09",
         "expense": "$118.29",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-112571"
-        ]
+        ],
+        "totalSales": "$2045.45"
     },
     {
         "id": "FUR-FU-10004270",
         "product_name": "Eldon Image Series Desk Accessories, Burgundy",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$423.67",
         "expense": "$980.36",
+        "totalQuantity": 37,
         "transactions": [
             "US-2016-105676",
             "CA-2016-119508",
             "CA-2016-119634"
-        ]
+        ],
+        "totalSales": "$15675.79"
     },
     {
         "id": "FUR-FU-10004306",
         "product_name": "Electrix Halogen Magnifier Lamp",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$52.19",
         "expense": "$333.59",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-112144"
-        ]
+        ],
+        "totalSales": "$260.95"
     },
     {
         "id": "FUR-FU-10004351",
         "product_name": "Staple-based wall hangings",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$100.95",
         "expense": "$620.74",
+        "totalQuantity": 37,
         "transactions": [
             "CA-2016-121783",
             "CA-2016-114048"
-        ]
+        ],
+        "totalSales": "$3735.15"
     },
     {
         "id": "FUR-FU-10004460",
         "product_name": "Howard Miller 12\" Round Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$126.87",
         "expense": "$353.20",
+        "totalQuantity": 9,
         "transactions": [
             "US-2016-153500"
-        ]
+        ],
+        "totalSales": "$1141.83"
     },
     {
         "id": "FUR-FU-10004586",
         "product_name": "G.E. Longer-Life Indoor Recessed Floodlight Bulbs",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$862.41",
         "expense": "$661.15",
+        "totalQuantity": 10,
         "transactions": [
             "US-2016-103996"
-        ]
+        ],
+        "totalSales": "$8624.10"
     },
     {
         "id": "FUR-FU-10004587",
         "product_name": "GE General Use Halogen Bulbs, 100 Watts, 1 Bulb per Pack",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$465.40",
         "expense": "$309.75",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-119690"
-        ]
+        ],
+        "totalSales": "$5584.80"
     },
     {
         "id": "FUR-FU-10004597",
         "product_name": "Eldon Cleatmat Chair Mats for Medium Pile Carpets",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$683.17",
         "expense": "$958.70",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-134075"
-        ]
+        ],
+        "totalSales": "$14346.57"
     },
     {
         "id": "FUR-FU-10004622",
         "product_name": "Eldon Advantage Foldable Chair Mats for Low Pile Carpets",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$553.06",
         "expense": "$113.11",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-110667"
-        ]
+        ],
+        "totalSales": "$13826.50"
     },
     {
         "id": "FUR-FU-10004666",
         "product_name": "DAX Clear Channel Poster Frame",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$15.24",
         "expense": "$817.93",
+        "totalQuantity": 20,
         "transactions": [
             "US-2016-123960"
-        ]
+        ],
+        "totalSales": "$304.80"
     },
     {
         "id": "FUR-FU-10004748",
         "product_name": "Howard Miller 16\" Diameter Gallery Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$658.75",
         "expense": "$968.52",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-138002"
-        ]
+        ],
+        "totalSales": "$10540.00"
     },
     {
         "id": "FUR-FU-10004845",
         "product_name": "Deflect-o EconoMat Nonstudded, No Bevel Mat",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$875.28",
         "expense": "$323.23",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-137526"
-        ]
+        ],
+        "totalSales": "$15755.04"
     },
     {
         "id": "FUR-FU-10004848",
         "product_name": "Howard Miller 13-3/4\" Diameter Brushed Chrome Round Wall Clock",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$957.31",
         "expense": "$368.86",
+        "totalQuantity": 30,
         "transactions": [
             "US-2016-150630",
             "CA-2016-142237"
-        ]
+        ],
+        "totalSales": "$28719.30"
     },
     {
         "id": "FUR-FU-10004904",
         "product_name": "Eldon \"L\" Workstation Diamond Chairmat",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$277.96",
         "expense": "$519.80",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-157133",
             "CA-2016-129896"
-        ]
+        ],
+        "totalSales": "$3891.44"
     },
     {
         "id": "FUR-FU-10004909",
         "product_name": "Contemporary Wood/Metal Frame",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$630.24",
         "expense": "$656.31",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-168207"
-        ]
+        ],
+        "totalSales": "$1890.72"
     },
     {
         "id": "FUR-FU-10004952",
         "product_name": "C-Line Cubicle Keepers Polyproplyene Holder w/Velcro Back, 8-1/2x11, 25/Bx",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$990.94",
         "expense": "$300.92",
+        "totalQuantity": 12,
         "transactions": [
             "US-2016-123918"
-        ]
+        ],
+        "totalSales": "$11891.28"
     },
     {
         "id": "FUR-FU-10004973",
         "product_name": "Flat Face Poster Frame",
+        "category": "Furniture",
+        "sub_category": "Furnishings",
         "price": "$525.31",
         "expense": "$791.19",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-122287",
             "US-2016-120502"
-        ]
+        ],
+        "totalSales": "$14708.68"
     },
     {
         "id": "FUR-TA-10000198",
         "product_name": "Chromcraft Bull-Nose Wood Oval Conference Tables & Bases",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$240.95",
         "expense": "$554.47",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-116638"
-        ]
+        ],
+        "totalSales": "$5782.80"
     },
     {
         "id": "FUR-TA-10000577",
         "product_name": "Bretford CR4500 Series Slim Rectangular Table",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$445.88",
         "expense": "$875.91",
+        "totalQuantity": 53,
         "transactions": [
             "US-2016-108966",
             "CA-2016-106320",
             "CA-2016-150875",
             "CA-2016-122266"
-        ]
+        ],
+        "totalSales": "$23631.64"
     },
     {
         "id": "FUR-TA-10000617",
         "product_name": "Hon Practical Foundations 30 x 60 Training Table, Light Gray/Charcoal",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$714.47",
         "expense": "$93.09",
+        "totalQuantity": 4,
         "transactions": [
             "US-2016-168935"
-        ]
+        ],
+        "totalSales": "$2857.88"
     },
     {
         "id": "FUR-TA-10000688",
         "product_name": "Chromcraft Bull-Nose Wood Round Conference Table Top, Wood Base",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$72.59",
         "expense": "$30.56",
+        "totalQuantity": 43,
         "transactions": [
             "CA-2016-135685",
             "US-2016-168704"
-        ]
+        ],
+        "totalSales": "$3121.37"
     },
     {
         "id": "FUR-TA-10000849",
         "product_name": "Bevis Rectangular Conference Tables",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$427.31",
         "expense": "$243.83",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-104346"
-        ]
+        ],
+        "totalSales": "$4700.41"
     },
     {
         "id": "FUR-TA-10001039",
         "product_name": "KI Adjustable-Height Table",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$156.35",
         "expense": "$605.70",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-112116"
-        ]
+        ],
+        "totalSales": "$625.40"
     },
     {
         "id": "FUR-TA-10001086",
         "product_name": "SAFCO PlanMaster Boards, 60w x 37-1/2d, White Melamine",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$163.37",
         "expense": "$683.72",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-149097"
-        ]
+        ],
+        "totalSales": "$1633.70"
     },
     {
         "id": "FUR-TA-10001095",
         "product_name": "Chromcraft Round Conference Tables",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$611.35",
         "expense": "$749.27",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-137512"
-        ]
+        ],
+        "totalSales": "$10392.95"
     },
     {
         "id": "FUR-TA-10001307",
         "product_name": "SAFCO PlanMaster Heigh-Adjustable Drafting Table Base, 43w x 30d x 30-37h, Black",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$823.26",
         "expense": "$725.15",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-159786"
-        ]
+        ],
+        "totalSales": "$15641.94"
     },
     {
         "id": "FUR-TA-10001520",
         "product_name": "Lesro Sheffield Collection Coffee Table, End Table, Center Table, Corner Table",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$256.11",
         "expense": "$331.32",
+        "totalQuantity": 30,
         "transactions": [
             "CA-2016-135685",
             "CA-2016-136469"
-        ]
+        ],
+        "totalSales": "$7683.30"
     },
     {
         "id": "FUR-TA-10001539",
         "product_name": "Chromcraft Rectangular Conference Tables",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$196.40",
         "expense": "$639.05",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-139584"
-        ]
+        ],
+        "totalSales": "$1571.20"
     },
     {
         "id": "FUR-TA-10001676",
         "product_name": "Hon 61000 Series Interactive Training Tables",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$825.93",
         "expense": "$770.22",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-105725"
-        ]
+        ],
+        "totalSales": "$9085.23"
     },
     {
         "id": "FUR-TA-10001705",
         "product_name": "Bush Advantage Collection Round Conference Table",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$225.88",
         "expense": "$253.71",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-137113"
-        ]
+        ],
+        "totalSales": "$2710.56"
     },
     {
         "id": "FUR-TA-10001768",
         "product_name": "Hon Racetrack Conference Tables",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$231.72",
         "expense": "$266.50",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-110457",
             "CA-2016-146563"
-        ]
+        ],
+        "totalSales": "$4634.40"
     },
     {
         "id": "FUR-TA-10001857",
         "product_name": "Balt Solid Wood Rectangular Table",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$130.77",
         "expense": "$432.88",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-152891"
-        ]
+        ],
+        "totalSales": "$2746.17"
     },
     {
         "id": "FUR-TA-10001889",
         "product_name": "Bush Advantage Collection Racetrack Conference Table",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$248.17",
         "expense": "$492.53",
+        "totalQuantity": 8,
         "transactions": [
             "US-2016-157154"
-        ]
+        ],
+        "totalSales": "$1985.36"
     },
     {
         "id": "FUR-TA-10002041",
         "product_name": "Bevis Round Conference Table Top, X-Base",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$188.86",
         "expense": "$847.49",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-154291"
-        ]
+        ],
+        "totalSales": "$377.72"
     },
     {
         "id": "FUR-TA-10002356",
         "product_name": "Bevis Boat-Shaped Conference Table",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$664.40",
         "expense": "$818.00",
+        "totalQuantity": 11,
         "transactions": [
             "US-2016-140200"
-        ]
+        ],
+        "totalSales": "$7308.40"
     },
     {
         "id": "FUR-TA-10002530",
         "product_name": "Iceberg OfficeWorks 42\" Round Tables",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$2.99",
         "expense": "$707.35",
+        "totalQuantity": 55,
         "transactions": [
             "CA-2016-108119",
             "CA-2016-106257",
             "US-2016-168704"
-        ]
+        ],
+        "totalSales": "$164.45"
     },
     {
         "id": "FUR-TA-10002607",
         "product_name": "KI Conference Tables",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$201.87",
         "expense": "$489.97",
+        "totalQuantity": 58,
         "transactions": [
             "CA-2016-131338",
             "CA-2016-131597",
             "CA-2016-118738"
-        ]
+        ],
+        "totalSales": "$11708.46"
     },
     {
         "id": "FUR-TA-10002645",
         "product_name": "Hon Rectangular Conference Tables",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$798.85",
         "expense": "$610.72",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-124975"
-        ]
+        ],
+        "totalSales": "$2396.55"
     },
     {
         "id": "FUR-TA-10002774",
         "product_name": "Laminate Occasional Tables",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$706.59",
         "expense": "$647.63",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-142027"
-        ]
+        ],
+        "totalSales": "$6359.31"
     },
     {
         "id": "FUR-TA-10002855",
         "product_name": "Bevis Round Conference Table Top & Single Column Base",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$478.72",
         "expense": "$164.19",
+        "totalQuantity": 44,
         "transactions": [
             "CA-2016-127509",
             "CA-2016-141250"
-        ]
+        ],
+        "totalSales": "$21063.68"
     },
     {
         "id": "FUR-TA-10002903",
         "product_name": "Bevis Round Bullnose 29\" High Table Top",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$673.41",
         "expense": "$10.66",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-130890",
             "CA-2016-124891"
-        ]
+        ],
+        "totalSales": "$2020.23"
     },
     {
         "id": "FUR-TA-10002958",
         "product_name": "Bevis Oval Conference Table, Walnut",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$616.27",
         "expense": "$586.51",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-119879"
-        ]
+        ],
+        "totalSales": "$10476.59"
     },
     {
         "id": "FUR-TA-10003008",
         "product_name": "Lesro Round Back Collection Coffee Table, End Table",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$591.64",
         "expense": "$541.88",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-120362"
-        ]
+        ],
+        "totalSales": "$6508.04"
     },
     {
         "id": "FUR-TA-10003469",
         "product_name": "Balt Split Level Computer Training Table",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$327.92",
         "expense": "$507.18",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-112767"
-        ]
+        ],
+        "totalSales": "$1311.68"
     },
     {
         "id": "FUR-TA-10003473",
         "product_name": "Bretford Rectangular Conference Table Tops",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$198.65",
         "expense": "$690.79",
+        "totalQuantity": 13,
         "transactions": [
             "US-2016-134558"
-        ]
+        ],
+        "totalSales": "$2582.45"
     },
     {
         "id": "FUR-TA-10003569",
         "product_name": "Bretford CR8500 Series Meeting Room Furniture",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$564.63",
         "expense": "$782.06",
+        "totalQuantity": 44,
         "transactions": [
             "CA-2016-121650",
             "CA-2016-102582",
             "CA-2016-164084"
-        ]
+        ],
+        "totalSales": "$24843.72"
     },
     {
         "id": "FUR-TA-10003715",
         "product_name": "Hon 2111 Invitation Series Corner Table",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$294.44",
         "expense": "$296.60",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-153388"
-        ]
+        ],
+        "totalSales": "$1472.20"
     },
     {
         "id": "FUR-TA-10003748",
         "product_name": "Bevis 36 x 72 Conference Tables",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$998.05",
         "expense": "$17.58",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-163055",
             "US-2016-126214"
-        ]
+        ],
+        "totalSales": "$30939.55"
     },
     {
         "id": "FUR-TA-10003837",
         "product_name": "Anderson Hickey Conga Table Tops & Accessories",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$957.01",
         "expense": "$39.22",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-105599"
-        ]
+        ],
+        "totalSales": "$1914.02"
     },
     {
         "id": "FUR-TA-10003954",
         "product_name": "Hon 94000 Series Round Tables",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$972.40",
         "expense": "$284.97",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-133452"
-        ]
+        ],
+        "totalSales": "$20420.40"
     },
     {
         "id": "FUR-TA-10004086",
         "product_name": "KI Adjustable-Height Table",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$94.70",
         "expense": "$580.02",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-111073"
-        ]
+        ],
+        "totalSales": "$757.60"
     },
     {
         "id": "FUR-TA-10004152",
         "product_name": "Barricks 18\" x 48\" Non-Folding Utility Table with Bottom Storage Shelf",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$855.40",
         "expense": "$561.87",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-104129"
-        ]
+        ],
+        "totalSales": "$10264.80"
     },
     {
         "id": "FUR-TA-10004154",
         "product_name": "Riverside Furniture Oval Coffee Table, Oval End Table, End Table with Drawer",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$795.63",
         "expense": "$425.18",
+        "totalQuantity": 22,
         "transactions": [
             "US-2016-138919",
             "CA-2016-101889"
-        ]
+        ],
+        "totalSales": "$17503.86"
     },
     {
         "id": "FUR-TA-10004607",
         "product_name": "Hon 2111 Invitation Series Straight Table",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$409.35",
         "expense": "$140.73",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-139094",
             "CA-2016-166219"
-        ]
+        ],
+        "totalSales": "$3274.80"
     },
     {
         "id": "FUR-TA-10004619",
         "product_name": "Hon Non-Folding Utility Tables",
+        "category": "Furniture",
+        "sub_category": "Tables",
         "price": "$759.78",
         "expense": "$930.46",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-130974"
-        ]
+        ],
+        "totalSales": "$10636.92"
     },
     {
         "id": "OFF-AP-10000026",
         "product_name": "Tripp Lite Isotel 6 Outlet Surge Protector with Fax/Modem Protection",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$408.12",
         "expense": "$155.36",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-132318",
             "CA-2016-105613"
-        ]
+        ],
+        "totalSales": "$9386.76"
     },
     {
         "id": "OFF-AP-10000179",
         "product_name": "Honeywell Enviracaire Portable HEPA Air Cleaner for up to 10 x 16 Room",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$344.87",
         "expense": "$769.98",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-138009",
             "CA-2016-101000"
-        ]
+        ],
+        "totalSales": "$8966.62"
     },
     {
         "id": "OFF-AP-10000240",
         "product_name": "Belkin F9G930V10-GRY 9 Outlet Surge",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$967.19",
         "expense": "$714.67",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-148376"
-        ]
+        ],
+        "totalSales": "$13540.66"
     },
     {
         "id": "OFF-AP-10000275",
         "product_name": "Sanyo Counter Height Refrigerator with Crisper, 3.6 Cubic Foot, Stainless Steel/Black",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$274.38",
         "expense": "$465.25",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-160171",
             "CA-2016-123113"
-        ]
+        ],
+        "totalSales": "$6585.12"
     },
     {
         "id": "OFF-AP-10000358",
         "product_name": "Fellowes Basic Home/Office Series Surge Protectors",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$909.75",
         "expense": "$282.80",
+        "totalQuantity": 13,
         "transactions": [
             "US-2016-168914"
-        ]
+        ],
+        "totalSales": "$11826.75"
     },
     {
         "id": "OFF-AP-10000576",
         "product_name": "Belkin 325VA UPS Surge Protector, 6'",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$549.94",
         "expense": "$616.11",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-118444"
-        ]
+        ],
+        "totalSales": "$6599.28"
     },
     {
         "id": "OFF-AP-10000696",
         "product_name": "Holmes Odor Grabber",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$4.89",
         "expense": "$528.89",
+        "totalQuantity": 60,
         "transactions": [
             "CA-2016-130792",
             "CA-2016-115091",
             "CA-2016-169201",
             "CA-2016-114468"
-        ]
+        ],
+        "totalSales": "$293.40"
     },
     {
         "id": "OFF-AP-10000804",
         "product_name": "Hoover Portapower Portable Vacuum",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$380.26",
         "expense": "$324.60",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-132276"
-        ]
+        ],
+        "totalSales": "$5703.90"
     },
     {
         "id": "OFF-AP-10000828",
         "product_name": "Avanti 4.4 Cu. Ft. Refrigerator",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$234.73",
         "expense": "$399.85",
+        "totalQuantity": 48,
         "transactions": [
             "CA-2016-127453",
             "CA-2016-165624",
             "CA-2016-140221"
-        ]
+        ],
+        "totalSales": "$11267.04"
     },
     {
         "id": "OFF-AP-10001205",
         "product_name": "Belkin 5 Outlet SurgeMaster Power Centers",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$446.52",
         "expense": "$282.82",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-153878",
             "CA-2016-119480"
-        ]
+        ],
+        "totalSales": "$13842.12"
     },
     {
         "id": "OFF-AP-10001242",
         "product_name": "APC 7 Outlet Network SurgeArrest Surge Protector",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$33.66",
         "expense": "$261.03",
+        "totalQuantity": 25,
         "transactions": [
             "US-2016-122140"
-        ]
+        ],
+        "totalSales": "$841.50"
     },
     {
         "id": "OFF-AP-10001271",
         "product_name": "Eureka The Boss Cordless Rechargeable Stick Vac",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$677.90",
         "expense": "$760.25",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-134894"
-        ]
+        ],
+        "totalSales": "$12202.20"
     },
     {
         "id": "OFF-AP-10001293",
         "product_name": "Belkin 8 Outlet Surge Protector",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$915.12",
         "expense": "$591.24",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-120397",
             "CA-2016-141327"
-        ]
+        ],
+        "totalSales": "$16472.16"
     },
     {
         "id": "OFF-AP-10001391",
         "product_name": "Kensington 6 Outlet MasterPiece HOMEOFFICE Power Control Center",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$933.47",
         "expense": "$527.28",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-116092"
-        ]
+        ],
+        "totalSales": "$12135.11"
     },
     {
         "id": "OFF-AP-10001394",
         "product_name": "Harmony Air Purifier",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$652.89",
         "expense": "$549.06",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-136805"
-        ]
+        ],
+        "totalSales": "$11752.02"
     },
     {
         "id": "OFF-AP-10001469",
         "product_name": "Fellowes 8 Outlet Superior Workstation Surge Protector",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$669.54",
         "expense": "$674.39",
+        "totalQuantity": 13,
         "transactions": [
             "US-2016-156496"
-        ]
+        ],
+        "totalSales": "$8704.02"
     },
     {
         "id": "OFF-AP-10001492",
         "product_name": "Acco Six-Outlet Power Strip, 4' Cord Length",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$904.06",
         "expense": "$670.35",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-165624",
             "US-2016-117492"
-        ]
+        ],
+        "totalSales": "$23505.56"
     },
     {
         "id": "OFF-AP-10001563",
         "product_name": "Belkin Premiere Surge Master II 8-outlet surge protector",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$830.25",
         "expense": "$159.66",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-117828"
-        ]
+        ],
+        "totalSales": "$11623.50"
     },
     {
         "id": "OFF-AP-10001626",
         "product_name": "Commercial WindTunnel Clean Air Upright Vacuum, Replacement Belts, Filtration Bags",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$924.27",
         "expense": "$63.39",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-168634"
-        ]
+        ],
+        "totalSales": "$20333.94"
     },
     {
         "id": "OFF-AP-10001947",
         "product_name": "Acco 6 Outlet Guardian Premium Plus Surge Suppressor",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$536.61",
         "expense": "$214.59",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-121272"
-        ]
+        ],
+        "totalSales": "$11268.81"
     },
     {
         "id": "OFF-AP-10001962",
         "product_name": "Black & Decker Filter for Double Action Dustbuster Cordless Vac BLDV7210",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$456.75",
         "expense": "$954.72",
+        "totalQuantity": 23,
         "transactions": [
             "US-2016-109015"
-        ]
+        ],
+        "totalSales": "$10505.25"
     },
     {
         "id": "OFF-AP-10002082",
         "product_name": "Holmes HEPA Air Purifier",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$677.54",
         "expense": "$503.76",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-169201"
-        ]
+        ],
+        "totalSales": "$12873.26"
     },
     {
         "id": "OFF-AP-10002191",
         "product_name": "Belkin 8 Outlet SurgeMaster II Gold Surge Protector",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$775.74",
         "expense": "$389.85",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-124499"
-        ]
+        ],
+        "totalSales": "$10860.36"
     },
     {
         "id": "OFF-AP-10002222",
         "product_name": "Staple holder",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$838.97",
         "expense": "$179.76",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-153108"
-        ]
+        ],
+        "totalSales": "$9228.67"
     },
     {
         "id": "OFF-AP-10002287",
         "product_name": "Eureka Sanitaire  Multi-Pro Heavy-Duty Upright, Disposable Bags",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$973.03",
         "expense": "$889.12",
+        "totalQuantity": 25,
         "transactions": [
             "US-2016-112508"
-        ]
+        ],
+        "totalSales": "$24325.75"
     },
     {
         "id": "OFF-AP-10002311",
         "product_name": "Holmes Replacement Filter for HEPA Air Cleaner, Very Large Room, HEPA Filter",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$725.46",
         "expense": "$803.28",
+        "totalQuantity": 45,
         "transactions": [
             "US-2016-118983",
             "CA-2016-121608",
             "CA-2016-112557",
             "CA-2016-111948"
-        ]
+        ],
+        "totalSales": "$32645.70"
     },
     {
         "id": "OFF-AP-10002350",
         "product_name": "Belkin F9H710-06 7 Outlet SurgeMaster Surge Protector",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$598.29",
         "expense": "$174.74",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-161263"
-        ]
+        ],
+        "totalSales": "$3589.74"
     },
     {
         "id": "OFF-AP-10002403",
         "product_name": "Acco Smartsocket Color-Coded Six-Outlet AC Adapter Model Surge Protectors",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$778.26",
         "expense": "$274.98",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-116841"
-        ]
+        ],
+        "totalSales": "$3891.30"
     },
     {
         "id": "OFF-AP-10002439",
         "product_name": "Tripp Lite Isotel 8 Ultra 8 Outlet Metal Surge",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$784.29",
         "expense": "$650.18",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-129217"
-        ]
+        ],
+        "totalSales": "$7842.90"
     },
     {
         "id": "OFF-AP-10002457",
         "product_name": "Eureka The Boss Plus 12-Amp Hard Box Upright Vacuum, Red",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$601.74",
         "expense": "$360.22",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-164539"
-        ]
+        ],
+        "totalSales": "$6017.40"
     },
     {
         "id": "OFF-AP-10002472",
         "product_name": "3M Office Air Cleaner",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$547.40",
         "expense": "$702.92",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-109638"
-        ]
+        ],
+        "totalSales": "$12042.80"
     },
     {
         "id": "OFF-AP-10002495",
         "product_name": "Acco Smartsocket Table Surge Protector, 6 Color-Coded Adapter Outlets",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$207.63",
         "expense": "$514.52",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-129546"
-        ]
+        ],
+        "totalSales": "$4152.60"
     },
     {
         "id": "OFF-AP-10002518",
         "product_name": "Kensington 7 Outlet MasterPiece Power Center",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$129.35",
         "expense": "$403.45",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-165085"
-        ]
+        ],
+        "totalSales": "$776.10"
     },
     {
         "id": "OFF-AP-10002578",
         "product_name": "Fellowes Premier Superior Surge Suppressor, 10-Outlet, With Phone and Remote",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$221.19",
         "expense": "$301.23",
+        "totalQuantity": 32,
         "transactions": [
             "US-2016-155369",
             "CA-2016-120915"
-        ]
+        ],
+        "totalSales": "$7078.08"
     },
     {
         "id": "OFF-AP-10002651",
         "product_name": "Hoover Upright Vacuum With Dirt Cup",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$332.06",
         "expense": "$551.98",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-155306",
             "CA-2016-140025",
             "CA-2016-103835"
-        ]
+        ],
+        "totalSales": "$6309.14"
     },
     {
         "id": "OFF-AP-10002684",
         "product_name": "Acco 7-Outlet Masterpiece Power Center, Wihtout Fax/Phone Line Protection",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$102.60",
         "expense": "$492.99",
+        "totalQuantity": 1,
         "transactions": [
             "CA-2016-123456"
-        ]
+        ],
+        "totalSales": "$102.60"
     },
     {
         "id": "OFF-AP-10002765",
         "product_name": "Fellowes Advanced Computer Series Surge Protectors",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$59.20",
         "expense": "$180.99",
+        "totalQuantity": 1,
         "transactions": [
             "US-2016-139759"
-        ]
+        ],
+        "totalSales": "$59.20"
     },
     {
         "id": "OFF-AP-10002867",
         "product_name": "Fellowes Command Center 5-outlet power strip",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$915.91",
         "expense": "$394.47",
+        "totalQuantity": 16,
         "transactions": [
             "US-2016-159499"
-        ]
+        ],
+        "totalSales": "$14654.56"
     },
     {
         "id": "OFF-AP-10002892",
         "product_name": "Belkin F5C206VTEL 6 Outlet Surge",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$805.03",
         "expense": "$755.28",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-120810"
-        ]
+        ],
+        "totalSales": "$8855.33"
     },
     {
         "id": "OFF-AP-10002906",
         "product_name": "Hoover Replacement Belt for Commercial Guardsman Heavy-Duty Upright Vacuum",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$141.09",
         "expense": "$388.12",
+        "totalQuantity": 30,
         "transactions": [
             "CA-2016-127453",
             "CA-2016-133494"
-        ]
+        ],
+        "totalSales": "$4232.70"
     },
     {
         "id": "OFF-AP-10002945",
         "product_name": "Honeywell Enviracaire Portable HEPA Air Cleaner for 17' x 22' Room",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$493.17",
         "expense": "$742.98",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-120621"
-        ]
+        ],
+        "totalSales": "$6411.21"
     },
     {
         "id": "OFF-AP-10003040",
         "product_name": "Fellowes 8 Outlet Superior Workstation Surge Protector w/o Phone/Fax/Modem Protection",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$813.49",
         "expense": "$852.00",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-148250"
-        ]
+        ],
+        "totalSales": "$12202.35"
     },
     {
         "id": "OFF-AP-10003057",
         "product_name": "Honeywell Enviracaire Portable HEPA Air Cleaner for 16' x 20' Room",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$360.69",
         "expense": "$392.27",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-154746"
-        ]
+        ],
+        "totalSales": "$1442.76"
     },
     {
         "id": "OFF-AP-10003099",
         "product_name": "Eureka Hand Vacuum, Bagless",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$417.90",
         "expense": "$736.77",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-138625"
-        ]
+        ],
+        "totalSales": "$4179.00"
     },
     {
         "id": "OFF-AP-10003266",
         "product_name": "Holmes Replacement Filter for HEPA Air Cleaner, Large Room",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$534.89",
         "expense": "$536.26",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-112130",
             "CA-2016-109386"
-        ]
+        ],
+        "totalSales": "$12302.47"
     },
     {
         "id": "OFF-AP-10003281",
         "product_name": "Acco 6 Outlet Guardian Standard Surge Suppressor",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$651.12",
         "expense": "$827.84",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-158148"
-        ]
+        ],
+        "totalSales": "$16278.00"
     },
     {
         "id": "OFF-AP-10003287",
         "product_name": "Tripp Lite TLP810NET Broadband Surge for Modem/Fax",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$870.92",
         "expense": "$586.90",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-150714"
-        ]
+        ],
+        "totalSales": "$13063.80"
     },
     {
         "id": "OFF-AP-10003622",
         "product_name": "Bravo II Megaboss 12-Amp Hard Body Upright, Replacement Belts, 2 Belts per Pack",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$880.50",
         "expense": "$736.47",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-112130"
-        ]
+        ],
+        "totalSales": "$3522.00"
     },
     {
         "id": "OFF-AP-10003779",
         "product_name": "Kensington 7 Outlet MasterPiece Power Center with Fax/Phone Line Protection",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$444.17",
         "expense": "$396.24",
+        "totalQuantity": 37,
         "transactions": [
             "CA-2016-143980",
             "CA-2016-120782"
-        ]
+        ],
+        "totalSales": "$16434.29"
     },
     {
         "id": "OFF-AP-10003842",
         "product_name": "Euro-Pro Shark Turbo Vacuum",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$79.78",
         "expense": "$299.44",
+        "totalQuantity": 12,
         "transactions": [
             "US-2016-147242"
-        ]
+        ],
+        "totalSales": "$957.36"
     },
     {
         "id": "OFF-AP-10003849",
         "product_name": "Hoover Shoulder Vac Commercial Portable Vacuum",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$21.49",
         "expense": "$908.58",
+        "totalQuantity": 47,
         "transactions": [
             "CA-2016-112452",
             "CA-2016-121783",
             "CA-2016-164007"
-        ]
+        ],
+        "totalSales": "$1010.03"
     },
     {
         "id": "OFF-AP-10003860",
         "product_name": "Fellowes Advanced 8 Outlet Surge Suppressor with Phone/Fax Protection",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$245.31",
         "expense": "$342.75",
+        "totalQuantity": 40,
         "transactions": [
             "CA-2016-127453",
             "CA-2016-125934"
-        ]
+        ],
+        "totalSales": "$9812.40"
     },
     {
         "id": "OFF-AP-10003971",
         "product_name": "Belkin 6 Outlet Metallic Surge Strip",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$223.31",
         "expense": "$552.40",
+        "totalQuantity": 42,
         "transactions": [
             "CA-2016-127019",
             "CA-2016-151841",
             "CA-2016-124107"
-        ]
+        ],
+        "totalSales": "$9379.02"
     },
     {
         "id": "OFF-AP-10004036",
         "product_name": "Bionaire 99.97% HEPA Air Cleaner",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$389.19",
         "expense": "$911.57",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-167010"
-        ]
+        ],
+        "totalSales": "$778.38"
     },
     {
         "id": "OFF-AP-10004052",
         "product_name": "Hoover Replacement Belts For Soft Guard & Commercial Ltweight Upright Vacs, 2/Pk",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$790.26",
         "expense": "$583.85",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-109337"
-        ]
+        ],
+        "totalSales": "$5531.82"
     },
     {
         "id": "OFF-AP-10004136",
         "product_name": "Kensington 6 Outlet SmartSocket Surge Protector",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$276.85",
         "expense": "$685.41",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-107083"
-        ]
+        ],
+        "totalSales": "$3599.05"
     },
     {
         "id": "OFF-AP-10004336",
         "product_name": "Conquest 14 Commercial Heavy-Duty Upright Vacuum, Collection System, Accessory Kit",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$719.36",
         "expense": "$375.10",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-129322"
-        ]
+        ],
+        "totalSales": "$10071.04"
     },
     {
         "id": "OFF-AP-10004487",
         "product_name": "Kensington 4 Outlet MasterPiece Compact Power Control Center",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$614.39",
         "expense": "$963.86",
+        "totalQuantity": 35,
         "transactions": [
             "CA-2016-111164",
             "CA-2016-138898"
-        ]
+        ],
+        "totalSales": "$21503.65"
     },
     {
         "id": "OFF-AP-10004532",
         "product_name": "Kensington 6 Outlet Guardian Standard Surge Protector",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$276.34",
         "expense": "$972.02",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-168760"
-        ]
+        ],
+        "totalSales": "$4974.12"
     },
     {
         "id": "OFF-AP-10004540",
         "product_name": "Eureka The Boss Lite 10-Amp Upright Vacuum, Blue",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$262.93",
         "expense": "$926.70",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-103177"
-        ]
+        ],
+        "totalSales": "$4469.81"
     },
     {
         "id": "OFF-AP-10004655",
         "product_name": "Holmes Visible Mist Ultrasonic Humidifier with 2.3-Gallon Output per Day, Replacement Filter",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$877.21",
         "expense": "$371.34",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-164497"
-        ]
+        ],
+        "totalSales": "$7894.89"
     },
     {
         "id": "OFF-AP-10004708",
         "product_name": "Fellowes Superior 10 Outlet Split Surge Protector",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$365.25",
         "expense": "$59.70",
+        "totalQuantity": 8,
         "transactions": [
             "US-2016-110569"
-        ]
+        ],
+        "totalSales": "$2922.00"
     },
     {
         "id": "OFF-AP-10004859",
         "product_name": "Acco 6 Outlet Guardian Premium Surge Suppressor",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$466.94",
         "expense": "$931.19",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-158701"
-        ]
+        ],
+        "totalSales": "$4202.46"
     },
     {
         "id": "OFF-AP-10004868",
         "product_name": "Hoover Commercial Soft Guard Upright Vacuum And Disposable Filtration Bags",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$244.41",
         "expense": "$823.06",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-166800"
-        ]
+        ],
+        "totalSales": "$1222.05"
     },
     {
         "id": "OFF-AP-10004980",
         "product_name": "3M Replacement Filter for Office Air Cleaner for 20' x 33' Room",
+        "category": "Office Supplies",
+        "sub_category": "Appliances",
         "price": "$941.94",
         "expense": "$67.48",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-124800",
             "US-2016-120502",
             "CA-2016-106208"
-        ]
+        ],
+        "totalSales": "$23548.50"
     },
     {
         "id": "OFF-AR-10000122",
         "product_name": "Newell 314",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$643.16",
         "expense": "$257.97",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-109386"
-        ]
+        ],
+        "totalSales": "$7717.92"
     },
     {
         "id": "OFF-AR-10000127",
         "product_name": "Newell 321",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$805.86",
         "expense": "$208.05",
+        "totalQuantity": 34,
         "transactions": [
             "CA-2016-109939",
             "CA-2016-103072"
-        ]
+        ],
+        "totalSales": "$27399.24"
     },
     {
         "id": "OFF-AR-10000203",
         "product_name": "Newell 336",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$104.81",
         "expense": "$804.77",
+        "totalQuantity": 29,
         "transactions": [
             "CA-2016-153612",
             "CA-2016-119627"
-        ]
+        ],
+        "totalSales": "$3039.49"
     },
     {
         "id": "OFF-AR-10000369",
         "product_name": "Design Ebony Sketching Pencil",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$53.91",
         "expense": "$938.81",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-132570"
-        ]
+        ],
+        "totalSales": "$161.73"
     },
     {
         "id": "OFF-AR-10000380",
         "product_name": "Hunt PowerHouse Electric Pencil Sharpener, Blue",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$396.83",
         "expense": "$624.28",
+        "totalQuantity": 34,
         "transactions": [
             "CA-2016-121720",
             "CA-2016-153794",
             "CA-2016-109386"
-        ]
+        ],
+        "totalSales": "$13492.22"
     },
     {
         "id": "OFF-AR-10000390",
         "product_name": "Newell Chalk Holder",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$423.38",
         "expense": "$790.41",
+        "totalQuantity": 1,
         "transactions": [
             "CA-2016-129854"
-        ]
+        ],
+        "totalSales": "$423.38"
     },
     {
         "id": "OFF-AR-10000411",
         "product_name": "Boston 16701 Slimline Battery Pencil Sharpener",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$662.48",
         "expense": "$460.55",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-131758"
-        ]
+        ],
+        "totalSales": "$9937.20"
     },
     {
         "id": "OFF-AR-10000588",
         "product_name": "Newell 345",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$748.28",
         "expense": "$527.66",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-137302"
-        ]
+        ],
+        "totalSales": "$6734.52"
     },
     {
         "id": "OFF-AR-10000614",
         "product_name": "Barrel Sharpener",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$43.08",
         "expense": "$253.39",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-148712"
-        ]
+        ],
+        "totalSales": "$689.28"
     },
     {
         "id": "OFF-AR-10000634",
         "product_name": "Newell 320",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$351.96",
         "expense": "$741.60",
+        "totalQuantity": 52,
         "transactions": [
             "US-2016-161466",
             "CA-2016-107468",
             "CA-2016-104059"
-        ]
+        ],
+        "totalSales": "$18301.92"
     },
     {
         "id": "OFF-AR-10000657",
         "product_name": "Binney & Smith inkTank Desk Highlighter, Chisel Tip, Yellow, 12/Box",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$189.49",
         "expense": "$555.05",
+        "totalQuantity": 27,
         "transactions": [
             "CA-2016-153626",
             "CA-2016-125710"
-        ]
+        ],
+        "totalSales": "$5116.23"
     },
     {
         "id": "OFF-AR-10000658",
         "product_name": "Newell 324",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$1.58",
         "expense": "$506.84",
+        "totalQuantity": 47,
         "transactions": [
             "CA-2016-115091",
             "CA-2016-153878",
             "CA-2016-103716"
-        ]
+        ],
+        "totalSales": "$74.26"
     },
     {
         "id": "OFF-AR-10000716",
         "product_name": "DIXON Ticonderoga Erasable Checking Pencils",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$351.74",
         "expense": "$112.55",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-110667"
-        ]
+        ],
+        "totalSales": "$3517.40"
     },
     {
         "id": "OFF-AR-10000817",
         "product_name": "Manco Dry-Lighter Erasable Highlighter",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$499.24",
         "expense": "$947.23",
+        "totalQuantity": 27,
         "transactions": [
             "CA-2016-145849",
             "US-2016-138093",
             "CA-2016-136658"
-        ]
+        ],
+        "totalSales": "$13479.48"
     },
     {
         "id": "OFF-AR-10000823",
         "product_name": "Newell 307",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$964.24",
         "expense": "$908.48",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-110324"
-        ]
+        ],
+        "totalSales": "$22177.52"
     },
     {
         "id": "OFF-AR-10001022",
         "product_name": "SANFORD Liquid Accent Tank-Style Highlighters",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$525.97",
         "expense": "$377.32",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-156482"
-        ]
+        ],
+        "totalSales": "$1577.91"
     },
     {
         "id": "OFF-AR-10001026",
         "product_name": "Sanford Uni-Blazer View Highlighters, Chisel Tip, Yellow",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$395.71",
         "expense": "$559.37",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-163055"
-        ]
+        ],
+        "totalSales": "$6727.07"
     },
     {
         "id": "OFF-AR-10001044",
         "product_name": "BOSTON Ranger #55 Pencil Sharpener, Black",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$828.03",
         "expense": "$218.74",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-168480",
             "CA-2016-154200",
             "CA-2016-118227"
-        ]
+        ],
+        "totalSales": "$25668.93"
     },
     {
         "id": "OFF-AR-10001118",
         "product_name": "Binney & Smith Crayola Metallic Crayons, 16-Color Pack",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$694.68",
         "expense": "$533.27",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-119291"
-        ]
+        ],
+        "totalSales": "$16672.32"
     },
     {
         "id": "OFF-AR-10001149",
         "product_name": "Avery Hi-Liter Comfort Grip Fluorescent Highlighter, Yellow Ink",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$629.45",
         "expense": "$21.04",
+        "totalQuantity": 34,
         "transactions": [
             "CA-2016-121650",
             "US-2016-130491"
-        ]
+        ],
+        "totalSales": "$21401.30"
     },
     {
         "id": "OFF-AR-10001166",
         "product_name": "Staples in misc. colors",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$446.08",
         "expense": "$749.21",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-124450"
-        ]
+        ],
+        "totalSales": "$8921.60"
     },
     {
         "id": "OFF-AR-10001177",
         "product_name": "Newell 349",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$247.70",
         "expense": "$200.71",
+        "totalQuantity": 7,
         "transactions": [
             "US-2016-164357"
-        ]
+        ],
+        "totalSales": "$1733.90"
     },
     {
         "id": "OFF-AR-10001246",
         "product_name": "Newell 317",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$698.36",
         "expense": "$287.68",
+        "totalQuantity": 56,
         "transactions": [
             "CA-2016-113628",
             "CA-2016-141243",
             "CA-2016-150770",
             "US-2016-106873"
-        ]
+        ],
+        "totalSales": "$39108.16"
     },
     {
         "id": "OFF-AR-10001315",
         "product_name": "Newell 310",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$246.11",
         "expense": "$547.71",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-111507",
             "CA-2016-102260"
-        ]
+        ],
+        "totalSales": "$6891.08"
     },
     {
         "id": "OFF-AR-10001374",
         "product_name": "BIC Brite Liner Highlighters, Chisel Tip",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$671.92",
         "expense": "$377.87",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-128608"
-        ]
+        ],
+        "totalSales": "$2015.76"
     },
     {
         "id": "OFF-AR-10001427",
         "product_name": "Newell 330",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$821.79",
         "expense": "$803.21",
+        "totalQuantity": 12,
         "transactions": [
             "US-2016-156797"
-        ]
+        ],
+        "totalSales": "$9861.48"
     },
     {
         "id": "OFF-AR-10001446",
         "product_name": "Newell 309",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$519.41",
         "expense": "$715.16",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-133396"
-        ]
+        ],
+        "totalSales": "$10907.61"
     },
     {
         "id": "OFF-AR-10001468",
         "product_name": "Sanford Prismacolor Professional Thick Lead Art Pencils, 36-Color Set",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$192.34",
         "expense": "$5.04",
+        "totalQuantity": 36,
         "transactions": [
             "CA-2016-112130",
             "CA-2016-154284"
-        ]
+        ],
+        "totalSales": "$6924.24"
     },
     {
         "id": "OFF-AR-10001473",
         "product_name": "Newell 313",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$215.68",
         "expense": "$449.65",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-104514",
             "CA-2016-104346"
-        ]
+        ],
+        "totalSales": "$3666.56"
     },
     {
         "id": "OFF-AR-10001545",
         "product_name": "Newell 326",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$97.36",
         "expense": "$758.12",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-104346"
-        ]
+        ],
+        "totalSales": "$876.24"
     },
     {
         "id": "OFF-AR-10001547",
         "product_name": "Newell 311",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$812.88",
         "expense": "$603.80",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-118948",
             "CA-2016-155586"
-        ]
+        ],
+        "totalSales": "$17070.48"
     },
     {
         "id": "OFF-AR-10001573",
         "product_name": "American Pencil",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$902.29",
         "expense": "$550.82",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-105634"
-        ]
+        ],
+        "totalSales": "$1804.58"
     },
     {
         "id": "OFF-AR-10001615",
         "product_name": "Newell 34",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$254.94",
         "expense": "$917.74",
+        "totalQuantity": 33,
         "transactions": [
             "CA-2016-132374",
             "CA-2016-108588"
-        ]
+        ],
+        "totalSales": "$8413.02"
     },
     {
         "id": "OFF-AR-10001662",
         "product_name": "Rogers Handheld Barrel Pencil Sharpener",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$63.64",
         "expense": "$224.41",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-145352",
             "CA-2016-129042"
-        ]
+        ],
+        "totalSales": "$763.68"
     },
     {
         "id": "OFF-AR-10001683",
         "product_name": "Lumber Crayons",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$600.80",
         "expense": "$281.17",
+        "totalQuantity": 38,
         "transactions": [
             "US-2016-150630",
             "US-2016-110163",
             "CA-2016-163181"
-        ]
+        ],
+        "totalSales": "$22830.40"
     },
     {
         "id": "OFF-AR-10001761",
         "product_name": "Avery Hi-Liter Smear-Safe Highlighters",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$287.05",
         "expense": "$541.73",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-162761",
             "US-2016-150231"
-        ]
+        ],
+        "totalSales": "$7463.30"
     },
     {
         "id": "OFF-AR-10001868",
         "product_name": "Prang Dustless Chalk Sticks",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$113.04",
         "expense": "$82.86",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-153388"
-        ]
+        ],
+        "totalSales": "$904.32"
     },
     {
         "id": "OFF-AR-10001897",
         "product_name": "Model L Table or Wall-Mount Pencil Sharpener",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$39.52",
         "expense": "$302.66",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-146290"
-        ]
+        ],
+        "totalSales": "$671.84"
     },
     {
         "id": "OFF-AR-10001915",
         "product_name": "Peel-Off China Markers",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$901.78",
         "expense": "$487.61",
+        "totalQuantity": 29,
         "transactions": [
             "CA-2016-130022",
             "CA-2016-163762"
-        ]
+        ],
+        "totalSales": "$26151.62"
     },
     {
         "id": "OFF-AR-10001919",
         "product_name": "OIC #2 Pencils, Medium Soft",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$794.56",
         "expense": "$716.26",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-161795"
-        ]
+        ],
+        "totalSales": "$19864.00"
     },
     {
         "id": "OFF-AR-10001940",
         "product_name": "Sanford Colorific Eraseable Coloring Pencils, 12 Count",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$202.14",
         "expense": "$893.44",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-137225",
             "CA-2016-144274",
             "CA-2016-134117"
-        ]
+        ],
+        "totalSales": "$6266.34"
     },
     {
         "id": "OFF-AR-10001953",
         "product_name": "Boston 1645 Deluxe Heavier-Duty Electric Pencil Sharpener",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$725.76",
         "expense": "$319.60",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-161445"
-        ]
+        ],
+        "totalSales": "$1451.52"
     },
     {
         "id": "OFF-AR-10001954",
         "product_name": "Newell 331",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$952.56",
         "expense": "$356.43",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-130554"
-        ]
+        ],
+        "totalSales": "$20003.76"
     },
     {
         "id": "OFF-AR-10001955",
         "product_name": "Newell 319",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$468.47",
         "expense": "$498.63",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-138954",
             "CA-2016-105844"
-        ]
+        ],
+        "totalSales": "$7495.52"
     },
     {
         "id": "OFF-AR-10001958",
         "product_name": "Stanley Bostitch Contemporary Electric Pencil Sharpeners",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$428.50",
         "expense": "$546.97",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-169397"
-        ]
+        ],
+        "totalSales": "$4285.00"
     },
     {
         "id": "OFF-AR-10001972",
         "product_name": "Newell 323",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$888.09",
         "expense": "$103.32",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-137603"
-        ]
+        ],
+        "totalSales": "$3552.36"
     },
     {
         "id": "OFF-AR-10002053",
         "product_name": "Premium Writing Pencils, Soft, #2 by Central Association for the Blind",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$320.06",
         "expense": "$190.64",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-169299",
             "CA-2016-122168"
-        ]
+        ],
+        "totalSales": "$9921.86"
     },
     {
         "id": "OFF-AR-10002067",
         "product_name": "Newell 334",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$330.52",
         "expense": "$883.14",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-112305",
             "CA-2016-148180",
             "CA-2016-143616"
-        ]
+        ],
+        "totalSales": "$6279.88"
     },
     {
         "id": "OFF-AR-10002255",
         "product_name": "Newell 346",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$755.50",
         "expense": "$103.96",
+        "totalQuantity": 5,
         "transactions": [
             "US-2016-128090"
-        ]
+        ],
+        "totalSales": "$3777.50"
     },
     {
         "id": "OFF-AR-10002257",
         "product_name": "Eldon Spacemaker Box, Quick-Snap Lid, Clear",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$642.10",
         "expense": "$958.99",
+        "totalQuantity": 33,
         "transactions": [
             "CA-2016-111325",
             "CA-2016-107083"
-        ]
+        ],
+        "totalSales": "$21189.30"
     },
     {
         "id": "OFF-AR-10002375",
         "product_name": "Newell 351",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$192.27",
         "expense": "$418.50",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-153717"
-        ]
+        ],
+        "totalSales": "$4229.94"
     },
     {
         "id": "OFF-AR-10002399",
         "product_name": "Dixon Prang Watercolor Pencils, 10-Color Set with Brush",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$479.97",
         "expense": "$918.23",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-107741",
             "CA-2016-147011"
-        ]
+        ],
+        "totalSales": "$14879.07"
     },
     {
         "id": "OFF-AR-10002445",
         "product_name": "SANFORD Major Accent Highlighters",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$402.03",
         "expense": "$634.37",
+        "totalQuantity": 12,
         "transactions": [
             "US-2016-152128"
-        ]
+        ],
+        "totalSales": "$4824.36"
     },
     {
         "id": "OFF-AR-10002467",
         "product_name": "Dixon Ticonderoga Pencils",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$199.54",
         "expense": "$649.62",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-102855"
-        ]
+        ],
+        "totalSales": "$2993.10"
     },
     {
         "id": "OFF-AR-10002578",
         "product_name": "Newell 335",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$482.75",
         "expense": "$315.11",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-100454"
-        ]
+        ],
+        "totalSales": "$6758.50"
     },
     {
         "id": "OFF-AR-10002656",
         "product_name": "Sanford Liquid Accent Highlighters",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$940.85",
         "expense": "$606.00",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-155068"
-        ]
+        ],
+        "totalSales": "$18817.00"
     },
     {
         "id": "OFF-AR-10002704",
         "product_name": "Boston 1900 Electric Pencil Sharpener",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$198.14",
         "expense": "$962.43",
+        "totalQuantity": 1,
         "transactions": [
             "CA-2016-105627"
-        ]
+        ],
+        "totalSales": "$198.14"
     },
     {
         "id": "OFF-AR-10002804",
         "product_name": "Faber Castell Col-Erase Pencils",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$410.31",
         "expense": "$828.08",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-134201"
-        ]
+        ],
+        "totalSales": "$2461.86"
     },
     {
         "id": "OFF-AR-10002952",
         "product_name": "Stanley Contemporary Battery Pencil Sharpeners",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$985.30",
         "expense": "$76.07",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-143490",
             "CA-2016-138331"
-        ]
+        ],
+        "totalSales": "$20691.30"
     },
     {
         "id": "OFF-AR-10002987",
         "product_name": "Prismacolor Color Pencil Set",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$501.45",
         "expense": "$862.96",
+        "totalQuantity": 1,
         "transactions": [
             "CA-2016-132626"
-        ]
+        ],
+        "totalSales": "$501.45"
     },
     {
         "id": "OFF-AR-10003045",
         "product_name": "Prang Colored Pencils",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$632.61",
         "expense": "$813.56",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-105347"
-        ]
+        ],
+        "totalSales": "$13917.42"
     },
     {
         "id": "OFF-AR-10003056",
         "product_name": "Newell 341",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$516.78",
         "expense": "$570.18",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-162376"
-        ]
+        ],
+        "totalSales": "$11369.16"
     },
     {
         "id": "OFF-AR-10003087",
         "product_name": "Staples in misc. colors",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$914.19",
         "expense": "$672.13",
+        "totalQuantity": 14,
         "transactions": [
             "US-2016-168732"
-        ]
+        ],
+        "totalSales": "$12798.66"
     },
     {
         "id": "OFF-AR-10003156",
         "product_name": "50 Colored Long Pencils",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$300.48",
         "expense": "$17.12",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-105970",
             "CA-2016-112014"
-        ]
+        ],
+        "totalSales": "$3004.80"
     },
     {
         "id": "OFF-AR-10003179",
         "product_name": "Dixon Ticonderoga Core-Lock Colored Pencils",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$977.36",
         "expense": "$141.04",
+        "totalQuantity": 11,
         "transactions": [
             "US-2016-106873"
-        ]
+        ],
+        "totalSales": "$10750.96"
     },
     {
         "id": "OFF-AR-10003183",
         "product_name": "Avery Fluorescent Highlighter Four-Color Set",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$605.92",
         "expense": "$369.13",
+        "totalQuantity": 51,
         "transactions": [
             "CA-2016-152681",
             "CA-2016-112522",
             "CA-2016-157343"
-        ]
+        ],
+        "totalSales": "$30901.92"
     },
     {
         "id": "OFF-AR-10003190",
         "product_name": "Newell 32",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$551.87",
         "expense": "$156.57",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-126557",
             "CA-2016-159590"
-        ]
+        ],
+        "totalSales": "$11589.27"
     },
     {
         "id": "OFF-AR-10003217",
         "product_name": "Newell 316",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$920.01",
         "expense": "$800.10",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-121552"
-        ]
+        ],
+        "totalSales": "$8280.09"
     },
     {
         "id": "OFF-AR-10003251",
         "product_name": "Prang Drawing Pencil Set",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$642.26",
         "expense": "$49.08",
+        "totalQuantity": 46,
         "transactions": [
             "CA-2016-103723",
             "CA-2016-155306"
-        ]
+        ],
+        "totalSales": "$29543.96"
     },
     {
         "id": "OFF-AR-10003373",
         "product_name": "Boston School Pro Electric Pencil Sharpener, 1670",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$466.51",
         "expense": "$916.55",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-119291",
             "US-2016-163433"
-        ]
+        ],
+        "totalSales": "$8863.69"
     },
     {
         "id": "OFF-AR-10003405",
         "product_name": "Dixon My First Ticonderoga Pencil, #2",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$753.29",
         "expense": "$639.91",
+        "totalQuantity": 24,
         "transactions": [
             "US-2016-103471"
-        ]
+        ],
+        "totalSales": "$18078.96"
     },
     {
         "id": "OFF-AR-10003481",
         "product_name": "Newell 348",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$797.42",
         "expense": "$365.32",
+        "totalQuantity": 20,
         "transactions": [
             "US-2016-163433"
-        ]
+        ],
+        "totalSales": "$15948.40"
     },
     {
         "id": "OFF-AR-10003504",
         "product_name": "Newell 347",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$943.94",
         "expense": "$475.47",
+        "totalQuantity": 33,
         "transactions": [
             "CA-2016-136224",
             "CA-2016-113131"
-        ]
+        ],
+        "totalSales": "$31150.02"
     },
     {
         "id": "OFF-AR-10003514",
         "product_name": "4009 Highlighters by Sanford",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$645.71",
         "expense": "$66.14",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-102281"
-        ]
+        ],
+        "totalSales": "$5811.39"
     },
     {
         "id": "OFF-AR-10003582",
         "product_name": "Boston Electric Pencil Sharpener, Model 1818, Charcoal Black",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$103.91",
         "expense": "$194.43",
+        "totalQuantity": 67,
         "transactions": [
             "US-2016-123960",
             "CA-2016-154340",
             "CA-2016-125066",
             "CA-2016-115693",
             "CA-2016-142937"
-        ]
+        ],
+        "totalSales": "$6961.97"
     },
     {
         "id": "OFF-AR-10003602",
         "product_name": "Quartet Omega Colored Chalk, 12/Pack",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$424.26",
         "expense": "$678.02",
+        "totalQuantity": 27,
         "transactions": [
             "CA-2016-167745",
             "CA-2016-122168"
-        ]
+        ],
+        "totalSales": "$11455.02"
     },
     {
         "id": "OFF-AR-10003696",
         "product_name": "Panasonic KP-350BK Electric Pencil Sharpener with Auto Stop",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$997.84",
         "expense": "$32.91",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-133585"
-        ]
+        ],
+        "totalSales": "$18958.96"
     },
     {
         "id": "OFF-AR-10003723",
         "product_name": "Avery Hi-Liter Fluorescent Desk Style Markers",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$421.97",
         "expense": "$634.30",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-119508"
-        ]
+        ],
+        "totalSales": "$5485.61"
     },
     {
         "id": "OFF-AR-10003732",
         "product_name": "Newell 333",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$120.30",
         "expense": "$66.35",
+        "totalQuantity": 73,
         "transactions": [
             "CA-2016-144652",
             "CA-2016-142237",
             "CA-2016-150749",
             "CA-2016-116260"
-        ]
+        ],
+        "totalSales": "$8781.90"
     },
     {
         "id": "OFF-AR-10003752",
         "product_name": "Deluxe Chalkboard Eraser Cleaner",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$957.19",
         "expense": "$105.70",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-155600"
-        ]
+        ],
+        "totalSales": "$16272.23"
     },
     {
         "id": "OFF-AR-10003759",
         "product_name": "Crayola Anti Dust Chalk, 12/Pack",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$848.65",
         "expense": "$103.62",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-109337"
-        ]
+        ],
+        "totalSales": "$16973.00"
     },
     {
         "id": "OFF-AR-10003829",
         "product_name": "Newell 35",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$448.22",
         "expense": "$375.93",
+        "totalQuantity": 18,
         "transactions": [
             "US-2016-129637"
-        ]
+        ],
+        "totalSales": "$8067.96"
     },
     {
         "id": "OFF-AR-10003856",
         "product_name": "Newell 344",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$675.29",
         "expense": "$761.66",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-145352"
-        ]
+        ],
+        "totalSales": "$2025.87"
     },
     {
         "id": "OFF-AR-10003903",
         "product_name": "Sanford 52201 APSCO Electric Pencil Sharpener",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$61.69",
         "expense": "$967.44",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-152611",
             "CA-2016-134117"
-        ]
+        ],
+        "totalSales": "$1295.49"
     },
     {
         "id": "OFF-AR-10004022",
         "product_name": "Panasonic KP-380BK Classic Electric Pencil Sharpener",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$433.45",
         "expense": "$552.27",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-161998"
-        ]
+        ],
+        "totalSales": "$2167.25"
     },
     {
         "id": "OFF-AR-10004042",
         "product_name": "BOSTON Model 1800 Electric Pencil Sharpeners, Putty/Woodgrain",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$762.18",
         "expense": "$516.86",
+        "totalQuantity": 68,
         "transactions": [
             "US-2016-150630",
             "CA-2016-138009",
             "CA-2016-144806",
             "CA-2016-161830"
-        ]
+        ],
+        "totalSales": "$51828.24"
     },
     {
         "id": "OFF-AR-10004062",
         "product_name": "Staples in misc. colors",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$292.22",
         "expense": "$996.59",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-115945"
-        ]
+        ],
+        "totalSales": "$7013.28"
     },
     {
         "id": "OFF-AR-10004078",
         "product_name": "Newell 312",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$344.14",
         "expense": "$700.07",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-131884",
             "CA-2016-124541",
             "CA-2016-123092"
-        ]
+        ],
+        "totalSales": "$7915.22"
     },
     {
         "id": "OFF-AR-10004269",
         "product_name": "Newell 31",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$543.32",
         "expense": "$892.76",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-104941"
-        ]
+        ],
+        "totalSales": "$8149.80"
     },
     {
         "id": "OFF-AR-10004272",
         "product_name": "Newell 308",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$426.61",
         "expense": "$792.32",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-164882"
-        ]
+        ],
+        "totalSales": "$1706.44"
     },
     {
         "id": "OFF-AR-10004441",
         "product_name": "BIC Brite Liner Highlighters",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$486.01",
         "expense": "$764.34",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-157028"
-        ]
+        ],
+        "totalSales": "$1944.04"
     },
     {
         "id": "OFF-AR-10004587",
         "product_name": "Boston 1827 Commercial Additional Cutter, Drive Gear & Gear Rack for 1606",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$754.50",
         "expense": "$283.87",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-129322"
-        ]
+        ],
+        "totalSales": "$18862.50"
     },
     {
         "id": "OFF-AR-10004602",
         "product_name": "Boston KS Multi-Size Manual Pencil Sharpener",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$436.56",
         "expense": "$198.59",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-139738",
             "CA-2016-129217"
-        ]
+        ],
+        "totalSales": "$13533.36"
     },
     {
         "id": "OFF-AR-10004648",
         "product_name": "Boston 19500 Mighty Mite Electric Pencil Sharpener",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$926.27",
         "expense": "$227.28",
+        "totalQuantity": 36,
         "transactions": [
             "CA-2016-100454",
             "CA-2016-165057",
             "CA-2016-152891"
-        ]
+        ],
+        "totalSales": "$33345.72"
     },
     {
         "id": "OFF-AR-10004685",
         "product_name": "Binney & Smith Crayola Metallic Colored Pencils, 8-Color Set",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$991.10",
         "expense": "$217.16",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-164833",
             "CA-2016-102016"
-        ]
+        ],
+        "totalSales": "$6937.70"
     },
     {
         "id": "OFF-AR-10004691",
         "product_name": "Boston 1730 StandUp Electric Pencil Sharpener",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$84.22",
         "expense": "$605.23",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-151253",
             "CA-2016-119480"
-        ]
+        ],
+        "totalSales": "$1179.08"
     },
     {
         "id": "OFF-AR-10004757",
         "product_name": "Crayola Colored Pencils",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$199.72",
         "expense": "$987.64",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-161263",
             "CA-2016-128958",
             "CA-2016-122266"
-        ]
+        ],
+        "totalSales": "$4793.28"
     },
     {
         "id": "OFF-AR-10004817",
         "product_name": "Colorific Watercolor Pencils",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$193.54",
         "expense": "$406.10",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-124268"
-        ]
+        ],
+        "totalSales": "$3290.18"
     },
     {
         "id": "OFF-AR-10004930",
         "product_name": "Turquoise Lead Holder with Pocket Clip",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$705.00",
         "expense": "$785.12",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-156510"
-        ]
+        ],
+        "totalSales": "$15510.00"
     },
     {
         "id": "OFF-AR-10004999",
         "product_name": "Newell 315",
+        "category": "Office Supplies",
+        "sub_category": "Art",
         "price": "$60.30",
         "expense": "$564.85",
+        "totalQuantity": 44,
         "transactions": [
             "US-2016-147662",
             "CA-2016-123113"
-        ]
+        ],
+        "totalSales": "$2653.20"
     },
     {
         "id": "OFF-BI-10000014",
         "product_name": "Heavy-Duty E-Z-D Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$918.99",
         "expense": "$28.73",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-138457"
-        ]
+        ],
+        "totalSales": "$5513.94"
     },
     {
         "id": "OFF-BI-10000042",
         "product_name": "Pressboard Data Binder, Crimson, 12\" X 8 1/2\"",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$998.94",
         "expense": "$479.06",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-102260"
-        ]
+        ],
+        "totalSales": "$24973.50"
     },
     {
         "id": "OFF-BI-10000050",
         "product_name": "Angle-D Binders with Locking Rings, Label Holders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$714.15",
         "expense": "$811.73",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-157770",
             "CA-2016-158421"
-        ]
+        ],
+        "totalSales": "$16425.45"
     },
     {
         "id": "OFF-BI-10000069",
         "product_name": "GBC Prepunched Paper, 19-Hole, for Binding Systems, 24-lb",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$798.14",
         "expense": "$888.36",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-103135",
             "CA-2016-103135"
-        ]
+        ],
+        "totalSales": "$20751.64"
     },
     {
         "id": "OFF-BI-10000088",
         "product_name": "GBC Imprintable Covers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$905.51",
         "expense": "$591.18",
+        "totalQuantity": 49,
         "transactions": [
             "CA-2016-129112",
             "CA-2016-143077",
             "CA-2016-113110",
             "CA-2016-127173"
-        ]
+        ],
+        "totalSales": "$44369.99"
     },
     {
         "id": "OFF-BI-10000138",
         "product_name": "Acco Translucent Poly Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$885.69",
         "expense": "$318.62",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-126970"
-        ]
+        ],
+        "totalSales": "$11513.97"
     },
     {
         "id": "OFF-BI-10000145",
         "product_name": "Zipper Ring Binder Pockets",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$411.85",
         "expense": "$159.40",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-160059",
             "CA-2016-162761"
-        ]
+        ],
+        "totalSales": "$4118.50"
     },
     {
         "id": "OFF-BI-10000201",
         "product_name": "Avery Triangle Shaped Sheet Lifters, Black, 2/Pack",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$252.99",
         "expense": "$673.33",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-119690"
-        ]
+        ],
+        "totalSales": "$6324.75"
     },
     {
         "id": "OFF-BI-10000285",
         "product_name": "XtraLife ClearVue Slant-D Ring Binders by Cardinal",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$288.31",
         "expense": "$934.53",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-157812"
-        ]
+        ],
+        "totalSales": "$5189.58"
     },
     {
         "id": "OFF-BI-10000301",
         "product_name": "GBC Instant Report Kit",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$630.61",
         "expense": "$543.50",
+        "totalQuantity": 38,
         "transactions": [
             "US-2016-104430",
             "US-2016-141453"
-        ]
+        ],
+        "totalSales": "$23963.18"
     },
     {
         "id": "OFF-BI-10000309",
         "product_name": "GBC Twin Loop Wire Binding Elements, 9/16\" Spine, Black",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$58.15",
         "expense": "$125.73",
+        "totalQuantity": 45,
         "transactions": [
             "CA-2016-130792",
             "CA-2016-146255",
             "CA-2016-104486"
-        ]
+        ],
+        "totalSales": "$2616.75"
     },
     {
         "id": "OFF-BI-10000315",
         "product_name": "Poly Designer Cover & Back",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$597.17",
         "expense": "$822.30",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-168809",
             "CA-2016-108259"
-        ]
+        ],
+        "totalSales": "$13734.91"
     },
     {
         "id": "OFF-BI-10000320",
         "product_name": "GBC Plastic Binding Combs",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$646.74",
         "expense": "$94.01",
+        "totalQuantity": 53,
         "transactions": [
             "CA-2016-114069",
             "US-2016-138121",
             "CA-2016-140375",
             "US-2016-163433"
-        ]
+        ],
+        "totalSales": "$34277.22"
     },
     {
         "id": "OFF-BI-10000343",
         "product_name": "Pressboard Covers with Storage Hooks, 9 1/2\" x 11\", Light Blue",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$678.90",
         "expense": "$128.09",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-117961",
             "CA-2016-111325"
-        ]
+        ],
+        "totalSales": "$11541.30"
     },
     {
         "id": "OFF-BI-10000404",
         "product_name": "Avery Printable Repositionable Plastic Tabs",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$773.06",
         "expense": "$256.78",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-150413"
-        ]
+        ],
+        "totalSales": "$5411.42"
     },
     {
         "id": "OFF-BI-10000474",
         "product_name": "Avery Recycled Flexi-View Covers for Binding Systems",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$670.87",
         "expense": "$728.56",
+        "totalQuantity": 22,
         "transactions": [
             "US-2016-150630",
             "CA-2016-163181"
-        ]
+        ],
+        "totalSales": "$14759.14"
     },
     {
         "id": "OFF-BI-10000545",
         "product_name": "GBC Ibimaster 500 Manual ProClick Binding System",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$427.60",
         "expense": "$33.29",
+        "totalQuantity": 34,
         "transactions": [
             "CA-2016-131338",
             "CA-2016-155600",
             "CA-2016-141565",
             "CA-2016-153423"
-        ]
+        ],
+        "totalSales": "$14538.40"
     },
     {
         "id": "OFF-BI-10000546",
         "product_name": "Avery Durable Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$673.58",
         "expense": "$312.81",
+        "totalQuantity": 38,
         "transactions": [
             "CA-2016-116092",
             "US-2016-122784",
             "CA-2016-141327"
-        ]
+        ],
+        "totalSales": "$25596.04"
     },
     {
         "id": "OFF-BI-10000605",
         "product_name": "Acco Pressboard Covers with Storage Hooks, 9 1/2\" x 11\", Executive Red",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$28.28",
         "expense": "$761.30",
+        "totalQuantity": 44,
         "transactions": [
             "CA-2016-135020",
             "CA-2016-148180",
             "CA-2016-164084"
-        ]
+        ],
+        "totalSales": "$1244.32"
     },
     {
         "id": "OFF-BI-10000666",
         "product_name": "Surelock Post Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$802.25",
         "expense": "$647.75",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-134943"
-        ]
+        ],
+        "totalSales": "$18451.75"
     },
     {
         "id": "OFF-BI-10000756",
         "product_name": "Storex DuraTech Recycled Plastic Frosted Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$586.56",
         "expense": "$351.75",
+        "totalQuantity": 31,
         "transactions": [
             "US-2016-118983",
             "CA-2016-107083"
-        ]
+        ],
+        "totalSales": "$18183.36"
     },
     {
         "id": "OFF-BI-10000773",
         "product_name": "Insertable Tab Post Binder Dividers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$552.56",
         "expense": "$603.44",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-168767",
             "US-2016-136259"
-        ]
+        ],
+        "totalSales": "$15471.68"
     },
     {
         "id": "OFF-BI-10000778",
         "product_name": "GBC VeloBinder Electric Binding Machine",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$755.73",
         "expense": "$910.15",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-124800"
-        ]
+        ],
+        "totalSales": "$3022.92"
     },
     {
         "id": "OFF-BI-10000822",
         "product_name": "Acco PRESSTEX Data Binder with Storage Hooks, Light Blue, 9 1/2\" X 11\"",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$798.52",
         "expense": "$803.50",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-156510"
-        ]
+        ],
+        "totalSales": "$11977.80"
     },
     {
         "id": "OFF-BI-10000829",
         "product_name": "Avery Non-Stick Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$234.08",
         "expense": "$252.86",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-115392"
-        ]
+        ],
+        "totalSales": "$1170.40"
     },
     {
         "id": "OFF-BI-10000848",
         "product_name": "Angle-D Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$837.82",
         "expense": "$320.89",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-102876"
-        ]
+        ],
+        "totalSales": "$1675.64"
     },
     {
         "id": "OFF-BI-10000948",
         "product_name": "GBC Laser Imprintable Binding System Covers, Desert Sand",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$97.40",
         "expense": "$627.08",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-120621"
-        ]
+        ],
+        "totalSales": "$584.40"
     },
     {
         "id": "OFF-BI-10000962",
         "product_name": "Acco Flexible ACCOHIDE Square Ring Data Binder, Dark Blue, 11 1/2\" X 14\" 7/8\"",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$358.57",
         "expense": "$574.42",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-109575",
             "CA-2016-101924",
             "CA-2016-162621",
             "CA-2016-155635"
-        ]
+        ],
+        "totalSales": "$8247.11"
     },
     {
         "id": "OFF-BI-10000977",
         "product_name": "Ibico Plastic Spiral Binding Combs",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$249.42",
         "expense": "$113.41",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-109470",
             "CA-2016-109190"
-        ]
+        ],
+        "totalSales": "$4240.14"
     },
     {
         "id": "OFF-BI-10001031",
         "product_name": "Pressboard Data Binders by Wilson Jones",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$956.25",
         "expense": "$948.51",
+        "totalQuantity": 30,
         "transactions": [
             "CA-2016-165050",
             "CA-2016-153535"
-        ]
+        ],
+        "totalSales": "$28687.50"
     },
     {
         "id": "OFF-BI-10001036",
         "product_name": "Cardinal EasyOpen D-Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$106.92",
         "expense": "$533.21",
+        "totalQuantity": 35,
         "transactions": [
             "US-2016-110569",
             "CA-2016-137974"
-        ]
+        ],
+        "totalSales": "$3742.20"
     },
     {
         "id": "OFF-BI-10001072",
         "product_name": "GBC Clear Cover, 8-1/2 x 11, unpunched, 25 covers per pack",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$177.29",
         "expense": "$457.60",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-109470"
-        ]
+        ],
+        "totalSales": "$354.58"
     },
     {
         "id": "OFF-BI-10001078",
         "product_name": "Acco PRESSTEX Data Binder with Storage Hooks, Dark Blue, 14 7/8\" X 11\"",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$740.70",
         "expense": "$391.32",
+        "totalQuantity": 52,
         "transactions": [
             "CA-2016-135545",
             "CA-2016-144099",
             "US-2016-145121"
-        ]
+        ],
+        "totalSales": "$38516.40"
     },
     {
         "id": "OFF-BI-10001097",
         "product_name": "Avery Hole Reinforcements",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$118.10",
         "expense": "$216.50",
+        "totalQuantity": 30,
         "transactions": [
             "CA-2016-158456",
             "CA-2016-161830",
             "CA-2016-135251"
-        ]
+        ],
+        "totalSales": "$3543.00"
     },
     {
         "id": "OFF-BI-10001098",
         "product_name": "Acco D-Ring Binder w/DublLock",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$234.74",
         "expense": "$241.82",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-109638",
             "US-2016-157014",
             "US-2016-120572",
             "CA-2016-154823"
-        ]
+        ],
+        "totalSales": "$7276.94"
     },
     {
         "id": "OFF-BI-10001107",
         "product_name": "GBC White Gloss Covers, Plain Front",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$498.60",
         "expense": "$440.58",
+        "totalQuantity": 36,
         "transactions": [
             "CA-2016-101091",
             "CA-2016-144302"
-        ]
+        ],
+        "totalSales": "$17949.60"
     },
     {
         "id": "OFF-BI-10001116",
         "product_name": "Wilson Jones 1\" Hanging DublLock Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$311.79",
         "expense": "$596.88",
+        "totalQuantity": 42,
         "transactions": [
             "CA-2016-144386",
             "CA-2016-120845"
-        ]
+        ],
+        "totalSales": "$13095.18"
     },
     {
         "id": "OFF-BI-10001132",
         "product_name": "Acco PRESSTEX Data Binder with Storage Hooks, Dark Blue, 9 1/2\" X 11\"",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$113.70",
         "expense": "$822.30",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-115938"
-        ]
+        ],
+        "totalSales": "$2160.30"
     },
     {
         "id": "OFF-BI-10001249",
         "product_name": "Avery Heavy-Duty EZD View Binder with Locking Rings",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$840.18",
         "expense": "$468.62",
+        "totalQuantity": 71,
         "transactions": [
             "CA-2016-104941",
             "CA-2016-113901",
             "CA-2016-113523",
             "US-2016-165512",
             "CA-2016-113040"
-        ]
+        ],
+        "totalSales": "$59652.78"
     },
     {
         "id": "OFF-BI-10001294",
         "product_name": "Fellowes Binding Cases",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$955.36",
         "expense": "$824.02",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-158701"
-        ]
+        ],
+        "totalSales": "$6687.52"
     },
     {
         "id": "OFF-BI-10001308",
         "product_name": "GBC Standard Plastic Binding Systems' Combs",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$155.19",
         "expense": "$274.51",
+        "totalQuantity": 70,
         "transactions": [
             "CA-2016-134747",
             "CA-2016-121720",
             "CA-2016-127607",
             "CA-2016-153738"
-        ]
+        ],
+        "totalSales": "$10863.30"
     },
     {
         "id": "OFF-BI-10001359",
         "product_name": "GBC DocuBind TL300 Electric Binding System",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$788.92",
         "expense": "$739.50",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-105571"
-        ]
+        ],
+        "totalSales": "$5522.44"
     },
     {
         "id": "OFF-BI-10001510",
         "product_name": "Deluxe Heavy-Duty Vinyl Round Ring Binder",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$495.60",
         "expense": "$174.22",
+        "totalQuantity": 27,
         "transactions": [
             "CA-2016-104626",
             "CA-2016-123568"
-        ]
+        ],
+        "totalSales": "$13381.20"
     },
     {
         "id": "OFF-BI-10001524",
         "product_name": "GBC Premium Transparent Covers with Diagonal Lined Pattern",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$585.75",
         "expense": "$515.14",
+        "totalQuantity": 53,
         "transactions": [
             "US-2016-150161",
             "CA-2016-137302",
             "CA-2016-168207",
             "CA-2016-141810"
-        ]
+        ],
+        "totalSales": "$31044.75"
     },
     {
         "id": "OFF-BI-10001525",
         "product_name": "Acco Pressboard Covers with Storage Hooks, 14 7/8\" x 11\", Executive Red",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$763.19",
         "expense": "$297.18",
+        "totalQuantity": 27,
         "transactions": [
             "US-2016-150630",
             "CA-2016-153381"
-        ]
+        ],
+        "totalSales": "$20606.13"
     },
     {
         "id": "OFF-BI-10001543",
         "product_name": "GBC VeloBinder Manual Binding System",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$566.85",
         "expense": "$685.34",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-115938"
-        ]
+        ],
+        "totalSales": "$7369.05"
     },
     {
         "id": "OFF-BI-10001553",
         "product_name": "SpineVue Locking Slant-D Ring Binders by Cardinal",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$436.27",
         "expense": "$496.49",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-110247"
-        ]
+        ],
+        "totalSales": "$5671.51"
     },
     {
         "id": "OFF-BI-10001575",
         "product_name": "GBC Linen Binding Covers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$691.89",
         "expense": "$612.22",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-119291",
             "CA-2016-150770"
-        ]
+        ],
+        "totalSales": "$15221.58"
     },
     {
         "id": "OFF-BI-10001597",
         "product_name": "Wilson Jones Ledger-Size, Piano-Hinge Binder, 2\", Blue",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$621.46",
         "expense": "$159.43",
+        "totalQuantity": 58,
         "transactions": [
             "CA-2016-111094",
             "CA-2016-142419",
             "CA-2016-102806"
-        ]
+        ],
+        "totalSales": "$36044.68"
     },
     {
         "id": "OFF-BI-10001617",
         "product_name": "GBC Wire Binding Combs",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$121.94",
         "expense": "$722.44",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-121188"
-        ]
+        ],
+        "totalSales": "$1585.22"
     },
     {
         "id": "OFF-BI-10001628",
         "product_name": "Acco Data Flex Cable Posts For Top & Bottom Load Binders, 6\" Capacity",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$465.87",
         "expense": "$364.09",
+        "totalQuantity": 40,
         "transactions": [
             "CA-2016-116092",
             "US-2016-138716"
-        ]
+        ],
+        "totalSales": "$18634.80"
     },
     {
         "id": "OFF-BI-10001634",
         "product_name": "Wilson Jones Active Use Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$65.82",
         "expense": "$867.66",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-132626"
-        ]
+        ],
+        "totalSales": "$1579.68"
     },
     {
         "id": "OFF-BI-10001636",
         "product_name": "Ibico Plastic and Wire Spiral Binding Combs",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$310.55",
         "expense": "$454.73",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-169278"
-        ]
+        ],
+        "totalSales": "$6521.55"
     },
     {
         "id": "OFF-BI-10001658",
         "product_name": "GBC Standard Therm-A-Bind Covers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$271.72",
         "expense": "$148.01",
+        "totalQuantity": 16,
         "transactions": [
             "US-2016-147662",
             "CA-2016-121783"
-        ]
+        ],
+        "totalSales": "$4347.52"
     },
     {
         "id": "OFF-BI-10001670",
         "product_name": "Vinyl Sectional Post Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$365.94",
         "expense": "$110.92",
+        "totalQuantity": 30,
         "transactions": [
             "US-2016-100531",
             "CA-2016-110947"
-        ]
+        ],
+        "totalSales": "$10978.20"
     },
     {
         "id": "OFF-BI-10001718",
         "product_name": "GBC DocuBind P50 Personal Binding Machine",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$694.24",
         "expense": "$747.75",
+        "totalQuantity": 16,
         "transactions": [
             "US-2016-152128",
             "CA-2016-129322",
             "CA-2016-123092"
-        ]
+        ],
+        "totalSales": "$11107.84"
     },
     {
         "id": "OFF-BI-10001757",
         "product_name": "Pressboard Hanging Data Binders for Unburst Sheets",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$770.21",
         "expense": "$667.13",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-125696",
             "CA-2016-129917"
-        ]
+        ],
+        "totalSales": "$3851.05"
     },
     {
         "id": "OFF-BI-10001758",
         "product_name": "Wilson Jones 14 Line Acrylic Coated Pressboard Data Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$320.92",
         "expense": "$992.23",
+        "totalQuantity": 24,
         "transactions": [
             "US-2016-165743"
-        ]
+        ],
+        "totalSales": "$7702.08"
     },
     {
         "id": "OFF-BI-10001765",
         "product_name": "Wilson Jones Heavy-Duty Casebound Ring Binders with Metal Hinges",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$592.94",
         "expense": "$794.62",
+        "totalQuantity": 35,
         "transactions": [
             "CA-2016-119907",
             "US-2016-107349",
             "CA-2016-146255"
-        ]
+        ],
+        "totalSales": "$20752.90"
     },
     {
         "id": "OFF-BI-10001890",
         "product_name": "Avery Poly Binder Pockets",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$251.39",
         "expense": "$810.70",
+        "totalQuantity": 22,
         "transactions": [
             "US-2016-163685",
             "CA-2016-113222"
-        ]
+        ],
+        "totalSales": "$5530.58"
     },
     {
         "id": "OFF-BI-10001900",
         "product_name": "DXL Angle-View Binders with Locking Rings, Black",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$13.88",
         "expense": "$418.82",
+        "totalQuantity": 34,
         "transactions": [
             "CA-2016-130785",
             "CA-2016-148712"
-        ]
+        ],
+        "totalSales": "$471.92"
     },
     {
         "id": "OFF-BI-10001922",
         "product_name": "Storex Dura Pro Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$523.77",
         "expense": "$168.66",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-137946",
             "CA-2016-164441"
-        ]
+        ],
+        "totalSales": "$12046.71"
     },
     {
         "id": "OFF-BI-10001982",
         "product_name": "Wilson Jones Custom Binder Spines & Labels",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$607.42",
         "expense": "$349.43",
+        "totalQuantity": 44,
         "transactions": [
             "CA-2016-119291",
             "US-2016-165743",
             "CA-2016-120845"
-        ]
+        ],
+        "totalSales": "$26726.48"
     },
     {
         "id": "OFF-BI-10002003",
         "product_name": "Ibico Presentation Index for Binding Systems",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$905.79",
         "expense": "$466.47",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-147501"
-        ]
+        ],
+        "totalSales": "$6340.53"
     },
     {
         "id": "OFF-BI-10002012",
         "product_name": "Wilson Jones Easy Flow II Sheet Lifters",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$978.12",
         "expense": "$589.07",
+        "totalQuantity": 30,
         "transactions": [
             "CA-2016-140984",
             "CA-2016-106978"
-        ]
+        ],
+        "totalSales": "$29343.60"
     },
     {
         "id": "OFF-BI-10002026",
         "product_name": "Ibico Recycled Linen-Style Covers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$831.00",
         "expense": "$742.90",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-150770",
             "CA-2016-110814",
             "CA-2016-134117"
-        ]
+        ],
+        "totalSales": "$21606.00"
     },
     {
         "id": "OFF-BI-10002049",
         "product_name": "UniKeep View Case Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$921.77",
         "expense": "$268.52",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-105312",
             "CA-2016-137064"
-        ]
+        ],
+        "totalSales": "$22122.48"
     },
     {
         "id": "OFF-BI-10002071",
         "product_name": "Fellowes Black Plastic Comb Bindings",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$144.89",
         "expense": "$861.09",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-143602",
             "CA-2016-120551"
-        ]
+        ],
+        "totalSales": "$2752.91"
     },
     {
         "id": "OFF-BI-10002072",
         "product_name": "Cardinal Slant-D Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$499.08",
         "expense": "$179.22",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-167010"
-        ]
+        ],
+        "totalSales": "$1996.32"
     },
     {
         "id": "OFF-BI-10002082",
         "product_name": "GBC Twin Loop Wire Binding Elements",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$870.27",
         "expense": "$93.74",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-105102",
             "US-2016-117184"
-        ]
+        ],
+        "totalSales": "$22627.02"
     },
     {
         "id": "OFF-BI-10002133",
         "product_name": "Wilson Jones Elliptical Ring 3 1/2\" Capacity Binders, 800 sheets",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$178.76",
         "expense": "$844.36",
+        "totalQuantity": 37,
         "transactions": [
             "CA-2016-101868",
             "CA-2016-129525"
-        ]
+        ],
+        "totalSales": "$6614.12"
     },
     {
         "id": "OFF-BI-10002160",
         "product_name": "Acco Hanging Data Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$564.38",
         "expense": "$383.21",
+        "totalQuantity": 30,
         "transactions": [
             "CA-2016-138002",
             "US-2016-147662"
-        ]
+        ],
+        "totalSales": "$16931.40"
     },
     {
         "id": "OFF-BI-10002194",
         "product_name": "Cardinal Hold-It CD Pocket",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$871.38",
         "expense": "$611.37",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-141936",
             "CA-2016-107083"
-        ]
+        ],
+        "totalSales": "$21784.50"
     },
     {
         "id": "OFF-BI-10002215",
         "product_name": "Wilson Jones Hanging View Binder, White, 1\"",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$144.73",
         "expense": "$514.22",
+        "totalQuantity": 20,
         "transactions": [
             "US-2016-124219",
             "CA-2016-107678"
-        ]
+        ],
+        "totalSales": "$2894.60"
     },
     {
         "id": "OFF-BI-10002225",
         "product_name": "Square Ring Data Binders, Rigid 75 Pt. Covers, 11\" x 14-7/8\"",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$957.10",
         "expense": "$369.92",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-115511"
-        ]
+        ],
+        "totalSales": "$22013.30"
     },
     {
         "id": "OFF-BI-10002393",
         "product_name": "Binder Posts",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$741.22",
         "expense": "$945.98",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-127509"
-        ]
+        ],
+        "totalSales": "$6670.98"
     },
     {
         "id": "OFF-BI-10002412",
         "product_name": "Wilson Jones \u201cSnap\u201d Scratch Pad Binder Tool for Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$439.10",
         "expense": "$375.52",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-111297"
-        ]
+        ],
+        "totalSales": "$5269.20"
     },
     {
         "id": "OFF-BI-10002432",
         "product_name": "Wilson Jones Standard D-Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$504.94",
         "expense": "$6.59",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-146696",
             "CA-2016-132633"
-        ]
+        ],
+        "totalSales": "$14138.32"
     },
     {
         "id": "OFF-BI-10002437",
         "product_name": "Recycled Premium Regency Composition Covers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$336.71",
         "expense": "$262.92",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-145065",
             "CA-2016-156013"
-        ]
+        ],
+        "totalSales": "$5050.65"
     },
     {
         "id": "OFF-BI-10002498",
         "product_name": "Clear Mylar Reinforcing Strips",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$215.06",
         "expense": "$72.88",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-162761"
-        ]
+        ],
+        "totalSales": "$1720.48"
     },
     {
         "id": "OFF-BI-10002557",
         "product_name": "Presstex Flexible Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$521.70",
         "expense": "$119.93",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-155334",
             "CA-2016-168564"
-        ]
+        ],
+        "totalSales": "$4695.30"
     },
     {
         "id": "OFF-BI-10002571",
         "product_name": "Avery Framed View Binder, EZD Ring (Locking), Navy, 1 1/2\"",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$941.17",
         "expense": "$93.09",
+        "totalQuantity": 23,
         "transactions": [
             "US-2016-111927"
-        ]
+        ],
+        "totalSales": "$21646.91"
     },
     {
         "id": "OFF-BI-10002609",
         "product_name": "Avery Hidden Tab Dividers for Binding Systems",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$119.09",
         "expense": "$119.39",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-100734"
-        ]
+        ],
+        "totalSales": "$1309.99"
     },
     {
         "id": "OFF-BI-10002706",
         "product_name": "Avery Premier Heavy-Duty Binder with Round Locking Rings",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$298.80",
         "expense": "$43.39",
+        "totalQuantity": 32,
         "transactions": [
             "CA-2016-153416",
             "CA-2016-132136",
             "CA-2016-152513"
-        ]
+        ],
+        "totalSales": "$9561.60"
     },
     {
         "id": "OFF-BI-10002735",
         "product_name": "GBC Prestige Therm-A-Bind Covers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$655.88",
         "expense": "$90.05",
+        "totalQuantity": 62,
         "transactions": [
             "CA-2016-110667",
             "CA-2016-111514",
             "CA-2016-159779"
-        ]
+        ],
+        "totalSales": "$40664.56"
     },
     {
         "id": "OFF-BI-10002764",
         "product_name": "Recycled Pressboard Report Cover with Reinforced Top Hinge",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$212.82",
         "expense": "$370.28",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-149636"
-        ]
+        ],
+        "totalSales": "$5320.50"
     },
     {
         "id": "OFF-BI-10002794",
         "product_name": "Avery Trapezoid Ring Binder, 3\" Capacity, Black, 1040 sheets",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$939.50",
         "expense": "$619.99",
+        "totalQuantity": 32,
         "transactions": [
             "US-2016-156867",
             "CA-2016-131072"
-        ]
+        ],
+        "totalSales": "$30064.00"
     },
     {
         "id": "OFF-BI-10002799",
         "product_name": "SlimView Poly Binder, 3/8\"",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$192.12",
         "expense": "$32.32",
+        "totalQuantity": 16,
         "transactions": [
             "US-2016-123960",
             "CA-2016-113628",
             "CA-2016-169572"
-        ]
+        ],
+        "totalSales": "$3073.92"
     },
     {
         "id": "OFF-BI-10002813",
         "product_name": "Avery Reinforcements for Hole-Punch Pages",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$586.46",
         "expense": "$779.59",
+        "totalQuantity": 58,
         "transactions": [
             "US-2016-149692",
             "CA-2016-153416",
             "US-2016-118766"
-        ]
+        ],
+        "totalSales": "$34014.68"
     },
     {
         "id": "OFF-BI-10002824",
         "product_name": "Recycled Easel Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$369.67",
         "expense": "$604.28",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-155054"
-        ]
+        ],
+        "totalSales": "$1109.01"
     },
     {
         "id": "OFF-BI-10002852",
         "product_name": "Ibico Standard Transparent Covers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$576.28",
         "expense": "$982.10",
+        "totalQuantity": 55,
         "transactions": [
             "CA-2016-149587",
             "CA-2016-169397",
             "CA-2016-166338"
-        ]
+        ],
+        "totalSales": "$31695.40"
     },
     {
         "id": "OFF-BI-10002854",
         "product_name": "Performers Binder/Pad Holder, Black",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$964.84",
         "expense": "$854.42",
+        "totalQuantity": 53,
         "transactions": [
             "CA-2016-132626",
             "CA-2016-140221",
             "CA-2016-136420"
-        ]
+        ],
+        "totalSales": "$51136.52"
     },
     {
         "id": "OFF-BI-10002867",
         "product_name": "GBC Recycled Regency Composition Covers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$827.07",
         "expense": "$820.80",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-111395"
-        ]
+        ],
+        "totalSales": "$9924.84"
     },
     {
         "id": "OFF-BI-10002897",
         "product_name": "Black Avery Memo-Size 3-Ring Binder, 5 1/2\" x 8 1/2\"",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$781.15",
         "expense": "$151.90",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-116876"
-        ]
+        ],
+        "totalSales": "$10936.10"
     },
     {
         "id": "OFF-BI-10002931",
         "product_name": "Avery Trapezoid Extra Heavy Duty 4\" Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$405.04",
         "expense": "$103.18",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-120880"
-        ]
+        ],
+        "totalSales": "$6075.60"
     },
     {
         "id": "OFF-BI-10002949",
         "product_name": "Prestige Round Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$720.36",
         "expense": "$978.81",
+        "totalQuantity": 11,
         "transactions": [
             "US-2016-164448",
             "CA-2016-162607"
-        ]
+        ],
+        "totalSales": "$7923.96"
     },
     {
         "id": "OFF-BI-10002954",
         "product_name": "Newell 3-Hole Punched Plastic Slotted Magazine Holders for Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$292.99",
         "expense": "$831.72",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-156377"
-        ]
+        ],
+        "totalSales": "$4101.86"
     },
     {
         "id": "OFF-BI-10002982",
         "product_name": "Avery Self-Adhesive Photo Pockets for Polaroid Photos",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$168.85",
         "expense": "$925.80",
+        "totalQuantity": 40,
         "transactions": [
             "CA-2016-112214",
             "CA-2016-156734",
             "CA-2016-150714",
             "CA-2016-132276"
-        ]
+        ],
+        "totalSales": "$6754.00"
     },
     {
         "id": "OFF-BI-10003091",
         "product_name": "GBC DocuBind TL200 Manual Binding Machine",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$814.95",
         "expense": "$230.91",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-163587"
-        ]
+        ],
+        "totalSales": "$2444.85"
     },
     {
         "id": "OFF-BI-10003094",
         "product_name": "Self-Adhesive Ring Binder Labels",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$133.07",
         "expense": "$596.53",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-100685"
-        ]
+        ],
+        "totalSales": "$665.35"
     },
     {
         "id": "OFF-BI-10003166",
         "product_name": "GBC Plasticlear Binding Covers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$527.92",
         "expense": "$618.41",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-133977",
             "CA-2016-106362"
-        ]
+        ],
+        "totalSales": "$3695.44"
     },
     {
         "id": "OFF-BI-10003196",
         "product_name": "Accohide Poly Flexible Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$624.17",
         "expense": "$207.11",
+        "totalQuantity": 51,
         "transactions": [
             "CA-2016-149384",
             "CA-2016-145814",
             "CA-2016-148873",
             "CA-2016-113131"
-        ]
+        ],
+        "totalSales": "$31832.67"
     },
     {
         "id": "OFF-BI-10003274",
         "product_name": "Avery Durable Slant Ring Binders, No Labels",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$341.15",
         "expense": "$404.02",
+        "totalQuantity": 6,
         "transactions": [
             "US-2016-146745"
-        ]
+        ],
+        "totalSales": "$2046.90"
     },
     {
         "id": "OFF-BI-10003291",
         "product_name": "Wilson Jones Leather-Like Binders with DublLock Round Rings",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$872.86",
         "expense": "$828.31",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-113628",
             "CA-2016-111990"
-        ]
+        ],
+        "totalSales": "$11347.18"
     },
     {
         "id": "OFF-BI-10003305",
         "product_name": "Avery Hanging File Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$667.93",
         "expense": "$146.11",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-105571"
-        ]
+        ],
+        "totalSales": "$12022.74"
     },
     {
         "id": "OFF-BI-10003314",
         "product_name": "Tuff Stuff Recycled Round Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$47.66",
         "expense": "$564.22",
+        "totalQuantity": 37,
         "transactions": [
             "CA-2016-156335",
             "CA-2016-126557",
             "CA-2016-148180"
-        ]
+        ],
+        "totalSales": "$1763.42"
     },
     {
         "id": "OFF-BI-10003350",
         "product_name": "Acco Expandable Hanging Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$628.82",
         "expense": "$758.97",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-112452"
-        ]
+        ],
+        "totalSales": "$2515.28"
     },
     {
         "id": "OFF-BI-10003355",
         "product_name": "Cardinal Holdit Business Card Pockets",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$257.56",
         "expense": "$781.12",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-168207"
-        ]
+        ],
+        "totalSales": "$3605.84"
     },
     {
         "id": "OFF-BI-10003364",
         "product_name": "Binding Machine Supplies",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$733.89",
         "expense": "$769.95",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-137526"
-        ]
+        ],
+        "totalSales": "$15411.69"
     },
     {
         "id": "OFF-BI-10003460",
         "product_name": "Acco 3-Hole Punch",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$103.17",
         "expense": "$509.00",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-124044"
-        ]
+        ],
+        "totalSales": "$2269.74"
     },
     {
         "id": "OFF-BI-10003527",
         "product_name": "Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$16.44",
         "expense": "$882.30",
+        "totalQuantity": 56,
         "transactions": [
             "CA-2016-145352",
             "CA-2016-162782",
             "CA-2016-120782",
             "US-2016-163825"
-        ]
+        ],
+        "totalSales": "$920.64"
     },
     {
         "id": "OFF-BI-10003529",
         "product_name": "Avery Round Ring Poly Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$381.48",
         "expense": "$243.54",
+        "totalQuantity": 48,
         "transactions": [
             "CA-2016-110667",
             "CA-2016-109001",
             "CA-2016-150441"
-        ]
+        ],
+        "totalSales": "$18311.04"
     },
     {
         "id": "OFF-BI-10003638",
         "product_name": "GBC Durable Plastic Covers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$782.16",
         "expense": "$935.97",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-100545"
-        ]
+        ],
+        "totalSales": "$13296.72"
     },
     {
         "id": "OFF-BI-10003650",
         "product_name": "GBC DocuBind 300 Electric Binding Machine",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$887.52",
         "expense": "$897.43",
+        "totalQuantity": 25,
         "transactions": [
             "US-2016-136476"
-        ]
+        ],
+        "totalSales": "$22188.00"
     },
     {
         "id": "OFF-BI-10003655",
         "product_name": "Durable Pressboard Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$371.89",
         "expense": "$553.52",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-130610"
-        ]
+        ],
+        "totalSales": "$8925.36"
     },
     {
         "id": "OFF-BI-10003656",
         "product_name": "Fellowes PB200 Plastic Comb Binding Machine",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$44.31",
         "expense": "$941.88",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-122210"
-        ]
+        ],
+        "totalSales": "$221.55"
     },
     {
         "id": "OFF-BI-10003669",
         "product_name": "3M Organizer Strips",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$841.74",
         "expense": "$895.14",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-142237"
-        ]
+        ],
+        "totalSales": "$5050.44"
     },
     {
         "id": "OFF-BI-10003676",
         "product_name": "GBC Standard Recycled Report Covers, Clear Plastic Sheets",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$68.06",
         "expense": "$679.15",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-149811",
             "US-2016-163433"
-        ]
+        ],
+        "totalSales": "$1565.38"
     },
     {
         "id": "OFF-BI-10003684",
         "product_name": "Wilson Jones Legal Size Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$96.21",
         "expense": "$294.43",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-136798"
-        ]
+        ],
+        "totalSales": "$577.26"
     },
     {
         "id": "OFF-BI-10003694",
         "product_name": "Avery 3 1/2\" Diskette Storage Pages, 10/Pack",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$380.86",
         "expense": "$821.20",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-132080"
-        ]
+        ],
+        "totalSales": "$6474.62"
     },
     {
         "id": "OFF-BI-10003707",
         "product_name": "Aluminum Screw Posts",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$520.41",
         "expense": "$545.37",
+        "totalQuantity": 75,
         "transactions": [
             "CA-2016-127418",
             "CA-2016-117961",
@@ -18385,4553 +20588,6441 @@ export const products = [
             "CA-2016-109470",
             "CA-2016-136378",
             "CA-2016-157343"
-        ]
+        ],
+        "totalSales": "$39030.75"
     },
     {
         "id": "OFF-BI-10003708",
         "product_name": "Acco Four Pocket Poly Ring Binder with Label Holder, Smoke, 1\"",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$290.65",
         "expense": "$526.71",
+        "totalQuantity": 23,
         "transactions": [
             "US-2016-164448",
             "CA-2016-162621"
-        ]
+        ],
+        "totalSales": "$6684.95"
     },
     {
         "id": "OFF-BI-10003712",
         "product_name": "Acco Pressboard Covers with Storage Hooks, 14 7/8\" x 11\", Light Blue",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$518.73",
         "expense": "$103.83",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-168459",
             "CA-2016-160787"
-        ]
+        ],
+        "totalSales": "$14524.44"
     },
     {
         "id": "OFF-BI-10003718",
         "product_name": "GBC Therma-A-Bind 250T Electric Binding System",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$75.84",
         "expense": "$881.33",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-142475"
-        ]
+        ],
+        "totalSales": "$1592.64"
     },
     {
         "id": "OFF-BI-10003719",
         "product_name": "Large Capacity Hanging Post Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$495.55",
         "expense": "$405.56",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-107020"
-        ]
+        ],
+        "totalSales": "$10406.55"
     },
     {
         "id": "OFF-BI-10003727",
         "product_name": "Avery Durable Slant Ring Binders With Label Holder",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$644.72",
         "expense": "$88.61",
+        "totalQuantity": 42,
         "transactions": [
             "CA-2016-165050",
             "US-2016-126753"
-        ]
+        ],
+        "totalSales": "$27078.24"
     },
     {
         "id": "OFF-BI-10003876",
         "product_name": "Green Canvas Binder for 8-1/2\" x 14\" Sheets",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$639.45",
         "expense": "$643.55",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-101868"
-        ]
+        ],
+        "totalSales": "$5115.60"
     },
     {
         "id": "OFF-BI-10003925",
         "product_name": "Fellowes PB300 Plastic Comb Binding Machine",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$558.43",
         "expense": "$268.13",
+        "totalQuantity": 9,
         "transactions": [
             "US-2016-155369"
-        ]
+        ],
+        "totalSales": "$5025.87"
     },
     {
         "id": "OFF-BI-10003963",
         "product_name": "Cardinal Holdit Data Disk Pockets",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$769.25",
         "expense": "$960.69",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-138954"
-        ]
+        ],
+        "totalSales": "$16923.50"
     },
     {
         "id": "OFF-BI-10003981",
         "product_name": "Avery Durable Plastic 1\" Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$342.70",
         "expense": "$916.51",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-146563",
             "US-2016-126753"
-        ]
+        ],
+        "totalSales": "$5483.20"
     },
     {
         "id": "OFF-BI-10003984",
         "product_name": "Lock-Up Easel 'Spel-Binder'",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$129.48",
         "expense": "$403.42",
+        "totalQuantity": 1,
         "transactions": [
             "CA-2016-124800"
-        ]
+        ],
+        "totalSales": "$129.48"
     },
     {
         "id": "OFF-BI-10004001",
         "product_name": "GBC Recycled VeloBinder Covers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$473.20",
         "expense": "$843.67",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-132626",
             "CA-2016-129546"
-        ]
+        ],
+        "totalSales": "$13249.60"
     },
     {
         "id": "OFF-BI-10004002",
         "product_name": "Wilson Jones International Size A4 Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$127.29",
         "expense": "$798.11",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-133242"
-        ]
+        ],
+        "totalSales": "$2545.80"
     },
     {
         "id": "OFF-BI-10004022",
         "product_name": "Acco Suede Grain Vinyl Round Ring Binder",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$189.01",
         "expense": "$451.19",
+        "totalQuantity": 39,
         "transactions": [
             "CA-2016-146829",
             "CA-2016-142237"
-        ]
+        ],
+        "totalSales": "$7371.39"
     },
     {
         "id": "OFF-BI-10004040",
         "product_name": "Wilson Jones Impact Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$866.05",
         "expense": "$427.39",
+        "totalQuantity": 41,
         "transactions": [
             "CA-2016-115924",
             "CA-2016-151470"
-        ]
+        ],
+        "totalSales": "$35508.05"
     },
     {
         "id": "OFF-BI-10004139",
         "product_name": "Fellowes Presentation Covers for Comb Binding Machines",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$486.31",
         "expense": "$371.31",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-139780"
-        ]
+        ],
+        "totalSales": "$1458.93"
     },
     {
         "id": "OFF-BI-10004140",
         "product_name": "Avery Non-Stick Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$78.20",
         "expense": "$676.90",
+        "totalQuantity": 57,
         "transactions": [
             "CA-2016-137946",
             "CA-2016-142692",
             "CA-2016-156608"
-        ]
+        ],
+        "totalSales": "$4457.40"
     },
     {
         "id": "OFF-BI-10004187",
         "product_name": "3-ring staple pack",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$707.74",
         "expense": "$921.99",
+        "totalQuantity": 46,
         "transactions": [
             "CA-2016-119592",
             "CA-2016-142041",
             "CA-2016-120516"
-        ]
+        ],
+        "totalSales": "$32556.04"
     },
     {
         "id": "OFF-BI-10004209",
         "product_name": "Fellowes Twister Kit, Gray/Clear, 3/pkg",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$392.51",
         "expense": "$277.73",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-124541",
             "US-2016-161347"
-        ]
+        ],
+        "totalSales": "$10990.28"
     },
     {
         "id": "OFF-BI-10004224",
         "product_name": "Catalog Binders with Expanding Posts",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$29.34",
         "expense": "$437.52",
+        "totalQuantity": 50,
         "transactions": [
             "CA-2016-120341",
             "CA-2016-136147",
             "US-2016-132836"
-        ]
+        ],
+        "totalSales": "$1467.00"
     },
     {
         "id": "OFF-BI-10004230",
         "product_name": "GBC Recycled Grain Textured Covers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$98.60",
         "expense": "$785.99",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-134082"
-        ]
+        ],
+        "totalSales": "$1577.60"
     },
     {
         "id": "OFF-BI-10004233",
         "product_name": "GBC Pre-Punched Binding Paper, Plastic, White, 8-1/2\" x 11\"",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$322.21",
         "expense": "$911.59",
+        "totalQuantity": 24,
         "transactions": [
             "US-2016-148817"
-        ]
+        ],
+        "totalSales": "$7733.04"
     },
     {
         "id": "OFF-BI-10004236",
         "product_name": "XtraLife ClearVue Slant-D Ring Binder, White, 3\"",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$105.90",
         "expense": "$82.38",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-153325"
-        ]
+        ],
+        "totalSales": "$953.10"
     },
     {
         "id": "OFF-BI-10004330",
         "product_name": "GBC Velobind Prepunched Cover Sets, Regency Series",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$276.20",
         "expense": "$655.16",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-161263",
             "CA-2016-115945"
-        ]
+        ],
+        "totalSales": "$2485.80"
     },
     {
         "id": "OFF-BI-10004352",
         "product_name": "Wilson Jones DublLock D-Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$529.10",
         "expense": "$387.22",
+        "totalQuantity": 17,
         "transactions": [
             "US-2016-160150"
-        ]
+        ],
+        "totalSales": "$8994.70"
     },
     {
         "id": "OFF-BI-10004364",
         "product_name": "Storex Dura Pro Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$872.62",
         "expense": "$600.24",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-100818"
-        ]
+        ],
+        "totalSales": "$17452.40"
     },
     {
         "id": "OFF-BI-10004410",
         "product_name": "C-Line Peel & Stick Add-On Filing Pockets, 8-3/4 x 5-1/8, 10/Pack",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$736.24",
         "expense": "$87.19",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-115742"
-        ]
+        ],
+        "totalSales": "$12516.08"
     },
     {
         "id": "OFF-BI-10004492",
         "product_name": "Tuf-Vin Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$307.33",
         "expense": "$849.77",
+        "totalQuantity": 29,
         "transactions": [
             "CA-2016-109470",
             "CA-2016-136469",
             "US-2016-136749"
-        ]
+        ],
+        "totalSales": "$8912.57"
     },
     {
         "id": "OFF-BI-10004506",
         "product_name": "Wilson Jones data.warehouse D-Ring Binders with DublLock",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$105.81",
         "expense": "$39.71",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-108588",
             "CA-2016-120845"
-        ]
+        ],
+        "totalSales": "$2327.82"
     },
     {
         "id": "OFF-BI-10004519",
         "product_name": "GBC DocuBind P100 Manual Binding Machine",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$52.57",
         "expense": "$958.54",
+        "totalQuantity": 39,
         "transactions": [
             "CA-2016-164882",
             "CA-2016-106187",
             "US-2016-130512"
-        ]
+        ],
+        "totalSales": "$2050.23"
     },
     {
         "id": "OFF-BI-10004528",
         "product_name": "Cardinal Poly Pocket Divider Pockets for Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$964.46",
         "expense": "$806.81",
+        "totalQuantity": 32,
         "transactions": [
             "CA-2016-147851",
             "CA-2016-146465"
-        ]
+        ],
+        "totalSales": "$30862.72"
     },
     {
         "id": "OFF-BI-10004593",
         "product_name": "Ibico Laser Imprintable Binding System Covers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$474.24",
         "expense": "$471.62",
+        "totalQuantity": 41,
         "transactions": [
             "CA-2016-121720",
             "CA-2016-163965",
             "CA-2016-125934"
-        ]
+        ],
+        "totalSales": "$19443.84"
     },
     {
         "id": "OFF-BI-10004632",
         "product_name": "Ibico Hi-Tech Manual Binding System",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$851.81",
         "expense": "$660.44",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-109197",
             "CA-2016-121699"
-        ]
+        ],
+        "totalSales": "$14480.77"
     },
     {
         "id": "OFF-BI-10004654",
         "product_name": "Avery Binding System Hidden Tab Executive Style Index Sets",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$934.13",
         "expense": "$898.25",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-160864"
-        ]
+        ],
+        "totalSales": "$22419.12"
     },
     {
         "id": "OFF-BI-10004656",
         "product_name": "Peel & Stick Add-On Corner Pockets",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$523.41",
         "expense": "$153.38",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-122287"
-        ]
+        ],
+        "totalSales": "$10468.20"
     },
     {
         "id": "OFF-BI-10004728",
         "product_name": "Wilson Jones Turn Tabs Binder Tool for Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$480.14",
         "expense": "$637.97",
+        "totalQuantity": 44,
         "transactions": [
             "CA-2016-116750",
             "CA-2016-163965",
             "CA-2016-140718"
-        ]
+        ],
+        "totalSales": "$21126.16"
     },
     {
         "id": "OFF-BI-10004738",
         "product_name": "Flexible Leather- Look Classic Collection Ring Binder",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$457.19",
         "expense": "$683.53",
+        "totalQuantity": 29,
         "transactions": [
             "CA-2016-113173",
             "CA-2016-139962"
-        ]
+        ],
+        "totalSales": "$13258.51"
     },
     {
         "id": "OFF-BI-10004781",
         "product_name": "GBC Wire Binding Strips",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$148.75",
         "expense": "$553.48",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-102876"
-        ]
+        ],
+        "totalSales": "$1636.25"
     },
     {
         "id": "OFF-BI-10004817",
         "product_name": "GBC Personal VeloBind Strips",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$819.72",
         "expense": "$720.58",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-104493"
-        ]
+        ],
+        "totalSales": "$5738.04"
     },
     {
         "id": "OFF-BI-10004826",
         "product_name": "JM Magazine Binder",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$628.99",
         "expense": "$145.91",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-133242"
-        ]
+        ],
+        "totalSales": "$15095.76"
     },
     {
         "id": "OFF-BI-10004828",
         "product_name": "GBC Poly Designer Binding Covers",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$532.36",
         "expense": "$930.91",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-129917"
-        ]
+        ],
+        "totalSales": "$5323.60"
     },
     {
         "id": "OFF-BI-10004965",
         "product_name": "Ibico Covers for Plastic or Wire Binding Elements",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$821.57",
         "expense": "$998.96",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-124541",
             "CA-2016-135853"
-        ]
+        ],
+        "totalSales": "$11501.98"
     },
     {
         "id": "OFF-BI-10004967",
         "product_name": "Round Ring Binders",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$123.13",
         "expense": "$379.66",
+        "totalQuantity": 12,
         "transactions": [
             "US-2016-161991"
-        ]
+        ],
+        "totalSales": "$1477.56"
     },
     {
         "id": "OFF-BI-10004970",
         "product_name": "ACCOHIDE 3-Ring Binder, Blue, 1\"",
+        "category": "Office Supplies",
+        "sub_category": "Binders",
         "price": "$533.08",
         "expense": "$70.51",
+        "totalQuantity": 43,
         "transactions": [
             "CA-2016-168564",
             "CA-2016-163895",
             "CA-2016-155054"
-        ]
+        ],
+        "totalSales": "$22922.44"
     },
     {
         "id": "OFF-EN-10000056",
         "product_name": "Cameo Buff Policy Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$974.05",
         "expense": "$62.93",
+        "totalQuantity": 62,
         "transactions": [
             "CA-2016-154921",
             "CA-2016-122371",
             "CA-2016-121965",
             "CA-2016-147529"
-        ]
+        ],
+        "totalSales": "$60391.10"
     },
     {
         "id": "OFF-EN-10000461",
         "product_name": "#10- 4 1/8\" x 9 1/2\" Recycled Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$277.10",
         "expense": "$942.81",
+        "totalQuantity": 51,
         "transactions": [
             "CA-2016-100573",
             "CA-2016-140830",
             "CA-2016-153038",
             "CA-2016-108588"
-        ]
+        ],
+        "totalSales": "$14132.10"
     },
     {
         "id": "OFF-EN-10000483",
         "product_name": "White Envelopes, White Envelopes with Clear Poly Window",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$280.01",
         "expense": "$667.76",
+        "totalQuantity": 34,
         "transactions": [
             "CA-2016-160472",
             "CA-2016-146948",
             "CA-2016-134922"
-        ]
+        ],
+        "totalSales": "$9520.34"
     },
     {
         "id": "OFF-EN-10000781",
         "product_name": "#10- 4 1/8\" x 9 1/2\" Recycled Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$493.61",
         "expense": "$975.65",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-127509"
-        ]
+        ],
+        "totalSales": "$2468.05"
     },
     {
         "id": "OFF-EN-10000927",
         "product_name": "Jet-Pak Recycled Peel 'N' Seal Padded Mailers",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$774.73",
         "expense": "$69.29",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-149734",
             "CA-2016-119291"
-        ]
+        ],
+        "totalSales": "$19368.25"
     },
     {
         "id": "OFF-EN-10001028",
         "product_name": "Staple envelope",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$43.09",
         "expense": "$899.89",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-118955"
-        ]
+        ],
+        "totalSales": "$861.80"
     },
     {
         "id": "OFF-EN-10001137",
         "product_name": "#10 Gummed Flap White Envelopes, 100/Box",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$383.62",
         "expense": "$81.35",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-121041"
-        ]
+        ],
+        "totalSales": "$8439.64"
     },
     {
         "id": "OFF-EN-10001335",
         "product_name": "White Business Envelopes with Contemporary Seam, Recycled White Business Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$898.42",
         "expense": "$219.94",
+        "totalQuantity": 28,
         "transactions": [
             "US-2016-138303",
             "CA-2016-154291"
-        ]
+        ],
+        "totalSales": "$25155.76"
     },
     {
         "id": "OFF-EN-10001415",
         "product_name": "Staple envelope",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$544.94",
         "expense": "$645.14",
+        "totalQuantity": 3,
         "transactions": [
             "US-2016-118766"
-        ]
+        ],
+        "totalSales": "$1634.82"
     },
     {
         "id": "OFF-EN-10001434",
         "product_name": "Strathmore #10 Envelopes, Ultimate White",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$88.38",
         "expense": "$693.30",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-134782",
             "CA-2016-110289"
-        ]
+        ],
+        "totalSales": "$1944.36"
     },
     {
         "id": "OFF-EN-10001453",
         "product_name": "Tyvek Interoffice Envelopes, 9 1/2\" x 12 1/2\", 100/Box",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$184.37",
         "expense": "$659.06",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-158421"
-        ]
+        ],
+        "totalSales": "$2212.44"
     },
     {
         "id": "OFF-EN-10001509",
         "product_name": "Poly String Tie Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$968.45",
         "expense": "$943.14",
+        "totalQuantity": 55,
         "transactions": [
             "US-2016-150630",
             "CA-2016-131457",
             "CA-2016-146486"
-        ]
+        ],
+        "totalSales": "$53264.75"
     },
     {
         "id": "OFF-EN-10001532",
         "product_name": "Brown Kraft Recycled Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$866.85",
         "expense": "$830.44",
+        "totalQuantity": 44,
         "transactions": [
             "CA-2016-105970",
             "CA-2016-154746"
-        ]
+        ],
+        "totalSales": "$38141.40"
     },
     {
         "id": "OFF-EN-10001539",
         "product_name": "Staple envelope",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$442.35",
         "expense": "$116.02",
+        "totalQuantity": 39,
         "transactions": [
             "CA-2016-161711",
             "US-2016-153283",
             "CA-2016-167696"
-        ]
+        ],
+        "totalSales": "$17251.65"
     },
     {
         "id": "OFF-EN-10002230",
         "product_name": "Airmail Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$537.79",
         "expense": "$140.61",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-136735"
-        ]
+        ],
+        "totalSales": "$3226.74"
     },
     {
         "id": "OFF-EN-10002500",
         "product_name": "Globe Weis Peel & Seel First Class Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$619.46",
         "expense": "$344.94",
+        "totalQuantity": 10,
         "transactions": [
             "US-2016-137008"
-        ]
+        ],
+        "totalSales": "$6194.60"
     },
     {
         "id": "OFF-EN-10002504",
         "product_name": "Tyvek  Top-Opening Peel & Seel Envelopes, Plain White",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$319.32",
         "expense": "$414.96",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-102016"
-        ]
+        ],
+        "totalSales": "$5109.12"
     },
     {
         "id": "OFF-EN-10002600",
         "product_name": "Redi-Strip #10 Envelopes, 4 1/8 x 9 1/2",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$293.95",
         "expense": "$88.01",
+        "totalQuantity": 37,
         "transactions": [
             "CA-2016-105312",
             "US-2016-164448",
             "CA-2016-132486"
-        ]
+        ],
+        "totalSales": "$10876.15"
     },
     {
         "id": "OFF-EN-10002621",
         "product_name": "Staple envelope",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$627.18",
         "expense": "$975.15",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-109512",
             "CA-2016-136728"
-        ]
+        ],
+        "totalSales": "$17561.04"
     },
     {
         "id": "OFF-EN-10002831",
         "product_name": "Tyvek  Top-Opening Peel & Seel  Envelopes, Gray",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$777.40",
         "expense": "$975.10",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-140830"
-        ]
+        ],
+        "totalSales": "$3109.60"
     },
     {
         "id": "OFF-EN-10002986",
         "product_name": "#10-4 1/8\" x 9 1/2\" Premium Diagonal Seam Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$75.04",
         "expense": "$866.76",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-117415"
-        ]
+        ],
+        "totalSales": "$675.36"
     },
     {
         "id": "OFF-EN-10003055",
         "product_name": "Blue String-Tie & Button Interoffice Envelopes, 10 x 13",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$72.00",
         "expense": "$197.50",
+        "totalQuantity": 48,
         "transactions": [
             "CA-2016-132570",
             "CA-2016-162964"
-        ]
+        ],
+        "totalSales": "$3456.00"
     },
     {
         "id": "OFF-EN-10003068",
         "product_name": "#6 3/4 Gummed Flap White Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$492.24",
         "expense": "$376.62",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-154795",
             "CA-2016-113131"
-        ]
+        ],
+        "totalSales": "$3937.92"
     },
     {
         "id": "OFF-EN-10003072",
         "product_name": "Peel & Seel Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$228.32",
         "expense": "$530.32",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-167269",
             "CA-2016-155586"
-        ]
+        ],
+        "totalSales": "$2968.16"
     },
     {
         "id": "OFF-EN-10003286",
         "product_name": "Staple envelope",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$664.38",
         "expense": "$925.76",
+        "totalQuantity": 60,
         "transactions": [
             "CA-2016-124107",
             "CA-2016-101889",
             "CA-2016-103093",
             "CA-2016-144274"
-        ]
+        ],
+        "totalSales": "$39862.80"
     },
     {
         "id": "OFF-EN-10003296",
         "product_name": "Tyvek Side-Opening Peel & Seel Expanding Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$388.00",
         "expense": "$746.12",
+        "totalQuantity": 56,
         "transactions": [
             "CA-2016-118871",
             "CA-2016-135580",
             "CA-2016-109169"
-        ]
+        ],
+        "totalSales": "$21728.00"
     },
     {
         "id": "OFF-EN-10003798",
         "product_name": "Recycled Interoffice Envelopes with Re-Use-A-Seal Closure, 10 x 13",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$160.10",
         "expense": "$837.98",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-112375"
-        ]
+        ],
+        "totalSales": "$3041.90"
     },
     {
         "id": "OFF-EN-10003845",
         "product_name": "Colored Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$294.93",
         "expense": "$236.15",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-134257"
-        ]
+        ],
+        "totalSales": "$2359.44"
     },
     {
         "id": "OFF-EN-10003862",
         "product_name": "Laser & Ink Jet Business Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$70.20",
         "expense": "$795.30",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-162537",
             "CA-2016-115420"
-        ]
+        ],
+        "totalSales": "$842.40"
     },
     {
         "id": "OFF-EN-10004030",
         "product_name": "Convenience Packs of Business Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$504.01",
         "expense": "$932.67",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-128083"
-        ]
+        ],
+        "totalSales": "$3528.07"
     },
     {
         "id": "OFF-EN-10004147",
         "product_name": "Wausau Papers Astrobrights Colored Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$136.47",
         "expense": "$848.83",
+        "totalQuantity": 42,
         "transactions": [
             "CA-2016-130659",
             "CA-2016-166604"
-        ]
+        ],
+        "totalSales": "$5731.74"
     },
     {
         "id": "OFF-EN-10004459",
         "product_name": "Security-Tint Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$895.09",
         "expense": "$329.70",
+        "totalQuantity": 36,
         "transactions": [
             "CA-2016-142755",
             "US-2016-113327",
             "CA-2016-133536",
             "CA-2016-117898"
-        ]
+        ],
+        "totalSales": "$32223.24"
     },
     {
         "id": "OFF-EN-10004483",
         "product_name": "#10 White Business Envelopes,4 1/8 x 9 1/2",
+        "category": "Office Supplies",
+        "sub_category": "Envelopes",
         "price": "$508.73",
         "expense": "$932.27",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-106978"
-        ]
+        ],
+        "totalSales": "$5087.30"
     },
     {
         "id": "OFF-FA-10000053",
         "product_name": "Revere Boxed Rubber Bands by Revere",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$792.75",
         "expense": "$571.73",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-122210"
-        ]
+        ],
+        "totalSales": "$15855.00"
     },
     {
         "id": "OFF-FA-10000134",
         "product_name": "Advantus Push Pins, Aluminum Head",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$64.06",
         "expense": "$731.80",
+        "totalQuantity": 25,
         "transactions": [
             "US-2016-130491"
-        ]
+        ],
+        "totalSales": "$1601.50"
     },
     {
         "id": "OFF-FA-10000304",
         "product_name": "Advantus Push Pins",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$170.08",
         "expense": "$177.50",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-138674"
-        ]
+        ],
+        "totalSales": "$3571.68"
     },
     {
         "id": "OFF-FA-10000490",
         "product_name": "OIC Binder Clips, Mini, 1/4\" Capacity, Black",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$798.85",
         "expense": "$189.40",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-128167",
             "CA-2016-102016",
             "CA-2016-126466"
-        ]
+        ],
+        "totalSales": "$15178.15"
     },
     {
         "id": "OFF-FA-10000585",
         "product_name": "OIC Bulk Pack Metal Binder Clips",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$87.03",
         "expense": "$324.62",
+        "totalQuantity": 39,
         "transactions": [
             "CA-2016-169397",
             "CA-2016-164882"
-        ]
+        ],
+        "totalSales": "$3394.17"
     },
     {
         "id": "OFF-FA-10000611",
         "product_name": "Binder Clips by OIC",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$577.40",
         "expense": "$159.57",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-151785"
-        ]
+        ],
+        "totalSales": "$10393.20"
     },
     {
         "id": "OFF-FA-10000624",
         "product_name": "OIC Binder Clips",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$121.36",
         "expense": "$551.81",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-108259"
-        ]
+        ],
+        "totalSales": "$2912.64"
     },
     {
         "id": "OFF-FA-10000735",
         "product_name": "Staples",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$566.87",
         "expense": "$750.20",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-112452"
-        ]
+        ],
+        "totalSales": "$2267.48"
     },
     {
         "id": "OFF-FA-10000992",
         "product_name": "Acco Clips to Go Binder Clips, 24 Clips in Two Sizes",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$217.27",
         "expense": "$904.02",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-131338"
-        ]
+        ],
+        "totalSales": "$2824.51"
     },
     {
         "id": "OFF-FA-10001135",
         "product_name": "Brites Rubber Bands, 1 1/2 oz. Box",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$10.26",
         "expense": "$262.85",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-105221"
-        ]
+        ],
+        "totalSales": "$82.08"
     },
     {
         "id": "OFF-FA-10001229",
         "product_name": "Staples",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$970.76",
         "expense": "$311.89",
+        "totalQuantity": 42,
         "transactions": [
             "CA-2016-145065",
             "CA-2016-106215"
-        ]
+        ],
+        "totalSales": "$40771.92"
     },
     {
         "id": "OFF-FA-10001332",
         "product_name": "Acco Banker's Clasps, 5 3/4\"-Long",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$477.08",
         "expense": "$453.82",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-146948"
-        ]
+        ],
+        "totalSales": "$4293.72"
     },
     {
         "id": "OFF-FA-10001561",
         "product_name": "Stockwell Push Pins",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$653.92",
         "expense": "$528.84",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-149993",
             "CA-2016-120901"
-        ]
+        ],
+        "totalSales": "$7847.04"
     },
     {
         "id": "OFF-FA-10002280",
         "product_name": "Advantus Plastic Paper Clips",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$134.54",
         "expense": "$879.33",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-117611",
             "CA-2016-145835"
-        ]
+        ],
+        "totalSales": "$1210.86"
     },
     {
         "id": "OFF-FA-10002701",
         "product_name": "Alliance Rubber Bands",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$492.77",
         "expense": "$548.90",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-123568"
-        ]
+        ],
+        "totalSales": "$11333.71"
     },
     {
         "id": "OFF-FA-10002763",
         "product_name": "Advantus Map Pennant Flags and Round Head Tacks",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$877.47",
         "expense": "$218.69",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-149972",
             "CA-2016-132626"
-        ]
+        ],
+        "totalSales": "$17549.40"
     },
     {
         "id": "OFF-FA-10002815",
         "product_name": "Staples",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$384.52",
         "expense": "$104.40",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-158792"
-        ]
+        ],
+        "totalSales": "$9228.48"
     },
     {
         "id": "OFF-FA-10002988",
         "product_name": "Ideal Clamps",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$364.48",
         "expense": "$19.15",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-111339"
-        ]
+        ],
+        "totalSales": "$2551.36"
     },
     {
         "id": "OFF-FA-10003021",
         "product_name": "Staples",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$578.36",
         "expense": "$352.18",
+        "totalQuantity": 41,
         "transactions": [
             "CA-2016-114468",
             "CA-2016-106978",
             "CA-2016-111612"
-        ]
+        ],
+        "totalSales": "$23712.76"
     },
     {
         "id": "OFF-FA-10003059",
         "product_name": "Assorted Color Push Pins",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$564.16",
         "expense": "$194.96",
+        "totalQuantity": 50,
         "transactions": [
             "CA-2016-161263",
             "CA-2016-160696",
             "CA-2016-139164",
             "CA-2016-164084"
-        ]
+        ],
+        "totalSales": "$28208.00"
     },
     {
         "id": "OFF-FA-10003112",
         "product_name": "Staples",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$451.76",
         "expense": "$400.49",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-130218"
-        ]
+        ],
+        "totalSales": "$6324.64"
     },
     {
         "id": "OFF-FA-10003467",
         "product_name": "Alliance Big Bands Rubber Bands, 12/Pack",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$673.68",
         "expense": "$943.86",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-130736"
-        ]
+        ],
+        "totalSales": "$16168.32"
     },
     {
         "id": "OFF-FA-10003472",
         "product_name": "Bagged Rubber Bands",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$113.48",
         "expense": "$291.96",
+        "totalQuantity": 30,
         "transactions": [
             "CA-2016-100685",
             "CA-2016-156153"
-        ]
+        ],
+        "totalSales": "$3404.40"
     },
     {
         "id": "OFF-FA-10003485",
         "product_name": "Staples",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$792.73",
         "expense": "$298.87",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-127607"
-        ]
+        ],
+        "totalSales": "$19025.52"
     },
     {
         "id": "OFF-FA-10004248",
         "product_name": "Advantus T-Pin Paper Clips",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$320.91",
         "expense": "$976.36",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-121132"
-        ]
+        ],
+        "totalSales": "$3209.10"
     },
     {
         "id": "OFF-FA-10004395",
         "product_name": "Plymouth Boxed Rubber Bands by Plymouth",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$670.84",
         "expense": "$990.20",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-148635"
-        ]
+        ],
+        "totalSales": "$1341.68"
     },
     {
         "id": "OFF-FA-10004838",
         "product_name": "Super Bands, 12/Pack",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$262.69",
         "expense": "$108.36",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-161263"
-        ]
+        ],
+        "totalSales": "$1838.83"
     },
     {
         "id": "OFF-FA-10004854",
         "product_name": "Vinyl Coated Wire Paper Clips in Organizer Box, 800/Box",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$207.74",
         "expense": "$89.82",
+        "totalQuantity": 47,
         "transactions": [
             "CA-2016-158456",
             "CA-2016-168459",
             "CA-2016-127173"
-        ]
+        ],
+        "totalSales": "$9763.78"
     },
     {
         "id": "OFF-FA-10004968",
         "product_name": "Rubber Band Ball",
+        "category": "Office Supplies",
+        "sub_category": "Fasteners",
         "price": "$448.63",
         "expense": "$290.01",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-148432"
-        ]
+        ],
+        "totalSales": "$4934.93"
     },
     {
         "id": "OFF-LA-10000134",
         "product_name": "Avery 511",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$396.47",
         "expense": "$8.19",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-101707"
-        ]
+        ],
+        "totalSales": "$5947.05"
     },
     {
         "id": "OFF-LA-10000240",
         "product_name": "Self-Adhesive Address Labels for Typewriters by Universal",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$616.47",
         "expense": "$35.28",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-113110",
             "CA-2016-105690"
-        ]
+        ],
+        "totalSales": "$17261.16"
     },
     {
         "id": "OFF-LA-10000262",
         "product_name": "Avery 494",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$439.15",
         "expense": "$313.63",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-131758"
-        ]
+        ],
+        "totalSales": "$3952.35"
     },
     {
         "id": "OFF-LA-10000414",
         "product_name": "Avery 503",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$517.48",
         "expense": "$831.75",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-125934"
-        ]
+        ],
+        "totalSales": "$11902.04"
     },
     {
         "id": "OFF-LA-10000443",
         "product_name": "Avery 501",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$69.00",
         "expense": "$34.71",
+        "totalQuantity": 64,
         "transactions": [
             "CA-2016-164833",
             "CA-2016-116687",
             "CA-2016-112144",
             "CA-2016-100818"
-        ]
+        ],
+        "totalSales": "$4416.00"
     },
     {
         "id": "OFF-LA-10000452",
         "product_name": "Avery 488",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$283.75",
         "expense": "$939.69",
+        "totalQuantity": 27,
         "transactions": [
             "US-2016-128090",
             "CA-2016-149566"
-        ]
+        ],
+        "totalSales": "$7661.25"
     },
     {
         "id": "OFF-LA-10000476",
         "product_name": "Avery 05222 Permanent Self-Adhesive File Folder Labels for Typewriters, on Rolls, White, 250/Roll",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$931.81",
         "expense": "$915.39",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-132626"
-        ]
+        ],
+        "totalSales": "$10249.91"
     },
     {
         "id": "OFF-LA-10000634",
         "product_name": "Avery 509",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$10.97",
         "expense": "$518.42",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-130736"
-        ]
+        ],
+        "totalSales": "$43.88"
     },
     {
         "id": "OFF-LA-10001045",
         "product_name": "Permanent Self-Adhesive File Folder Labels for Typewriters by Universal",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$278.98",
         "expense": "$981.91",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-121650"
-        ]
+        ],
+        "totalSales": "$5858.58"
     },
     {
         "id": "OFF-LA-10001074",
         "product_name": "Round Specialty Laser Printer Labels",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$92.28",
         "expense": "$582.29",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-135391"
-        ]
+        ],
+        "totalSales": "$1015.08"
     },
     {
         "id": "OFF-LA-10001175",
         "product_name": "Avery 514",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$648.17",
         "expense": "$551.61",
+        "totalQuantity": 1,
         "transactions": [
             "CA-2016-110345"
-        ]
+        ],
+        "totalSales": "$648.17"
     },
     {
         "id": "OFF-LA-10001317",
         "product_name": "Avery 520",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$996.81",
         "expense": "$561.02",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-166464"
-        ]
+        ],
+        "totalSales": "$7974.48"
     },
     {
         "id": "OFF-LA-10001474",
         "product_name": "Avery 477",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$325.67",
         "expense": "$617.25",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-150714"
-        ]
+        ],
+        "totalSales": "$3256.70"
     },
     {
         "id": "OFF-LA-10001569",
         "product_name": "Avery 499",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$413.55",
         "expense": "$536.64",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-119942"
-        ]
+        ],
+        "totalSales": "$3721.95"
     },
     {
         "id": "OFF-LA-10001613",
         "product_name": "Avery File Folder Labels",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$198.29",
         "expense": "$198.02",
+        "totalQuantity": 37,
         "transactions": [
             "CA-2016-155453",
             "CA-2016-119690",
             "CA-2016-127502"
-        ]
+        ],
+        "totalSales": "$7336.73"
     },
     {
         "id": "OFF-LA-10001641",
         "product_name": "Avery 518",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$890.11",
         "expense": "$528.96",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-154900",
             "CA-2016-148705"
-        ]
+        ],
+        "totalSales": "$12461.54"
     },
     {
         "id": "OFF-LA-10001771",
         "product_name": "Avery 513",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$822.26",
         "expense": "$837.34",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-125423"
-        ]
+        ],
+        "totalSales": "$13156.16"
     },
     {
         "id": "OFF-LA-10001982",
         "product_name": "Smead Alpha-Z Color-Coded Name Labels First Letter Starter Set",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$498.11",
         "expense": "$762.53",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-169537"
-        ]
+        ],
+        "totalSales": "$6973.54"
     },
     {
         "id": "OFF-LA-10002043",
         "product_name": "Avery 489",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$279.01",
         "expense": "$865.21",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-130022",
             "CA-2016-102016"
-        ]
+        ],
+        "totalSales": "$3627.13"
     },
     {
         "id": "OFF-LA-10002271",
         "product_name": "Smead Alpha-Z Color-Coded Second Alphabetical Labels and Starter Set",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$506.69",
         "expense": "$570.37",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-124653",
             "CA-2016-111234"
-        ]
+        ],
+        "totalSales": "$4053.52"
     },
     {
         "id": "OFF-LA-10002312",
         "product_name": "Avery 490",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$519.79",
         "expense": "$947.82",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-119291"
-        ]
+        ],
+        "totalSales": "$1039.58"
     },
     {
         "id": "OFF-LA-10002368",
         "product_name": "Avery 479",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$391.09",
         "expense": "$853.20",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-121132"
-        ]
+        ],
+        "totalSales": "$8995.07"
     },
     {
         "id": "OFF-LA-10002381",
         "product_name": "Avery 497",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$564.06",
         "expense": "$963.86",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-148376"
-        ]
+        ],
+        "totalSales": "$12409.32"
     },
     {
         "id": "OFF-LA-10002762",
         "product_name": "Avery 485",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$953.24",
         "expense": "$242.66",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-115742",
             "US-2016-126977",
             "CA-2016-121776",
             "CA-2016-136420"
-        ]
+        ],
+        "totalSales": "$17158.32"
     },
     {
         "id": "OFF-LA-10002787",
         "product_name": "Avery 480",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$91.97",
         "expense": "$9.05",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-130022"
-        ]
+        ],
+        "totalSales": "$2299.25"
     },
     {
         "id": "OFF-LA-10002945",
         "product_name": "Permanent Self-Adhesive File Folder Labels for Typewriters, 1 1/8 x 3 1/2, White",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$543.47",
         "expense": "$642.01",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-149083",
             "CA-2016-108259"
-        ]
+        ],
+        "totalSales": "$9782.46"
     },
     {
         "id": "OFF-LA-10003077",
         "product_name": "Avery 500",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$98.25",
         "expense": "$957.70",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-119214"
-        ]
+        ],
+        "totalSales": "$1768.50"
     },
     {
         "id": "OFF-LA-10003121",
         "product_name": "Avery 506",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$990.00",
         "expense": "$903.76",
+        "totalQuantity": 9,
         "transactions": [
             "US-2016-159499"
-        ]
+        ],
+        "totalSales": "$8910.00"
     },
     {
         "id": "OFF-LA-10003148",
         "product_name": "Avery 51",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$206.50",
         "expense": "$61.31",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-120446"
-        ]
+        ],
+        "totalSales": "$2684.50"
     },
     {
         "id": "OFF-LA-10003190",
         "product_name": "Avery 474",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$159.60",
         "expense": "$93.41",
+        "totalQuantity": 35,
         "transactions": [
             "CA-2016-144288",
             "CA-2016-165057",
             "CA-2016-165624",
             "CA-2016-115399",
             "CA-2016-123939"
-        ]
+        ],
+        "totalSales": "$5586.00"
     },
     {
         "id": "OFF-LA-10003223",
         "product_name": "Avery 508",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$890.79",
         "expense": "$739.39",
+        "totalQuantity": 38,
         "transactions": [
             "US-2016-158911",
             "CA-2016-169677"
-        ]
+        ],
+        "totalSales": "$33850.02"
     },
     {
         "id": "OFF-LA-10003510",
         "product_name": "Avery 4027 File Folder Labels for Dot Matrix Printers, 5000 Labels per Box, White",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$115.39",
         "expense": "$849.78",
+        "totalQuantity": 45,
         "transactions": [
             "CA-2016-119291",
             "US-2016-164448",
             "CA-2016-105725",
             "CA-2016-113131"
-        ]
+        ],
+        "totalSales": "$5192.55"
     },
     {
         "id": "OFF-LA-10003714",
         "product_name": "Avery 510",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$873.67",
         "expense": "$568.30",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-102260"
-        ]
+        ],
+        "totalSales": "$5242.02"
     },
     {
         "id": "OFF-LA-10003766",
         "product_name": "Self-Adhesive Removable Labels",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$546.16",
         "expense": "$693.35",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-147788"
-        ]
+        ],
+        "totalSales": "$5461.60"
     },
     {
         "id": "OFF-LA-10003930",
         "product_name": "Dot Matrix Printer Tape Reel Labels, White, 5000/Box",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$937.38",
         "expense": "$405.13",
+        "totalQuantity": 48,
         "transactions": [
             "CA-2016-128139",
             "CA-2016-150560",
             "CA-2016-134257"
-        ]
+        ],
+        "totalSales": "$44994.24"
     },
     {
         "id": "OFF-LA-10004008",
         "product_name": "Avery 507",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$22.33",
         "expense": "$768.07",
+        "totalQuantity": 33,
         "transactions": [
             "CA-2016-139290",
             "CA-2016-153038"
-        ]
+        ],
+        "totalSales": "$736.89"
     },
     {
         "id": "OFF-LA-10004093",
         "product_name": "Avery 486",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$644.35",
         "expense": "$487.97",
+        "totalQuantity": 42,
         "transactions": [
             "US-2016-134271",
             "CA-2016-143105",
             "CA-2016-141754"
-        ]
+        ],
+        "totalSales": "$27062.70"
     },
     {
         "id": "OFF-LA-10004178",
         "product_name": "Avery 491",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$609.81",
         "expense": "$758.20",
+        "totalQuantity": 17,
         "transactions": [
             "US-2016-132836"
-        ]
+        ],
+        "totalSales": "$10366.77"
     },
     {
         "id": "OFF-LA-10004484",
         "product_name": "Avery 476",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$671.58",
         "expense": "$229.11",
+        "totalQuantity": 49,
         "transactions": [
             "CA-2016-103961",
             "CA-2016-163587",
             "CA-2016-149846",
             "CA-2016-168277"
-        ]
+        ],
+        "totalSales": "$32907.42"
     },
     {
         "id": "OFF-LA-10004544",
         "product_name": "Avery 505",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$99.97",
         "expense": "$833.88",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-146262",
             "CA-2016-135251"
-        ]
+        ],
+        "totalSales": "$1399.58"
     },
     {
         "id": "OFF-LA-10004545",
         "product_name": "Avery 50",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$129.33",
         "expense": "$145.97",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-163237"
-        ]
+        ],
+        "totalSales": "$2457.27"
     },
     {
         "id": "OFF-LA-10004677",
         "product_name": "Self-Adhesive Address Labels for Typewriters with Dispenser Box",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$561.38",
         "expense": "$695.75",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-111864"
-        ]
+        ],
+        "totalSales": "$3929.66"
     },
     {
         "id": "OFF-LA-10004853",
         "product_name": "Avery 483",
+        "category": "Office Supplies",
+        "sub_category": "Labels",
         "price": "$7.90",
         "expense": "$596.05",
+        "totalQuantity": 24,
         "transactions": [
             "US-2016-114741"
-        ]
+        ],
+        "totalSales": "$189.60"
     },
     {
         "id": "OFF-PA-10000019",
         "product_name": "Xerox 1931",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$670.95",
         "expense": "$606.53",
+        "totalQuantity": 20,
         "transactions": [
             "US-2016-140851"
-        ]
+        ],
+        "totalSales": "$13419.00"
     },
     {
         "id": "OFF-PA-10000048",
         "product_name": "Xerox 20",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$724.69",
         "expense": "$791.13",
+        "totalQuantity": 9,
         "transactions": [
             "US-2016-114741"
-        ]
+        ],
+        "totalSales": "$6522.21"
     },
     {
         "id": "OFF-PA-10000061",
         "product_name": "Xerox 205",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$201.26",
         "expense": "$629.93",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-102281",
             "CA-2016-106565"
-        ]
+        ],
+        "totalSales": "$4226.46"
     },
     {
         "id": "OFF-PA-10000069",
         "product_name": "TOPS 4 x 6 Fluorescent Color Memo Sheets, 500 Sheets per Pack",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$466.01",
         "expense": "$259.41",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-109190"
-        ]
+        ],
+        "totalSales": "$1864.04"
     },
     {
         "id": "OFF-PA-10000100",
         "product_name": "Xerox 1945",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$443.32",
         "expense": "$244.79",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-135622"
-        ]
+        ],
+        "totalSales": "$4876.52"
     },
     {
         "id": "OFF-PA-10000130",
         "product_name": "Xerox 199",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$397.82",
         "expense": "$537.94",
+        "totalQuantity": 15,
         "transactions": [
             "US-2016-126753"
-        ]
+        ],
+        "totalSales": "$5967.30"
     },
     {
         "id": "OFF-PA-10000141",
         "product_name": "Ampad Evidence Wirebond Steno Books, 6\" x 9\"",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$807.84",
         "expense": "$879.83",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-142755"
-        ]
+        ],
+        "totalSales": "$11309.76"
     },
     {
         "id": "OFF-PA-10000143",
         "product_name": "Astroparche Fine Business Paper",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$420.54",
         "expense": "$123.97",
+        "totalQuantity": 9,
         "transactions": [
             "US-2016-138093"
-        ]
+        ],
+        "totalSales": "$3784.86"
     },
     {
         "id": "OFF-PA-10000157",
         "product_name": "Xerox 191",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$964.95",
         "expense": "$876.72",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-144267",
             "CA-2016-164882",
             "CA-2016-135685"
-        ]
+        ],
+        "totalSales": "$21228.90"
     },
     {
         "id": "OFF-PA-10000174",
         "product_name": "Message Book, Wirebound, Four 5 1/2\" X 4\" Forms/Pg., 200 Dupl. Sets/Book",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$51.71",
         "expense": "$219.88",
+        "totalQuantity": 1,
         "transactions": [
             "CA-2016-110093"
-        ]
+        ],
+        "totalSales": "$51.71"
     },
     {
         "id": "OFF-PA-10000176",
         "product_name": "Xerox 1887",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$793.06",
         "expense": "$932.45",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-124653",
             "CA-2016-137708"
-        ]
+        ],
+        "totalSales": "$22205.68"
     },
     {
         "id": "OFF-PA-10000213",
         "product_name": "Xerox 198",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$165.68",
         "expense": "$278.07",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-137512"
-        ]
+        ],
+        "totalSales": "$662.72"
     },
     {
         "id": "OFF-PA-10000249",
         "product_name": "Easy-staple paper",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$278.14",
         "expense": "$292.83",
+        "totalQuantity": 38,
         "transactions": [
             "CA-2016-129770",
             "CA-2016-164623"
-        ]
+        ],
+        "totalSales": "$10569.32"
     },
     {
         "id": "OFF-PA-10000289",
         "product_name": "Xerox 213",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$700.82",
         "expense": "$170.83",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-148250"
-        ]
+        ],
+        "totalSales": "$2803.28"
     },
     {
         "id": "OFF-PA-10000300",
         "product_name": "Xerox 1936",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$387.05",
         "expense": "$727.89",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-162376"
-        ]
+        ],
+        "totalSales": "$9676.25"
     },
     {
         "id": "OFF-PA-10000304",
         "product_name": "Xerox 1995",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$661.60",
         "expense": "$64.48",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-144190"
-        ]
+        ],
+        "totalSales": "$3308.00"
     },
     {
         "id": "OFF-PA-10000327",
         "product_name": "Xerox 1971",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$540.02",
         "expense": "$222.56",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-137708"
-        ]
+        ],
+        "totalSales": "$3780.14"
     },
     {
         "id": "OFF-PA-10000349",
         "product_name": "Easy-staple paper",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$316.46",
         "expense": "$78.59",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-110016",
             "CA-2016-114069",
             "CA-2016-111703"
-        ]
+        ],
+        "totalSales": "$7278.58"
     },
     {
         "id": "OFF-PA-10000357",
         "product_name": "White Dual Perf Computer Printout Paper, 2700 Sheets, 1 Part, Heavyweight, 20 lbs., 14 7/8 x 11",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$686.97",
         "expense": "$766.86",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-128125"
-        ]
+        ],
+        "totalSales": "$4121.82"
     },
     {
         "id": "OFF-PA-10000380",
         "product_name": "REDIFORM Incoming/Outgoing Call Register, 11\" X 8 1/2\", 100 Messages",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$646.65",
         "expense": "$752.22",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-138219"
-        ]
+        ],
+        "totalSales": "$13579.65"
     },
     {
         "id": "OFF-PA-10000474",
         "product_name": "Easy-staple paper",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$410.55",
         "expense": "$39.11",
+        "totalQuantity": 52,
         "transactions": [
             "CA-2016-130883",
             "CA-2016-119480",
             "CA-2016-110863"
-        ]
+        ],
+        "totalSales": "$21348.60"
     },
     {
         "id": "OFF-PA-10000477",
         "product_name": "Xerox 22",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$643.41",
         "expense": "$554.12",
+        "totalQuantity": 27,
         "transactions": [
             "CA-2016-116092",
             "CA-2016-168186"
-        ]
+        ],
+        "totalSales": "$17372.07"
     },
     {
         "id": "OFF-PA-10000482",
         "product_name": "Snap-A-Way Black Print Carbonless Ruled Speed Letter, Triplicate",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$921.54",
         "expense": "$744.92",
+        "totalQuantity": 1,
         "transactions": [
             "CA-2016-125234"
-        ]
+        ],
+        "totalSales": "$921.54"
     },
     {
         "id": "OFF-PA-10000483",
         "product_name": "Xerox 19",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$151.66",
         "expense": "$639.60",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-142601"
-        ]
+        ],
+        "totalSales": "$758.30"
     },
     {
         "id": "OFF-PA-10000501",
         "product_name": "Petty Cash Envelope",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$71.85",
         "expense": "$99.71",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-124800",
             "US-2016-166520"
-        ]
+        ],
+        "totalSales": "$1437.00"
     },
     {
         "id": "OFF-PA-10000520",
         "product_name": "Xerox 201",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$441.11",
         "expense": "$486.19",
+        "totalQuantity": 19,
         "transactions": [
             "US-2016-168732"
-        ]
+        ],
+        "totalSales": "$8381.09"
     },
     {
         "id": "OFF-PA-10000528",
         "product_name": "Xerox 1981",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$612.77",
         "expense": "$173.79",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-160472",
             "CA-2016-115168"
-        ]
+        ],
+        "totalSales": "$15932.02"
     },
     {
         "id": "OFF-PA-10000533",
         "product_name": "Southworth Parchment Paper & Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$892.26",
         "expense": "$918.08",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-135363",
             "CA-2016-156118"
-        ]
+        ],
+        "totalSales": "$27660.06"
     },
     {
         "id": "OFF-PA-10000552",
         "product_name": "Xerox 200",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$129.34",
         "expense": "$651.97",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-157343"
-        ]
+        ],
+        "totalSales": "$2586.80"
     },
     {
         "id": "OFF-PA-10000556",
         "product_name": "Xerox 208",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$207.24",
         "expense": "$809.78",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-125934"
-        ]
+        ],
+        "totalSales": "$2279.64"
     },
     {
         "id": "OFF-PA-10000595",
         "product_name": "Xerox 1929",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$441.27",
         "expense": "$620.31",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-135580"
-        ]
+        ],
+        "totalSales": "$2647.62"
     },
     {
         "id": "OFF-PA-10000605",
         "product_name": "Xerox 1950",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$524.53",
         "expense": "$750.49",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-165085"
-        ]
+        ],
+        "totalSales": "$4196.24"
     },
     {
         "id": "OFF-PA-10000659",
         "product_name": "Adams Phone Message Book, Professional, 400 Message Capacity, 5 3/6\u201d x 11\u201d",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$776.60",
         "expense": "$708.22",
+        "totalQuantity": 34,
         "transactions": [
             "CA-2016-157322",
             "US-2016-107944"
-        ]
+        ],
+        "totalSales": "$26404.40"
     },
     {
         "id": "OFF-PA-10000675",
         "product_name": "Xerox 1919",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$430.02",
         "expense": "$453.42",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-105347"
-        ]
+        ],
+        "totalSales": "$1290.06"
     },
     {
         "id": "OFF-PA-10000726",
         "product_name": "Black Print Carbonless Snap-Off Rapid Letter, 8 1/2\" x 7\"",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$879.26",
         "expense": "$281.85",
+        "totalQuantity": 32,
         "transactions": [
             "CA-2016-155586",
             "CA-2016-149909"
-        ]
+        ],
+        "totalSales": "$28136.32"
     },
     {
         "id": "OFF-PA-10000743",
         "product_name": "Xerox 1977",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$803.23",
         "expense": "$301.18",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-131534",
             "CA-2016-130974"
-        ]
+        ],
+        "totalSales": "$20883.98"
     },
     {
         "id": "OFF-PA-10000788",
         "product_name": "Xerox 210",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$794.17",
         "expense": "$128.41",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-100216"
-        ]
+        ],
+        "totalSales": "$13500.89"
     },
     {
         "id": "OFF-PA-10000791",
         "product_name": "Wirebound Message Books, Four 2 3/4 x 5 Forms per Page, 200 Sets per Book",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$221.22",
         "expense": "$410.92",
+        "totalQuantity": 4,
         "transactions": [
             "US-2016-130491"
-        ]
+        ],
+        "totalSales": "$884.88"
     },
     {
         "id": "OFF-PA-10000809",
         "product_name": "Xerox 206",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$902.48",
         "expense": "$287.85",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-114468"
-        ]
+        ],
+        "totalSales": "$8122.32"
     },
     {
         "id": "OFF-PA-10000994",
         "product_name": "Xerox 1915",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$393.11",
         "expense": "$969.20",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-111395"
-        ]
+        ],
+        "totalSales": "$5110.43"
     },
     {
         "id": "OFF-PA-10001019",
         "product_name": "Xerox 1884",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$651.60",
         "expense": "$822.47",
+        "totalQuantity": 45,
         "transactions": [
             "CA-2016-100888",
             "CA-2016-130974",
             "CA-2016-119690"
-        ]
+        ],
+        "totalSales": "$29322.00"
     },
     {
         "id": "OFF-PA-10001125",
         "product_name": "Xerox 1988",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$317.53",
         "expense": "$259.44",
+        "totalQuantity": 45,
         "transactions": [
             "CA-2016-103793",
             "CA-2016-123568",
             "CA-2016-125976",
             "CA-2016-100818"
-        ]
+        ],
+        "totalSales": "$14288.85"
     },
     {
         "id": "OFF-PA-10001166",
         "product_name": "Xerox 2",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$954.23",
         "expense": "$726.37",
+        "totalQuantity": 35,
         "transactions": [
             "CA-2016-149342",
             "CA-2016-104346",
             "CA-2016-118738"
-        ]
+        ],
+        "totalSales": "$33398.05"
     },
     {
         "id": "OFF-PA-10001184",
         "product_name": "Xerox 1903",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$557.21",
         "expense": "$461.14",
+        "totalQuantity": 49,
         "transactions": [
             "US-2016-127040",
             "CA-2016-155306",
             "US-2016-134558",
             "CA-2016-127824"
-        ]
+        ],
+        "totalSales": "$27303.29"
     },
     {
         "id": "OFF-PA-10001274",
         "product_name": "Loose Memo Sheets",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$755.86",
         "expense": "$549.38",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-148432",
             "CA-2016-117961"
-        ]
+        ],
+        "totalSales": "$13605.48"
     },
     {
         "id": "OFF-PA-10001289",
         "product_name": "White Computer Printout Paper by Universal",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$191.32",
         "expense": "$574.34",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-100685"
-        ]
+        ],
+        "totalSales": "$2104.52"
     },
     {
         "id": "OFF-PA-10001293",
         "product_name": "Xerox 1946",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$464.34",
         "expense": "$47.55",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-134859"
-        ]
+        ],
+        "totalSales": "$11144.16"
     },
     {
         "id": "OFF-PA-10001295",
         "product_name": "Computer Printout Paper with Letter-Trim Perforations",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$263.95",
         "expense": "$833.32",
+        "totalQuantity": 32,
         "transactions": [
             "CA-2016-120103",
             "US-2016-137008"
-        ]
+        ],
+        "totalSales": "$8446.40"
     },
     {
         "id": "OFF-PA-10001307",
         "product_name": "Important Message Pads, 50 4-1/4 x 5-1/2 Forms per Pad",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$52.54",
         "expense": "$182.64",
+        "totalQuantity": 36,
         "transactions": [
             "US-2016-153500",
             "CA-2016-122406",
             "CA-2016-111780"
-        ]
+        ],
+        "totalSales": "$1891.44"
     },
     {
         "id": "OFF-PA-10001357",
         "product_name": "Xerox 1886",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$159.62",
         "expense": "$206.32",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-131338",
             "CA-2016-126669"
-        ]
+        ],
+        "totalSales": "$3192.40"
     },
     {
         "id": "OFF-PA-10001450",
         "product_name": "Rediform S.O.S. Phone Message Books",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$309.65",
         "expense": "$260.54",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-149713"
-        ]
+        ],
+        "totalSales": "$5573.70"
     },
     {
         "id": "OFF-PA-10001497",
         "product_name": "Xerox 1914",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$336.67",
         "expense": "$173.24",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-150714"
-        ]
+        ],
+        "totalSales": "$5050.05"
     },
     {
         "id": "OFF-PA-10001509",
         "product_name": "Recycled Desk Saver Line \"While You Were Out\" Book, 5 1/2\" X 4\"",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$44.09",
         "expense": "$971.55",
+        "totalQuantity": 6,
         "transactions": [
             "US-2016-138093"
-        ]
+        ],
+        "totalSales": "$264.54"
     },
     {
         "id": "OFF-PA-10001526",
         "product_name": "Xerox 1949",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$329.24",
         "expense": "$357.96",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-124541",
             "CA-2016-157434",
             "CA-2016-144890"
-        ]
+        ],
+        "totalSales": "$7572.52"
     },
     {
         "id": "OFF-PA-10001560",
         "product_name": "Adams Telephone Message Books, 5 1/4\u201d x 11\u201d",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$140.52",
         "expense": "$583.49",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-115798",
             "CA-2016-143532"
-        ]
+        ],
+        "totalSales": "$2950.92"
     },
     {
         "id": "OFF-PA-10001583",
         "product_name": "1/4 Fold Party Design Invitations & White Envelopes, 24 8-1/2\" X 11\" Cards, 25 Env./Pack",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$843.57",
         "expense": "$468.70",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-144274"
-        ]
+        ],
+        "totalSales": "$7592.13"
     },
     {
         "id": "OFF-PA-10001609",
         "product_name": "Tops Wirebound Message Log Books",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$275.45",
         "expense": "$369.00",
+        "totalQuantity": 30,
         "transactions": [
             "CA-2016-111094",
             "US-2016-103996"
-        ]
+        ],
+        "totalSales": "$8263.50"
     },
     {
         "id": "OFF-PA-10001639",
         "product_name": "Xerox 203",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$512.15",
         "expense": "$102.75",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-126725"
-        ]
+        ],
+        "totalSales": "$5121.50"
     },
     {
         "id": "OFF-PA-10001661",
         "product_name": "Xerox 1922",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$788.55",
         "expense": "$405.25",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-122287"
-        ]
+        ],
+        "totalSales": "$7096.95"
     },
     {
         "id": "OFF-PA-10001667",
         "product_name": "Great White Multi-Use Recycled Paper (20Lb. and 84 Bright)",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$19.65",
         "expense": "$710.21",
+        "totalQuantity": 32,
         "transactions": [
             "CA-2016-164441",
             "CA-2016-111780"
-        ]
+        ],
+        "totalSales": "$628.80"
     },
     {
         "id": "OFF-PA-10001712",
         "product_name": "Xerox 1948",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$419.04",
         "expense": "$901.48",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-118843"
-        ]
+        ],
+        "totalSales": "$2095.20"
     },
     {
         "id": "OFF-PA-10001736",
         "product_name": "Xerox 1880",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$535.85",
         "expense": "$417.96",
+        "totalQuantity": 4,
         "transactions": [
             "US-2016-103996"
-        ]
+        ],
+        "totalSales": "$2143.40"
     },
     {
         "id": "OFF-PA-10001763",
         "product_name": "Xerox 1896",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$738.11",
         "expense": "$28.37",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-142419"
-        ]
+        ],
+        "totalSales": "$6642.99"
     },
     {
         "id": "OFF-PA-10001776",
         "product_name": "Wirebound Message Books, Four 2 3/4\" x 5\" Forms per Page, 600 Sets per Book",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$323.63",
         "expense": "$72.35",
+        "totalQuantity": 35,
         "transactions": [
             "CA-2016-150511",
             "CA-2016-110324"
-        ]
+        ],
+        "totalSales": "$11327.05"
     },
     {
         "id": "OFF-PA-10001790",
         "product_name": "Xerox 1910",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$162.70",
         "expense": "$852.09",
+        "totalQuantity": 40,
         "transactions": [
             "CA-2016-111199",
             "CA-2016-149909"
-        ]
+        ],
+        "totalSales": "$6508.00"
     },
     {
         "id": "OFF-PA-10001801",
         "product_name": "Xerox 193",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$417.60",
         "expense": "$739.59",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-158421"
-        ]
+        ],
+        "totalSales": "$6681.60"
     },
     {
         "id": "OFF-PA-10001815",
         "product_name": "Xerox 1885",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$399.65",
         "expense": "$902.85",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-128013"
-        ]
+        ],
+        "totalSales": "$7193.70"
     },
     {
         "id": "OFF-PA-10001826",
         "product_name": "Xerox 207",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$298.16",
         "expense": "$641.96",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-110324"
-        ]
+        ],
+        "totalSales": "$2683.44"
     },
     {
         "id": "OFF-PA-10001838",
         "product_name": "Adams Telephone Message Book W/Dividers/Space For Phone Numbers, 5 1/4\"X8 1/2\", 300/Messages",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$390.58",
         "expense": "$78.93",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-121405",
             "CA-2016-161242"
-        ]
+        ],
+        "totalSales": "$6639.86"
     },
     {
         "id": "OFF-PA-10001846",
         "product_name": "Xerox 1899",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$957.87",
         "expense": "$181.80",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-143364"
-        ]
+        ],
+        "totalSales": "$7662.96"
     },
     {
         "id": "OFF-PA-10001870",
         "product_name": "Xerox 202",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$861.69",
         "expense": "$398.13",
+        "totalQuantity": 30,
         "transactions": [
             "CA-2016-137281",
             "CA-2016-140375"
-        ]
+        ],
+        "totalSales": "$25850.70"
     },
     {
         "id": "OFF-PA-10001878",
         "product_name": "Xerox 1891",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$411.40",
         "expense": "$798.66",
+        "totalQuantity": 7,
         "transactions": [
             "US-2016-128090"
-        ]
+        ],
+        "totalSales": "$2879.80"
     },
     {
         "id": "OFF-PA-10001937",
         "product_name": "Xerox 21",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$835.18",
         "expense": "$163.96",
+        "totalQuantity": 68,
         "transactions": [
             "US-2016-130519",
             "CA-2016-121097",
             "CA-2016-156734",
             "CA-2016-119627"
-        ]
+        ],
+        "totalSales": "$56792.24"
     },
     {
         "id": "OFF-PA-10001947",
         "product_name": "Xerox 1974",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$648.84",
         "expense": "$443.97",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-144267",
             "CA-2016-163104"
-        ]
+        ],
+        "totalSales": "$11030.28"
     },
     {
         "id": "OFF-PA-10001950",
         "product_name": "Southworth 25% Cotton Antique Laid Paper & Envelopes",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$892.89",
         "expense": "$972.26",
+        "totalQuantity": 43,
         "transactions": [
             "CA-2016-124919",
             "CA-2016-167374"
-        ]
+        ],
+        "totalSales": "$38394.27"
     },
     {
         "id": "OFF-PA-10001952",
         "product_name": "Xerox 1902",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$938.98",
         "expense": "$700.00",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-147879"
-        ]
+        ],
+        "totalSales": "$4694.90"
     },
     {
         "id": "OFF-PA-10001954",
         "product_name": "Xerox 1964",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$621.84",
         "expense": "$205.18",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-131856"
-        ]
+        ],
+        "totalSales": "$2487.36"
     },
     {
         "id": "OFF-PA-10001970",
         "product_name": "Xerox 1908",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$34.65",
         "expense": "$124.30",
+        "totalQuantity": 68,
         "transactions": [
             "CA-2016-142755",
             "CA-2016-142377",
             "CA-2016-105158",
             "CA-2016-156013",
             "CA-2016-121776"
-        ]
+        ],
+        "totalSales": "$2356.20"
     },
     {
         "id": "OFF-PA-10001972",
         "product_name": "Xerox 214",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$431.76",
         "expense": "$154.70",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-134992"
-        ]
+        ],
+        "totalSales": "$3454.08"
     },
     {
         "id": "OFF-PA-10002005",
         "product_name": "Xerox 225",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$678.04",
         "expense": "$785.81",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-153416"
-        ]
+        ],
+        "totalSales": "$14916.88"
     },
     {
         "id": "OFF-PA-10002036",
         "product_name": "Xerox 1930",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$59.47",
         "expense": "$381.34",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-127481"
-        ]
+        ],
+        "totalSales": "$1129.93"
     },
     {
         "id": "OFF-PA-10002105",
         "product_name": "Xerox 223",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$44.30",
         "expense": "$261.78",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-167479"
-        ]
+        ],
+        "totalSales": "$575.90"
     },
     {
         "id": "OFF-PA-10002120",
         "product_name": "Xerox 1889",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$139.04",
         "expense": "$613.80",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-149748"
-        ]
+        ],
+        "totalSales": "$1251.36"
     },
     {
         "id": "OFF-PA-10002160",
         "product_name": "Xerox 1978",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$348.27",
         "expense": "$238.60",
+        "totalQuantity": 32,
         "transactions": [
             "CA-2016-127509",
             "CA-2016-153717",
             "CA-2016-132941"
-        ]
+        ],
+        "totalSales": "$11144.64"
     },
     {
         "id": "OFF-PA-10002222",
         "product_name": "Xerox Color Copier Paper, 11\" x 17\", Ream",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$416.69",
         "expense": "$720.56",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-156510",
             "CA-2016-137113"
-        ]
+        ],
+        "totalSales": "$4583.59"
     },
     {
         "id": "OFF-PA-10002230",
         "product_name": "Xerox 1897",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$274.62",
         "expense": "$654.20",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-112130"
-        ]
+        ],
+        "totalSales": "$2196.96"
     },
     {
         "id": "OFF-PA-10002245",
         "product_name": "Xerox 1895",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$961.36",
         "expense": "$340.54",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-141040",
             "CA-2016-129896"
-        ]
+        ],
+        "totalSales": "$14420.40"
     },
     {
         "id": "OFF-PA-10002250",
         "product_name": "Things To Do Today Pad",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$579.11",
         "expense": "$548.05",
+        "totalQuantity": 21,
         "transactions": [
             "US-2016-117184",
             "CA-2016-140718"
-        ]
+        ],
+        "totalSales": "$12161.31"
     },
     {
         "id": "OFF-PA-10002254",
         "product_name": "Xerox 1883",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$586.87",
         "expense": "$833.21",
+        "totalQuantity": 57,
         "transactions": [
             "CA-2016-124919",
             "CA-2016-143105",
             "CA-2016-120621"
-        ]
+        ],
+        "totalSales": "$33451.59"
     },
     {
         "id": "OFF-PA-10002262",
         "product_name": "Xerox 192",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$89.87",
         "expense": "$101.96",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-166492"
-        ]
+        ],
+        "totalSales": "$1078.44"
     },
     {
         "id": "OFF-PA-10002319",
         "product_name": "Xerox 1944",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$549.94",
         "expense": "$668.15",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-165624"
-        ]
+        ],
+        "totalSales": "$7699.16"
     },
     {
         "id": "OFF-PA-10002365",
         "product_name": "Xerox 1967",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$928.03",
         "expense": "$954.61",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-124653",
             "CA-2016-105102"
-        ]
+        ],
+        "totalSales": "$12064.39"
     },
     {
         "id": "OFF-PA-10002377",
         "product_name": "Adams Telephone Message Book W/Dividers/Space For Phone Numbers, 5 1/4\"X8 1/2\", 200/Messages",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$972.67",
         "expense": "$624.95",
+        "totalQuantity": 68,
         "transactions": [
             "CA-2016-154900",
             "CA-2016-142433",
             "CA-2016-167255",
             "CA-2016-127481"
-        ]
+        ],
+        "totalSales": "$66141.56"
     },
     {
         "id": "OFF-PA-10002464",
         "product_name": "HP Office Recycled Paper (20Lb. and 87 Bright)",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$612.75",
         "expense": "$71.58",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-102016"
-        ]
+        ],
+        "totalSales": "$5514.75"
     },
     {
         "id": "OFF-PA-10002499",
         "product_name": "Xerox 1890",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$461.63",
         "expense": "$367.03",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-165624"
-        ]
+        ],
+        "totalSales": "$9232.60"
     },
     {
         "id": "OFF-PA-10002586",
         "product_name": "Xerox 1970",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$479.38",
         "expense": "$405.39",
+        "totalQuantity": 37,
         "transactions": [
             "CA-2016-144806",
             "CA-2016-123505"
-        ]
+        ],
+        "totalSales": "$17737.06"
     },
     {
         "id": "OFF-PA-10002606",
         "product_name": "Xerox 1928",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$150.28",
         "expense": "$397.72",
+        "totalQuantity": 19,
         "transactions": [
             "US-2016-163685",
             "CA-2016-162166"
-        ]
+        ],
+        "totalSales": "$2855.32"
     },
     {
         "id": "OFF-PA-10002615",
         "product_name": "Ampad Gold Fibre Wirebound Steno Books, 6\" x 9\", Gregg Ruled",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$768.26",
         "expense": "$610.92",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-105361"
-        ]
+        ],
+        "totalSales": "$12292.16"
     },
     {
         "id": "OFF-PA-10002659",
         "product_name": "Avoid Verbal Orders Carbonless Minifold Book",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$97.00",
         "expense": "$424.72",
+        "totalQuantity": 33,
         "transactions": [
             "CA-2016-113145",
             "CA-2016-137925"
-        ]
+        ],
+        "totalSales": "$3201.00"
     },
     {
         "id": "OFF-PA-10002689",
         "product_name": "Weyerhaeuser First Choice Laser/Copy Paper (20Lb. and 88 Bright)",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$40.18",
         "expense": "$332.06",
+        "totalQuantity": 7,
         "transactions": [
             "US-2016-115238"
-        ]
+        ],
+        "totalSales": "$281.26"
     },
     {
         "id": "OFF-PA-10002713",
         "product_name": "Adams Phone Message Book, 200 Message Capacity, 8 1/16\u201d x 11\u201d",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$103.92",
         "expense": "$440.43",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-143105"
-        ]
+        ],
+        "totalSales": "$1143.12"
     },
     {
         "id": "OFF-PA-10002749",
         "product_name": "Wirebound Message Books, 5-1/2 x 4 Forms, 2 or 4 Forms per Page",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$840.55",
         "expense": "$959.33",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-113110"
-        ]
+        ],
+        "totalSales": "$18492.10"
     },
     {
         "id": "OFF-PA-10002751",
         "product_name": "Xerox 1920",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$928.36",
         "expense": "$850.43",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-156923",
             "CA-2016-104038"
-        ]
+        ],
+        "totalSales": "$25994.08"
     },
     {
         "id": "OFF-PA-10002787",
         "product_name": "Xerox 227",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$478.51",
         "expense": "$707.10",
+        "totalQuantity": 29,
         "transactions": [
             "CA-2016-144288",
             "US-2016-126753"
-        ]
+        ],
+        "totalSales": "$13876.79"
     },
     {
         "id": "OFF-PA-10002870",
         "product_name": "Ampad Phone Message Book, Recycled, 400 Message Capacity, 5 \u00be\u201d x 11\u201d",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$741.06",
         "expense": "$218.55",
+        "totalQuantity": 22,
         "transactions": [
             "US-2016-141684"
-        ]
+        ],
+        "totalSales": "$16303.32"
     },
     {
         "id": "OFF-PA-10002893",
         "product_name": "Wirebound Service Call Books, 5 1/2\" x 4\"",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$707.35",
         "expense": "$548.62",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-119214"
-        ]
+        ],
+        "totalSales": "$2122.05"
     },
     {
         "id": "OFF-PA-10002947",
         "product_name": "Xerox 1923",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$544.63",
         "expense": "$549.49",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-151869"
-        ]
+        ],
+        "totalSales": "$2178.52"
     },
     {
         "id": "OFF-PA-10002968",
         "product_name": "Xerox 1973",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$491.20",
         "expense": "$526.49",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-101707",
             "CA-2016-100216"
-        ]
+        ],
+        "totalSales": "$11297.60"
     },
     {
         "id": "OFF-PA-10002986",
         "product_name": "Xerox 1898",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$448.27",
         "expense": "$138.53",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-110289"
-        ]
+        ],
+        "totalSales": "$10758.48"
     },
     {
         "id": "OFF-PA-10003001",
         "product_name": "Xerox 1986",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$774.67",
         "expense": "$206.69",
+        "totalQuantity": 3,
         "transactions": [
             "US-2016-123918"
-        ]
+        ],
+        "totalSales": "$2324.01"
     },
     {
         "id": "OFF-PA-10003016",
         "product_name": "Adams \"While You Were Out\" Message Pads",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$996.20",
         "expense": "$822.47",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-153220"
-        ]
+        ],
+        "totalSales": "$10958.20"
     },
     {
         "id": "OFF-PA-10003039",
         "product_name": "Xerox 1960",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$713.29",
         "expense": "$943.65",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-144806",
             "US-2016-147242"
-        ]
+        ],
+        "totalSales": "$6419.61"
     },
     {
         "id": "OFF-PA-10003127",
         "product_name": "Easy-staple paper",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$571.78",
         "expense": "$998.30",
+        "totalQuantity": 33,
         "transactions": [
             "US-2016-163279",
             "US-2016-136987"
-        ]
+        ],
+        "totalSales": "$18868.74"
     },
     {
         "id": "OFF-PA-10003129",
         "product_name": "Tops White Computer Printout Paper",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$436.19",
         "expense": "$977.82",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-160472"
-        ]
+        ],
+        "totalSales": "$6979.04"
     },
     {
         "id": "OFF-PA-10003134",
         "product_name": "Xerox 1937",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$866.39",
         "expense": "$690.48",
+        "totalQuantity": 19,
         "transactions": [
             "US-2016-113327"
-        ]
+        ],
+        "totalSales": "$16461.41"
     },
     {
         "id": "OFF-PA-10003172",
         "product_name": "Xerox 1996",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$180.15",
         "expense": "$554.61",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-103072"
-        ]
+        ],
+        "totalSales": "$2161.80"
     },
     {
         "id": "OFF-PA-10003177",
         "product_name": "Xerox 1999",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$784.50",
         "expense": "$663.90",
+        "totalQuantity": 36,
         "transactions": [
             "CA-2016-149587",
             "CA-2016-135363",
             "CA-2016-118738",
             "CA-2016-162950"
-        ]
+        ],
+        "totalSales": "$28242.00"
     },
     {
         "id": "OFF-PA-10003228",
         "product_name": "Xerox 1917",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$337.96",
         "expense": "$121.85",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-151589"
-        ]
+        ],
+        "totalSales": "$7097.16"
     },
     {
         "id": "OFF-PA-10003256",
         "product_name": "Avery Personal Creations Heavyweight Cards",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$44.49",
         "expense": "$409.92",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-104346"
-        ]
+        ],
+        "totalSales": "$845.31"
     },
     {
         "id": "OFF-PA-10003302",
         "product_name": "Xerox 1906",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$499.82",
         "expense": "$410.57",
+        "totalQuantity": 30,
         "transactions": [
             "CA-2016-124933",
             "CA-2016-135251"
-        ]
+        ],
+        "totalSales": "$14994.60"
     },
     {
         "id": "OFF-PA-10003309",
         "product_name": "Xerox 211",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$659.35",
         "expense": "$530.74",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-127110"
-        ]
+        ],
+        "totalSales": "$3296.75"
     },
     {
         "id": "OFF-PA-10003349",
         "product_name": "Xerox 1957",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$531.27",
         "expense": "$541.21",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-111703",
             "CA-2016-147529",
             "CA-2016-162964"
-        ]
+        ],
+        "totalSales": "$13813.02"
     },
     {
         "id": "OFF-PA-10003363",
         "product_name": "Xerox 204",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$98.15",
         "expense": "$804.99",
+        "totalQuantity": 39,
         "transactions": [
             "CA-2016-104941",
             "US-2016-160857"
-        ]
+        ],
+        "totalSales": "$3827.85"
     },
     {
         "id": "OFF-PA-10003395",
         "product_name": "Xerox 1941",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$276.75",
         "expense": "$682.74",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-142930"
-        ]
+        ],
+        "totalSales": "$4704.75"
     },
     {
         "id": "OFF-PA-10003441",
         "product_name": "Xerox 226",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$984.83",
         "expense": "$791.71",
+        "totalQuantity": 48,
         "transactions": [
             "CA-2016-112319",
             "US-2016-137533",
             "CA-2016-167255",
             "CA-2016-144274"
-        ]
+        ],
+        "totalSales": "$47271.84"
     },
     {
         "id": "OFF-PA-10003465",
         "product_name": "Xerox 1912",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$617.56",
         "expense": "$463.89",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-142055"
-        ]
+        ],
+        "totalSales": "$14203.88"
     },
     {
         "id": "OFF-PA-10003591",
         "product_name": "Southworth 100% Cotton The Best Paper",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$550.27",
         "expense": "$646.67",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-131128"
-        ]
+        ],
+        "totalSales": "$8254.05"
     },
     {
         "id": "OFF-PA-10003625",
         "product_name": "Xerox 1979",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$86.70",
         "expense": "$509.20",
+        "totalQuantity": 18,
         "transactions": [
             "US-2016-130512"
-        ]
+        ],
+        "totalSales": "$1560.60"
     },
     {
         "id": "OFF-PA-10003656",
         "product_name": "Xerox 1935",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$993.64",
         "expense": "$256.21",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-156853"
-        ]
+        ],
+        "totalSales": "$10930.04"
     },
     {
         "id": "OFF-PA-10003657",
         "product_name": "Xerox 1927",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$950.24",
         "expense": "$633.54",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-144267"
-        ]
+        ],
+        "totalSales": "$19004.80"
     },
     {
         "id": "OFF-PA-10003724",
         "product_name": "Wirebound Message Book, 4 per Page",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$382.86",
         "expense": "$702.30",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-165554"
-        ]
+        ],
+        "totalSales": "$765.72"
     },
     {
         "id": "OFF-PA-10003790",
         "product_name": "Xerox 1991",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$196.84",
         "expense": "$273.80",
+        "totalQuantity": 33,
         "transactions": [
             "US-2016-113327",
             "CA-2016-109603"
-        ]
+        ],
+        "totalSales": "$6495.72"
     },
     {
         "id": "OFF-PA-10003797",
         "product_name": "Xerox 209",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$492.40",
         "expense": "$186.26",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-150196"
-        ]
+        ],
+        "totalSales": "$5416.40"
     },
     {
         "id": "OFF-PA-10003823",
         "product_name": "Xerox 197",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$501.81",
         "expense": "$199.92",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-130974"
-        ]
+        ],
+        "totalSales": "$9032.58"
     },
     {
         "id": "OFF-PA-10003848",
         "product_name": "Xerox 1997",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$227.87",
         "expense": "$587.40",
+        "totalQuantity": 38,
         "transactions": [
             "CA-2016-139850",
             "CA-2016-160213",
             "CA-2016-107685"
-        ]
+        ],
+        "totalSales": "$8659.06"
     },
     {
         "id": "OFF-PA-10003883",
         "product_name": "Message Book, Phone, Wirebound Standard Line Memo, 2 3/4\" X 5\"",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$866.91",
         "expense": "$8.31",
+        "totalQuantity": 44,
         "transactions": [
             "CA-2016-156524",
             "CA-2016-148628",
             "CA-2016-142139"
-        ]
+        ],
+        "totalSales": "$38144.04"
     },
     {
         "id": "OFF-PA-10003892",
         "product_name": "Xerox 1943",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$198.26",
         "expense": "$855.78",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-135545"
-        ]
+        ],
+        "totalSales": "$1784.34"
     },
     {
         "id": "OFF-PA-10003893",
         "product_name": "Xerox 1962",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$907.71",
         "expense": "$953.50",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-159380",
             "CA-2016-165624"
-        ]
+        ],
+        "totalSales": "$22692.75"
     },
     {
         "id": "OFF-PA-10003936",
         "product_name": "Xerox 1994",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$295.00",
         "expense": "$494.96",
+        "totalQuantity": 1,
         "transactions": [
             "US-2016-163433"
-        ]
+        ],
+        "totalSales": "$295.00"
     },
     {
         "id": "OFF-PA-10003953",
         "product_name": "Xerox 218",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$275.13",
         "expense": "$204.49",
+        "totalQuantity": 22,
         "transactions": [
             "US-2016-120957"
-        ]
+        ],
+        "totalSales": "$6052.86"
     },
     {
         "id": "OFF-PA-10004000",
         "product_name": "While You Were Out Pads, 50 per Pad, 4 x 5 1/4, Green Cycle",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$445.81",
         "expense": "$5.47",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-169397",
             "CA-2016-158554"
-        ]
+        ],
+        "totalSales": "$6241.34"
     },
     {
         "id": "OFF-PA-10004040",
         "product_name": "Universal Premium White Copier/Laser Paper (20Lb. and 87 Bright)",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$191.99",
         "expense": "$818.58",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-143882"
-        ]
+        ],
+        "totalSales": "$2303.88"
     },
     {
         "id": "OFF-PA-10004041",
         "product_name": "It's Hot Message Books with Stickers, 2 3/4\" x 5\"",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$955.82",
         "expense": "$71.49",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-137897",
             "CA-2016-149636"
-        ]
+        ],
+        "totalSales": "$15293.12"
     },
     {
         "id": "OFF-PA-10004071",
         "product_name": "Eaton Premium Continuous-Feed Paper, 25% Cotton, Letter Size, White, 1000 Shts/Box",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$456.36",
         "expense": "$455.19",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-154144",
             "US-2016-126977"
-        ]
+        ],
+        "totalSales": "$9583.56"
     },
     {
         "id": "OFF-PA-10004082",
         "product_name": "Adams Telephone Message Book w/Frequently-Called Numbers Space, 400 Messages per Book",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$515.32",
         "expense": "$654.81",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-149811"
-        ]
+        ],
+        "totalSales": "$9275.76"
     },
     {
         "id": "OFF-PA-10004100",
         "product_name": "Xerox 216",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$430.60",
         "expense": "$664.40",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-130883",
             "CA-2016-133025"
-        ]
+        ],
+        "totalSales": "$10765.00"
     },
     {
         "id": "OFF-PA-10004101",
         "product_name": "Xerox 1894",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$837.16",
         "expense": "$268.11",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-120880",
             "CA-2016-109736"
-        ]
+        ],
+        "totalSales": "$15068.88"
     },
     {
         "id": "OFF-PA-10004156",
         "product_name": "Xerox 188",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$152.29",
         "expense": "$887.21",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-157035",
             "CA-2016-160794",
             "CA-2016-118955",
             "CA-2016-110814"
-        ]
+        ],
+        "totalSales": "$3198.09"
     },
     {
         "id": "OFF-PA-10004239",
         "product_name": "Xerox 1953",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$343.06",
         "expense": "$790.49",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-159380"
-        ]
+        ],
+        "totalSales": "$4459.78"
     },
     {
         "id": "OFF-PA-10004248",
         "product_name": "Xerox 1990",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$760.62",
         "expense": "$423.27",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-129392"
-        ]
+        ],
+        "totalSales": "$14451.78"
     },
     {
         "id": "OFF-PA-10004255",
         "product_name": "Xerox 219",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$912.72",
         "expense": "$985.19",
+        "totalQuantity": 54,
         "transactions": [
             "US-2016-127040",
             "CA-2016-135020",
             "CA-2016-137113"
-        ]
+        ],
+        "totalSales": "$49286.88"
     },
     {
         "id": "OFF-PA-10004285",
         "product_name": "Xerox 1959",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$551.62",
         "expense": "$669.64",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-116092",
             "CA-2016-104514"
-        ]
+        ],
+        "totalSales": "$6619.44"
     },
     {
         "id": "OFF-PA-10004355",
         "product_name": "Xerox 231",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$574.24",
         "expense": "$735.95",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-121965"
-        ]
+        ],
+        "totalSales": "$8613.60"
     },
     {
         "id": "OFF-PA-10004359",
         "product_name": "Multicolor Computer Printout Paper",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$105.13",
         "expense": "$875.57",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-111829"
-        ]
+        ],
+        "totalSales": "$315.39"
     },
     {
         "id": "OFF-PA-10004405",
         "product_name": "Rediform Voice Mail Log Books",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$473.90",
         "expense": "$498.83",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-145401"
-        ]
+        ],
+        "totalSales": "$2843.40"
     },
     {
         "id": "OFF-PA-10004451",
         "product_name": "Xerox 222",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$376.39",
         "expense": "$623.35",
+        "totalQuantity": 28,
         "transactions": [
             "US-2016-123960",
             "CA-2016-139962"
-        ]
+        ],
+        "totalSales": "$10538.92"
     },
     {
         "id": "OFF-PA-10004519",
         "product_name": "Spiral Phone Message Books with Labels by Adams",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$394.40",
         "expense": "$885.25",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-136700"
-        ]
+        ],
+        "totalSales": "$1972.00"
     },
     {
         "id": "OFF-PA-10004530",
         "product_name": "Personal Creations Ink Jet Cards and Labels",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$88.04",
         "expense": "$508.38",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-149713",
             "CA-2016-132815"
-        ]
+        ],
+        "totalSales": "$1760.80"
     },
     {
         "id": "OFF-PA-10004569",
         "product_name": "Wirebound Message Books, Two 4 1/4\" x 5\" Forms per Page",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$172.46",
         "expense": "$695.06",
+        "totalQuantity": 20,
         "transactions": [
             "US-2016-142020"
-        ]
+        ],
+        "totalSales": "$3449.20"
     },
     {
         "id": "OFF-PA-10004621",
         "product_name": "Xerox 212",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$145.85",
         "expense": "$264.41",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-124891",
             "CA-2016-110877"
-        ]
+        ],
+        "totalSales": "$2771.15"
     },
     {
         "id": "OFF-PA-10004665",
         "product_name": "Advantus Motivational Note Cards",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$706.56",
         "expense": "$514.44",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-120845"
-        ]
+        ],
+        "totalSales": "$3532.80"
     },
     {
         "id": "OFF-PA-10004782",
         "product_name": "Xerox 228",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$54.70",
         "expense": "$644.00",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-148635"
-        ]
+        ],
+        "totalSales": "$929.90"
     },
     {
         "id": "OFF-PA-10004947",
         "product_name": "Easy-staple paper",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$278.14",
         "expense": "$295.60",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-158918"
-        ]
+        ],
+        "totalSales": "$3615.82"
     },
     {
         "id": "OFF-PA-10004948",
         "product_name": "Xerox 190",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$610.36",
         "expense": "$298.77",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-162544"
-        ]
+        ],
+        "totalSales": "$3051.80"
     },
     {
         "id": "OFF-PA-10004971",
         "product_name": "Xerox 196",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$585.50",
         "expense": "$48.81",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-132486"
-        ]
+        ],
+        "totalSales": "$7611.50"
     },
     {
         "id": "OFF-PA-10004996",
         "product_name": "Speediset Carbonless Redi-Letter 7\" x 8 1/2\"",
+        "category": "Office Supplies",
+        "sub_category": "Paper",
         "price": "$695.77",
         "expense": "$498.29",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-119480"
-        ]
+        ],
+        "totalSales": "$2783.08"
     },
     {
         "id": "OFF-ST-10000025",
         "product_name": "Fellowes Stor/Drawer Steel Plus Storage Drawers",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$77.29",
         "expense": "$493.94",
+        "totalQuantity": 27,
         "transactions": [
             "CA-2016-145849",
             "CA-2016-120901"
-        ]
+        ],
+        "totalSales": "$2086.83"
     },
     {
         "id": "OFF-ST-10000046",
         "product_name": "Fellowes Super Stor/Drawer Files",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$671.14",
         "expense": "$538.62",
+        "totalQuantity": 36,
         "transactions": [
             "CA-2016-126445",
             "CA-2016-147788",
             "CA-2016-162369",
             "CA-2016-130113"
-        ]
+        ],
+        "totalSales": "$24161.04"
     },
     {
         "id": "OFF-ST-10000060",
         "product_name": "Fellowes Bankers Box Staxonsteel Drawer File/Stacking System",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$831.17",
         "expense": "$832.84",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-153416"
-        ]
+        ],
+        "totalSales": "$10805.21"
     },
     {
         "id": "OFF-ST-10000078",
         "product_name": "Tennsco 6- and 18-Compartment Lockers",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$793.24",
         "expense": "$521.48",
+        "totalQuantity": 39,
         "transactions": [
             "US-2016-114741",
             "CA-2016-121783"
-        ]
+        ],
+        "totalSales": "$30936.36"
     },
     {
         "id": "OFF-ST-10000107",
         "product_name": "Fellowes Super Stor/Drawer",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$269.63",
         "expense": "$627.40",
+        "totalQuantity": 8,
         "transactions": [
             "US-2016-120712"
-        ]
+        ],
+        "totalSales": "$2157.04"
     },
     {
         "id": "OFF-ST-10000129",
         "product_name": "Fellowes Recycled Storage Drawers",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$15.79",
         "expense": "$25.65",
+        "totalQuantity": 30,
         "transactions": [
             "CA-2016-126725",
             "CA-2016-163181"
-        ]
+        ],
+        "totalSales": "$473.70"
     },
     {
         "id": "OFF-ST-10000142",
         "product_name": "Deluxe Rollaway Locking File with Drawer",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$631.46",
         "expense": "$213.56",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-111829"
-        ]
+        ],
+        "totalSales": "$10103.36"
     },
     {
         "id": "OFF-ST-10000344",
         "product_name": "Neat Ideas Personal Hanging Folder Files, Black",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$642.95",
         "expense": "$286.14",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-145394",
             "CA-2016-133837"
-        ]
+        ],
+        "totalSales": "$18002.60"
     },
     {
         "id": "OFF-ST-10000464",
         "product_name": "Multi-Use Personal File Cart and Caster Set, Three Stacking Bins",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$972.31",
         "expense": "$58.27",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-160472"
-        ]
+        ],
+        "totalSales": "$15556.96"
     },
     {
         "id": "OFF-ST-10000532",
         "product_name": "Advantus Rolling Drawer Organizers",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$274.14",
         "expense": "$77.42",
+        "totalQuantity": 23,
         "transactions": [
             "US-2016-113593"
-        ]
+        ],
+        "totalSales": "$6305.22"
     },
     {
         "id": "OFF-ST-10000563",
         "product_name": "Fellowes Bankers Box Stor/Drawer Steel Plus",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$935.66",
         "expense": "$292.37",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-112130",
             "CA-2016-158421"
-        ]
+        ],
+        "totalSales": "$14970.56"
     },
     {
         "id": "OFF-ST-10000585",
         "product_name": "Economy Rollaway Files",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$466.38",
         "expense": "$949.28",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-140984"
-        ]
+        ],
+        "totalSales": "$8394.84"
     },
     {
         "id": "OFF-ST-10000604",
         "product_name": "Home/Office Personal File Carts",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$251.16",
         "expense": "$36.53",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-113173"
-        ]
+        ],
+        "totalSales": "$1506.96"
     },
     {
         "id": "OFF-ST-10000617",
         "product_name": "Woodgrain Magazine Files by Perma",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$448.99",
         "expense": "$525.85",
+        "totalQuantity": 13,
         "transactions": [
             "US-2016-126977"
-        ]
+        ],
+        "totalSales": "$5836.87"
     },
     {
         "id": "OFF-ST-10000636",
         "product_name": "Rogers Profile Extra Capacity Storage Tub",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$164.15",
         "expense": "$978.61",
+        "totalQuantity": 1,
         "transactions": [
             "CA-2016-132948"
-        ]
+        ],
+        "totalSales": "$164.15"
     },
     {
         "id": "OFF-ST-10000642",
         "product_name": "Tennsco Lockers, Gray",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$38.96",
         "expense": "$492.77",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-131338"
-        ]
+        ],
+        "totalSales": "$506.48"
     },
     {
         "id": "OFF-ST-10000649",
         "product_name": "Hanging Personal Folder File",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$827.25",
         "expense": "$539.68",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-145485"
-        ]
+        ],
+        "totalSales": "$6618.00"
     },
     {
         "id": "OFF-ST-10000689",
         "product_name": "Fellowes Strictly Business Drawer File, Letter/Legal Size",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$907.17",
         "expense": "$584.38",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-109512"
-        ]
+        ],
+        "totalSales": "$9071.70"
     },
     {
         "id": "OFF-ST-10000736",
         "product_name": "Carina Double Wide Media Storage Towers in Natural & Black",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$545.11",
         "expense": "$875.02",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-157812",
             "CA-2016-130456",
             "CA-2016-121188"
-        ]
+        ],
+        "totalSales": "$13082.64"
     },
     {
         "id": "OFF-ST-10000760",
         "product_name": "Eldon Fold 'N Roll Cart System",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$137.59",
         "expense": "$187.17",
+        "totalQuantity": 19,
         "transactions": [
             "US-2016-108966"
-        ]
+        ],
+        "totalSales": "$2614.21"
     },
     {
         "id": "OFF-ST-10000777",
         "product_name": "Companion Letter/Legal File, Black",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$268.96",
         "expense": "$235.27",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-140221"
-        ]
+        ],
+        "totalSales": "$4841.28"
     },
     {
         "id": "OFF-ST-10000798",
         "product_name": "2300 Heavy-Duty Transfer File Systems by Perma",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$765.35",
         "expense": "$195.75",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-124800",
             "CA-2016-135580"
-        ]
+        ],
+        "totalSales": "$19899.10"
     },
     {
         "id": "OFF-ST-10000876",
         "product_name": "Eldon Simplefile Box Office",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$796.88",
         "expense": "$931.85",
+        "totalQuantity": 40,
         "transactions": [
             "CA-2016-104486",
             "CA-2016-169733"
-        ]
+        ],
+        "totalSales": "$31875.20"
     },
     {
         "id": "OFF-ST-10000885",
         "product_name": "Fellowes Desktop Hanging File Manager",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$672.66",
         "expense": "$526.29",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-114811"
-        ]
+        ],
+        "totalSales": "$5381.28"
     },
     {
         "id": "OFF-ST-10000918",
         "product_name": "Crate-A-Files",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$666.95",
         "expense": "$665.98",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-163965"
-        ]
+        ],
+        "totalSales": "$14672.90"
     },
     {
         "id": "OFF-ST-10000934",
         "product_name": "Contico 72\"H Heavy-Duty Storage System",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$78.25",
         "expense": "$49.79",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-142993"
-        ]
+        ],
+        "totalSales": "$1878.00"
     },
     {
         "id": "OFF-ST-10000943",
         "product_name": "Eldon ProFile File 'N Store Portable File Tub Letter/Legal Size Black",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$681.01",
         "expense": "$992.07",
+        "totalQuantity": 45,
         "transactions": [
             "CA-2016-155761",
             "CA-2016-132507",
             "US-2016-119312",
             "CA-2016-101126"
-        ]
+        ],
+        "totalSales": "$30645.45"
     },
     {
         "id": "OFF-ST-10001172",
         "product_name": "Tennsco Lockers, Sand",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$327.89",
         "expense": "$281.19",
+        "totalQuantity": 38,
         "transactions": [
             "CA-2016-117961",
             "CA-2016-157287",
             "CA-2016-113131"
-        ]
+        ],
+        "totalSales": "$12459.82"
     },
     {
         "id": "OFF-ST-10001228",
         "product_name": "Personal File Boxes with Fold-Down Carry Handle",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$188.01",
         "expense": "$527.01",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-145352"
-        ]
+        ],
+        "totalSales": "$4700.25"
     },
     {
         "id": "OFF-ST-10001272",
         "product_name": "Mini 13-1/2 Capacity Data Binder Rack, Pearl",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$347.07",
         "expense": "$180.68",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-138009"
-        ]
+        ],
+        "totalSales": "$7635.54"
     },
     {
         "id": "OFF-ST-10001291",
         "product_name": "Tenex Personal Self-Stacking Standard File Box, Black/Gray",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$821.69",
         "expense": "$149.83",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-111395",
             "CA-2016-110632"
-        ]
+        ],
+        "totalSales": "$13147.04"
     },
     {
         "id": "OFF-ST-10001321",
         "product_name": "Decoflex Hanging Personal Folder File, Blue",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$417.26",
         "expense": "$397.37",
+        "totalQuantity": 61,
         "transactions": [
             "CA-2016-115938",
             "CA-2016-129098",
             "US-2016-130519",
             "US-2016-148817"
-        ]
+        ],
+        "totalSales": "$25452.86"
     },
     {
         "id": "OFF-ST-10001325",
         "product_name": "Sterilite Officeware Hinged File Box",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$817.36",
         "expense": "$748.17",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-130204"
-        ]
+        ],
+        "totalSales": "$4086.80"
     },
     {
         "id": "OFF-ST-10001328",
         "product_name": "Personal Filing Tote with Lid, Black/Gray",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$832.76",
         "expense": "$835.25",
+        "totalQuantity": 29,
         "transactions": [
             "CA-2016-161214",
             "CA-2016-167255",
             "CA-2016-149601"
-        ]
+        ],
+        "totalSales": "$24150.04"
     },
     {
         "id": "OFF-ST-10001418",
         "product_name": "Carina Media Storage Towers in Natural & Black",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$825.96",
         "expense": "$675.85",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-126725"
-        ]
+        ],
+        "totalSales": "$2477.88"
     },
     {
         "id": "OFF-ST-10001476",
         "product_name": "Steel Personal Filing/Posting Tote",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$581.32",
         "expense": "$943.60",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-134201"
-        ]
+        ],
+        "totalSales": "$7557.16"
     },
     {
         "id": "OFF-ST-10001490",
         "product_name": "Hot File 7-Pocket, Floor Stand",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$547.76",
         "expense": "$273.84",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-146563",
             "CA-2016-135020",
             "CA-2016-121188"
-        ]
+        ],
+        "totalSales": "$4382.08"
     },
     {
         "id": "OFF-ST-10001496",
         "product_name": "Standard Rollaway File with Lock",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$957.18",
         "expense": "$657.97",
+        "totalQuantity": 29,
         "transactions": [
             "CA-2016-120880",
             "CA-2016-134075"
-        ]
+        ],
+        "totalSales": "$27758.22"
     },
     {
         "id": "OFF-ST-10001505",
         "product_name": "Perma STOR-ALL Hanging File Box, 13 1/8\"W x 12 1/4\"D x 10 1/2\"H",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$630.35",
         "expense": "$317.45",
+        "totalQuantity": 52,
         "transactions": [
             "CA-2016-131779",
             "CA-2016-169796",
             "CA-2016-112214",
             "CA-2016-116512"
-        ]
+        ],
+        "totalSales": "$32778.20"
     },
     {
         "id": "OFF-ST-10001511",
         "product_name": "Space Solutions Commercial Steel Shelving",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$397.67",
         "expense": "$552.87",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-146563"
-        ]
+        ],
+        "totalSales": "$7953.40"
     },
     {
         "id": "OFF-ST-10001522",
         "product_name": "Gould Plastics 18-Pocket Panel Bin, 34w x 5-1/4d x 20-1/2h",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$468.93",
         "expense": "$334.92",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-100734",
             "CA-2016-141565"
-        ]
+        ],
+        "totalSales": "$5627.16"
     },
     {
         "id": "OFF-ST-10001526",
         "product_name": "Iceberg Mobile Mega Data/Printer Cart",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$809.92",
         "expense": "$906.77",
+        "totalQuantity": 27,
         "transactions": [
             "CA-2016-108665",
             "US-2016-104185",
             "CA-2016-147690"
-        ]
+        ],
+        "totalSales": "$21867.84"
     },
     {
         "id": "OFF-ST-10001558",
         "product_name": "Acco Perma 4000 Stacking Storage Drawers",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$891.99",
         "expense": "$651.97",
+        "totalQuantity": 44,
         "transactions": [
             "CA-2016-164336",
             "CA-2016-149601"
-        ]
+        ],
+        "totalSales": "$39247.56"
     },
     {
         "id": "OFF-ST-10001590",
         "product_name": "Tenex Personal Project File with Scoop Front Design, Black",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$683.37",
         "expense": "$574.73",
+        "totalQuantity": 48,
         "transactions": [
             "CA-2016-124919",
             "US-2016-159982",
             "CA-2016-121391"
-        ]
+        ],
+        "totalSales": "$32801.76"
     },
     {
         "id": "OFF-ST-10001713",
         "product_name": "Gould Plastics 9-Pocket Panel Bin, 18-3/8w x 5-1/4d x 20-1/2h, Black",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$630.06",
         "expense": "$89.63",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-102016",
             "CA-2016-163181"
-        ]
+        ],
+        "totalSales": "$8190.78"
     },
     {
         "id": "OFF-ST-10001780",
         "product_name": "Tennsco 16-Compartment Lockers with Coat Rack",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$108.62",
         "expense": "$861.01",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-121720"
-        ]
+        ],
+        "totalSales": "$1629.30"
     },
     {
         "id": "OFF-ST-10001809",
         "product_name": "Fellowes Officeware Wire Shelving",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$803.78",
         "expense": "$245.57",
+        "totalQuantity": 41,
         "transactions": [
             "US-2016-120161",
             "CA-2016-128027",
             "CA-2016-150714"
-        ]
+        ],
+        "totalSales": "$32954.98"
     },
     {
         "id": "OFF-ST-10001837",
         "product_name": "SAFCO Mobile Desk Side File, Wire Frame",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$23.53",
         "expense": "$317.89",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-104514",
             "CA-2016-107902"
-        ]
+        ],
+        "totalSales": "$588.25"
     },
     {
         "id": "OFF-ST-10001932",
         "product_name": "Fellowes Staxonsteel Drawer Files",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$120.28",
         "expense": "$440.83",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-132465"
-        ]
+        ],
+        "totalSales": "$1443.36"
     },
     {
         "id": "OFF-ST-10001963",
         "product_name": "Tennsco Regal Shelving Units",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$290.43",
         "expense": "$787.24",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-115945"
-        ]
+        ],
+        "totalSales": "$2613.87"
     },
     {
         "id": "OFF-ST-10002182",
         "product_name": "Iris 3-Drawer Stacking Bin, Black",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$740.75",
         "expense": "$935.12",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-117884"
-        ]
+        ],
+        "totalSales": "$5926.00"
     },
     {
         "id": "OFF-ST-10002214",
         "product_name": "X-Rack File for Hanging Folders",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$493.98",
         "expense": "$725.24",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-166492"
-        ]
+        ],
+        "totalSales": "$10867.56"
     },
     {
         "id": "OFF-ST-10002289",
         "product_name": "Safco Wire Cube Shelving System, For Use as 4 or 5 14\" Cubes, Black",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$8.89",
         "expense": "$737.63",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-102260"
-        ]
+        ],
+        "totalSales": "$17.78"
     },
     {
         "id": "OFF-ST-10002344",
         "product_name": "Carina 42\"Hx23 3/4\"W Media Storage Unit",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$885.81",
         "expense": "$490.34",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-162964"
-        ]
+        ],
+        "totalSales": "$20373.63"
     },
     {
         "id": "OFF-ST-10002352",
         "product_name": "Iris Project Case",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$999.30",
         "expense": "$527.79",
+        "totalQuantity": 10,
         "transactions": [
             "US-2016-164238"
-        ]
+        ],
+        "totalSales": "$9993.00"
     },
     {
         "id": "OFF-ST-10002370",
         "product_name": "Sortfiler Multipurpose Personal File Organizer, Black",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$5.09",
         "expense": "$223.29",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-122371"
-        ]
+        ],
+        "totalSales": "$76.35"
     },
     {
         "id": "OFF-ST-10002406",
         "product_name": "Pizazz Global Quick File",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$186.03",
         "expense": "$545.64",
+        "totalQuantity": 29,
         "transactions": [
             "US-2016-118906",
             "CA-2016-149846"
-        ]
+        ],
+        "totalSales": "$5394.87"
     },
     {
         "id": "OFF-ST-10002444",
         "product_name": "Recycled Eldon Regeneration Jumbo File",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$503.72",
         "expense": "$101.34",
+        "totalQuantity": 43,
         "transactions": [
             "CA-2016-158421",
             "CA-2016-136105"
-        ]
+        ],
+        "totalSales": "$21659.96"
     },
     {
         "id": "OFF-ST-10002485",
         "product_name": "Rogers Deluxe File Chest",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$796.36",
         "expense": "$289.61",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-163055"
-        ]
+        ],
+        "totalSales": "$3981.80"
     },
     {
         "id": "OFF-ST-10002486",
         "product_name": "Eldon Shelf Savers Cubes and Bins",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$783.97",
         "expense": "$122.88",
+        "totalQuantity": 34,
         "transactions": [
             "CA-2016-105599",
             "CA-2016-130218",
             "CA-2016-162166"
-        ]
+        ],
+        "totalSales": "$26654.98"
     },
     {
         "id": "OFF-ST-10002554",
         "product_name": "Tennsco Industrial Shelving",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$910.08",
         "expense": "$300.17",
+        "totalQuantity": 36,
         "transactions": [
             "CA-2016-127110",
             "CA-2016-146486",
             "CA-2016-137113",
             "CA-2016-104038"
-        ]
+        ],
+        "totalSales": "$32762.88"
     },
     {
         "id": "OFF-ST-10002562",
         "product_name": "Staple magnet",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$641.21",
         "expense": "$454.82",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-125178",
             "CA-2016-103870"
-        ]
+        ],
+        "totalSales": "$10900.57"
     },
     {
         "id": "OFF-ST-10002574",
         "product_name": "SAFCO Commercial Wire Shelving, Black",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$588.44",
         "expense": "$331.32",
+        "totalQuantity": 45,
         "transactions": [
             "CA-2016-130365",
             "US-2016-130512"
-        ]
+        ],
+        "totalSales": "$26479.80"
     },
     {
         "id": "OFF-ST-10002583",
         "product_name": "Fellowes Neat Ideas Storage Cubes",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$401.88",
         "expense": "$539.16",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-138492"
-        ]
+        ],
+        "totalSales": "$7233.84"
     },
     {
         "id": "OFF-ST-10002615",
         "product_name": "Dual Level, Single-Width Filing Carts",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$653.57",
         "expense": "$233.60",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-156755"
-        ]
+        ],
+        "totalSales": "$1307.14"
     },
     {
         "id": "OFF-ST-10002743",
         "product_name": "SAFCO Boltless Steel Shelving",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$587.17",
         "expense": "$928.45",
+        "totalQuantity": 35,
         "transactions": [
             "CA-2016-124800",
             "CA-2016-143364"
-        ]
+        ],
+        "totalSales": "$20550.95"
     },
     {
         "id": "OFF-ST-10002756",
         "product_name": "Tennsco Stur-D-Stor Boltless Shelving, 5 Shelves, 24\" Deep, Sand",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$35.77",
         "expense": "$416.00",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-142601",
             "CA-2016-110863"
-        ]
+        ],
+        "totalSales": "$572.32"
     },
     {
         "id": "OFF-ST-10002957",
         "product_name": "Sterilite Show Offs Storage Containers",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$341.28",
         "expense": "$207.78",
+        "totalQuantity": 9,
         "transactions": [
             "US-2016-163783"
-        ]
+        ],
+        "totalSales": "$3071.52"
     },
     {
         "id": "OFF-ST-10002974",
         "product_name": "Trav-L-File Heavy-Duty Shuttle II, Black",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$668.93",
         "expense": "$327.93",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-166135"
-        ]
+        ],
+        "totalSales": "$7358.23"
     },
     {
         "id": "OFF-ST-10003058",
         "product_name": "Eldon Mobile Mega Data Cart  Mega Stackable  Add-On Trays",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$614.83",
         "expense": "$903.43",
+        "totalQuantity": 7,
         "transactions": [
             "US-2016-126977",
             "CA-2016-138954"
-        ]
+        ],
+        "totalSales": "$4303.81"
     },
     {
         "id": "OFF-ST-10003123",
         "product_name": "Fellowes Bases and Tops For Staxonsteel/High-Stak Systems",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$920.48",
         "expense": "$795.35",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-102036"
-        ]
+        ],
+        "totalSales": "$14727.68"
     },
     {
         "id": "OFF-ST-10003208",
         "product_name": "Adjustable Depth Letter/Legal Cart",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$591.60",
         "expense": "$768.17",
+        "totalQuantity": 48,
         "transactions": [
             "CA-2016-104626",
             "CA-2016-157322",
             "CA-2016-123939"
-        ]
+        ],
+        "totalSales": "$28396.80"
     },
     {
         "id": "OFF-ST-10003282",
         "product_name": "Advantus 10-Drawer Portable Organizer, Chrome Metal Frame, Smoke Drawers",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$330.49",
         "expense": "$35.65",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-111948"
-        ]
+        ],
+        "totalSales": "$6609.80"
     },
     {
         "id": "OFF-ST-10003306",
         "product_name": "Letter Size Cart",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$194.12",
         "expense": "$775.66",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-158659"
-        ]
+        ],
+        "totalSales": "$4658.88"
     },
     {
         "id": "OFF-ST-10003327",
         "product_name": "Akro-Mils 12-Gallon Tote",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$553.81",
         "expense": "$181.26",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-130792"
-        ]
+        ],
+        "totalSales": "$7199.53"
     },
     {
         "id": "OFF-ST-10003442",
         "product_name": "Eldon Portable Mobile Manager",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$144.62",
         "expense": "$737.21",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-160472"
-        ]
+        ],
+        "totalSales": "$1012.34"
     },
     {
         "id": "OFF-ST-10003470",
         "product_name": "Tennsco Snap-Together Open Shelving Units, Starter Sets and Add-On Units",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$909.50",
         "expense": "$272.90",
+        "totalQuantity": 40,
         "transactions": [
             "CA-2016-165162",
             "CA-2016-137064"
-        ]
+        ],
+        "totalSales": "$36380.00"
     },
     {
         "id": "OFF-ST-10003479",
         "product_name": "Eldon Base for stackable storage shelf, platinum",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$616.44",
         "expense": "$615.05",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-152527"
-        ]
+        ],
+        "totalSales": "$4931.52"
     },
     {
         "id": "OFF-ST-10003572",
         "product_name": "Portfile Personal File Boxes",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$619.61",
         "expense": "$853.45",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-114503"
-        ]
+        ],
+        "totalSales": "$4337.27"
     },
     {
         "id": "OFF-ST-10003638",
         "product_name": "Mobile Personal File Cube",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$822.39",
         "expense": "$649.80",
+        "totalQuantity": 58,
         "transactions": [
             "CA-2016-164882",
             "CA-2016-142454",
             "CA-2016-164084"
-        ]
+        ],
+        "totalSales": "$47698.62"
     },
     {
         "id": "OFF-ST-10003641",
         "product_name": "Space Solutions Industrial Galvanized Steel Shelving.",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$27.49",
         "expense": "$324.51",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-132465"
-        ]
+        ],
+        "totalSales": "$687.25"
     },
     {
         "id": "OFF-ST-10003656",
         "product_name": "Safco Industrial Wire Shelving",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$503.96",
         "expense": "$671.37",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-110744"
-        ]
+        ],
+        "totalSales": "$12599.00"
     },
     {
         "id": "OFF-ST-10003692",
         "product_name": "Recycled Steel Personal File for Hanging File Folders",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$18.11",
         "expense": "$174.62",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-163734"
-        ]
+        ],
+        "totalSales": "$126.77"
     },
     {
         "id": "OFF-ST-10003716",
         "product_name": "Tennsco Double-Tier Lockers",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$888.25",
         "expense": "$794.54",
+        "totalQuantity": 27,
         "transactions": [
             "US-2016-129637",
             "CA-2016-133242",
             "CA-2016-102260"
-        ]
+        ],
+        "totalSales": "$23982.75"
     },
     {
         "id": "OFF-ST-10003722",
         "product_name": "Project Tote Personal File",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$303.18",
         "expense": "$93.13",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-132626"
-        ]
+        ],
+        "totalSales": "$6063.60"
     },
     {
         "id": "OFF-ST-10003816",
         "product_name": "Fellowes High-Stak Drawer Files",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$984.10",
         "expense": "$344.52",
+        "totalQuantity": 32,
         "transactions": [
             "CA-2016-121720",
             "CA-2016-167010",
             "CA-2016-169656"
-        ]
+        ],
+        "totalSales": "$31491.20"
     },
     {
         "id": "OFF-ST-10003994",
         "product_name": "Belkin 19\" Center-Weighted Shelf, Gray",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$231.31",
         "expense": "$616.57",
+        "totalQuantity": 46,
         "transactions": [
             "CA-2016-117772",
             "CA-2016-116484"
-        ]
+        ],
+        "totalSales": "$10640.26"
     },
     {
         "id": "OFF-ST-10004123",
         "product_name": "Safco Industrial Wire Shelving System",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$689.82",
         "expense": "$469.60",
+        "totalQuantity": 24,
         "transactions": [
             "US-2016-134026",
             "CA-2016-109575"
-        ]
+        ],
+        "totalSales": "$16555.68"
     },
     {
         "id": "OFF-ST-10004186",
         "product_name": "Stur-D-Stor Shelving, Vertical 5-Shelf: 72\"H x 36\"W x 18 1/2\"D",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$185.12",
         "expense": "$483.36",
+        "totalQuantity": 55,
         "transactions": [
             "CA-2016-101154",
             "CA-2016-158421",
             "CA-2016-129532"
-        ]
+        ],
+        "totalSales": "$10181.60"
     },
     {
         "id": "OFF-ST-10004258",
         "product_name": "Portable Personal File Box",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$815.02",
         "expense": "$393.19",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-162537",
             "CA-2016-130876",
             "CA-2016-165813"
-        ]
+        ],
+        "totalSales": "$13040.32"
     },
     {
         "id": "OFF-ST-10004340",
         "product_name": "Fellowes Mobile File Cart, Black",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$827.81",
         "expense": "$197.88",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-149748"
-        ]
+        ],
+        "totalSales": "$17384.01"
     },
     {
         "id": "OFF-ST-10004459",
         "product_name": "Tennsco Single-Tier Lockers",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$821.64",
         "expense": "$405.22",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-134719"
-        ]
+        ],
+        "totalSales": "$15611.16"
     },
     {
         "id": "OFF-ST-10004507",
         "product_name": "Advantus Rolling Storage Box",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$305.85",
         "expense": "$789.35",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-157322",
             "CA-2016-119102"
-        ]
+        ],
+        "totalSales": "$6117.00"
     },
     {
         "id": "OFF-ST-10004634",
         "product_name": "Personal Folder Holder, Ebony",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$725.16",
         "expense": "$204.64",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-137708"
-        ]
+        ],
+        "totalSales": "$9427.08"
     },
     {
         "id": "OFF-ST-10004804",
         "product_name": "Belkin 19\" Vented Equipment Shelf, Black",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$744.68",
         "expense": "$233.72",
+        "totalQuantity": 49,
         "transactions": [
             "US-2016-159982",
             "CA-2016-144806",
             "CA-2016-129896"
-        ]
+        ],
+        "totalSales": "$36489.32"
     },
     {
         "id": "OFF-ST-10004950",
         "product_name": "Acco Perma 3000 Stacking Storage Drawers",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$143.18",
         "expense": "$818.58",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-109575",
             "CA-2016-148859"
-        ]
+        ],
+        "totalSales": "$3293.14"
     },
     {
         "id": "OFF-ST-10004963",
         "product_name": "Eldon Gobal File Keepers",
+        "category": "Office Supplies",
+        "sub_category": "Storage",
         "price": "$282.94",
         "expense": "$548.72",
+        "totalQuantity": 18,
         "transactions": [
             "US-2016-138303"
-        ]
+        ],
+        "totalSales": "$5092.92"
     },
     {
         "id": "OFF-SU-10000157",
         "product_name": "Compact Automatic Electric Letter Opener",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$618.29",
         "expense": "$315.79",
+        "totalQuantity": 12,
         "transactions": [
             "US-2016-160857"
-        ]
+        ],
+        "totalSales": "$7419.48"
     },
     {
         "id": "OFF-SU-10000898",
         "product_name": "Acme Hot Forged Carbon Steel Scissors with Nickel-Plated Handles, 3 7/8\" Cut, 8\"L",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$221.09",
         "expense": "$749.29",
+        "totalQuantity": 45,
         "transactions": [
             "CA-2016-151547",
             "US-2016-115343"
-        ]
+        ],
+        "totalSales": "$9949.05"
     },
     {
         "id": "OFF-SU-10001165",
         "product_name": "Acme Elite Stainless Steel Scissors",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$472.20",
         "expense": "$31.04",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-113110"
-        ]
+        ],
+        "totalSales": "$9444.00"
     },
     {
         "id": "OFF-SU-10001218",
         "product_name": "Fiskars Softgrip Scissors",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$196.52",
         "expense": "$146.77",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-101707"
-        ]
+        ],
+        "totalSales": "$3144.32"
     },
     {
         "id": "OFF-SU-10001225",
         "product_name": "Staple remover",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$894.14",
         "expense": "$500.63",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-120901",
             "CA-2016-110870"
-        ]
+        ],
+        "totalSales": "$7153.12"
     },
     {
         "id": "OFF-SU-10001574",
         "product_name": "Acme Value Line Scissors",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$907.39",
         "expense": "$723.61",
+        "totalQuantity": 33,
         "transactions": [
             "CA-2016-149713",
             "CA-2016-151841"
-        ]
+        ],
+        "totalSales": "$29943.87"
     },
     {
         "id": "OFF-SU-10001935",
         "product_name": "Staple remover",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$599.39",
         "expense": "$945.26",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-113173",
             "US-2016-130512"
-        ]
+        ],
+        "totalSales": "$9590.24"
     },
     {
         "id": "OFF-SU-10002189",
         "product_name": "Acme Rosewood Handle Letter Opener",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$710.69",
         "expense": "$152.98",
+        "totalQuantity": 14,
         "transactions": [
             "US-2016-101511"
-        ]
+        ],
+        "totalSales": "$9949.66"
     },
     {
         "id": "OFF-SU-10002537",
         "product_name": "Acme Box Cutter Scissors",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$408.74",
         "expense": "$882.49",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-163090"
-        ]
+        ],
+        "totalSales": "$8583.54"
     },
     {
         "id": "OFF-SU-10002557",
         "product_name": "Fiskars Spring-Action Scissors",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$950.98",
         "expense": "$644.84",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-132941"
-        ]
+        ],
+        "totalSales": "$8558.82"
     },
     {
         "id": "OFF-SU-10002573",
         "product_name": "Acme 10\" Easy Grip Assistive Scissors",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$628.37",
         "expense": "$683.34",
+        "totalQuantity": 45,
         "transactions": [
             "CA-2016-122259",
             "CA-2016-104486",
             "CA-2016-111017"
-        ]
+        ],
+        "totalSales": "$28276.65"
     },
     {
         "id": "OFF-SU-10002881",
         "product_name": "Martin Yale Chadless Opener Electric Letter Opener",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$614.74",
         "expense": "$925.67",
+        "totalQuantity": 18,
         "transactions": [
             "US-2016-138303"
-        ]
+        ],
+        "totalSales": "$11065.32"
     },
     {
         "id": "OFF-SU-10003567",
         "product_name": "Stiletto Hand Letter Openers",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$517.68",
         "expense": "$170.22",
+        "totalQuantity": 33,
         "transactions": [
             "CA-2016-162621",
             "CA-2016-112214"
-        ]
+        ],
+        "totalSales": "$17083.44"
     },
     {
         "id": "OFF-SU-10004231",
         "product_name": "Acme Tagit Stainless Steel Antibacterial Scissors",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$972.12",
         "expense": "$516.02",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-164882",
             "CA-2016-114468"
-        ]
+        ],
+        "totalSales": "$25275.12"
     },
     {
         "id": "OFF-SU-10004261",
         "product_name": "Fiskars 8\" Scissors, 2/Pack",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$323.31",
         "expense": "$59.38",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-161998"
-        ]
+        ],
+        "totalSales": "$4203.03"
     },
     {
         "id": "OFF-SU-10004290",
         "product_name": "Acme Design Line 8\" Stainless Steel Bent Scissors w/Champagne Handles, 3-1/8\" Cut",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$864.77",
         "expense": "$870.04",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-128356"
-        ]
+        ],
+        "totalSales": "$6053.39"
     },
     {
         "id": "OFF-SU-10004498",
         "product_name": "Martin-Yale Premier Letter Opener",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$296.54",
         "expense": "$200.38",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-132906",
             "CA-2016-149678"
-        ]
+        ],
+        "totalSales": "$7710.04"
     },
     {
         "id": "OFF-SU-10004661",
         "product_name": "Acme Titanium Bonded Scissors",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$417.87",
         "expense": "$786.28",
+        "totalQuantity": 1,
         "transactions": [
             "US-2016-136259"
-        ]
+        ],
+        "totalSales": "$417.87"
     },
     {
         "id": "OFF-SU-10004782",
         "product_name": "Elite 5\" Scissors",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$110.88",
         "expense": "$953.81",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-167745"
-        ]
+        ],
+        "totalSales": "$221.76"
     },
     {
         "id": "OFF-SU-10004884",
         "product_name": "Acme Galleria Hot Forged Steel Scissors with Colored Handles",
+        "category": "Office Supplies",
+        "sub_category": "Supplies",
         "price": "$505.19",
         "expense": "$131.42",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-129546"
-        ]
+        ],
+        "totalSales": "$7577.85"
     },
     {
         "id": "TEC-AC-10000057",
         "product_name": "Microsoft Natural Ergonomic Keyboard 4000",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$726.82",
         "expense": "$958.65",
+        "totalQuantity": 3,
         "transactions": [
             "US-2016-157014"
-        ]
+        ],
+        "totalSales": "$2180.46"
     },
     {
         "id": "TEC-AC-10000109",
         "product_name": "Sony Micro Vault Click 16 GB USB 2.0 Flash Drive",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$392.74",
         "expense": "$689.56",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-146262",
             "CA-2016-159863"
-        ]
+        ],
+        "totalSales": "$4712.88"
     },
     {
         "id": "TEC-AC-10000158",
         "product_name": "Sony 64GB Class 10 Micro SDHC R40 Memory Card",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$843.05",
         "expense": "$743.84",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-125234"
-        ]
+        ],
+        "totalSales": "$2529.15"
     },
     {
         "id": "TEC-AC-10000171",
         "product_name": "Verbatim 25 GB 6x Blu-ray Single Layer Recordable Disc, 25/Pack",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$378.10",
         "expense": "$417.76",
+        "totalQuantity": 29,
         "transactions": [
             "CA-2016-157812",
             "CA-2016-110093"
-        ]
+        ],
+        "totalSales": "$10964.90"
     },
     {
         "id": "TEC-AC-10000290",
         "product_name": "Sabrent 4-Port USB 2.0 Hub",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$884.85",
         "expense": "$545.96",
+        "totalQuantity": 19,
         "transactions": [
             "US-2016-130512"
-        ]
+        ],
+        "totalSales": "$16812.15"
     },
     {
         "id": "TEC-AC-10000358",
         "product_name": "Imation\u00a0Secure\u00a0Drive\u00a0+ Hardware Encrypted USB\u00a0flash drive\u00a0- 16 GB",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$268.86",
         "expense": "$119.72",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-138674",
             "CA-2016-163923"
-        ]
+        ],
+        "totalSales": "$2150.88"
     },
     {
         "id": "TEC-AC-10000387",
         "product_name": "KeyTronic\u00a0KT800P2 -\u00a0Keyboard\u00a0- Black",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$503.07",
         "expense": "$142.59",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-110632"
-        ]
+        ],
+        "totalSales": "$4527.63"
     },
     {
         "id": "TEC-AC-10000397",
         "product_name": "Perixx PERIBOARD-512B, Ergonomic Split Keyboard",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$482.73",
         "expense": "$870.39",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-145184"
-        ]
+        ],
+        "totalSales": "$10620.06"
     },
     {
         "id": "TEC-AC-10000487",
         "product_name": "SanDisk Cruzer 4 GB USB Flash Drive",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$122.00",
         "expense": "$173.11",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-128608"
-        ]
+        ],
+        "totalSales": "$732.00"
     },
     {
         "id": "TEC-AC-10000521",
         "product_name": "Verbatim Slim CD and DVD Storage Cases, 50/Pack",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$465.19",
         "expense": "$227.03",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-105613"
-        ]
+        ],
+        "totalSales": "$7443.04"
     },
     {
         "id": "TEC-AC-10000682",
         "product_name": "Kensington K72356US Mouse-in-a-Box USB Desktop Mouse",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$379.14",
         "expense": "$78.85",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-147102"
-        ]
+        ],
+        "totalSales": "$3033.12"
     },
     {
         "id": "TEC-AC-10000710",
         "product_name": "Maxell DVD-RAM Discs",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$369.94",
         "expense": "$906.89",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-132486"
-        ]
+        ],
+        "totalSales": "$7398.80"
     },
     {
         "id": "TEC-AC-10000736",
         "product_name": "Logitech G600 MMO Gaming Mouse",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$997.22",
         "expense": "$893.54",
+        "totalQuantity": 8,
         "transactions": [
             "US-2016-123218",
             "US-2016-107944"
-        ]
+        ],
+        "totalSales": "$7977.76"
     },
     {
         "id": "TEC-AC-10000844",
         "product_name": "Logitech\u00a0Gaming G510s - Keyboard",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$74.40",
         "expense": "$733.15",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-129476",
             "CA-2016-150770"
-        ]
+        ],
+        "totalSales": "$446.40"
     },
     {
         "id": "TEC-AC-10000865",
         "product_name": "WD My Passport Ultra 500GB Portable External Hard Drive",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$940.00",
         "expense": "$434.32",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-129532"
-        ]
+        ],
+        "totalSales": "$18800.00"
     },
     {
         "id": "TEC-AC-10000892",
         "product_name": "NETGEAR N750 Dual Band Wi-Fi Gigabit Router",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$633.71",
         "expense": "$235.08",
+        "totalQuantity": 47,
         "transactions": [
             "US-2016-137008",
             "CA-2016-160171",
             "CA-2016-151722"
-        ]
+        ],
+        "totalSales": "$29784.37"
     },
     {
         "id": "TEC-AC-10000927",
         "product_name": "Anker Ultrathin Bluetooth Wireless Keyboard Aluminum Cover with Stand",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$706.62",
         "expense": "$936.17",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-169740"
-        ]
+        ],
+        "totalSales": "$4239.72"
     },
     {
         "id": "TEC-AC-10000990",
         "product_name": "Imation Bio 2GB USB\u00a0Flash Drive Imation\u00a0Corp",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$375.52",
         "expense": "$98.47",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-109337"
-        ]
+        ],
+        "totalSales": "$6008.32"
     },
     {
         "id": "TEC-AC-10001090",
         "product_name": "Micro Innovations Wireless Classic Keyboard with Mouse",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$898.27",
         "expense": "$58.49",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-151043"
-        ]
+        ],
+        "totalSales": "$4491.35"
     },
     {
         "id": "TEC-AC-10001101",
         "product_name": "Sony 16GB Class 10 Micro SDHC R40 Memory Card",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$676.04",
         "expense": "$245.47",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-109001"
-        ]
+        ],
+        "totalSales": "$11492.68"
     },
     {
         "id": "TEC-AC-10001109",
         "product_name": "Logitech Trackman Marble Mouse",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$224.45",
         "expense": "$417.50",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-140410"
-        ]
+        ],
+        "totalSales": "$673.35"
     },
     {
         "id": "TEC-AC-10001142",
         "product_name": "First Data FD10 PIN Pad",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$621.33",
         "expense": "$249.38",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-119627"
-        ]
+        ],
+        "totalSales": "$14290.59"
     },
     {
         "id": "TEC-AC-10001266",
         "product_name": "Memorex Micro Travel Drive 8 GB",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$785.13",
         "expense": "$815.59",
+        "totalQuantity": 41,
         "transactions": [
             "CA-2016-101007",
             "CA-2016-139584",
             "CA-2016-149566"
-        ]
+        ],
+        "totalSales": "$32190.33"
     },
     {
         "id": "TEC-AC-10001267",
         "product_name": "Imation\u00a032GB Pocket Pro USB 3.0\u00a0Flash Drive\u00a0- 32 GB - Black - 1 P ...",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$59.88",
         "expense": "$662.17",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-137897"
-        ]
+        ],
+        "totalSales": "$778.44"
     },
     {
         "id": "TEC-AC-10001314",
         "product_name": "Case Logic 2.4GHz Wireless Keyboard",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$658.46",
         "expense": "$450.35",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-115567"
-        ]
+        ],
+        "totalSales": "$9218.44"
     },
     {
         "id": "TEC-AC-10001465",
         "product_name": "SanDisk Cruzer 64 GB USB Flash Drive",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$861.83",
         "expense": "$172.82",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-141145"
-        ]
+        ],
+        "totalSales": "$5170.98"
     },
     {
         "id": "TEC-AC-10001542",
         "product_name": "SanDisk Cruzer 16 GB USB Flash Drive",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$194.80",
         "expense": "$659.95",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-112130"
-        ]
+        ],
+        "totalSales": "$1168.80"
     },
     {
         "id": "TEC-AC-10001552",
         "product_name": "Logitech K350 2.4Ghz Wireless Keyboard",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$448.47",
         "expense": "$793.42",
+        "totalQuantity": 36,
         "transactions": [
             "US-2016-156867",
             "CA-2016-125416",
             "CA-2016-157770"
-        ]
+        ],
+        "totalSales": "$16144.92"
     },
     {
         "id": "TEC-AC-10001553",
         "product_name": "Memorex 25GB 6X Branded Blu-Ray Recordable Disc, 15/Pack",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$527.74",
         "expense": "$18.04",
+        "totalQuantity": 19,
         "transactions": [
             "US-2016-168732"
-        ]
+        ],
+        "totalSales": "$10027.06"
     },
     {
         "id": "TEC-AC-10001590",
         "product_name": "Dell Slim USB Multimedia Keyboard",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$650.08",
         "expense": "$429.53",
+        "totalQuantity": 44,
         "transactions": [
             "CA-2016-111458",
             "CA-2016-106187"
-        ]
+        ],
+        "totalSales": "$28603.52"
     },
     {
         "id": "TEC-AC-10001606",
         "product_name": "Logitech Wireless Performance Mouse MX for PC and Mac",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$615.78",
         "expense": "$807.90",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-155761"
-        ]
+        ],
+        "totalSales": "$2463.12"
     },
     {
         "id": "TEC-AC-10001767",
         "product_name": "SanDisk Ultra 64 GB MicroSDHC Class 10 Memory Card",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$887.31",
         "expense": "$453.84",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-102855"
-        ]
+        ],
+        "totalSales": "$10647.72"
     },
     {
         "id": "TEC-AC-10001838",
         "product_name": "Razer Tiamat Over Ear 7.1 Surround Sound PC Gaming Headset",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$12.50",
         "expense": "$513.04",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-113145",
             "CA-2016-158351"
-        ]
+        ],
+        "totalSales": "$212.50"
     },
     {
         "id": "TEC-AC-10001874",
         "product_name": "Logitech Wireless Anywhere Mouse MX for PC and Mac",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$106.31",
         "expense": "$455.77",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-158491"
-        ]
+        ],
+        "totalSales": "$1063.10"
     },
     {
         "id": "TEC-AC-10001908",
         "product_name": "Logitech Wireless Headset h800",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$207.01",
         "expense": "$536.81",
+        "totalQuantity": 13,
         "transactions": [
             "US-2016-153374"
-        ]
+        ],
+        "totalSales": "$2691.13"
     },
     {
         "id": "TEC-AC-10001956",
         "product_name": "Microsoft Arc Touch Mouse",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$214.22",
         "expense": "$364.19",
+        "totalQuantity": 35,
         "transactions": [
             "CA-2016-130883",
             "CA-2016-154886"
-        ]
+        ],
+        "totalSales": "$7497.70"
     },
     {
         "id": "TEC-AC-10001990",
         "product_name": "Kensington Orbit Wireless Mobile Trackball for PC and Mac",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$715.16",
         "expense": "$286.75",
+        "totalQuantity": 14,
         "transactions": [
             "US-2016-166520"
-        ]
+        ],
+        "totalSales": "$10012.24"
     },
     {
         "id": "TEC-AC-10001998",
         "product_name": "Logitech\u00a0LS21 Speaker System - PC Multimedia - 2.1-CH - Wired",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$162.80",
         "expense": "$502.82",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-132465"
-        ]
+        ],
+        "totalSales": "$3093.20"
     },
     {
         "id": "TEC-AC-10002006",
         "product_name": "Memorex Micro Travel Drive 16 GB",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$714.15",
         "expense": "$536.20",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-156335"
-        ]
+        ],
+        "totalSales": "$8569.80"
     },
     {
         "id": "TEC-AC-10002018",
         "product_name": "AmazonBasics 3-Button USB Wired Mouse",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$884.24",
         "expense": "$332.68",
+        "totalQuantity": 49,
         "transactions": [
             "US-2016-167220",
             "CA-2016-146486",
             "CA-2016-112305"
-        ]
+        ],
+        "totalSales": "$43327.76"
     },
     {
         "id": "TEC-AC-10002049",
         "product_name": "Logitech G19 Programmable Gaming Keyboard",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$514.74",
         "expense": "$604.15",
+        "totalQuantity": 80,
         "transactions": [
             "CA-2016-142755",
             "CA-2016-157084",
@@ -22939,1973 +27030,2968 @@ export const products = [
             "CA-2016-147830",
             "CA-2016-124107",
             "CA-2016-113152"
-        ]
+        ],
+        "totalSales": "$41179.20"
     },
     {
         "id": "TEC-AC-10002076",
         "product_name": "Microsoft Natural Keyboard Elite",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$603.71",
         "expense": "$71.12",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-138485"
-        ]
+        ],
+        "totalSales": "$3018.55"
     },
     {
         "id": "TEC-AC-10002167",
         "product_name": "Imation\u00a08gb Micro Traveldrive Usb 2.0\u00a0Flash Drive",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$670.55",
         "expense": "$31.97",
+        "totalQuantity": 7,
         "transactions": [
             "US-2016-157014"
-        ]
+        ],
+        "totalSales": "$4693.85"
     },
     {
         "id": "TEC-AC-10002217",
         "product_name": "Imation\u00a0Clip USB\u00a0flash drive\u00a0- 8 GB",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$329.61",
         "expense": "$114.32",
+        "totalQuantity": 32,
         "transactions": [
             "CA-2016-137897",
             "CA-2016-119627"
-        ]
+        ],
+        "totalSales": "$10547.52"
     },
     {
         "id": "TEC-AC-10002253",
         "product_name": "Imation Bio 8GB USB\u00a0Flash Drive Imation\u00a0Corp",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$317.57",
         "expense": "$800.77",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-131534",
             "CA-2016-160472",
             "US-2016-137960"
-        ]
+        ],
+        "totalSales": "$4128.41"
     },
     {
         "id": "TEC-AC-10002305",
         "product_name": "KeyTronic\u00a0E03601U1 -\u00a0Keyboard\u00a0- Beige",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$51.70",
         "expense": "$452.26",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-164084"
-        ]
+        ],
+        "totalSales": "$982.30"
     },
     {
         "id": "TEC-AC-10002323",
         "product_name": "SanDisk Ultra 32 GB MicroSDHC Class 10 Memory Card",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$98.21",
         "expense": "$488.17",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-105221",
             "CA-2016-145828",
             "US-2016-144771"
-        ]
+        ],
+        "totalSales": "$589.26"
     },
     {
         "id": "TEC-AC-10002335",
         "product_name": "Logitech Media Keyboard K200",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$954.19",
         "expense": "$750.61",
+        "totalQuantity": 9,
         "transactions": [
             "US-2016-168935"
-        ]
+        ],
+        "totalSales": "$8587.71"
     },
     {
         "id": "TEC-AC-10002345",
         "product_name": "HP Standard 104 key PS/2 Keyboard",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$2.27",
         "expense": "$166.21",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-164336",
             "US-2016-106873"
-        ]
+        ],
+        "totalSales": "$56.75"
     },
     {
         "id": "TEC-AC-10002370",
         "product_name": "Maxell CD-R Discs",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$311.43",
         "expense": "$177.35",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-103870"
-        ]
+        ],
+        "totalSales": "$4671.45"
     },
     {
         "id": "TEC-AC-10002402",
         "product_name": "Razer Kraken PRO Over Ear PC and Music Headset",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$56.29",
         "expense": "$929.72",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-100769",
             "CA-2016-140025",
             "CA-2016-140557"
-        ]
+        ],
+        "totalSales": "$1238.38"
     },
     {
         "id": "TEC-AC-10002473",
         "product_name": "Maxell 4.7GB DVD-R",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$628.83",
         "expense": "$617.98",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-111164",
             "CA-2016-123155"
-        ]
+        ],
+        "totalSales": "$11318.94"
     },
     {
         "id": "TEC-AC-10002550",
         "product_name": "Maxell 4.7GB DVD-RW 3/Pack",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$241.43",
         "expense": "$44.13",
+        "totalQuantity": 59,
         "transactions": [
             "CA-2016-124541",
             "CA-2016-112053",
             "CA-2016-112823"
-        ]
+        ],
+        "totalSales": "$14244.37"
     },
     {
         "id": "TEC-AC-10002567",
         "product_name": "Logitech G602 Wireless Gaming Mouse",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$371.79",
         "expense": "$552.60",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-149083",
             "US-2016-160563",
             "CA-2016-117884"
-        ]
+        ],
+        "totalSales": "$9294.75"
     },
     {
         "id": "TEC-AC-10002600",
         "product_name": "Belkin QODE FastFit Bluetooth Keyboard",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$193.86",
         "expense": "$359.98",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-131338"
-        ]
+        ],
+        "totalSales": "$2326.32"
     },
     {
         "id": "TEC-AC-10002637",
         "product_name": "Logitech\u00a0VX Revolution Cordless Laser Mouse for Notebooks (Black)",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$913.06",
         "expense": "$189.94",
+        "totalQuantity": 19,
         "transactions": [
             "US-2016-127040",
             "CA-2016-146486"
-        ]
+        ],
+        "totalSales": "$17348.14"
     },
     {
         "id": "TEC-AC-10002718",
         "product_name": "Belkin Standard 104 key USB Keyboard",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$885.17",
         "expense": "$716.32",
+        "totalQuantity": 42,
         "transactions": [
             "US-2016-106495",
             "US-2016-159499",
             "CA-2016-144043"
-        ]
+        ],
+        "totalSales": "$37177.14"
     },
     {
         "id": "TEC-AC-10002800",
         "product_name": "Plantronics Audio 478 Stereo USB Headset",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$341.29",
         "expense": "$302.50",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-133452",
             "CA-2016-138674"
-        ]
+        ],
+        "totalSales": "$8190.96"
     },
     {
         "id": "TEC-AC-10002926",
         "product_name": "Logitech Wireless Marathon Mouse M705",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$330.10",
         "expense": "$883.21",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-110870"
-        ]
+        ],
+        "totalSales": "$5941.80"
     },
     {
         "id": "TEC-AC-10003033",
         "product_name": "Plantronics CS510 - Over-the-Head monaural Wireless Headset System",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$376.75",
         "expense": "$331.30",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-124891",
             "US-2016-126977"
-        ]
+        ],
+        "totalSales": "$4144.25"
     },
     {
         "id": "TEC-AC-10003038",
         "product_name": "Kingston Digital DataTraveler 16GB USB 2.0",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$891.43",
         "expense": "$257.33",
+        "totalQuantity": 68,
         "transactions": [
             "CA-2016-129112",
             "CA-2016-130204",
             "US-2016-122140",
             "US-2016-123960",
             "CA-2016-142993"
-        ]
+        ],
+        "totalSales": "$60617.24"
     },
     {
         "id": "TEC-AC-10003063",
         "product_name": "Micro Innovations USB RF Wireless Keyboard with Mouse",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$81.16",
         "expense": "$135.21",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-126347"
-        ]
+        ],
+        "totalSales": "$1379.72"
     },
     {
         "id": "TEC-AC-10003095",
         "product_name": "Logitech G35 7.1-Channel Surround Sound Headset",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$890.76",
         "expense": "$71.42",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-111206",
             "CA-2016-130974",
             "CA-2016-132941"
-        ]
+        ],
+        "totalSales": "$21378.24"
     },
     {
         "id": "TEC-AC-10003116",
         "product_name": "Memorex Froggy Flash Drive 8 GB",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$587.75",
         "expense": "$704.89",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-102722",
             "US-2016-103996"
-        ]
+        ],
+        "totalSales": "$16457.00"
     },
     {
         "id": "TEC-AC-10003174",
         "product_name": "Plantronics S12 Corded Telephone Headset System",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$741.62",
         "expense": "$842.19",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-155306"
-        ]
+        ],
+        "totalSales": "$10382.68"
     },
     {
         "id": "TEC-AC-10003198",
         "product_name": "Enermax Acrylux Wireless Keyboard",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$32.07",
         "expense": "$639.59",
+        "totalQuantity": 80,
         "transactions": [
             "US-2016-126214",
             "CA-2016-142202",
             "CA-2016-141243",
             "CA-2016-148712",
             "CA-2016-154284"
-        ]
+        ],
+        "totalSales": "$2565.60"
     },
     {
         "id": "TEC-AC-10003237",
         "product_name": "Memorex Micro Travel Drive 4 GB",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$297.63",
         "expense": "$116.86",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-112375"
-        ]
+        ],
+        "totalSales": "$6250.23"
     },
     {
         "id": "TEC-AC-10003280",
         "product_name": "Belkin F8E887 USB Wired Ergonomic Keyboard",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$979.05",
         "expense": "$244.66",
+        "totalQuantity": 28,
         "transactions": [
             "CA-2016-101091",
             "US-2016-147662"
-        ]
+        ],
+        "totalSales": "$27413.40"
     },
     {
         "id": "TEC-AC-10003289",
         "product_name": "Anker Ultra-Slim Mini Bluetooth 3.0 Wireless Keyboard",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$497.31",
         "expense": "$634.61",
+        "totalQuantity": 26,
         "transactions": [
             "US-2016-122140",
             "CA-2016-102491",
             "CA-2016-103135"
-        ]
+        ],
+        "totalSales": "$12930.06"
     },
     {
         "id": "TEC-AC-10003399",
         "product_name": "Memorex Mini Travel Drive 64 GB USB 2.0 Flash Drive",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$83.58",
         "expense": "$809.53",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-157770"
-        ]
+        ],
+        "totalSales": "$1922.34"
     },
     {
         "id": "TEC-AC-10003433",
         "product_name": "Maxell 4.7GB DVD+R 5/Pack",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$961.74",
         "expense": "$150.04",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-164007"
-        ]
+        ],
+        "totalSales": "$12502.62"
     },
     {
         "id": "TEC-AC-10003499",
         "product_name": "Memorex Mini Travel Drive 8 GB USB 2.0 Flash Drive",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$558.98",
         "expense": "$537.25",
+        "totalQuantity": 34,
         "transactions": [
             "CA-2016-143238",
             "CA-2016-137064"
-        ]
+        ],
+        "totalSales": "$19005.32"
     },
     {
         "id": "TEC-AC-10003590",
         "product_name": "TRENDnet 56K USB 2.0 Phone, Internet and Fax Modem",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$754.79",
         "expense": "$433.67",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-130204",
             "US-2016-163433"
-        ]
+        ],
+        "totalSales": "$17360.17"
     },
     {
         "id": "TEC-AC-10003628",
         "product_name": "Logitech 910-002974 M325 Wireless Mouse for Web Scrolling",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$331.58",
         "expense": "$214.52",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-155334",
             "US-2016-113327"
-        ]
+        ],
+        "totalSales": "$7626.34"
     },
     {
         "id": "TEC-AC-10003657",
         "product_name": "Lenovo 17-Key USB Numeric Keypad",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$786.43",
         "expense": "$228.87",
+        "totalQuantity": 71,
         "transactions": [
             "CA-2016-119697",
             "CA-2016-155054",
             "CA-2016-148873"
-        ]
+        ],
+        "totalSales": "$55836.53"
     },
     {
         "id": "TEC-AC-10003709",
         "product_name": "Maxell 4.7GB DVD-R 5/Pack",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$931.16",
         "expense": "$974.23",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-155145"
-        ]
+        ],
+        "totalSales": "$23279.00"
     },
     {
         "id": "TEC-AC-10003832",
         "product_name": "Logitech\u00a0P710e Mobile Speakerphone",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$648.79",
         "expense": "$474.27",
+        "totalQuantity": 17,
         "transactions": [
             "US-2016-115343"
-        ]
+        ],
+        "totalSales": "$11029.43"
     },
     {
         "id": "TEC-AC-10003870",
         "product_name": "Logitech\u00a0Z-906 Speaker sys - home theater - 5.1-CH",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$920.82",
         "expense": "$425.78",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-158491"
-        ]
+        ],
+        "totalSales": "$4604.10"
     },
     {
         "id": "TEC-AC-10004127",
         "product_name": "SanDisk Cruzer 8 GB USB Flash Drive",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$186.78",
         "expense": "$79.37",
+        "totalQuantity": 18,
         "transactions": [
             "US-2016-165449"
-        ]
+        ],
+        "totalSales": "$3362.04"
     },
     {
         "id": "TEC-AC-10004145",
         "product_name": "Logitech diNovo Edge Keyboard",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$829.39",
         "expense": "$656.85",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-135685",
             "US-2016-134558"
-        ]
+        ],
+        "totalSales": "$20734.75"
     },
     {
         "id": "TEC-AC-10004171",
         "product_name": "Razer Kraken 7.1 Surround Sound Over Ear USB Gaming Headset",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$843.43",
         "expense": "$372.89",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-103933"
-        ]
+        ],
+        "totalSales": "$3373.72"
     },
     {
         "id": "TEC-AC-10004209",
         "product_name": "Memorex Froggy Flash Drive 4 GB",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$871.57",
         "expense": "$746.18",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-128993"
-        ]
+        ],
+        "totalSales": "$6100.99"
     },
     {
         "id": "TEC-AC-10004227",
         "product_name": "SanDisk Ultra 16 GB MicroSDHC Class 10 Memory Card",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$228.19",
         "expense": "$75.07",
+        "totalQuantity": 33,
         "transactions": [
             "US-2016-126753",
             "CA-2016-103870"
-        ]
+        ],
+        "totalSales": "$7530.27"
     },
     {
         "id": "TEC-AC-10004353",
         "product_name": "Hypercom P1300 Pinpad",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$742.26",
         "expense": "$25.68",
+        "totalQuantity": 45,
         "transactions": [
             "CA-2016-126697",
             "CA-2016-137071"
-        ]
+        ],
+        "totalSales": "$33401.70"
     },
     {
         "id": "TEC-AC-10004396",
         "product_name": "Logitech Keyboard K120",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$246.98",
         "expense": "$340.79",
+        "totalQuantity": 62,
         "transactions": [
             "CA-2016-104346",
             "CA-2016-101868",
             "CA-2016-146675"
-        ]
+        ],
+        "totalSales": "$15312.76"
     },
     {
         "id": "TEC-AC-10004469",
         "product_name": "Microsoft Sculpt Comfort Mouse",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$624.78",
         "expense": "$66.20",
+        "totalQuantity": 40,
         "transactions": [
             "CA-2016-155040",
             "CA-2016-164427",
             "CA-2016-146255"
-        ]
+        ],
+        "totalSales": "$24991.20"
     },
     {
         "id": "TEC-AC-10004510",
         "product_name": "Logitech Desktop MK120 Mouse and keyboard Combo",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$713.84",
         "expense": "$422.00",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-108532"
-        ]
+        ],
+        "totalSales": "$17846.00"
     },
     {
         "id": "TEC-AC-10004568",
         "product_name": "Maxell\u00a0LTO Ultrium - 800 GB",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$396.43",
         "expense": "$32.42",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-154326",
             "CA-2016-165624",
             "CA-2016-136147"
-        ]
+        ],
+        "totalSales": "$7928.60"
     },
     {
         "id": "TEC-AC-10004571",
         "product_name": "Logitech G700s Rechargeable Gaming Mouse",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$768.20",
         "expense": "$884.74",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-109638",
             "CA-2016-122406"
-        ]
+        ],
+        "totalSales": "$5377.40"
     },
     {
         "id": "TEC-AC-10004633",
         "product_name": "Verbatim 25 GB 6x Blu-ray Single Layer Recordable Disc, 3/Pack",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$683.80",
         "expense": "$635.51",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-135545",
             "CA-2016-167374"
-        ]
+        ],
+        "totalSales": "$15043.60"
     },
     {
         "id": "TEC-AC-10004708",
         "product_name": "Sony 32GB Class 10 Micro SDHC R40 Memory Card",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$782.52",
         "expense": "$146.78",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-125395"
-        ]
+        ],
+        "totalSales": "$6260.16"
     },
     {
         "id": "TEC-AC-10004761",
         "product_name": "Maxell 4.7GB DVD+RW 3/Pack",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$858.59",
         "expense": "$953.22",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-109113",
             "CA-2016-135853"
-        ]
+        ],
+        "totalSales": "$21464.75"
     },
     {
         "id": "TEC-AC-10004864",
         "product_name": "Memorex Micro Travel Drive 32 GB",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$908.51",
         "expense": "$109.72",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-111514"
-        ]
+        ],
+        "totalSales": "$20895.73"
     },
     {
         "id": "TEC-AC-10004901",
         "product_name": "Kensington SlimBlade Notebook Wireless Mouse with Nano Receiver",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$668.97",
         "expense": "$731.56",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-140921"
-        ]
+        ],
+        "totalSales": "$16724.25"
     },
     {
         "id": "TEC-AC-10004975",
         "product_name": "Plantronics Audio 995 Wireless Stereo Headset",
+        "category": "Technology",
+        "sub_category": "Accessories",
         "price": "$218.50",
         "expense": "$420.20",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-139731"
-        ]
+        ],
+        "totalSales": "$2840.50"
     },
     {
         "id": "TEC-CO-10000971",
         "product_name": "Hewlett Packard 310 Color Digital Copier",
+        "category": "Technology",
+        "sub_category": "Copiers",
         "price": "$756.00",
         "expense": "$746.29",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-166464"
-        ]
+        ],
+        "totalSales": "$15120.00"
     },
     {
         "id": "TEC-CO-10001046",
         "product_name": "Canon Imageclass D680 Copier / Fax",
+        "category": "Technology",
+        "sub_category": "Copiers",
         "price": "$739.63",
         "expense": "$319.23",
+        "totalQuantity": 3,
         "transactions": [
             "US-2016-100377"
-        ]
+        ],
+        "totalSales": "$2218.89"
     },
     {
         "id": "TEC-CO-10001449",
         "product_name": "Hewlett Packard LaserJet 3310 Copier",
+        "category": "Technology",
+        "sub_category": "Copiers",
         "price": "$858.34",
         "expense": "$778.41",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-137946"
-        ]
+        ],
+        "totalSales": "$20600.16"
     },
     {
         "id": "TEC-CO-10001571",
         "product_name": "Sharp 1540cs Digital Laser Copier",
+        "category": "Technology",
+        "sub_category": "Copiers",
         "price": "$143.31",
         "expense": "$588.83",
+        "totalQuantity": 30,
         "transactions": [
             "US-2016-131359",
             "CA-2016-140984",
             "CA-2016-105690",
             "CA-2016-121783"
-        ]
+        ],
+        "totalSales": "$4299.30"
     },
     {
         "id": "TEC-CO-10001766",
         "product_name": "Canon PC940 Copier",
+        "category": "Technology",
+        "sub_category": "Copiers",
         "price": "$675.23",
         "expense": "$728.83",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-111829",
             "CA-2016-146675"
-        ]
+        ],
+        "totalSales": "$16880.75"
     },
     {
         "id": "TEC-CO-10001943",
         "product_name": "Canon PC-428 Personal Copier",
+        "category": "Technology",
+        "sub_category": "Copiers",
         "price": "$842.30",
         "expense": "$97.36",
+        "totalQuantity": 15,
         "transactions": [
             "US-2016-136987",
             "CA-2016-109190"
-        ]
+        ],
+        "totalSales": "$12634.50"
     },
     {
         "id": "TEC-CO-10002095",
         "product_name": "Hewlett Packard 610 Color Digital Copier / Printer",
+        "category": "Technology",
+        "sub_category": "Copiers",
         "price": "$143.12",
         "expense": "$184.92",
+        "totalQuantity": 26,
         "transactions": [
             "CA-2016-156104",
             "CA-2016-143105"
-        ]
+        ],
+        "totalSales": "$3721.12"
     },
     {
         "id": "TEC-CO-10002313",
         "product_name": "Canon PC1080F Personal Copier",
+        "category": "Technology",
+        "sub_category": "Copiers",
         "price": "$301.81",
         "expense": "$917.63",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-158939"
-        ]
+        ],
+        "totalSales": "$4225.34"
     },
     {
         "id": "TEC-CO-10003763",
         "product_name": "Canon PC1060 Personal Laser Copier",
+        "category": "Technology",
+        "sub_category": "Copiers",
         "price": "$896.25",
         "expense": "$868.36",
+        "totalQuantity": 33,
         "transactions": [
             "CA-2016-142944",
             "US-2016-128587"
-        ]
+        ],
+        "totalSales": "$29576.25"
     },
     {
         "id": "TEC-CO-10004115",
         "product_name": "Sharp AL-1530CS Digital Copier",
+        "category": "Technology",
+        "sub_category": "Copiers",
         "price": "$845.15",
         "expense": "$649.41",
+        "totalQuantity": 8,
         "transactions": [
             "US-2016-160857"
-        ]
+        ],
+        "totalSales": "$6761.20"
     },
     {
         "id": "TEC-CO-10004202",
         "product_name": "Brother DCP1000 Digital 3 in 1 Multifunction Machine",
+        "category": "Technology",
+        "sub_category": "Copiers",
         "price": "$497.06",
         "expense": "$705.53",
+        "totalQuantity": 36,
         "transactions": [
             "CA-2016-112452",
             "CA-2016-104941",
             "CA-2016-111780"
-        ]
+        ],
+        "totalSales": "$17894.16"
     },
     {
         "id": "TEC-MA-10000045",
         "product_name": "Zebra ZM400 Thermal Label Printer",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$133.18",
         "expense": "$796.12",
+        "totalQuantity": 32,
         "transactions": [
             "CA-2016-169796",
             "CA-2016-114811"
-        ]
+        ],
+        "totalSales": "$4261.76"
     },
     {
         "id": "TEC-MA-10000418",
         "product_name": "Cubify CubeX 3D Printer Double Head Print",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$353.85",
         "expense": "$650.46",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-147830"
-        ]
+        ],
+        "totalSales": "$3538.50"
     },
     {
         "id": "TEC-MA-10000423",
         "product_name": "Texas Instruments TI-34 Scientific Calculator",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$505.98",
         "expense": "$241.75",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-149300"
-        ]
+        ],
+        "totalSales": "$8601.66"
     },
     {
         "id": "TEC-MA-10000488",
         "product_name": "Bady BDG101FRU Card Printer",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$763.62",
         "expense": "$578.48",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-121797"
-        ]
+        ],
+        "totalSales": "$16799.64"
     },
     {
         "id": "TEC-MA-10000597",
         "product_name": "Lexmark S315 Color Inkjet Printer",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$256.36",
         "expense": "$139.77",
+        "totalQuantity": 41,
         "transactions": [
             "CA-2016-111514",
             "US-2016-131359"
-        ]
+        ],
+        "totalSales": "$10510.76"
     },
     {
         "id": "TEC-MA-10000864",
         "product_name": "Cisco 9971 IP Video Phone Charcoal",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$122.05",
         "expense": "$939.77",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-146262",
             "CA-2016-102491"
-        ]
+        ],
+        "totalSales": "$3783.55"
     },
     {
         "id": "TEC-MA-10001016",
         "product_name": "Canon PC170 Desktop Personal Copier",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$546.37",
         "expense": "$432.35",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-163181"
-        ]
+        ],
+        "totalSales": "$5463.70"
     },
     {
         "id": "TEC-MA-10001148",
         "product_name": "Swingline SM12-08 MicroCut Jam Free Shredder",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$185.63",
         "expense": "$177.21",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-169397"
-        ]
+        ],
+        "totalSales": "$742.52"
     },
     {
         "id": "TEC-MA-10001681",
         "product_name": "Lexmark MarkNet N8150 Wireless Print Server",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$46.33",
         "expense": "$835.73",
+        "totalQuantity": 1,
         "transactions": [
             "CA-2016-122756"
-        ]
+        ],
+        "totalSales": "$46.33"
     },
     {
         "id": "TEC-MA-10001972",
         "product_name": "Okidata C331dn Printer",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$459.39",
         "expense": "$354.52",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-147501"
-        ]
+        ],
+        "totalSales": "$4593.90"
     },
     {
         "id": "TEC-MA-10002428",
         "product_name": "Fellowes Powershred HS-440 4-Sheet High Security Shredder",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$482.63",
         "expense": "$60.31",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-132626"
-        ]
+        ],
+        "totalSales": "$5791.56"
     },
     {
         "id": "TEC-MA-10002790",
         "product_name": "NeatDesk Desktop Scanner & Digital Filing System",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$943.98",
         "expense": "$947.83",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-161767"
-        ]
+        ],
+        "totalSales": "$19823.58"
     },
     {
         "id": "TEC-MA-10002859",
         "product_name": "Ativa MDM8000 8-Sheet Micro-Cut Shredder",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$220.69",
         "expense": "$791.47",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-127173"
-        ]
+        ],
+        "totalSales": "$441.38"
     },
     {
         "id": "TEC-MA-10002930",
         "product_name": "Ricoh - Ink Collector Unit for GX3000 Series Printers",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$723.28",
         "expense": "$630.74",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-109337"
-        ]
+        ],
+        "totalSales": "$14465.60"
     },
     {
         "id": "TEC-MA-10003329",
         "product_name": "Vtech AT&T CL2940 Corded Speakerphone, Black",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$569.26",
         "expense": "$943.42",
+        "totalQuantity": 14,
         "transactions": [
             "US-2016-159513"
-        ]
+        ],
+        "totalSales": "$7969.64"
     },
     {
         "id": "TEC-MA-10004002",
         "product_name": "Zebra GX420t Direct Thermal/Thermal Transfer Printer",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$400.72",
         "expense": "$800.92",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-135580",
             "CA-2016-149846"
-        ]
+        ],
+        "totalSales": "$8815.84"
     },
     {
         "id": "TEC-MA-10004212",
         "product_name": "Cisco SPA525G2 5-Line IP Phone",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$47.34",
         "expense": "$465.46",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-124450"
-        ]
+        ],
+        "totalSales": "$1183.50"
     },
     {
         "id": "TEC-MA-10004241",
         "product_name": "Star Micronics TSP800 TSP847IIU Receipt Printer",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$760.81",
         "expense": "$883.57",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-154284"
-        ]
+        ],
+        "totalSales": "$4564.86"
     },
     {
         "id": "TEC-MA-10004552",
         "product_name": "Star Micronics TSP100 TSP143LAN Receipt Printer",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$850.92",
         "expense": "$4.87",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-145758"
-        ]
+        ],
+        "totalSales": "$20422.08"
     },
     {
         "id": "TEC-MA-10004679",
         "product_name": "StarTech.com 10/100 VDSL2 Ethernet Extender Kit",
+        "category": "Technology",
+        "sub_category": "Machines",
         "price": "$597.54",
         "expense": "$778.80",
+        "totalQuantity": 8,
         "transactions": [
             "CA-2016-143147"
-        ]
+        ],
+        "totalSales": "$4780.32"
     },
     {
         "id": "TEC-PH-10000011",
         "product_name": "PureGear Roll-On Screen Protector",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$334.48",
         "expense": "$867.14",
+        "totalQuantity": 35,
         "transactions": [
             "CA-2016-137106",
             "CA-2016-135489"
-        ]
+        ],
+        "totalSales": "$11706.80"
     },
     {
         "id": "TEC-PH-10000149",
         "product_name": "Cisco SPA525G2 IP Phone - Wireless",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$826.75",
         "expense": "$934.52",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-120320"
-        ]
+        ],
+        "totalSales": "$9094.25"
     },
     {
         "id": "TEC-PH-10000169",
         "product_name": "ARKON Windshield Dashboard Air Vent Car Mount Holder",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$42.19",
         "expense": "$857.24",
+        "totalQuantity": 13,
         "transactions": [
             "US-2016-126977"
-        ]
+        ],
+        "totalSales": "$548.47"
     },
     {
         "id": "TEC-PH-10000193",
         "product_name": "Jensen SMPS-640 -\u00a0speaker phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$197.54",
         "expense": "$951.17",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-118871"
-        ]
+        ],
+        "totalSales": "$2370.48"
     },
     {
         "id": "TEC-PH-10000307",
         "product_name": "Shocksock Galaxy S4 Armband",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$163.57",
         "expense": "$210.05",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-112452"
-        ]
+        ],
+        "totalSales": "$4089.25"
     },
     {
         "id": "TEC-PH-10000347",
         "product_name": "Cush Cases Heavy Duty Rugged Cover Case for Samsung Galaxy S5 - Purple",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$277.51",
         "expense": "$3.27",
+        "totalQuantity": 55,
         "transactions": [
             "CA-2016-130995",
             "CA-2016-167010",
             "CA-2016-103716"
-        ]
+        ],
+        "totalSales": "$15263.05"
     },
     {
         "id": "TEC-PH-10000369",
         "product_name": "HTC One Mini",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$252.11",
         "expense": "$814.58",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-158421",
             "CA-2016-129917"
-        ]
+        ],
+        "totalSales": "$1512.66"
     },
     {
         "id": "TEC-PH-10000376",
         "product_name": "Square Credit Card Reader",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$440.85",
         "expense": "$883.53",
+        "totalQuantity": 31,
         "transactions": [
             "CA-2016-161718",
             "CA-2016-163440",
             "CA-2016-102316"
-        ]
+        ],
+        "totalSales": "$13666.35"
     },
     {
         "id": "TEC-PH-10000441",
         "product_name": "VTech DS6151",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$323.97",
         "expense": "$812.88",
+        "totalQuantity": 39,
         "transactions": [
             "CA-2016-113628",
             "US-2016-122910",
             "CA-2016-136798"
-        ]
+        ],
+        "totalSales": "$12634.83"
     },
     {
         "id": "TEC-PH-10000486",
         "product_name": "Plantronics HL10 Handset Lifter",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$359.77",
         "expense": "$827.12",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-117415"
-        ]
+        ],
+        "totalSales": "$2518.39"
     },
     {
         "id": "TEC-PH-10000526",
         "product_name": "Vtech CS6719",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$463.03",
         "expense": "$713.96",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-126557",
             "CA-2016-112711"
-        ]
+        ],
+        "totalSales": "$11112.72"
     },
     {
         "id": "TEC-PH-10000560",
         "product_name": "Samsung Galaxy S III - 16GB - pebble blue (T-Mobile)",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$786.02",
         "expense": "$877.30",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-154326"
-        ]
+        ],
+        "totalSales": "$7074.18"
     },
     {
         "id": "TEC-PH-10000562",
         "product_name": "Samsung Convoy 3",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$420.33",
         "expense": "$424.92",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-109001"
-        ]
+        ],
+        "totalSales": "$2942.31"
     },
     {
         "id": "TEC-PH-10000576",
         "product_name": "AT&T 1080 Corded phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$130.88",
         "expense": "$351.33",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-143490",
             "US-2016-156496"
-        ]
+        ],
+        "totalSales": "$1177.92"
     },
     {
         "id": "TEC-PH-10000730",
         "product_name": "Samsung Galaxy S4 Active",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$4.01",
         "expense": "$846.70",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-109575"
-        ]
+        ],
+        "totalSales": "$8.02"
     },
     {
         "id": "TEC-PH-10000895",
         "product_name": "Polycom VVX 310 VoIP phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$188.34",
         "expense": "$943.02",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-168746",
             "CA-2016-109575"
-        ]
+        ],
+        "totalSales": "$565.02"
     },
     {
         "id": "TEC-PH-10000912",
         "product_name": "Anker 24W Portable Micro USB Car Charger",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$95.60",
         "expense": "$60.04",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-128608"
-        ]
+        ],
+        "totalSales": "$382.40"
     },
     {
         "id": "TEC-PH-10000923",
         "product_name": "Belkin SportFit Armband For iPhone 5s/5c, Fuchsia",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$717.99",
         "expense": "$9.02",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-123939"
-        ]
+        ],
+        "totalSales": "$15795.78"
     },
     {
         "id": "TEC-PH-10000984",
         "product_name": "Panasonic KX-TG9471B",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$974.95",
         "expense": "$339.75",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-131338"
-        ]
+        ],
+        "totalSales": "$22423.85"
     },
     {
         "id": "TEC-PH-10001051",
         "product_name": "HTC One",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$182.57",
         "expense": "$213.63",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-123232",
             "CA-2016-145394"
-        ]
+        ],
+        "totalSales": "$3651.40"
     },
     {
         "id": "TEC-PH-10001061",
         "product_name": "Apple iPhone 5C",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$549.29",
         "expense": "$300.87",
+        "totalQuantity": 36,
         "transactions": [
             "US-2016-123218",
             "US-2016-168704"
-        ]
+        ],
+        "totalSales": "$19774.44"
     },
     {
         "id": "TEC-PH-10001198",
         "product_name": "Avaya 4621SW VoIP phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$244.05",
         "expense": "$266.84",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-156328"
-        ]
+        ],
+        "totalSales": "$4392.90"
     },
     {
         "id": "TEC-PH-10001254",
         "product_name": "Jabra BIZ 2300 Duo QD Duo Corded\u00a0Headset",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$273.06",
         "expense": "$843.68",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-150875"
-        ]
+        ],
+        "totalSales": "$4642.02"
     },
     {
         "id": "TEC-PH-10001299",
         "product_name": "Polycom CX300 Desktop Phone USB VoIP phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$493.01",
         "expense": "$332.64",
+        "totalQuantity": 24,
         "transactions": [
             "US-2016-132836"
-        ]
+        ],
+        "totalSales": "$11832.24"
     },
     {
         "id": "TEC-PH-10001300",
         "product_name": "iKross Bluetooth Portable Keyboard + Cell Phone Stand Holder + Brush for Apple iPhone 5S 5C 5, 4S 4",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$563.49",
         "expense": "$281.34",
+        "totalQuantity": 30,
         "transactions": [
             "US-2016-115238",
             "US-2016-132836"
-        ]
+        ],
+        "totalSales": "$16904.70"
     },
     {
         "id": "TEC-PH-10001336",
         "product_name": "Digium D40 VoIP phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$468.98",
         "expense": "$938.39",
+        "totalQuantity": 42,
         "transactions": [
             "CA-2016-165050",
             "CA-2016-131856"
-        ]
+        ],
+        "totalSales": "$19697.16"
     },
     {
         "id": "TEC-PH-10001433",
         "product_name": "Cisco Small Business SPA 502G VoIP phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$143.18",
         "expense": "$357.20",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-150308"
-        ]
+        ],
+        "totalSales": "$859.08"
     },
     {
         "id": "TEC-PH-10001494",
         "product_name": "Polycom CX600 IP Phone VoIP phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$580.36",
         "expense": "$547.31",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-106257"
-        ]
+        ],
+        "totalSales": "$9866.12"
     },
     {
         "id": "TEC-PH-10001527",
         "product_name": "Plantronics MX500i Earset",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$723.41",
         "expense": "$789.80",
+        "totalQuantity": 76,
         "transactions": [
             "CA-2016-113145",
             "CA-2016-153906",
             "CA-2016-122406",
             "CA-2016-156146",
             "CA-2016-103177"
-        ]
+        ],
+        "totalSales": "$54979.16"
     },
     {
         "id": "TEC-PH-10001530",
         "product_name": "Cisco Unified IP Phone 7945G VoIP phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$229.13",
         "expense": "$237.21",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-135174",
             "CA-2016-157770"
-        ]
+        ],
+        "totalSales": "$4353.47"
     },
     {
         "id": "TEC-PH-10001536",
         "product_name": "Spigen Samsung Galaxy S5 Case Wallet",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$598.64",
         "expense": "$843.94",
+        "totalQuantity": 3,
         "transactions": [
             "CA-2016-149909"
-        ]
+        ],
+        "totalSales": "$1795.92"
     },
     {
         "id": "TEC-PH-10001552",
         "product_name": "I Need's 3d Hello Kitty Hybrid Silicone Case Cover for HTC One X 4g with 3d Hello Kitty Stylus Pen Green/pink",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$657.81",
         "expense": "$822.49",
+        "totalQuantity": 54,
         "transactions": [
             "CA-2016-102281",
             "CA-2016-114300",
             "CA-2016-153108"
-        ]
+        ],
+        "totalSales": "$35521.74"
     },
     {
         "id": "TEC-PH-10001557",
         "product_name": "Pyle PMP37LED",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$511.75",
         "expense": "$574.50",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-149342",
             "US-2016-122784"
-        ]
+        ],
+        "totalSales": "$7164.50"
     },
     {
         "id": "TEC-PH-10001578",
         "product_name": "Polycom SoundStation2 EX Conference\u00a0phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$888.11",
         "expense": "$467.85",
+        "totalQuantity": 27,
         "transactions": [
             "CA-2016-164882",
             "CA-2016-131884",
             "CA-2016-166583"
-        ]
+        ],
+        "totalSales": "$23978.97"
     },
     {
         "id": "TEC-PH-10001580",
         "product_name": "Logitech Mobile Speakerphone P710e -\u00a0speaker phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$937.46",
         "expense": "$211.31",
+        "totalQuantity": 6,
         "transactions": [
             "US-2016-159982"
-        ]
+        ],
+        "totalSales": "$5624.76"
     },
     {
         "id": "TEC-PH-10001615",
         "product_name": "AT&T CL82213",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$709.27",
         "expense": "$525.32",
+        "totalQuantity": 1,
         "transactions": [
             "CA-2016-153752"
-        ]
+        ],
+        "totalSales": "$709.27"
     },
     {
         "id": "TEC-PH-10001619",
         "product_name": "LG G3",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$568.71",
         "expense": "$547.54",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-102491",
             "CA-2016-146255"
-        ]
+        ],
+        "totalSales": "$8530.65"
     },
     {
         "id": "TEC-PH-10001700",
         "product_name": "Panasonic KX-TG6844B Expandable Digital Cordless Telephone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$333.06",
         "expense": "$473.91",
+        "totalQuantity": 20,
         "transactions": [
             "CA-2016-156146",
             "CA-2016-123092"
-        ]
+        ],
+        "totalSales": "$6661.20"
     },
     {
         "id": "TEC-PH-10001750",
         "product_name": "Samsung Rugby III",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$129.41",
         "expense": "$800.21",
+        "totalQuantity": 75,
         "transactions": [
             "CA-2016-124800",
             "CA-2016-134747",
             "CA-2016-116687",
             "US-2016-110261",
             "CA-2016-108532"
-        ]
+        ],
+        "totalSales": "$9705.75"
     },
     {
         "id": "TEC-PH-10001760",
         "product_name": "Bose SoundLink Bluetooth Speaker",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$663.76",
         "expense": "$242.76",
+        "totalQuantity": 16,
         "transactions": [
             "US-2016-161991"
-        ]
+        ],
+        "totalSales": "$10620.16"
     },
     {
         "id": "TEC-PH-10001795",
         "product_name": "RCA H5401RE1 DECT 6.0 4-Line Cordless Handset With Caller ID/Call Waiting",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$291.63",
         "expense": "$31.71",
+        "totalQuantity": 29,
         "transactions": [
             "CA-2016-103177",
             "US-2016-163279"
-        ]
+        ],
+        "totalSales": "$8457.27"
     },
     {
         "id": "TEC-PH-10001809",
         "product_name": "Panasonic KX T7736-B Digital phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$521.31",
         "expense": "$866.66",
+        "totalQuantity": 16,
         "transactions": [
             "CA-2016-123673",
             "CA-2016-123155"
-        ]
+        ],
+        "totalSales": "$8340.96"
     },
     {
         "id": "TEC-PH-10001817",
         "product_name": "Wilson Electronics DB Pro Signal Booster",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$241.38",
         "expense": "$406.60",
+        "totalQuantity": 43,
         "transactions": [
             "CA-2016-135622",
             "CA-2016-136469",
             "CA-2016-156566"
-        ]
+        ],
+        "totalSales": "$10379.34"
     },
     {
         "id": "TEC-PH-10001819",
         "product_name": "Innergie mMini Combo Duo USB Travel Charging Kit",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$210.25",
         "expense": "$951.89",
+        "totalQuantity": 36,
         "transactions": [
             "CA-2016-154326",
             "CA-2016-115798",
             "CA-2016-123330"
-        ]
+        ],
+        "totalSales": "$7569.00"
     },
     {
         "id": "TEC-PH-10001835",
         "product_name": "Jawbone JAMBOX Wireless Bluetooth Speaker",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$625.56",
         "expense": "$799.59",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-141040"
-        ]
+        ],
+        "totalSales": "$6881.16"
     },
     {
         "id": "TEC-PH-10001870",
         "product_name": "Lunatik TT5L-002 Taktik Strike Impact Protection System for iPhone 5",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$208.02",
         "expense": "$598.08",
+        "totalQuantity": 9,
         "transactions": [
             "US-2016-163433"
-        ]
+        ],
+        "totalSales": "$1872.18"
     },
     {
         "id": "TEC-PH-10001944",
         "product_name": "Wi-Ex zBoost YX540 Cellular Phone Signal Booster",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$253.64",
         "expense": "$343.67",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-109708"
-        ]
+        ],
+        "totalSales": "$1521.84"
     },
     {
         "id": "TEC-PH-10002033",
         "product_name": "Konftel 250 Conference\u00a0phone\u00a0- Charcoal black",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$965.86",
         "expense": "$945.69",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-137974"
-        ]
+        ],
+        "totalSales": "$8692.74"
     },
     {
         "id": "TEC-PH-10002070",
         "product_name": "Griffin GC36547 PowerJolt SE Lightning Charger",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$909.85",
         "expense": "$459.35",
+        "totalQuantity": 2,
         "transactions": [
             "US-2016-136427"
-        ]
+        ],
+        "totalSales": "$1819.70"
     },
     {
         "id": "TEC-PH-10002103",
         "product_name": "Jabra SPEAK 410",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$738.78",
         "expense": "$626.57",
+        "totalQuantity": 41,
         "transactions": [
             "CA-2016-110877",
             "CA-2016-107678",
             "CA-2016-164567"
-        ]
+        ],
+        "totalSales": "$30289.98"
     },
     {
         "id": "TEC-PH-10002115",
         "product_name": "Plantronics 81402",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$732.28",
         "expense": "$290.98",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-161263"
-        ]
+        ],
+        "totalSales": "$4393.68"
     },
     {
         "id": "TEC-PH-10002170",
         "product_name": "ClearSounds CSC500 Amplified Spirit Phone Corded phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$37.68",
         "expense": "$283.44",
+        "totalQuantity": 13,
         "transactions": [
             "CA-2016-120103",
             "US-2016-126977"
-        ]
+        ],
+        "totalSales": "$489.84"
     },
     {
         "id": "TEC-PH-10002200",
         "product_name": "Aastra 6757i CT Wireless VoIP phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$670.83",
         "expense": "$350.53",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-145814",
             "CA-2016-141810"
-        ]
+        ],
+        "totalSales": "$14087.43"
     },
     {
         "id": "TEC-PH-10002293",
         "product_name": "Anker 36W 4-Port USB Wall Charger Travel Power Adapter for iPhone 5s 5c 5",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$130.99",
         "expense": "$31.77",
+        "totalQuantity": 22,
         "transactions": [
             "CA-2016-165414"
-        ]
+        ],
+        "totalSales": "$2881.78"
     },
     {
         "id": "TEC-PH-10002310",
         "product_name": "Plantronics Calisto P620-M USB Wireless Speakerphone System",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$345.72",
         "expense": "$393.53",
+        "totalQuantity": 17,
         "transactions": [
             "CA-2016-155306"
-        ]
+        ],
+        "totalSales": "$5877.24"
     },
     {
         "id": "TEC-PH-10002350",
         "product_name": "Apple EarPods with Remote and Mic",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$558.66",
         "expense": "$408.64",
+        "totalQuantity": 19,
         "transactions": [
             "CA-2016-145184"
-        ]
+        ],
+        "totalSales": "$10614.54"
     },
     {
         "id": "TEC-PH-10002415",
         "product_name": "Polycom VoiceStation 500 Conference\u00a0phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$309.18",
         "expense": "$176.25",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-117800"
-        ]
+        ],
+        "totalSales": "$3400.98"
     },
     {
         "id": "TEC-PH-10002468",
         "product_name": "Plantronics CS 50-USB -\u00a0headset\u00a0- Convertible, Monaural",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$986.99",
         "expense": "$675.14",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-139164"
-        ]
+        ],
+        "totalSales": "$24674.75"
     },
     {
         "id": "TEC-PH-10002496",
         "product_name": "Cisco SPA301",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$81.30",
         "expense": "$854.87",
+        "totalQuantity": 56,
         "transactions": [
             "CA-2016-121720",
             "CA-2016-115392",
             "CA-2016-133242",
             "CA-2016-125976"
-        ]
+        ],
+        "totalSales": "$4552.80"
     },
     {
         "id": "TEC-PH-10002538",
         "product_name": "Grandstream GXP1160 VoIP phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$603.05",
         "expense": "$691.22",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-158421"
-        ]
+        ],
+        "totalSales": "$14473.20"
     },
     {
         "id": "TEC-PH-10002555",
         "product_name": "Nortel Meridian M5316 Digital phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$428.42",
         "expense": "$742.23",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-168746"
-        ]
+        ],
+        "totalSales": "$10282.08"
     },
     {
         "id": "TEC-PH-10002564",
         "product_name": "OtterBox Defender Series Case - Samsung Galaxy S4",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$362.66",
         "expense": "$786.28",
+        "totalQuantity": 11,
         "transactions": [
             "CA-2016-113901"
-        ]
+        ],
+        "totalSales": "$3989.26"
     },
     {
         "id": "TEC-PH-10002584",
         "product_name": "Samsung Galaxy S4",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$35.56",
         "expense": "$57.58",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-116876"
-        ]
+        ],
+        "totalSales": "$640.08"
     },
     {
         "id": "TEC-PH-10002597",
         "product_name": "Xblue XB-1670-86 X16 Small\u00a0Office Telephone\u00a0- Titanium",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$463.71",
         "expense": "$272.39",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-113145"
-        ]
+        ],
+        "totalSales": "$4637.10"
     },
     {
         "id": "TEC-PH-10002624",
         "product_name": "Samsung Galaxy S4 Mini",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$590.56",
         "expense": "$574.43",
+        "totalQuantity": 6,
         "transactions": [
             "US-2016-128090"
-        ]
+        ],
+        "totalSales": "$3543.36"
     },
     {
         "id": "TEC-PH-10002680",
         "product_name": "Samsung Galaxy Note 3",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$961.83",
         "expense": "$178.72",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-102876"
-        ]
+        ],
+        "totalSales": "$9618.30"
     },
     {
         "id": "TEC-PH-10002726",
         "product_name": "netTALK DUO VoIP Telephone Service",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$365.77",
         "expense": "$974.54",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-156335",
             "CA-2016-140144"
-        ]
+        ],
+        "totalSales": "$5120.78"
     },
     {
         "id": "TEC-PH-10002789",
         "product_name": "LG Exalt",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$314.16",
         "expense": "$404.82",
+        "totalQuantity": 1,
         "transactions": [
             "US-2016-154389"
-        ]
+        ],
+        "totalSales": "$314.16"
     },
     {
         "id": "TEC-PH-10002807",
         "product_name": "Motorla HX550 Universal Bluetooth Headset",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$905.44",
         "expense": "$332.44",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-122210"
-        ]
+        ],
+        "totalSales": "$10865.28"
     },
     {
         "id": "TEC-PH-10002834",
         "product_name": "Google Nexus 5",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$942.37",
         "expense": "$887.39",
+        "totalQuantity": 9,
         "transactions": [
             "US-2016-147662"
-        ]
+        ],
+        "totalSales": "$8481.33"
     },
     {
         "id": "TEC-PH-10002844",
         "product_name": "Speck Products Candyshell Flip Case",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$324.14",
         "expense": "$297.32",
+        "totalQuantity": 52,
         "transactions": [
             "CA-2016-146262",
             "CA-2016-167010",
             "CA-2016-104115"
-        ]
+        ],
+        "totalSales": "$16855.28"
     },
     {
         "id": "TEC-PH-10002890",
         "product_name": "AT&T 17929 Lendline Telephone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$92.20",
         "expense": "$503.46",
+        "totalQuantity": 51,
         "transactions": [
             "CA-2016-134747",
             "CA-2016-121405",
             "CA-2016-109386"
-        ]
+        ],
+        "totalSales": "$4702.20"
     },
     {
         "id": "TEC-PH-10002922",
         "product_name": "ShoreTel ShorePhone IP 230 VoIP phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$748.38",
         "expense": "$967.73",
+        "totalQuantity": 41,
         "transactions": [
             "CA-2016-126697",
             "CA-2016-157084",
             "CA-2016-110548",
             "US-2016-109015"
-        ]
+        ],
+        "totalSales": "$30683.58"
     },
     {
         "id": "TEC-PH-10002923",
         "product_name": "Logitech B530 USB\u00a0Headset\u00a0-\u00a0headset\u00a0- Full size, Binaural",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$177.36",
         "expense": "$636.22",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-153717",
             "CA-2016-151253",
             "CA-2016-119879"
-        ]
+        ],
+        "totalSales": "$3192.48"
     },
     {
         "id": "TEC-PH-10003012",
         "product_name": "Nortel Meridian M3904 Professional Digital phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$534.11",
         "expense": "$814.19",
+        "totalQuantity": 70,
         "transactions": [
             "CA-2016-131338",
             "CA-2016-105627",
             "CA-2016-120915",
             "CA-2016-144274"
-        ]
+        ],
+        "totalSales": "$37387.70"
     },
     {
         "id": "TEC-PH-10003072",
         "product_name": "Panasonic KX-TG9541B DECT 6.0 Digital 2-Line Expandable Cordless Phone With Digital Answering System",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$680.97",
         "expense": "$13.37",
+        "totalQuantity": 9,
         "transactions": [
             "CA-2016-135314"
-        ]
+        ],
+        "totalSales": "$6128.73"
     },
     {
         "id": "TEC-PH-10003095",
         "product_name": "Samsung HM1900 Bluetooth Headset",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$380.24",
         "expense": "$121.72",
+        "totalQuantity": 7,
         "transactions": [
             "US-2016-142811",
             "CA-2016-147816"
-        ]
+        ],
+        "totalSales": "$2661.68"
     },
     {
         "id": "TEC-PH-10003174",
         "product_name": "RCA ViSYS 25825 Wireless digital phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$974.54",
         "expense": "$237.88",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-126725",
             "CA-2016-137302"
-        ]
+        ],
+        "totalSales": "$17541.72"
     },
     {
         "id": "TEC-PH-10003187",
         "product_name": "Anker Astro Mini 3000mAh Ultra-Compact Portable Charger",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$990.72",
         "expense": "$655.02",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-102582"
-        ]
+        ],
+        "totalSales": "$17832.96"
     },
     {
         "id": "TEC-PH-10003215",
         "product_name": "Jackery Bar Premium Fast-charging Portable Charger",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$410.71",
         "expense": "$905.20",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-104052"
-        ]
+        ],
+        "totalSales": "$1642.84"
     },
     {
         "id": "TEC-PH-10003356",
         "product_name": "SmartStand Mobile Device Holder, Assorted Colors",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$829.64",
         "expense": "$105.43",
+        "totalQuantity": 24,
         "transactions": [
             "CA-2016-155124"
-        ]
+        ],
+        "totalSales": "$19911.36"
     },
     {
         "id": "TEC-PH-10003357",
         "product_name": "Grandstream GXP2100 Mainstream Business Phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$986.52",
         "expense": "$909.69",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-120341",
             "US-2016-163433"
-        ]
+        ],
+        "totalSales": "$17757.36"
     },
     {
         "id": "TEC-PH-10003505",
         "product_name": "Geemarc AmpliPOWER60",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$181.68",
         "expense": "$531.72",
+        "totalQuantity": 62,
         "transactions": [
             "CA-2016-126557",
             "CA-2016-140718",
             "CA-2016-130113"
-        ]
+        ],
+        "totalSales": "$11264.16"
     },
     {
         "id": "TEC-PH-10003555",
         "product_name": "Motorola HK250 Universal Bluetooth Headset",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$674.59",
         "expense": "$973.28",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-129546"
-        ]
+        ],
+        "totalSales": "$14166.39"
     },
     {
         "id": "TEC-PH-10003580",
         "product_name": "Cisco IP Phone 7961G-GE VoIP phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$312.97",
         "expense": "$63.76",
+        "totalQuantity": 33,
         "transactions": [
             "CA-2016-140410",
             "US-2016-126753"
-        ]
+        ],
+        "totalSales": "$10328.01"
     },
     {
         "id": "TEC-PH-10003589",
         "product_name": "invisibleSHIELD by ZAGG Smudge-Free Screen Protector",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$433.84",
         "expense": "$113.89",
+        "totalQuantity": 14,
         "transactions": [
             "CA-2016-121188"
-        ]
+        ],
+        "totalSales": "$6073.76"
     },
     {
         "id": "TEC-PH-10003601",
         "product_name": "Ativa D5772 2-Line 5.8GHz Digital Expandable Corded/Cordless Phone System with Answering & Caller ID/Call Waiting, Black/Silver",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$766.43",
         "expense": "$579.64",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-163237"
-        ]
+        ],
+        "totalSales": "$5365.01"
     },
     {
         "id": "TEC-PH-10003645",
         "product_name": "Aastra 57i VoIP phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$297.17",
         "expense": "$837.67",
+        "totalQuantity": 39,
         "transactions": [
             "US-2016-120502",
             "CA-2016-149846"
-        ]
+        ],
+        "totalSales": "$11589.63"
     },
     {
         "id": "TEC-PH-10003691",
         "product_name": "BlackBerry Q10",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$923.22",
         "expense": "$195.53",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-115798",
             "CA-2016-135853"
-        ]
+        ],
+        "totalSales": "$21234.06"
     },
     {
         "id": "TEC-PH-10003800",
         "product_name": "i.Sound Portable Power - 8000 mAh",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$171.17",
         "expense": "$774.93",
+        "totalQuantity": 5,
         "transactions": [
             "CA-2016-104129"
-        ]
+        ],
+        "totalSales": "$855.85"
     },
     {
         "id": "TEC-PH-10003875",
         "product_name": "KLD Oscar II Style Snap-on Ultra Thin Side Flip Synthetic Leather Cover Case for HTC One HTC M7",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$727.63",
         "expense": "$731.07",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-124107"
-        ]
+        ],
+        "totalSales": "$18190.75"
     },
     {
         "id": "TEC-PH-10003885",
         "product_name": "Cisco SPA508G",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$95.09",
         "expense": "$704.31",
+        "totalQuantity": 9,
         "transactions": [
             "US-2016-151407"
-        ]
+        ],
+        "totalSales": "$855.81"
     },
     {
         "id": "TEC-PH-10003931",
         "product_name": "JBL Micro Wireless Portable Bluetooth Speaker",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$41.10",
         "expense": "$660.29",
+        "totalQuantity": 15,
         "transactions": [
             "CA-2016-114923",
             "CA-2016-139164"
-        ]
+        ],
+        "totalSales": "$616.50"
     },
     {
         "id": "TEC-PH-10003963",
         "product_name": "GE 2-Jack Phone Line Splitter",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$877.50",
         "expense": "$14.53",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-126557"
-        ]
+        ],
+        "totalSales": "$1755.00"
     },
     {
         "id": "TEC-PH-10004042",
         "product_name": "ClearOne Communications CHAT 70 OC\u00a0Speaker Phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$808.70",
         "expense": "$56.84",
+        "totalQuantity": 12,
         "transactions": [
             "CA-2016-109862"
-        ]
+        ],
+        "totalSales": "$9704.40"
     },
     {
         "id": "TEC-PH-10004093",
         "product_name": "Panasonic Kx-TS550",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$474.90",
         "expense": "$703.26",
+        "totalQuantity": 2,
         "transactions": [
             "CA-2016-135020"
-        ]
+        ],
+        "totalSales": "$949.80"
     },
     {
         "id": "TEC-PH-10004094",
         "product_name": "Motorola L703CM",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$349.24",
         "expense": "$421.37",
+        "totalQuantity": 33,
         "transactions": [
             "CA-2016-139248",
             "CA-2016-127824"
-        ]
+        ],
+        "totalSales": "$11524.92"
     },
     {
         "id": "TEC-PH-10004120",
         "product_name": "AT&T 1080 Phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$160.20",
         "expense": "$198.11",
+        "totalQuantity": 6,
         "transactions": [
             "US-2016-164308"
-        ]
+        ],
+        "totalSales": "$961.20"
     },
     {
         "id": "TEC-PH-10004165",
         "product_name": "Mitel MiVoice 5330e IP Phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$735.41",
         "expense": "$651.48",
+        "totalQuantity": 50,
         "transactions": [
             "CA-2016-154956",
             "CA-2016-110765",
             "CA-2016-114811",
             "CA-2016-166219"
-        ]
+        ],
+        "totalSales": "$36770.50"
     },
     {
         "id": "TEC-PH-10004188",
         "product_name": "OtterBox Commuter Series Case - Samsung Galaxy S4",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$375.70",
         "expense": "$26.92",
+        "totalQuantity": 32,
         "transactions": [
             "CA-2016-108665",
             "US-2016-156496"
-        ]
+        ],
+        "totalSales": "$12022.40"
     },
     {
         "id": "TEC-PH-10004345",
         "product_name": "Cisco SPA 502G IP Phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$753.95",
         "expense": "$471.17",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-151589",
             "CA-2016-135580"
-        ]
+        ],
+        "totalSales": "$18848.75"
     },
     {
         "id": "TEC-PH-10004348",
         "product_name": "OtterBox Defender Series Case - iPhone 5c",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$698.42",
         "expense": "$794.56",
+        "totalQuantity": 10,
         "transactions": [
             "CA-2016-145821"
-        ]
+        ],
+        "totalSales": "$6984.20"
     },
     {
         "id": "TEC-PH-10004447",
         "product_name": "Toshiba IPT2010-SD IP\u00a0Telephone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$622.39",
         "expense": "$934.03",
+        "totalQuantity": 38,
         "transactions": [
             "CA-2016-145835",
             "CA-2016-157805"
-        ]
+        ],
+        "totalSales": "$23650.82"
     },
     {
         "id": "TEC-PH-10004522",
         "product_name": "Dexim XPower Skin Super-Thin Power Case for iPhone 5 - Black",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$312.29",
         "expense": "$776.94",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-141012"
-        ]
+        ],
+        "totalSales": "$5621.22"
     },
     {
         "id": "TEC-PH-10004531",
         "product_name": "OtterBox Commuter Series Case - iPhone 5 & 5s",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$714.17",
         "expense": "$722.63",
+        "totalQuantity": 38,
         "transactions": [
             "CA-2016-111164",
             "US-2016-131359"
-        ]
+        ],
+        "totalSales": "$27138.46"
     },
     {
         "id": "TEC-PH-10004539",
         "product_name": "Wireless Extenders zBoost YX545 SOHO Signal Booster",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$455.42",
         "expense": "$103.28",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-132101"
-        ]
+        ],
+        "totalSales": "$3187.94"
     },
     {
         "id": "TEC-PH-10004586",
         "product_name": "Wilson SignalBoost 841262 DB PRO Amplifier Kit",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$948.98",
         "expense": "$542.98",
+        "totalQuantity": 4,
         "transactions": [
             "CA-2016-130659"
-        ]
+        ],
+        "totalSales": "$3795.92"
     },
     {
         "id": "TEC-PH-10004614",
         "product_name": "AT&T 841000 Phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$550.71",
         "expense": "$802.15",
+        "totalQuantity": 5,
         "transactions": [
             "US-2016-156797"
-        ]
+        ],
+        "totalSales": "$2753.55"
     },
     {
         "id": "TEC-PH-10004667",
         "product_name": "Cisco 8x8 Inc. 6753i IP Business Phone System",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$84.36",
         "expense": "$305.92",
+        "totalQuantity": 23,
         "transactions": [
             "US-2016-138093",
             "US-2016-100069"
-        ]
+        ],
+        "totalSales": "$1940.28"
     },
     {
         "id": "TEC-PH-10004774",
         "product_name": "Gear Head AU3700S Headset",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$595.63",
         "expense": "$22.50",
+        "totalQuantity": 7,
         "transactions": [
             "CA-2016-124058"
-        ]
+        ],
+        "totalSales": "$4169.41"
     },
     {
         "id": "TEC-PH-10004830",
         "product_name": "Pyle PRT45 Retro Home\u00a0Telephone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$630.26",
         "expense": "$299.59",
+        "totalQuantity": 18,
         "transactions": [
             "CA-2016-122826"
-        ]
+        ],
+        "totalSales": "$11344.68"
     },
     {
         "id": "TEC-PH-10004896",
         "product_name": "Nokia Lumia 521 (T-Mobile)",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$471.60",
         "expense": "$869.95",
+        "totalQuantity": 6,
         "transactions": [
             "CA-2016-103205"
-        ]
+        ],
+        "totalSales": "$2829.60"
     },
     {
         "id": "TEC-PH-10004897",
         "product_name": "Mediabridge Sport Armband iPhone 5s",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$851.05",
         "expense": "$381.34",
+        "totalQuantity": 46,
         "transactions": [
             "CA-2016-155068",
             "US-2016-129553"
-        ]
+        ],
+        "totalSales": "$39148.30"
     },
     {
         "id": "TEC-PH-10004908",
         "product_name": "Panasonic KX TS3282W Corded phone",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$307.42",
         "expense": "$541.48",
+        "totalQuantity": 64,
         "transactions": [
             "CA-2016-147830",
             "CA-2016-144519",
             "CA-2016-134117"
-        ]
+        ],
+        "totalSales": "$19674.88"
     },
     {
         "id": "TEC-PH-10004922",
         "product_name": "RCA Visys Integrated PBX 8-Line Router",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$65.80",
         "expense": "$902.02",
+        "totalQuantity": 15,
         "transactions": [
             "US-2016-163825"
-        ]
+        ],
+        "totalSales": "$987.00"
     },
     {
         "id": "TEC-PH-10004924",
         "product_name": "SKILCRAFT Telephone Shoulder Rest, 2\" x 6.5\" x 2.5\", Black",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$991.03",
         "expense": "$311.46",
+        "totalQuantity": 21,
         "transactions": [
             "CA-2016-155068"
-        ]
+        ],
+        "totalSales": "$20811.63"
     },
     {
         "id": "TEC-PH-10004959",
         "product_name": "Classic Ivory Antique\u00a0Telephone\u00a0ZL1810",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$908.92",
         "expense": "$298.56",
+        "totalQuantity": 25,
         "transactions": [
             "CA-2016-121608"
-        ]
+        ],
+        "totalSales": "$22723.00"
     },
     {
         "id": "TEC-PH-10004977",
         "product_name": "GE 30524EE4",
+        "category": "Technology",
+        "sub_category": "Phones",
         "price": "$419.67",
         "expense": "$296.25",
+        "totalQuantity": 23,
         "transactions": [
             "CA-2016-128608"
-        ]
+        ],
+        "totalSales": "$9652.41"
+    }
+];
+export const stateRevenues = [
+    {
+        "State": "California",
+        "Revenue": "$2,490,649.82"
+    },
+    {
+        "State": "New York",
+        "Revenue": "$1,728,151.92"
+    },
+    {
+        "State": "Texas",
+        "Revenue": "$1,156,676.84"
+    },
+    {
+        "State": "Pennsylvania",
+        "Revenue": "$849,602.02"
+    },
+    {
+        "State": "Illinois",
+        "Revenue": "$762,038.39"
+    },
+    {
+        "State": "Florida",
+        "Revenue": "$509,467.13"
+    },
+    {
+        "State": "Michigan",
+        "Revenue": "$477,238.76"
+    },
+    {
+        "State": "Washington",
+        "Revenue": "$470,559.02"
+    },
+    {
+        "State": "Ohio",
+        "Revenue": "$413,855.37"
+    },
+    {
+        "State": "Arizona",
+        "Revenue": "$398,443.04"
+    },
+    {
+        "State": "Virginia",
+        "Revenue": "$339,700.06"
+    },
+    {
+        "State": "Massachusetts",
+        "Revenue": "$330,366.31"
+    },
+    {
+        "State": "North Carolina",
+        "Revenue": "$301,490.90"
+    },
+    {
+        "State": "Tennessee",
+        "Revenue": "$280,982.13"
+    },
+    {
+        "State": "Georgia",
+        "Revenue": "$252,115.52"
+    },
+    {
+        "State": "Indiana",
+        "Revenue": "$244,345.62"
+    },
+    {
+        "State": "Colorado",
+        "Revenue": "$236,243.47"
+    },
+    {
+        "State": "Kentucky",
+        "Revenue": "$192,748.78"
+    },
+    {
+        "State": "Delaware",
+        "Revenue": "$168,828.16"
+    },
+    {
+        "State": "Oregon",
+        "Revenue": "$162,253.02"
+    },
+    {
+        "State": "Maryland",
+        "Revenue": "$141,840.03"
+    },
+    {
+        "State": "New Jersey",
+        "Revenue": "$120,137.37"
+    },
+    {
+        "State": "Alabama",
+        "Revenue": "$115,306.72"
+    },
+    {
+        "State": "South Carolina",
+        "Revenue": "$106,902.45"
+    },
+    {
+        "State": "Utah",
+        "Revenue": "$106,332.07"
+    },
+    {
+        "State": "Connecticut",
+        "Revenue": "$104,921.60"
+    },
+    {
+        "State": "Nevada",
+        "Revenue": "$101,082.90"
+    },
+    {
+        "State": "Wisconsin",
+        "Revenue": "$98,698.82"
+    },
+    {
+        "State": "Minnesota",
+        "Revenue": "$88,236.21"
+    },
+    {
+        "State": "New Hampshire",
+        "Revenue": "$62,585.74"
+    },
+    {
+        "State": "Iowa",
+        "Revenue": "$45,654.59"
+    },
+    {
+        "State": "Missouri",
+        "Revenue": "$43,662.74"
+    },
+    {
+        "State": "Rhode Island",
+        "Revenue": "$42,683.54"
+    },
+    {
+        "State": "Idaho",
+        "Revenue": "$37,229.73"
+    },
+    {
+        "State": "New Mexico",
+        "Revenue": "$29,579.71"
+    },
+    {
+        "State": "Oklahoma",
+        "Revenue": "$26,912.66"
+    },
+    {
+        "State": "Nebraska",
+        "Revenue": "$26,068.80"
+    },
+    {
+        "State": "Kansas",
+        "Revenue": "$24,823.38"
+    },
+    {
+        "State": "Louisiana",
+        "Revenue": "$23,380.83"
+    },
+    {
+        "State": "Montana",
+        "Revenue": "$23,100.15"
+    },
+    {
+        "State": "Maine",
+        "Revenue": "$20,431.25"
+    },
+    {
+        "State": "Mississippi",
+        "Revenue": "$14,404.50"
+    },
+    {
+        "State": "Vermont",
+        "Revenue": "$11,252.90"
+    },
+    {
+        "State": "District of Columbia",
+        "Revenue": "$10,483.91"
+    },
+    {
+        "State": "Arkansas",
+        "Revenue": "$7,364.14"
     }
 ];

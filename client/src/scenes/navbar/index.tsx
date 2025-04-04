@@ -86,7 +86,7 @@ const Navbar = (props: Props) => {
           </Link>
         </Box>
 
-        <Box>
+        {/* <Box>
           <input
             type="file"
             accept=".csv"
@@ -99,7 +99,7 @@ const Navbar = (props: Props) => {
               Upload CSV
             </Button>
           </label>
-        </Box>
+        </Box> */}
       </FlexBetween>
     </FlexBetween>
   );

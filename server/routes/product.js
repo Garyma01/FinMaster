@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get("/products", async (req, res) => {
   try {
-    const products = await Product.find().select("id product_name price expense");
+    const products = await Product.find().select("id product_name category sub_category totalQuantity totalSales price expense transactions");
     const formattedProducts = products.map((product) => ({
       ...product.toObject(),
       id: product.id.toString(),

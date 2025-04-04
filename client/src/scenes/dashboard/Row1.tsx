@@ -18,6 +18,7 @@ import {
   Area,
 } from "recharts";
 
+
 const Row1 = () => {
   const { palette } = useTheme();
   const { data } = useGetKpisQuery();
@@ -48,6 +49,7 @@ const Row1 = () => {
   }, [data]);
 
   const revenueProfit = useMemo(() => {
+    console.log("data", data);
     return (
       data &&
       data[0].monthlyData.map(({ month, revenue, expenses }) => {
@@ -101,9 +103,10 @@ const Row1 = () => {
               style={{ fontSize: "10px" }}  // Smaller font size
               domain={[8000, 23000]}
               tick={{ dx: -5 }} // Shift numbers slightly left
+              tickFormatter={(value) => `$${Math.round(value / 1000)}K`}
             />
 
-            <Tooltip />
+            <Tooltip formatter={(value) => [`$${value.toLocaleString()}`]}/>
             <Area
               type="monotone"
               dataKey="revenue"
@@ -135,10 +138,10 @@ const Row1 = () => {
             height={400}
             data={revenueProfit}
             margin={{
-              top: 20,
-              right: 0,
-              left: -10,
-              bottom: 55,
+              top: 15,
+              right: 25,
+              left: 20,
+              bottom: 60,
             }}
           >
             <CartesianGrid vertical={false} stroke={palette.grey[800]} />
@@ -147,20 +150,22 @@ const Row1 = () => {
               tickLine={false}
               style={{ fontSize: "10px" }}
             />
-            <YAxis
+            {/* <YAxis
               yAxisId="left"
               tickLine={false}
               axisLine={false}
               style={{ fontSize: "10px" }}
-            />
+              domain={[dataMin => dataMin * 1.1, dataMax => dataMax * 1.1]} // Expands scale slightly
+              />
             <YAxis
               yAxisId="right"
               orientation="right"
               tickLine={false}
               axisLine={false}
               style={{ fontSize: "10px" }}
-            />
-            <Tooltip />
+            /> */}
+            <YAxis domain={["auto", "auto"]} tickFormatter={(value) => `$${Math.round(value / 1000)}K`}/>
+            <Tooltip formatter={(value) => [`$${value.toLocaleString()}`]}/>
             <Legend
               height={20}
               wrapperStyle={{
@@ -168,7 +173,7 @@ const Row1 = () => {
               }}
             />
             <Line
-              yAxisId="left"
+              // yAxisId="left"
               type="monotone"
               dataKey="profit"
               stroke="#22c55e"
@@ -176,7 +181,7 @@ const Row1 = () => {
               strokeWidth={2}
             />
             <Line
-              yAxisId="right"
+              // yAxisId="right"
               type="monotone"
               dataKey="revenue"
                stroke="#f97316"
@@ -189,7 +194,7 @@ const Row1 = () => {
           </LineChart>
         </ResponsiveContainer>
       </DashboardBox>
-      <DashboardBox gridArea="c">
+      {/* <DashboardBox gridArea="c">
         <BoxHeader
           title="Revenue Month by Month"
           subtitle="graph representing the revenue month by month"
@@ -237,7 +242,7 @@ const Row1 = () => {
             <Bar dataKey="revenue" fill="url(#colorRevenue)" />
           </BarChart>
         </ResponsiveContainer>
-      </DashboardBox>
+      </DashboardBox> */}
     </>
   );
 };
