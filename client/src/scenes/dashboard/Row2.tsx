@@ -79,50 +79,57 @@ const Row2 = () => {
   }, [productData]);
 
   const lossesAndProfitsData = useMemo(() => {
-    if (!operationalData) {
-      return { last3: { totalProfit: 0, totalLoss: 0 }, lossChange: 0, profitChange: 0 };
-    }
+      if (!operationalData) {
+          return { last3: { totalProfit: 0, totalLoss: 0 }, lossChange: 0, profitChange: 0 };
+      }
   
-    // Get last 6 months of revenue & expenses
-    const lastSixMonths = operationalData[0].monthlyData.slice(-6);
+      // Get last 6 months of revenue & expenses
+      const lastSixMonths = operationalData[0].monthlyData.slice(-6);
   
-    // Split into two sets: Last 3 months & Previous 3 months
-    const last3Months = lastSixMonths.slice(-3);
-    const prev3Months = lastSixMonths.slice(0, 3);
+      // Split into two sets: Last 3 months & Previous 3 months
+      const last3Months = lastSixMonths.slice(-3);
+      const prev3Months = lastSixMonths.slice(0, 3);
   
-    // Calculate total profit & losses
-    const calcTotals = (data: { revenue: number; expenses: number }[]) => {
-      return data.reduce(
-        (totals, { revenue, expenses }) => {
-          if (revenue > expenses) {
-            totals.totalProfit += revenue - expenses;
-          } else {
-            totals.totalLoss += expenses - revenue;
-          }
-          return totals;
-        },
-        { totalProfit: 0, totalLoss: 0 }
-      );
-    };
+      // Calculate total profit & losses
+      const calcTotals = (data: { revenue: number; expenses: number }[]) => {
+          return data.reduce(
+              (totals, { revenue, expenses }) => {
+                  if (revenue > expenses) {
+                      totals.totalProfit += revenue - expenses;
+                  } else {
+                      totals.totalLoss += expenses - revenue;
+                  }
+                  return totals;
+              },
+              { totalProfit: 0, totalLoss: 0 }
+          );
+      };
   
-    const last3 = calcTotals(last3Months);
-    const prev3 = calcTotals(prev3Months);
+      const last3 = calcTotals(last3Months);
+      const prev3 = calcTotals(prev3Months);
   
-    // Calculate percentage changes
-    const lossChange = prev3.totalLoss
-      ? ((last3.totalLoss - prev3.totalLoss) / prev3.totalLoss) * 100
-      : 0;
-    const profitChange = prev3.totalProfit
-      ? ((last3.totalProfit - prev3.totalProfit) / prev3.totalProfit) * 100
-      : 0;
+      // Calculate percentage changes
+      const lossChange = prev3.totalLoss
+          ? ((last3.totalLoss - prev3.totalLoss) / prev3.totalLoss) * 100
+          : 0;
+      const profitChange = prev3.totalProfit
+          ? ((last3.totalProfit - prev3.totalProfit) / prev3.totalProfit) * 100
+          : 0;
   
-    return { last3, lossChange, profitChange };
+      return { last3, lossChange, profitChange };
   }, [operationalData]);
   
-  const pieData = [
-    { name: "Losses", value: lossesAndProfitsData?.last3.totalLoss },
-    { name: "Profits", value: lossesAndProfitsData?.last3.totalProfit },
+  const totalRevenue = lossesAndProfitsData?.last3.totalProfit + lossesAndProfitsData?.last3.totalLoss;
+  const profitPercentage = totalRevenue > 0 ? (lossesAndProfitsData?.last3.totalProfit / totalRevenue) * 100 : 0;
+  
+  // Gauge chart sections (Red -> Yellow -> Green)
+  const gaugeData = [
+    { name: "Loss", value: 30 },   // Red Zone (0-30%)
+    { name: "Stable", value: 40 }, // Yellow Zone (30-70%)
+    { name: "Profit", value: 30 }, // Green Zone (70-100%)
   ];
+  
+  const gaugeColors = ["#E53935", "#FFC107", "#43A047"]; 
   
   const topRevenueStates = useMemo(() => {
       if (!stateData) return [];
@@ -239,56 +246,56 @@ const Row2 = () => {
           </LineChart>
         </ResponsiveContainer>
       </DashboardBox> */}
-      <DashboardBox gridArea="e">
-        <BoxHeader title="Losses vs Profits (Last 3 Months)" sideText="" />
-        <FlexBetween mt="0.25rem" gap="1.5rem" pr="1rem">
-          <PieChart
-            width={110}
-            height={100}
-            margin={{
-              top: 0,
-              right: -10,
-              left: 10,
-              bottom: 0,
-            }}
-          >
-            <Pie
-              stroke="none"
-              data={pieData}
-              innerRadius={18}
-              outerRadius={38}
-              paddingAngle={2}
-              dataKey="value"
-            >
-              {pieData.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={pieColors[index]} />
-              ))}
-            </Pie>
-          </PieChart>
-          <Box ml="-0.7rem" flexBasis="40%" textAlign="center">
-          <Typography variant="h5">
-            Losses {lossesAndProfitsData?.lossChange > 0 ? "⬆" : "⬇"}
-          </Typography>
-          <Typography variant="h3" color={palette.primary[300]}>
-            {lossesAndProfitsData?.lossChange.toFixed(1)}%
-          </Typography>
-          <Typography variant="h6">
-            {lossesAndProfitsData?.lossChange > 0 ? "Losses are up" : "Losses are down"} from the previous 3 months.
-          </Typography>
-          </Box>
-          <Box flexBasis="40%">
-              <Typography variant="h5">
-            Profits {lossesAndProfitsData?.profitChange > 0 ? "⬆" : "⬇"}
-          </Typography>
-          <Typography variant="h3" color={palette.primary[300]}>
-            {lossesAndProfitsData?.profitChange.toFixed(1)}%
-          </Typography>
-          <Typography variant="h6">
-            {lossesAndProfitsData?.profitChange > 0 ? "Profits are up" : "Profits are down"} from the previous 3 months.
-          </Typography>
-          </Box>
-        </FlexBetween>
-      </DashboardBox>
+     <DashboardBox gridArea="e">
+  <BoxHeader title="Profit Speedometer" sideText="" />
+
+  <Box display="flex" flexDirection="row" alignItems="center" justifyContent="center">
+    {/* Speedometer Gauge */}
+    <Box position="relative" width="230px" height="140px">
+      <PieChart width={230} height={140}>
+        <Pie
+          data={gaugeData}
+          startAngle={180}
+          endAngle={0}
+          innerRadius={45}
+          outerRadius={65}
+          dataKey="value"
+          stroke="none"
+        >
+          {gaugeData.map((entry, index) => (
+            <Cell key={`cell-${index}`} fill={gaugeColors[index]} />
+          ))}
+        </Pie>
+      </PieChart>
+
+      {/* Needle Indicator */}
+      <Box
+        sx={{
+          width: "3px",
+          height: "55px",
+          backgroundColor: "black",
+          position: "absolute",
+          top: "15px", // Ensures correct alignment at the center of the gauge
+          left: "48%",
+          transformOrigin: "bottom center",
+          transform: `rotate(${profitPercentage * 1.8 - 90}deg)`, // Fix rotation logic
+          transition: "transform 0.5s ease-in-out",
+        }}
+      />
+    </Box>
+
+    {/* Profit Percentage Text */}
+    <Typography
+      variant="h5"
+      fontWeight="bold"
+      color={profitPercentage > 50 ? "green" : "red"}
+      ml={2} // Margin to separate text from the meter
+    >
+      {profitPercentage.toFixed(1)}% Profit
+    </Typography>
+  </Box>
+</DashboardBox>
+
       <DashboardBox gridArea="f">
       <BoxHeader
         title="Top 5 Revenue-Generating States"

@@ -62,7 +62,7 @@ const Row2 = () => {
     <BarChart
       layout="vertical"
       data={topProducts}
-      margin={{ top: 20, right: 20, left: 10, bottom: 20 }}
+      margin={{ top: 20, right: 20, left: 20, bottom: 20 }}
     >
       <defs>
         <linearGradient id="colorSales" x1="0" y1="0" x2="1" y2="0">
