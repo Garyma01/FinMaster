@@ -8,10 +8,12 @@ import morgan from "morgan";
 import kpiRoutes from "./routes/kpi.js";
 import productRoutes from "./routes/product.js";
 import transactionRoutes from "./routes/transaction.js";
+import stateRevenueRoutes from "./routes/staterevenue.js";
 import KPI from "./models/KPI.js";
 import Product from "./models/Product.js";
 import Transaction from "./models/Transaction.js";
-import { kpis, products, transactions } from "./data/data.js";
+import StateRevenue from "./models/StateRevenue.js";
+import { kpis, products, transactions, stateRevenues } from "./data/data.js";
 
 /* CONFIGURATIONS */
 dotenv.config();
@@ -28,7 +30,7 @@ app.use(cors());
 app.use("/kpi", kpiRoutes);
 app.use("/product", productRoutes);
 app.use("/transaction", transactionRoutes);
-
+app.use('/staterevenue', stateRevenueRoutes);
 /* MONGOOSE SETUP - Commented out */
 const PORT = process.env.PORT || 9000;
 console.log("MongoDB URI:", process.env.MONGO_URL);
@@ -44,7 +46,8 @@ mongoose
         /* ADD DATA ONE TIME ONLY */
         console.log("Resetting and inserting data into database...");
         await mongoose.connection.db.dropDatabase();
-    
+        console.log("🔥 Database dropped successfully!");
+
         
 
         await KPI.insertMany(
@@ -61,14 +64,20 @@ mongoose
             id: product.id, 
             // _id: _id.toString(), 
             product_name: product.product_name,
+            category: product.category,  // Ensure category is included
+            sub_category: product.sub_category,
             price: product.price,
             expense: product.expense,
+            totalQuantity: Number(product.totalQuantity), // Ensure it's a number
+            totalSales: parseFloat(product.totalSales.replace(/[$,]/g, "")), // Convert to float  
             transactions: product.transactions.map(String),
             // transactions: product.transactions.map((txnId) => 
             //   mongoose.Types.ObjectId.isValid(txnId) ? new mongoose.Types.ObjectId(txnId) : null
             // ).filter(Boolean), // Remove null values if transaction IDs are invalid
           }))
         );
+        console.log("✅ Inserted Products:", insertedProducts);
+
         console.log("🚀 Transactions being inserted:");
         transactions.forEach((txn, index) => {
           console.log(`Transaction ${index + 1}:`, txn);
@@ -111,8 +120,17 @@ mongoose
             };
           })
         );
-        
-        
+        console.log("🚀 StateRevenue being inserted:", stateRevenues);
+        const validStateRevenues = stateRevenues
+          .map((revenue) => ({
+            state: revenue.State || "Unknown", // Fallback in case of missing state
+            totalRevenue: revenue.Revenue ? parseFloat(revenue.Revenue.replace(/[$,]/g, "")) : 0,
+          }))
+          .filter((rev) => rev.totalRevenue !== NaN); // Filter out invalid entries
+
+        console.log("📌 Valid State Revenues:", validStateRevenues);
+        await StateRevenue.insertMany(validStateRevenues);
+
         console.log("Data inserted successfully!");
       })
 .catch((error) => console.log(`Database connection failed: ${error}`));

@@ -37,10 +37,14 @@ export interface GetKpisResponse {
 export interface GetProductsResponse {
   id: string;
   _id: string;
-  __v: number;
-  price: number;
-  expense: number;
-  transactions: Array<string>;
+  product_name: string;
+  category: string;
+  sub_category: string;
+  price: number; // Stored in dollars after conversion
+  expense: number; // Stored in dollars after conversion
+  totalQuantity: number;
+  totalSales: number; // ✅ No /100 needed, remains a decimal
+  transactions: string[];
   createdAt: string;
   updatedAt: string;
 }
@@ -54,4 +58,8 @@ export interface GetTransactionsResponse {
   productIds: Array<string>;
   createdAt: string;
   updatedAt: string;
+}
+export interface GetStateRevenueResponse {  // New interface for State Revenue
+  state: string;
+  totalRevenue: number;
 }

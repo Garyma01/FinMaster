@@ -47,6 +47,8 @@ const ProductSchema = new Schema(
       type: String,
       required: true, // Ensure every product has a name
     },
+    category: { type: String, required: true }, // Category field added
+    sub_category: { type: String, required: true }, 
     price: {
       type: mongoose.Types.Currency,
       currency: "USD",
@@ -57,6 +59,8 @@ const ProductSchema = new Schema(
       currency: "USD",
       get: (v) => v / 100,
     },
+    totalQuantity: { type: Number, required: true },
+    totalSales: { type: Number, required: true }, 
     transactions: [{ type: String }],
     // transactions: [{ type: mongoose.Schema.Types.ObjectId, ref: "Transaction" }],
   },

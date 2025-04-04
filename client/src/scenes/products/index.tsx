@@ -1,6 +1,6 @@
 import { Box, useMediaQuery } from "@mui/material";
 import Row1 from "./Row1";
-
+import Row2 from "./Row2";
 const gridTemplateLargeScreens = `
     "g g h h"
     "g g h h"
@@ -8,7 +8,12 @@ const gridTemplateLargeScreens = `
     "g g h h"
     "g g h h"
     "g g h h"
-    "g g h h"
+    "i i j j"
+    "i i j j"
+    "i i j j"
+    "i i j j"
+    "i i j j"
+    "i i j j"
 `;
 const gridTemplateSmallScreens = `
   "g"
@@ -20,7 +25,15 @@ const gridTemplateSmallScreens = `
   "h"
 "h"
 "h"
-"h"`;
+"h"
+"i"
+"i"
+"i"
+"i"
+"j"
+"j"
+"j"
+"j"`;
 
 const Products = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1200px)");
@@ -45,6 +58,7 @@ const Products = () => {
       }
     >
       <Row1 />
+      <Row2/>
     </Box>
   );
 };

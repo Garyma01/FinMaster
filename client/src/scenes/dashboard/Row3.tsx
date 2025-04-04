@@ -5,35 +5,28 @@ import {
   useGetKpisQuery,
   useGetProductsQuery,
   useGetTransactionsQuery,
+  
 } from "@/state/api";
-import { Box, Typography, useTheme } from "@mui/material";
+import { Box, Typography, Stack, useTheme } from "@mui/material";
 import { DataGrid, GridCellParams } from "@mui/x-data-grid";
 import React, { useMemo } from "react";
-import { Cell, Pie, PieChart } from "recharts";
+import { Cell, Pie, PieChart, ResponsiveContainer } from "recharts";
 
 const Row3 = () => {
   const { palette } = useTheme();
-  const pieColors = [palette.primary[800], palette.primary[500]];
+  const pieColors = ["#FF6384", "#36A2EB", "#FFCE56", "#4CAF50", "#FF9800", "#9C27B0"];
 
   const { data: kpiData } = useGetKpisQuery();
-  const { data: productData } = useGetProductsQuery();
-  const { data: transactionData } = useGetTransactionsQuery();
 
-  const pieChartData = useMemo(() => {
-    if (kpiData) {
-      const expensesByCategory = kpiData[0].expensesByCategory;
-      
-      // Compute the total sum of all category expenses
-      const totalCategoryExpenses = Object.values(expensesByCategory)
-        .reduce((sum, value) => sum + parseFloat(value), 0);
+const pieChartData = useMemo(() => {
+  if (!kpiData || !kpiData[0]?.expensesByCategory) return [];
   
-      return Object.entries(expensesByCategory).map(([key, value]) => ({
-        name: key,
-        value: (parseFloat(value) / totalCategoryExpenses) * 100, // Convert to percentage
-      }));
-    }
-    return [];
-  }, [kpiData]);
+  return Object.entries(kpiData[0].expensesByCategory).map(([key, value]) => ({
+    name: key,
+    value: parseFloat(value) || 0, // Ensure numerical values
+  }));
+}, [kpiData]);
+
 
   const productColumns = [
     {
@@ -156,34 +149,45 @@ const Row3 = () => {
         </Box>
       </DashboardBox> */}
       <DashboardBox gridArea="i">
-      <BoxHeader title="Expense Breakdown By Category" sideText="" />
-  <FlexBetween mt="0.5rem" gap="0.5rem" p="0 1rem" textAlign="center">
-    {pieChartData?.map((data, i) => (
-      <Box key={`${data.name}-${i}`}>
-        <PieChart width={110} height={100}>
-          <Pie
-            stroke="none"
-            data={[data]} // Wrap in array so Pie component can read it
-            innerRadius={18}
-            outerRadius={35}
-            paddingAngle={2}
-            dataKey="value"
-          >
-            <Cell key={`cell-${i}`} fill={pieColors[i % pieColors.length]} />
-          </Pie>
-        </PieChart>
-        <Typography 
-          variant="h5" 
-          mt="0.5rem" 
-          color="blue" // Change to ensure visibility
-          fontWeight="bold"
-          textAlign="center"
-        >
-          {data.name}</Typography>
-      </Box>
-    ))}
-  </FlexBetween>
-      </DashboardBox>
+    <BoxHeader title="Expense Breakdown By Category" sideText=""/>
+
+    {pieChartData.length > 0 ? (
+      <Stack direction="row" spacing={2} alignItems="center">
+        {/* Donut Chart */}
+        <ResponsiveContainer width={200} height={200}>
+          <PieChart>
+            <Pie
+              data={pieChartData}
+              innerRadius={45}
+              outerRadius={72}
+              paddingAngle={3}
+              dataKey="value"
+            >
+              {pieChartData.map((_, i) => (
+                <Cell key={`cell-${i}`} fill={pieColors[i % pieColors.length]} />
+              ))}
+            </Pie>
+          </PieChart>
+        </ResponsiveContainer>
+
+        {/* Labels with Exact Values */}
+        <Stack spacing={1}>
+          {pieChartData.map((data, i) => (
+            <Box key={data.name} display="flex" alignItems="center">
+              <Box
+                sx={{ width: 12, height: 12, backgroundColor: pieColors[i % pieColors.length], borderRadius: "50%", mr: 1 }}
+              />
+              <Typography variant="body1" fontWeight="bold">
+                {data.name}: ₹{data.value.toLocaleString()}
+              </Typography>
+            </Box>
+          ))}
+        </Stack>
+      </Stack>
+    ) : (
+      <Typography variant="h6" color="gray">No Data Available</Typography>
+    )}
+  </DashboardBox>
       {/* <DashboardBox gridArea="j">
         <BoxHeader
           title="Overall Summary and Explanation Data"
