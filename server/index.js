@@ -5,6 +5,13 @@ import cors from "cors";
 import dotenv from "dotenv";
 import helmet from "helmet";
 import morgan from "morgan";
+import fileUpload from "express-fileupload";
+import axios from "axios";
+import fs from "fs";
+import path from "path";
+import FormData from "form-data";
+import { fileURLToPath } from "url";
+
 import kpiRoutes from "./routes/kpi.js";
 import productRoutes from "./routes/product.js";
 import transactionRoutes from "./routes/transaction.js";
@@ -25,12 +32,82 @@ app.use(morgan("common"));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
+app.use(fileUpload());
 
+// Define __dirname manually
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const UPLOAD_FOLDER = path.join(process.cwd(), "uploads");
+fs.mkdirSync(UPLOAD_FOLDER, { recursive: true });
+const DATA_FILE = path.join(__dirname, "data", "data.js");
 /* ROUTES */
 app.use("/kpi", kpiRoutes);
 app.use("/product", productRoutes);
 app.use("/transaction", transactionRoutes);
 app.use('/staterevenue', stateRevenueRoutes);
+
+
+app.post("/upload", async (req, res) => {
+  try {
+    // Check if the file and year are provided
+    if (!req.files || !req.body.year) {
+      return res.status(400).json({ error: "File and year are required" });
+    }
+
+    const file = req.files.file;
+    const year = req.body.year;
+    const categoryExpenses = req.body.categoryExpenses || "{}";
+
+    // Save the file locally
+    const filePath = path.join(UPLOAD_FOLDER, file.name);
+    await file.mv(filePath);
+
+    // Prepare FormData to send to Flask
+    const formData = new FormData();
+    formData.append("file", fs.createReadStream(filePath));
+    formData.append("year", year);
+    formData.append("categoryExpenses", categoryExpenses);
+
+    // Make a request to the Flask backend
+    const flaskURL = "http://localhost:5000/upload"; // Update if your Flask server is running elsewhere
+    const response = await axios.post(flaskURL, formData, {
+      headers: {
+        ...formData.getHeaders(),
+      },
+    });
+
+    // Send the response back to the client
+    console.log("=== Data Received from Flask ===");
+    console.log(response.data);
+
+    // Extract the data and format it as required for the JS file
+    const kpis = response.data.kpis || [];
+    const transactions = response.data.transactions || [];
+    const products = response.data.products || [];
+    const stateRevenues = response.data.stateRevenue || [];
+
+    console.log("=== Writing Data to data1.js ===");
+
+    // Write the data to `data1.js`
+    const fileContent = `
+export const kpis = ${JSON.stringify(kpis, null, 2)};
+export const transactions = ${JSON.stringify(transactions, null, 2)};
+export const products = ${JSON.stringify(products, null, 2)};
+export const stateRevenues = ${JSON.stringify(stateRevenues, null, 2)};
+    `;
+
+    fs.writeFileSync(DATA_FILE, fileContent);
+
+    console.log(`Data successfully written to ${DATA_FILE}`);
+    res.status(200).json({ message: "Data successfully processed and saved." });
+
+  } catch (error) {
+    console.error("Error during upload:", error.message);
+    res.status(500).json({ error: error.message });
+  }
+});
+
 /* MONGOOSE SETUP - Commented out */
 const PORT = process.env.PORT || 9000;
 console.log("MongoDB URI:", process.env.MONGO_URL);

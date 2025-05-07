@@ -2,22 +2,50 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import PixIcon from "@mui/icons-material/Pix";
 // import { Box, Typography, useTheme } from "@mui/material";
-import { Box, Typography, useTheme, Button } from "@mui/material"; 
+import {
+  Box,
+  Typography,
+  useTheme,
+  Button,
+  Dialog,
+  DialogTitle,
+  DialogContent,
+  DialogActions,
+  TextField,
+  IconButton,
+} from "@mui/material";
 import FlexBetween from "@/components/FlexBetween";
-
+import CloseIcon from "@mui/icons-material/Close";
 type Props = {};
 
 const Navbar = (props: Props) => {
   const { palette } = useTheme();
   const [selected, setSelected] = useState("dashboard");
-  
-   // Handle File Upload
-   const handleFileUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
-    if (!file) return;
+  const [open, setOpen] = useState(false);
+  const [file, setFile] = useState<File | null>(null);
+  const [year, setYear] = useState("");
+  const [categoryExpenses, setCategoryExpenses] = useState("");
+
+    // Modal Handlers
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
+  // Handle File Selection
+  const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    setFile(event.target.files?.[0] || null);
+  };
+
+  // Handle Form Submission
+  const handleFormSubmit = async () => {
+    if (!file || !year) {
+      alert("File and Year are required!");
+      return;
+    }
 
     const formData = new FormData();
     formData.append("file", file);
+    formData.append("year", year);
+    formData.append("categoryExpenses", categoryExpenses);
 
     try {
       const response = await fetch("http://localhost:9000/upload", {
@@ -27,12 +55,13 @@ const Navbar = (props: Props) => {
 
       const result = await response.json();
       if (response.ok) {
-        alert("CSV uploaded successfully!");
+        alert("Data uploaded successfully!");
+        handleClose();
       } else {
         alert(`Upload failed: ${result.message}`);
       }
     } catch (error) {
-      console.error("Error uploading file:", error);
+      console.error("Error uploading data:", error);
       alert("Upload failed. Please try again.");
     }
   };
@@ -100,6 +129,53 @@ const Navbar = (props: Props) => {
             </Button>
           </label>
         </Box> */}
+
+        {/* Upload Button */}
+        <Button
+          variant="contained"
+          onClick={handleOpen}
+          sx={{ backgroundColor: palette.primary[500], color: palette.grey[100] }}
+        >
+          Upload Data
+        </Button>
+
+        {/* Popup Form */}
+        <Dialog open={open} onClose={handleClose}>
+          <DialogTitle>
+            Upload Data
+            <IconButton
+              aria-label="close"
+              onClick={handleClose}
+              sx={{ position: "absolute", right: 8, top: 8 }}
+            >
+              <CloseIcon />
+            </IconButton>
+          </DialogTitle>
+          <DialogContent dividers>
+            <input type="file" accept=".csv" onChange={handleFileChange} />
+            <TextField
+              fullWidth
+              margin="normal"
+              label="Year"
+              type="number"
+              value={year}
+              onChange={(e) => setYear(e.target.value)}
+            />
+            <TextField
+              fullWidth
+              margin="normal"
+              label="Category Expenses (JSON format)"
+              value={categoryExpenses}
+              onChange={(e) => setCategoryExpenses(e.target.value)}
+              placeholder='e.g., {"Marketing": "$2000", "Operations": "$1500"}'
+            />
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={handleFormSubmit} variant="contained">
+              Submit
+            </Button>
+          </DialogActions>
+        </Dialog>
       </FlexBetween>
     </FlexBetween>
   );
