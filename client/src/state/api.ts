@@ -4,13 +4,13 @@ import {
   GetProductsResponse,
   GetTransactionsResponse,
   GetStateRevenueResponse,
-
+  GetCustomersResponse
 } from "./types";
 
 export const api = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: import.meta.env.VITE_BASE_URL }),
   reducerPath: "main",
-  tagTypes: ["Kpis", "Products", "Transactions", "StateRevenue"],
+  tagTypes: ["Kpis", "Products", "Transactions", "StateRevenue", "Customers"],
   endpoints: (build) => ({
     getKpis: build.query<Array<GetKpisResponse>, void>({
       query: () => "kpi/kpis/",
@@ -28,8 +28,12 @@ export const api = createApi({
       query: () => "staterevenue/staterevenues/",
       providesTags: ["StateRevenue"],
     }),
+    getCustomers: build.query<Array<GetCustomersResponse>, void>({
+      query: () => "customer/customers/",
+      providesTags: ["Customers"],
+    })
   }),
 });
 
-export const { useGetKpisQuery, useGetProductsQuery, useGetTransactionsQuery, useGetStateRevenuesQuery } =
+export const { useGetKpisQuery, useGetProductsQuery, useGetTransactionsQuery, useGetStateRevenuesQuery, useGetCustomersQuery } =
   api;

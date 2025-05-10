@@ -16,11 +16,13 @@ import kpiRoutes from "./routes/kpi.js";
 import productRoutes from "./routes/product.js";
 import transactionRoutes from "./routes/transaction.js";
 import stateRevenueRoutes from "./routes/staterevenue.js";
+import customerRoutes from "./routes/customer.js";
 import KPI from "./models/KPI.js";
 import Product from "./models/Product.js";
 import Transaction from "./models/Transaction.js";
 import StateRevenue from "./models/StateRevenue.js";
-import { kpis, products, transactions, stateRevenues } from "./data/data.js";
+import Customer from "./models/Customer.js";
+import { kpis, products, transactions, stateRevenues, customers } from "./data/data.js";
 
 /* CONFIGURATIONS */
 dotenv.config();
@@ -46,7 +48,7 @@ app.use("/kpi", kpiRoutes);
 app.use("/product", productRoutes);
 app.use("/transaction", transactionRoutes);
 app.use('/staterevenue', stateRevenueRoutes);
-
+app.use('/customer', customerRoutes);
 
 app.post("/upload", async (req, res) => {
   try {
@@ -86,6 +88,7 @@ app.post("/upload", async (req, res) => {
     const transactions = response.data.transactions || [];
     const products = response.data.products || [];
     const stateRevenues = response.data.stateRevenue || [];
+    const customers = response.data.customers || [];
 
     console.log("=== Writing Data to data1.js ===");
 
@@ -95,6 +98,8 @@ export const kpis = ${JSON.stringify(kpis, null, 2)};
 export const transactions = ${JSON.stringify(transactions, null, 2)};
 export const products = ${JSON.stringify(products, null, 2)};
 export const stateRevenues = ${JSON.stringify(stateRevenues, null, 2)};
+export const customers = ${JSON.stringify(customers, null, 2)};
+
     `;
 
     fs.writeFileSync(DATA_FILE, fileContent);
@@ -208,6 +213,22 @@ mongoose
         console.log("📌 Valid State Revenues:", validStateRevenues);
         await StateRevenue.insertMany(validStateRevenues);
 
+        // === 📌 Inserting Customer Analysis Data ===
+        console.log("🚀 Inserting Customer Analysis Data");
+        await Customer.insertMany(
+          customers.map((customer) => ({
+            id: customer.id,
+            customer_name: customer.customer_name,
+            segment: customer.segment,
+            region: customer.region,
+            last_purchase: new Date(customer.last_purchase),
+            purchase_frequency: customer.purchase_frequency,
+            revenue_generated: parseFloat(customer.revenue_generated.replace(/[$,]/g, "")),
+            average_order_value: parseFloat(customer.average_order_value.replace(/[$,]/g, "")),
+            product_ids: customer.product_ids.map(String),
+          }))
+        );
+        console.log("✅ Customer Analysis Data Inserted Successfully!");
         console.log("Data inserted successfully!");
       })
 .catch((error) => console.log(`Database connection failed: ${error}`));

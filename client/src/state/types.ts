@@ -59,7 +59,23 @@ export interface GetTransactionsResponse {
   createdAt: string;
   updatedAt: string;
 }
-export interface GetStateRevenueResponse {  // New interface for State Revenue
+export interface GetStateRevenueResponse {  
   state: string;
   totalRevenue: number;
+}
+
+export interface GetCustomersResponse {
+  id: string;                         
+  _id: string;                        
+  __v: number;                        
+  customer_name: string;              
+  segment: string;                    
+  region: string;                     
+  last_purchase: string;              
+  purchase_frequency: number;         
+  revenue_generated: number;          
+  average_order_value: number;        
+  product_ids: Array<string>;         
+  createdAt: string;                  
+  updatedAt: string;                  
 }

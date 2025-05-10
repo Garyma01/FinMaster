@@ -115,6 +115,18 @@ const Navbar = (props: Props) => {
           </Link>
         </Box>
 
+        <Box sx={{ "&:hover": { color: palette.primary[100] } }}>
+          <Link
+            to="/customers"
+            onClick={() => setSelected("customers")}
+            style={{
+              color: selected === "customers" ? "inherit" : palette.grey[700],
+              textDecoration: "inherit",
+            }}
+          >
+            customer insights
+          </Link>
+        </Box>
         {/* <Box>
           <input
             type="file"
