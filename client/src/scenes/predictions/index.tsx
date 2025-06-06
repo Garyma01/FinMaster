@@ -1,7 +1,7 @@
 import DashboardBox from "@/components/DashboardBox";
 import FlexBetween from "@/components/FlexBetween";
 import { useGetKpisQuery } from "@/state/api";
-import { Box, Button, Typography, useTheme } from "@mui/material";
+import { Box, Button, Typography, useTheme, TextField } from "@mui/material";
 import React, { useMemo, useState } from "react";
 import {
   CartesianGrid,
@@ -19,6 +19,7 @@ import regression, { DataPoint } from "regression";
 const Predictions = () => {
   const { palette } = useTheme();
   const [isPredictions, setIsPredictions] = useState(false);
+  const [growthPercentage, setGrowthPercentage] = useState(5); 
   const { data: kpiData } = useGetKpisQuery();
 
   try {
@@ -38,6 +39,9 @@ const Predictions = () => {
       }
     );
     const regressionLine = regression.linear(formatted);
+    const slope = regressionLine.equation[0]; // ✅ Calculating slope
+
+    console.log("Slope of Regression Line:", slope);
 
     return monthData.map(({ month, revenue }, i: number) => {
       return {
@@ -47,10 +51,50 @@ const Predictions = () => {
         "Predicted Revenue": regressionLine.predict(i + 12)[1],
       };
     });
-  }, [kpiData]);
+  }, [kpiData, growthPercentage]);
+
+  const handleGrowthChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = parseFloat(e.target.value);
+      if (!isNaN(value)) {
+        setGrowthPercentage(value);
+      } else {
+        setGrowthPercentage(0); // Set a default value if parsing fails
+      }
+  };
+  const renderSuggestions = () => {
+    const additionalRevenue = (formattedData[formattedData.length - 1]["Actual Revenue"] * growthPercentage) / 100;
+
+    return (
+  <Box mt="1rem">
+    <Typography variant="h3">
+      📈 <strong>Recommendations to Achieve {growthPercentage}% Growth:</strong>
+    </Typography>
+    <ul>
+      <li>
+        💡 Increase average sales volume by{" "}
+        <strong>{(additionalRevenue / 12).toFixed(2)} USD/month</strong>.
+      </li>
+      <li>
+        💡 Focus on <strong>top-performing regions</strong> and{" "}
+        <strong>best-selling products</strong>.
+      </li>
+      <li>
+        💡 Boost <strong>customer retention</strong> through loyalty programs.
+      </li>
+      <li>
+        💡 Explore <strong>discount campaigns</strong> for underperforming regions.
+      </li>
+      <li>
+        💡 Identify <strong>high-margin products</strong> and promote them aggressively.
+      </li>
+    </ul>
+  </Box>
+);
+
+  };
 
   return (
-    <DashboardBox width="100%" height="100%" p="1rem" overflow="hidden">
+<DashboardBox width="100%" minHeight="1000px" p="1rem" sx={{ overflowY: "auto" }}>
       <FlexBetween m="1rem 2.5rem" gap="1rem">
         <Box>
           <Typography variant="h3">Revenue and Predictions</Typography>
@@ -70,6 +114,22 @@ const Predictions = () => {
           Show Predicted Revenue for Next Year
         </Button>
       </FlexBetween>
+
+      {/* 💡 TextField for Percentage Input */}
+      <TextField
+        label="Desired Growth (%)"
+        value={isNaN(growthPercentage) ? "" : growthPercentage}
+        onChange={handleGrowthChange}
+        type="number"
+        inputProps={{ min: 0, max: 100 }}
+        fullWidth
+      />
+
+      <Box display="flex" flexDirection="column" gap="2rem">
+      <Box flex="1">
+      {renderSuggestions()}
+      </Box>
+      <Box width="100%" height="600px">
       <ResponsiveContainer width="100%" height="100%">
         <LineChart
           data={formattedData}
@@ -129,6 +189,8 @@ const Predictions = () => {
           )}
         </LineChart>
       </ResponsiveContainer>
+      </Box>
+      </Box>
     </DashboardBox>
   );
 };
