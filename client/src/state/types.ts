@@ -79,3 +79,13 @@ export interface GetCustomersResponse {
   createdAt: string;                  
   updatedAt: string;                  
 }
+
+export interface GetSuggestionsResponse {
+  id?: string;        // Optional in case it's generated later on the backend
+  _id: string;
+  type: string;
+  title: string;
+  description: string;
+  createdAt: string;
+  updatedAt: string;
+}

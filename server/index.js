@@ -17,12 +17,14 @@ import productRoutes from "./routes/product.js";
 import transactionRoutes from "./routes/transaction.js";
 import stateRevenueRoutes from "./routes/staterevenue.js";
 import customerRoutes from "./routes/customer.js";
+import suggestionRoutes from "./routes/suggestion.js";
 import KPI from "./models/KPI.js";
 import Product from "./models/Product.js";
 import Transaction from "./models/Transaction.js";
 import StateRevenue from "./models/StateRevenue.js";
 import Customer from "./models/Customer.js";
-import { kpis, products, transactions, stateRevenues, customers } from "./data/data.js";
+import Suggestion from "./models/Suggestion.js";
+import { kpis, products, transactions, stateRevenues, customers, suggestions } from "./data/data.js";
 
 /* CONFIGURATIONS */
 dotenv.config();
@@ -49,7 +51,7 @@ app.use("/product", productRoutes);
 app.use("/transaction", transactionRoutes);
 app.use('/staterevenue', stateRevenueRoutes);
 app.use('/customer', customerRoutes);
-
+app.use('/suggestion', suggestionRoutes);
 app.post("/upload", async (req, res) => {
   try {
     // Check if the file and year are provided
@@ -89,6 +91,7 @@ app.post("/upload", async (req, res) => {
     const products = response.data.products || [];
     const stateRevenues = response.data.stateRevenue || [];
     const customers = response.data.customers || [];
+    const suggestions = response.data.suggestions || [];
 
     console.log("=== Writing Data to data1.js ===");
 
@@ -99,7 +102,7 @@ export const transactions = ${JSON.stringify(transactions, null, 2)};
 export const products = ${JSON.stringify(products, null, 2)};
 export const stateRevenues = ${JSON.stringify(stateRevenues, null, 2)};
 export const customers = ${JSON.stringify(customers, null, 2)};
-
+export const suggestions = ${JSON.stringify(suggestions, null, 2)};
     `;
 
     fs.writeFileSync(DATA_FILE, fileContent);
@@ -229,6 +232,15 @@ mongoose
           }))
         );
         console.log("✅ Customer Analysis Data Inserted Successfully!");
+
+        // Insert Suggestions
+        await Suggestion.insertMany(
+          suggestions.map((suggestion) => ({
+            ...suggestion,
+            _id: new mongoose.Types.ObjectId(),
+          }))
+        );
+        console.log("✅ Suggestions inserted into database.");
         console.log("Data inserted successfully!");
       })
 .catch((error) => console.log(`Database connection failed: ${error}`));

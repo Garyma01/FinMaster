@@ -1,6 +1,6 @@
 import BoxHeader from "@/components/BoxHeader";
 import DashboardBox from "@/components/DashboardBox";
-import { useGetKpisQuery } from "@/state/api";
+import { useGetKpisQuery, useGetSuggestionsQuery } from "@/state/api";
 import { useTheme } from "@mui/material";
 import { useMemo } from "react";
 import {
@@ -17,11 +17,13 @@ import {
   Tooltip,
   Area,
 } from "recharts";
+import SuggestionsCard from "@/scenes/SuggestionsCard";
 
 
 const Row1 = () => {
   const { palette } = useTheme();
   const { data } = useGetKpisQuery();
+  const { data: suggestionsData } = useGetSuggestionsQuery();
 
   const revenue = useMemo(() => {
     return (
@@ -62,8 +64,28 @@ const Row1 = () => {
     );
   }, [data]);
 
+  const filteredSuggestions = useMemo(() => {
+    return (
+      suggestionsData &&
+      suggestionsData.filter(
+        (sugg) =>
+          sugg.type === "profit_margin" ||
+          sugg.type === "low_state" ||
+          sugg.type === "top_state" ||
+          sugg.type === "delivery" ||
+          sugg.type === "peak_month"  ||
+          sugg.type === "low_month"
+      )
+    );
+  }, [suggestionsData]);
   return (
     <>
+    {/* ✅ Suggestions Box
+      <DashboardBox gridArea="s" sx={{ maxHeight: "300px", overflowY: "auto" }}>
+        {filteredSuggestions && (
+          <SuggestionsCard suggestions={filteredSuggestions} />
+        )}
+      </DashboardBox> */}
       <DashboardBox gridArea="a">
         <BoxHeader
           title="Revenue and Expenses"

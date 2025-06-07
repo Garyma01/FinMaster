@@ -164,11 +164,212 @@ def upload_file():
     state_revenue_data["Revenue"] = state_revenue_data["Revenue"].apply(lambda x: format_currency(x))
     state_revenue_data = state_revenue_data.sort_values(by="Revenue", ascending=False).to_dict(orient="records")
 
+
+    # customer data
+    print("=== Generating Customer Analysis ===")
+    customer_data = df.groupby("Customer ID").agg(
+        customer_name=("Customer Name", "first"),
+        segment=("Segment", "first"),
+        region=("State", "first"),
+        last_purchase=("date", "max"),
+        purchase_frequency=("Order ID", "nunique"),
+        revenue_generated=("Sales", "sum"),
+        average_order_value=("Sales", "mean"),
+        product_ids=("Product ID", list)
+    ).reset_index()
+
+    customer_data["last_purchase"] = customer_data["last_purchase"].astype(str)
+    customer_data["revenue_generated"] = customer_data["revenue_generated"].apply(format_currency)
+    customer_data["average_order_value"] = customer_data["average_order_value"].apply(format_currency)
+
+    # Convert to dictionary for JSON response
+    customer_data = customer_data.rename(columns={"Customer ID": "id"}).to_dict(orient="records")
+
+    print("=== Generating Suggestions ===")
+
+    suggestions = []
+
+    def safe_divide(numerator, denominator):
+        return numerator / denominator if denominator != 0 else 0
+
+    # 1. Profit Margin
+    try:
+        profit_margin = safe_divide(total_profit, total_revenue)
+
+        if profit_margin > 0.3:
+            suggestions.append({
+                "type": "profit_margin",
+                "title": "High Profit Margin",
+                "description": f"Your profit margin is {profit_margin:.2%}. Consider reinvesting to expand operations or explore new markets."
+            })
+        elif profit_margin < 0.1:
+            suggestions.append({
+                "type": "profit_margin",
+                "title": "Low Profit Margin",
+                "description": f"Your profit margin is just {profit_margin:.2%}. Review pricing, cost, or focus on more profitable products."
+            })
+    except Exception as e:
+        print("Error in Profit Margin Analysis:", e)
+
+    # 2. Best/Worst Performing Categories
+    try:
+        category_profit = df.groupby("Category").apply(lambda x: (x["Profit"] * x["Quantity"]).sum()).sort_values()
+
+        for cat in category_profit.head(1).index:
+            suggestions.append({
+                "type": "low_category",
+                "title": f"Underperforming Category: {cat}",
+                "description": f"{cat} has generated low profit. Investigate pricing, demand, or inventory issues."
+            })
+
+        for cat in category_profit.tail(1).index:
+            suggestions.append({
+                "type": "top_category",
+                "title": f"Top Performing Category: {cat}",
+                "description": f"{cat} category is performing well. Consider allocating more resources or marketing budget here."
+            })
+    except Exception as e:
+        print("Error in Category Performance Analysis:", e)
+
+    # 3. Delivery Time Analysis
+    try:
+        df["delivery_time"] = (df["Ship Date"] - df["date"]).dt.days
+        avg_delivery_time = df["delivery_time"].mean()
+
+        if avg_delivery_time > 6:
+            suggestions.append({
+                "type": "delivery",
+                "title": "Slow Deliveries",
+                "description": f"Average delivery time is {avg_delivery_time:.1f} days. Try optimizing logistics or changing shipping partners."
+            })
+        else:
+            suggestions.append({
+                "type": "delivery",
+                "title": "Good Delivery Performance",
+                "description": f"Average delivery time is {avg_delivery_time:.1f} days. Delivery performance is within acceptable range."
+            })
+    except Exception as e:
+        print("Error in Delivery Time Analysis:", e)
+
+    # 4. Top Customers
+    try:
+        top_customers = df.groupby("Customer Name").apply(lambda x: (x["Price"] * x["Quantity"]).sum()).sort_values(ascending=False).head(3)
+
+        for customer, sales in top_customers.items():
+            suggestions.append({
+                "type": "top_customer",
+                "title": f"Top Customer: {customer}",
+                "description": f"{customer} contributed ${sales:,.2f} in sales. Consider rewarding their loyalty with exclusive deals."
+            })
+    except Exception as e:
+        print("Error in Top Customers Analysis:", e)
+
+    # 5. Customer Segments
+    try:
+        customer_stats = df.groupby("Customer Name").agg({
+            "Quantity": "sum",
+            "Price": lambda x: (x * df.loc[x.index, "Quantity"]).sum()
+        }).rename(columns={"Price": "Total Revenue"})
+
+        quantity_threshold = customer_stats["Quantity"].median()
+        revenue_threshold = customer_stats["Total Revenue"].median()
+
+        high_buyers_low_revenue = customer_stats[
+            (customer_stats["Quantity"] > quantity_threshold) & 
+            (customer_stats["Total Revenue"] < revenue_threshold)
+        ].sort_values(by="Quantity", ascending=False).head(3)
+
+        for customer in high_buyers_low_revenue.index:
+            suggestions.append({
+                "type": "high_buyers_low_revenue",
+                "title": f"High Buyers, Low Revenue Customer: {customer}",
+                "description": f"{customer} buys frequently but generates relatively low revenue. Consider upselling or personalized promotions."
+            })
+
+        low_buyers_high_revenue = customer_stats[
+            (customer_stats["Quantity"] <= quantity_threshold) & 
+            (customer_stats["Total Revenue"] >= revenue_threshold)
+        ].sort_values(by="Total Revenue", ascending=False).head(3)
+
+        for customer in low_buyers_high_revenue.index:
+            suggestions.append({
+                "type": "low_buyers_high_revenue",
+                "title": f"Low Buyers, High Revenue Customer: {customer}",
+                "description": f"{customer} buys infrequently but generates high revenue. Engage with premium offers or loyalty rewards."
+            })
+    except Exception as e:
+        print("Error in Customer Segmentation:", e)
+
+    # 6. State Performance
+    try:
+        state_profit = df.groupby("State").apply(lambda x: (x["Profit"] * x["Quantity"]).sum()).sort_values()
+        best_state = state_profit.idxmax()
+        worst_state = state_profit.idxmin()
+
+        suggestions.append({
+            "type": "top_state",
+            "title": f"Top State: {best_state}",
+            "description": f"{best_state} contributed the highest profit. Explore opportunities to scale in this region."
+        })
+
+        suggestions.append({
+            "type": "low_state",
+            "title": f"Underperforming State: {worst_state}",
+            "description": f"{worst_state} yielded the lowest profit. Investigate causes or consider adjusting your strategy."
+        })
+    except Exception as e:
+        print("Error in State Performance Analysis:", e)
+
+    # 7. Products with High Sales but Low Profit
+    try:
+        product_stats = df.groupby("Product Name").agg({
+            "Quantity": "sum",
+            "Profit": lambda x: (x * df.loc[x.index, "Quantity"]).sum()
+        })
+
+        low_profit_but_high_sales = product_stats[
+            (product_stats["Quantity"] > 10) & 
+            (product_stats["Profit"] < 100)
+        ].sort_values(by="Quantity", ascending=False).head(3)
+
+        for product in low_profit_but_high_sales.index:
+            suggestions.append({
+                "type": "low_profit_high_sale",
+                "title": f"Low Profit Product: {product}",
+                "description": f"{product} is frequently sold but earns very low profit. Consider cost optimization or price adjustment."
+            })
+    except Exception as e:
+        print("Error in Low Profit High Sales Analysis:", e)
+
+    # 8. Seasonal Sales Trends
+    try:
+        monthly_sales = df.groupby("month_sort").apply(lambda x: (x["Price"] * x["Quantity"]).sum())
+
+        if not monthly_sales.empty:
+            peak_month = monthly_sales.idxmax()
+            low_month = monthly_sales.idxmin()
+
+            suggestions.append({
+                "type": "peak_month",
+                "title": f"Peak Sales Period: {peak_month}",
+                "description": "Leverage this high-demand period with more advertising, offers or new launches."
+            })
+            suggestions.append({
+                "type": "low_month",
+                "title": f"Low Sales Period: {low_month}",
+                "description": "Sales are slow during this period. You could offer discounts or run promotions to boost revenue."
+            })
+    except Exception as e:
+        print("Error in Seasonal Sales Trends Analysis:", e)
+
+
     response = {
         "kpis": kpi_data,
         "transactions": transactions_data,
         "products": products_data,
-        "stateRevenue": state_revenue_data
+        "stateRevenue": state_revenue_data,
+        "customers": customer_data,
+        "suggestions": suggestions
     }
 
     print("=== Upload Complete! ===")
