@@ -157,8 +157,6 @@ const Row1 = () => {
           />
         </Box>
       </DashboardBox>
-
-      {/* Customer Distribution by Segment */}
       {/* Customer Distribution by Segment */}
 <DashboardBox gridArea="c">
   <BoxHeader 

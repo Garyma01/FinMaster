@@ -1,6 +1,9 @@
 import { Box, useMediaQuery } from "@mui/material";
 import Row1 from "./Row1";
 import Row2 from "./Row2";
+import SuggestionsCard from "@/scenes/SuggestionsCard"; // update the import as per your structure
+import { useMemo } from "react";
+import { useGetSuggestionsQuery } from "@/state/api"; 
 const gridTemplateLargeScreens = `
     "g g h h"
     "g g h h"
@@ -37,7 +40,24 @@ const gridTemplateSmallScreens = `
 
 const Products = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1200px)");
+  const { data } = useGetSuggestionsQuery();
+
+  // Filter suggestions logic example
+  const filteredSuggestions = useMemo(() => {
+      return (
+        data &&
+        data.filter(
+          (sugg) =>
+            sugg.type === "low_profit_high_sale" ||
+            sugg.type === "low_category" ||
+            sugg.type === "top_category" 
+        )
+      );
+    }, [data]);
   return (
+    <Box width="100%" height="100%" p="1rem" display="flex" flexDirection="column" gap="1.5rem">
+      {/* Suggestion Card ABOVE the Grid */}
+    <SuggestionsCard suggestions={filteredSuggestions ?? []} />
     <Box
       width="100%"
       height="100%"
@@ -59,6 +79,7 @@ const Products = () => {
     >
       <Row1 />
       <Row2/>
+    </Box>
     </Box>
   );
 };

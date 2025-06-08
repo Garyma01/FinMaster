@@ -15,6 +15,7 @@ import {
   YAxis,
 } from "recharts";
 import regression, { DataPoint } from "regression";
+import TipsAndUpdatesIcon  from "@mui/icons-material/TipsAndUpdates";
 
 const Predictions = () => {
   const { palette } = useTheme();
@@ -71,21 +72,21 @@ const Predictions = () => {
     </Typography>
     <ul>
       <li>
-        💡 Increase average sales volume by{" "}
+        <TipsAndUpdatesIcon sx={{color: "#ffa800", fontSize: "15px" }}/> Increase average sales volume by{" "}
         <strong>{(additionalRevenue / 12).toFixed(2)} USD/month</strong>.
       </li>
       <li>
-        💡 Focus on <strong>top-performing regions</strong> and{" "}
+      <TipsAndUpdatesIcon sx={{color: "#ffa800", fontSize: "15px"}}/> Focus on <strong>top-performing regions</strong> and{" "}
         <strong>best-selling products</strong>.
       </li>
       <li>
-        💡 Boost <strong>customer retention</strong> through loyalty programs.
+      <TipsAndUpdatesIcon sx={{color: "#ffa800", fontSize: "15px" }}/> Boost <strong>customer retention</strong> through loyalty programs.
       </li>
       <li>
-        💡 Explore <strong>discount campaigns</strong> for underperforming regions.
+      <TipsAndUpdatesIcon sx={{color: "#ffa800", fontSize: "15px" }}/> Explore <strong>discount campaigns</strong> for underperforming regions.
       </li>
       <li>
-        💡 Identify <strong>high-margin products</strong> and promote them aggressively.
+      <TipsAndUpdatesIcon sx={{color: "#ffa800", fontSize: "15px" }}/> Identify <strong>high-margin products</strong> and promote them aggressively.
       </li>
     </ul>
   </Box>

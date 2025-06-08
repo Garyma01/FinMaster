@@ -2,7 +2,7 @@ import BoxHeader from "@/components/BoxHeader";
 import DashboardBox from "@/components/DashboardBox";
 import FlexBetween from "@/components/FlexBetween";
 import { useGetKpisQuery, useGetProductsQuery, useGetStateRevenuesQuery } from "@/state/api";
-import { Box, Typography, useTheme } from "@mui/material";
+import { Box, Typography, useTheme, CircularProgress } from "@mui/material";
 import React, { useMemo } from "react";
 import {
   Tooltip,
@@ -21,7 +21,7 @@ import {
   Scatter,
   ZAxis,
 } from "recharts";
-
+import { ArrowDropUp, ArrowDropDown } from "@mui/icons-material";
 
 interface StateRevenue {
   state: string;
@@ -38,6 +38,7 @@ const Row2 = () => {
   const { data: operationalData } = useGetKpisQuery();
   const { data: productData } = useGetProductsQuery();
   const { data: stateData, isLoading } = useGetStateRevenuesQuery();
+  const kpi = operationalData?.[0];
 
   const revenue = useMemo(() => {
       return (
@@ -119,8 +120,13 @@ const Row2 = () => {
       return { last3, lossChange, profitChange };
   }, [operationalData]);
   
-  const totalRevenue = lossesAndProfitsData?.last3.totalProfit + lossesAndProfitsData?.last3.totalLoss;
-  const profitPercentage = totalRevenue > 0 ? (lossesAndProfitsData?.last3.totalProfit / totalRevenue) * 100 : 0;
+
+  const revenueNum = kpi?.totalRevenue ?? 0;
+  const profitNum = kpi?.totalProfit ?? 0;
+  
+  const profitPercentage = revenueNum > 0 ? (profitNum / revenueNum) * 100 : 0;
+  const clampedProfitPercentage = Math.max(0, Math.min(100, profitPercentage));
+  const yoyGrowth = typeof kpi?.yoyRevenueGrowth === 'number' ? kpi.yoyRevenueGrowth : null;
   
   // Gauge chart sections (Red -> Yellow -> Green)
   const gaugeData = [
@@ -246,55 +252,62 @@ const Row2 = () => {
           </LineChart>
         </ResponsiveContainer>
       </DashboardBox> */}
-     <DashboardBox gridArea="e">
-  <BoxHeader title="Profit Speedometer" sideText="" />
 
-  <Box display="flex" flexDirection="row" alignItems="center" justifyContent="center">
-    {/* Speedometer Gauge */}
-    <Box position="relative" width="230px" height="140px">
-      <PieChart width={230} height={140}>
-        <Pie
-          data={gaugeData}
-          startAngle={180}
-          endAngle={0}
-          innerRadius={45}
-          outerRadius={65}
-          dataKey="value"
-          stroke="none"
-        >
-          {gaugeData.map((entry, index) => (
-            <Cell key={`cell-${index}`} fill={gaugeColors[index]} />
-          ))}
-        </Pie>
-      </PieChart>
+<DashboardBox gridArea="e">
+  <BoxHeader title="Annual Profit & YoY Growth Overview" sideText="" />
 
-      {/* Needle Indicator */}
-      <Box
-        sx={{
-          width: "3px",
-          height: "55px",
-          backgroundColor: "black",
-          position: "absolute",
-          top: "15px", // Ensures correct alignment at the center of the gauge
-          left: "48%",
-          transformOrigin: "bottom center",
-          transform: `rotate(${profitPercentage * 1.8 - 90}deg)`, // Fix rotation logic
-          transition: "transform 0.5s ease-in-out",
-        }}
-      />
-    </Box>
-
-    {/* Profit Percentage Text */}
-    <Typography
-      variant="h5"
-      fontWeight="bold"
-      color={profitPercentage > 50 ? "green" : "red"}
-      ml={2} // Margin to separate text from the meter
+  <Box
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      gap={6} // space between left and right
+      sx={{ width: "100%", maxWidth: 400, margin: "auto" }}
     >
-      {profitPercentage.toFixed(1)}% Profit
+      {/* Left: Profit / Loss */}
+      <Box display="flex" alignItems="center" gap={1}>
+        {profitPercentage >= 0 ? (
+          <>
+            <Typography variant="h6" color="success.main" fontWeight="bold">
+              Profit {profitPercentage.toFixed(2)}%
+            </Typography>
+            <ArrowDropUp sx={{ color: "success.main", fontSize: 28 }} />
+          </>
+        ) : (
+          <>
+            <Typography variant="h6" color="error.main" fontWeight="bold">
+              Loss {Math.abs(profitPercentage).toFixed(2)}%
+            </Typography>
+            <ArrowDropDown sx={{ color: "error.main", fontSize: 28 }} />
+          </>
+        )}
+      </Box>
+
+      {/* Right: YoY Growth */}
+<Box display="flex" alignItems="center" gap={1}>
+  {yoyGrowth === null ? (
+    <Typography variant="h6" color="text.secondary" fontWeight="bold">
+      YoY Growth: Not Available
     </Typography>
-  </Box>
+  ) : yoyGrowth >= 0 ? (
+    <>
+      <Typography variant="h6" color="primary.main" fontWeight="bold">
+        YoY Growth {yoyGrowth.toFixed(2)}%
+      </Typography>
+      <ArrowDropUp sx={{ color: "primary.main", fontSize: 28 }} />
+    </>
+  ) : (
+    <>
+      <Typography variant="h6" color="warning.main" fontWeight="bold">
+        YoY Decline {Math.abs(yoyGrowth).toFixed(2)}%
+      </Typography>
+      <ArrowDropDown sx={{ color: "warning.main", fontSize: 28 }} />
+    </>
+  )}
+</Box>
+
+    </Box>
 </DashboardBox>
+
 
       <DashboardBox gridArea="f">
       <BoxHeader
