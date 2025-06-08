@@ -24,7 +24,9 @@ const Navbar = (props: Props) => {
   const [open, setOpen] = useState(false);
   const [file, setFile] = useState<File | null>(null);
   const [year, setYear] = useState("");
-  const [categoryExpenses, setCategoryExpenses] = useState("");
+  const [categoryExpenses, setCategoryExpenses] = useState<
+    { key: string; value: string }[]
+  >([{ key: "", value: "" }]);
 
     // Modal Handlers
   const handleOpen = () => setOpen(true);
@@ -35,17 +37,57 @@ const Navbar = (props: Props) => {
     setFile(event.target.files?.[0] || null);
   };
 
-  // Handle Form Submission
-  const handleFormSubmit = async () => {
+  
+    const addExpenseField = () => {
+    setCategoryExpenses([...categoryExpenses, { key: "", value: "" }])};
+
+  // Remove expense row by index
+  const removeExpenseField = (index: number) => {
+    const newExpenses = [...categoryExpenses];
+    newExpenses.splice(index, 1);
+    setCategoryExpenses(newExpenses);
+  };
+
+  const handleExpenseChange = (
+    index: number,
+    field: "key" | "value",
+    value: string
+  ) => {
+    const newExpenses = [...categoryExpenses];
+    newExpenses[index][field] = value;
+    setCategoryExpenses(newExpenses);
+  };
+
+    const handleFormSubmit = async () => {
     if (!file || !year) {
       alert("File and Year are required!");
       return;
     }
 
+    // Validate that keys are not empty and values are in correct format (optional)
+    for (const expense of categoryExpenses) {
+      if (!expense.key.trim()) {
+        alert("Expense category cannot be empty.");
+        return;
+      }
+      if (!expense.value.trim()) {
+        alert("Expense amount cannot be empty.");
+        return;
+      }
+    }
+
+    // Convert array of objects to JSON string in expected format:
+    // { "Marketing": "$2000", "Operations": "$1500" }
+    const expensesObj: Record<string, string> = {};
+    categoryExpenses.forEach(({ key, value }) => {
+      expensesObj[key] = value;
+    });
+    const expensesJSON = JSON.stringify(expensesObj);
+
     const formData = new FormData();
     formData.append("file", file);
     formData.append("year", year);
-    formData.append("categoryExpenses", categoryExpenses);
+    formData.append("categoryExpenses", expensesJSON);
 
     try {
       const response = await fetch("http://localhost:9000/upload", {
@@ -173,14 +215,50 @@ const Navbar = (props: Props) => {
               value={year}
               onChange={(e) => setYear(e.target.value)}
             />
-            <TextField
-              fullWidth
-              margin="normal"
-              label="Category Expenses (JSON format)"
-              value={categoryExpenses}
-              onChange={(e) => setCategoryExpenses(e.target.value)}
-              placeholder='e.g., {"Marketing": "$2000", "Operations": "$1500"}'
-            />
+            <Typography variant="subtitle1" sx={{ mt: 2, mb: 1 }}>
+              Category Expenses
+            </Typography>
+
+            {categoryExpenses.map((expense, index) => (
+              <Box
+                key={index}
+                display="flex"
+                gap={2}
+                alignItems="center"
+                mb={1}
+              >
+                <TextField
+                  label="Expense Category"
+                  value={expense.key}
+                  onChange={(e) =>
+                    handleExpenseChange(index, "key", e.target.value)
+                  }
+                  fullWidth
+                />
+                <TextField
+                  label="Amount"
+                  value={expense.value}
+                  onChange={(e) =>
+                    handleExpenseChange(index, "value", e.target.value)
+                  }
+                  placeholder="$1000"
+                  fullWidth
+                />
+                {categoryExpenses.length > 1 && (
+                  <Button
+                    variant="outlined"
+                    color="error"
+                    onClick={() => removeExpenseField(index)}
+                  >
+                    Remove
+                  </Button>
+                )}
+              </Box>
+            ))}
+
+            <Button variant="text" onClick={addExpenseField}>
+              + Add an Expense
+            </Button>
           </DialogContent>
           <DialogActions>
             <Button onClick={handleFormSubmit} variant="contained">

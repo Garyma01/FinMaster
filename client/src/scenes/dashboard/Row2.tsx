@@ -121,13 +121,27 @@ const Row2 = () => {
   }, [operationalData]);
   
 
-  const revenueNum = kpi?.totalRevenue ?? 0;
-  const profitNum = kpi?.totalProfit ?? 0;
-  
-  const profitPercentage = revenueNum > 0 ? (profitNum / revenueNum) * 100 : 0;
-  const clampedProfitPercentage = Math.max(0, Math.min(100, profitPercentage));
-  const yoyGrowth = typeof kpi?.yoyRevenueGrowth === 'number' ? kpi.yoyRevenueGrowth : null;
-  
+ const parseMoney = (val: string | number): number => {
+  if (typeof val === "number") return val;
+  if (typeof val === "string") {
+    // Remove $ and commas, preserve negative sign
+    return parseFloat(val.replace(/[$,]/g, ""));
+  }
+  return 0;
+};
+
+const profitNum = parseMoney(kpi?.totalProfit ?? 0);
+const revenueNum = parseMoney(kpi?.totalRevenue ?? 0);
+
+const profitPercentage =
+  revenueNum !== 0 ? (profitNum / revenueNum) * 100 : null;
+
+console.log("Parsed Revenue:", revenueNum);
+console.log("Parsed Profit:", profitNum);
+console.log("Profit Percentage:", profitPercentage);
+
+const rawYoy = kpi?.yoyRevenueGrowth; // "25.32%" or possibly undefined
+const yoyGrowth = rawYoy ? parseFloat(rawYoy.replace("%", "")) : null;  
   // Gauge chart sections (Red -> Yellow -> Green)
   const gaugeData = [
     { name: "Loss", value: 30 },   // Red Zone (0-30%)
@@ -256,57 +270,81 @@ const Row2 = () => {
 <DashboardBox gridArea="e">
   <BoxHeader title="Annual Profit & YoY Growth Overview" sideText="" />
 
+  {/* Spacing below header */}
+  <Box height={10} />
+
   <Box
-      display="flex"
-      justifyContent="center"
-      alignItems="center"
-      gap={6} // space between left and right
-      sx={{ width: "100%", maxWidth: 400, margin: "auto" }}
-    >
-      {/* Left: Profit / Loss */}
-      <Box display="flex" alignItems="center" gap={1}>
-        {profitPercentage >= 0 ? (
+    display="flex"
+    justifyContent="center"
+    alignItems="center"
+    gap={6}
+    sx={{
+      width: "100%",
+      maxWidth: 800,
+      margin: "0 auto",
+      paddingY: 2,
+    }}
+  >
+    {/* Left: Profit / Loss */}
+    <Box display="flex" flexDirection="column" alignItems="center" >
+      {typeof profitPercentage === "number" ? (
+        profitPercentage >= 0 ? (
           <>
-            <Typography variant="h6" color="success.main" fontWeight="bold">
+            <Typography variant="h4" color="success.main" fontWeight="bold">
               Profit {profitPercentage.toFixed(2)}%
             </Typography>
-            <ArrowDropUp sx={{ color: "success.main", fontSize: 28 }} />
+            <ArrowDropUp sx={{ color: "success.main", fontSize: 100,  mt: -2,  // negative top margin to pull arrow closer to text
+    mb: 0,   // no bottom margin
+    lineHeight: 1,  }} />
           </>
         ) : (
           <>
-            <Typography variant="h6" color="error.main" fontWeight="bold">
+            <Typography variant="h4" color="error.main" fontWeight="bold">
               Loss {Math.abs(profitPercentage).toFixed(2)}%
             </Typography>
-            <ArrowDropDown sx={{ color: "error.main", fontSize: 28 }} />
+            <ArrowDropDown sx={{ color: "error.main", fontSize: 100,  mt: -2,  // negative top margin to pull arrow closer to text
+    mb: 0,   // no bottom margin
+    lineHeight: 1,  }} />
           </>
-        )}
-      </Box>
-
-      {/* Right: YoY Growth */}
-<Box display="flex" alignItems="center" gap={1}>
-  {yoyGrowth === null ? (
-    <Typography variant="h6" color="text.secondary" fontWeight="bold">
-      YoY Growth: Not Available
-    </Typography>
-  ) : yoyGrowth >= 0 ? (
-    <>
-      <Typography variant="h6" color="primary.main" fontWeight="bold">
-        YoY Growth {yoyGrowth.toFixed(2)}%
-      </Typography>
-      <ArrowDropUp sx={{ color: "primary.main", fontSize: 28 }} />
-    </>
-  ) : (
-    <>
-      <Typography variant="h6" color="warning.main" fontWeight="bold">
-        YoY Decline {Math.abs(yoyGrowth).toFixed(2)}%
-      </Typography>
-      <ArrowDropDown sx={{ color: "warning.main", fontSize: 28 }} />
-    </>
-  )}
-</Box>
-
+        )
+      ) : (
+        <Typography variant="h6" color="text.secondary" fontWeight="bold">
+          Not Available
+        </Typography>
+      )}
     </Box>
+
+    {/* Right: YoY Growth */}
+    <Box display="flex" flexDirection="column" alignItems="center" >
+      {typeof yoyGrowth === "number" ? (
+        yoyGrowth >= 0 ? (
+          <>
+            <Typography variant="h4" color="primary.main" fontWeight="bold">
+              YoY Growth {yoyGrowth.toFixed(2)}%
+            </Typography>
+            <ArrowDropUp sx={{ color: "primary.main", fontSize: 100, mt: -2,  // negative top margin to pull arrow closer to text
+    mb: 0,   // no bottom margin
+    lineHeight: 1,  }} />
+          </>
+        ) : (
+          <>
+            <Typography variant="h4" color="warning.main" fontWeight="bold">
+              YoY Decline {Math.abs(yoyGrowth).toFixed(2)}%
+            </Typography>
+            <ArrowDropDown sx={{ color: "warning.main", fontSize: 100,  mt: -2,  // negative top margin to pull arrow closer to text
+    mb: 0,   // no bottom margin
+    lineHeight: 1,  }} />
+          </>
+        )
+      ) : (
+        <Typography variant="h6" color="text.secondary" fontWeight="bold">
+          YoY Data Not Available
+        </Typography>
+      )}
+    </Box>
+  </Box>
 </DashboardBox>
+
 
 
       <DashboardBox gridArea="f">

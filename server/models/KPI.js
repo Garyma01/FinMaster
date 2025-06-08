@@ -153,7 +153,7 @@ const KPISchema = new Schema(
       get: (v) => v / 100,
     },
     yoyRevenueGrowth: {
-      type: Number, 
+      type: String, 
     },
     expensesByCategory: {
       type: Map,

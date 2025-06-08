@@ -115,9 +115,9 @@ def upload_file():
     df["month_sort"] = df["date"].dt.strftime("%Y-%m")
     
     monthly_data = df.groupby("month").agg(
-        revenue=("Price", lambda x: format_currency((x * df.loc[x.index, "Quantity"]).sum())),
-        expenses=("Cost", lambda x: format_currency((x * df.loc[x.index, "Quantity"]).sum())),
-        profit=("Profit", lambda x: format_currency((x * df.loc[x.index, "Quantity"]).sum()))
+        revenue=("Price", lambda x: round((x * df.loc[x.index, "Quantity"]).sum(), 2)),
+        expenses=("Cost", lambda x: round((x * df.loc[x.index, "Quantity"]).sum(), 2)),
+        profit=("Profit", lambda x: round((x * df.loc[x.index, "Quantity"]).sum(), 2))
     ).reset_index()
 
     monthly_data = monthly_data.merge(df[["month", "month_sort"]].drop_duplicates(), on="month")
@@ -126,18 +126,18 @@ def upload_file():
     # Daily summary
     print("=== Generating Daily Summary ===")
     daily_data = df.groupby(df["date"].dt.strftime("%Y-%m-%d")).agg(
-        revenue=("Price", lambda x: format_currency((x * df.loc[x.index, "Quantity"]).sum())),
-        expenses=("Cost", lambda x: format_currency((x * df.loc[x.index, "Quantity"]).sum())),
-        profit=("Profit", lambda x: format_currency((x * df.loc[x.index, "Quantity"]).sum()))
+        revenue=("Price", lambda x: round((x * df.loc[x.index, "Quantity"]).sum(), 2)),
+        expenses=("Cost", lambda x: round((x * df.loc[x.index, "Quantity"]).sum(), 2)),
+        profit=("Profit", lambda x: round((x * df.loc[x.index, "Quantity"]).sum(), 2))
     ).reset_index()
     daily_data = daily_data.sort_values(by="date")
 
     # KPI JSON
     kpi_data = [{
         "year": int(year),
-        "totalProfit": format_currency(total_profit),
-        "totalRevenue": format_currency(total_revenue),
-        "totalExpenses": format_currency(total_expense),
+        "totalProfit": round(total_profit,2),
+        "totalRevenue": round(total_revenue,2),
+        "totalExpenses": round(total_expense, 2),
         "monthlyData": monthly_data.to_dict(orient="records"),
         "dailyData": daily_data.to_dict(orient="records"),
         "expensesByCategory": category_expenses,

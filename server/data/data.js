@@ -4,1995 +4,1998 @@ export const kpis = [
     "dailyData": [
       {
         "date": "2017-01-02",
-        "expenses": "$14164.86",
-        "profit": "$-6844.23",
-        "revenue": "$7320.63"
+        "expenses": 14164.86,
+        "profit": -6844.23,
+        "revenue": 7320.63
       },
       {
         "date": "2017-01-03",
-        "expenses": "$20803.70",
-        "profit": "$-9332.86",
-        "revenue": "$11470.61"
+        "expenses": 20803.7,
+        "profit": -9332.86,
+        "revenue": 11470.61
       },
       {
         "date": "2017-01-04",
-        "expenses": "$135570.51",
-        "profit": "$-44178.76",
-        "revenue": "$91391.59"
+        "expenses": 135570.51,
+        "profit": -44178.76,
+        "revenue": 91391.59
       },
       {
         "date": "2017-01-05",
-        "expenses": "$33421.63",
-        "profit": "$-9968.46",
-        "revenue": "$23453.09"
+        "expenses": 33421.63,
+        "profit": -9968.46,
+        "revenue": 23453.09
       },
       {
         "date": "2017-01-07",
-        "expenses": "$78946.52",
-        "profit": "$-27314.15",
-        "revenue": "$51632.37"
+        "expenses": 78946.52,
+        "profit": -27314.15,
+        "revenue": 51632.37
       },
       {
         "date": "2017-01-08",
-        "expenses": "$24988.84",
-        "profit": "$1790.38",
-        "revenue": "$26779.39"
+        "expenses": 24988.84,
+        "profit": 1790.38,
+        "revenue": 26779.39
       },
       {
         "date": "2017-01-09",
-        "expenses": "$143734.54",
-        "profit": "$10108.66",
-        "revenue": "$153842.94"
+        "expenses": 143734.54,
+        "profit": 10108.66,
+        "revenue": 153842.94
       },
       {
         "date": "2017-01-10",
-        "expenses": "$28759.62",
-        "profit": "$-9126.91",
-        "revenue": "$19632.71"
+        "expenses": 28759.62,
+        "profit": -9126.91,
+        "revenue": 19632.71
       },
       {
         "date": "2017-01-11",
-        "expenses": "$14516.32",
-        "profit": "$-679.22",
-        "revenue": "$13836.99"
+        "expenses": 14516.32,
+        "profit": -679.22,
+        "revenue": 13836.99
       },
       {
         "date": "2017-01-12",
-        "expenses": "$157123.30",
-        "profit": "$-27382.73",
-        "revenue": "$129740.06"
+        "expenses": 157123.3,
+        "profit": -27382.73,
+        "revenue": 129740.06
       },
       {
         "date": "2017-01-14",
-        "expenses": "$27045.84",
-        "profit": "$-5785.04",
-        "revenue": "$21260.72"
+        "expenses": 27045.84,
+        "profit": -5785.04,
+        "revenue": 21260.72
       },
       {
         "date": "2017-01-15",
-        "expenses": "$73496.29",
-        "profit": "$19939.36",
-        "revenue": "$93435.47"
+        "expenses": 73496.29,
+        "profit": 19939.36,
+        "revenue": 93435.47
       },
       {
         "date": "2017-01-16",
-        "expenses": "$7562.72",
-        "profit": "$5207.50",
-        "revenue": "$12770.22"
+        "expenses": 7562.72,
+        "profit": 5207.5,
+        "revenue": 12770.22
       },
       {
         "date": "2017-01-17",
-        "expenses": "$35242.39",
-        "profit": "$-13262.00",
-        "revenue": "$21980.39"
+        "expenses": 35242.39,
+        "profit": -13262,
+        "revenue": 21980.39
       },
       {
         "date": "2017-01-21",
-        "expenses": "$2366.34",
-        "profit": "$5360.38",
-        "revenue": "$7726.72"
+        "expenses": 2366.34,
+        "profit": 5360.38,
+        "revenue": 7726.72
       },
       {
         "date": "2017-01-22",
-        "expenses": "$92528.57",
-        "profit": "$-9276.31",
-        "revenue": "$83251.79"
+        "expenses": 92528.57,
+        "profit": -9276.31,
+        "revenue": 83251.79
       },
       {
         "date": "2017-01-23",
-        "expenses": "$24886.86",
-        "profit": "$-7030.45",
-        "revenue": "$17856.64"
+        "expenses": 24886.86,
+        "profit": -7030.45,
+        "revenue": 17856.64
       },
       {
         "date": "2017-01-24",
-        "expenses": "$922.45",
-        "profit": "$849.87",
-        "revenue": "$1772.32"
+        "expenses": 922.45,
+        "profit": 849.87,
+        "revenue": 1772.32
       },
       {
         "date": "2017-01-25",
-        "expenses": "$59102.13",
-        "profit": "$4721.63",
-        "revenue": "$63824.00"
+        "expenses": 59102.13,
+        "profit": 4721.63,
+        "revenue": 63824
       },
       {
         "date": "2017-01-28",
-        "expenses": "$293.60",
-        "profit": "$1759.52",
-        "revenue": "$2053.12"
+        "expenses": 293.6,
+        "profit": 1759.52,
+        "revenue": 2053.12
       },
       {
         "date": "2017-01-30",
-        "expenses": "$43047.93",
-        "profit": "$26711.11",
-        "revenue": "$69758.69"
+        "expenses": 43047.93,
+        "profit": 26711.11,
+        "revenue": 69758.69
       },
       {
         "date": "2017-01-31",
-        "expenses": "$52240.83",
-        "profit": "$-8313.63",
-        "revenue": "$43927.27"
+        "expenses": 52240.83,
+        "profit": -8313.63,
+        "revenue": 43927.27
       },
       {
         "date": "2017-02-01",
-        "expenses": "$2724.42",
-        "profit": "$1051.68",
-        "revenue": "$3776.10"
+        "expenses": 2724.42,
+        "profit": 1051.68,
+        "revenue": 3776.1
       },
       {
         "date": "2017-02-02",
-        "expenses": "$28203.98",
-        "profit": "$9446.24",
-        "revenue": "$37650.13"
+        "expenses": 28203.98,
+        "profit": 9446.24,
+        "revenue": 37650.13
       },
       {
         "date": "2017-02-04",
-        "expenses": "$3202.30",
-        "profit": "$28.00",
-        "revenue": "$3230.25"
+        "expenses": 3202.3,
+        "profit": 28,
+        "revenue": 3230.25
       },
       {
         "date": "2017-02-05",
-        "expenses": "$42998.52",
-        "profit": "$21243.85",
-        "revenue": "$64242.07"
+        "expenses": 42998.52,
+        "profit": 21243.85,
+        "revenue": 64242.07
       },
       {
         "date": "2017-02-06",
-        "expenses": "$43590.11",
-        "profit": "$-34366.00",
-        "revenue": "$9224.11"
+        "expenses": 43590.11,
+        "profit": -34366,
+        "revenue": 9224.11
       },
       {
         "date": "2017-02-07",
-        "expenses": "$10778.29",
-        "profit": "$1212.74",
-        "revenue": "$11990.87"
+        "expenses": 10778.29,
+        "profit": 1212.74,
+        "revenue": 11990.87
       },
       {
         "date": "2017-02-08",
-        "expenses": "$16650.31",
-        "profit": "$8793.16",
-        "revenue": "$25443.47"
+        "expenses": 16650.31,
+        "profit": 8793.16,
+        "revenue": 25443.47
       },
       {
         "date": "2017-02-09",
-        "expenses": "$114960.34",
-        "profit": "$28477.00",
-        "revenue": "$143437.20"
+        "expenses": 114960.34,
+        "profit": 28477,
+        "revenue": 143437.2
       },
       {
         "date": "2017-02-10",
-        "expenses": "$28871.26",
-        "profit": "$-11742.30",
-        "revenue": "$17128.94"
+        "expenses": 28871.26,
+        "profit": -11742.3,
+        "revenue": 17128.94
       },
       {
         "date": "2017-02-12",
-        "expenses": "$114874.63",
-        "profit": "$-34966.22",
-        "revenue": "$79908.12"
+        "expenses": 114874.63,
+        "profit": -34966.22,
+        "revenue": 79908.12
       },
       {
         "date": "2017-02-13",
-        "expenses": "$22848.43",
-        "profit": "$-6224.26",
-        "revenue": "$16623.94"
+        "expenses": 22848.43,
+        "profit": -6224.26,
+        "revenue": 16623.94
       },
       {
         "date": "2017-02-14",
-        "expenses": "$41884.71",
-        "profit": "$-15832.75",
-        "revenue": "$26051.96"
+        "expenses": 41884.71,
+        "profit": -15832.75,
+        "revenue": 26051.96
       },
       {
         "date": "2017-02-15",
-        "expenses": "$24588.00",
-        "profit": "$-11890.28",
-        "revenue": "$12697.72"
+        "expenses": 24588,
+        "profit": -11890.28,
+        "revenue": 12697.72
       },
       {
         "date": "2017-02-16",
-        "expenses": "$74092.16",
-        "profit": "$-23593.85",
-        "revenue": "$50498.18"
+        "expenses": 74092.16,
+        "profit": -23593.85,
+        "revenue": 50498.18
       },
       {
         "date": "2017-02-19",
-        "expenses": "$19333.86",
-        "profit": "$11103.23",
-        "revenue": "$30437.37"
+        "expenses": 19333.86,
+        "profit": 11103.23,
+        "revenue": 30437.37
       },
       {
         "date": "2017-02-20",
-        "expenses": "$7863.66",
-        "profit": "$-4391.01",
-        "revenue": "$3472.65"
+        "expenses": 7863.66,
+        "profit": -4391.01,
+        "revenue": 3472.65
       },
       {
         "date": "2017-02-21",
-        "expenses": "$52620.84",
-        "profit": "$4462.44",
-        "revenue": "$57083.70"
+        "expenses": 52620.84,
+        "profit": 4462.44,
+        "revenue": 57083.7
       },
       {
         "date": "2017-02-22",
-        "expenses": "$6540.97",
-        "profit": "$14627.63",
-        "revenue": "$21168.60"
+        "expenses": 6540.97,
+        "profit": 14627.63,
+        "revenue": 21168.6
       },
       {
         "date": "2017-02-23",
-        "expenses": "$16045.26",
-        "profit": "$2854.28",
-        "revenue": "$18899.54"
+        "expenses": 16045.26,
+        "profit": 2854.28,
+        "revenue": 18899.54
       },
       {
         "date": "2017-02-25",
-        "expenses": "$8881.95",
-        "profit": "$-8173.33",
-        "revenue": "$708.62"
+        "expenses": 8881.95,
+        "profit": -8173.33,
+        "revenue": 708.62
       },
       {
         "date": "2017-02-27",
-        "expenses": "$14147.34",
-        "profit": "$1960.32",
-        "revenue": "$16107.66"
+        "expenses": 14147.34,
+        "profit": 1960.32,
+        "revenue": 16107.66
       },
       {
         "date": "2017-02-28",
-        "expenses": "$26574.30",
-        "profit": "$-9318.84",
-        "revenue": "$17255.66"
+        "expenses": 26574.3,
+        "profit": -9318.84,
+        "revenue": 17255.66
       },
       {
         "date": "2017-03-01",
-        "expenses": "$32260.93",
-        "profit": "$17872.04",
-        "revenue": "$50132.74"
+        "expenses": 32260.93,
+        "profit": 17872.04,
+        "revenue": 50132.74
       },
       {
         "date": "2017-03-02",
-        "expenses": "$7933.26",
-        "profit": "$1160.71",
-        "revenue": "$9093.97"
+        "expenses": 7933.26,
+        "profit": 1160.71,
+        "revenue": 9093.97
       },
       {
         "date": "2017-03-03",
-        "expenses": "$75656.54",
-        "profit": "$-3401.32",
-        "revenue": "$72255.24"
+        "expenses": 75656.54,
+        "profit": -3401.32,
+        "revenue": 72255.24
       },
       {
         "date": "2017-03-04",
-        "expenses": "$20349.17",
-        "profit": "$3412.50",
-        "revenue": "$23761.91"
+        "expenses": 20349.17,
+        "profit": 3412.5,
+        "revenue": 23761.91
       },
       {
         "date": "2017-03-05",
-        "expenses": "$75646.30",
-        "profit": "$-12370.24",
-        "revenue": "$63275.40"
+        "expenses": 75646.3,
+        "profit": -12370.24,
+        "revenue": 63275.4
       },
       {
         "date": "2017-03-07",
-        "expenses": "$34465.90",
-        "profit": "$6831.40",
-        "revenue": "$41297.30"
+        "expenses": 34465.9,
+        "profit": 6831.4,
+        "revenue": 41297.3
       },
       {
         "date": "2017-03-08",
-        "expenses": "$19589.76",
-        "profit": "$-9602.04",
-        "revenue": "$9987.72"
+        "expenses": 19589.76,
+        "profit": -9602.04,
+        "revenue": 9987.72
       },
       {
         "date": "2017-03-09",
-        "expenses": "$102191.70",
-        "profit": "$-17713.78",
-        "revenue": "$84477.88"
+        "expenses": 102191.7,
+        "profit": -17713.78,
+        "revenue": 84477.88
       },
       {
         "date": "2017-03-10",
-        "expenses": "$44497.36",
-        "profit": "$-810.66",
-        "revenue": "$43686.56"
+        "expenses": 44497.36,
+        "profit": -810.66,
+        "revenue": 43686.56
       },
       {
         "date": "2017-03-11",
-        "expenses": "$118889.77",
-        "profit": "$34701.91",
-        "revenue": "$153592.10"
+        "expenses": 118889.77,
+        "profit": 34701.91,
+        "revenue": 153592.1
       },
       {
         "date": "2017-03-12",
-        "expenses": "$82512.03",
-        "profit": "$15250.75",
-        "revenue": "$97762.55"
+        "expenses": 82512.03,
+        "profit": 15250.75,
+        "revenue": 97762.55
       },
       {
         "date": "2017-03-13",
-        "expenses": "$168643.29",
-        "profit": "$-20082.60",
-        "revenue": "$148560.19"
+        "expenses": 168643.29,
+        "profit": -20082.6,
+        "revenue": 148560.19
       },
       {
         "date": "2017-03-14",
-        "expenses": "$34467.09",
-        "profit": "$-23431.10",
-        "revenue": "$11035.90"
+        "expenses": 34467.09,
+        "profit": -23431.1,
+        "revenue": 11035.9
       },
       {
         "date": "2017-03-15",
-        "expenses": "$21640.25",
-        "profit": "$15407.46",
-        "revenue": "$37047.71"
+        "expenses": 21640.25,
+        "profit": 15407.46,
+        "revenue": 37047.71
       },
       {
         "date": "2017-03-17",
-        "expenses": "$58739.13",
-        "profit": "$-334.59",
-        "revenue": "$58404.83"
+        "expenses": 58739.13,
+        "profit": -334.59,
+        "revenue": 58404.83
       },
       {
         "date": "2017-03-18",
-        "expenses": "$15656.22",
-        "profit": "$-338.36",
-        "revenue": "$15317.86"
+        "expenses": 15656.22,
+        "profit": -338.36,
+        "revenue": 15317.86
       },
       {
         "date": "2017-03-19",
-        "expenses": "$35679.91",
-        "profit": "$-25563.53",
-        "revenue": "$10116.22"
+        "expenses": 35679.91,
+        "profit": -25563.53,
+        "revenue": 10116.22
       },
       {
         "date": "2017-03-20",
-        "expenses": "$41227.76",
-        "profit": "$1245.00",
-        "revenue": "$42472.96"
+        "expenses": 41227.76,
+        "profit": 1245,
+        "revenue": 42472.96
       },
       {
         "date": "2017-03-21",
-        "expenses": "$36001.26",
-        "profit": "$3138.85",
-        "revenue": "$39140.08"
+        "expenses": 36001.26,
+        "profit": 3138.85,
+        "revenue": 39140.08
       },
       {
         "date": "2017-03-22",
-        "expenses": "$9247.48",
-        "profit": "$1364.88",
-        "revenue": "$10612.36"
+        "expenses": 9247.48,
+        "profit": 1364.88,
+        "revenue": 10612.36
       },
       {
         "date": "2017-03-24",
-        "expenses": "$18180.57",
-        "profit": "$18096.89",
-        "revenue": "$36277.26"
+        "expenses": 18180.57,
+        "profit": 18096.89,
+        "revenue": 36277.26
       },
       {
         "date": "2017-03-25",
-        "expenses": "$14822.34",
-        "profit": "$15.49",
-        "revenue": "$14838.04"
+        "expenses": 14822.34,
+        "profit": 15.49,
+        "revenue": 14838.04
       },
       {
         "date": "2017-03-26",
-        "expenses": "$54227.53",
-        "profit": "$-7010.45",
-        "revenue": "$47217.23"
+        "expenses": 54227.53,
+        "profit": -7010.45,
+        "revenue": 47217.23
       },
       {
         "date": "2017-03-27",
-        "expenses": "$25426.84",
-        "profit": "$-8943.75",
-        "revenue": "$16482.96"
+        "expenses": 25426.84,
+        "profit": -8943.75,
+        "revenue": 16482.96
       },
       {
         "date": "2017-03-28",
-        "expenses": "$9218.46",
-        "profit": "$3695.68",
-        "revenue": "$12913.99"
+        "expenses": 9218.46,
+        "profit": 3695.68,
+        "revenue": 12913.99
       },
       {
         "date": "2017-03-29",
-        "expenses": "$63223.25",
-        "profit": "$-18125.79",
-        "revenue": "$45097.75"
+        "expenses": 63223.25,
+        "profit": -18125.79,
+        "revenue": 45097.75
       },
       {
         "date": "2017-03-30",
-        "expenses": "$4245.48",
-        "profit": "$-1458.00",
-        "revenue": "$2787.48"
+        "expenses": 4245.48,
+        "profit": -1458,
+        "revenue": 2787.48
       },
       {
         "date": "2017-03-31",
-        "expenses": "$28387.52",
-        "profit": "$-1639.18",
-        "revenue": "$26748.08"
+        "expenses": 28387.52,
+        "profit": -1639.18,
+        "revenue": 26748.08
       },
       {
         "date": "2017-04-01",
-        "expenses": "$13443.68",
-        "profit": "$3790.63",
-        "revenue": "$17234.31"
+        "expenses": 13443.68,
+        "profit": 3790.63,
+        "revenue": 17234.31
       },
       {
         "date": "2017-04-02",
-        "expenses": "$34504.25",
-        "profit": "$-1211.14",
-        "revenue": "$33293.11"
+        "expenses": 34504.25,
+        "profit": -1211.14,
+        "revenue": 33293.11
       },
       {
         "date": "2017-04-03",
-        "expenses": "$31053.09",
-        "profit": "$9475.09",
-        "revenue": "$40528.43"
+        "expenses": 31053.09,
+        "profit": 9475.09,
+        "revenue": 40528.43
       },
       {
         "date": "2017-04-04",
-        "expenses": "$18115.00",
-        "profit": "$21963.12",
-        "revenue": "$40078.18"
+        "expenses": 18115,
+        "profit": 21963.12,
+        "revenue": 40078.18
       },
       {
         "date": "2017-04-06",
-        "expenses": "$50146.61",
-        "profit": "$19357.67",
-        "revenue": "$69503.99"
+        "expenses": 50146.61,
+        "profit": 19357.67,
+        "revenue": 69503.99
       },
       {
         "date": "2017-04-07",
-        "expenses": "$42548.00",
-        "profit": "$-19466.16",
-        "revenue": "$23081.82"
+        "expenses": 42548,
+        "profit": -19466.16,
+        "revenue": 23081.82
       },
       {
         "date": "2017-04-08",
-        "expenses": "$63289.53",
-        "profit": "$-19530.74",
-        "revenue": "$43758.41"
+        "expenses": 63289.53,
+        "profit": -19530.74,
+        "revenue": 43758.41
       },
       {
         "date": "2017-04-09",
-        "expenses": "$78234.34",
-        "profit": "$12389.29",
-        "revenue": "$90623.57"
+        "expenses": 78234.34,
+        "profit": 12389.29,
+        "revenue": 90623.57
       },
       {
         "date": "2017-04-10",
-        "expenses": "$73554.51",
-        "profit": "$-20221.82",
-        "revenue": "$53332.50"
+        "expenses": 73554.51,
+        "profit": -20221.82,
+        "revenue": 53332.5
       },
       {
         "date": "2017-04-11",
-        "expenses": "$155245.30",
-        "profit": "$-32344.90",
-        "revenue": "$122900.51"
+        "expenses": 155245.3,
+        "profit": -32344.9,
+        "revenue": 122900.51
       },
       {
         "date": "2017-04-12",
-        "expenses": "$81707.56",
-        "profit": "$-37553.32",
-        "revenue": "$44154.24"
+        "expenses": 81707.56,
+        "profit": -37553.32,
+        "revenue": 44154.24
       },
       {
         "date": "2017-04-13",
-        "expenses": "$5105.76",
-        "profit": "$3354.56",
-        "revenue": "$8460.32"
+        "expenses": 5105.76,
+        "profit": 3354.56,
+        "revenue": 8460.32
       },
       {
         "date": "2017-04-14",
-        "expenses": "$23671.52",
-        "profit": "$4036.01",
-        "revenue": "$27707.88"
+        "expenses": 23671.52,
+        "profit": 4036.01,
+        "revenue": 27707.88
       },
       {
         "date": "2017-04-15",
-        "expenses": "$28795.65",
-        "profit": "$6599.55",
-        "revenue": "$35395.04"
+        "expenses": 28795.65,
+        "profit": 6599.55,
+        "revenue": 35395.04
       },
       {
         "date": "2017-04-16",
-        "expenses": "$29346.29",
-        "profit": "$-3369.82",
-        "revenue": "$25976.74"
+        "expenses": 29346.29,
+        "profit": -3369.82,
+        "revenue": 25976.74
       },
       {
         "date": "2017-04-17",
-        "expenses": "$18986.38",
-        "profit": "$-4112.54",
-        "revenue": "$14873.87"
+        "expenses": 18986.38,
+        "profit": -4112.54,
+        "revenue": 14873.87
       },
       {
         "date": "2017-04-18",
-        "expenses": "$64263.55",
-        "profit": "$-31999.45",
-        "revenue": "$32264.13"
+        "expenses": 64263.55,
+        "profit": -31999.45,
+        "revenue": 32264.13
       },
       {
         "date": "2017-04-19",
-        "expenses": "$90728.82",
-        "profit": "$17380.46",
-        "revenue": "$108109.30"
+        "expenses": 90728.82,
+        "profit": 17380.46,
+        "revenue": 108109.3
       },
       {
         "date": "2017-04-21",
-        "expenses": "$25608.75",
-        "profit": "$4172.83",
-        "revenue": "$29781.63"
+        "expenses": 25608.75,
+        "profit": 4172.83,
+        "revenue": 29781.63
       },
       {
         "date": "2017-04-22",
-        "expenses": "$78306.52",
-        "profit": "$-10637.98",
-        "revenue": "$67669.10"
+        "expenses": 78306.52,
+        "profit": -10637.98,
+        "revenue": 67669.1
       },
       {
         "date": "2017-04-23",
-        "expenses": "$36429.18",
-        "profit": "$4213.85",
-        "revenue": "$40643.03"
+        "expenses": 36429.18,
+        "profit": 4213.85,
+        "revenue": 40643.03
       },
       {
         "date": "2017-04-24",
-        "expenses": "$50664.46",
-        "profit": "$-26449.96",
-        "revenue": "$24214.50"
+        "expenses": 50664.46,
+        "profit": -26449.96,
+        "revenue": 24214.5
       },
       {
         "date": "2017-04-25",
-        "expenses": "$19321.14",
-        "profit": "$-3616.61",
-        "revenue": "$15704.73"
+        "expenses": 19321.14,
+        "profit": -3616.61,
+        "revenue": 15704.73
       },
       {
         "date": "2017-04-26",
-        "expenses": "$2690.60",
-        "profit": "$3078.02",
-        "revenue": "$5768.84"
+        "expenses": 2690.6,
+        "profit": 3078.02,
+        "revenue": 5768.84
       },
       {
         "date": "2017-04-28",
-        "expenses": "$44232.29",
-        "profit": "$-12973.45",
-        "revenue": "$31258.76"
+        "expenses": 44232.29,
+        "profit": -12973.45,
+        "revenue": 31258.76
       },
       {
         "date": "2017-04-30",
-        "expenses": "$17648.91",
-        "profit": "$-9196.39",
-        "revenue": "$8452.48"
+        "expenses": 17648.91,
+        "profit": -9196.39,
+        "revenue": 8452.48
       },
       {
         "date": "2017-05-01",
-        "expenses": "$10922.74",
-        "profit": "$-4402.88",
-        "revenue": "$6519.66"
+        "expenses": 10922.74,
+        "profit": -4402.88,
+        "revenue": 6519.66
       },
       {
         "date": "2017-05-02",
-        "expenses": "$84157.06",
-        "profit": "$23817.95",
-        "revenue": "$107975.06"
+        "expenses": 84157.06,
+        "profit": 23817.95,
+        "revenue": 107975.06
       },
       {
         "date": "2017-05-03",
-        "expenses": "$12249.70",
-        "profit": "$-359.10",
-        "revenue": "$11890.60"
+        "expenses": 12249.7,
+        "profit": -359.1,
+        "revenue": 11890.6
       },
       {
         "date": "2017-05-04",
-        "expenses": "$19215.61",
-        "profit": "$4346.74",
-        "revenue": "$23562.41"
+        "expenses": 19215.61,
+        "profit": 4346.74,
+        "revenue": 23562.41
       },
       {
         "date": "2017-05-05",
-        "expenses": "$70400.90",
-        "profit": "$37483.19",
-        "revenue": "$107884.08"
+        "expenses": 70400.9,
+        "profit": 37483.19,
+        "revenue": 107884.08
       },
       {
         "date": "2017-05-06",
-        "expenses": "$44220.97",
-        "profit": "$-8944.89",
-        "revenue": "$35276.31"
+        "expenses": 44220.97,
+        "profit": -8944.89,
+        "revenue": 35276.31
       },
       {
         "date": "2017-05-08",
-        "expenses": "$1728.20",
-        "profit": "$2433.65",
-        "revenue": "$4161.90"
+        "expenses": 1728.2,
+        "profit": 2433.65,
+        "revenue": 4161.9
       },
       {
         "date": "2017-05-09",
-        "expenses": "$257437.32",
-        "profit": "$40090.98",
-        "revenue": "$297528.92"
+        "expenses": 257437.32,
+        "profit": 40090.98,
+        "revenue": 297528.92
       },
       {
         "date": "2017-05-11",
-        "expenses": "$101408.27",
-        "profit": "$20901.39",
-        "revenue": "$122309.75"
+        "expenses": 101408.27,
+        "profit": 20901.39,
+        "revenue": 122309.75
       },
       {
         "date": "2017-05-12",
-        "expenses": "$116889.81",
-        "profit": "$-13140.76",
-        "revenue": "$103749.14"
+        "expenses": 116889.81,
+        "profit": -13140.76,
+        "revenue": 103749.14
       },
       {
         "date": "2017-05-14",
-        "expenses": "$69782.36",
-        "profit": "$-22331.52",
-        "revenue": "$47450.69"
+        "expenses": 69782.36,
+        "profit": -22331.52,
+        "revenue": 47450.69
       },
       {
         "date": "2017-05-15",
-        "expenses": "$39513.69",
-        "profit": "$-23249.89",
-        "revenue": "$16264.18"
+        "expenses": 39513.69,
+        "profit": -23249.89,
+        "revenue": 16264.18
       },
       {
         "date": "2017-05-16",
-        "expenses": "$27949.39",
-        "profit": "$16339.59",
-        "revenue": "$44289.20"
+        "expenses": 27949.39,
+        "profit": 16339.59,
+        "revenue": 44289.2
       },
       {
         "date": "2017-05-17",
-        "expenses": "$34181.71",
-        "profit": "$1817.94",
-        "revenue": "$35999.24"
+        "expenses": 34181.71,
+        "profit": 1817.94,
+        "revenue": 35999.24
       },
       {
         "date": "2017-05-18",
-        "expenses": "$8517.18",
-        "profit": "$2319.22",
-        "revenue": "$10836.55"
+        "expenses": 8517.18,
+        "profit": 2319.22,
+        "revenue": 10836.55
       },
       {
         "date": "2017-05-19",
-        "expenses": "$63759.53",
-        "profit": "$7434.75",
-        "revenue": "$71194.02"
+        "expenses": 63759.53,
+        "profit": 7434.75,
+        "revenue": 71194.02
       },
       {
         "date": "2017-05-20",
-        "expenses": "$15247.53",
-        "profit": "$4766.15",
-        "revenue": "$20013.68"
+        "expenses": 15247.53,
+        "profit": 4766.15,
+        "revenue": 20013.68
       },
       {
         "date": "2017-05-21",
-        "expenses": "$58662.27",
-        "profit": "$-4923.01",
-        "revenue": "$53739.50"
+        "expenses": 58662.27,
+        "profit": -4923.01,
+        "revenue": 53739.5
       },
       {
         "date": "2017-05-22",
-        "expenses": "$49837.03",
-        "profit": "$-5644.13",
-        "revenue": "$44192.73"
+        "expenses": 49837.03,
+        "profit": -5644.13,
+        "revenue": 44192.73
       },
       {
         "date": "2017-05-23",
-        "expenses": "$63197.85",
-        "profit": "$-13307.74",
-        "revenue": "$49890.11"
+        "expenses": 63197.85,
+        "profit": -13307.74,
+        "revenue": 49890.11
       },
       {
         "date": "2017-05-24",
-        "expenses": "$29576.99",
-        "profit": "$8052.29",
-        "revenue": "$37629.06"
+        "expenses": 29576.99,
+        "profit": 8052.29,
+        "revenue": 37629.06
       },
       {
         "date": "2017-05-25",
-        "expenses": "$29368.69",
-        "profit": "$-1050.66",
-        "revenue": "$28318.03"
+        "expenses": 29368.69,
+        "profit": -1050.66,
+        "revenue": 28318.03
       },
       {
         "date": "2017-05-26",
-        "expenses": "$156185.58",
-        "profit": "$-20414.58",
-        "revenue": "$135771.37"
+        "expenses": 156185.58,
+        "profit": -20414.58,
+        "revenue": 135771.37
       },
       {
         "date": "2017-05-27",
-        "expenses": "$55615.00",
-        "profit": "$-12267.04",
-        "revenue": "$43348.20"
+        "expenses": 55615,
+        "profit": -12267.04,
+        "revenue": 43348.2
       },
       {
         "date": "2017-05-28",
-        "expenses": "$65380.58",
-        "profit": "$-8942.46",
-        "revenue": "$56438.32"
+        "expenses": 65380.58,
+        "profit": -8942.46,
+        "revenue": 56438.32
       },
       {
         "date": "2017-05-29",
-        "expenses": "$56626.42",
-        "profit": "$-679.71",
-        "revenue": "$55946.71"
+        "expenses": 56626.42,
+        "profit": -679.71,
+        "revenue": 55946.71
       },
       {
         "date": "2017-05-30",
-        "expenses": "$200156.30",
-        "profit": "$-21742.46",
-        "revenue": "$178413.18"
+        "expenses": 200156.3,
+        "profit": -21742.46,
+        "revenue": 178413.18
       },
       {
         "date": "2017-05-31",
-        "expenses": "$33826.26",
-        "profit": "$-9087.14",
-        "revenue": "$24739.12"
+        "expenses": 33826.26,
+        "profit": -9087.14,
+        "revenue": 24739.12
       },
       {
         "date": "2017-06-02",
-        "expenses": "$3811.52",
-        "profit": "$-315.96",
-        "revenue": "$3495.52"
+        "expenses": 3811.52,
+        "profit": -315.96,
+        "revenue": 3495.52
       },
       {
         "date": "2017-06-03",
-        "expenses": "$68269.57",
-        "profit": "$-25997.21",
-        "revenue": "$42272.14"
+        "expenses": 68269.57,
+        "profit": -25997.21,
+        "revenue": 42272.14
       },
       {
         "date": "2017-06-04",
-        "expenses": "$377.75",
-        "profit": "$2898.05",
-        "revenue": "$3275.80"
+        "expenses": 377.75,
+        "profit": 2898.05,
+        "revenue": 3275.8
       },
       {
         "date": "2017-06-05",
-        "expenses": "$55872.16",
-        "profit": "$-25628.18",
-        "revenue": "$30243.69"
+        "expenses": 55872.16,
+        "profit": -25628.18,
+        "revenue": 30243.69
       },
       {
         "date": "2017-06-06",
-        "expenses": "$66786.34",
-        "profit": "$7575.24",
-        "revenue": "$74361.81"
+        "expenses": 66786.34,
+        "profit": 7575.24,
+        "revenue": 74361.81
       },
       {
         "date": "2017-06-08",
-        "expenses": "$34077.92",
-        "profit": "$-8874.48",
-        "revenue": "$25203.33"
+        "expenses": 34077.92,
+        "profit": -8874.48,
+        "revenue": 25203.33
       },
       {
         "date": "2017-06-09",
-        "expenses": "$47823.26",
-        "profit": "$29537.08",
-        "revenue": "$77360.45"
+        "expenses": 47823.26,
+        "profit": 29537.08,
+        "revenue": 77360.45
       },
       {
         "date": "2017-06-10",
-        "expenses": "$18425.23",
-        "profit": "$18682.03",
-        "revenue": "$37107.16"
+        "expenses": 18425.23,
+        "profit": 18682.03,
+        "revenue": 37107.16
       },
       {
         "date": "2017-06-11",
-        "expenses": "$16352.78",
-        "profit": "$27965.12",
-        "revenue": "$44317.68"
+        "expenses": 16352.78,
+        "profit": 27965.12,
+        "revenue": 44317.68
       },
       {
         "date": "2017-06-12",
-        "expenses": "$67302.89",
-        "profit": "$19513.09",
-        "revenue": "$86815.94"
+        "expenses": 67302.89,
+        "profit": 19513.09,
+        "revenue": 86815.94
       },
       {
         "date": "2017-06-13",
-        "expenses": "$7313.31",
-        "profit": "$11283.26",
-        "revenue": "$18596.57"
+        "expenses": 7313.31,
+        "profit": 11283.26,
+        "revenue": 18596.57
       },
       {
         "date": "2017-06-14",
-        "expenses": "$70397.81",
-        "profit": "$12242.18",
-        "revenue": "$82640.57"
+        "expenses": 70397.81,
+        "profit": 12242.18,
+        "revenue": 82640.57
       },
       {
         "date": "2017-06-15",
-        "expenses": "$10767.60",
-        "profit": "$3752.40",
-        "revenue": "$14520.00"
+        "expenses": 10767.6,
+        "profit": 3752.4,
+        "revenue": 14520
       },
       {
         "date": "2017-06-16",
-        "expenses": "$23760.13",
-        "profit": "$-12936.39",
-        "revenue": "$10823.50"
+        "expenses": 23760.13,
+        "profit": -12936.39,
+        "revenue": 10823.5
       },
       {
         "date": "2017-06-17",
-        "expenses": "$123583.81",
-        "profit": "$-17697.78",
-        "revenue": "$105886.51"
+        "expenses": 123583.81,
+        "profit": -17697.78,
+        "revenue": 105886.51
       },
       {
         "date": "2017-06-18",
-        "expenses": "$36523.11",
-        "profit": "$-226.84",
-        "revenue": "$36296.18"
+        "expenses": 36523.11,
+        "profit": -226.84,
+        "revenue": 36296.18
       },
       {
         "date": "2017-06-19",
-        "expenses": "$13266.12",
-        "profit": "$-4549.71",
-        "revenue": "$8716.41"
+        "expenses": 13266.12,
+        "profit": -4549.71,
+        "revenue": 8716.41
       },
       {
         "date": "2017-06-20",
-        "expenses": "$124957.74",
-        "profit": "$19688.15",
-        "revenue": "$144645.80"
+        "expenses": 124957.74,
+        "profit": 19688.15,
+        "revenue": 144645.8
       },
       {
         "date": "2017-06-21",
-        "expenses": "$21787.58",
-        "profit": "$6586.27",
-        "revenue": "$28373.85"
+        "expenses": 21787.58,
+        "profit": 6586.27,
+        "revenue": 28373.85
       },
       {
         "date": "2017-06-23",
-        "expenses": "$104221.37",
-        "profit": "$269.14",
-        "revenue": "$104490.54"
+        "expenses": 104221.37,
+        "profit": 269.14,
+        "revenue": 104490.54
       },
       {
         "date": "2017-06-24",
-        "expenses": "$34766.01",
-        "profit": "$12926.58",
-        "revenue": "$47692.41"
+        "expenses": 34766.01,
+        "profit": 12926.58,
+        "revenue": 47692.41
       },
       {
         "date": "2017-06-25",
-        "expenses": "$23031.68",
-        "profit": "$12988.63",
-        "revenue": "$36020.34"
+        "expenses": 23031.68,
+        "profit": 12988.63,
+        "revenue": 36020.34
       },
       {
         "date": "2017-06-26",
-        "expenses": "$97279.27",
-        "profit": "$-5302.61",
-        "revenue": "$91976.58"
+        "expenses": 97279.27,
+        "profit": -5302.61,
+        "revenue": 91976.58
       },
       {
         "date": "2017-06-27",
-        "expenses": "$14837.11",
-        "profit": "$-6239.92",
-        "revenue": "$8597.11"
+        "expenses": 14837.11,
+        "profit": -6239.92,
+        "revenue": 8597.11
       },
       {
         "date": "2017-06-28",
-        "expenses": "$35595.80",
-        "profit": "$11942.82",
-        "revenue": "$47538.66"
+        "expenses": 35595.8,
+        "profit": 11942.82,
+        "revenue": 47538.66
       },
       {
         "date": "2017-06-29",
-        "expenses": "$1297.38",
-        "profit": "$528.69",
-        "revenue": "$1826.07"
+        "expenses": 1297.38,
+        "profit": 528.69,
+        "revenue": 1826.07
       },
       {
         "date": "2017-06-30",
-        "expenses": "$14282.44",
-        "profit": "$29071.64",
-        "revenue": "$43354.08"
+        "expenses": 14282.44,
+        "profit": 29071.64,
+        "revenue": 43354.08
       },
       {
         "date": "2017-07-01",
-        "expenses": "$6194.92",
-        "profit": "$11101.39",
-        "revenue": "$17296.07"
+        "expenses": 6194.92,
+        "profit": 11101.39,
+        "revenue": 17296.07
       },
       {
         "date": "2017-07-02",
-        "expenses": "$21549.37",
-        "profit": "$-3135.70",
-        "revenue": "$18413.74"
+        "expenses": 21549.37,
+        "profit": -3135.7,
+        "revenue": 18413.74
       },
       {
         "date": "2017-07-03",
-        "expenses": "$2891.68",
-        "profit": "$10338.46",
-        "revenue": "$13230.14"
+        "expenses": 2891.68,
+        "profit": 10338.46,
+        "revenue": 13230.14
       },
       {
         "date": "2017-07-04",
-        "expenses": "$27313.76",
-        "profit": "$-20630.65",
-        "revenue": "$6683.21"
+        "expenses": 27313.76,
+        "profit": -20630.65,
+        "revenue": 6683.21
       },
       {
         "date": "2017-07-05",
-        "expenses": "$18233.24",
-        "profit": "$1067.27",
-        "revenue": "$19300.51"
+        "expenses": 18233.24,
+        "profit": 1067.27,
+        "revenue": 19300.51
       },
       {
         "date": "2017-07-06",
-        "expenses": "$18041.51",
-        "profit": "$3881.51",
-        "revenue": "$21923.15"
+        "expenses": 18041.51,
+        "profit": 3881.51,
+        "revenue": 21923.15
       },
       {
         "date": "2017-07-07",
-        "expenses": "$120709.01",
-        "profit": "$-35255.06",
-        "revenue": "$85453.88"
+        "expenses": 120709.01,
+        "profit": -35255.06,
+        "revenue": 85453.88
       },
       {
         "date": "2017-07-08",
-        "expenses": "$2775.96",
-        "profit": "$748.68",
-        "revenue": "$3524.64"
+        "expenses": 2775.96,
+        "profit": 748.68,
+        "revenue": 3524.64
       },
       {
         "date": "2017-07-10",
-        "expenses": "$34806.07",
-        "profit": "$-1506.73",
-        "revenue": "$33299.20"
+        "expenses": 34806.07,
+        "profit": -1506.73,
+        "revenue": 33299.2
       },
       {
         "date": "2017-07-11",
-        "expenses": "$143903.22",
-        "profit": "$-12051.85",
-        "revenue": "$131851.91"
+        "expenses": 143903.22,
+        "profit": -12051.85,
+        "revenue": 131851.91
       },
       {
         "date": "2017-07-14",
-        "expenses": "$124828.05",
-        "profit": "$-17567.17",
-        "revenue": "$107261.09"
+        "expenses": 124828.05,
+        "profit": -17567.17,
+        "revenue": 107261.09
       },
       {
         "date": "2017-07-15",
-        "expenses": "$14065.03",
-        "profit": "$6412.37",
-        "revenue": "$20477.57"
+        "expenses": 14065.03,
+        "profit": 6412.37,
+        "revenue": 20477.57
       },
       {
         "date": "2017-07-16",
-        "expenses": "$119182.12",
-        "profit": "$-39891.25",
-        "revenue": "$79290.92"
+        "expenses": 119182.12,
+        "profit": -39891.25,
+        "revenue": 79290.92
       },
       {
         "date": "2017-07-17",
-        "expenses": "$112913.33",
-        "profit": "$12601.30",
-        "revenue": "$125514.83"
+        "expenses": 112913.33,
+        "profit": 12601.3,
+        "revenue": 125514.83
       },
       {
         "date": "2017-07-18",
-        "expenses": "$57040.80",
-        "profit": "$-300.10",
-        "revenue": "$56740.76"
+        "expenses": 57040.8,
+        "profit": -300.1,
+        "revenue": 56740.76
       },
       {
         "date": "2017-07-19",
-        "expenses": "$41377.38",
-        "profit": "$9299.81",
-        "revenue": "$50677.04"
+        "expenses": 41377.38,
+        "profit": 9299.81,
+        "revenue": 50677.04
       },
       {
         "date": "2017-07-20",
-        "expenses": "$2698.86",
-        "profit": "$-1507.95",
-        "revenue": "$1190.91"
+        "expenses": 2698.86,
+        "profit": -1507.95,
+        "revenue": 1190.91
       },
       {
         "date": "2017-07-21",
-        "expenses": "$42802.95",
-        "profit": "$-2425.53",
-        "revenue": "$40376.86"
+        "expenses": 42802.95,
+        "profit": -2425.53,
+        "revenue": 40376.86
       },
       {
         "date": "2017-07-22",
-        "expenses": "$81992.56",
-        "profit": "$-21464.31",
-        "revenue": "$60528.14"
+        "expenses": 81992.56,
+        "profit": -21464.31,
+        "revenue": 60528.14
       },
       {
         "date": "2017-07-23",
-        "expenses": "$55006.58",
-        "profit": "$26505.77",
-        "revenue": "$81512.20"
+        "expenses": 55006.58,
+        "profit": 26505.77,
+        "revenue": 81512.2
       },
       {
         "date": "2017-07-24",
-        "expenses": "$15508.72",
-        "profit": "$2071.76",
-        "revenue": "$17580.48"
+        "expenses": 15508.72,
+        "profit": 2071.76,
+        "revenue": 17580.48
       },
       {
         "date": "2017-07-25",
-        "expenses": "$134201.83",
-        "profit": "$-37856.81",
-        "revenue": "$96344.86"
+        "expenses": 134201.83,
+        "profit": -37856.81,
+        "revenue": 96344.86
       },
       {
         "date": "2017-07-28",
-        "expenses": "$50726.22",
-        "profit": "$15265.67",
-        "revenue": "$65992.31"
+        "expenses": 50726.22,
+        "profit": 15265.67,
+        "revenue": 65992.31
       },
       {
         "date": "2017-07-29",
-        "expenses": "$19307.96",
-        "profit": "$2355.61",
-        "revenue": "$21663.62"
+        "expenses": 19307.96,
+        "profit": 2355.61,
+        "revenue": 21663.62
       },
       {
         "date": "2017-07-30",
-        "expenses": "$21232.80",
-        "profit": "$-8628.74",
-        "revenue": "$12604.34"
+        "expenses": 21232.8,
+        "profit": -8628.74,
+        "revenue": 12604.34
       },
       {
         "date": "2017-07-31",
-        "expenses": "$28988.59",
-        "profit": "$10368.53",
-        "revenue": "$39357.16"
+        "expenses": 28988.59,
+        "profit": 10368.53,
+        "revenue": 39357.16
       },
       {
         "date": "2017-08-01",
-        "expenses": "$19364.12",
-        "profit": "$-9831.14",
-        "revenue": "$9532.98"
+        "expenses": 19364.12,
+        "profit": -9831.14,
+        "revenue": 9532.98
       },
       {
         "date": "2017-08-02",
-        "expenses": "$13878.00",
-        "profit": "$20403.00",
-        "revenue": "$34281.20"
+        "expenses": 13878,
+        "profit": 20403,
+        "revenue": 34281.2
       },
       {
         "date": "2017-08-03",
-        "expenses": "$80330.64",
-        "profit": "$-2968.08",
-        "revenue": "$77362.70"
+        "expenses": 80330.64,
+        "profit": -2968.08,
+        "revenue": 77362.7
       },
       {
         "date": "2017-08-04",
-        "expenses": "$111142.08",
-        "profit": "$-4653.68",
-        "revenue": "$106488.40"
+        "expenses": 111142.08,
+        "profit": -4653.68,
+        "revenue": 106488.4
       },
       {
         "date": "2017-08-05",
-        "expenses": "$34602.36",
-        "profit": "$9391.74",
-        "revenue": "$43994.10"
+        "expenses": 34602.36,
+        "profit": 9391.74,
+        "revenue": 43994.1
       },
       {
         "date": "2017-08-07",
-        "expenses": "$79156.81",
-        "profit": "$12611.99",
-        "revenue": "$91768.68"
+        "expenses": 79156.81,
+        "profit": 12611.99,
+        "revenue": 91768.68
       },
       {
         "date": "2017-08-08",
-        "expenses": "$43442.19",
-        "profit": "$-11497.23",
-        "revenue": "$31944.99"
+        "expenses": 43442.19,
+        "profit": -11497.23,
+        "revenue": 31944.99
       },
       {
         "date": "2017-08-09",
-        "expenses": "$161603.20",
-        "profit": "$8398.06",
-        "revenue": "$170000.65"
+        "expenses": 161603.2,
+        "profit": 8398.06,
+        "revenue": 170000.65
       },
       {
         "date": "2017-08-10",
-        "expenses": "$16811.43",
-        "profit": "$11861.47",
-        "revenue": "$28672.90"
+        "expenses": 16811.43,
+        "profit": 11861.47,
+        "revenue": 28672.9
       },
       {
         "date": "2017-08-11",
-        "expenses": "$10931.12",
-        "profit": "$-5662.48",
-        "revenue": "$5268.64"
+        "expenses": 10931.12,
+        "profit": -5662.48,
+        "revenue": 5268.64
       },
       {
         "date": "2017-08-12",
-        "expenses": "$88287.07",
-        "profit": "$30400.59",
-        "revenue": "$118687.93"
+        "expenses": 88287.07,
+        "profit": 30400.59,
+        "revenue": 118687.93
       },
       {
         "date": "2017-08-13",
-        "expenses": "$53492.24",
-        "profit": "$-2883.30",
-        "revenue": "$50609.22"
+        "expenses": 53492.24,
+        "profit": -2883.3,
+        "revenue": 50609.22
       },
       {
         "date": "2017-08-14",
-        "expenses": "$65660.94",
-        "profit": "$-29181.30",
-        "revenue": "$36480.01"
+        "expenses": 65660.94,
+        "profit": -29181.3,
+        "revenue": 36480.01
       },
       {
         "date": "2017-08-15",
-        "expenses": "$91282.55",
-        "profit": "$-32940.13",
-        "revenue": "$58342.44"
+        "expenses": 91282.55,
+        "profit": -32940.13,
+        "revenue": 58342.44
       },
       {
         "date": "2017-08-16",
-        "expenses": "$50402.53",
-        "profit": "$-30588.96",
-        "revenue": "$19813.57"
+        "expenses": 50402.53,
+        "profit": -30588.96,
+        "revenue": 19813.57
       },
       {
         "date": "2017-08-17",
-        "expenses": "$3419.62",
-        "profit": "$9224.69",
-        "revenue": "$12644.31"
+        "expenses": 3419.62,
+        "profit": 9224.69,
+        "revenue": 12644.31
       },
       {
         "date": "2017-08-18",
-        "expenses": "$36874.36",
-        "profit": "$-7983.89",
-        "revenue": "$28890.47"
+        "expenses": 36874.36,
+        "profit": -7983.89,
+        "revenue": 28890.47
       },
       {
         "date": "2017-08-19",
-        "expenses": "$19982.72",
-        "profit": "$-7409.80",
-        "revenue": "$12573.15"
+        "expenses": 19982.72,
+        "profit": -7409.8,
+        "revenue": 12573.15
       },
       {
         "date": "2017-08-20",
-        "expenses": "$10052.35",
-        "profit": "$-5223.90",
-        "revenue": "$4828.45"
+        "expenses": 10052.35,
+        "profit": -5223.9,
+        "revenue": 4828.45
       },
       {
         "date": "2017-08-21",
-        "expenses": "$54001.50",
-        "profit": "$2652.98",
-        "revenue": "$56654.80"
+        "expenses": 54001.5,
+        "profit": 2652.98,
+        "revenue": 56654.8
       },
       {
         "date": "2017-08-22",
-        "expenses": "$77269.94",
-        "profit": "$-20979.46",
-        "revenue": "$56290.28"
+        "expenses": 77269.94,
+        "profit": -20979.46,
+        "revenue": 56290.28
       },
       {
         "date": "2017-08-23",
-        "expenses": "$142908.26",
-        "profit": "$-45657.56",
-        "revenue": "$97251.14"
+        "expenses": 142908.26,
+        "profit": -45657.56,
+        "revenue": 97251.14
       },
       {
         "date": "2017-08-26",
-        "expenses": "$147311.69",
-        "profit": "$-9276.06",
-        "revenue": "$138035.56"
+        "expenses": 147311.69,
+        "profit": -9276.06,
+        "revenue": 138035.56
       },
       {
         "date": "2017-08-27",
-        "expenses": "$102515.29",
-        "profit": "$6559.56",
-        "revenue": "$109074.99"
+        "expenses": 102515.29,
+        "profit": 6559.56,
+        "revenue": 109074.99
       },
       {
         "date": "2017-08-28",
-        "expenses": "$30344.08",
-        "profit": "$5938.24",
-        "revenue": "$36282.41"
+        "expenses": 30344.08,
+        "profit": 5938.24,
+        "revenue": 36282.41
       },
       {
         "date": "2017-08-29",
-        "expenses": "$58921.95",
-        "profit": "$13040.59",
-        "revenue": "$71962.42"
+        "expenses": 58921.95,
+        "profit": 13040.59,
+        "revenue": 71962.42
       },
       {
         "date": "2017-08-30",
-        "expenses": "$65107.12",
-        "profit": "$-5733.35",
-        "revenue": "$59373.62"
+        "expenses": 65107.12,
+        "profit": -5733.35,
+        "revenue": 59373.62
       },
       {
         "date": "2017-08-31",
-        "expenses": "$15078.00",
-        "profit": "$-3255.00",
-        "revenue": "$11823.00"
+        "expenses": 15078,
+        "profit": -3255,
+        "revenue": 11823
       },
       {
         "date": "2017-09-01",
-        "expenses": "$6683.28",
-        "profit": "$8079.12",
-        "revenue": "$14762.45"
+        "expenses": 6683.28,
+        "profit": 8079.12,
+        "revenue": 14762.45
       },
       {
         "date": "2017-09-02",
-        "expenses": "$30912.50",
-        "profit": "$-14118.76",
-        "revenue": "$16793.74"
+        "expenses": 30912.5,
+        "profit": -14118.76,
+        "revenue": 16793.74
       },
       {
         "date": "2017-09-03",
-        "expenses": "$29218.68",
-        "profit": "$-4774.83",
-        "revenue": "$24443.61"
+        "expenses": 29218.68,
+        "profit": -4774.83,
+        "revenue": 24443.61
       },
       {
         "date": "2017-09-04",
-        "expenses": "$20690.90",
-        "profit": "$8030.73",
-        "revenue": "$28721.32"
+        "expenses": 20690.9,
+        "profit": 8030.73,
+        "revenue": 28721.32
       },
       {
         "date": "2017-09-05",
-        "expenses": "$70914.09",
-        "profit": "$-3020.71",
-        "revenue": "$67893.48"
+        "expenses": 70914.09,
+        "profit": -3020.71,
+        "revenue": 67893.48
       },
       {
         "date": "2017-09-06",
-        "expenses": "$12344.88",
-        "profit": "$12640.07",
-        "revenue": "$24984.75"
+        "expenses": 12344.88,
+        "profit": 12640.07,
+        "revenue": 24984.75
       },
       {
         "date": "2017-09-07",
-        "expenses": "$4596.48",
-        "profit": "$3289.05",
-        "revenue": "$7885.53"
+        "expenses": 4596.48,
+        "profit": 3289.05,
+        "revenue": 7885.53
       },
       {
         "date": "2017-09-08",
-        "expenses": "$20977.55",
-        "profit": "$-5401.22",
-        "revenue": "$15576.33"
+        "expenses": 20977.55,
+        "profit": -5401.22,
+        "revenue": 15576.33
       },
       {
         "date": "2017-09-09",
-        "expenses": "$25262.63",
-        "profit": "$-3816.03",
-        "revenue": "$21446.38"
+        "expenses": 25262.63,
+        "profit": -3816.03,
+        "revenue": 21446.38
       },
       {
         "date": "2017-09-10",
-        "expenses": "$38885.07",
-        "profit": "$18254.37",
-        "revenue": "$57139.22"
+        "expenses": 38885.07,
+        "profit": 18254.37,
+        "revenue": 57139.22
       },
       {
         "date": "2017-09-11",
-        "expenses": "$13344.80",
-        "profit": "$1242.72",
-        "revenue": "$14587.52"
+        "expenses": 13344.8,
+        "profit": 1242.72,
+        "revenue": 14587.52
       },
       {
         "date": "2017-09-12",
-        "expenses": "$118876.14",
-        "profit": "$36579.49",
-        "revenue": "$155455.63"
+        "expenses": 118876.14,
+        "profit": 36579.49,
+        "revenue": 155455.63
       },
       {
         "date": "2017-09-13",
-        "expenses": "$92228.38",
-        "profit": "$2521.24",
-        "revenue": "$94749.91"
+        "expenses": 92228.38,
+        "profit": 2521.24,
+        "revenue": 94749.91
       },
       {
         "date": "2017-09-14",
-        "expenses": "$22886.52",
-        "profit": "$-3788.74",
-        "revenue": "$19097.68"
+        "expenses": 22886.52,
+        "profit": -3788.74,
+        "revenue": 19097.68
       },
       {
         "date": "2017-09-15",
-        "expenses": "$33354.40",
-        "profit": "$4153.39",
-        "revenue": "$37508.02"
+        "expenses": 33354.4,
+        "profit": 4153.39,
+        "revenue": 37508.02
       },
       {
         "date": "2017-09-16",
-        "expenses": "$26140.18",
-        "profit": "$-2303.87",
-        "revenue": "$23836.14"
+        "expenses": 26140.18,
+        "profit": -2303.87,
+        "revenue": 23836.14
       },
       {
         "date": "2017-09-17",
-        "expenses": "$89353.66",
-        "profit": "$16926.23",
-        "revenue": "$106280.35"
+        "expenses": 89353.66,
+        "profit": 16926.23,
+        "revenue": 106280.35
       },
       {
         "date": "2017-09-18",
-        "expenses": "$88942.90",
-        "profit": "$16442.10",
-        "revenue": "$105384.90"
+        "expenses": 88942.9,
+        "profit": 16442.1,
+        "revenue": 105384.9
       },
       {
         "date": "2017-09-19",
-        "expenses": "$150891.59",
-        "profit": "$-39463.67",
-        "revenue": "$111427.77"
+        "expenses": 150891.59,
+        "profit": -39463.67,
+        "revenue": 111427.77
       },
       {
         "date": "2017-09-20",
-        "expenses": "$86727.50",
-        "profit": "$-9131.33",
-        "revenue": "$77596.18"
+        "expenses": 86727.5,
+        "profit": -9131.33,
+        "revenue": 77596.18
       },
       {
         "date": "2017-09-22",
-        "expenses": "$90216.39",
-        "profit": "$-24609.21",
-        "revenue": "$65607.38"
+        "expenses": 90216.39,
+        "profit": -24609.21,
+        "revenue": 65607.38
       },
       {
         "date": "2017-09-23",
-        "expenses": "$81770.42",
-        "profit": "$23056.95",
-        "revenue": "$104827.21"
+        "expenses": 81770.42,
+        "profit": 23056.95,
+        "revenue": 104827.21
       },
       {
         "date": "2017-09-24",
-        "expenses": "$91341.27",
-        "profit": "$-32171.84",
-        "revenue": "$59169.41"
+        "expenses": 91341.27,
+        "profit": -32171.84,
+        "revenue": 59169.41
       },
       {
         "date": "2017-09-25",
-        "expenses": "$73866.41",
-        "profit": "$-8054.01",
-        "revenue": "$65812.54"
+        "expenses": 73866.41,
+        "profit": -8054.01,
+        "revenue": 65812.54
       },
       {
         "date": "2017-09-26",
-        "expenses": "$137763.04",
-        "profit": "$-35581.29",
-        "revenue": "$102181.70"
+        "expenses": 137763.04,
+        "profit": -35581.29,
+        "revenue": 102181.7
       },
       {
         "date": "2017-09-27",
-        "expenses": "$46849.80",
-        "profit": "$-11194.64",
-        "revenue": "$35655.33"
+        "expenses": 46849.8,
+        "profit": -11194.64,
+        "revenue": 35655.33
       },
       {
         "date": "2017-09-28",
-        "expenses": "$1716.66",
-        "profit": "$2919.18",
-        "revenue": "$4635.84"
+        "expenses": 1716.66,
+        "profit": 2919.18,
+        "revenue": 4635.84
       },
       {
         "date": "2017-09-29",
-        "expenses": "$78996.50",
-        "profit": "$-14045.51",
-        "revenue": "$64950.82"
+        "expenses": 78996.5,
+        "profit": -14045.51,
+        "revenue": 64950.82
       },
       {
         "date": "2017-09-30",
-        "expenses": "$14070.21",
-        "profit": "$3292.64",
-        "revenue": "$17362.85"
+        "expenses": 14070.21,
+        "profit": 3292.64,
+        "revenue": 17362.85
       },
       {
         "date": "2017-10-01",
-        "expenses": "$19663.80",
-        "profit": "$13141.89",
-        "revenue": "$32805.40"
+        "expenses": 19663.8,
+        "profit": 13141.89,
+        "revenue": 32805.4
       },
       {
         "date": "2017-10-03",
-        "expenses": "$40298.00",
-        "profit": "$-76.42",
-        "revenue": "$40221.75"
+        "expenses": 40298,
+        "profit": -76.42,
+        "revenue": 40221.75
       },
       {
         "date": "2017-10-04",
-        "expenses": "$46615.51",
-        "profit": "$23515.96",
-        "revenue": "$70131.91"
+        "expenses": 46615.51,
+        "profit": 23515.96,
+        "revenue": 70131.91
       },
       {
         "date": "2017-10-05",
-        "expenses": "$29940.10",
-        "profit": "$-227.22",
-        "revenue": "$29712.88"
+        "expenses": 29940.1,
+        "profit": -227.22,
+        "revenue": 29712.88
       },
       {
         "date": "2017-10-06",
-        "expenses": "$25739.84",
-        "profit": "$13371.76",
-        "revenue": "$39111.72"
+        "expenses": 25739.84,
+        "profit": 13371.76,
+        "revenue": 39111.72
       },
       {
         "date": "2017-10-07",
-        "expenses": "$17677.05",
-        "profit": "$3631.34",
-        "revenue": "$21308.17"
+        "expenses": 17677.05,
+        "profit": 3631.34,
+        "revenue": 21308.17
       },
       {
         "date": "2017-10-09",
-        "expenses": "$108324.03",
-        "profit": "$-32070.67",
-        "revenue": "$76253.72"
+        "expenses": 108324.03,
+        "profit": -32070.67,
+        "revenue": 76253.72
       },
       {
         "date": "2017-10-10",
-        "expenses": "$38335.66",
-        "profit": "$12548.22",
-        "revenue": "$50883.83"
+        "expenses": 38335.66,
+        "profit": 12548.22,
+        "revenue": 50883.83
       },
       {
         "date": "2017-10-11",
-        "expenses": "$263833.51",
-        "profit": "$-39905.42",
-        "revenue": "$223928.53"
+        "expenses": 263833.51,
+        "profit": -39905.42,
+        "revenue": 223928.53
       },
       {
         "date": "2017-10-12",
-        "expenses": "$64903.69",
-        "profit": "$51004.60",
-        "revenue": "$115908.56"
+        "expenses": 64903.69,
+        "profit": 51004.6,
+        "revenue": 115908.56
       },
       {
         "date": "2017-10-13",
-        "expenses": "$180010.57",
-        "profit": "$-57855.17",
-        "revenue": "$122154.88"
+        "expenses": 180010.57,
+        "profit": -57855.17,
+        "revenue": 122154.88
       },
       {
         "date": "2017-10-14",
-        "expenses": "$51441.20",
-        "profit": "$264.51",
-        "revenue": "$51705.52"
+        "expenses": 51441.2,
+        "profit": 264.51,
+        "revenue": 51705.52
       },
       {
         "date": "2017-10-15",
-        "expenses": "$50718.86",
-        "profit": "$7866.39",
-        "revenue": "$58585.05"
+        "expenses": 50718.86,
+        "profit": 7866.39,
+        "revenue": 58585.05
       },
       {
         "date": "2017-10-16",
-        "expenses": "$9688.30",
-        "profit": "$5820.97",
-        "revenue": "$15509.10"
+        "expenses": 9688.3,
+        "profit": 5820.97,
+        "revenue": 15509.1
       },
       {
         "date": "2017-10-17",
-        "expenses": "$37141.20",
-        "profit": "$9820.16",
-        "revenue": "$46961.35"
+        "expenses": 37141.2,
+        "profit": 9820.16,
+        "revenue": 46961.35
       },
       {
         "date": "2017-10-18",
-        "expenses": "$1218.94",
-        "profit": "$-695.70",
-        "revenue": "$523.24"
+        "expenses": 1218.94,
+        "profit": -695.7,
+        "revenue": 523.24
       },
       {
         "date": "2017-10-20",
-        "expenses": "$84601.57",
-        "profit": "$-30319.03",
-        "revenue": "$54282.59"
+        "expenses": 84601.57,
+        "profit": -30319.03,
+        "revenue": 54282.59
       },
       {
         "date": "2017-10-21",
-        "expenses": "$77593.22",
-        "profit": "$42145.21",
-        "revenue": "$119738.22"
+        "expenses": 77593.22,
+        "profit": 42145.21,
+        "revenue": 119738.22
       },
       {
         "date": "2017-10-22",
-        "expenses": "$22776.18",
-        "profit": "$-1249.76",
-        "revenue": "$21526.19"
+        "expenses": 22776.18,
+        "profit": -1249.76,
+        "revenue": 21526.19
       },
       {
         "date": "2017-10-23",
-        "expenses": "$43055.14",
-        "profit": "$2002.74",
-        "revenue": "$45057.70"
+        "expenses": 43055.14,
+        "profit": 2002.74,
+        "revenue": 45057.7
       },
       {
         "date": "2017-10-24",
-        "expenses": "$61014.67",
-        "profit": "$-19271.28",
-        "revenue": "$41743.46"
+        "expenses": 61014.67,
+        "profit": -19271.28,
+        "revenue": 41743.46
       },
       {
         "date": "2017-10-25",
-        "expenses": "$1674.04",
-        "profit": "$-1597.76",
-        "revenue": "$76.28"
+        "expenses": 1674.04,
+        "profit": -1597.76,
+        "revenue": 76.28
       },
       {
         "date": "2017-10-27",
-        "expenses": "$51722.85",
-        "profit": "$15564.99",
-        "revenue": "$67287.87"
+        "expenses": 51722.85,
+        "profit": 15564.99,
+        "revenue": 67287.87
       },
       {
         "date": "2017-10-28",
-        "expenses": "$90049.05",
-        "profit": "$21113.77",
-        "revenue": "$111162.84"
+        "expenses": 90049.05,
+        "profit": 21113.77,
+        "revenue": 111162.84
       },
       {
         "date": "2017-10-29",
-        "expenses": "$6150.45",
-        "profit": "$7589.46",
-        "revenue": "$13739.91"
+        "expenses": 6150.45,
+        "profit": 7589.46,
+        "revenue": 13739.91
       },
       {
         "date": "2017-10-30",
-        "expenses": "$28923.52",
-        "profit": "$3164.77",
-        "revenue": "$32088.66"
+        "expenses": 28923.52,
+        "profit": 3164.77,
+        "revenue": 32088.66
       },
       {
         "date": "2017-10-31",
-        "expenses": "$41024.79",
-        "profit": "$5629.05",
-        "revenue": "$46654.05"
+        "expenses": 41024.79,
+        "profit": 5629.05,
+        "revenue": 46654.05
       },
       {
         "date": "2017-11-01",
-        "expenses": "$11997.08",
-        "profit": "$1320.20",
-        "revenue": "$13317.28"
+        "expenses": 11997.08,
+        "profit": 1320.2,
+        "revenue": 13317.28
       },
       {
         "date": "2017-11-02",
-        "expenses": "$6651.18",
-        "profit": "$-1795.59",
-        "revenue": "$4855.59"
+        "expenses": 6651.18,
+        "profit": -1795.59,
+        "revenue": 4855.59
       },
       {
         "date": "2017-11-03",
-        "expenses": "$48554.85",
-        "profit": "$-8537.74",
-        "revenue": "$40016.92"
+        "expenses": 48554.85,
+        "profit": -8537.74,
+        "revenue": 40016.92
       },
       {
         "date": "2017-11-05",
-        "expenses": "$7741.23",
-        "profit": "$1046.22",
-        "revenue": "$8787.45"
+        "expenses": 7741.23,
+        "profit": 1046.22,
+        "revenue": 8787.45
       },
       {
         "date": "2017-11-06",
-        "expenses": "$43400.95",
-        "profit": "$-20950.95",
-        "revenue": "$22449.99"
+        "expenses": 43400.95,
+        "profit": -20950.95,
+        "revenue": 22449.99
       },
       {
         "date": "2017-11-08",
-        "expenses": "$35364.24",
-        "profit": "$-5206.28",
-        "revenue": "$30158.14"
+        "expenses": 35364.24,
+        "profit": -5206.28,
+        "revenue": 30158.14
       },
       {
         "date": "2017-11-09",
-        "expenses": "$100679.67",
-        "profit": "$21296.64",
-        "revenue": "$121976.73"
+        "expenses": 100679.67,
+        "profit": 21296.64,
+        "revenue": 121976.73
       },
       {
         "date": "2017-11-10",
-        "expenses": "$5156.32",
-        "profit": "$14049.30",
-        "revenue": "$19205.46"
+        "expenses": 5156.32,
+        "profit": 14049.3,
+        "revenue": 19205.46
       },
       {
         "date": "2017-11-11",
-        "expenses": "$161836.41",
-        "profit": "$-25312.35",
-        "revenue": "$136524.52"
+        "expenses": 161836.41,
+        "profit": -25312.35,
+        "revenue": 136524.52
       },
       {
         "date": "2017-11-12",
-        "expenses": "$181079.17",
-        "profit": "$-33763.56",
-        "revenue": "$147315.35"
+        "expenses": 181079.17,
+        "profit": -33763.56,
+        "revenue": 147315.35
       },
       {
         "date": "2017-11-13",
-        "expenses": "$111275.80",
-        "profit": "$13172.86",
-        "revenue": "$124448.70"
+        "expenses": 111275.8,
+        "profit": 13172.86,
+        "revenue": 124448.7
       },
       {
         "date": "2017-11-14",
-        "expenses": "$106819.86",
-        "profit": "$49684.95",
-        "revenue": "$156504.98"
+        "expenses": 106819.86,
+        "profit": 49684.95,
+        "revenue": 156504.98
       },
       {
         "date": "2017-11-15",
-        "expenses": "$28128.97",
-        "profit": "$-1894.08",
-        "revenue": "$26234.89"
+        "expenses": 28128.97,
+        "profit": -1894.08,
+        "revenue": 26234.89
       },
       {
         "date": "2017-11-16",
-        "expenses": "$25575.48",
-        "profit": "$-21166.79",
-        "revenue": "$4408.69"
+        "expenses": 25575.48,
+        "profit": -21166.79,
+        "revenue": 4408.69
       },
       {
         "date": "2017-11-17",
-        "expenses": "$21617.42",
-        "profit": "$-9030.44",
-        "revenue": "$12587.09"
+        "expenses": 21617.42,
+        "profit": -9030.44,
+        "revenue": 12587.09
       },
       {
         "date": "2017-11-18",
-        "expenses": "$115359.84",
-        "profit": "$4749.63",
-        "revenue": "$120109.36"
+        "expenses": 115359.84,
+        "profit": 4749.63,
+        "revenue": 120109.36
       },
       {
         "date": "2017-11-19",
-        "expenses": "$127557.46",
-        "profit": "$-4778.97",
-        "revenue": "$122778.90"
+        "expenses": 127557.46,
+        "profit": -4778.97,
+        "revenue": 122778.9
       },
       {
         "date": "2017-11-20",
-        "expenses": "$155190.73",
-        "profit": "$11959.24",
-        "revenue": "$167149.70"
+        "expenses": 155190.73,
+        "profit": 11959.24,
+        "revenue": 167149.7
       },
       {
         "date": "2017-11-21",
-        "expenses": "$52058.44",
-        "profit": "$21086.37",
-        "revenue": "$73144.45"
+        "expenses": 52058.44,
+        "profit": 21086.37,
+        "revenue": 73144.45
       },
       {
         "date": "2017-11-22",
-        "expenses": "$70165.86",
-        "profit": "$4178.02",
-        "revenue": "$74343.66"
+        "expenses": 70165.86,
+        "profit": 4178.02,
+        "revenue": 74343.66
       },
       {
         "date": "2017-11-23",
-        "expenses": "$7217.74",
-        "profit": "$5576.03",
-        "revenue": "$12793.78"
+        "expenses": 7217.74,
+        "profit": 5576.03,
+        "revenue": 12793.78
       },
       {
         "date": "2017-11-24",
-        "expenses": "$229711.00",
-        "profit": "$-19676.21",
-        "revenue": "$210035.15"
+        "expenses": 229711,
+        "profit": -19676.21,
+        "revenue": 210035.15
       },
       {
         "date": "2017-11-25",
-        "expenses": "$80647.31",
-        "profit": "$-3336.23",
-        "revenue": "$77310.99"
+        "expenses": 80647.31,
+        "profit": -3336.23,
+        "revenue": 77310.99
       },
       {
         "date": "2017-11-26",
-        "expenses": "$119645.65",
-        "profit": "$26959.73",
-        "revenue": "$146605.26"
+        "expenses": 119645.65,
+        "profit": 26959.73,
+        "revenue": 146605.26
       },
       {
         "date": "2017-11-27",
-        "expenses": "$43173.50",
-        "profit": "$-2291.31",
-        "revenue": "$40882.25"
+        "expenses": 43173.5,
+        "profit": -2291.31,
+        "revenue": 40882.25
       },
       {
         "date": "2017-11-28",
-        "expenses": "$72268.06",
-        "profit": "$9240.68",
-        "revenue": "$81508.65"
+        "expenses": 72268.06,
+        "profit": 9240.68,
+        "revenue": 81508.65
       },
       {
         "date": "2017-11-29",
-        "expenses": "$13016.90",
-        "profit": "$-8351.34",
-        "revenue": "$4665.56"
+        "expenses": 13016.9,
+        "profit": -8351.34,
+        "revenue": 4665.56
       },
       {
         "date": "2017-11-30",
-        "expenses": "$32169.00",
-        "profit": "$-7156.03",
-        "revenue": "$25012.64"
+        "expenses": 32169,
+        "profit": -7156.03,
+        "revenue": 25012.64
       },
       {
         "date": "2017-12-02",
-        "expenses": "$9394.56",
-        "profit": "$-3198.03",
-        "revenue": "$6196.46"
+        "expenses": 9394.56,
+        "profit": -3198.03,
+        "revenue": 6196.46
       },
       {
         "date": "2017-12-03",
-        "expenses": "$46056.00",
-        "profit": "$-5360.04",
-        "revenue": "$40695.95"
+        "expenses": 46056,
+        "profit": -5360.04,
+        "revenue": 40695.95
       },
       {
         "date": "2017-12-04",
-        "expenses": "$58096.91",
-        "profit": "$11705.60",
-        "revenue": "$69802.67"
+        "expenses": 58096.91,
+        "profit": 11705.6,
+        "revenue": 69802.67
       },
       {
         "date": "2017-12-05",
-        "expenses": "$35674.91",
-        "profit": "$26269.61",
-        "revenue": "$61944.72"
+        "expenses": 35674.91,
+        "profit": 26269.61,
+        "revenue": 61944.72
       },
       {
         "date": "2017-12-06",
-        "expenses": "$143067.34",
-        "profit": "$-8183.93",
-        "revenue": "$134883.20"
+        "expenses": 143067.34,
+        "profit": -8183.93,
+        "revenue": 134883.2
       },
       {
         "date": "2017-12-07",
-        "expenses": "$6266.12",
-        "profit": "$1012.00",
-        "revenue": "$7278.12"
+        "expenses": 6266.12,
+        "profit": 1012,
+        "revenue": 7278.12
       },
       {
         "date": "2017-12-08",
-        "expenses": "$46205.50",
-        "profit": "$-9625.80",
-        "revenue": "$36579.75"
+        "expenses": 46205.5,
+        "profit": -9625.8,
+        "revenue": 36579.75
       },
       {
         "date": "2017-12-09",
-        "expenses": "$129210.31",
-        "profit": "$-15620.27",
-        "revenue": "$113590.20"
+        "expenses": 129210.31,
+        "profit": -15620.27,
+        "revenue": 113590.2
       },
       {
         "date": "2017-12-11",
-        "expenses": "$86489.48",
-        "profit": "$18875.65",
-        "revenue": "$105365.18"
+        "expenses": 86489.48,
+        "profit": 18875.65,
+        "revenue": 105365.18
       },
       {
         "date": "2017-12-12",
-        "expenses": "$58598.37",
-        "profit": "$11484.38",
-        "revenue": "$70082.83"
+        "expenses": 58598.37,
+        "profit": 11484.38,
+        "revenue": 70082.83
       },
       {
         "date": "2017-12-13",
-        "expenses": "$10729.49",
-        "profit": "$-1942.92",
-        "revenue": "$8786.62"
+        "expenses": 10729.49,
+        "profit": -1942.92,
+        "revenue": 8786.62
       },
       {
         "date": "2017-12-14",
-        "expenses": "$87434.40",
-        "profit": "$-35263.76",
-        "revenue": "$52170.82"
+        "expenses": 87434.4,
+        "profit": -35263.76,
+        "revenue": 52170.82
       },
       {
         "date": "2017-12-15",
-        "expenses": "$44549.13",
-        "profit": "$5754.85",
-        "revenue": "$50304.04"
+        "expenses": 44549.13,
+        "profit": 5754.85,
+        "revenue": 50304.04
       },
       {
         "date": "2017-12-16",
-        "expenses": "$33243.61",
-        "profit": "$72.98",
-        "revenue": "$33316.32"
+        "expenses": 33243.61,
+        "profit": 72.98,
+        "revenue": 33316.32
       },
       {
         "date": "2017-12-17",
-        "expenses": "$58555.03",
-        "profit": "$-27148.65",
-        "revenue": "$31406.25"
+        "expenses": 58555.03,
+        "profit": -27148.65,
+        "revenue": 31406.25
       },
       {
         "date": "2017-12-18",
-        "expenses": "$126788.70",
-        "profit": "$-16308.00",
-        "revenue": "$110480.38"
+        "expenses": 126788.7,
+        "profit": -16308,
+        "revenue": 110480.38
       },
       {
         "date": "2017-12-19",
-        "expenses": "$21055.89",
-        "profit": "$33005.11",
-        "revenue": "$54060.75"
+        "expenses": 21055.89,
+        "profit": 33005.11,
+        "revenue": 54060.75
       },
       {
         "date": "2017-12-20",
-        "expenses": "$26447.64",
-        "profit": "$-2980.12",
-        "revenue": "$23467.46"
+        "expenses": 26447.64,
+        "profit": -2980.12,
+        "revenue": 23467.46
       },
       {
         "date": "2017-12-22",
-        "expenses": "$24101.58",
-        "profit": "$25251.74",
-        "revenue": "$49353.38"
+        "expenses": 24101.58,
+        "profit": 25251.74,
+        "revenue": 49353.38
       },
       {
         "date": "2017-12-23",
-        "expenses": "$142824.83",
-        "profit": "$5933.66",
-        "revenue": "$148759.02"
+        "expenses": 142824.83,
+        "profit": 5933.66,
+        "revenue": 148759.02
       },
       {
         "date": "2017-12-24",
-        "expenses": "$50679.62",
-        "profit": "$-8402.45",
-        "revenue": "$42277.06"
+        "expenses": 50679.62,
+        "profit": -8402.45,
+        "revenue": 42277.06
       },
       {
         "date": "2017-12-25",
-        "expenses": "$138580.54",
-        "profit": "$-26831.66",
-        "revenue": "$111748.99"
+        "expenses": 138580.54,
+        "profit": -26831.66,
+        "revenue": 111748.99
       },
       {
         "date": "2017-12-26",
-        "expenses": "$34198.24",
-        "profit": "$16662.05",
-        "revenue": "$50860.11"
+        "expenses": 34198.24,
+        "profit": 16662.05,
+        "revenue": 50860.11
       },
       {
         "date": "2017-12-27",
-        "expenses": "$47619.17",
-        "profit": "$6293.28",
-        "revenue": "$53912.27"
+        "expenses": 47619.17,
+        "profit": 6293.28,
+        "revenue": 53912.27
       },
       {
         "date": "2017-12-29",
-        "expenses": "$63649.89",
-        "profit": "$7033.64",
-        "revenue": "$70683.80"
+        "expenses": 63649.89,
+        "profit": 7033.64,
+        "revenue": 70683.8
       },
       {
         "date": "2017-12-30",
-        "expenses": "$40222.46",
-        "profit": "$9005.64",
-        "revenue": "$49228.26"
+        "expenses": 40222.46,
+        "profit": 9005.64,
+        "revenue": 49228.26
       },
       {
         "date": "2017-12-31",
-        "expenses": "$61806.58",
-        "profit": "$17517.27",
-        "revenue": "$79323.62"
+        "expenses": 61806.58,
+        "profit": 17517.27,
+        "revenue": 79323.62
       }
     ],
     "expensesByCategory": {
-      "salaries": "$333",
-      "services": "$4789",
-      "supplies": "$5675"
+      "Electricity": "$7",
+      "Salaries": "$3",
+      "Services": "$8",
+      "Supplies": "$4"
     },
     "monthlyData": [
       {
-        "expenses": "$1070765.79",
+        "expenses": 1070765.79,
         "month": "January-17",
-        "profit": "$-102046.34",
-        "revenue": "$968717.73"
+        "profit": -102046.34,
+        "revenue": 968717.73
       },
       {
-        "expenses": "$722275.64",
+        "expenses": 722275.64,
         "month": "February-17",
-        "profit": "$-55238.27",
-        "revenue": "$667036.86"
+        "profit": -55238.27,
+        "revenue": 667036.86
       },
       {
-        "expenses": "$1253027.10",
+        "expenses": 1253027.1,
         "month": "March-17",
-        "profit": "$-28631.83",
-        "revenue": "$1224394.27"
+        "profit": -28631.83,
+        "revenue": 1224394.27
       },
       {
-        "expenses": "$1177641.69",
+        "expenses": 1177641.69,
         "month": "April-17",
-        "profit": "$-122873.20",
-        "revenue": "$1054769.42"
+        "profit": -122873.2,
+        "revenue": 1054769.42
       },
       {
-        "expenses": "$1776014.94",
+        "expenses": 1776014.94,
         "month": "May-17",
-        "profit": "$-684.13",
-        "revenue": "$1775331.72"
+        "profit": -684.13,
+        "revenue": 1775331.72
       },
       {
-        "expenses": "$1136767.69",
+        "expenses": 1136767.69,
         "month": "June-17",
-        "profit": "$119681.29",
-        "revenue": "$1256448.70"
+        "profit": 119681.29,
+        "revenue": 1256448.7
       },
       {
-        "expenses": "$1318292.52",
+        "expenses": 1318292.52,
         "month": "July-17",
-        "profit": "$-90203.72",
-        "revenue": "$1228089.54"
+        "profit": -90203.72,
+        "revenue": 1228089.54
       },
       {
-        "expenses": "$1684174.16",
+        "expenses": 1684174.16,
         "month": "August-17",
-        "profit": "$-105242.41",
-        "revenue": "$1578933.01"
+        "profit": -105242.41,
+        "revenue": 1578933.01
       },
       {
-        "expenses": "$1599822.83",
+        "expenses": 1599822.83,
         "month": "September-17",
-        "profit": "$-54048.38",
-        "revenue": "$1545773.99"
+        "profit": -54048.38,
+        "revenue": 1545773.99
       },
       {
-        "expenses": "$1494135.74",
+        "expenses": 1494135.74,
         "month": "October-17",
-        "profit": "$54927.36",
-        "revenue": "$1549063.38"
+        "profit": 54927.36,
+        "revenue": 1549063.38
       },
       {
-        "expenses": "$2014060.12",
+        "expenses": 2014060.12,
         "month": "November-17",
-        "profit": "$11072.00",
-        "revenue": "$2025132.13"
+        "profit": 11072,
+        "revenue": 2025132.13
       },
       {
-        "expenses": "$1631546.30",
+        "expenses": 1631546.3,
         "month": "December-17",
-        "profit": "$35011.83",
-        "revenue": "$1666558.23"
+        "profit": 35011.83,
+        "revenue": 1666558.23
       }
     ],
-    "totalExpenses": "$16889321.52",
-    "totalProfit": "$-338275.80",
-    "totalRevenue": "$16540248.98"
+    "totalExpenses": 16878546.52,
+    "totalProfit": -338275.8,
+    "totalRevenue": 16540248.98,
+    "year": 2017,
+    "yoyRevenueGrowth": "25.32%"
   }
 ];
 export const transactions = [
@@ -31415,7 +31418,7 @@ export const products = [
     "expense": "$989.63",
     "id": "TEC-AC-10000358",
     "price": "$370.47",
-    "product_name": "Imation Secure Drive + Hardware Encrypted USB flash drive - 16 GB",
+    "product_name": "Imation Secure Drive + Hardware Encrypted USB flash drive - 16 GB",
     "sub_category": "Accessories",
     "totalQuantity": 20,
     "totalSales": "$7409.40",
@@ -31428,7 +31431,7 @@ export const products = [
     "expense": "$482.01",
     "id": "TEC-AC-10000387",
     "price": "$170.32",
-    "product_name": "KeyTronic KT800P2 - Keyboard - Black",
+    "product_name": "KeyTronic KT800P2 - Keyboard - Black",
     "sub_category": "Accessories",
     "totalQuantity": 9,
     "totalSales": "$1532.88",
@@ -31535,7 +31538,7 @@ export const products = [
     "expense": "$662.16",
     "id": "TEC-AC-10000844",
     "price": "$244.67",
-    "product_name": "Logitech Gaming G510s - Keyboard",
+    "product_name": "Logitech Gaming G510s - Keyboard",
     "sub_category": "Accessories",
     "totalQuantity": 20,
     "totalSales": "$4893.40",
@@ -31661,7 +31664,7 @@ export const products = [
     "expense": "$8.31",
     "id": "TEC-AC-10001267",
     "price": "$837.37",
-    "product_name": "Imation 32GB Pocket Pro USB 3.0 Flash Drive - 32 GB - Black - 1 P ...",
+    "product_name": "Imation 32GB Pocket Pro USB 3.0 Flash Drive - 32 GB - Black - 1 P ...",
     "sub_category": "Accessories",
     "totalQuantity": 26,
     "totalSales": "$21771.62",
@@ -31703,7 +31706,7 @@ export const products = [
     "expense": "$575.99",
     "id": "TEC-AC-10001445",
     "price": "$137.31",
-    "product_name": "Imation USB 2.0 Swivel Flash Drive USB flash drive - 4 GB - Pink",
+    "product_name": "Imation USB 2.0 Swivel Flash Drive USB flash drive - 4 GB - Pink",
     "sub_category": "Accessories",
     "totalQuantity": 14,
     "totalSales": "$1922.34",
@@ -31744,7 +31747,7 @@ export const products = [
     "expense": "$828.67",
     "id": "TEC-AC-10001635",
     "price": "$758.60",
-    "product_name": "KeyTronic KT400U2 - Keyboard - Black",
+    "product_name": "KeyTronic KT400U2 - Keyboard - Black",
     "sub_category": "Accessories",
     "totalQuantity": 22,
     "totalSales": "$16689.20",
@@ -31757,7 +31760,7 @@ export const products = [
     "expense": "$21.72",
     "id": "TEC-AC-10001714",
     "price": "$89.37",
-    "product_name": "Logitech MX Performance Wireless Mouse",
+    "product_name": "Logitech MX Performance Wireless Mouse",
     "sub_category": "Accessories",
     "totalQuantity": 19,
     "totalSales": "$1698.03",
@@ -31907,7 +31910,7 @@ export const products = [
     "expense": "$185.42",
     "id": "TEC-AC-10002167",
     "price": "$818.23",
-    "product_name": "Imation 8gb Micro Traveldrive Usb 2.0 Flash Drive",
+    "product_name": "Imation 8gb Micro Traveldrive Usb 2.0 Flash Drive",
     "sub_category": "Accessories",
     "totalQuantity": 14,
     "totalSales": "$11455.22",
@@ -31921,7 +31924,7 @@ export const products = [
     "expense": "$928.60",
     "id": "TEC-AC-10002217",
     "price": "$909.71",
-    "product_name": "Imation Clip USB flash drive - 8 GB",
+    "product_name": "Imation Clip USB flash drive - 8 GB",
     "sub_category": "Accessories",
     "totalQuantity": 32,
     "totalSales": "$29110.72",
@@ -31936,7 +31939,7 @@ export const products = [
     "expense": "$474.78",
     "id": "TEC-AC-10002305",
     "price": "$284.98",
-    "product_name": "KeyTronic E03601U1 - Keyboard - Beige",
+    "product_name": "KeyTronic E03601U1 - Keyboard - Beige",
     "sub_category": "Accessories",
     "totalQuantity": 23,
     "totalSales": "$6554.54",
@@ -32061,7 +32064,7 @@ export const products = [
     "expense": "$613.09",
     "id": "TEC-AC-10002637",
     "price": "$475.70",
-    "product_name": "Logitech VX Revolution Cordless Laser Mouse for Notebooks (Black)",
+    "product_name": "Logitech VX Revolution Cordless Laser Mouse for Notebooks (Black)",
     "sub_category": "Accessories",
     "totalQuantity": 25,
     "totalSales": "$11892.50",
@@ -32160,7 +32163,7 @@ export const products = [
     "expense": "$183.92",
     "id": "TEC-AC-10003027",
     "price": "$369.63",
-    "product_name": "Imation 8GB Mini TravelDrive USB 2.0 Flash Drive",
+    "product_name": "Imation 8GB Mini TravelDrive USB 2.0 Flash Drive",
     "sub_category": "Accessories",
     "totalQuantity": 22,
     "totalSales": "$8131.86",
@@ -32343,7 +32346,7 @@ export const products = [
     "expense": "$693.99",
     "id": "TEC-AC-10003610",
     "price": "$881.16",
-    "product_name": "Logitech Illuminated - Keyboard",
+    "product_name": "Logitech Illuminated - Keyboard",
     "sub_category": "Accessories",
     "totalQuantity": 4,
     "totalSales": "$3524.64",
@@ -32384,7 +32387,7 @@ export const products = [
     "expense": "$124.81",
     "id": "TEC-AC-10003832",
     "price": "$752.30",
-    "product_name": "Logitech P710e Mobile Speakerphone",
+    "product_name": "Logitech P710e Mobile Speakerphone",
     "sub_category": "Accessories",
     "totalQuantity": 134,
     "totalSales": "$100808.20",
@@ -32404,7 +32407,7 @@ export const products = [
     "expense": "$298.47",
     "id": "TEC-AC-10003870",
     "price": "$133.59",
-    "product_name": "Logitech Z-906 Speaker sys - home theater - 5.1-CH",
+    "product_name": "Logitech Z-906 Speaker sys - home theater - 5.1-CH",
     "sub_category": "Accessories",
     "totalQuantity": 8,
     "totalSales": "$1068.72",
@@ -32418,7 +32421,7 @@ export const products = [
     "expense": "$984.89",
     "id": "TEC-AC-10003911",
     "price": "$695.45",
-    "product_name": "NETGEAR AC1750 Dual Band Gigabit Smart WiFi Router",
+    "product_name": "NETGEAR AC1750 Dual Band Gigabit Smart WiFi Router",
     "sub_category": "Accessories",
     "totalQuantity": 17,
     "totalSales": "$11822.65",
@@ -32594,7 +32597,7 @@ export const products = [
     "expense": "$616.18",
     "id": "TEC-AC-10004659",
     "price": "$238.09",
-    "product_name": "Imation Secure+ Hardware Encrypted USB 2.0 Flash Drive; 16GB",
+    "product_name": "Imation Secure+ Hardware Encrypted USB 2.0 Flash Drive; 16GB",
     "sub_category": "Accessories",
     "totalQuantity": 19,
     "totalSales": "$4523.71",
@@ -32663,7 +32666,7 @@ export const products = [
     "expense": "$363.91",
     "id": "TEC-AC-10004877",
     "price": "$977.07",
-    "product_name": "Imation 30456 USB Flash Drive 8GB",
+    "product_name": "Imation 30456 USB Flash Drive 8GB",
     "sub_category": "Accessories",
     "totalQuantity": 16,
     "totalSales": "$15633.12",
@@ -33264,7 +33267,7 @@ export const products = [
     "expense": "$548.05",
     "id": "TEC-PH-10000193",
     "price": "$378.12",
-    "product_name": "Jensen SMPS-640 - speaker phone",
+    "product_name": "Jensen SMPS-640 - speaker phone",
     "sub_category": "Phones",
     "totalQuantity": 17,
     "totalSales": "$6428.04",
@@ -33277,7 +33280,7 @@ export const products = [
     "expense": "$958.33",
     "id": "TEC-PH-10000215",
     "price": "$210.51",
-    "product_name": "Plantronics Cordless Phone Headset with In-line Volume - M214C",
+    "product_name": "Plantronics Cordless Phone Headset with In-line Volume - M214C",
     "sub_category": "Phones",
     "totalQuantity": 51,
     "totalSales": "$10736.01",
@@ -33493,7 +33496,7 @@ export const products = [
     "expense": "$206.84",
     "id": "TEC-PH-10001254",
     "price": "$754.79",
-    "product_name": "Jabra BIZ 2300 Duo QD Duo Corded Headset",
+    "product_name": "Jabra BIZ 2300 Duo QD Duo Corded Headset",
     "sub_category": "Phones",
     "totalQuantity": 30,
     "totalSales": "$22643.70",
@@ -33675,7 +33678,7 @@ export const products = [
     "expense": "$786.29",
     "id": "TEC-PH-10001580",
     "price": "$520.66",
-    "product_name": "Logitech Mobile Speakerphone P710e - speaker phone",
+    "product_name": "Logitech Mobile Speakerphone P710e - speaker phone",
     "sub_category": "Phones",
     "totalQuantity": 42,
     "totalSales": "$21867.72",
@@ -33743,7 +33746,7 @@ export const products = [
     "expense": "$269.56",
     "id": "TEC-PH-10001795",
     "price": "$959.98",
-    "product_name": "ClearOne CHATAttach 160 - speaker phone",
+    "product_name": "ClearOne CHATAttach 160 - speaker phone",
     "sub_category": "Phones",
     "totalQuantity": 22,
     "totalSales": "$21119.56",
@@ -34272,7 +34275,7 @@ export const products = [
     "expense": "$573.77",
     "id": "TEC-PH-10002923",
     "price": "$236.22",
-    "product_name": "Logitech B530 USB Headset - headset - Full size, Binaural",
+    "product_name": "Logitech B530 USB Headset - headset - Full size, Binaural",
     "sub_category": "Phones",
     "totalQuantity": 2,
     "totalSales": "$472.44",
@@ -34339,7 +34342,7 @@ export const products = [
     "expense": "$880.34",
     "id": "TEC-PH-10003171",
     "price": "$461.91",
-    "product_name": "Plantronics Encore H101 Dual Earpieces Headset",
+    "product_name": "Plantronics Encore H101 Dual Earpieces Headset",
     "sub_category": "Phones",
     "totalQuantity": 10,
     "totalSales": "$4619.10",
@@ -34420,7 +34423,7 @@ export const products = [
     "expense": "$903.78",
     "id": "TEC-PH-10003437",
     "price": "$571.10",
-    "product_name": "Blue Parrot B250XT Professional Grade Wireless Bluetooth Headset with",
+    "product_name": "Blue Parrot B250XT Professional Grade Wireless Bluetooth Headset with",
     "sub_category": "Phones",
     "totalQuantity": 10,
     "totalSales": "$5711.00",
@@ -34573,7 +34576,7 @@ export const products = [
     "expense": "$938.17",
     "id": "TEC-PH-10003811",
     "price": "$831.31",
-    "product_name": "Jabra Supreme Plus Driver Edition Headset",
+    "product_name": "Jabra Supreme Plus Driver Edition Headset",
     "sub_category": "Phones",
     "totalQuantity": 25,
     "totalSales": "$20782.75",
@@ -34656,7 +34659,7 @@ export const products = [
     "expense": "$134.12",
     "id": "TEC-PH-10004042",
     "price": "$149.88",
-    "product_name": "ClearOne Communications CHAT 70 OC Speaker Phone",
+    "product_name": "ClearOne Communications CHAT 70 OC Speaker Phone",
     "sub_category": "Phones",
     "totalQuantity": 9,
     "totalSales": "$1348.92",
@@ -34793,7 +34796,7 @@ export const products = [
     "expense": "$43.98",
     "id": "TEC-PH-10004434",
     "price": "$624.33",
-    "product_name": "Cisco IP Phone 7961G VoIP phone - Dark gray",
+    "product_name": "Cisco IP Phone 7961G VoIP phone - Dark gray",
     "sub_category": "Phones",
     "totalQuantity": 1,
     "totalSales": "$624.33",

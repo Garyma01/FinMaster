@@ -25,7 +25,7 @@ export interface GetKpisResponse {
   _id: string;
   __v: number;
   year: number;
-  yoyRevenueGrowth: number; // Year-over-year revenue growth percentage
+  yoyRevenueGrowth: string; // Year-over-year revenue growth percentage
   totalProfit: number;
   totalRevenue: number;
   totalExpenses: number;

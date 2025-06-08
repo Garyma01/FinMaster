@@ -178,7 +178,7 @@ const pieChartData = useMemo(() => {
                 sx={{ width: 12, height: 12, backgroundColor: pieColors[i % pieColors.length], borderRadius: "50%", mr: 1 }}
               />
               <Typography variant="body1" fontWeight="bold">
-                {data.name}: ₹{data.value.toLocaleString()}
+                {data.name}: ${data.value.toLocaleString()}
               </Typography>
             </Box>
           ))}
