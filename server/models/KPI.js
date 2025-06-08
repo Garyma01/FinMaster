@@ -134,6 +134,9 @@ const monthSchema = new Schema(
 
 const KPISchema = new Schema(
   {
+    year: {
+      type: Number,
+    },
     totalProfit: {
       type: mongoose.Types.Currency,
       currency: "USD",
@@ -148,6 +151,9 @@ const KPISchema = new Schema(
       type: mongoose.Types.Currency,
       currency: "USD",
       get: (v) => v / 100,
+    },
+    yoyRevenueGrowth: {
+      type: Number, 
     },
     expensesByCategory: {
       type: Map,

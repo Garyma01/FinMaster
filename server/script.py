@@ -45,6 +45,7 @@ def upload_file():
     # Read CSV with error handling
     try:
         df = pd.read_csv(file_path, encoding="utf-8")
+        
     except Exception as e:
         print(f"ERROR: Could not read CSV file: {str(e)}")
         return jsonify({"error": "Could not read CSV file", "message": str(e)}), 500
@@ -72,10 +73,14 @@ def upload_file():
         print("ERROR: All dates failed to parse. Check date format.")
         return jsonify({"error": "Date parsing error. All dates are NaT."}), 500
 
+    df_full=df.copy()
+
     # Filter data for the specified year
     print(f"=== Filtering data for the year: {year} ===")
     df = df[df["date"].dt.year == int(year)]
 
+    prev_year = int(year) - 1
+    df_prev = df_full[df_full["date"].dt.year == prev_year]
     # Calculate total revenue, expense, and profit
     print("=== Calculating KPIs ===")
     try:
@@ -86,6 +91,19 @@ def upload_file():
         print(f"ERROR: Calculation failed. Missing column: {str(e)}")
         return jsonify({"error": f"Missing column for calculation: {str(e)}"}), 500
 
+    # Calculate total revenue for previous year
+    print("=== Calculating KPIs for previous year ===")
+    try:
+        total_revenue_prev = (df_prev["Quantity"] * df_prev["Price"]).sum()
+    except KeyError as e:
+        print(f"ERROR: Calculation failed for previous year. Missing column: {str(e)}")
+        return jsonify({"error": f"Missing column for prev year calculation: {str(e)}"}), 500
+
+    # Calculate YoY Revenue Growth
+    if total_revenue_prev > 0:
+        yoy_revenue_growth = ((total_revenue - total_revenue_prev) / total_revenue_prev) * 100
+    else:
+        yoy_revenue_growth = None
     # Sum category expenses
     print("=== Calculating Category Expenses ===")
     category_expenses_total = sum(int(value.replace("$", "")) for value in category_expenses.values())
@@ -116,12 +134,14 @@ def upload_file():
 
     # KPI JSON
     kpi_data = [{
+        "year": int(year),
         "totalProfit": format_currency(total_profit),
         "totalRevenue": format_currency(total_revenue),
         "totalExpenses": format_currency(total_expense),
         "monthlyData": monthly_data.to_dict(orient="records"),
         "dailyData": daily_data.to_dict(orient="records"),
-        "expensesByCategory": category_expenses
+        "expensesByCategory": category_expenses,
+        "yoyRevenueGrowth": f"{yoy_revenue_growth:.2f}%" if yoy_revenue_growth is not None else "N/A",
     }]
 
     # Products JSON
