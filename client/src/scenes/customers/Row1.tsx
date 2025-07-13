@@ -18,12 +18,8 @@ const Row1 = () => {
 
   // 🎯 Top 5 by Lifetime Value
   const topCustomersByLifetime = [...(customersData || [])]
-    .sort(
-      (a, b) =>
-        b.average_order_value * b.purchase_frequency -
-        a.average_order_value * a.purchase_frequency
-    )
-    .slice(0, 5);
+  .sort((a, b) => b.estimated_ltv - a.estimated_ltv)
+  .slice(0, 5);
 
   // 🎯 Segment Distribution
   const segmentData = useMemo(() => {

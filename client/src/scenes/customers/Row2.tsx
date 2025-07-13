@@ -54,7 +54,7 @@ const Row2 = () => {
 
   // 📊 Retention vs Churn (example calculation, refine as needed)
   const totalCustomers = customersData?.length || 0;
-  const retained = recencyBuckets["< 1 Month"].length;
+  const retained = recencyBuckets["< 1 Month"].length + recencyBuckets["1-3 Months"].length;
   const churned = totalCustomers - retained;
 
   const retentionData = [

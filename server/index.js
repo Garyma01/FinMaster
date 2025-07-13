@@ -74,7 +74,7 @@ app.post("/upload", async (req, res) => {
     formData.append("categoryExpenses", categoryExpenses);
 
     // Make a request to the Flask backend
-    const flaskURL = "http://localhost:5000/upload"; // Update if your Flask server is running elsewhere
+    const flaskURL = "http://localhost:5080/upload"; // Update if your Flask server is running elsewhere
     const response = await axios.post(flaskURL, formData, {
       headers: {
         ...formData.getHeaders(),
@@ -228,6 +228,7 @@ mongoose
             purchase_frequency: customer.purchase_frequency,
             revenue_generated: parseFloat(customer.revenue_generated.replace(/[$,]/g, "")),
             average_order_value: parseFloat(customer.average_order_value.replace(/[$,]/g, "")),
+            estimated_ltv: parseFloat(customer.estimated_ltv.replace(/[$,]/g, "")), // <-- added this line
             product_ids: customer.product_ids.map(String),
           }))
         );

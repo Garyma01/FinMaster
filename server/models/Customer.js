@@ -37,6 +37,10 @@ const CustomerSchema = new Schema({
     type: Number,
     required: true
   },
+  estimated_ltv: {
+    type: Number,
+    required: true
+  },
   product_ids: {
     type: [String],
     required: true

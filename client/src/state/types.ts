@@ -76,7 +76,8 @@ export interface GetCustomersResponse {
   last_purchase: string;              
   purchase_frequency: number;         
   revenue_generated: number;          
-  average_order_value: number;        
+  average_order_value: number;
+  estimated_ltv: number;        
   product_ids: Array<string>;         
   createdAt: string;                  
   updatedAt: string;                  

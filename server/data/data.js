@@ -1912,10 +1912,9 @@ export const kpis = [
       }
     ],
     "expensesByCategory": {
-      "Electricity": "$7",
-      "Salaries": "$3",
-      "Services": "$8",
-      "Supplies": "$4"
+      "Electricity": "$1000",
+      "Marketing": "$567",
+      "Supplies": "$400"
     },
     "monthlyData": [
       {
@@ -1991,7 +1990,7 @@ export const kpis = [
         "revenue": 1666558.23
       }
     ],
-    "totalExpenses": 16878546.52,
+    "totalExpenses": 16880491.52,
     "totalProfit": -338275.8,
     "totalRevenue": 16540248.98,
     "year": 2017,
@@ -35183,6 +35182,7 @@ export const customers = [
   {
     "average_order_value": "$2809.51",
     "customer_name": "Alex Avila",
+    "estimated_ltv": "$61322.00",
     "id": "AA-10315",
     "last_purchase": "2017-03-03",
     "product_ids": [
@@ -35199,6 +35199,7 @@ export const customers = [
   {
     "average_order_value": "$5781.87",
     "customer_name": "Allen Armold",
+    "estimated_ltv": "$110359.11",
     "id": "AA-10375",
     "last_purchase": "2017-11-14",
     "product_ids": [
@@ -35215,6 +35216,7 @@ export const customers = [
   {
     "average_order_value": "$6935.31",
     "customer_name": "Andrew Allen",
+    "estimated_ltv": "$90360.13",
     "id": "AA-10480",
     "last_purchase": "2017-08-26",
     "product_ids": [
@@ -35237,6 +35239,7 @@ export const customers = [
   {
     "average_order_value": "$3728.43",
     "customer_name": "Anna Andreadi",
+    "estimated_ltv": "$135565.85",
     "id": "AA-10645",
     "last_purchase": "2017-04-09",
     "product_ids": [
@@ -35257,6 +35260,7 @@ export const customers = [
   {
     "average_order_value": "$8288.59",
     "customer_name": "Aaron Bergman",
+    "estimated_ltv": "$73542.05",
     "id": "AB-10015",
     "last_purchase": "2017-10-11",
     "product_ids": [
@@ -35271,6 +35275,7 @@ export const customers = [
   {
     "average_order_value": "$3090.99",
     "customer_name": "Adam Bellavance",
+    "estimated_ltv": "$72773.15",
     "id": "AB-10060",
     "last_purchase": "2017-08-29",
     "product_ids": [
@@ -35292,6 +35297,7 @@ export const customers = [
   {
     "average_order_value": "$9523.09",
     "customer_name": "Adrian Barton",
+    "estimated_ltv": "$141432.58",
     "id": "AB-10105",
     "last_purchase": "2017-12-17",
     "product_ids": [
@@ -35307,6 +35313,7 @@ export const customers = [
   {
     "average_order_value": "$262.15",
     "customer_name": "Aimee Bixby",
+    "estimated_ltv": "$73247.08",
     "id": "AB-10150",
     "last_purchase": "2017-01-31",
     "product_ids": [
@@ -35320,6 +35327,7 @@ export const customers = [
   {
     "average_order_value": "$11141.73",
     "customer_name": "Alejandro Ballentine",
+    "estimated_ltv": "$132773.36",
     "id": "AB-10255",
     "last_purchase": "2017-12-20",
     "product_ids": [
@@ -35336,6 +35344,7 @@ export const customers = [
   {
     "average_order_value": "$18899.57",
     "customer_name": "Alyssa Crouse",
+    "estimated_ltv": "$40413.39",
     "id": "AC-10420",
     "last_purchase": "2017-02-23",
     "product_ids": [
@@ -35349,6 +35358,7 @@ export const customers = [
   {
     "average_order_value": "$2501.06",
     "customer_name": "Amy Cox",
+    "estimated_ltv": "$45447.48",
     "id": "AC-10450",
     "last_purchase": "2017-11-24",
     "product_ids": [
@@ -35364,6 +35374,7 @@ export const customers = [
   {
     "average_order_value": "$8219.84",
     "customer_name": "Anna Chung",
+    "estimated_ltv": "$43482.85",
     "id": "AC-10660",
     "last_purchase": "2017-09-22",
     "product_ids": [
@@ -35379,6 +35390,7 @@ export const customers = [
   {
     "average_order_value": "$3411.47",
     "customer_name": "Art Ferguson",
+    "estimated_ltv": "$82788.68",
     "id": "AF-10870",
     "last_purchase": "2017-06-05",
     "product_ids": [
@@ -35401,6 +35413,7 @@ export const customers = [
   {
     "average_order_value": "$11047.80",
     "customer_name": "Art Foster",
+    "estimated_ltv": "$44436.60",
     "id": "AF-10885",
     "last_purchase": "2017-10-11",
     "product_ids": [
@@ -35415,6 +35428,7 @@ export const customers = [
   {
     "average_order_value": "$9474.95",
     "customer_name": "Alejandro Grove",
+    "estimated_ltv": "$118653.42",
     "id": "AG-10270",
     "last_purchase": "2017-09-13",
     "product_ids": [
@@ -35437,6 +35451,7 @@ export const customers = [
   {
     "average_order_value": "$10953.58",
     "customer_name": "Aleksandra Gannaway",
+    "estimated_ltv": "$14913.56",
     "id": "AG-10300",
     "last_purchase": "2017-05-12",
     "product_ids": [
@@ -35450,6 +35465,7 @@ export const customers = [
   {
     "average_order_value": "$4993.90",
     "customer_name": "Alex Grayson",
+    "estimated_ltv": "$66544.16",
     "id": "AG-10330",
     "last_purchase": "2017-03-08",
     "product_ids": [
@@ -35464,6 +35480,7 @@ export const customers = [
   {
     "average_order_value": "$10375.71",
     "customer_name": "Allen Goldenen",
+    "estimated_ltv": "$67260.24",
     "id": "AG-10390",
     "last_purchase": "2017-11-20",
     "product_ids": [
@@ -35480,6 +35497,7 @@ export const customers = [
   {
     "average_order_value": "$1767.04",
     "customer_name": "Andrew Gjertsen",
+    "estimated_ltv": "$69319.45",
     "id": "AG-10495",
     "last_purchase": "2017-10-20",
     "product_ids": [
@@ -35493,6 +35511,7 @@ export const customers = [
   {
     "average_order_value": "$12195.35",
     "customer_name": "Anna Gayman",
+    "estimated_ltv": "$117189.48",
     "id": "AG-10675",
     "last_purchase": "2017-08-09",
     "product_ids": [
@@ -35511,6 +35530,7 @@ export const customers = [
   {
     "average_order_value": "$4326.46",
     "customer_name": "Arthur Gainer",
+    "estimated_ltv": "$121177.16",
     "id": "AG-10900",
     "last_purchase": "2017-08-12",
     "product_ids": [
@@ -35528,6 +35548,7 @@ export const customers = [
   {
     "average_order_value": "$8365.81",
     "customer_name": "Aaron Hawkins",
+    "estimated_ltv": "$73119.44",
     "id": "AH-10030",
     "last_purchase": "2017-03-20",
     "product_ids": [
@@ -35541,6 +35562,7 @@ export const customers = [
   {
     "average_order_value": "$6638.99",
     "customer_name": "Adam Hart",
+    "estimated_ltv": "$131423.68",
     "id": "AH-10075",
     "last_purchase": "2017-12-17",
     "product_ids": [
@@ -35559,6 +35581,7 @@ export const customers = [
   {
     "average_order_value": "$5120.07",
     "customer_name": "Adrian Hane",
+    "estimated_ltv": "$123250.85",
     "id": "AH-10120",
     "last_purchase": "2017-12-18",
     "product_ids": [
@@ -35579,6 +35602,7 @@ export const customers = [
   {
     "average_order_value": "$4818.65",
     "customer_name": "Alan Haines",
+    "estimated_ltv": "$43989.39",
     "id": "AH-10195",
     "last_purchase": "2017-12-18",
     "product_ids": [
@@ -35594,6 +35618,7 @@ export const customers = [
   {
     "average_order_value": "$3472.68",
     "customer_name": "Alan Hwang",
+    "estimated_ltv": "$107468.67",
     "id": "AH-10210",
     "last_purchase": "2017-02-20",
     "product_ids": [
@@ -35607,6 +35632,7 @@ export const customers = [
   {
     "average_order_value": "$10353.17",
     "customer_name": "Amy Hunt",
+    "estimated_ltv": "$63392.51",
     "id": "AH-10465",
     "last_purchase": "2017-05-05",
     "product_ids": [
@@ -35620,6 +35646,7 @@ export const customers = [
   {
     "average_order_value": "$5664.04",
     "customer_name": "Angele Hood",
+    "estimated_ltv": "$40401.35",
     "id": "AH-10585",
     "last_purchase": "2017-09-15",
     "product_ids": [
@@ -35633,6 +35660,7 @@ export const customers = [
   {
     "average_order_value": "$9352.85",
     "customer_name": "Anna Häberlin",
+    "estimated_ltv": "$184517.63",
     "id": "AH-10690",
     "last_purchase": "2017-11-15",
     "product_ids": [
@@ -35654,6 +35682,7 @@ export const customers = [
   {
     "average_order_value": "$8491.07",
     "customer_name": "Arianne Irving",
+    "estimated_ltv": "$107384.72",
     "id": "AI-10855",
     "last_purchase": "2017-10-11",
     "product_ids": [
@@ -35673,6 +35702,7 @@ export const customers = [
   {
     "average_order_value": "$4926.72",
     "customer_name": "Anthony Jacobs",
+    "estimated_ltv": "$100442.37",
     "id": "AJ-10780",
     "last_purchase": "2017-11-28",
     "product_ids": [
@@ -35686,6 +35716,7 @@ export const customers = [
   {
     "average_order_value": "$3351.22",
     "customer_name": "Anthony Johnson",
+    "estimated_ltv": "$103464.02",
     "id": "AJ-10795",
     "last_purchase": "2017-12-26",
     "product_ids": [
@@ -35707,6 +35738,7 @@ export const customers = [
   {
     "average_order_value": "$6647.58",
     "customer_name": "Ashley Jarboe",
+    "estimated_ltv": "$55175.20",
     "id": "AJ-10945",
     "last_purchase": "2017-11-18",
     "product_ids": [
@@ -35720,6 +35752,7 @@ export const customers = [
   {
     "average_order_value": "$3158.23",
     "customer_name": "Alice McCarthy",
+    "estimated_ltv": "$66095.21",
     "id": "AM-10360",
     "last_purchase": "2017-07-16",
     "product_ids": [
@@ -35734,6 +35767,7 @@ export const customers = [
   {
     "average_order_value": "$6959.69",
     "customer_name": "Anne McFarland",
+    "estimated_ltv": "$138516.61",
     "id": "AM-10705",
     "last_purchase": "2017-09-18",
     "product_ids": [
@@ -35749,6 +35783,7 @@ export const customers = [
   {
     "average_order_value": "$16509.59",
     "customer_name": "Anthony O'Donnell",
+    "estimated_ltv": "$16509.59",
     "id": "AO-10810",
     "last_purchase": "2017-08-16",
     "product_ids": [
@@ -35762,6 +35797,7 @@ export const customers = [
   {
     "average_order_value": "$4695.68",
     "customer_name": "Anne Pryor",
+    "estimated_ltv": "$53481.34",
     "id": "AP-10720",
     "last_purchase": "2017-09-19",
     "product_ids": [
@@ -35778,6 +35814,7 @@ export const customers = [
   {
     "average_order_value": "$4200.59",
     "customer_name": "Arthur Prichep",
+    "estimated_ltv": "$175316.97",
     "id": "AP-10915",
     "last_purchase": "2017-10-12",
     "product_ids": [
@@ -35801,6 +35838,7 @@ export const customers = [
   {
     "average_order_value": "$2894.92",
     "customer_name": "Andrew Roberts",
+    "estimated_ltv": "$36330.95",
     "id": "AR-10510",
     "last_purchase": "2017-12-26",
     "product_ids": [
@@ -35814,6 +35852,7 @@ export const customers = [
   {
     "average_order_value": "$10388.04",
     "customer_name": "Andy Reiter",
+    "estimated_ltv": "$67572.27",
     "id": "AR-10540",
     "last_purchase": "2017-09-29",
     "product_ids": [
@@ -35827,6 +35866,7 @@ export const customers = [
   {
     "average_order_value": "$10916.36",
     "customer_name": "Anemone Ratner",
+    "estimated_ltv": "$21832.73",
     "id": "AR-10570",
     "last_purchase": "2017-07-14",
     "product_ids": [
@@ -35841,6 +35881,7 @@ export const customers = [
   {
     "average_order_value": "$7394.03",
     "customer_name": "Anthony Rawles",
+    "estimated_ltv": "$86352.25",
     "id": "AR-10825",
     "last_purchase": "2017-11-12",
     "product_ids": [
@@ -35858,6 +35899,7 @@ export const customers = [
   {
     "average_order_value": "$3169.43",
     "customer_name": "Aaron Smayling",
+    "estimated_ltv": "$95199.47",
     "id": "AS-10045",
     "last_purchase": "2017-09-25",
     "product_ids": [
@@ -35872,6 +35914,7 @@ export const customers = [
   {
     "average_order_value": "$7075.35",
     "customer_name": "Adam Shillingsburg",
+    "estimated_ltv": "$183479.90",
     "id": "AS-10090",
     "last_purchase": "2017-11-09",
     "product_ids": [
@@ -35892,6 +35935,7 @@ export const customers = [
   {
     "average_order_value": "$5317.46",
     "customer_name": "Adrian Shami",
+    "estimated_ltv": "$15665.27",
     "id": "AS-10135",
     "last_purchase": "2017-11-13",
     "product_ids": [
@@ -35905,6 +35949,7 @@ export const customers = [
   {
     "average_order_value": "$1430.66",
     "customer_name": "Alan Schoenberger",
+    "estimated_ltv": "$85376.00",
     "id": "AS-10225",
     "last_purchase": "2017-02-12",
     "product_ids": [
@@ -35918,6 +35963,7 @@ export const customers = [
   {
     "average_order_value": "$2883.71",
     "customer_name": "Alan Shonely",
+    "estimated_ltv": "$68115.12",
     "id": "AS-10240",
     "last_purchase": "2017-06-25",
     "product_ids": [
@@ -35931,6 +35977,7 @@ export const customers = [
   {
     "average_order_value": "$4428.47",
     "customer_name": "Alejandro Savely",
+    "estimated_ltv": "$38427.35",
     "id": "AS-10285",
     "last_purchase": "2017-11-11",
     "product_ids": [
@@ -35950,6 +35997,7 @@ export const customers = [
   {
     "average_order_value": "$2986.81",
     "customer_name": "Ann Steele",
+    "estimated_ltv": "$88959.45",
     "id": "AS-10630",
     "last_purchase": "2017-09-22",
     "product_ids": [
@@ -35963,6 +36011,7 @@ export const customers = [
   {
     "average_order_value": "$6340.51",
     "customer_name": "Alyssa Tate",
+    "estimated_ltv": "$26040.26",
     "id": "AT-10435",
     "last_purchase": "2017-11-24",
     "product_ids": [
@@ -35977,6 +36026,7 @@ export const customers = [
   {
     "average_order_value": "$2516.23",
     "customer_name": "Annie Thurman",
+    "estimated_ltv": "$116047.19",
     "id": "AT-10735",
     "last_purchase": "2017-09-09",
     "product_ids": [
@@ -35993,6 +36043,7 @@ export const customers = [
   {
     "average_order_value": "$8914.35",
     "customer_name": "Arthur Wiediger",
+    "estimated_ltv": "$151876.59",
     "id": "AW-10930",
     "last_purchase": "2017-12-06",
     "product_ids": [
@@ -36014,6 +36065,7 @@ export const customers = [
   {
     "average_order_value": "$9880.43",
     "customer_name": "Andy Yotov",
+    "estimated_ltv": "$75730.04",
     "id": "AY-10555",
     "last_purchase": "2017-12-18",
     "product_ids": [
@@ -36027,6 +36079,7 @@ export const customers = [
   {
     "average_order_value": "$4265.48",
     "customer_name": "Annie Zypern",
+    "estimated_ltv": "$69549.73",
     "id": "AZ-10750",
     "last_purchase": "2017-05-02",
     "product_ids": [
@@ -36043,6 +36096,7 @@ export const customers = [
   {
     "average_order_value": "$937.98",
     "customer_name": "Barry Blumstein",
+    "estimated_ltv": "$23153.23",
     "id": "BB-10990",
     "last_purchase": "2017-01-04",
     "product_ids": [
@@ -36057,6 +36111,7 @@ export const customers = [
   {
     "average_order_value": "$4772.78",
     "customer_name": "Brenda Bowman",
+    "estimated_ltv": "$84145.53",
     "id": "BB-11545",
     "last_purchase": "2017-12-26",
     "product_ids": [
@@ -36076,6 +36131,7 @@ export const customers = [
   {
     "average_order_value": "$6084.27",
     "customer_name": "Becky Castell",
+    "estimated_ltv": "$106158.80",
     "id": "BC-11125",
     "last_purchase": "2017-12-08",
     "product_ids": [
@@ -36094,6 +36150,7 @@ export const customers = [
   {
     "average_order_value": "$5083.54",
     "customer_name": "Bill Donatelli",
+    "estimated_ltv": "$126581.36",
     "id": "BD-11320",
     "last_purchase": "2017-10-31",
     "product_ids": [
@@ -36115,6 +36172,7 @@ export const customers = [
   {
     "average_order_value": "$12086.96",
     "customer_name": "Brian Dahlen",
+    "estimated_ltv": "$94448.71",
     "id": "BD-11605",
     "last_purchase": "2017-12-30",
     "product_ids": [
@@ -36131,6 +36189,7 @@ export const customers = [
   {
     "average_order_value": "$6457.55",
     "customer_name": "Brian DeCherney",
+    "estimated_ltv": "$48359.76",
     "id": "BD-11620",
     "last_purchase": "2017-12-31",
     "product_ids": [
@@ -36148,6 +36207,7 @@ export const customers = [
   {
     "average_order_value": "$708.63",
     "customer_name": "Bruce Degenhardt",
+    "estimated_ltv": "$53066.94",
     "id": "BD-11725",
     "last_purchase": "2017-02-25",
     "product_ids": [
@@ -36161,6 +36221,7 @@ export const customers = [
   {
     "average_order_value": "$10211.63",
     "customer_name": "Bryan Davis",
+    "estimated_ltv": "$93950.32",
     "id": "BD-11770",
     "last_purchase": "2017-11-11",
     "product_ids": [
@@ -36181,6 +36242,7 @@ export const customers = [
   {
     "average_order_value": "$12474.92",
     "customer_name": "Bill Eplett",
+    "estimated_ltv": "$68708.59",
     "id": "BE-11335",
     "last_purchase": "2017-07-25",
     "product_ids": [
@@ -36195,6 +36257,7 @@ export const customers = [
   {
     "average_order_value": "$5698.27",
     "customer_name": "Bobby Elias",
+    "estimated_ltv": "$44447.84",
     "id": "BE-11410",
     "last_purchase": "2017-11-18",
     "product_ids": [
@@ -36210,6 +36273,7 @@ export const customers = [
   {
     "average_order_value": "$4565.79",
     "customer_name": "Brad Eason",
+    "estimated_ltv": "$69968.09",
     "id": "BE-11455",
     "last_purchase": "2017-06-05",
     "product_ids": [
@@ -36227,6 +36291,7 @@ export const customers = [
   {
     "average_order_value": "$12330.04",
     "customer_name": "Barbara Fisher",
+    "estimated_ltv": "$116457.37",
     "id": "BF-10975",
     "last_purchase": "2017-11-20",
     "product_ids": [
@@ -36242,6 +36307,7 @@ export const customers = [
   {
     "average_order_value": "$11705.15",
     "customer_name": "Barry Franz",
+    "estimated_ltv": "$77600.49",
     "id": "BF-11005",
     "last_purchase": "2017-07-28",
     "product_ids": [
@@ -36258,6 +36324,7 @@ export const customers = [
   {
     "average_order_value": "$6438.27",
     "customer_name": "Barry Französisch",
+    "estimated_ltv": "$120691.23",
     "id": "BF-11020",
     "last_purchase": "2017-07-07",
     "product_ids": [
@@ -36277,6 +36344,7 @@ export const customers = [
   {
     "average_order_value": "$2643.30",
     "customer_name": "Ben Ferrer",
+    "estimated_ltv": "$134493.62",
     "id": "BF-11170",
     "last_purchase": "2017-10-11",
     "product_ids": [
@@ -36295,6 +36363,7 @@ export const customers = [
   {
     "average_order_value": "$16195.28",
     "customer_name": "Benjamin Farhat",
+    "estimated_ltv": "$58685.79",
     "id": "BF-11215",
     "last_purchase": "2017-09-06",
     "product_ids": [
@@ -36308,6 +36377,7 @@ export const customers = [
   {
     "average_order_value": "$1095.02",
     "customer_name": "Barry Gonzalez",
+    "estimated_ltv": "$66750.34",
     "id": "BG-11035",
     "last_purchase": "2017-11-17",
     "product_ids": [
@@ -36322,6 +36392,7 @@ export const customers = [
   {
     "average_order_value": "$9516.60",
     "customer_name": "Brooke Gillingham",
+    "estimated_ltv": "$41119.51",
     "id": "BG-11695",
     "last_purchase": "2017-12-27",
     "product_ids": [
@@ -36336,6 +36407,7 @@ export const customers = [
   {
     "average_order_value": "$5600.41",
     "customer_name": "Bruce Geld",
+    "estimated_ltv": "$60791.25",
     "id": "BG-11740",
     "last_purchase": "2017-08-30",
     "product_ids": [
@@ -36351,6 +36423,7 @@ export const customers = [
   {
     "average_order_value": "$2974.28",
     "customer_name": "Brosina Hoffman",
+    "estimated_ltv": "$158236.32",
     "id": "BH-11710",
     "last_purchase": "2017-03-03",
     "product_ids": [
@@ -36366,6 +36439,7 @@ export const customers = [
   {
     "average_order_value": "$254.49",
     "customer_name": "Berenike Kampe",
+    "estimated_ltv": "$108874.87",
     "id": "BK-11260",
     "last_purchase": "2017-11-11",
     "product_ids": [
@@ -36379,6 +36453,7 @@ export const customers = [
   {
     "average_order_value": "$4154.83",
     "customer_name": "Becky Martin",
+    "estimated_ltv": "$124643.86",
     "id": "BM-11140",
     "last_purchase": "2017-04-12",
     "product_ids": [
@@ -36399,6 +36474,7 @@ export const customers = [
   {
     "average_order_value": "$3749.19",
     "customer_name": "Brendan Murry",
+    "estimated_ltv": "$82346.04",
     "id": "BM-11575",
     "last_purchase": "2017-11-20",
     "product_ids": [
@@ -36414,6 +36490,7 @@ export const customers = [
   {
     "average_order_value": "$11392.71",
     "customer_name": "Brian Moss",
+    "estimated_ltv": "$204939.51",
     "id": "BM-11650",
     "last_purchase": "2017-09-27",
     "product_ids": [
@@ -36427,6 +36504,7 @@ export const customers = [
   {
     "average_order_value": "$6278.67",
     "customer_name": "Bryan Mills",
+    "estimated_ltv": "$86491.15",
     "id": "BM-11785",
     "last_purchase": "2017-12-30",
     "product_ids": [
@@ -36443,6 +36521,7 @@ export const customers = [
   {
     "average_order_value": "$6516.13",
     "customer_name": "Bradley Nguyen",
+    "estimated_ltv": "$90578.13",
     "id": "BN-11515",
     "last_purchase": "2017-05-19",
     "product_ids": [
@@ -36460,6 +36539,7 @@ export const customers = [
   {
     "average_order_value": "$14710.56",
     "customer_name": "Bill Overfelt",
+    "estimated_ltv": "$108318.15",
     "id": "BO-11350",
     "last_purchase": "2017-04-28",
     "product_ids": [
@@ -36475,6 +36555,7 @@ export const customers = [
   {
     "average_order_value": "$9639.84",
     "customer_name": "Barry Pond",
+    "estimated_ltv": "$44093.49",
     "id": "BP-11050",
     "last_purchase": "2017-12-19",
     "product_ids": [
@@ -36490,6 +36571,7 @@ export const customers = [
   {
     "average_order_value": "$9722.82",
     "customer_name": "Bart Pistole",
+    "estimated_ltv": "$158292.37",
     "id": "BP-11095",
     "last_purchase": "2017-10-27",
     "product_ids": [
@@ -36504,6 +36586,7 @@ export const customers = [
   {
     "average_order_value": "$9368.02",
     "customer_name": "Becky Pak",
+    "estimated_ltv": "$75859.15",
     "id": "BP-11155",
     "last_purchase": "2017-12-31",
     "product_ids": [
@@ -36522,6 +36605,7 @@ export const customers = [
   {
     "average_order_value": "$8354.25",
     "customer_name": "Ben Peterman",
+    "estimated_ltv": "$131357.28",
     "id": "BP-11185",
     "last_purchase": "2017-12-23",
     "product_ids": [
@@ -36541,6 +36625,7 @@ export const customers = [
   {
     "average_order_value": "$2201.77",
     "customer_name": "Benjamin Patterson",
+    "estimated_ltv": "$12957.61",
     "id": "BP-11230",
     "last_purchase": "2017-12-15",
     "product_ids": [
@@ -36556,6 +36641,7 @@ export const customers = [
   {
     "average_order_value": "$3909.59",
     "customer_name": "Beth Paige",
+    "estimated_ltv": "$78676.63",
     "id": "BP-11290",
     "last_purchase": "2017-12-04",
     "product_ids": [
@@ -36576,6 +36662,7 @@ export const customers = [
   {
     "average_order_value": "$2120.38",
     "customer_name": "Bill Shonely",
+    "estimated_ltv": "$43637.10",
     "id": "BS-11365",
     "last_purchase": "2017-06-20",
     "product_ids": [
@@ -36593,6 +36680,7 @@ export const customers = [
   {
     "average_order_value": "$11897.95",
     "customer_name": "Brendan Sweed",
+    "estimated_ltv": "$98509.31",
     "id": "BS-11590",
     "last_purchase": "2017-09-17",
     "product_ids": [
@@ -36606,6 +36694,7 @@ export const customers = [
   {
     "average_order_value": "$5359.55",
     "customer_name": "Brian Stugart",
+    "estimated_ltv": "$64348.96",
     "id": "BS-11665",
     "last_purchase": "2017-05-27",
     "product_ids": [
@@ -36621,6 +36710,7 @@ export const customers = [
   {
     "average_order_value": "$2434.89",
     "customer_name": "Bruce Stewart",
+    "estimated_ltv": "$72844.16",
     "id": "BS-11755",
     "last_purchase": "2017-11-30",
     "product_ids": [
@@ -36637,6 +36727,7 @@ export const customers = [
   {
     "average_order_value": "$8894.45",
     "customer_name": "Bill Tyler",
+    "estimated_ltv": "$46320.94",
     "id": "BT-11395",
     "last_purchase": "2017-05-19",
     "product_ids": [
@@ -36650,6 +36741,7 @@ export const customers = [
   {
     "average_order_value": "$3112.78",
     "customer_name": "Bobby Trafton",
+    "estimated_ltv": "$31237.11",
     "id": "BT-11440",
     "last_purchase": "2017-06-18",
     "product_ids": [
@@ -36664,6 +36756,7 @@ export const customers = [
   {
     "average_order_value": "$10377.73",
     "customer_name": "Brad Thomas",
+    "estimated_ltv": "$15350.09",
     "id": "BT-11485",
     "last_purchase": "2017-11-03",
     "product_ids": [
@@ -36677,6 +36770,7 @@ export const customers = [
   {
     "average_order_value": "$774.30",
     "customer_name": "Bradley Talbott",
+    "estimated_ltv": "$60497.50",
     "id": "BT-11530",
     "last_purchase": "2017-01-22",
     "product_ids": [
@@ -36691,6 +36785,7 @@ export const customers = [
   {
     "average_order_value": "$9554.31",
     "customer_name": "Brian Thompson",
+    "estimated_ltv": "$132864.12",
     "id": "BT-11680",
     "last_purchase": "2017-10-04",
     "product_ids": [
@@ -36709,6 +36804,7 @@ export const customers = [
   {
     "average_order_value": "$5200.27",
     "customer_name": "Benjamin Venier",
+    "estimated_ltv": "$88460.96",
     "id": "BV-11245",
     "last_purchase": "2017-12-24",
     "product_ids": [
@@ -36725,6 +36821,7 @@ export const customers = [
   {
     "average_order_value": "$8172.13",
     "customer_name": "Bart Watters",
+    "estimated_ltv": "$127241.76",
     "id": "BW-11110",
     "last_purchase": "2017-10-13",
     "product_ids": [
@@ -36744,6 +36841,7 @@ export const customers = [
   {
     "average_order_value": "$7558.60",
     "customer_name": "Ben Wallace",
+    "estimated_ltv": "$60287.78",
     "id": "BW-11200",
     "last_purchase": "2017-10-27",
     "product_ids": [
@@ -36761,6 +36859,7 @@ export const customers = [
   {
     "average_order_value": "$7477.09",
     "customer_name": "Carol Adams",
+    "estimated_ltv": "$85893.43",
     "id": "CA-11965",
     "last_purchase": "2017-12-23",
     "product_ids": [
@@ -36774,6 +36873,7 @@ export const customers = [
   {
     "average_order_value": "$3223.72",
     "customer_name": "Cathy Armstrong",
+    "estimated_ltv": "$50509.19",
     "id": "CA-12055",
     "last_purchase": "2017-11-24",
     "product_ids": [
@@ -36793,6 +36893,7 @@ export const customers = [
   {
     "average_order_value": "$5465.78",
     "customer_name": "Christina Anderson",
+    "estimated_ltv": "$124892.72",
     "id": "CA-12265",
     "last_purchase": "2017-07-02",
     "product_ids": [
@@ -36807,6 +36908,7 @@ export const customers = [
   {
     "average_order_value": "$6173.62",
     "customer_name": "Christine Abelman",
+    "estimated_ltv": "$91232.15",
     "id": "CA-12310",
     "last_purchase": "2017-03-01",
     "product_ids": [
@@ -36822,6 +36924,7 @@ export const customers = [
   {
     "average_order_value": "$5306.46",
     "customer_name": "Cynthia Arntzen",
+    "estimated_ltv": "$90740.86",
     "id": "CA-12775",
     "last_purchase": "2017-11-12",
     "product_ids": [
@@ -36835,6 +36938,7 @@ export const customers = [
   {
     "average_order_value": "$3626.41",
     "customer_name": "Christy Brittain",
+    "estimated_ltv": "$37863.83",
     "id": "CB-12415",
     "last_purchase": "2017-12-06",
     "product_ids": [
@@ -36854,6 +36958,7 @@ export const customers = [
   {
     "average_order_value": "$4535.76",
     "customer_name": "Claudia Bergmann",
+    "estimated_ltv": "$116257.73",
     "id": "CB-12535",
     "last_purchase": "2017-07-11",
     "product_ids": [
@@ -36870,6 +36975,7 @@ export const customers = [
   {
     "average_order_value": "$6746.55",
     "customer_name": "Chad Cunningham",
+    "estimated_ltv": "$92574.36",
     "id": "CC-12100",
     "last_purchase": "2017-09-29",
     "product_ids": [
@@ -36887,6 +36993,7 @@ export const customers = [
   {
     "average_order_value": "$7219.78",
     "customer_name": "Charles Crestani",
+    "estimated_ltv": "$57524.92",
     "id": "CC-12145",
     "last_purchase": "2017-08-26",
     "product_ids": [
@@ -36901,6 +37008,7 @@ export const customers = [
   {
     "average_order_value": "$4678.97",
     "customer_name": "Chris Cortes",
+    "estimated_ltv": "$96596.78",
     "id": "CC-12220",
     "last_purchase": "2017-08-07",
     "product_ids": [
@@ -36922,6 +37030,7 @@ export const customers = [
   {
     "average_order_value": "$7088.78",
     "customer_name": "Christopher Conant",
+    "estimated_ltv": "$97363.96",
     "id": "CC-12370",
     "last_purchase": "2017-08-15",
     "product_ids": [
@@ -36942,6 +37051,7 @@ export const customers = [
   {
     "average_order_value": "$6797.56",
     "customer_name": "Chuck Clark",
+    "estimated_ltv": "$118969.75",
     "id": "CC-12430",
     "last_purchase": "2017-11-13",
     "product_ids": [
@@ -36963,6 +37073,7 @@ export const customers = [
   {
     "average_order_value": "$5440.61",
     "customer_name": "Cindy Chapman",
+    "estimated_ltv": "$85498.93",
     "id": "CC-12475",
     "last_purchase": "2017-07-11",
     "product_ids": [
@@ -36980,6 +37091,7 @@ export const customers = [
   {
     "average_order_value": "$5177.93",
     "customer_name": "Corey Catlett",
+    "estimated_ltv": "$72493.01",
     "id": "CC-12610",
     "last_purchase": "2017-10-10",
     "product_ids": [
@@ -36997,6 +37109,7 @@ export const customers = [
   {
     "average_order_value": "$7715.11",
     "customer_name": "Craig Carreira",
+    "estimated_ltv": "$129711.52",
     "id": "CC-12670",
     "last_purchase": "2017-12-16",
     "product_ids": [
@@ -37012,6 +37125,7 @@ export const customers = [
   {
     "average_order_value": "$8967.47",
     "customer_name": "Carlos Daly",
+    "estimated_ltv": "$105373.03",
     "id": "CD-11920",
     "last_purchase": "2017-12-29",
     "product_ids": [
@@ -37026,6 +37140,7 @@ export const customers = [
   {
     "average_order_value": "$7559.25",
     "customer_name": "Carol Darley",
+    "estimated_ltv": "$41325.26",
     "id": "CD-11980",
     "last_purchase": "2017-11-24",
     "product_ids": [
@@ -37039,6 +37154,7 @@ export const customers = [
   {
     "average_order_value": "$4727.66",
     "customer_name": "Cynthia Delaney",
+    "estimated_ltv": "$66552.85",
     "id": "CD-12790",
     "last_purchase": "2017-11-26",
     "product_ids": [
@@ -37059,6 +37175,7 @@ export const customers = [
   {
     "average_order_value": "$7544.43",
     "customer_name": "Catherine Glotzbach",
+    "estimated_ltv": "$52447.31",
     "id": "CG-12040",
     "last_purchase": "2017-10-24",
     "product_ids": [
@@ -37077,6 +37194,7 @@ export const customers = [
   {
     "average_order_value": "$2634.31",
     "customer_name": "Claire Gute",
+    "estimated_ltv": "$23154.90",
     "id": "CG-12520",
     "last_purchase": "2017-08-11",
     "product_ids": [
@@ -37091,6 +37209,7 @@ export const customers = [
   {
     "average_order_value": "$21882.02",
     "customer_name": "Cathy Hwang",
+    "estimated_ltv": "$31814.42",
     "id": "CH-12070",
     "last_purchase": "2017-08-02",
     "product_ids": [
@@ -37104,6 +37223,7 @@ export const customers = [
   {
     "average_order_value": "$7324.61",
     "customer_name": "Carl Jackson",
+    "estimated_ltv": "$7324.61",
     "id": "CJ-11875",
     "last_purchase": "2017-12-30",
     "product_ids": [
@@ -37117,6 +37237,7 @@ export const customers = [
   {
     "average_order_value": "$4978.41",
     "customer_name": "Caroline Jumper",
+    "estimated_ltv": "$98256.12",
     "id": "CJ-12010",
     "last_purchase": "2017-10-03",
     "product_ids": [
@@ -37140,6 +37261,7 @@ export const customers = [
   {
     "average_order_value": "$8506.83",
     "customer_name": "Chloris Kastensmidt",
+    "estimated_ltv": "$194670.34",
     "id": "CK-12205",
     "last_purchase": "2017-11-21",
     "product_ids": [
@@ -37165,6 +37287,7 @@ export const customers = [
   {
     "average_order_value": "$5487.15",
     "customer_name": "Christine Kargatis",
+    "estimated_ltv": "$84181.82",
     "id": "CK-12325",
     "last_purchase": "2017-08-04",
     "product_ids": [
@@ -37180,6 +37303,7 @@ export const customers = [
   {
     "average_order_value": "$6151.54",
     "customer_name": "Clytie Kelty",
+    "estimated_ltv": "$160054.29",
     "id": "CK-12595",
     "last_purchase": "2017-12-03",
     "product_ids": [
@@ -37202,6 +37326,7 @@ export const customers = [
   {
     "average_order_value": "$5577.33",
     "customer_name": "Cyma Kinney",
+    "estimated_ltv": "$96089.27",
     "id": "CK-12760",
     "last_purchase": "2017-11-13",
     "product_ids": [
@@ -37221,6 +37346,7 @@ export const customers = [
   {
     "average_order_value": "$3224.94",
     "customer_name": "Carl Ludwig",
+    "estimated_ltv": "$32161.87",
     "id": "CL-11890",
     "last_purchase": "2017-01-12",
     "product_ids": [
@@ -37234,6 +37360,7 @@ export const customers = [
   {
     "average_order_value": "$7440.63",
     "customer_name": "Clay Ludtke",
+    "estimated_ltv": "$229990.59",
     "id": "CL-12565",
     "last_purchase": "2017-12-19",
     "product_ids": [
@@ -37261,6 +37388,7 @@ export const customers = [
   {
     "average_order_value": "$8160.63",
     "customer_name": "Craig Leslie",
+    "estimated_ltv": "$65215.67",
     "id": "CL-12700",
     "last_purchase": "2017-09-24",
     "product_ids": [
@@ -37278,6 +37406,7 @@ export const customers = [
   {
     "average_order_value": "$16325.25",
     "customer_name": "Candace McMahon",
+    "estimated_ltv": "$77932.57",
     "id": "CM-11815",
     "last_purchase": "2017-09-23",
     "product_ids": [
@@ -37291,6 +37420,7 @@ export const customers = [
   {
     "average_order_value": "$12333.77",
     "customer_name": "Carlos Meador",
+    "estimated_ltv": "$40519.03",
     "id": "CM-11935",
     "last_purchase": "2017-01-22",
     "product_ids": [
@@ -37306,6 +37436,7 @@ export const customers = [
   {
     "average_order_value": "$3627.46",
     "customer_name": "Charles McCrossin",
+    "estimated_ltv": "$49992.39",
     "id": "CM-12160",
     "last_purchase": "2017-12-17",
     "product_ids": [
@@ -37320,6 +37451,7 @@ export const customers = [
   {
     "average_order_value": "$7678.46",
     "customer_name": "Chris McAfee",
+    "estimated_ltv": "$61427.66",
     "id": "CM-12235",
     "last_purchase": "2017-12-08",
     "product_ids": [
@@ -37340,6 +37472,7 @@ export const customers = [
   {
     "average_order_value": "$4791.41",
     "customer_name": "Chuck Magee",
+    "estimated_ltv": "$39114.41",
     "id": "CM-12445",
     "last_purchase": "2017-10-20",
     "product_ids": [
@@ -37359,6 +37492,7 @@ export const customers = [
   {
     "average_order_value": "$12839.86",
     "customer_name": "Corinna Mitchell",
+    "estimated_ltv": "$69288.55",
     "id": "CM-12655",
     "last_purchase": "2017-11-13",
     "product_ids": [
@@ -37374,6 +37508,7 @@ export const customers = [
   {
     "average_order_value": "$6454.52",
     "customer_name": "Cathy Prescott",
+    "estimated_ltv": "$87519.63",
     "id": "CP-12085",
     "last_purchase": "2017-05-26",
     "product_ids": [
@@ -37389,6 +37524,7 @@ export const customers = [
   {
     "average_order_value": "$8504.54",
     "customer_name": "Christine Phan",
+    "estimated_ltv": "$91305.49",
     "id": "CP-12340",
     "last_purchase": "2017-10-14",
     "product_ids": [
@@ -37406,6 +37542,7 @@ export const customers = [
   {
     "average_order_value": "$7172.60",
     "customer_name": "Clay Rozendal",
+    "estimated_ltv": "$36905.53",
     "id": "CR-12580",
     "last_purchase": "2017-11-24",
     "product_ids": [
@@ -37422,6 +37559,7 @@ export const customers = [
   {
     "average_order_value": "$20205.80",
     "customer_name": "Corey Roper",
+    "estimated_ltv": "$36350.96",
     "id": "CR-12625",
     "last_purchase": "2017-09-16",
     "product_ids": [
@@ -37435,6 +37573,7 @@ export const customers = [
   {
     "average_order_value": "$5357.74",
     "customer_name": "Craig Reiter",
+    "estimated_ltv": "$24212.72",
     "id": "CR-12730",
     "last_purchase": "2017-12-06",
     "product_ids": [
@@ -37451,6 +37590,7 @@ export const customers = [
   {
     "average_order_value": "$4682.87",
     "customer_name": "Carlos Soltero",
+    "estimated_ltv": "$124452.57",
     "id": "CS-11950",
     "last_purchase": "2017-10-21",
     "product_ids": [
@@ -37471,6 +37611,7 @@ export const customers = [
   {
     "average_order_value": "$7496.90",
     "customer_name": "Chad Sievert",
+    "estimated_ltv": "$41930.40",
     "id": "CS-12130",
     "last_purchase": "2017-08-28",
     "product_ids": [
@@ -37485,6 +37626,7 @@ export const customers = [
   {
     "average_order_value": "$14003.92",
     "customer_name": "Charles Sheldon",
+    "estimated_ltv": "$66162.68",
     "id": "CS-12175",
     "last_purchase": "2017-09-26",
     "product_ids": [
@@ -37499,6 +37641,7 @@ export const customers = [
   {
     "average_order_value": "$3987.68",
     "customer_name": "Chris Selesnick",
+    "estimated_ltv": "$138514.76",
     "id": "CS-12250",
     "last_purchase": "2017-09-22",
     "product_ids": [
@@ -37514,6 +37657,7 @@ export const customers = [
   {
     "average_order_value": "$10949.94",
     "customer_name": "Christine Sundaresam",
+    "estimated_ltv": "$186511.18",
     "id": "CS-12355",
     "last_purchase": "2017-03-17",
     "product_ids": [
@@ -37527,6 +37671,7 @@ export const customers = [
   {
     "average_order_value": "$13698.23",
     "customer_name": "Christopher Schild",
+    "estimated_ltv": "$134690.31",
     "id": "CS-12400",
     "last_purchase": "2017-10-05",
     "product_ids": [
@@ -37541,6 +37686,7 @@ export const customers = [
   {
     "average_order_value": "$4552.60",
     "customer_name": "Cindy Schnelling",
+    "estimated_ltv": "$30992.92",
     "id": "CS-12490",
     "last_purchase": "2017-12-08",
     "product_ids": [
@@ -37557,6 +37703,7 @@ export const customers = [
   {
     "average_order_value": "$5673.74",
     "customer_name": "Cindy Stewart",
+    "estimated_ltv": "$58985.55",
     "id": "CS-12505",
     "last_purchase": "2017-11-25",
     "product_ids": [
@@ -37574,6 +37721,7 @@ export const customers = [
   {
     "average_order_value": "$9765.31",
     "customer_name": "Carol Triggs",
+    "estimated_ltv": "$120891.56",
     "id": "CT-11995",
     "last_purchase": "2017-11-26",
     "product_ids": [
@@ -37589,6 +37737,7 @@ export const customers = [
   {
     "average_order_value": "$2619.85",
     "customer_name": "Christina VanderZanden",
+    "estimated_ltv": "$54685.96",
     "id": "CV-12295",
     "last_purchase": "2017-04-09",
     "product_ids": [
@@ -37604,6 +37753,7 @@ export const customers = [
   {
     "average_order_value": "$5819.57",
     "customer_name": "Cynthia Voltz",
+    "estimated_ltv": "$135005.83",
     "id": "CV-12805",
     "last_purchase": "2017-09-05",
     "product_ids": [
@@ -37622,6 +37772,7 @@ export const customers = [
   {
     "average_order_value": "$9978.65",
     "customer_name": "Carl Weiss",
+    "estimated_ltv": "$68869.50",
     "id": "CW-11905",
     "last_purchase": "2017-04-11",
     "product_ids": [
@@ -37637,6 +37788,7 @@ export const customers = [
   {
     "average_order_value": "$10777.21",
     "customer_name": "Craig Yedwab",
+    "estimated_ltv": "$53829.87",
     "id": "CY-12745",
     "last_purchase": "2017-08-15",
     "product_ids": [
@@ -37652,6 +37804,7 @@ export const customers = [
   {
     "average_order_value": "$1826.08",
     "customer_name": "Corey-Lock",
+    "estimated_ltv": "$48521.31",
     "id": "Co-12640",
     "last_purchase": "2017-06-29",
     "product_ids": [
@@ -37665,6 +37818,7 @@ export const customers = [
   {
     "average_order_value": "$6505.94",
     "customer_name": "Daniel Byrd",
+    "estimated_ltv": "$127099.14",
     "id": "DB-12910",
     "last_purchase": "2017-09-09",
     "product_ids": [
@@ -37683,6 +37837,7 @@ export const customers = [
   {
     "average_order_value": "$15718.46",
     "customer_name": "Darren Budd",
+    "estimated_ltv": "$109307.39",
     "id": "DB-12970",
     "last_purchase": "2017-12-25",
     "product_ids": [
@@ -37698,6 +37853,7 @@ export const customers = [
   {
     "average_order_value": "$6843.32",
     "customer_name": "Dave Brooks",
+    "estimated_ltv": "$53539.55",
     "id": "DB-13060",
     "last_purchase": "2017-06-06",
     "product_ids": [
@@ -37712,6 +37868,7 @@ export const customers = [
   {
     "average_order_value": "$6701.28",
     "customer_name": "Dean Braden",
+    "estimated_ltv": "$126103.92",
     "id": "DB-13210",
     "last_purchase": "2017-11-30",
     "product_ids": [
@@ -37734,6 +37891,7 @@ export const customers = [
   {
     "average_order_value": "$6061.42",
     "customer_name": "Deborah Brumfield",
+    "estimated_ltv": "$94448.26",
     "id": "DB-13270",
     "last_purchase": "2017-12-08",
     "product_ids": [
@@ -37751,6 +37909,7 @@ export const customers = [
   {
     "average_order_value": "$6310.91",
     "customer_name": "Dennis Bolton",
+    "estimated_ltv": "$48378.87",
     "id": "DB-13360",
     "last_purchase": "2017-04-26",
     "product_ids": [
@@ -37765,6 +37924,7 @@ export const customers = [
   {
     "average_order_value": "$9587.43",
     "customer_name": "Doug Bickford",
+    "estimated_ltv": "$84792.26",
     "id": "DB-13615",
     "last_purchase": "2017-08-12",
     "product_ids": [
@@ -37780,6 +37940,7 @@ export const customers = [
   {
     "average_order_value": "$15245.94",
     "customer_name": "Duane Benoit",
+    "estimated_ltv": "$54576.84",
     "id": "DB-13660",
     "last_purchase": "2017-12-31",
     "product_ids": [
@@ -37793,6 +37954,7 @@ export const customers = [
   {
     "average_order_value": "$9210.92",
     "customer_name": "Dan Campbell",
+    "estimated_ltv": "$130057.84",
     "id": "DC-12850",
     "last_purchase": "2017-03-24",
     "product_ids": [
@@ -37807,6 +37969,7 @@ export const customers = [
   {
     "average_order_value": "$12322.39",
     "customer_name": "Debra Catini",
+    "estimated_ltv": "$69503.91",
     "id": "DC-13285",
     "last_purchase": "2017-10-11",
     "product_ids": [
@@ -37820,6 +37983,7 @@ export const customers = [
   {
     "average_order_value": "$13190.40",
     "customer_name": "Dorothy Dickinson",
+    "estimated_ltv": "$40579.44",
     "id": "DD-13570",
     "last_purchase": "2017-08-22",
     "product_ids": [
@@ -37833,6 +37997,7 @@ export const customers = [
   {
     "average_order_value": "$3983.20",
     "customer_name": "Deanra Eno",
+    "estimated_ltv": "$48651.41",
     "id": "DE-13255",
     "last_purchase": "2017-11-01",
     "product_ids": [
@@ -37848,6 +38013,7 @@ export const customers = [
   {
     "average_order_value": "$7529.90",
     "customer_name": "David Flashing",
+    "estimated_ltv": "$35204.41",
     "id": "DF-13135",
     "last_purchase": "2017-01-30",
     "product_ids": [
@@ -37863,6 +38029,7 @@ export const customers = [
   {
     "average_order_value": "$5031.44",
     "customer_name": "Deirdre Greer",
+    "estimated_ltv": "$50349.25",
     "id": "DG-13300",
     "last_purchase": "2017-08-22",
     "product_ids": [
@@ -37876,6 +38043,7 @@ export const customers = [
   {
     "average_order_value": "$922.88",
     "customer_name": "Dave Hallsten",
+    "estimated_ltv": "$100868.09",
     "id": "DH-13075",
     "last_purchase": "2017-06-24",
     "product_ids": [
@@ -37889,6 +38057,7 @@ export const customers = [
   {
     "average_order_value": "$3230.27",
     "customer_name": "Denny Joy",
+    "estimated_ltv": "$12537.52",
     "id": "DJ-13420",
     "last_purchase": "2017-02-04",
     "product_ids": [
@@ -37902,6 +38071,7 @@ export const customers = [
   {
     "average_order_value": "$1959.06",
     "customer_name": "Don Jones",
+    "estimated_ltv": "$113054.50",
     "id": "DJ-13510",
     "last_purchase": "2017-08-26",
     "product_ids": [
@@ -37915,6 +38085,7 @@ export const customers = [
   {
     "average_order_value": "$10790.30",
     "customer_name": "Doug Jacobs",
+    "estimated_ltv": "$66413.29",
     "id": "DJ-13630",
     "last_purchase": "2017-11-19",
     "product_ids": [
@@ -37930,6 +38101,7 @@ export const customers = [
   {
     "average_order_value": "$5633.63",
     "customer_name": "Damala Kotsonis",
+    "estimated_ltv": "$146525.49",
     "id": "DK-12835",
     "last_purchase": "2017-09-12",
     "product_ids": [
@@ -37947,6 +38119,7 @@ export const customers = [
   {
     "average_order_value": "$5658.83",
     "customer_name": "Dave Kipp",
+    "estimated_ltv": "$112873.45",
     "id": "DK-13090",
     "last_purchase": "2017-02-14",
     "product_ids": [
@@ -37963,6 +38136,7 @@ export const customers = [
   {
     "average_order_value": "$8228.13",
     "customer_name": "Dean Katz",
+    "estimated_ltv": "$127943.76",
     "id": "DK-13225",
     "last_purchase": "2017-12-03",
     "product_ids": [
@@ -37984,6 +38158,7 @@ export const customers = [
   {
     "average_order_value": "$5177.07",
     "customer_name": "Dennis Kane",
+    "estimated_ltv": "$136519.30",
     "id": "DK-13375",
     "last_purchase": "2017-07-22",
     "product_ids": [
@@ -38007,6 +38182,7 @@ export const customers = [
   {
     "average_order_value": "$3950.87",
     "customer_name": "Dan Lawera",
+    "estimated_ltv": "$51383.65",
     "id": "DL-12865",
     "last_purchase": "2017-02-27",
     "product_ids": [
@@ -38021,6 +38197,7 @@ export const customers = [
   {
     "average_order_value": "$10107.90",
     "customer_name": "Delfina Latchford",
+    "estimated_ltv": "$112455.90",
     "id": "DL-13315",
     "last_purchase": "2017-10-12",
     "product_ids": [
@@ -38038,6 +38215,7 @@ export const customers = [
   {
     "average_order_value": "$4085.44",
     "customer_name": "Denise Leinenbach",
+    "estimated_ltv": "$69500.80",
     "id": "DL-13330",
     "last_purchase": "2017-10-28",
     "product_ids": [
@@ -38051,6 +38229,7 @@ export const customers = [
   {
     "average_order_value": "$11152.71",
     "customer_name": "Dionis Lloyd",
+    "estimated_ltv": "$73495.24",
     "id": "DL-13495",
     "last_purchase": "2017-07-22",
     "product_ids": [
@@ -38066,6 +38245,7 @@ export const customers = [
   {
     "average_order_value": "$10203.31",
     "customer_name": "Dario Medina",
+    "estimated_ltv": "$74064.71",
     "id": "DM-12955",
     "last_purchase": "2017-09-29",
     "product_ids": [
@@ -38081,6 +38261,7 @@ export const customers = [
   {
     "average_order_value": "$11683.01",
     "customer_name": "Darrin Martin",
+    "estimated_ltv": "$156499.46",
     "id": "DM-13015",
     "last_purchase": "2017-05-09",
     "product_ids": [
@@ -38099,6 +38280,7 @@ export const customers = [
   {
     "average_order_value": "$8550.76",
     "customer_name": "Denise Monton",
+    "estimated_ltv": "$83273.75",
     "id": "DM-13345",
     "last_purchase": "2017-11-21",
     "product_ids": [
@@ -38115,6 +38297,7 @@ export const customers = [
   {
     "average_order_value": "$6840.58",
     "customer_name": "Don Miller",
+    "estimated_ltv": "$55790.62",
     "id": "DM-13525",
     "last_purchase": "2017-05-09",
     "product_ids": [
@@ -38130,6 +38313,7 @@ export const customers = [
   {
     "average_order_value": "$5166.80",
     "customer_name": "Duane Noonan",
+    "estimated_ltv": "$53457.13",
     "id": "DN-13690",
     "last_purchase": "2017-12-22",
     "product_ids": [
@@ -38146,6 +38330,7 @@ export const customers = [
   {
     "average_order_value": "$1301.49",
     "customer_name": "Denny Ordway",
+    "estimated_ltv": "$94375.92",
     "id": "DO-13435",
     "last_purchase": "2017-05-16",
     "product_ids": [
@@ -38159,6 +38344,7 @@ export const customers = [
   {
     "average_order_value": "$7630.93",
     "customer_name": "Darren Powers",
+    "estimated_ltv": "$123474.31",
     "id": "DP-13000",
     "last_purchase": "2017-11-14",
     "product_ids": [
@@ -38174,6 +38360,7 @@ export const customers = [
   {
     "average_order_value": "$9449.81",
     "customer_name": "Dave Poirier",
+    "estimated_ltv": "$119235.89",
     "id": "DP-13105",
     "last_purchase": "2017-09-23",
     "product_ids": [
@@ -38193,6 +38380,7 @@ export const customers = [
   {
     "average_order_value": "$8442.81",
     "customer_name": "Dennis Pardue",
+    "estimated_ltv": "$95229.27",
     "id": "DP-13390",
     "last_purchase": "2017-10-21",
     "product_ids": [
@@ -38209,6 +38397,7 @@ export const customers = [
   {
     "average_order_value": "$6621.69",
     "customer_name": "Dan Reichenbach",
+    "estimated_ltv": "$199719.95",
     "id": "DR-12880",
     "last_purchase": "2017-08-26",
     "product_ids": [
@@ -38225,6 +38414,7 @@ export const customers = [
   {
     "average_order_value": "$5063.15",
     "customer_name": "Daniel Raglin",
+    "estimated_ltv": "$90881.01",
     "id": "DR-12940",
     "last_purchase": "2017-11-29",
     "product_ids": [
@@ -38241,6 +38431,7 @@ export const customers = [
   {
     "average_order_value": "$6481.92",
     "customer_name": "David Smith",
+    "estimated_ltv": "$122949.21",
     "id": "DS-13180",
     "last_purchase": "2017-12-14",
     "product_ids": [
@@ -38263,6 +38454,7 @@ export const customers = [
   {
     "average_order_value": "$5366.67",
     "customer_name": "Darrin Van Huff",
+    "estimated_ltv": "$28347.50",
     "id": "DV-13045",
     "last_purchase": "2017-12-06",
     "product_ids": [
@@ -38278,6 +38470,7 @@ export const customers = [
   {
     "average_order_value": "$6640.21",
     "customer_name": "Dianna Vittorini",
+    "estimated_ltv": "$91092.29",
     "id": "DV-13465",
     "last_purchase": "2017-10-09",
     "product_ids": [
@@ -38291,6 +38484,7 @@ export const customers = [
   {
     "average_order_value": "$2669.99",
     "customer_name": "David Wiener",
+    "estimated_ltv": "$27929.95",
     "id": "DW-13195",
     "last_purchase": "2017-11-20",
     "product_ids": [
@@ -38306,6 +38500,7 @@ export const customers = [
   {
     "average_order_value": "$3015.83",
     "customer_name": "Dianna Wilson",
+    "estimated_ltv": "$90671.85",
     "id": "DW-13480",
     "last_purchase": "2017-12-11",
     "product_ids": [
@@ -38322,6 +38517,7 @@ export const customers = [
   {
     "average_order_value": "$2681.98",
     "customer_name": "Don Weiss",
+    "estimated_ltv": "$57562.25",
     "id": "DW-13540",
     "last_purchase": "2017-02-27",
     "product_ids": [
@@ -38336,6 +38532,7 @@ export const customers = [
   {
     "average_order_value": "$2929.35",
     "customer_name": "Dorothy Wardle",
+    "estimated_ltv": "$70179.57",
     "id": "DW-13585",
     "last_purchase": "2017-09-26",
     "product_ids": [
@@ -38350,6 +38547,7 @@ export const customers = [
   {
     "average_order_value": "$1953.80",
     "customer_name": "Dorris liebe",
+    "estimated_ltv": "$10828.43",
     "id": "Dl-13600",
     "last_purchase": "2017-07-04",
     "product_ids": [
@@ -38363,6 +38561,7 @@ export const customers = [
   {
     "average_order_value": "$12376.38",
     "customer_name": "Dean percer",
+    "estimated_ltv": "$210740.99",
     "id": "Dp-13240",
     "last_purchase": "2017-01-15",
     "product_ids": [
@@ -38378,6 +38577,7 @@ export const customers = [
   {
     "average_order_value": "$5884.06",
     "customer_name": "Erin Ashbrook",
+    "estimated_ltv": "$127847.61",
     "id": "EA-14035",
     "last_purchase": "2017-12-06",
     "product_ids": [
@@ -38402,6 +38602,7 @@ export const customers = [
   {
     "average_order_value": "$10435.60",
     "customer_name": "Ed Braxton",
+    "estimated_ltv": "$68970.57",
     "id": "EB-13705",
     "last_purchase": "2017-07-03",
     "product_ids": [
@@ -38416,6 +38617,7 @@ export const customers = [
   {
     "average_order_value": "$5303.90",
     "customer_name": "Edward Becker",
+    "estimated_ltv": "$91946.01",
     "id": "EB-13750",
     "last_purchase": "2017-11-11",
     "product_ids": [
@@ -38439,6 +38641,7 @@ export const customers = [
   {
     "average_order_value": "$41.70",
     "customer_name": "Ellis Ballard",
+    "estimated_ltv": "$28939.87",
     "id": "EB-13840",
     "last_purchase": "2017-04-12",
     "product_ids": [
@@ -38452,6 +38655,7 @@ export const customers = [
   {
     "average_order_value": "$9774.91",
     "customer_name": "Emily Burns",
+    "estimated_ltv": "$64131.72",
     "id": "EB-13870",
     "last_purchase": "2017-09-12",
     "product_ids": [
@@ -38466,6 +38670,7 @@ export const customers = [
   {
     "average_order_value": "$5587.01",
     "customer_name": "Eric Barreto",
+    "estimated_ltv": "$53129.49",
     "id": "EB-13930",
     "last_purchase": "2017-10-22",
     "product_ids": [
@@ -38482,6 +38687,7 @@ export const customers = [
   {
     "average_order_value": "$10249.50",
     "customer_name": "Erica Bern",
+    "estimated_ltv": "$47354.28",
     "id": "EB-13975",
     "last_purchase": "2017-10-10",
     "product_ids": [
@@ -38498,6 +38704,7 @@ export const customers = [
   {
     "average_order_value": "$6414.07",
     "customer_name": "Eugene Barchas",
+    "estimated_ltv": "$80444.52",
     "id": "EB-14110",
     "last_purchase": "2017-11-14",
     "product_ids": [
@@ -38515,6 +38722,7 @@ export const customers = [
   {
     "average_order_value": "$6309.53",
     "customer_name": "Evan Bailliet",
+    "estimated_ltv": "$39097.77",
     "id": "EB-14170",
     "last_purchase": "2017-05-11",
     "product_ids": [
@@ -38528,6 +38736,7 @@ export const customers = [
   {
     "average_order_value": "$15085.59",
     "customer_name": "Erin Creighton",
+    "estimated_ltv": "$79874.50",
     "id": "EC-14050",
     "last_purchase": "2017-12-12",
     "product_ids": [
@@ -38542,6 +38751,7 @@ export const customers = [
   {
     "average_order_value": "$8804.90",
     "customer_name": "Emily Ducich",
+    "estimated_ltv": "$140429.33",
     "id": "ED-13885",
     "last_purchase": "2017-12-22",
     "product_ids": [
@@ -38557,6 +38767,7 @@ export const customers = [
   {
     "average_order_value": "$7131.32",
     "customer_name": "Emily Grady",
+    "estimated_ltv": "$62312.07",
     "id": "EG-13900",
     "last_purchase": "2017-03-12",
     "product_ids": [
@@ -38574,6 +38785,7 @@ export const customers = [
   {
     "average_order_value": "$7028.07",
     "customer_name": "Edward Hooks",
+    "estimated_ltv": "$180531.12",
     "id": "EH-13765",
     "last_purchase": "2017-12-23",
     "product_ids": [
@@ -38603,6 +38815,7 @@ export const customers = [
   {
     "average_order_value": "$6427.28",
     "customer_name": "Eric Hoffmann",
+    "estimated_ltv": "$96984.11",
     "id": "EH-13945",
     "last_purchase": "2017-11-26",
     "product_ids": [
@@ -38626,6 +38839,7 @@ export const customers = [
   {
     "average_order_value": "$13516.48",
     "customer_name": "Erica Hackney",
+    "estimated_ltv": "$69815.94",
     "id": "EH-13990",
     "last_purchase": "2017-11-20",
     "product_ids": [
@@ -38640,6 +38854,7 @@ export const customers = [
   {
     "average_order_value": "$10233.77",
     "customer_name": "Erica Hernandez",
+    "estimated_ltv": "$77147.55",
     "id": "EH-14005",
     "last_purchase": "2017-04-28",
     "product_ids": [
@@ -38653,6 +38868,7 @@ export const customers = [
   {
     "average_order_value": "$6743.59",
     "customer_name": "Eugene Hildebrand",
+    "estimated_ltv": "$89239.12",
     "id": "EH-14125",
     "last_purchase": "2017-09-19",
     "product_ids": [
@@ -38672,6 +38888,7 @@ export const customers = [
   {
     "average_order_value": "$6113.04",
     "customer_name": "Evan Henry",
+    "estimated_ltv": "$34995.64",
     "id": "EH-14185",
     "last_purchase": "2017-12-30",
     "product_ids": [
@@ -38686,6 +38903,7 @@ export const customers = [
   {
     "average_order_value": "$4786.52",
     "customer_name": "Eva Jacobs",
+    "estimated_ltv": "$46261.40",
     "id": "EJ-14155",
     "last_purchase": "2017-01-12",
     "product_ids": [
@@ -38702,6 +38920,7 @@ export const customers = [
   {
     "average_order_value": "$3925.17",
     "customer_name": "Ed Ludwig",
+    "estimated_ltv": "$7637.14",
     "id": "EL-13735",
     "last_purchase": "2017-04-22",
     "product_ids": [
@@ -38715,6 +38934,7 @@ export const customers = [
   {
     "average_order_value": "$15705.33",
     "customer_name": "Eleni McCrary",
+    "estimated_ltv": "$49407.55",
     "id": "EM-13810",
     "last_purchase": "2017-04-03",
     "product_ids": [
@@ -38728,6 +38948,7 @@ export const customers = [
   {
     "average_order_value": "$8812.46",
     "customer_name": "Elizabeth Moffitt",
+    "estimated_ltv": "$130030.35",
     "id": "EM-13825",
     "last_purchase": "2017-08-27",
     "product_ids": [
@@ -38742,6 +38963,7 @@ export const customers = [
   {
     "average_order_value": "$5397.30",
     "customer_name": "Erin Mull",
+    "estimated_ltv": "$32957.70",
     "id": "EM-14065",
     "last_purchase": "2017-08-13",
     "product_ids": [
@@ -38756,6 +38978,7 @@ export const customers = [
   {
     "average_order_value": "$9259.71",
     "customer_name": "Eudokia Martin",
+    "estimated_ltv": "$83622.60",
     "id": "EM-14095",
     "last_purchase": "2017-07-11",
     "product_ids": [
@@ -38772,6 +38995,7 @@ export const customers = [
   {
     "average_order_value": "$5278.44",
     "customer_name": "Eugene Moren",
+    "estimated_ltv": "$107200.43",
     "id": "EM-14140",
     "last_purchase": "2017-12-27",
     "product_ids": [
@@ -38794,6 +39018,7 @@ export const customers = [
   {
     "average_order_value": "$5211.07",
     "customer_name": "Edward Nazzal",
+    "estimated_ltv": "$41978.33",
     "id": "EN-13780",
     "last_purchase": "2017-09-20",
     "product_ids": [
@@ -38811,6 +39036,7 @@ export const customers = [
   {
     "average_order_value": "$5783.37",
     "customer_name": "Emily Phan",
+    "estimated_ltv": "$185771.26",
     "id": "EP-13915",
     "last_purchase": "2017-12-31",
     "product_ids": [
@@ -38835,6 +39061,7 @@ export const customers = [
   {
     "average_order_value": "$2714.78",
     "customer_name": "Elpida Rittenbach",
+    "estimated_ltv": "$15548.53",
     "id": "ER-13855",
     "last_purchase": "2017-06-09",
     "product_ids": [
@@ -38851,6 +39078,7 @@ export const customers = [
   {
     "average_order_value": "$152.11",
     "customer_name": "Erica Smith",
+    "estimated_ltv": "$34090.57",
     "id": "ES-14020",
     "last_purchase": "2017-11-06",
     "product_ids": [
@@ -38864,6 +39092,7 @@ export const customers = [
   {
     "average_order_value": "$7133.75",
     "customer_name": "Erin Smith",
+    "estimated_ltv": "$123450.43",
     "id": "ES-14080",
     "last_purchase": "2017-12-19",
     "product_ids": [
@@ -38882,6 +39111,7 @@ export const customers = [
   {
     "average_order_value": "$3965.92",
     "customer_name": "Frank Atkinson",
+    "estimated_ltv": "$96308.71",
     "id": "FA-14230",
     "last_purchase": "2017-11-20",
     "product_ids": [
@@ -38897,6 +39127,7 @@ export const customers = [
   {
     "average_order_value": "$6818.87",
     "customer_name": "Frank Carlisle",
+    "estimated_ltv": "$75346.12",
     "id": "FC-14245",
     "last_purchase": "2017-10-17",
     "product_ids": [
@@ -38911,6 +39142,7 @@ export const customers = [
   {
     "average_order_value": "$12619.42",
     "customer_name": "Fred Chung",
+    "estimated_ltv": "$92555.96",
     "id": "FC-14335",
     "last_purchase": "2017-03-15",
     "product_ids": [
@@ -38925,6 +39157,7 @@ export const customers = [
   {
     "average_order_value": "$8874.21",
     "customer_name": "Frank Hawley",
+    "estimated_ltv": "$213878.77",
     "id": "FH-14275",
     "last_purchase": "2017-12-11",
     "product_ids": [
@@ -38943,6 +39176,7 @@ export const customers = [
   {
     "average_order_value": "$913.93",
     "customer_name": "Fred Hopkins",
+    "estimated_ltv": "$59914.64",
     "id": "FH-14365",
     "last_purchase": "2017-01-12",
     "product_ids": [
@@ -38956,6 +39190,7 @@ export const customers = [
   {
     "average_order_value": "$8139.38",
     "customer_name": "Filia McAdams",
+    "estimated_ltv": "$110740.56",
     "id": "FM-14215",
     "last_purchase": "2017-12-05",
     "product_ids": [
@@ -38975,6 +39210,7 @@ export const customers = [
   {
     "average_order_value": "$8904.34",
     "customer_name": "Frank Merwin",
+    "estimated_ltv": "$162989.31",
     "id": "FM-14290",
     "last_purchase": "2017-12-23",
     "product_ids": [
@@ -38992,6 +39228,7 @@ export const customers = [
   {
     "average_order_value": "$6009.49",
     "customer_name": "Fred McMath",
+    "estimated_ltv": "$114930.68",
     "id": "FM-14380",
     "last_purchase": "2017-11-12",
     "product_ids": [
@@ -39011,6 +39248,7 @@ export const customers = [
   {
     "average_order_value": "$2141.68",
     "customer_name": "Frank Olsen",
+    "estimated_ltv": "$92904.32",
     "id": "FO-14305",
     "last_purchase": "2017-12-29",
     "product_ids": [
@@ -39026,6 +39264,7 @@ export const customers = [
   {
     "average_order_value": "$5932.06",
     "customer_name": "Frank Preis",
+    "estimated_ltv": "$96177.14",
     "id": "FP-14320",
     "last_purchase": "2017-12-26",
     "product_ids": [
@@ -39044,6 +39283,7 @@ export const customers = [
   {
     "average_order_value": "$9633.95",
     "customer_name": "Fred Wasserman",
+    "estimated_ltv": "$18243.42",
     "id": "FW-14395",
     "last_purchase": "2017-05-09",
     "product_ids": [
@@ -39057,6 +39297,7 @@ export const customers = [
   {
     "average_order_value": "$20044.10",
     "customer_name": "George Ashbrook",
+    "estimated_ltv": "$101199.47",
     "id": "GA-14515",
     "last_purchase": "2017-11-26",
     "product_ids": [
@@ -39071,6 +39312,7 @@ export const customers = [
   {
     "average_order_value": "$6076.68",
     "customer_name": "George Bell",
+    "estimated_ltv": "$92088.67",
     "id": "GB-14530",
     "last_purchase": "2017-09-12",
     "product_ids": [
@@ -39091,6 +39333,7 @@ export const customers = [
   {
     "average_order_value": "$3192.41",
     "customer_name": "Giulietta Baptist",
+    "estimated_ltv": "$90106.72",
     "id": "GB-14575",
     "last_purchase": "2017-08-03",
     "product_ids": [
@@ -39106,6 +39349,7 @@ export const customers = [
   {
     "average_order_value": "$8808.07",
     "customer_name": "Giulietta Dortch",
+    "estimated_ltv": "$46581.78",
     "id": "GD-14590",
     "last_purchase": "2017-11-09",
     "product_ids": [
@@ -39120,6 +39364,7 @@ export const customers = [
   {
     "average_order_value": "$9013.03",
     "customer_name": "Greg Guthrie",
+    "estimated_ltv": "$188532.82",
     "id": "GG-14650",
     "last_purchase": "2017-11-27",
     "product_ids": [
@@ -39136,6 +39381,7 @@ export const customers = [
   {
     "average_order_value": "$7940.78",
     "customer_name": "Gary Hansen",
+    "estimated_ltv": "$109336.46",
     "id": "GH-14410",
     "last_purchase": "2017-09-08",
     "product_ids": [
@@ -39152,6 +39398,7 @@ export const customers = [
   {
     "average_order_value": "$2696.66",
     "customer_name": "Gene Hale",
+    "estimated_ltv": "$10621.45",
     "id": "GH-14485",
     "last_purchase": "2017-08-12",
     "product_ids": [
@@ -39166,6 +39413,7 @@ export const customers = [
   {
     "average_order_value": "$5751.34",
     "customer_name": "Grace Kelly",
+    "estimated_ltv": "$107072.47",
     "id": "GK-14620",
     "last_purchase": "2017-12-25",
     "product_ids": [
@@ -39184,6 +39432,7 @@ export const customers = [
   {
     "average_order_value": "$6640.86",
     "customer_name": "Gary McGarr",
+    "estimated_ltv": "$91702.12",
     "id": "GM-14440",
     "last_purchase": "2017-03-12",
     "product_ids": [
@@ -39197,6 +39446,7 @@ export const customers = [
   {
     "average_order_value": "$5388.66",
     "customer_name": "Gary Mitchum",
+    "estimated_ltv": "$65750.78",
     "id": "GM-14455",
     "last_purchase": "2017-05-04",
     "product_ids": [
@@ -39212,6 +39462,7 @@ export const customers = [
   {
     "average_order_value": "$5411.46",
     "customer_name": "Gene McClure",
+    "estimated_ltv": "$60133.91",
     "id": "GM-14500",
     "last_purchase": "2017-10-05",
     "product_ids": [
@@ -39227,6 +39478,7 @@ export const customers = [
   {
     "average_order_value": "$5129.22",
     "customer_name": "Greg Matthias",
+    "estimated_ltv": "$87803.67",
     "id": "GM-14680",
     "last_purchase": "2017-09-30",
     "product_ids": [
@@ -39242,6 +39494,7 @@ export const customers = [
   {
     "average_order_value": "$10140.31",
     "customer_name": "Greg Maxwell",
+    "estimated_ltv": "$78427.38",
     "id": "GM-14695",
     "last_purchase": "2017-09-20",
     "product_ids": [
@@ -39259,6 +39512,7 @@ export const customers = [
   {
     "average_order_value": "$4013.16",
     "customer_name": "Greg Tran",
+    "estimated_ltv": "$149281.89",
     "id": "GT-14710",
     "last_purchase": "2017-06-13",
     "product_ids": [
@@ -39282,6 +39536,7 @@ export const customers = [
   {
     "average_order_value": "$2903.88",
     "customer_name": "Guy Thornton",
+    "estimated_ltv": "$36983.99",
     "id": "GT-14755",
     "last_purchase": "2017-03-07",
     "product_ids": [
@@ -39296,6 +39551,7 @@ export const customers = [
   {
     "average_order_value": "$7276.66",
     "customer_name": "Giulietta Weimer",
+    "estimated_ltv": "$63632.79",
     "id": "GW-14605",
     "last_purchase": "2017-10-21",
     "product_ids": [
@@ -39311,6 +39567,7 @@ export const customers = [
   {
     "average_order_value": "$6905.01",
     "customer_name": "Gary Zandusky",
+    "estimated_ltv": "$78744.76",
     "id": "GZ-14470",
     "last_purchase": "2017-03-17",
     "product_ids": [
@@ -39327,6 +39584,7 @@ export const customers = [
   {
     "average_order_value": "$73.27",
     "customer_name": "Helen Abelman",
+    "estimated_ltv": "$46950.19",
     "id": "HA-14905",
     "last_purchase": "2017-09-20",
     "product_ids": [
@@ -39340,6 +39598,7 @@ export const customers = [
   {
     "average_order_value": "$5899.84",
     "customer_name": "Helen Andreada",
+    "estimated_ltv": "$120514.36",
     "id": "HA-14920",
     "last_purchase": "2017-10-13",
     "product_ids": [
@@ -39360,6 +39619,7 @@ export const customers = [
   {
     "average_order_value": "$14699.38",
     "customer_name": "Harold Engle",
+    "estimated_ltv": "$76923.87",
     "id": "HE-14800",
     "last_purchase": "2017-01-30",
     "product_ids": [
@@ -39373,6 +39633,7 @@ export const customers = [
   {
     "average_order_value": "$5167.37",
     "customer_name": "Herbert Flentye",
+    "estimated_ltv": "$123850.22",
     "id": "HF-14995",
     "last_purchase": "2017-11-27",
     "product_ids": [
@@ -39395,6 +39656,7 @@ export const customers = [
   {
     "average_order_value": "$4502.55",
     "customer_name": "Henry Goldwyn",
+    "estimated_ltv": "$107681.98",
     "id": "HG-14965",
     "last_purchase": "2017-12-18",
     "product_ids": [
@@ -39412,6 +39674,7 @@ export const customers = [
   {
     "average_order_value": "$1371.30",
     "customer_name": "Hunter Glantz",
+    "estimated_ltv": "$71203.49",
     "id": "HG-15025",
     "last_purchase": "2017-08-13",
     "product_ids": [
@@ -39428,6 +39691,7 @@ export const customers = [
   {
     "average_order_value": "$3500.24",
     "customer_name": "Heather Jas",
+    "estimated_ltv": "$34384.98",
     "id": "HJ-14875",
     "last_purchase": "2017-11-25",
     "product_ids": [
@@ -39443,6 +39707,7 @@ export const customers = [
   {
     "average_order_value": "$7351.67",
     "customer_name": "Heather Kirkland",
+    "estimated_ltv": "$70176.61",
     "id": "HK-14890",
     "last_purchase": "2017-10-23",
     "product_ids": [
@@ -39458,6 +39723,7 @@ export const customers = [
   {
     "average_order_value": "$1364.99",
     "customer_name": "Hunter Lopez",
+    "estimated_ltv": "$54948.91",
     "id": "HL-15040",
     "last_purchase": "2017-06-24",
     "product_ids": [
@@ -39472,6 +39738,7 @@ export const customers = [
   {
     "average_order_value": "$2799.24",
     "customer_name": "Harry Marie",
+    "estimated_ltv": "$117888.90",
     "id": "HM-14860",
     "last_purchase": "2017-12-05",
     "product_ids": [
@@ -39487,6 +39754,7 @@ export const customers = [
   {
     "average_order_value": "$5409.63",
     "customer_name": "Henry MacAllister",
+    "estimated_ltv": "$19676.93",
     "id": "HM-14980",
     "last_purchase": "2017-09-18",
     "product_ids": [
@@ -39500,6 +39768,7 @@ export const customers = [
   {
     "average_order_value": "$3849.40",
     "customer_name": "Helen Wasserman",
+    "estimated_ltv": "$80144.70",
     "id": "HW-14935",
     "last_purchase": "2017-10-31",
     "product_ids": [
@@ -39517,6 +39786,7 @@ export const customers = [
   {
     "average_order_value": "$889.01",
     "customer_name": "Henia Zydlo",
+    "estimated_ltv": "$51321.58",
     "id": "HZ-14950",
     "last_purchase": "2017-03-14",
     "product_ids": [
@@ -39530,6 +39800,7 @@ export const customers = [
   {
     "average_order_value": "$4176.70",
     "customer_name": "Ivan Gibson",
+    "estimated_ltv": "$29417.81",
     "id": "IG-15085",
     "last_purchase": "2017-06-17",
     "product_ids": [
@@ -39543,6 +39814,7 @@ export const customers = [
   {
     "average_order_value": "$3196.29",
     "customer_name": "Ivan Liston",
+    "estimated_ltv": "$79748.40",
     "id": "IL-15100",
     "last_purchase": "2017-07-23",
     "product_ids": [
@@ -39558,6 +39830,7 @@ export const customers = [
   {
     "average_order_value": "$2163.80",
     "customer_name": "Ionia McGrath",
+    "estimated_ltv": "$3139.26",
     "id": "IM-15055",
     "last_purchase": "2017-11-16",
     "product_ids": [
@@ -39571,6 +39844,7 @@ export const customers = [
   {
     "average_order_value": "$15181.13",
     "customer_name": "Irene Maddox",
+    "estimated_ltv": "$193542.38",
     "id": "IM-15070",
     "last_purchase": "2017-06-23",
     "product_ids": [
@@ -39590,6 +39864,7 @@ export const customers = [
   {
     "average_order_value": "$8136.79",
     "customer_name": "Joseph Airdo",
+    "estimated_ltv": "$192089.93",
     "id": "JA-15970",
     "last_purchase": "2017-01-09",
     "product_ids": [
@@ -39608,6 +39883,7 @@ export const customers = [
   {
     "average_order_value": "$11109.84",
     "customer_name": "Jennifer Braxton",
+    "estimated_ltv": "$130770.20",
     "id": "JB-15400",
     "last_purchase": "2017-07-23",
     "product_ids": [
@@ -39624,6 +39900,7 @@ export const customers = [
   {
     "average_order_value": "$14349.53",
     "customer_name": "Joy Bell-",
+    "estimated_ltv": "$59872.79",
     "id": "JB-16000",
     "last_purchase": "2017-10-06",
     "product_ids": [
@@ -39638,6 +39915,7 @@ export const customers = [
   {
     "average_order_value": "$9219.37",
     "customer_name": "Julia Barnett",
+    "estimated_ltv": "$74936.00",
     "id": "JB-16045",
     "last_purchase": "2017-08-12",
     "product_ids": [
@@ -39657,6 +39935,7 @@ export const customers = [
   {
     "average_order_value": "$4344.67",
     "customer_name": "Jasper Cacioppo",
+    "estimated_ltv": "$19997.67",
     "id": "JC-15340",
     "last_purchase": "2017-12-13",
     "product_ids": [
@@ -39671,6 +39950,7 @@ export const customers = [
   {
     "average_order_value": "$5791.40",
     "customer_name": "John Castell",
+    "estimated_ltv": "$81909.98",
     "id": "JC-15775",
     "last_purchase": "2017-08-15",
     "product_ids": [
@@ -39684,6 +39964,7 @@ export const customers = [
   {
     "average_order_value": "$3362.51",
     "customer_name": "John Dryer",
+    "estimated_ltv": "$57667.89",
     "id": "JD-15790",
     "last_purchase": "2017-02-16",
     "product_ids": [
@@ -39697,6 +39978,7 @@ export const customers = [
   {
     "average_order_value": "$7569.54",
     "customer_name": "Jonathan Doherty",
+    "estimated_ltv": "$210228.19",
     "id": "JD-15895",
     "last_purchase": "2017-10-31",
     "product_ids": [
@@ -39730,6 +40012,7 @@ export const customers = [
   {
     "average_order_value": "$4891.18",
     "customer_name": "Justin Deggeller",
+    "estimated_ltv": "$124183.66",
     "id": "JD-16150",
     "last_purchase": "2017-12-18",
     "product_ids": [
@@ -39745,6 +40028,7 @@ export const customers = [
   {
     "average_order_value": "$7242.99",
     "customer_name": "Jeremy Ellison",
+    "estimated_ltv": "$103913.87",
     "id": "JE-15475",
     "last_purchase": "2017-12-18",
     "product_ids": [
@@ -39766,6 +40050,7 @@ export const customers = [
   {
     "average_order_value": "$3556.62",
     "customer_name": "Jim Epp",
+    "estimated_ltv": "$141505.32",
     "id": "JE-15610",
     "last_purchase": "2017-05-22",
     "product_ids": [
@@ -39779,6 +40064,7 @@ export const customers = [
   {
     "average_order_value": "$8374.02",
     "customer_name": "Joe Elijah",
+    "estimated_ltv": "$162731.02",
     "id": "JE-15715",
     "last_purchase": "2017-12-25",
     "product_ids": [
@@ -39804,6 +40090,7 @@ export const customers = [
   {
     "average_order_value": "$9822.75",
     "customer_name": "Joel Eaton",
+    "estimated_ltv": "$151073.72",
     "id": "JE-15745",
     "last_purchase": "2017-10-21",
     "product_ids": [
@@ -39820,6 +40107,7 @@ export const customers = [
   {
     "average_order_value": "$5935.34",
     "customer_name": "Justin Ellison",
+    "estimated_ltv": "$38523.93",
     "id": "JE-16165",
     "last_purchase": "2017-05-12",
     "product_ids": [
@@ -39836,6 +40124,7 @@ export const customers = [
   {
     "average_order_value": "$6919.88",
     "customer_name": "Jamie Frazer",
+    "estimated_ltv": "$147575.81",
     "id": "JF-15190",
     "last_purchase": "2017-02-12",
     "product_ids": [
@@ -39851,6 +40140,7 @@ export const customers = [
   {
     "average_order_value": "$6636.50",
     "customer_name": "Jason Fortune-",
+    "estimated_ltv": "$98371.37",
     "id": "JF-15295",
     "last_purchase": "2017-12-04",
     "product_ids": [
@@ -39867,6 +40157,7 @@ export const customers = [
   {
     "average_order_value": "$4541.26",
     "customer_name": "Jay Fein",
+    "estimated_ltv": "$82479.20",
     "id": "JF-15355",
     "last_purchase": "2017-01-07",
     "product_ids": [
@@ -39882,6 +40173,7 @@ export const customers = [
   {
     "average_order_value": "$11501.63",
     "customer_name": "Jeremy Farry",
+    "estimated_ltv": "$126775.96",
     "id": "JF-15490",
     "last_purchase": "2017-05-22",
     "product_ids": [
@@ -39896,6 +40188,7 @@ export const customers = [
   {
     "average_order_value": "$8370.50",
     "customer_name": "Jill Fjeld",
+    "estimated_ltv": "$114653.79",
     "id": "JF-15565",
     "last_purchase": "2017-11-09",
     "product_ids": [
@@ -39915,6 +40208,7 @@ export const customers = [
   {
     "average_order_value": "$3567.52",
     "customer_name": "James Galang",
+    "estimated_ltv": "$86053.49",
     "id": "JG-15160",
     "last_purchase": "2017-09-27",
     "product_ids": [
@@ -39932,6 +40226,7 @@ export const customers = [
   {
     "average_order_value": "$7173.45",
     "customer_name": "Jason Gross",
+    "estimated_ltv": "$86330.34",
     "id": "JG-15310",
     "last_purchase": "2017-07-21",
     "product_ids": [
@@ -39951,6 +40246,7 @@ export const customers = [
   {
     "average_order_value": "$2227.21",
     "customer_name": "John Grady",
+    "estimated_ltv": "$40544.83",
     "id": "JG-15805",
     "last_purchase": "2017-06-26",
     "product_ids": [
@@ -39965,6 +40261,7 @@ export const customers = [
   {
     "average_order_value": "$5267.19",
     "customer_name": "Jonathan Howell",
+    "estimated_ltv": "$32206.62",
     "id": "JH-15910",
     "last_purchase": "2017-10-28",
     "product_ids": [
@@ -39980,6 +40277,7 @@ export const customers = [
   {
     "average_order_value": "$14609.37",
     "customer_name": "Joseph Holt",
+    "estimated_ltv": "$114337.50",
     "id": "JH-15985",
     "last_purchase": "2017-05-11",
     "product_ids": [
@@ -39996,6 +40294,7 @@ export const customers = [
   {
     "average_order_value": "$9847.05",
     "customer_name": "Justin Hirsh",
+    "estimated_ltv": "$61054.44",
     "id": "JH-16180",
     "last_purchase": "2017-11-21",
     "product_ids": [
@@ -40011,6 +40310,7 @@ export const customers = [
   {
     "average_order_value": "$1144.09",
     "customer_name": "Jennifer Jackson",
+    "estimated_ltv": "$44957.09",
     "id": "JJ-15445",
     "last_purchase": "2017-06-16",
     "product_ids": [
@@ -40025,6 +40325,7 @@ export const customers = [
   {
     "average_order_value": "$4073.80",
     "customer_name": "Jamie Kunitz",
+    "estimated_ltv": "$66807.34",
     "id": "JK-15205",
     "last_purchase": "2017-01-10",
     "product_ids": [
@@ -40039,6 +40340,7 @@ export const customers = [
   {
     "average_order_value": "$7031.54",
     "customer_name": "Jason Klamczynski",
+    "estimated_ltv": "$11649.12",
     "id": "JK-15325",
     "last_purchase": "2017-01-31",
     "product_ids": [
@@ -40052,6 +40354,7 @@ export const customers = [
   {
     "average_order_value": "$12609.23",
     "customer_name": "Jay Kimmel",
+    "estimated_ltv": "$127423.65",
     "id": "JK-15370",
     "last_purchase": "2017-11-25",
     "product_ids": [
@@ -40065,6 +40368,7 @@ export const customers = [
   {
     "average_order_value": "$7547.41",
     "customer_name": "Joe Kamberova",
+    "estimated_ltv": "$149450.86",
     "id": "JK-15730",
     "last_purchase": "2017-09-29",
     "product_ids": [
@@ -40081,6 +40385,7 @@ export const customers = [
   {
     "average_order_value": "$3723.71",
     "customer_name": "Julie Kriz",
+    "estimated_ltv": "$98572.13",
     "id": "JK-16120",
     "last_purchase": "2017-12-18",
     "product_ids": [
@@ -40097,6 +40402,7 @@ export const customers = [
   {
     "average_order_value": "$13523.51",
     "customer_name": "Jack Lebron",
+    "estimated_ltv": "$88135.43",
     "id": "JL-15130",
     "last_purchase": "2017-04-24",
     "product_ids": [
@@ -40110,6 +40416,7 @@ export const customers = [
   {
     "average_order_value": "$7803.44",
     "customer_name": "James Lanier",
+    "estimated_ltv": "$63454.78",
     "id": "JL-15175",
     "last_purchase": "2017-06-16",
     "product_ids": [
@@ -40123,6 +40430,7 @@ export const customers = [
   {
     "average_order_value": "$3045.92",
     "customer_name": "Janet Lee",
+    "estimated_ltv": "$64523.33",
     "id": "JL-15235",
     "last_purchase": "2017-05-06",
     "product_ids": [
@@ -40138,6 +40446,7 @@ export const customers = [
   {
     "average_order_value": "$4171.57",
     "customer_name": "Jeremy Lonsdale",
+    "estimated_ltv": "$73899.61",
     "id": "JL-15505",
     "last_purchase": "2017-08-04",
     "product_ids": [
@@ -40154,6 +40463,7 @@ export const customers = [
   {
     "average_order_value": "$1658.52",
     "customer_name": "John Lee",
+    "estimated_ltv": "$272209.28",
     "id": "JL-15835",
     "last_purchase": "2017-04-30",
     "product_ids": [
@@ -40167,6 +40477,7 @@ export const customers = [
   {
     "average_order_value": "$5234.89",
     "customer_name": "John Lucas",
+    "estimated_ltv": "$77434.89",
     "id": "JL-15850",
     "last_purchase": "2017-04-25",
     "product_ids": [
@@ -40182,6 +40493,7 @@ export const customers = [
   {
     "average_order_value": "$5833.57",
     "customer_name": "Janet Martin",
+    "estimated_ltv": "$122346.44",
     "id": "JM-15250",
     "last_purchase": "2017-03-29",
     "product_ids": [
@@ -40198,6 +40510,7 @@ export const customers = [
   {
     "average_order_value": "$6770.67",
     "customer_name": "Janet Molinari",
+    "estimated_ltv": "$111877.30",
     "id": "JM-15265",
     "last_purchase": "2017-11-19",
     "product_ids": [
@@ -40213,6 +40526,7 @@ export const customers = [
   {
     "average_order_value": "$7483.48",
     "customer_name": "Jessica Myrick",
+    "estimated_ltv": "$73366.79",
     "id": "JM-15535",
     "last_purchase": "2017-12-24",
     "product_ids": [
@@ -40227,6 +40541,7 @@ export const customers = [
   {
     "average_order_value": "$9368.74",
     "customer_name": "Jill Matthias",
+    "estimated_ltv": "$57089.20",
     "id": "JM-15580",
     "last_purchase": "2017-12-05",
     "product_ids": [
@@ -40245,6 +40560,7 @@ export const customers = [
   {
     "average_order_value": "$2304.22",
     "customer_name": "Jim Mitchum",
+    "estimated_ltv": "$75697.90",
     "id": "JM-15655",
     "last_purchase": "2017-12-12",
     "product_ids": [
@@ -40261,6 +40577,7 @@ export const customers = [
   {
     "average_order_value": "$3004.18",
     "customer_name": "John Murray",
+    "estimated_ltv": "$74256.37",
     "id": "JM-15865",
     "last_purchase": "2017-01-12",
     "product_ids": [
@@ -40276,6 +40593,7 @@ export const customers = [
   {
     "average_order_value": "$15292.71",
     "customer_name": "Justin MacKendrick",
+    "estimated_ltv": "$176133.31",
     "id": "JM-16195",
     "last_purchase": "2017-11-14",
     "product_ids": [
@@ -40291,6 +40609,7 @@ export const customers = [
   {
     "average_order_value": "$2440.80",
     "customer_name": "Jack O'Briant",
+    "estimated_ltv": "$65257.53",
     "id": "JO-15145",
     "last_purchase": "2017-08-01",
     "product_ids": [
@@ -40306,6 +40625,7 @@ export const customers = [
   {
     "average_order_value": "$5907.95",
     "customer_name": "Jas O'Carroll",
+    "estimated_ltv": "$46313.78",
     "id": "JO-15280",
     "last_purchase": "2017-04-19",
     "product_ids": [
@@ -40324,6 +40644,7 @@ export const customers = [
   {
     "average_order_value": "$6832.59",
     "customer_name": "Jennifer Patt",
+    "estimated_ltv": "$98104.20",
     "id": "JP-15460",
     "last_purchase": "2017-10-24",
     "product_ids": [
@@ -40341,6 +40662,7 @@ export const customers = [
   {
     "average_order_value": "$3476.17",
     "customer_name": "Jeremy Pistek",
+    "estimated_ltv": "$143673.62",
     "id": "JP-15520",
     "last_purchase": "2017-08-16",
     "product_ids": [
@@ -40355,6 +40677,7 @@ export const customers = [
   {
     "average_order_value": "$9434.71",
     "customer_name": "Julie Prescott",
+    "estimated_ltv": "$128932.91",
     "id": "JP-16135",
     "last_purchase": "2017-12-30",
     "product_ids": [
@@ -40374,6 +40697,7 @@ export const customers = [
   {
     "average_order_value": "$21451.00",
     "customer_name": "Jim Radford",
+    "estimated_ltv": "$39729.39",
     "id": "JR-15670",
     "last_purchase": "2017-05-16",
     "product_ids": [
@@ -40387,6 +40711,7 @@ export const customers = [
   {
     "average_order_value": "$9091.55",
     "customer_name": "Justin Ritter",
+    "estimated_ltv": "$76289.82",
     "id": "JR-16210",
     "last_purchase": "2017-10-04",
     "product_ids": [
@@ -40402,6 +40727,7 @@ export const customers = [
   {
     "average_order_value": "$76.27",
     "customer_name": "Jill Stevenson",
+    "estimated_ltv": "$45482.52",
     "id": "JS-15595",
     "last_purchase": "2017-10-25",
     "product_ids": [
@@ -40415,6 +40741,7 @@ export const customers = [
   {
     "average_order_value": "$8791.29",
     "customer_name": "Jim Sink",
+    "estimated_ltv": "$46601.21",
     "id": "JS-15685",
     "last_purchase": "2017-09-17",
     "product_ids": [
@@ -40431,6 +40758,7 @@ export const customers = [
   {
     "average_order_value": "$2822.65",
     "customer_name": "John Stevenson",
+    "estimated_ltv": "$29427.19",
     "id": "JS-15880",
     "last_purchase": "2017-12-02",
     "product_ids": [
@@ -40449,6 +40777,7 @@ export const customers = [
   {
     "average_order_value": "$8151.30",
     "customer_name": "Joni Sundaresam",
+    "estimated_ltv": "$57467.22",
     "id": "JS-15940",
     "last_purchase": "2017-09-23",
     "product_ids": [
@@ -40466,6 +40795,7 @@ export const customers = [
   {
     "average_order_value": "$6843.57",
     "customer_name": "Joy Smith",
+    "estimated_ltv": "$150753.46",
     "id": "JS-16030",
     "last_purchase": "2017-10-20",
     "product_ids": [
@@ -40487,6 +40817,7 @@ export const customers = [
   {
     "average_order_value": "$1267.94",
     "customer_name": "Jane Waco",
+    "estimated_ltv": "$67246.24",
     "id": "JW-15220",
     "last_purchase": "2017-09-18",
     "product_ids": [
@@ -40502,6 +40833,7 @@ export const customers = [
   {
     "average_order_value": "$11284.44",
     "customer_name": "Joni Wasserman",
+    "estimated_ltv": "$73443.36",
     "id": "JW-15955",
     "last_purchase": "2017-12-27",
     "product_ids": [
@@ -40515,6 +40847,7 @@ export const customers = [
   {
     "average_order_value": "$2404.64",
     "customer_name": "Julia West",
+    "estimated_ltv": "$27672.94",
     "id": "JW-16075",
     "last_purchase": "2017-09-25",
     "product_ids": [
@@ -40530,6 +40863,7 @@ export const customers = [
   {
     "average_order_value": "$8820.08",
     "customer_name": "Kelly Andreada",
+    "estimated_ltv": "$58296.62",
     "id": "KA-16525",
     "last_purchase": "2017-12-29",
     "product_ids": [
@@ -40543,6 +40877,7 @@ export const customers = [
   {
     "average_order_value": "$3495.53",
     "customer_name": "Karen Bern",
+    "estimated_ltv": "$53574.62",
     "id": "KB-16240",
     "last_purchase": "2017-06-02",
     "product_ids": [
@@ -40556,6 +40891,7 @@ export const customers = [
   {
     "average_order_value": "$7533.69",
     "customer_name": "Karl Braun",
+    "estimated_ltv": "$128568.51",
     "id": "KB-16315",
     "last_purchase": "2017-06-09",
     "product_ids": [
@@ -40570,6 +40906,7 @@ export const customers = [
   {
     "average_order_value": "$6543.53",
     "customer_name": "Ken Black",
+    "estimated_ltv": "$127201.35",
     "id": "KB-16585",
     "last_purchase": "2017-10-01",
     "product_ids": [
@@ -40588,6 +40925,7 @@ export const customers = [
   {
     "average_order_value": "$5650.98",
     "customer_name": "Ken Brennan",
+    "estimated_ltv": "$66972.29",
     "id": "KB-16600",
     "last_purchase": "2017-06-21",
     "product_ids": [
@@ -40602,6 +40940,7 @@ export const customers = [
   {
     "average_order_value": "$5198.34",
     "customer_name": "Karen Carlisle",
+    "estimated_ltv": "$34586.62",
     "id": "KC-16255",
     "last_purchase": "2017-11-18",
     "product_ids": [
@@ -40617,6 +40956,7 @@ export const customers = [
   {
     "average_order_value": "$4082.45",
     "customer_name": "Kelly Collister",
+    "estimated_ltv": "$21772.31",
     "id": "KC-16540",
     "last_purchase": "2017-11-14",
     "product_ids": [
@@ -40632,6 +40972,7 @@ export const customers = [
   {
     "average_order_value": "$2049.19",
     "customer_name": "Kimberly Carter",
+    "estimated_ltv": "$42280.29",
     "id": "KC-16675",
     "last_purchase": "2017-05-28",
     "product_ids": [
@@ -40646,6 +40987,7 @@ export const customers = [
   {
     "average_order_value": "$3886.85",
     "customer_name": "Karen Daniels",
+    "estimated_ltv": "$90602.84",
     "id": "KD-16270",
     "last_purchase": "2017-04-06",
     "product_ids": [
@@ -40665,6 +41007,7 @@ export const customers = [
   {
     "average_order_value": "$3066.35",
     "customer_name": "Keith Dawkins",
+    "estimated_ltv": "$157757.11",
     "id": "KD-16495",
     "last_purchase": "2017-12-30",
     "product_ids": [
@@ -40685,6 +41028,7 @@ export const customers = [
   {
     "average_order_value": "$2270.98",
     "customer_name": "Ken Dana",
+    "estimated_ltv": "$32550.20",
     "id": "KD-16615",
     "last_purchase": "2017-08-26",
     "product_ids": [
@@ -40699,6 +41043,7 @@ export const customers = [
   {
     "average_order_value": "$1112.96",
     "customer_name": "Katrina Edelman",
+    "estimated_ltv": "$47281.46",
     "id": "KE-16420",
     "last_purchase": "2017-09-25",
     "product_ids": [
@@ -40713,6 +41058,7 @@ export const customers = [
   {
     "average_order_value": "$4110.21",
     "customer_name": "Karen Ferguson",
+    "estimated_ltv": "$119446.62",
     "id": "KF-16285",
     "last_purchase": "2017-10-03",
     "product_ids": [
@@ -40727,6 +41073,7 @@ export const customers = [
   {
     "average_order_value": "$2925.97",
     "customer_name": "Katharine Harms",
+    "estimated_ltv": "$104534.37",
     "id": "KH-16330",
     "last_purchase": "2017-07-18",
     "product_ids": [
@@ -40742,6 +41089,7 @@ export const customers = [
   {
     "average_order_value": "$2482.16",
     "customer_name": "Katherine Hughes",
+    "estimated_ltv": "$88285.50",
     "id": "KH-16360",
     "last_purchase": "2017-07-30",
     "product_ids": [
@@ -40757,6 +41105,7 @@ export const customers = [
   {
     "average_order_value": "$2677.68",
     "customer_name": "Ken Heidel",
+    "estimated_ltv": "$81178.33",
     "id": "KH-16630",
     "last_purchase": "2017-12-13",
     "product_ids": [
@@ -40771,6 +41120,7 @@ export const customers = [
   {
     "average_order_value": "$7278.11",
     "customer_name": "Kristen Hastings",
+    "estimated_ltv": "$95888.32",
     "id": "KH-16690",
     "last_purchase": "2017-12-07",
     "product_ids": [
@@ -40784,6 +41134,7 @@ export const customers = [
   {
     "average_order_value": "$6506.16",
     "customer_name": "Kelly Lampkin",
+    "estimated_ltv": "$152797.40",
     "id": "KL-16555",
     "last_purchase": "2017-12-31",
     "product_ids": [
@@ -40804,6 +41155,7 @@ export const customers = [
   {
     "average_order_value": "$5988.37",
     "customer_name": "Ken Lonsdale",
+    "estimated_ltv": "$157444.02",
     "id": "KL-16645",
     "last_purchase": "2017-12-29",
     "product_ids": [
@@ -40829,6 +41181,7 @@ export const customers = [
   {
     "average_order_value": "$1023.07",
     "customer_name": "Kalyca Meade",
+    "estimated_ltv": "$92607.57",
     "id": "KM-16225",
     "last_purchase": "2017-10-11",
     "product_ids": [
@@ -40843,6 +41196,7 @@ export const customers = [
   {
     "average_order_value": "$8715.90",
     "customer_name": "Katherine Murray",
+    "estimated_ltv": "$141592.03",
     "id": "KM-16375",
     "last_purchase": "2017-07-25",
     "product_ids": [
@@ -40858,6 +41212,7 @@ export const customers = [
   {
     "average_order_value": "$7190.05",
     "customer_name": "Khloe Miller",
+    "estimated_ltv": "$59951.23",
     "id": "KM-16660",
     "last_purchase": "2017-07-28",
     "product_ids": [
@@ -40872,6 +41227,7 @@ export const customers = [
   {
     "average_order_value": "$8318.86",
     "customer_name": "Kunst Miller",
+    "estimated_ltv": "$193030.29",
     "id": "KM-16720",
     "last_purchase": "2017-04-19",
     "product_ids": [
@@ -40891,6 +41247,7 @@ export const customers = [
   {
     "average_order_value": "$688.05",
     "customer_name": "Kristina Nunn",
+    "estimated_ltv": "$66902.29",
     "id": "KN-16705",
     "last_purchase": "2017-07-22",
     "product_ids": [
@@ -40904,6 +41261,7 @@ export const customers = [
   {
     "average_order_value": "$5184.66",
     "customer_name": "Kean Takahito",
+    "estimated_ltv": "$85326.94",
     "id": "KT-16465",
     "last_purchase": "2017-04-14",
     "product_ids": [
@@ -40922,6 +41280,7 @@ export const customers = [
   {
     "average_order_value": "$6340.05",
     "customer_name": "Kean Thornton",
+    "estimated_ltv": "$63123.48",
     "id": "KT-16480",
     "last_purchase": "2017-10-09",
     "product_ids": [
@@ -40936,6 +41295,7 @@ export const customers = [
   {
     "average_order_value": "$3675.58",
     "customer_name": "Katrina Willman",
+    "estimated_ltv": "$50245.15",
     "id": "KW-16435",
     "last_purchase": "2017-10-29",
     "product_ids": [
@@ -40949,6 +41309,7 @@ export const customers = [
   {
     "average_order_value": "$5972.15",
     "customer_name": "Laura Armstrong",
+    "estimated_ltv": "$174877.40",
     "id": "LA-16780",
     "last_purchase": "2017-12-23",
     "product_ids": [
@@ -40976,6 +41337,7 @@ export const customers = [
   {
     "average_order_value": "$11454.00",
     "customer_name": "Larry Blacks",
+    "estimated_ltv": "$23183.10",
     "id": "LB-16735",
     "last_purchase": "2017-07-25",
     "product_ids": [
@@ -40989,6 +41351,7 @@ export const customers = [
   {
     "average_order_value": "$7160.63",
     "customer_name": "Laurel Beltran",
+    "estimated_ltv": "$180520.38",
     "id": "LB-16795",
     "last_purchase": "2017-11-13",
     "product_ids": [
@@ -41013,6 +41376,7 @@ export const customers = [
   {
     "average_order_value": "$5931.17",
     "customer_name": "Lena Cacioppo",
+    "estimated_ltv": "$168066.57",
     "id": "LC-16870",
     "last_purchase": "2017-12-08",
     "product_ids": [
@@ -41031,6 +41395,7 @@ export const customers = [
   {
     "average_order_value": "$5001.63",
     "customer_name": "Lena Creighton",
+    "estimated_ltv": "$129507.87",
     "id": "LC-16885",
     "last_purchase": "2017-12-22",
     "product_ids": [
@@ -41053,6 +41418,7 @@ export const customers = [
   {
     "average_order_value": "$6516.72",
     "customer_name": "Linda Cazamias",
+    "estimated_ltv": "$76904.80",
     "id": "LC-16930",
     "last_purchase": "2017-11-09",
     "product_ids": [
@@ -41074,6 +41440,7 @@ export const customers = [
   {
     "average_order_value": "$4185.61",
     "customer_name": "Lindsay Castell",
+    "estimated_ltv": "$41728.69",
     "id": "LC-16960",
     "last_purchase": "2017-10-20",
     "product_ids": [
@@ -41090,6 +41457,7 @@ export const customers = [
   {
     "average_order_value": "$9093.90",
     "customer_name": "Liz Carlisle",
+    "estimated_ltv": "$88990.33",
     "id": "LC-17050",
     "last_purchase": "2017-03-02",
     "product_ids": [
@@ -41103,6 +41471,7 @@ export const customers = [
   {
     "average_order_value": "$8637.22",
     "customer_name": "Logan Currie",
+    "estimated_ltv": "$126338.30",
     "id": "LC-17140",
     "last_purchase": "2017-12-23",
     "product_ids": [
@@ -41122,6 +41491,7 @@ export const customers = [
   {
     "average_order_value": "$4453.94",
     "customer_name": "Lela Donovan",
+    "estimated_ltv": "$4453.94",
     "id": "LD-16855",
     "last_purchase": "2017-06-26",
     "product_ids": [
@@ -41135,6 +41505,7 @@ export const customers = [
   {
     "average_order_value": "$14030.98",
     "customer_name": "Lisa DeCherney",
+    "estimated_ltv": "$67572.05",
     "id": "LD-17005",
     "last_purchase": "2017-11-11",
     "product_ids": [
@@ -41150,6 +41521,7 @@ export const customers = [
   {
     "average_order_value": "$1133.42",
     "customer_name": "Laurel Elliston",
+    "estimated_ltv": "$61047.59",
     "id": "LE-16810",
     "last_purchase": "2017-05-19",
     "product_ids": [
@@ -41163,6 +41535,7 @@ export const customers = [
   {
     "average_order_value": "$13703.58",
     "customer_name": "Luke Foster",
+    "estimated_ltv": "$121450.76",
     "id": "LF-17185",
     "last_purchase": "2017-10-20",
     "product_ids": [
@@ -41176,6 +41549,7 @@ export const customers = [
   {
     "average_order_value": "$12399.40",
     "customer_name": "Lena Hernandez",
+    "estimated_ltv": "$126452.53",
     "id": "LH-16900",
     "last_purchase": "2017-08-12",
     "product_ids": [
@@ -41193,6 +41567,7 @@ export const customers = [
   {
     "average_order_value": "$14572.17",
     "customer_name": "Lisa Hazard",
+    "estimated_ltv": "$51998.80",
     "id": "LH-17020",
     "last_purchase": "2017-04-11",
     "product_ids": [
@@ -41206,6 +41581,7 @@ export const customers = [
   {
     "average_order_value": "$6350.50",
     "customer_name": "Logan Haushalter",
+    "estimated_ltv": "$131741.43",
     "id": "LH-17155",
     "last_purchase": "2017-10-29",
     "product_ids": [
@@ -41231,6 +41607,7 @@ export const customers = [
   {
     "average_order_value": "$7219.85",
     "customer_name": "Liz MacKendrick",
+    "estimated_ltv": "$32609.66",
     "id": "LM-17065",
     "last_purchase": "2017-06-08",
     "product_ids": [
@@ -41245,6 +41622,7 @@ export const customers = [
   {
     "average_order_value": "$4609.21",
     "customer_name": "Liz Pelletier",
+    "estimated_ltv": "$51743.30",
     "id": "LP-17080",
     "last_purchase": "2017-11-11",
     "product_ids": [
@@ -41260,6 +41638,7 @@ export const customers = [
   {
     "average_order_value": "$9966.86",
     "customer_name": "Liz Preis",
+    "estimated_ltv": "$71178.97",
     "id": "LP-17095",
     "last_purchase": "2017-08-09",
     "product_ids": [
@@ -41276,6 +41655,7 @@ export const customers = [
   {
     "average_order_value": "$5196.75",
     "customer_name": "Lena Radford",
+    "estimated_ltv": "$111103.42",
     "id": "LR-16915",
     "last_purchase": "2017-11-12",
     "product_ids": [
@@ -41296,6 +41676,7 @@ export const customers = [
   {
     "average_order_value": "$5807.22",
     "customer_name": "Lisa Ryan",
+    "estimated_ltv": "$69121.48",
     "id": "LR-17035",
     "last_purchase": "2017-09-26",
     "product_ids": [
@@ -41310,6 +41691,7 @@ export const customers = [
   {
     "average_order_value": "$2955.71",
     "customer_name": "Linda Southworth",
+    "estimated_ltv": "$64129.21",
     "id": "LS-16945",
     "last_purchase": "2017-09-29",
     "product_ids": [
@@ -41328,6 +41710,7 @@ export const customers = [
   {
     "average_order_value": "$7014.37",
     "customer_name": "Lindsay Shagiari",
+    "estimated_ltv": "$135570.53",
     "id": "LS-16975",
     "last_purchase": "2017-07-30",
     "product_ids": [
@@ -41343,6 +41726,7 @@ export const customers = [
   {
     "average_order_value": "$4264.61",
     "customer_name": "Luke Schmidt",
+    "estimated_ltv": "$83126.78",
     "id": "LS-17200",
     "last_purchase": "2017-11-23",
     "product_ids": [
@@ -41358,6 +41742,7 @@ export const customers = [
   {
     "average_order_value": "$12859.10",
     "customer_name": "Lynn Smith",
+    "estimated_ltv": "$96913.50",
     "id": "LS-17245",
     "last_purchase": "2017-06-15",
     "product_ids": [
@@ -41372,6 +41757,7 @@ export const customers = [
   {
     "average_order_value": "$8831.41",
     "customer_name": "Liz Thompson",
+    "estimated_ltv": "$92512.64",
     "id": "LT-17110",
     "last_purchase": "2017-11-19",
     "product_ids": [
@@ -41388,6 +41774,7 @@ export const customers = [
   {
     "average_order_value": "$2235.63",
     "customer_name": "Laurel Workman",
+    "estimated_ltv": "$58794.08",
     "id": "LW-16825",
     "last_purchase": "2017-12-25",
     "product_ids": [
@@ -41405,6 +41792,7 @@ export const customers = [
   {
     "average_order_value": "$5675.46",
     "customer_name": "Lindsay Williams",
+    "estimated_ltv": "$82557.59",
     "id": "LW-16990",
     "last_purchase": "2017-05-05",
     "product_ids": [
@@ -41419,6 +41807,7 @@ export const customers = [
   {
     "average_order_value": "$6032.51",
     "customer_name": "Liz Willingham",
+    "estimated_ltv": "$36882.11",
     "id": "LW-17125",
     "last_purchase": "2017-05-11",
     "product_ids": [
@@ -41434,6 +41823,7 @@ export const customers = [
   {
     "average_order_value": "$7376.20",
     "customer_name": "Luke Weiss",
+    "estimated_ltv": "$89058.59",
     "id": "LW-17215",
     "last_purchase": "2017-09-17",
     "product_ids": [
@@ -41456,6 +41846,7 @@ export const customers = [
   {
     "average_order_value": "$3666.51",
     "customer_name": "Matt Abelman",
+    "estimated_ltv": "$231106.26",
     "id": "MA-17560",
     "last_purchase": "2017-08-23",
     "product_ids": [
@@ -41474,6 +41865,7 @@ export const customers = [
   {
     "average_order_value": "$7808.06",
     "customer_name": "Michelle Arnett",
+    "estimated_ltv": "$63952.46",
     "id": "MA-17995",
     "last_purchase": "2017-07-11",
     "product_ids": [
@@ -41490,6 +41882,7 @@ export const customers = [
   {
     "average_order_value": "$3231.25",
     "customer_name": "Maria Bertelson",
+    "estimated_ltv": "$114378.51",
     "id": "MB-17305",
     "last_purchase": "2017-11-14",
     "product_ids": [
@@ -41504,6 +41897,7 @@ export const customers = [
   {
     "average_order_value": "$7989.32",
     "customer_name": "Mick Brown",
+    "estimated_ltv": "$86730.81",
     "id": "MB-18085",
     "last_purchase": "2017-11-03",
     "product_ids": [
@@ -41520,6 +41914,7 @@ export const customers = [
   {
     "average_order_value": "$7378.18",
     "customer_name": "Marc Crier",
+    "estimated_ltv": "$69025.24",
     "id": "MC-17275",
     "last_purchase": "2017-03-22",
     "product_ids": [
@@ -41534,6 +41929,7 @@ export const customers = [
   {
     "average_order_value": "$4503.08",
     "customer_name": "Mark Cousins",
+    "estimated_ltv": "$58191.57",
     "id": "MC-17425",
     "last_purchase": "2017-11-26",
     "product_ids": [
@@ -41553,6 +41949,7 @@ export const customers = [
   {
     "average_order_value": "$1132.33",
     "customer_name": "Matt Collins",
+    "estimated_ltv": "$87498.92",
     "id": "MC-17575",
     "last_purchase": "2017-12-20",
     "product_ids": [
@@ -41566,6 +41963,7 @@ export const customers = [
   {
     "average_order_value": "$9604.70",
     "customer_name": "Matt Collister",
+    "estimated_ltv": "$133763.60",
     "id": "MC-17590",
     "last_purchase": "2017-12-23",
     "product_ids": [
@@ -41583,6 +41981,7 @@ export const customers = [
   {
     "average_order_value": "$11818.33",
     "customer_name": "Matt Connell",
+    "estimated_ltv": "$108556.94",
     "id": "MC-17605",
     "last_purchase": "2017-11-20",
     "product_ids": [
@@ -41596,6 +41995,7 @@ export const customers = [
   {
     "average_order_value": "$5429.70",
     "customer_name": "Matthew Clasen",
+    "estimated_ltv": "$41824.09",
     "id": "MC-17635",
     "last_purchase": "2017-02-21",
     "product_ids": [
@@ -41612,6 +42012,7 @@ export const customers = [
   {
     "average_order_value": "$1795.18",
     "customer_name": "Michael Chen",
+    "estimated_ltv": "$63257.64",
     "id": "MC-17845",
     "last_purchase": "2017-12-14",
     "product_ids": [
@@ -41627,6 +42028,7 @@ export const customers = [
   {
     "average_order_value": "$5563.36",
     "customer_name": "Mick Crebagga",
+    "estimated_ltv": "$125647.74",
     "id": "MC-18100",
     "last_purchase": "2017-07-10",
     "product_ids": [
@@ -41640,6 +42042,7 @@ export const customers = [
   {
     "average_order_value": "$6038.98",
     "customer_name": "Mike Caudle",
+    "estimated_ltv": "$70029.10",
     "id": "MC-18130",
     "last_purchase": "2017-12-26",
     "product_ids": [
@@ -41659,6 +42062,7 @@ export const customers = [
   {
     "average_order_value": "$7643.84",
     "customer_name": "Maribeth Dona",
+    "estimated_ltv": "$103196.12",
     "id": "MD-17350",
     "last_purchase": "2017-05-09",
     "product_ids": [
@@ -41674,6 +42078,7 @@ export const customers = [
   {
     "average_order_value": "$4923.04",
     "customer_name": "Maria Etezadi",
+    "estimated_ltv": "$167954.70",
     "id": "ME-17320",
     "last_purchase": "2017-06-06",
     "product_ids": [
@@ -41694,6 +42099,7 @@ export const customers = [
   {
     "average_order_value": "$7939.38",
     "customer_name": "Max Engle",
+    "estimated_ltv": "$63382.01",
     "id": "ME-17725",
     "last_purchase": "2017-08-15",
     "product_ids": [
@@ -41708,6 +42114,7 @@ export const customers = [
   {
     "average_order_value": "$4771.86",
     "customer_name": "Maureen Fritzler",
+    "estimated_ltv": "$40420.07",
     "id": "MF-17665",
     "last_purchase": "2017-09-01",
     "product_ids": [
@@ -41727,6 +42134,7 @@ export const customers = [
   {
     "average_order_value": "$3040.43",
     "customer_name": "Matthew Grinstein",
+    "estimated_ltv": "$76667.31",
     "id": "MG-17650",
     "last_purchase": "2017-12-12",
     "product_ids": [
@@ -41744,6 +42152,7 @@ export const customers = [
   {
     "average_order_value": "$4555.53",
     "customer_name": "Maureen Gnade",
+    "estimated_ltv": "$69764.43",
     "id": "MG-17695",
     "last_purchase": "2017-06-23",
     "product_ids": [
@@ -41757,6 +42166,7 @@ export const customers = [
   {
     "average_order_value": "$6889.14",
     "customer_name": "Michael Grace",
+    "estimated_ltv": "$37203.84",
     "id": "MG-17875",
     "last_purchase": "2017-08-09",
     "product_ids": [
@@ -41770,6 +42180,7 @@ export const customers = [
   {
     "average_order_value": "$8736.80",
     "customer_name": "Michael Granlund",
+    "estimated_ltv": "$82582.01",
     "id": "MG-17890",
     "last_purchase": "2017-10-17",
     "product_ids": [
@@ -41784,6 +42195,7 @@ export const customers = [
   {
     "average_order_value": "$7747.57",
     "customer_name": "Marc Harrigan",
+    "estimated_ltv": "$61796.58",
     "id": "MH-17290",
     "last_purchase": "2017-12-29",
     "product_ids": [
@@ -41799,6 +42211,7 @@ export const customers = [
   {
     "average_order_value": "$11390.18",
     "customer_name": "Mark Haberlin",
+    "estimated_ltv": "$86435.75",
     "id": "MH-17440",
     "last_purchase": "2017-12-19",
     "product_ids": [
@@ -41814,6 +42227,7 @@ export const customers = [
   {
     "average_order_value": "$6530.76",
     "customer_name": "Mark Hamilton",
+    "estimated_ltv": "$46886.47",
     "id": "MH-17455",
     "last_purchase": "2017-11-25",
     "product_ids": [
@@ -41828,6 +42242,7 @@ export const customers = [
   {
     "average_order_value": "$3549.39",
     "customer_name": "Matt Hagelstein",
+    "estimated_ltv": "$30882.02",
     "id": "MH-17620",
     "last_purchase": "2017-09-26",
     "product_ids": [
@@ -41842,6 +42257,7 @@ export const customers = [
   {
     "average_order_value": "$1762.46",
     "customer_name": "Maya Herman",
+    "estimated_ltv": "$61274.76",
     "id": "MH-17785",
     "last_purchase": "2017-10-03",
     "product_ids": [
@@ -41855,6 +42271,7 @@ export const customers = [
   {
     "average_order_value": "$4524.21",
     "customer_name": "Mick Hernandez",
+    "estimated_ltv": "$157544.09",
     "id": "MH-18115",
     "last_purchase": "2017-08-23",
     "product_ids": [
@@ -41870,6 +42287,7 @@ export const customers = [
   {
     "average_order_value": "$8580.76",
     "customer_name": "Max Jones",
+    "estimated_ltv": "$92224.37",
     "id": "MJ-17740",
     "last_purchase": "2017-07-11",
     "product_ids": [
@@ -41891,6 +42309,7 @@ export const customers = [
   {
     "average_order_value": "$6899.21",
     "customer_name": "Michael Kennedy",
+    "estimated_ltv": "$98885.79",
     "id": "MK-17905",
     "last_purchase": "2017-10-21",
     "product_ids": [
@@ -41915,6 +42334,7 @@ export const customers = [
   {
     "average_order_value": "$5262.44",
     "customer_name": "Mike Kennedy",
+    "estimated_ltv": "$82506.12",
     "id": "MK-18160",
     "last_purchase": "2017-02-12",
     "product_ids": [
@@ -41930,6 +42350,7 @@ export const customers = [
   {
     "average_order_value": "$981.72",
     "customer_name": "Marina Lichtenstein",
+    "estimated_ltv": "$64875.74",
     "id": "ML-17395",
     "last_purchase": "2017-07-11",
     "product_ids": [
@@ -41944,6 +42365,7 @@ export const customers = [
   {
     "average_order_value": "$5816.90",
     "customer_name": "Max Ludwig",
+    "estimated_ltv": "$46634.52",
     "id": "ML-17755",
     "last_purchase": "2017-04-08",
     "product_ids": [
@@ -41960,6 +42382,7 @@ export const customers = [
   {
     "average_order_value": "$7819.80",
     "customer_name": "Magdelene Morse",
+    "estimated_ltv": "$48798.20",
     "id": "MM-17260",
     "last_purchase": "2017-09-18",
     "product_ids": [
@@ -41974,6 +42397,7 @@ export const customers = [
   {
     "average_order_value": "$6979.69",
     "customer_name": "Michael Moore",
+    "estimated_ltv": "$70595.11",
     "id": "MM-17920",
     "last_purchase": "2017-05-09",
     "product_ids": [
@@ -41992,6 +42416,7 @@ export const customers = [
   {
     "average_order_value": "$3877.21",
     "customer_name": "Muhammed MacIntyre",
+    "estimated_ltv": "$94604.90",
     "id": "MM-18280",
     "last_purchase": "2017-09-28",
     "product_ids": [
@@ -42006,6 +42431,7 @@ export const customers = [
   {
     "average_order_value": "$2319.82",
     "customer_name": "Michael Nguyen",
+    "estimated_ltv": "$46026.61",
     "id": "MN-17935",
     "last_purchase": "2017-05-15",
     "product_ids": [
@@ -42019,6 +42445,7 @@ export const customers = [
   {
     "average_order_value": "$12150.46",
     "customer_name": "Mary O'Rourke",
+    "estimated_ltv": "$49370.73",
     "id": "MO-17500",
     "last_purchase": "2017-06-09",
     "product_ids": [
@@ -42034,6 +42461,7 @@ export const customers = [
   {
     "average_order_value": "$10260.25",
     "customer_name": "Meg O'Connel",
+    "estimated_ltv": "$110671.97",
     "id": "MO-17800",
     "last_purchase": "2017-08-29",
     "product_ids": [
@@ -42047,6 +42475,7 @@ export const customers = [
   {
     "average_order_value": "$1367.60",
     "customer_name": "Mark Packer",
+    "estimated_ltv": "$83492.08",
     "id": "MP-17470",
     "last_purchase": "2017-11-01",
     "product_ids": [
@@ -42060,6 +42489,7 @@ export const customers = [
   {
     "average_order_value": "$12706.10",
     "customer_name": "Michael Paige",
+    "estimated_ltv": "$209789.81",
     "id": "MP-17965",
     "last_purchase": "2017-12-29",
     "product_ids": [
@@ -42077,6 +42507,7 @@ export const customers = [
   {
     "average_order_value": "$12297.76",
     "customer_name": "Mike Pelletier",
+    "estimated_ltv": "$116761.47",
     "id": "MP-18175",
     "last_purchase": "2017-12-15",
     "product_ids": [
@@ -42092,6 +42523,7 @@ export const customers = [
   {
     "average_order_value": "$13277.49",
     "customer_name": "Maribeth Schnelling",
+    "estimated_ltv": "$192420.50",
     "id": "MS-17365",
     "last_purchase": "2017-11-26",
     "product_ids": [
@@ -42110,6 +42542,7 @@ export const customers = [
   {
     "average_order_value": "$1459.33",
     "customer_name": "MaryBeth Skach",
+    "estimated_ltv": "$26970.36",
     "id": "MS-17530",
     "last_purchase": "2017-10-22",
     "product_ids": [
@@ -42125,6 +42558,7 @@ export const customers = [
   {
     "average_order_value": "$7071.33",
     "customer_name": "Maurice Satty",
+    "estimated_ltv": "$102859.91",
     "id": "MS-17710",
     "last_purchase": "2017-12-11",
     "product_ids": [
@@ -42144,6 +42578,7 @@ export const customers = [
   {
     "average_order_value": "$6533.87",
     "customer_name": "Maxwell Schwartz",
+    "estimated_ltv": "$107429.38",
     "id": "MS-17770",
     "last_purchase": "2017-10-11",
     "product_ids": [
@@ -42163,6 +42598,7 @@ export const customers = [
   {
     "average_order_value": "$5436.38",
     "customer_name": "Melanie Seite",
+    "estimated_ltv": "$14292.17",
     "id": "MS-17830",
     "last_purchase": "2017-04-10",
     "product_ids": [
@@ -42176,6 +42612,7 @@ export const customers = [
   {
     "average_order_value": "$2714.34",
     "customer_name": "Meg Tillman",
+    "estimated_ltv": "$26869.75",
     "id": "MT-17815",
     "last_purchase": "2017-12-27",
     "product_ids": [
@@ -42193,6 +42630,7 @@ export const customers = [
   {
     "average_order_value": "$10052.67",
     "customer_name": "Michelle Tran",
+    "estimated_ltv": "$106307.25",
     "id": "MT-18070",
     "last_purchase": "2017-11-08",
     "product_ids": [
@@ -42208,6 +42646,7 @@ export const customers = [
   {
     "average_order_value": "$7384.70",
     "customer_name": "Mark Van Huff",
+    "estimated_ltv": "$91782.85",
     "id": "MV-17485",
     "last_purchase": "2017-05-09",
     "product_ids": [
@@ -42223,6 +42662,7 @@ export const customers = [
   {
     "average_order_value": "$6724.32",
     "customer_name": "Mike Vittorini",
+    "estimated_ltv": "$107794.99",
     "id": "MV-18190",
     "last_purchase": "2017-11-21",
     "product_ids": [
@@ -42240,6 +42680,7 @@ export const customers = [
   {
     "average_order_value": "$14291.81",
     "customer_name": "Mitch Webber",
+    "estimated_ltv": "$116241.47",
     "id": "MW-18220",
     "last_purchase": "2017-12-27",
     "product_ids": [
@@ -42253,6 +42694,7 @@ export const customers = [
   {
     "average_order_value": "$11318.75",
     "customer_name": "Maribeth Yedwab",
+    "estimated_ltv": "$96016.51",
     "id": "MY-17380",
     "last_purchase": "2017-05-30",
     "product_ids": [
@@ -42270,6 +42712,7 @@ export const customers = [
   {
     "average_order_value": "$3013.58",
     "customer_name": "Muhammed Yedwab",
+    "estimated_ltv": "$103981.99",
     "id": "MY-18295",
     "last_purchase": "2017-10-21",
     "product_ids": [
@@ -42289,6 +42732,7 @@ export const customers = [
   {
     "average_order_value": "$4556.99",
     "customer_name": "Maria Zettner",
+    "estimated_ltv": "$40159.25",
     "id": "MZ-17335",
     "last_purchase": "2017-09-10",
     "product_ids": [
@@ -42303,6 +42747,7 @@ export const customers = [
   {
     "average_order_value": "$4449.67",
     "customer_name": "Mary Zewe",
+    "estimated_ltv": "$25109.45",
     "id": "MZ-17515",
     "last_purchase": "2017-11-06",
     "product_ids": [
@@ -42318,6 +42763,7 @@ export const customers = [
   {
     "average_order_value": "$8476.03",
     "customer_name": "Nona Balk",
+    "estimated_ltv": "$99775.79",
     "id": "NB-18655",
     "last_purchase": "2017-10-16",
     "product_ids": [
@@ -42334,6 +42780,7 @@ export const customers = [
   {
     "average_order_value": "$7124.07",
     "customer_name": "Nat Carroll",
+    "estimated_ltv": "$101118.72",
     "id": "NC-18340",
     "last_purchase": "2017-11-24",
     "product_ids": [
@@ -42350,6 +42797,7 @@ export const customers = [
   {
     "average_order_value": "$3440.66",
     "customer_name": "Nathan Cano",
+    "estimated_ltv": "$62195.10",
     "id": "NC-18415",
     "last_purchase": "2017-10-14",
     "product_ids": [
@@ -42368,6 +42816,7 @@ export const customers = [
   {
     "average_order_value": "$1274.56",
     "customer_name": "Nick Crebassa",
+    "estimated_ltv": "$67494.81",
     "id": "NC-18535",
     "last_purchase": "2017-11-29",
     "product_ids": [
@@ -42381,6 +42830,7 @@ export const customers = [
   {
     "average_order_value": "$11463.34",
     "customer_name": "Noah Childs",
+    "estimated_ltv": "$50740.66",
     "id": "NC-18625",
     "last_purchase": "2017-10-13",
     "product_ids": [
@@ -42395,6 +42845,7 @@ export const customers = [
   {
     "average_order_value": "$7933.18",
     "customer_name": "Natalie DeCherney",
+    "estimated_ltv": "$116581.88",
     "id": "ND-18370",
     "last_purchase": "2017-11-19",
     "product_ids": [
@@ -42410,6 +42861,7 @@ export const customers = [
   {
     "average_order_value": "$5207.32",
     "customer_name": "Natalie Fritzler",
+    "estimated_ltv": "$56440.75",
     "id": "NF-18385",
     "last_purchase": "2017-09-26",
     "product_ids": [
@@ -42426,6 +42878,7 @@ export const customers = [
   {
     "average_order_value": "$9687.13",
     "customer_name": "Neil Französisch",
+    "estimated_ltv": "$19484.71",
     "id": "NF-18475",
     "last_purchase": "2017-07-23",
     "product_ids": [
@@ -42439,6 +42892,7 @@ export const customers = [
   {
     "average_order_value": "$10240.19",
     "customer_name": "Nicole Hansen",
+    "estimated_ltv": "$52266.99",
     "id": "NH-18610",
     "last_purchase": "2017-09-25",
     "product_ids": [
@@ -42452,6 +42906,7 @@ export const customers = [
   {
     "average_order_value": "$5592.08",
     "customer_name": "Neil Knudson",
+    "estimated_ltv": "$51610.04",
     "id": "NK-18490",
     "last_purchase": "2017-10-17",
     "product_ids": [
@@ -42468,6 +42923,7 @@ export const customers = [
   {
     "average_order_value": "$6787.17",
     "customer_name": "Nancy Lomonaco",
+    "estimated_ltv": "$51493.62",
     "id": "NL-18310",
     "last_purchase": "2017-05-30",
     "product_ids": [
@@ -42481,6 +42937,7 @@ export const customers = [
   {
     "average_order_value": "$3950.46",
     "customer_name": "Neoma Murray",
+    "estimated_ltv": "$76577.21",
     "id": "NM-18520",
     "last_purchase": "2017-12-23",
     "product_ids": [
@@ -42502,6 +42959,7 @@ export const customers = [
   {
     "average_order_value": "$10423.86",
     "customer_name": "Nora Paige",
+    "estimated_ltv": "$69235.87",
     "id": "NP-18670",
     "last_purchase": "2017-11-20",
     "product_ids": [
@@ -42517,6 +42975,7 @@ export const customers = [
   {
     "average_order_value": "$5153.08",
     "customer_name": "Nora Pelletier",
+    "estimated_ltv": "$24146.48",
     "id": "NP-18685",
     "last_purchase": "2017-11-19",
     "product_ids": [
@@ -42531,6 +42990,7 @@ export const customers = [
   {
     "average_order_value": "$5093.29",
     "customer_name": "Nora Preis",
+    "estimated_ltv": "$97800.69",
     "id": "NP-18700",
     "last_purchase": "2017-12-08",
     "product_ids": [
@@ -42546,6 +43006,7 @@ export const customers = [
   {
     "average_order_value": "$8123.02",
     "customer_name": "Nick Radford",
+    "estimated_ltv": "$100091.04",
     "id": "NR-18550",
     "last_purchase": "2017-10-17",
     "product_ids": [
@@ -42561,6 +43022,7 @@ export const customers = [
   {
     "average_order_value": "$8273.83",
     "customer_name": "Neola Schneider",
+    "estimated_ltv": "$122602.81",
     "id": "NS-18505",
     "last_purchase": "2017-11-24",
     "product_ids": [
@@ -42579,6 +43041,7 @@ export const customers = [
   {
     "average_order_value": "$4275.23",
     "customer_name": "Noel Staavos",
+    "estimated_ltv": "$137946.26",
     "id": "NS-18640",
     "last_purchase": "2017-12-17",
     "product_ids": [
@@ -42599,6 +43062,7 @@ export const customers = [
   {
     "average_order_value": "$11969.94",
     "customer_name": "Natalie Webber",
+    "estimated_ltv": "$204613.96",
     "id": "NW-18400",
     "last_purchase": "2017-03-11",
     "product_ids": [
@@ -42613,6 +43077,7 @@ export const customers = [
   {
     "average_order_value": "$9666.01",
     "customer_name": "Nick Zandusky",
+    "estimated_ltv": "$182689.05",
     "id": "NZ-18565",
     "last_purchase": "2017-11-20",
     "product_ids": [
@@ -42633,6 +43098,7 @@ export const customers = [
   {
     "average_order_value": "$2116.07",
     "customer_name": "Odella Nelson",
+    "estimated_ltv": "$93406.16",
     "id": "ON-18715",
     "last_purchase": "2017-11-15",
     "product_ids": [
@@ -42649,6 +43115,7 @@ export const customers = [
   {
     "average_order_value": "$7759.00",
     "customer_name": "Olvera Toch",
+    "estimated_ltv": "$76683.80",
     "id": "OT-18730",
     "last_purchase": "2017-10-06",
     "product_ids": [
@@ -42667,6 +43134,7 @@ export const customers = [
   {
     "average_order_value": "$7769.62",
     "customer_name": "Pete Armstrong",
+    "estimated_ltv": "$40617.19",
     "id": "PA-19060",
     "last_purchase": "2017-11-26",
     "product_ids": [
@@ -42681,6 +43149,7 @@ export const customers = [
   {
     "average_order_value": "$3779.62",
     "customer_name": "Patrick Bzostek",
+    "estimated_ltv": "$76660.47",
     "id": "PB-18805",
     "last_purchase": "2017-10-15",
     "product_ids": [
@@ -42697,6 +43166,7 @@ export const customers = [
   {
     "average_order_value": "$10186.77",
     "customer_name": "Peter Bühler",
+    "estimated_ltv": "$49150.59",
     "id": "PB-19105",
     "last_purchase": "2017-03-20",
     "product_ids": [
@@ -42710,6 +43180,7 @@ export const customers = [
   {
     "average_order_value": "$1400.23",
     "customer_name": "Philip Brown",
+    "estimated_ltv": "$92342.72",
     "id": "PB-19150",
     "last_purchase": "2017-04-14",
     "product_ids": [
@@ -42723,6 +43194,7 @@ export const customers = [
   {
     "average_order_value": "$4855.62",
     "customer_name": "Phillip Breyer",
+    "estimated_ltv": "$6506.27",
     "id": "PB-19210",
     "last_purchase": "2017-11-02",
     "product_ids": [
@@ -42736,6 +43208,7 @@ export const customers = [
   {
     "average_order_value": "$3336.75",
     "customer_name": "Pamela Coakley",
+    "estimated_ltv": "$32981.90",
     "id": "PC-18745",
     "last_purchase": "2017-11-27",
     "product_ids": [
@@ -42751,6 +43224,7 @@ export const customers = [
   {
     "average_order_value": "$15303.61",
     "customer_name": "Philip Fox",
+    "estimated_ltv": "$103366.43",
     "id": "PF-19165",
     "last_purchase": "2017-09-11",
     "product_ids": [
@@ -42766,6 +43240,7 @@ export const customers = [
   {
     "average_order_value": "$5491.72",
     "customer_name": "Phillip Flathmann",
+    "estimated_ltv": "$63806.85",
     "id": "PF-19225",
     "last_purchase": "2017-12-29",
     "product_ids": [
@@ -42784,6 +43259,7 @@ export const customers = [
   {
     "average_order_value": "$4712.60",
     "customer_name": "Patrick Gardner",
+    "estimated_ltv": "$154689.86",
     "id": "PG-18820",
     "last_purchase": "2017-11-18",
     "product_ids": [
@@ -42809,6 +43285,7 @@ export const customers = [
   {
     "average_order_value": "$4404.60",
     "customer_name": "Paul Gonzalez",
+    "estimated_ltv": "$80321.95",
     "id": "PG-18895",
     "last_purchase": "2017-04-22",
     "product_ids": [
@@ -42823,6 +43300,7 @@ export const customers = [
   {
     "average_order_value": "$4566.35",
     "customer_name": "Patrick Jones",
+    "estimated_ltv": "$78904.60",
     "id": "PJ-18835",
     "last_purchase": "2017-05-05",
     "product_ids": [
@@ -42837,6 +43315,7 @@ export const customers = [
   {
     "average_order_value": "$1519.91",
     "customer_name": "Pauline Johnson",
+    "estimated_ltv": "$25563.52",
     "id": "PJ-19015",
     "last_purchase": "2017-08-09",
     "product_ids": [
@@ -42851,6 +43330,7 @@ export const customers = [
   {
     "average_order_value": "$1743.99",
     "customer_name": "Paul Knutson",
+    "estimated_ltv": "$5219.77",
     "id": "PK-18910",
     "last_purchase": "2017-03-09",
     "product_ids": [
@@ -42865,6 +43345,7 @@ export const customers = [
   {
     "average_order_value": "$5087.22",
     "customer_name": "Pete Kriz",
+    "estimated_ltv": "$127472.08",
     "id": "PK-19075",
     "last_purchase": "2017-12-16",
     "product_ids": [
@@ -42894,6 +43375,7 @@ export const customers = [
   {
     "average_order_value": "$991.35",
     "customer_name": "Paul Lucas",
+    "estimated_ltv": "$42794.92",
     "id": "PL-18925",
     "last_purchase": "2017-03-15",
     "product_ids": [
@@ -42907,6 +43389,7 @@ export const customers = [
   {
     "average_order_value": "$20840.42",
     "customer_name": "Paul MacIntyre",
+    "estimated_ltv": "$45605.73",
     "id": "PM-18940",
     "last_purchase": "2017-09-12",
     "product_ids": [
@@ -42920,6 +43403,7 @@ export const customers = [
   {
     "average_order_value": "$6223.00",
     "customer_name": "Peter McVee",
+    "estimated_ltv": "$51599.33",
     "id": "PM-19135",
     "last_purchase": "2017-10-22",
     "product_ids": [
@@ -42934,6 +43418,7 @@ export const customers = [
   {
     "average_order_value": "$4889.67",
     "customer_name": "Parhena Norris",
+    "estimated_ltv": "$56844.71",
     "id": "PN-18775",
     "last_purchase": "2017-12-18",
     "product_ids": [
@@ -42950,6 +43435,7 @@ export const customers = [
   {
     "average_order_value": "$7370.27",
     "customer_name": "Patrick O'Brill",
+    "estimated_ltv": "$181050.63",
     "id": "PO-18850",
     "last_purchase": "2017-09-18",
     "product_ids": [
@@ -42968,6 +43454,7 @@ export const customers = [
   {
     "average_order_value": "$8030.83",
     "customer_name": "Patrick O'Donnell",
+    "estimated_ltv": "$76145.72",
     "id": "PO-18865",
     "last_purchase": "2017-09-17",
     "product_ids": [
@@ -42982,6 +43469,7 @@ export const customers = [
   {
     "average_order_value": "$7947.95",
     "customer_name": "Philisse Overcash",
+    "estimated_ltv": "$104003.61",
     "id": "PO-19180",
     "last_purchase": "2017-12-09",
     "product_ids": [
@@ -42999,6 +43487,7 @@ export const customers = [
   {
     "average_order_value": "$7680.63",
     "customer_name": "Paul Prost",
+    "estimated_ltv": "$245024.02",
     "id": "PP-18955",
     "last_purchase": "2017-10-11",
     "product_ids": [
@@ -43031,6 +43520,7 @@ export const customers = [
   {
     "average_order_value": "$3628.91",
     "customer_name": "Pamela Stobb",
+    "estimated_ltv": "$120284.21",
     "id": "PS-18760",
     "last_purchase": "2017-09-29",
     "product_ids": [
@@ -43048,6 +43538,7 @@ export const customers = [
   {
     "average_order_value": "$1813.07",
     "customer_name": "Paul Stevenson",
+    "estimated_ltv": "$66135.11",
     "id": "PS-18970",
     "last_purchase": "2017-09-05",
     "product_ids": [
@@ -43061,6 +43552,7 @@ export const customers = [
   {
     "average_order_value": "$7299.35",
     "customer_name": "Penelope Sewall",
+    "estimated_ltv": "$82078.81",
     "id": "PS-19045",
     "last_purchase": "2017-07-11",
     "product_ids": [
@@ -43074,6 +43566,7 @@ export const customers = [
   {
     "average_order_value": "$13379.54",
     "customer_name": "Pete Takahito",
+    "estimated_ltv": "$48929.36",
     "id": "PT-19090",
     "last_purchase": "2017-05-09",
     "product_ids": [
@@ -43087,6 +43580,7 @@ export const customers = [
   {
     "average_order_value": "$6063.65",
     "customer_name": "Paul Van Hugh",
+    "estimated_ltv": "$78472.71",
     "id": "PV-18985",
     "last_purchase": "2017-06-14",
     "product_ids": [
@@ -43104,6 +43598,7 @@ export const customers = [
   {
     "average_order_value": "$8234.75",
     "customer_name": "Pauline Webber",
+    "estimated_ltv": "$100039.78",
     "id": "PW-19030",
     "last_purchase": "2017-12-24",
     "product_ids": [
@@ -43121,6 +43616,7 @@ export const customers = [
   {
     "average_order_value": "$5947.37",
     "customer_name": "Pierre Wener",
+    "estimated_ltv": "$66822.11",
     "id": "PW-19240",
     "last_purchase": "2017-09-22",
     "product_ids": [
@@ -43135,6 +43631,7 @@ export const customers = [
   {
     "average_order_value": "$6416.35",
     "customer_name": "Quincy Jones",
+    "estimated_ltv": "$105308.85",
     "id": "QJ-19255",
     "last_purchase": "2017-10-15",
     "product_ids": [
@@ -43152,6 +43649,7 @@ export const customers = [
   {
     "average_order_value": "$4242.79",
     "customer_name": "Ralph Arnett",
+    "estimated_ltv": "$128016.04",
     "id": "RA-19285",
     "last_purchase": "2017-04-08",
     "product_ids": [
@@ -43165,6 +43663,7 @@ export const customers = [
   {
     "average_order_value": "$22894.30",
     "customer_name": "Ruben Ausman",
+    "estimated_ltv": "$85878.88",
     "id": "RA-19885",
     "last_purchase": "2017-07-17",
     "product_ids": [
@@ -43178,6 +43677,7 @@ export const customers = [
   {
     "average_order_value": "$9285.92",
     "customer_name": "Russell Applegate",
+    "estimated_ltv": "$147930.81",
     "id": "RA-19915",
     "last_purchase": "2017-09-23",
     "product_ids": [
@@ -43192,6 +43692,7 @@ export const customers = [
   {
     "average_order_value": "$7324.94",
     "customer_name": "Raymond Buch",
+    "estimated_ltv": "$122916.93",
     "id": "RB-19360",
     "last_purchase": "2017-07-14",
     "product_ids": [
@@ -43216,6 +43717,7 @@ export const customers = [
   {
     "average_order_value": "$7039.94",
     "customer_name": "Rick Bensley",
+    "estimated_ltv": "$169734.11",
     "id": "RB-19465",
     "last_purchase": "2017-09-03",
     "product_ids": [
@@ -43240,6 +43742,7 @@ export const customers = [
   {
     "average_order_value": "$8568.43",
     "customer_name": "Rob Beeghly",
+    "estimated_ltv": "$83245.93",
     "id": "RB-19570",
     "last_purchase": "2017-09-15",
     "product_ids": [
@@ -43256,6 +43759,7 @@ export const customers = [
   {
     "average_order_value": "$4217.08",
     "customer_name": "Robert Barroso",
+    "estimated_ltv": "$65897.57",
     "id": "RB-19645",
     "last_purchase": "2017-03-22",
     "product_ids": [
@@ -43269,6 +43773,7 @@ export const customers = [
   {
     "average_order_value": "$4644.96",
     "customer_name": "Ross Baird",
+    "estimated_ltv": "$84718.00",
     "id": "RB-19795",
     "last_purchase": "2017-12-24",
     "product_ids": [
@@ -43290,6 +43795,7 @@ export const customers = [
   {
     "average_order_value": "$9106.19",
     "customer_name": "Roy Collins",
+    "estimated_ltv": "$99942.40",
     "id": "RC-19825",
     "last_purchase": "2017-12-26",
     "product_ids": [
@@ -43311,6 +43817,7 @@ export const customers = [
   {
     "average_order_value": "$12292.50",
     "customer_name": "Ryan Crowe",
+    "estimated_ltv": "$83745.77",
     "id": "RC-19960",
     "last_purchase": "2017-11-14",
     "product_ids": [
@@ -43324,6 +43831,7 @@ export const customers = [
   {
     "average_order_value": "$1742.08",
     "customer_name": "Rick Duston",
+    "estimated_ltv": "$71386.13",
     "id": "RD-19480",
     "last_purchase": "2017-04-03",
     "product_ids": [
@@ -43338,6 +43846,7 @@ export const customers = [
   {
     "average_order_value": "$671.41",
     "customer_name": "Rob Dowd",
+    "estimated_ltv": "$60771.94",
     "id": "RD-19585",
     "last_purchase": "2017-11-22",
     "product_ids": [
@@ -43351,6 +43860,7 @@ export const customers = [
   {
     "average_order_value": "$2166.16",
     "customer_name": "Robert Dilbeck",
+    "estimated_ltv": "$22424.83",
     "id": "RD-19660",
     "last_purchase": "2017-09-22",
     "product_ids": [
@@ -43365,6 +43875,7 @@ export const customers = [
   {
     "average_order_value": "$6012.23",
     "customer_name": "Roger Demir",
+    "estimated_ltv": "$106307.72",
     "id": "RD-19720",
     "last_purchase": "2017-11-21",
     "product_ids": [
@@ -43385,6 +43896,7 @@ export const customers = [
   {
     "average_order_value": "$7443.36",
     "customer_name": "Ross DeVincentis",
+    "estimated_ltv": "$144304.46",
     "id": "RD-19810",
     "last_purchase": "2017-12-27",
     "product_ids": [
@@ -43402,6 +43914,7 @@ export const customers = [
   {
     "average_order_value": "$6170.88",
     "customer_name": "Ruben Dartt",
+    "estimated_ltv": "$152141.72",
     "id": "RD-19900",
     "last_purchase": "2017-11-16",
     "product_ids": [
@@ -43420,6 +43933,7 @@ export const customers = [
   {
     "average_order_value": "$2335.01",
     "customer_name": "Richard Eichhorn",
+    "estimated_ltv": "$19848.36",
     "id": "RE-19450",
     "last_purchase": "2017-07-14",
     "product_ids": [
@@ -43433,6 +43947,7 @@ export const customers = [
   {
     "average_order_value": "$9083.32",
     "customer_name": "Randy Ferguson",
+    "estimated_ltv": "$100698.93",
     "id": "RF-19345",
     "last_purchase": "2017-11-28",
     "product_ids": [
@@ -43451,6 +43966,7 @@ export const customers = [
   {
     "average_order_value": "$4102.58",
     "customer_name": "Roland Fjeld",
+    "estimated_ltv": "$103076.78",
     "id": "RF-19735",
     "last_purchase": "2017-08-26",
     "product_ids": [
@@ -43466,6 +43982,7 @@ export const customers = [
   {
     "average_order_value": "$5316.33",
     "customer_name": "Roy Französisch",
+    "estimated_ltv": "$64148.38",
     "id": "RF-19840",
     "last_purchase": "2017-12-12",
     "product_ids": [
@@ -43484,6 +44001,7 @@ export const customers = [
   {
     "average_order_value": "$9167.67",
     "customer_name": "Rick Huthwaite",
+    "estimated_ltv": "$97986.85",
     "id": "RH-19510",
     "last_purchase": "2017-10-03",
     "product_ids": [
@@ -43503,6 +44021,7 @@ export const customers = [
   {
     "average_order_value": "$5672.81",
     "customer_name": "Ritsa Hightower",
+    "estimated_ltv": "$17017.07",
     "id": "RH-19555",
     "last_purchase": "2017-07-29",
     "product_ids": [
@@ -43517,6 +44036,7 @@ export const customers = [
   {
     "average_order_value": "$2300.26",
     "customer_name": "Rob Haberlin",
+    "estimated_ltv": "$87433.94",
     "id": "RH-19600",
     "last_purchase": "2017-07-14",
     "product_ids": [
@@ -43530,6 +44050,7 @@ export const customers = [
   {
     "average_order_value": "$5812.66",
     "customer_name": "Rob Lucas",
+    "estimated_ltv": "$119619.40",
     "id": "RL-19615",
     "last_purchase": "2017-05-29",
     "product_ids": [
@@ -43547,6 +44068,7 @@ export const customers = [
   {
     "average_order_value": "$2874.96",
     "customer_name": "Raymond Messe",
+    "estimated_ltv": "$54801.14",
     "id": "RM-19375",
     "last_purchase": "2017-08-04",
     "product_ids": [
@@ -43561,6 +44083,7 @@ export const customers = [
   {
     "average_order_value": "$4373.10",
     "customer_name": "Rose O'Brian",
+    "estimated_ltv": "$79493.10",
     "id": "RO-19780",
     "last_purchase": "2017-10-11",
     "product_ids": [
@@ -43575,6 +44098,7 @@ export const customers = [
   {
     "average_order_value": "$14129.45",
     "customer_name": "Rachel Payne",
+    "estimated_ltv": "$65295.10",
     "id": "RP-19270",
     "last_purchase": "2017-08-21",
     "product_ids": [
@@ -43588,6 +44112,7 @@ export const customers = [
   {
     "average_order_value": "$4191.03",
     "customer_name": "Resi Pölking",
+    "estimated_ltv": "$214638.39",
     "id": "RP-19390",
     "last_purchase": "2017-08-19",
     "product_ids": [
@@ -43603,6 +44128,7 @@ export const customers = [
   {
     "average_order_value": "$6478.03",
     "customer_name": "Roy Phan",
+    "estimated_ltv": "$103172.48",
     "id": "RP-19855",
     "last_purchase": "2017-05-19",
     "product_ids": [
@@ -43619,6 +44145,7 @@ export const customers = [
   {
     "average_order_value": "$17623.32",
     "customer_name": "Ralph Ritter",
+    "estimated_ltv": "$39874.36",
     "id": "RR-19315",
     "last_purchase": "2017-11-14",
     "product_ids": [
@@ -43632,6 +44159,7 @@ export const customers = [
   {
     "average_order_value": "$13002.41",
     "customer_name": "Rick Reed",
+    "estimated_ltv": "$90786.45",
     "id": "RR-19525",
     "last_purchase": "2017-07-25",
     "product_ids": [
@@ -43646,6 +44174,7 @@ export const customers = [
   {
     "average_order_value": "$10151.14",
     "customer_name": "Ricardo Sperren",
+    "estimated_ltv": "$83766.76",
     "id": "RS-19420",
     "last_purchase": "2017-09-05",
     "product_ids": [
@@ -43659,6 +44188,7 @@ export const customers = [
   {
     "average_order_value": "$8130.09",
     "customer_name": "Roy Skaria",
+    "estimated_ltv": "$10209.42",
     "id": "RS-19870",
     "last_purchase": "2017-07-06",
     "product_ids": [
@@ -43672,6 +44202,7 @@ export const customers = [
   {
     "average_order_value": "$4872.45",
     "customer_name": "Rob Williams",
+    "estimated_ltv": "$64701.10",
     "id": "RW-19630",
     "last_purchase": "2017-12-13",
     "product_ids": [
@@ -43694,6 +44225,7 @@ export const customers = [
   {
     "average_order_value": "$4199.06",
     "customer_name": "Robert Waldorf",
+    "estimated_ltv": "$95204.85",
     "id": "RW-19690",
     "last_purchase": "2017-05-30",
     "product_ids": [
@@ -43707,6 +44239,7 @@ export const customers = [
   {
     "average_order_value": "$6499.63",
     "customer_name": "Sue Ann Reed",
+    "estimated_ltv": "$111889.66",
     "id": "SA-20830",
     "last_purchase": "2017-12-22",
     "product_ids": [
@@ -43722,6 +44255,7 @@ export const customers = [
   {
     "average_order_value": "$15512.94",
     "customer_name": "Sean Braxton",
+    "estimated_ltv": "$125155.17",
     "id": "SB-20290",
     "last_purchase": "2017-11-18",
     "product_ids": [
@@ -43735,6 +44269,7 @@ export const customers = [
   {
     "average_order_value": "$10940.04",
     "customer_name": "Sample Company A",
+    "estimated_ltv": "$129480.39",
     "id": "SC-20050",
     "last_purchase": "2017-11-24",
     "product_ids": [
@@ -43753,6 +44288,7 @@ export const customers = [
   {
     "average_order_value": "$5705.04",
     "customer_name": "Sanjit Chand",
+    "estimated_ltv": "$126288.69",
     "id": "SC-20095",
     "last_purchase": "2017-07-25",
     "product_ids": [
@@ -43771,6 +44307,7 @@ export const customers = [
   {
     "average_order_value": "$6855.46",
     "customer_name": "Scot Coram",
+    "estimated_ltv": "$80285.44",
     "id": "SC-20230",
     "last_purchase": "2017-08-21",
     "product_ids": [
@@ -43793,6 +44330,7 @@ export const customers = [
   {
     "average_order_value": "$9467.16",
     "customer_name": "Sean Christensen",
+    "estimated_ltv": "$90130.53",
     "id": "SC-20305",
     "last_purchase": "2017-12-24",
     "product_ids": [
@@ -43807,6 +44345,7 @@ export const customers = [
   {
     "average_order_value": "$43.12",
     "customer_name": "Shahid Collister",
+    "estimated_ltv": "$127979.09",
     "id": "SC-20380",
     "last_purchase": "2017-09-26",
     "product_ids": [
@@ -43820,6 +44359,7 @@ export const customers = [
   {
     "average_order_value": "$2807.66",
     "customer_name": "Steve Carroll",
+    "estimated_ltv": "$38890.25",
     "id": "SC-20680",
     "last_purchase": "2017-12-17",
     "product_ids": [
@@ -43836,6 +44376,7 @@ export const customers = [
   {
     "average_order_value": "$5468.47",
     "customer_name": "Steve Chapman",
+    "estimated_ltv": "$74385.45",
     "id": "SC-20695",
     "last_purchase": "2017-12-09",
     "product_ids": [
@@ -43856,6 +44397,7 @@ export const customers = [
   {
     "average_order_value": "$5196.02",
     "customer_name": "Steven Cartwright",
+    "estimated_ltv": "$175894.34",
     "id": "SC-20725",
     "last_purchase": "2017-12-06",
     "product_ids": [
@@ -43876,6 +44418,7 @@ export const customers = [
   {
     "average_order_value": "$8341.41",
     "customer_name": "Stewart Carmichael",
+    "estimated_ltv": "$145146.04",
     "id": "SC-20770",
     "last_purchase": "2017-12-06",
     "product_ids": [
@@ -43903,6 +44446,7 @@ export const customers = [
   {
     "average_order_value": "$2245.21",
     "customer_name": "Stuart Calhoun",
+    "estimated_ltv": "$24214.85",
     "id": "SC-20800",
     "last_purchase": "2017-12-20",
     "product_ids": [
@@ -43916,6 +44460,7 @@ export const customers = [
   {
     "average_order_value": "$11203.44",
     "customer_name": "Sung Chung",
+    "estimated_ltv": "$11203.44",
     "id": "SC-20845",
     "last_purchase": "2017-11-11",
     "product_ids": [
@@ -43929,6 +44474,7 @@ export const customers = [
   {
     "average_order_value": "$10280.12",
     "customer_name": "Shirley Daniels",
+    "estimated_ltv": "$121910.38",
     "id": "SD-20485",
     "last_purchase": "2017-09-19",
     "product_ids": [
@@ -43943,6 +44489,7 @@ export const customers = [
   {
     "average_order_value": "$4451.35",
     "customer_name": "Sanjit Engle",
+    "estimated_ltv": "$121073.17",
     "id": "SE-20110",
     "last_purchase": "2017-11-06",
     "product_ids": [
@@ -43963,6 +44510,7 @@ export const customers = [
   {
     "average_order_value": "$891.57",
     "customer_name": "Sandra Flanagan",
+    "estimated_ltv": "$49761.15",
     "id": "SF-20065",
     "last_purchase": "2017-12-16",
     "product_ids": [
@@ -43976,6 +44524,7 @@ export const customers = [
   {
     "average_order_value": "$2837.19",
     "customer_name": "Sarah Foster",
+    "estimated_ltv": "$67905.82",
     "id": "SF-20200",
     "last_purchase": "2017-12-09",
     "product_ids": [
@@ -43993,6 +44542,7 @@ export const customers = [
   {
     "average_order_value": "$6998.82",
     "customer_name": "Sylvia Foulston",
+    "estimated_ltv": "$142244.25",
     "id": "SF-20965",
     "last_purchase": "2017-10-31",
     "product_ids": [
@@ -44006,6 +44556,7 @@ export const customers = [
   {
     "average_order_value": "$1828.12",
     "customer_name": "Sheri Gordon",
+    "estimated_ltv": "$105295.38",
     "id": "SG-20470",
     "last_purchase": "2017-08-22",
     "product_ids": [
@@ -44019,6 +44570,7 @@ export const customers = [
   {
     "average_order_value": "$8544.46",
     "customer_name": "Susan Gilcrest",
+    "estimated_ltv": "$59284.05",
     "id": "SG-20890",
     "last_purchase": "2017-01-08",
     "product_ids": [
@@ -44032,6 +44584,7 @@ export const customers = [
   {
     "average_order_value": "$4227.41",
     "customer_name": "Sally Hughsby",
+    "estimated_ltv": "$82135.15",
     "id": "SH-19975",
     "last_purchase": "2017-12-26",
     "product_ids": [
@@ -44051,6 +44604,7 @@ export const customers = [
   {
     "average_order_value": "$1314.87",
     "customer_name": "Shahid Hopkins",
+    "estimated_ltv": "$90610.03",
     "id": "SH-20395",
     "last_purchase": "2017-12-15",
     "product_ids": [
@@ -44064,6 +44618,7 @@ export const customers = [
   {
     "average_order_value": "$4326.86",
     "customer_name": "Sanjit Jacobs",
+    "estimated_ltv": "$124386.97",
     "id": "SJ-20125",
     "last_purchase": "2017-10-12",
     "product_ids": [
@@ -44084,6 +44639,7 @@ export const customers = [
   {
     "average_order_value": "$8687.82",
     "customer_name": "Sarah Jordon",
+    "estimated_ltv": "$79094.67",
     "id": "SJ-20215",
     "last_purchase": "2017-09-30",
     "product_ids": [
@@ -44097,6 +44653,7 @@ export const customers = [
   {
     "average_order_value": "$1497.46",
     "customer_name": "Shirley Jackson",
+    "estimated_ltv": "$36975.02",
     "id": "SJ-20500",
     "last_purchase": "2017-11-20",
     "product_ids": [
@@ -44112,6 +44669,7 @@ export const customers = [
   {
     "average_order_value": "$10788.70",
     "customer_name": "Sally Knutson",
+    "estimated_ltv": "$40379.66",
     "id": "SK-19990",
     "last_purchase": "2017-11-28",
     "product_ids": [
@@ -44125,6 +44683,7 @@ export const customers = [
   {
     "average_order_value": "$14298.80",
     "customer_name": "Sally Matthias",
+    "estimated_ltv": "$61344.25",
     "id": "SM-20005",
     "last_purchase": "2017-06-23",
     "product_ids": [
@@ -44140,6 +44699,7 @@ export const customers = [
   {
     "average_order_value": "$7814.27",
     "customer_name": "Susan MacKendrick",
+    "estimated_ltv": "$46885.61",
     "id": "SM-20905",
     "last_purchase": "2017-03-05",
     "product_ids": [
@@ -44158,6 +44718,7 @@ export const customers = [
   {
     "average_order_value": "$2555.79",
     "customer_name": "Suzanne McNair",
+    "estimated_ltv": "$94063.90",
     "id": "SM-20950",
     "last_purchase": "2017-10-28",
     "product_ids": [
@@ -44173,6 +44734,7 @@ export const customers = [
   {
     "average_order_value": "$8371.48",
     "customer_name": "Skye Norling",
+    "estimated_ltv": "$98186.34",
     "id": "SN-20560",
     "last_purchase": "2017-06-26",
     "product_ids": [
@@ -44188,6 +44750,7 @@ export const customers = [
   {
     "average_order_value": "$10881.46",
     "customer_name": "Steve Nguyen",
+    "estimated_ltv": "$146069.69",
     "id": "SN-20710",
     "last_purchase": "2017-11-18",
     "product_ids": [
@@ -44210,6 +44773,7 @@ export const customers = [
   {
     "average_order_value": "$6411.95",
     "customer_name": "Sibella Parks",
+    "estimated_ltv": "$55579.87",
     "id": "SP-20545",
     "last_purchase": "2017-09-10",
     "product_ids": [
@@ -44229,6 +44793,7 @@ export const customers = [
   {
     "average_order_value": "$3552.67",
     "customer_name": "Stefania Perrino",
+    "estimated_ltv": "$135877.08",
     "id": "SP-20620",
     "last_purchase": "2017-08-12",
     "product_ids": [
@@ -44244,6 +44809,7 @@ export const customers = [
   {
     "average_order_value": "$8340.97",
     "customer_name": "Stephanie Phelps",
+    "estimated_ltv": "$132427.90",
     "id": "SP-20650",
     "last_purchase": "2017-12-11",
     "product_ids": [
@@ -44264,6 +44830,7 @@ export const customers = [
   {
     "average_order_value": "$8567.16",
     "customer_name": "Sung Pak",
+    "estimated_ltv": "$153060.05",
     "id": "SP-20860",
     "last_purchase": "2017-11-24",
     "product_ids": [
@@ -44279,6 +44846,7 @@ export const customers = [
   {
     "average_order_value": "$3816.08",
     "customer_name": "Susan Pistek",
+    "estimated_ltv": "$69098.74",
     "id": "SP-20920",
     "last_purchase": "2017-12-11",
     "product_ids": [
@@ -44298,6 +44866,7 @@ export const customers = [
   {
     "average_order_value": "$13535.46",
     "customer_name": "Steven Roelle",
+    "estimated_ltv": "$99628.64",
     "id": "SR-20740",
     "last_purchase": "2017-10-23",
     "product_ids": [
@@ -44312,6 +44881,7 @@ export const customers = [
   {
     "average_order_value": "$10098.76",
     "customer_name": "Saphhira Shifley",
+    "estimated_ltv": "$129300.16",
     "id": "SS-20140",
     "last_purchase": "2017-12-25",
     "product_ids": [
@@ -44325,6 +44895,7 @@ export const customers = [
   {
     "average_order_value": "$7920.88",
     "customer_name": "Shirley Schmidt",
+    "estimated_ltv": "$40725.09",
     "id": "SS-20515",
     "last_purchase": "2017-08-26",
     "product_ids": [
@@ -44338,6 +44909,7 @@ export const customers = [
   {
     "average_order_value": "$10808.38",
     "customer_name": "Sonia Sunley",
+    "estimated_ltv": "$62312.65",
     "id": "SS-20590",
     "last_purchase": "2017-10-24",
     "product_ids": [
@@ -44355,6 +44927,7 @@ export const customers = [
   {
     "average_order_value": "$5508.21",
     "customer_name": "Sung Shariari",
+    "estimated_ltv": "$101534.55",
     "id": "SS-20875",
     "last_purchase": "2017-08-27",
     "product_ids": [
@@ -44371,6 +44944,7 @@ export const customers = [
   {
     "average_order_value": "$5327.26",
     "customer_name": "Stephanie Ulpright",
+    "estimated_ltv": "$135302.65",
     "id": "SU-20665",
     "last_purchase": "2017-08-21",
     "product_ids": [
@@ -44389,6 +44963,7 @@ export const customers = [
   {
     "average_order_value": "$9097.98",
     "customer_name": "Seth Vernon",
+    "estimated_ltv": "$270807.21",
     "id": "SV-20365",
     "last_purchase": "2017-11-06",
     "product_ids": [
@@ -44406,6 +44981,7 @@ export const customers = [
   {
     "average_order_value": "$8424.00",
     "customer_name": "Stewart Visinsky",
+    "estimated_ltv": "$133366.93",
     "id": "SV-20785",
     "last_purchase": "2017-05-26",
     "product_ids": [
@@ -44423,6 +44999,7 @@ export const customers = [
   {
     "average_order_value": "$793.48",
     "customer_name": "Stuart Van",
+    "estimated_ltv": "$43455.91",
     "id": "SV-20815",
     "last_purchase": "2017-08-26",
     "product_ids": [
@@ -44436,6 +45013,7 @@ export const customers = [
   {
     "average_order_value": "$4154.77",
     "customer_name": "Susan Vittorini",
+    "estimated_ltv": "$81927.38",
     "id": "SV-20935",
     "last_purchase": "2017-10-21",
     "product_ids": [
@@ -44452,6 +45030,7 @@ export const customers = [
   {
     "average_order_value": "$6547.75",
     "customer_name": "Scot Wooten",
+    "estimated_ltv": "$84390.05",
     "id": "SW-20245",
     "last_purchase": "2017-12-03",
     "product_ids": [
@@ -44466,6 +45045,7 @@ export const customers = [
   {
     "average_order_value": "$629.06",
     "customer_name": "Scott Williamson",
+    "estimated_ltv": "$15326.34",
     "id": "SW-20275",
     "last_purchase": "2017-10-11",
     "product_ids": [
@@ -44480,6 +45060,7 @@ export const customers = [
   {
     "average_order_value": "$7498.96",
     "customer_name": "Sean Wendt",
+    "estimated_ltv": "$28767.32",
     "id": "SW-20350",
     "last_purchase": "2017-09-04",
     "product_ids": [
@@ -44495,6 +45076,7 @@ export const customers = [
   {
     "average_order_value": "$11641.15",
     "customer_name": "Shaun Weien",
+    "estimated_ltv": "$36424.49",
     "id": "SW-20455",
     "last_purchase": "2017-09-27",
     "product_ids": [
@@ -44508,6 +45090,7 @@ export const customers = [
   {
     "average_order_value": "$6560.79",
     "customer_name": "Steven Ward",
+    "estimated_ltv": "$58841.24",
     "id": "SW-20755",
     "last_purchase": "2017-07-14",
     "product_ids": [
@@ -44526,6 +45109,7 @@ export const customers = [
   {
     "average_order_value": "$11812.61",
     "customer_name": "Sam Zeldin",
+    "estimated_ltv": "$156790.17",
     "id": "SZ-20035",
     "last_purchase": "2017-09-22",
     "product_ids": [
@@ -44540,6 +45124,7 @@ export const customers = [
   {
     "average_order_value": "$9445.21",
     "customer_name": "Tom Ashbrook",
+    "estimated_ltv": "$74651.52",
     "id": "TA-21385",
     "last_purchase": "2017-02-09",
     "product_ids": [
@@ -44553,6 +45138,7 @@ export const customers = [
   {
     "average_order_value": "$8390.20",
     "customer_name": "Ted Butterfield",
+    "estimated_ltv": "$123995.86",
     "id": "TB-21055",
     "last_purchase": "2017-08-27",
     "product_ids": [
@@ -44578,6 +45164,7 @@ export const customers = [
   {
     "average_order_value": "$3974.85",
     "customer_name": "Thomas Boland",
+    "estimated_ltv": "$46679.12",
     "id": "TB-21175",
     "last_purchase": "2017-12-04",
     "product_ids": [
@@ -44596,6 +45183,7 @@ export const customers = [
   {
     "average_order_value": "$9007.98",
     "customer_name": "Tim Brockman",
+    "estimated_ltv": "$179501.04",
     "id": "TB-21250",
     "last_purchase": "2017-11-14",
     "product_ids": [
@@ -44612,6 +45200,7 @@ export const customers = [
   {
     "average_order_value": "$8743.25",
     "customer_name": "Toby Braunhardt",
+    "estimated_ltv": "$70025.21",
     "id": "TB-21280",
     "last_purchase": "2017-05-26",
     "product_ids": [
@@ -44630,6 +45219,7 @@ export const customers = [
   {
     "average_order_value": "$7047.10",
     "customer_name": "Todd Boyes",
+    "estimated_ltv": "$103890.53",
     "id": "TB-21355",
     "last_purchase": "2017-11-22",
     "product_ids": [
@@ -44649,6 +45239,7 @@ export const customers = [
   {
     "average_order_value": "$3427.53",
     "customer_name": "Tom Boeckenhauer",
+    "estimated_ltv": "$111825.76",
     "id": "TB-21400",
     "last_purchase": "2017-04-14",
     "product_ids": [
@@ -44662,6 +45253,7 @@ export const customers = [
   {
     "average_order_value": "$1431.92",
     "customer_name": "Tracy Blumstein",
+    "estimated_ltv": "$120814.52",
     "id": "TB-21520",
     "last_purchase": "2017-04-02",
     "product_ids": [
@@ -44675,6 +45267,7 @@ export const customers = [
   {
     "average_order_value": "$5150.53",
     "customer_name": "Troy Blackwell",
+    "estimated_ltv": "$17744.12",
     "id": "TB-21595",
     "last_purchase": "2017-12-29",
     "product_ids": [
@@ -44690,6 +45283,7 @@ export const customers = [
   {
     "average_order_value": "$1444.26",
     "customer_name": "Trudy Brown",
+    "estimated_ltv": "$78771.68",
     "id": "TB-21625",
     "last_purchase": "2017-11-09",
     "product_ids": [
@@ -44704,6 +45298,7 @@ export const customers = [
   {
     "average_order_value": "$2832.97",
     "customer_name": "Tamara Chand",
+    "estimated_ltv": "$64720.20",
     "id": "TC-20980",
     "last_purchase": "2017-11-26",
     "product_ids": [
@@ -44722,6 +45317,7 @@ export const customers = [
   {
     "average_order_value": "$1897.59",
     "customer_name": "Toby Carlisle",
+    "estimated_ltv": "$91167.96",
     "id": "TC-21295",
     "last_purchase": "2017-09-06",
     "product_ids": [
@@ -44735,6 +45331,7 @@ export const customers = [
   {
     "average_order_value": "$3736.84",
     "customer_name": "Tony Chapman",
+    "estimated_ltv": "$61187.07",
     "id": "TC-21475",
     "last_purchase": "2017-12-15",
     "product_ids": [
@@ -44750,6 +45347,7 @@ export const customers = [
   {
     "average_order_value": "$2896.77",
     "customer_name": "Tracy Collins",
+    "estimated_ltv": "$44925.85",
     "id": "TC-21535",
     "last_purchase": "2017-11-18",
     "product_ids": [
@@ -44766,6 +45364,7 @@ export const customers = [
   {
     "average_order_value": "$3863.36",
     "customer_name": "Tamara Dahlen",
+    "estimated_ltv": "$158046.15",
     "id": "TD-20995",
     "last_purchase": "2017-01-21",
     "product_ids": [
@@ -44780,6 +45379,7 @@ export const customers = [
   {
     "average_order_value": "$7682.64",
     "customer_name": "Toby Gnade",
+    "estimated_ltv": "$59876.87",
     "id": "TG-21310",
     "last_purchase": "2017-11-15",
     "product_ids": [
@@ -44795,6 +45395,7 @@ export const customers = [
   {
     "average_order_value": "$7196.27",
     "customer_name": "Thea Hendricks",
+    "estimated_ltv": "$71211.49",
     "id": "TH-21100",
     "last_purchase": "2017-09-05",
     "product_ids": [
@@ -44808,6 +45409,7 @@ export const customers = [
   {
     "average_order_value": "$3822.72",
     "customer_name": "Thea Hudgings",
+    "estimated_ltv": "$47791.39",
     "id": "TH-21115",
     "last_purchase": "2017-08-07",
     "product_ids": [
@@ -44824,6 +45426,7 @@ export const customers = [
   {
     "average_order_value": "$6068.28",
     "customer_name": "Tiffany House",
+    "estimated_ltv": "$72134.50",
     "id": "TH-21235",
     "last_purchase": "2017-11-21",
     "product_ids": [
@@ -44840,6 +45443,7 @@ export const customers = [
   {
     "average_order_value": "$3759.53",
     "customer_name": "Tanja Norvell",
+    "estimated_ltv": "$54643.13",
     "id": "TN-21040",
     "last_purchase": "2017-12-16",
     "product_ids": [
@@ -44860,6 +45464,7 @@ export const customers = [
   {
     "average_order_value": "$8180.11",
     "customer_name": "Theone Pippenger",
+    "estimated_ltv": "$91015.46",
     "id": "TP-21130",
     "last_purchase": "2017-09-19",
     "product_ids": [
@@ -44878,6 +45483,7 @@ export const customers = [
   {
     "average_order_value": "$5801.26",
     "customer_name": "Tom Prescott",
+    "estimated_ltv": "$47254.92",
     "id": "TP-21415",
     "last_purchase": "2017-08-28",
     "product_ids": [
@@ -44893,6 +45499,7 @@ export const customers = [
   {
     "average_order_value": "$3963.07",
     "customer_name": "Tracy Poddar",
+    "estimated_ltv": "$35915.87",
     "id": "TP-21565",
     "last_purchase": "2017-04-11",
     "product_ids": [
@@ -44912,6 +45519,7 @@ export const customers = [
   {
     "average_order_value": "$4442.19",
     "customer_name": "Toby Ritter",
+    "estimated_ltv": "$45172.98",
     "id": "TR-21325",
     "last_purchase": "2017-08-14",
     "product_ids": [
@@ -44928,6 +45536,7 @@ export const customers = [
   {
     "average_order_value": "$8330.07",
     "customer_name": "Theresa Swint",
+    "estimated_ltv": "$103014.17",
     "id": "TS-21160",
     "last_purchase": "2017-08-13",
     "product_ids": [
@@ -44947,6 +45556,7 @@ export const customers = [
   {
     "average_order_value": "$8229.70",
     "customer_name": "Thomas Seio",
+    "estimated_ltv": "$142540.58",
     "id": "TS-21205",
     "last_purchase": "2017-01-08",
     "product_ids": [
@@ -44961,6 +45571,7 @@ export const customers = [
   {
     "average_order_value": "$6735.89",
     "customer_name": "Tom Stivers",
+    "estimated_ltv": "$47017.00",
     "id": "TS-21430",
     "last_purchase": "2017-11-13",
     "product_ids": [
@@ -44975,6 +45586,7 @@ export const customers = [
   {
     "average_order_value": "$5383.92",
     "customer_name": "Tony Sayre",
+    "estimated_ltv": "$69975.69",
     "id": "TS-21505",
     "last_purchase": "2017-09-25",
     "product_ids": [
@@ -44990,6 +45602,7 @@ export const customers = [
   {
     "average_order_value": "$7330.13",
     "customer_name": "Troy Staebel",
+    "estimated_ltv": "$84298.39",
     "id": "TS-21610",
     "last_purchase": "2017-09-17",
     "product_ids": [
@@ -45004,6 +45617,7 @@ export const customers = [
   {
     "average_order_value": "$3439.70",
     "customer_name": "Trudy Schmidt",
+    "estimated_ltv": "$53864.09",
     "id": "TS-21655",
     "last_purchase": "2017-12-25",
     "product_ids": [
@@ -45020,6 +45634,7 @@ export const customers = [
   {
     "average_order_value": "$8787.47",
     "customer_name": "Ted Trevino",
+    "estimated_ltv": "$85984.01",
     "id": "TT-21070",
     "last_purchase": "2017-11-05",
     "product_ids": [
@@ -45033,6 +45648,7 @@ export const customers = [
   {
     "average_order_value": "$2382.13",
     "customer_name": "Thomas Thornton",
+    "estimated_ltv": "$56033.55",
     "id": "TT-21220",
     "last_purchase": "2017-05-15",
     "product_ids": [
@@ -45047,6 +45663,7 @@ export const customers = [
   {
     "average_order_value": "$1046.96",
     "customer_name": "Tim Taslimi",
+    "estimated_ltv": "$7587.00",
     "id": "TT-21265",
     "last_purchase": "2017-11-19",
     "product_ids": [
@@ -45061,6 +45678,7 @@ export const customers = [
   {
     "average_order_value": "$9814.93",
     "customer_name": "Tonja Turnell",
+    "estimated_ltv": "$86349.46",
     "id": "TT-21460",
     "last_purchase": "2017-04-22",
     "product_ids": [
@@ -45074,6 +45692,7 @@ export const customers = [
   {
     "average_order_value": "$2309.36",
     "customer_name": "Tamara Willingham",
+    "estimated_ltv": "$92177.25",
     "id": "TW-21025",
     "last_purchase": "2017-03-13",
     "product_ids": [
@@ -45088,6 +45707,7 @@ export const customers = [
   {
     "average_order_value": "$6421.11",
     "customer_name": "Tracy Zic",
+    "estimated_ltv": "$66506.68",
     "id": "TZ-21580",
     "last_purchase": "2017-02-22",
     "product_ids": [
@@ -45103,6 +45723,7 @@ export const customers = [
   {
     "average_order_value": "$8595.20",
     "customer_name": "Victoria Brennan",
+    "estimated_ltv": "$58807.02",
     "id": "VB-21745",
     "last_purchase": "2017-11-27",
     "product_ids": [
@@ -45117,6 +45738,7 @@ export const customers = [
   {
     "average_order_value": "$2234.22",
     "customer_name": "Valerie Dominguez",
+    "estimated_ltv": "$77374.03",
     "id": "VD-21670",
     "last_purchase": "2017-05-28",
     "product_ids": [
@@ -45130,6 +45752,7 @@ export const customers = [
   {
     "average_order_value": "$8004.89",
     "customer_name": "Vivek Gonzalez",
+    "estimated_ltv": "$55356.64",
     "id": "VG-21790",
     "last_purchase": "2017-06-08",
     "product_ids": [
@@ -45143,6 +45766,7 @@ export const customers = [
   {
     "average_order_value": "$13148.03",
     "customer_name": "Vivek Grady",
+    "estimated_ltv": "$55788.15",
     "id": "VG-21805",
     "last_purchase": "2017-12-05",
     "product_ids": [
@@ -45159,6 +45783,7 @@ export const customers = [
   {
     "average_order_value": "$4287.57",
     "customer_name": "Valerie Mitchum",
+    "estimated_ltv": "$69560.68",
     "id": "VM-21685",
     "last_purchase": "2017-08-09",
     "product_ids": [
@@ -45174,6 +45799,7 @@ export const customers = [
   {
     "average_order_value": "$6129.59",
     "customer_name": "Vivian Mathis",
+    "estimated_ltv": "$37756.40",
     "id": "VM-21835",
     "last_purchase": "2017-12-05",
     "product_ids": [
@@ -45192,6 +45818,7 @@ export const customers = [
   {
     "average_order_value": "$682.45",
     "customer_name": "Victoria Pisteka",
+    "estimated_ltv": "$93875.08",
     "id": "VP-21760",
     "last_purchase": "2017-06-26",
     "product_ids": [
@@ -45207,6 +45834,7 @@ export const customers = [
   {
     "average_order_value": "$2230.03",
     "customer_name": "Vivek Sundaresam",
+    "estimated_ltv": "$26382.43",
     "id": "VS-21820",
     "last_purchase": "2017-08-01",
     "product_ids": [
@@ -45222,6 +45850,7 @@ export const customers = [
   {
     "average_order_value": "$2179.54",
     "customer_name": "Victoria Wilson",
+    "estimated_ltv": "$81551.28",
     "id": "VW-21775",
     "last_purchase": "2017-10-24",
     "product_ids": [
@@ -45237,6 +45866,7 @@ export const customers = [
   {
     "average_order_value": "$8210.69",
     "customer_name": "William Brown",
+    "estimated_ltv": "$246339.93",
     "id": "WB-21850",
     "last_purchase": "2017-11-12",
     "product_ids": [
@@ -45263,6 +45893,7 @@ export const customers = [
   {
     "average_order_value": "$5247.95",
     "customer_name": "Xylona Preis",
+    "estimated_ltv": "$173914.63",
     "id": "XP-21865",
     "last_purchase": "2017-08-26",
     "product_ids": [
@@ -45284,6 +45915,7 @@ export const customers = [
   {
     "average_order_value": "$8299.19",
     "customer_name": "Yoseph Carroll",
+    "estimated_ltv": "$53163.73",
     "id": "YC-21895",
     "last_purchase": "2017-07-04",
     "product_ids": [
@@ -45299,6 +45931,7 @@ export const customers = [
   {
     "average_order_value": "$5775.25",
     "customer_name": "Zuschuss Carroll",
+    "estimated_ltv": "$184977.69",
     "id": "ZC-21910",
     "last_purchase": "2017-08-04",
     "product_ids": [
@@ -45320,6 +45953,7 @@ export const customers = [
   {
     "average_order_value": "$5168.12",
     "customer_name": "Zuschuss Donatelli",
+    "estimated_ltv": "$38421.43",
     "id": "ZD-21925",
     "last_purchase": "2017-08-07",
     "product_ids": [
